@@ -1,0 +1,13 @@
+---
+ src/plugins/accessible/quick/quick.pro |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+--- a/src/plugins/accessible/quick/quick.pro
++++ b/src/plugins/accessible/quick/quick.pro
+@@ -1,5 +1,5 @@
+ TARGET  = qtaccessiblequick
+-DESTDIR = $$QT.gui.plugins/accessible
++DESTDIR = $$QT.qml.plugins/accessible
+ 
+ load(qt_plugin)
+ include ($$PWD/../shared/qaccessiblebase.pri)

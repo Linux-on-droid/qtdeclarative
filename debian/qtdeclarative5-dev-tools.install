@@ -1,0 +1,5 @@
+usr/bin/qmlbundle
+usr/bin/qmlmin
+usr/bin/qmlplugindump
+usr/bin/qmlprofiler
+usr/bin/qmltestrunner

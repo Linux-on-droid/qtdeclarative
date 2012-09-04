@@ -1,0 +1,238 @@
+Source: qtdeclarative-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: debhelper (>= 9),
+               dpkg-dev (>= 1.16.1),
+               libqtv8-5-private-dev (>= 5),
+               libqtxmlpatterns5-private-dev (>= 5),
+               pkg-kde-tools,
+               qtbase5-private-dev (>= 5)
+Standards-Version: 3.9.3
+Homepage: http://qt-project.org/
+Vcs-Git: git://git.debian.org/pkg-kde/qt/qtjsbackend.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/qt/qtjsbackend.git;a=summary
+
+Package: libqtqml5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt QML module provides a framework for developing applications and
+ libraries with the QML language. It defines and implements the language
+ and engine infrastructure, and provides an API to enable application
+ developers to extend the QML language with custom types and integrate
+ QML code with JavaScript and C++.
+
+Package: libqtquick5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Quick library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ Qt Quick is a collection of technologies that are designed to help
+ developers create the kind of intuitive, modern, fluid user interfaces
+ that are increasingly used on mobile phones, media players, set-top
+ boxes and other portable devices.
+
+Package: libqtquickparticles5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Quick particules module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Particles support library.
+
+Package: libqtquicktest5
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Quick Test library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick Test library for QtDeclarative module.
+
+Package: qtdeclarative5-folderlistmodel-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 folderlistmodel QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The FolderListModel provides a model of the contents of a file system folder.
+
+Package: qtdeclarative5-localstorage-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 localstorage QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a singleton type for reading and writing to SQLite databases.
+
+Package: qtdeclarative5-particles-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 particles QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains a particle system for Qt Quick.
+
+Package: qtdeclarative5-qtquick2-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Qt Quick 2 QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Quick 2 QML plugin for Qt declarative.
+
+Package: qtdeclarative5-test-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 test QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the test QML plugin for Qt declarative.
+
+Package: qtdeclarative5-window-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 window QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains types for creating top-level windows and
+ accessing screen information.
+
+Package: qtdeclarative5-xmllistmodel-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 xmllistmodel QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains types for creating models from XML data.
+
+Package: qtdeclarative5-dev
+Section: libdevel
+Architecture: any
+Depends: libqtqml5 (= ${binary:Version}),
+         libqtquick5 (= ${binary:Version}),
+         libqtquickparticles5 (= ${binary:Version}),
+         libqtquicktest5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 declarative development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files for building some
+ Qt 5 applications using Qt 5 declarative headers.
+
+Package: qmlscene
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML scene viewer
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the QML viewer for Qt Quick 2.
+
+Package: qtdeclarative5-dev-tools
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 declarative development programs
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the development programs used for building Qt 5
+ declarative applications.
+
+Package: qtdeclarative5-private-dev
+Architecture: any
+Section: libdevel
+Depends: qtdeclarative5-dev (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 5 declarative private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications using Qt 5 declarative private headers.
+ .
+ Use at your own risk.
+
+Package: qtdeclarative5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqtqml5 (= ${binary:Version}),
+         libqtquick5 (= ${binary:Version}),
+         libqtquickparticles5 (= ${binary:Version}),
+         libqtquicktest5 (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 declarative libraries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 declarative libraries.
+
+Package: qtdeclarative5-examples-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: qtdeclarative5-examples (= ${binary:Version}), ${misc:Depends}
+Recommends: qtbase5-dbg
+Description: Qt 5 declarative examples debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 declarative examples.
+
+Package: qtdeclarative5-examples
+Architecture: any
+Section: x11
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 declarative examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 declarative examples.

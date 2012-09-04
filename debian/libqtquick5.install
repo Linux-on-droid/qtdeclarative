@@ -1,0 +1,3 @@
+usr/lib/*/libQtQuick.so.*
+usr/lib/*/qt5/plugins/accessible/libqtaccessiblequick.so
+usr/lib/*/qt5/plugins/qmltooling/libqmldbg_qtquick2.so

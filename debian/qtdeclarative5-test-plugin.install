@@ -1,0 +1,5 @@
+usr/lib/*/qt5/imports/QtTest/SignalSpy.qml
+usr/lib/*/qt5/imports/QtTest/TestCase.qml
+usr/lib/*/qt5/imports/QtTest/libqmltestplugin.so
+usr/lib/*/qt5/imports/QtTest/qmldir
+usr/lib/*/qt5/imports/QtTest/testlogger.js
