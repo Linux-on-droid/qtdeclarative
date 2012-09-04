@@ -8,13 +8,9 @@ export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildfla
 export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 
 %:
-	dh $@ --list-missing --parallel --with pkgkde_symbolshelper
+	dh $@ --list-missing --parallel --with pkgkde_symbolshelper --dbg-package=qtdeclarative5-dbg
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
-
-override_dh_strip:
-	dh_strip -pqtdeclarative5-examples --dbg-package=qtdeclarative5-examples-dbg
-	dh_strip --remaining-packages --dbg-package=qtdeclarative5-dbg
 
 override_dh_auto_test:

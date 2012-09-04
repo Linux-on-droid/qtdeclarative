@@ -162,29 +162,6 @@ Description: Qt 5 declarative development files
  This package contains the header development files for building some
  Qt 5 applications using Qt 5 declarative headers.
 
-Package: qmlscene
-Architecture: any
-Multi-Arch: foreign
-Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 QML scene viewer
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the QML viewer for Qt Quick 2.
-
-Package: qtdeclarative5-dev-tools
-Architecture: any
-Multi-Arch: foreign
-Section: devel
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 declarative development programs
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the development programs used for building Qt 5
- declarative applications.
-
 Package: qtdeclarative5-private-dev
 Architecture: any
 Section: libdevel
@@ -200,32 +177,28 @@ Description: Qt 5 declarative private development files
  .
  Use at your own risk.
 
-Package: qtdeclarative5-dbg
-Priority: extra
+Package: qtdeclarative5-dev-tools
 Architecture: any
-Section: debug
-Depends: libqtqml5 (= ${binary:Version}),
-         libqtquick5 (= ${binary:Version}),
-         libqtquickparticles5 (= ${binary:Version}),
-         libqtquicktest5 (= ${binary:Version}),
-         ${misc:Depends}
-Description: Qt 5 declarative libraries debugging symbols
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 declarative development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the debugging symbols for the Qt 5 declarative libraries.
+ This package contains the development programs used for building Qt 5
+ declarative applications.
 
-Package: qtdeclarative5-examples-dbg
-Priority: extra
+Package: qmlscene
 Architecture: any
-Section: debug
-Depends: qtdeclarative5-examples (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Qt 5 declarative examples debugging symbols
+Multi-Arch: foreign
+Section: devel
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML scene viewer
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the debugging symbols for the Qt 5 declarative examples.
+ This package contains the QML viewer for Qt Quick 2.
 
 Package: qtdeclarative5-examples
 Architecture: any
@@ -236,3 +209,19 @@ Description: Qt 5 declarative examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 declarative examples.
+
+Package: qtdeclarative5-dbg
+Priority: extra
+Architecture: any
+Section: debug
+Depends: libqtqml5 (= ${binary:Version}),
+         libqtquick5 (= ${binary:Version}),
+         libqtquickparticles5 (= ${binary:Version}),
+         libqtquicktest5 (= ${binary:Version}),
+         qtdeclarative5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt 5 declarative libraries debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 declarative libraries.
