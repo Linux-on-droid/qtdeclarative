@@ -1,0 +1,8 @@
+--- a/examples/examples.pro	2012-12-12 19:18:36.000000000 +0000
++++ b/examples/examples.pro	2012-12-18 07:56:47.837114068 +0000
+@@ -1,5 +1,4 @@
+ TEMPLATE = subdirs
+ SUBDIRS += \
+-    qmltest \
+     qml \
+     quick

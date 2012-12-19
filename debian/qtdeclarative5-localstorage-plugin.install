@@ -1,2 +1,3 @@
-usr/lib/*/qt5/imports/QtQuick/LocalStorage/libqmllocalstorageplugin.so
-usr/lib/*/qt5/imports/QtQuick/LocalStorage/qmldir
+usr/lib/*/qt5/qml/QtQuick/LocalStorage/libqmllocalstorageplugin.so
+usr/lib/*/qt5/qml/QtQuick/LocalStorage/plugins.qmltypes
+usr/lib/*/qt5/qml/QtQuick/LocalStorage/qmldir

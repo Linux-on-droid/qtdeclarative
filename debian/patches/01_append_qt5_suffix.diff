@@ -1,0 +1,19 @@
+--- a/tools/qmlplugindump/qmlplugindump.pro	2012-12-05 19:17:51.000000000 +0000
++++ b/tools/qmlplugindump/qmlplugindump.pro	2012-12-11 08:36:00.559440647 +0000
+@@ -1,5 +1,6 @@
+ QT += qml qml-private quick-private core-private
+ 
++TARGET = qmlplugindump-qt5
+ SOURCES += \
+     main.cpp \
+     qmlstreamwriter.cpp
+--- a/tools/qmlprofiler/qmlprofiler.pro	2012-12-05 19:17:51.000000000 +0000
++++ b/tools/qmlprofiler/qmlprofiler.pro	2012-12-11 08:36:26.535444338 +0000
+@@ -1,5 +1,7 @@
+ QT += qml qml-private v8-private network core-private
+ 
++TARGET = qmlprofiler-qt5
++
+ SOURCES += main.cpp \
+     qmlprofilerapplication.cpp \
+     commandlistener.cpp \

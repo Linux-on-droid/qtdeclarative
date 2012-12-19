@@ -1,1 +1,2 @@
-fix_libqtaccessiblequick_install.patch
+01_append_qt5_suffix.diff
+removedqmltest

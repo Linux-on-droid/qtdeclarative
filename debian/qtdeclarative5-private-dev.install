@@ -150,6 +150,7 @@ usr/include/qt5/QtQmlDevTools/5.0.0/QtQmlDevTools/private/qqmljskeywords_p.h
 usr/include/qt5/QtQmlDevTools/5.0.0/QtQmlDevTools/private/qqmljslexer_p.h
 usr/include/qt5/QtQmlDevTools/5.0.0/QtQmlDevTools/private/qqmljsmemorypool_p.h
 usr/include/qt5/QtQmlDevTools/5.0.0/QtQmlDevTools/private/qqmljsparser_p.h
+usr/include/qt5/QtQuick/5.0.0/QtQuick/private/designerwindowmanager_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickaccessibleattached_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickanchors_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickanchors_p_p.h
@@ -161,14 +162,12 @@ usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickanimation_p_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickanimationcontroller_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickapplication_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickbehavior_p.h
-usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickbind_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickborderimage_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickborderimage_p_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickcanvascontext_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickcanvasitem_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickchangeset_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickclipnode_p.h
-usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickconnections_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickcontext2d_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickcontext2dcommandbuffer_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickcontext2dtexture_p.h
@@ -253,7 +252,6 @@ usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktextnode_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktextutil_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquickthreadedwindowmanager_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktimeline_p_p.h
-usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktimer_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktransition_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktransitionmanager_p_p.h
 usr/include/qt5/QtQuick/5.0.0/QtQuick/private/qquicktranslate_p.h
@@ -327,3 +325,6 @@ usr/include/qt5/QtQuickParticles/5.0.0/QtQuickParticles/private/qtquickparticles
 usr/include/qt5/QtQuickTest/5.0.0/QtQuickTest/private/qtestoptions_p.h
 usr/include/qt5/QtQuickTest/5.0.0/QtQuickTest/private/quicktestevent_p.h
 usr/include/qt5/QtQuickTest/5.0.0/QtQuickTest/private/quicktestresult_p.h
+usr/include/qt5/QtQml/5.0.0/QtQml/private/qqmlbind_p.h
+usr/include/qt5/QtQml/5.0.0/QtQml/private/qqmlconnections_p.h
+usr/include/qt5/QtQml/5.0.0/QtQml/private/qqmltimer_p.h
