@@ -1,5 +1,5 @@
-usr/bin/qmlbundle
-usr/bin/qmlmin
-usr/bin/qmlplugindump-qt5
-usr/bin/qmlprofiler-qt5
-usr/bin/qmltestrunner
+usr/lib/*/qt5/bin/qmlbundle
+usr/lib/*/qt5/bin/qmlmin
+usr/lib/*/qt5/bin/qmlplugindump
+usr/lib/*/qt5/bin/qmlprofiler
+usr/lib/*/qt5/bin/qmltestrunner

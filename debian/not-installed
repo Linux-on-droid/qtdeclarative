@@ -1,6 +1,5 @@
-usr/lib/*/libQtQml.la
-usr/lib/*/libQtQmlDevTools.la
-usr/lib/*/libQtQuick.la
-usr/lib/*/libQtQuickParticles.la
-usr/lib/*/libQtQuickTest.la
-usr/tests/tst_qmltestexample/tst_qmltestexample
+usr/lib/*/libQt5QuickTest.la
+usr/lib/*/libQt5Qml.la
+usr/lib/*/libQt5Quick.la
+usr/lib/*/libQt5QuickParticles.la
+usr/lib/*/libQt5QmlDevTools.la
