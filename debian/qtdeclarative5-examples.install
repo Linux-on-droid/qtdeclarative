@@ -1130,12 +1130,14 @@ usr/lib/*/qt5/examples/quick/imageprovider/imageprovider-example.qml
 usr/lib/*/qt5/examples/quick/imageprovider/imageprovider.qmlproject
 usr/lib/*/qt5/examples/quick/threading/threading.qmlproject
 usr/lib/*/qt5/examples/quick/threading/threading.qrc
-usr/lib/*/qt5/examples/qmltest/tst_basic.qml
 usr/lib/*/qt5/examples/qmltest/qmltest.pro
-usr/lib/*/qt5/examples/qmltest/tst_item.qml
 usr/lib/*/qt5/examples/qmltest/qmltest/tst_qmltest.cpp
 usr/lib/*/qt5/examples/qmltest/qmltest/tst_basic.qml
 usr/lib/*/qt5/examples/qmltest/qmltest/qmltest.pro
 usr/lib/*/qt5/examples/qmltest/qmltest/tst_item.qml
 usr/lib/*/qt5/examples/quick/demos/stocqt/content/CheckBox.qml
-usr/lib/*/qt5/examples/qmltest/tst_qmltestexample
+usr/lib/*/qt5/examples/qmltest/qmltest/tst_qmltestexample
+usr/lib/*/qt5/examples/quick/window/window/twowindows.qml
+usr/lib/*/qt5/examples/quick/window/window/nogui.qml
+usr/lib/*/qt5/examples/quick/window/window/standalone.qml
+usr/lib/*/qt5/examples/quick/particles/images.qrc
