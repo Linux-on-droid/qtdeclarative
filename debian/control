@@ -157,6 +157,7 @@ Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}),
          libqt5quickparticles5 (= ${binary:Version}),
          libqt5quicktest5 (= ${binary:Version}),
+         qtbase5-dev,
          ${misc:Depends}
 Description: Qt 5 declarative development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -210,6 +211,7 @@ Description: Qt 5 QML scene viewer
 
 Package: qtdeclarative5-examples
 Architecture: any
+Multi-Arch: same
 Section: x11
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
