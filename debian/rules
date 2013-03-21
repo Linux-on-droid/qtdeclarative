@@ -13,7 +13,14 @@ export LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS) -Wl,--as-needed
 override_dh_auto_configure:
 	qmake
 
+override_dh_auto_install:
+	dh_auto_install
+	# Fix wrong path in pkgconfig files
+	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
+	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
+
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
 
+# Requires X so disabled for now
 override_dh_auto_test:
