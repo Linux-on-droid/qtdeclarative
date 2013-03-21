@@ -1,0 +1,28 @@
+Description: Forcing mouse event ownership
+ This patch forces the mouse event ownership in case we are already 
+ the grabber
+
+Author: Daniel d'Andrada <daniel.dandrada@canonical.com>
+
+---
+
+Origin: Canonical
+Forwarded: https://codereview.qt-project.org/#patch,all_unified,43275,4
+Last-Update: 2012-12-15
+
+--- qtdeclarative-5.0-release~beta+20120831.orig/src/quick/items/qquickflickable.cpp
++++ qtdeclarative-5.0-release~beta+20120831/src/quick/items/qquickflickable.cpp
+@@ -1984,6 +1984,13 @@ bool QQuickFlickable::sendMouseEvent(QMo
+ 
+     QQuickWindow *c = window();
+     QQuickItem *grabber = c ? c->mouseGrabberItem() : 0;
++    if (grabber) {
++        QQuickItem *this_item = qobject_cast<QQuickItem *>(this);
++        if (grabber == this_item && d->stealMouse) {
++            // we are already the grabber and we do want the mouse event to ourselves.
++            return true;
++        }
++    }
+     bool grabberDisabled = grabber && !grabber->isEnabled();
+     bool stealThisEvent = d->stealMouse;
+     if ((stealThisEvent || contains(localPos)) && (!grabber || !grabber->keepMouseGrab() || grabberDisabled)) {
