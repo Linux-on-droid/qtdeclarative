@@ -16,9 +16,13 @@ override_dh_auto_configure:
 
 override_dh_auto_install:
 	dh_auto_install
+
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/*/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
+
+	# Remove libtool-like files
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
