@@ -230,6 +230,7 @@ Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quickparticles5 (= ${binary:Version}),
          libqt5quicktest5 (= ${binary:Version}),
          ${misc:Depends}
+Recommends: qtbase5-dbg
 Suggests: qtdeclarative5-examples (= ${binary:Version}),
 Description: Qt 5 declarative libraries debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
