@@ -25,6 +25,7 @@ usr/include/qt5/QtQml/*/QtQml/private/qpointervaluepair_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlabstractbinding_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlabstractexpression_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlaccessors_p.h
+usr/include/qt5/QtQml/*/QtQml/private/qqmlbind_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlbinding_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlboundsignal_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlboundsignalexpressionpointer_p.h
@@ -34,6 +35,7 @@ usr/include/qt5/QtQml/*/QtQml/private/qqmlcleanup_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlcompiler_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlcomponent_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlcomponentattached_p.h
+usr/include/qt5/QtQml/*/QtQml/private/qqmlconnections_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlcontext_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlcustomparser_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlcustomparser_p_p.h
@@ -85,6 +87,7 @@ usr/include/qt5/QtQml/*/QtQml/private/qqmlscript_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlscriptstring_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlstringconverters_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmlthread_p.h
+usr/include/qt5/QtQml/*/QtQml/private/qqmltimer_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmltrace_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmltypeloader_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qqmltypenamecache_p.h
@@ -325,6 +328,3 @@ usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qtquickparticlesglob
 usr/include/qt5/QtQuickTest/*/QtQuickTest/private/qtestoptions_p.h
 usr/include/qt5/QtQuickTest/*/QtQuickTest/private/quicktestevent_p.h
 usr/include/qt5/QtQuickTest/*/QtQuickTest/private/quicktestresult_p.h
-usr/include/qt5/QtQml/*/QtQml/private/qqmlbind_p.h
-usr/include/qt5/QtQml/*/QtQml/private/qqmlconnections_p.h
-usr/include/qt5/QtQml/*/QtQml/private/qqmltimer_p.h
