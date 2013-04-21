@@ -151,7 +151,7 @@ Description: Qt 5 xmllistmodel QML plugin
 Package: qtdeclarative5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}),
          libqt5quickparticles5 (= ${binary:Version}),
@@ -168,7 +168,7 @@ Description: Qt 5 declarative development files
 Package: qtdeclarative5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtdeclarative5-dev (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -224,7 +224,7 @@ Package: qtdeclarative5-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}),
          libqt5quickparticles5 (= ${binary:Version}),
