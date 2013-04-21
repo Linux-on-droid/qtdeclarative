@@ -94,32 +94,6 @@ License: LGPL-2.1
 Files: examples/* src/qml/doc/snippets/* src/quick/doc/snippets/* tests/auto/qmltest/listview/tst_listview.qml tests/auto/qmltest/listview/tst_listview.qml tests/auto/qmltest/image/tst_image.qml tests/auto/qmltest/image/tst_image.qml tests/auto/qmltest/text/tst_text.qml tests/auto/qmltest/text/tst_text.qml tests/auto/qmltest/animatedimage/tst_animatedimage.qml tests/auto/qmltest/animatedimage/tst_animatedimage.qml tests/auto/qmltest/gradient/tst_gradient.qml tests/auto/qmltest/gradient/tst_gradient.qml tests/auto/qmltest/textinput/tst_textinput.qml tests/auto/qmltest/textinput/tst_textinput.qml tests/auto/qmltest/rectangle/tst_rectangle.qml tests/auto/qmltest/rectangle/tst_rectangle.qml tests/auto/qmltest/textedit/tst_textedit.qml tests/auto/qmltest/textedit/tst_textedit.qml tests/auto/qmltest/listmodel/tst_listmodel.qml tests/auto/qmltest/listmodel/tst_listmodel.qml tests/auto/qmltest/fontloader/tst_fontloader.qml tests/auto/qmltest/fontloader/tst_fontloader.qml tests/benchmarks/qml/holistic/data/largeTargets/gridview-example.qml tests/benchmarks/qml/holistic/data/largeTargets/gridview-example.qml tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml tests/testapplications/listview/sections.qml tests/testapplications/listview/sections.qml tests/testapplications/listview/onRemove.qml tests/testapplications/listview/onRemove.qml tests/testapplications/listview/alteredViews.qml tests/testapplications/listview/alteredViews.qml tests/testapplications/listview/viewTransitions.qml tests/testapplications/listview/viewTransitions.qml tests/testapplications/animatedsprite/animatedsprite.qml tests/testapplications/animatedsprite/animatedsprite.qml tests/testapplications/animatedsprite/animatedspriteadvance.qml tests/testapplications/animatedsprite/animatedspriteadvance.qml
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
- You may use this file under the terms of the BSD license as follows:
- .
- "Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions are
- met:
-   * Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
-   * Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in
-     the documentation and/or other materials provided with the
-     distribution.
-   * Neither the name of Digia Plc and its Subsidiary(-ies) nor the names
-     of its contributors may be used to endorse or promote products derived
-     from this software without specific prior written permission.
- .
- THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
- "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
- LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
- A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
- OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
- SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
- LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
- OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
 Files: examples/quick/customitems/painteditem/TextBalloonPlugin/plugin.h examples/quick/customitems/painteditem/textballoon.cpp examples/quick/customitems/painteditem/textballoon.h examples/quick/scenegraph/customgeometry/beziercurve.cpp examples/quick/scenegraph/customgeometry/beziercurve.h examples/quick/scenegraph/customgeometry/main.cpp examples/quick/scenegraph/openglunderqml/squircle.cpp examples/quick/scenegraph/openglunderqml/squircle.h examples/quick/scenegraph/openglunderqml/main.cpp examples/quick/scenegraph/simplematerial/simplematerial.cpp examples/qmltest/qmltest/tst_qmltest.cpp 
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
@@ -174,3 +148,31 @@ License: GFDL-1.3
  .
  On Debian systems, the complete text of the GFDL-1.3 license can be found in
  `/usr/share/common-licenses/GFDL-1.3`,
+
+License: BSD-3-clause
+ You may use this file under the terms of the BSD license as follows:
+ .
+ "Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+   * Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in
+     the documentation and/or other materials provided with the
+     distribution.
+   * Neither the name of Digia Plc and its Subsidiary(-ies) nor the names
+     of its contributors may be used to endorse or promote products derived
+     from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
