@@ -1,6 +1,7 @@
 qtdeclarative-opensource-src (5.0.2-2) UNRELEASED; urgency=low
 
-
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Fix wrong permissions of examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Apr 2013 13:51:55 -0300
 
