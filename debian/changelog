@@ -7,6 +7,7 @@ qtdeclarative-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * Update symbols files.
   * qtdeclarative5-localstorage-plugin: depend on libqt5sql5-sqlite, as it is
     used directly.
+  * Remove extra ${shlibs:Depends} from qtdeclarative5-private-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Apr 2013 13:51:55 -0300
 

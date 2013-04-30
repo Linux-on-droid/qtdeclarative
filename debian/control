@@ -171,7 +171,6 @@ Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtdeclarative5-dev (= ${binary:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
 Description: Qt 5 declarative private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
