@@ -1,8 +1,8 @@
 # SymbolsHelper-Confirmed: 5.0.2 amd64
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
- _ZN10QByteArray7reserveEi@Base 5.0.2
+ (optional=gccinternal)_ZN10QByteArray7reserveEi@Base 5.0.2
  _ZN21QQuickParticlesModule12defineModuleEv@Base 5.0.2
- _ZN9QHashData8willGrowEv@Base 5.0.2
+ (optional=gccinternal)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZTIN9QV8Engine9DeletableE@Base 5.0.2
  _ZTSN9QV8Engine9DeletableE@Base 5.0.2
  _ZTVN9QV8Engine9DeletableE@Base 5.0.2
