@@ -17,8 +17,48 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
 License: LGPL-2.1
 
-Files: examples/* src/qml/doc/snippets/* src/quick/doc/snippets/* tests/auto/qmltest/listview/tst_listview.qml tests/auto/qmltest/listview/tst_listview.qml tests/auto/qmltest/image/tst_image.qml tests/auto/qmltest/image/tst_image.qml tests/auto/qmltest/text/tst_text.qml tests/auto/qmltest/text/tst_text.qml tests/auto/qmltest/animatedimage/tst_animatedimage.qml tests/auto/qmltest/animatedimage/tst_animatedimage.qml tests/auto/qmltest/gradient/tst_gradient.qml tests/auto/qmltest/gradient/tst_gradient.qml tests/auto/qmltest/textinput/tst_textinput.qml tests/auto/qmltest/textinput/tst_textinput.qml tests/auto/qmltest/rectangle/tst_rectangle.qml tests/auto/qmltest/rectangle/tst_rectangle.qml tests/auto/qmltest/textedit/tst_textedit.qml tests/auto/qmltest/textedit/tst_textedit.qml tests/auto/qmltest/listmodel/tst_listmodel.qml tests/auto/qmltest/listmodel/tst_listmodel.qml tests/auto/qmltest/fontloader/tst_fontloader.qml tests/auto/qmltest/fontloader/tst_fontloader.qml tests/benchmarks/qml/holistic/data/
-largeTargets/gridview-example.qml tests/benchmarks/qml/holistic/data/largeTargets/gridview-example.qml tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml tests/testapplications/listview/sections.qml tests/testapplications/listview/sections.qml tests/testapplications/listview/onRemove.qml tests/testapplications/listview/onRemove.qml tests/testapplications/listview/alteredViews.qml tests/testapplications/listview/alteredViews.qml tests/testapplications/listview/viewTransitions.qml tests/testapplications/listview/viewTransitions.qml tests/testapplications/animatedsprite/animatedsprite.qml tests/testapplications/animatedsprite/animatedsprite.qml tests/testapplications/animatedsprite/animatedspriteadvance.qml tests/testapplications/animatedsprite/animatedspriteadvance.qml
+Files: examples/*
+ src/qml/doc/snippets/*
+ src/quick/doc/snippets/*
+ tests/auto/qmltest/listview/tst_listview.qml
+ tests/auto/qmltest/listview/tst_listview.qml
+ tests/auto/qmltest/image/tst_image.qml
+ tests/auto/qmltest/image/tst_image.qml
+ tests/auto/qmltest/text/tst_text.qml
+ tests/auto/qmltest/text/tst_text.qml
+ tests/auto/qmltest/animatedimage/tst_animatedimage.qml
+ tests/auto/qmltest/animatedimage/tst_animatedimage.qml
+ tests/auto/qmltest/gradient/tst_gradient.qml
+ tests/auto/qmltest/gradient/tst_gradient.qml
+ tests/auto/qmltest/textinput/tst_textinput.qml
+ tests/auto/qmltest/textinput/tst_textinput.qml
+ tests/auto/qmltest/rectangle/tst_rectangle.qml
+ tests/auto/qmltest/rectangle/tst_rectangle.qml
+ tests/auto/qmltest/textedit/tst_textedit.qml
+ tests/auto/qmltest/textedit/tst_textedit.qml
+ tests/auto/qmltest/listmodel/tst_listmodel.qml
+ tests/auto/qmltest/listmodel/tst_listmodel.qml
+ tests/auto/qmltest/fontloader/tst_fontloader.qml
+ tests/auto/qmltest/fontloader/tst_fontloader.qml
+ tests/benchmarks/qml/holistic/data/
+ largeTargets/gridview-example.qml
+ tests/benchmarks/qml/holistic/data/largeTargets/gridview-example.qml
+ tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml
+ tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml
+ tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml
+ tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml
+ tests/testapplications/listview/sections.qml
+ tests/testapplications/listview/sections.qml
+ tests/testapplications/listview/onRemove.qml
+ tests/testapplications/listview/onRemove.qml
+ tests/testapplications/listview/alteredViews.qml
+ tests/testapplications/listview/alteredViews.qml
+ tests/testapplications/listview/viewTransitions.qml
+ tests/testapplications/listview/viewTransitions.qml
+ tests/testapplications/animatedsprite/animatedsprite.qml
+ tests/testapplications/animatedsprite/animatedsprite.qml
+ tests/testapplications/animatedsprite/animatedspriteadvance.qml
+ tests/testapplications/animatedsprite/animatedspriteadvance.qml
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
 
