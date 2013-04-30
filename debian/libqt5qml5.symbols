@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf
 libQt5Qml.so.5 libqt5qml5 #MINVER#
  _Z10qmlContextPK7QObject@Base 5.0.2
  _Z18QQml_colorProviderv@Base 5.0.2
@@ -16,7 +16,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _Z7qmlInfoPK7QObjectRK5QListI9QQmlErrorE@Base 5.0.2
  _Z7qmlInfoPK7QObjectRK9QQmlError@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- _ZN10QByteArray4dataEv@Base 5.0.2
+ (optional=gccinternal)_ZN10QByteArray4dataEv@Base 5.0.2
  _ZN10QQmlBundle11addMetaLinkERK7QStringS2_RK10QByteArray@Base 5.0.2
  _ZN10QQmlBundle14isBundleHeaderEPKci@Base 5.0.2
  _ZN10QQmlBundle15findInsertPointEjPi@Base 5.0.2
@@ -84,6 +84,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN10QQmlScript7VariantC2Ev@Base 5.0.2
  _ZN10QQmlScript7VariantaSERKS0_@Base 5.0.2
  (optional=templinst)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.0.2
+ (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM20QQmlFileNetworkReplyFvxxEEES_T_@Base 5.0.2
  _ZN11QQmlBinding10expressionEPK19QQmlAbstractBinding@Base 5.0.2
  _ZN11QQmlBinding10setEnabledEP19QQmlAbstractBindingb6QFlagsIN19QQmlPropertyPrivate9WriteFlagEE@Base 5.0.2
  _ZN11QQmlBinding10setEnabledEb6QFlagsIN19QQmlPropertyPrivate9WriteFlagEE@Base 5.0.2
@@ -146,8 +147,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN11QQmlImports10setBaseUrlERK4QUrlRK7QString@Base 5.0.2
  _ZN11QQmlImports12locateQmldirEP18QQmlImportDatabaseRK7QStringiiPS2_S5_@Base 5.0.2
  _ZN11QQmlImports13addFileImportEP18QQmlImportDatabaseRK7QStringS4_iibP5QListI9QQmlErrorE@Base 5.0.2
- _ZN11QQmlImports15ScriptReferenceC1ERKS0_@Base 5.0.2
- _ZN11QQmlImports15ScriptReferenceC2ERKS0_@Base 5.0.2
+ (optional=gccinternal)_ZN11QQmlImports15ScriptReferenceC1ERKS0_@Base 5.0.2
+ (optional=gccinternal)_ZN11QQmlImports15ScriptReferenceC2ERKS0_@Base 5.0.2
  _ZN11QQmlImports16addLibraryImportEP18QQmlImportDatabaseRK7QStringS4_iiS4_S4_bP5QListI9QQmlErrorE@Base 5.0.2
  _ZN11QQmlImports17addImplicitImportEP18QQmlImportDatabaseP5QListI9QQmlErrorE@Base 5.0.2
  _ZN11QQmlImports18completeQmldirPathERK7QStringS2_iiNS_13ImportVersionE@Base 5.0.2
@@ -171,7 +172,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlDataBlob19allDependenciesDoneEv@Base 5.0.2
  _ZN12QQmlDataBlob19cancelAllWaitingForEv@Base 5.0.2
  _ZN12QQmlDataBlob20notifyAllWaitingOnMeEv@Base 5.0.2
- _ZN12QQmlDataBlob23downloadProgressChangedEd@Base 5.0.2
+ (subst)_ZN12QQmlDataBlob23downloadProgressChangedE{qreal}@Base 5.0.2
  _ZN12QQmlDataBlob4doneEv@Base 5.0.2
  _ZN12QQmlDataBlob7tryDoneEv@Base 5.0.2
  _ZN12QQmlDataBlob8setErrorERK5QListI9QQmlErrorE@Base 5.0.2
@@ -251,7 +252,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN13QQmlComponent13statusChangedENS_6StatusE@Base 5.0.2
  _ZN13QQmlComponent14completeCreateEv@Base 5.0.2
  _ZN13QQmlComponent14incubateObjectEP14QQmlV8Function@Base 5.0.2
- _ZN13QQmlComponent15progressChangedEd@Base 5.0.2
+ (subst)_ZN13QQmlComponent15progressChangedE{qreal}@Base 5.0.2
  _ZN13QQmlComponent16staticMetaObjectE@Base 5.0.2
  _ZN13QQmlComponent21qmlAttachedPropertiesEP7QObject@Base 5.0.2
  _ZN13QQmlComponent6createEP11QQmlContext@Base 5.0.2
@@ -502,8 +503,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlColorProvider14rgbaFromStringERK7QStringPb@Base 5.0.2
  _ZN17QQmlColorProvider15colorFromStringERK7QStringPb@Base 5.0.2
  _ZN17QQmlColorProvider4tintERK8QVariantS2_@Base 5.0.2
- _ZN17QQmlColorProvider6darkerERK8QVariantd@Base 5.0.2
- _ZN17QQmlColorProvider7lighterERK8QVariantd@Base 5.0.2
+ (subst)_ZN17QQmlColorProvider6darkerERK8QVariant{qreal}@Base 5.0.2
+ (subst)_ZN17QQmlColorProvider7lighterERK8QVariant{qreal}@Base 5.0.2
  _ZN17QQmlColorProvider8fromHslFEdddd@Base 5.0.2
  _ZN17QQmlColorProvider8fromRgbFEdddd@Base 5.0.2
  _ZN17QQmlColorProviderD0Ev@Base 5.0.2
@@ -765,10 +766,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN18QQmlRectFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QQmlRectFValueType11qt_metacastEPKc@Base 5.0.2
  _ZN18QQmlRectFValueType16staticMetaObjectE@Base 5.0.2
- _ZN18QQmlRectFValueType4setXEd@Base 5.0.2
- _ZN18QQmlRectFValueType4setYEd@Base 5.0.2
- _ZN18QQmlRectFValueType8setWidthEd@Base 5.0.2
- _ZN18QQmlRectFValueType9setHeightEd@Base 5.0.2
+ (subst)_ZN18QQmlRectFValueType4setXE{qreal}@Base 5.0.2
+ (subst)_ZN18QQmlRectFValueType4setYE{qreal}@Base 5.0.2
+ (subst)_ZN18QQmlRectFValueType8setWidthE{qreal}@Base 5.0.2
+ (subst)_ZN18QQmlRectFValueType9setHeightE{qreal}@Base 5.0.2
  _ZN18QQmlRectFValueTypeC1EP7QObject@Base 5.0.2
  _ZN18QQmlRectFValueTypeC2EP7QObject@Base 5.0.2
  _ZN18QQmlRectFValueTypeD0Ev@Base 5.0.2
@@ -777,8 +778,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN18QQmlSizeFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN18QQmlSizeFValueType11qt_metacastEPKc@Base 5.0.2
  _ZN18QQmlSizeFValueType16staticMetaObjectE@Base 5.0.2
- _ZN18QQmlSizeFValueType8setWidthEd@Base 5.0.2
- _ZN18QQmlSizeFValueType9setHeightEd@Base 5.0.2
+ (subst)_ZN18QQmlSizeFValueType8setWidthE{qreal}@Base 5.0.2
+ (subst)_ZN18QQmlSizeFValueType9setHeightE{qreal}@Base 5.0.2
  _ZN18QQmlSizeFValueTypeC1EP7QObject@Base 5.0.2
  _ZN18QQmlSizeFValueTypeC2EP7QObject@Base 5.0.2
  _ZN18QQmlSizeFValueTypeD0Ev@Base 5.0.2
@@ -800,12 +801,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlAbstractBindingD2Ev@Base 5.0.2
  _ZN19QQmlEasingValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN19QQmlEasingValueType11qt_metacastEPKc@Base 5.0.2
- _ZN19QQmlEasingValueType12setAmplitudeEd@Base 5.0.2
- _ZN19QQmlEasingValueType12setOvershootEd@Base 5.0.2
+ (subst)_ZN19QQmlEasingValueType12setAmplitudeE{qreal}@Base 5.0.2
+ (subst)_ZN19QQmlEasingValueType12setOvershootE{qreal}@Base 5.0.2
  _ZN19QQmlEasingValueType14setBezierCurveERK5QListI8QVariantE@Base 5.0.2
  _ZN19QQmlEasingValueType16staticMetaObjectE@Base 5.0.2
  _ZN19QQmlEasingValueType7setTypeENS_4TypeE@Base 5.0.2
- _ZN19QQmlEasingValueType9setPeriodEd@Base 5.0.2
+ (subst)_ZN19QQmlEasingValueType9setPeriodE{qreal}@Base 5.0.2
  _ZN19QQmlEasingValueTypeC1EP7QObject@Base 5.0.2
  _ZN19QQmlEasingValueTypeC2EP7QObject@Base 5.0.2
  _ZN19QQmlEasingValueTypeD0Ev@Base 5.0.2
@@ -823,8 +824,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlPointFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN19QQmlPointFValueType11qt_metacastEPKc@Base 5.0.2
  _ZN19QQmlPointFValueType16staticMetaObjectE@Base 5.0.2
- _ZN19QQmlPointFValueType4setXEd@Base 5.0.2
- _ZN19QQmlPointFValueType4setYEd@Base 5.0.2
+ (subst)_ZN19QQmlPointFValueType4setXE{qreal}@Base 5.0.2
+ (subst)_ZN19QQmlPointFValueType4setYE{qreal}@Base 5.0.2
  _ZN19QQmlPointFValueTypeC1EP7QObject@Base 5.0.2
  _ZN19QQmlPointFValueTypeC2EP7QObject@Base 5.0.2
  _ZN19QQmlPointFValueTypeD0Ev@Base 5.0.2
@@ -914,7 +915,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlComponentPrivate13beginDeferredEP17QQmlEnginePrivateP7QObjectPNS_17ConstructionStateE@Base 5.0.2
  _ZN20QQmlComponentPrivate13typeDataReadyEP12QQmlTypeData@Base 5.0.2
  _ZN20QQmlComponentPrivate14completeCreateEv@Base 5.0.2
- _ZN20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeDatad@Base 5.0.2
+ (subst)_ZN20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeData{qreal}@Base 5.0.2
  _ZN20QQmlComponentPrivate37initializeObjectWithInitialPropertiesEN2v86HandleINS0_6ObjectEEES3_P7QObject@Base 5.0.2
  _ZN20QQmlComponentPrivate5clearEv@Base 5.0.2
  _ZN20QQmlComponentPrivate7loadUrlERK4QUrlN13QQmlComponent15CompilationModeE@Base 5.0.2
@@ -954,7 +955,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlStringConverters15colorFromStringERK7QStringPb@Base 5.0.2
  _ZN20QQmlStringConverters15rectFFromStringERK7QStringPb@Base 5.0.2
  _ZN20QQmlStringConverters15sizeFFromStringERK7QStringPb@Base 5.0.2
- _ZN20QQmlStringConverters16createFromStringEiRK7QStringPvm@Base 5.0.2
+ (subst)_ZN20QQmlStringConverters16createFromStringEiRK7QStringPv{size_t}@Base 5.0.2
  _ZN20QQmlStringConverters16pointFFromStringERK7QStringPb@Base 5.0.2
  _ZN20QQmlStringConverters17variantFromStringERK7QString@Base 5.0.2
  _ZN20QQmlStringConverters17variantFromStringERK7QStringiPb@Base 5.0.2
@@ -990,34 +991,34 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN21QQmlImageProviderBaseD0Ev@Base 5.0.2
  _ZN21QQmlImageProviderBaseD1Ev@Base 5.0.2
  _ZN21QQmlImageProviderBaseD2Ev@Base 5.0.2
- _ZN21QQmlValueTypeProvider13copyValueTypeEiPKvPvm@Base 5.0.2
- _ZN21QQmlValueTypeProvider13initValueTypeEiPvm@Base 5.0.2
- _ZN21QQmlValueTypeProvider13readValueTypeEiPKvmiPv@Base 5.0.2
- _ZN21QQmlValueTypeProvider14equalValueTypeEiPKvS1_m@Base 5.0.2
- _ZN21QQmlValueTypeProvider14storeValueTypeEiPKvPvm@Base 5.0.2
- _ZN21QQmlValueTypeProvider14writeValueTypeEiPKvPvm@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider13copyValueTypeEiPKvPv{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider13initValueTypeEiPv{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider13readValueTypeEiPKv{size_t}iPv@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider14equalValueTypeEiPKvS1_{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider14storeValueTypeEiPKvPv{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider14writeValueTypeEiPKvPv{size_t}@Base 5.0.2
  _ZN21QQmlValueTypeProvider15createValueTypeEi@Base 5.0.2
  _ZN21QQmlValueTypeProvider15createValueTypeEiiPPKv@Base 5.0.2
- _ZN21QQmlValueTypeProvider16createFromStringEiRK7QStringPvm@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider16createFromStringEiRK7QStringPv{size_t}@Base 5.0.2
  _ZN21QQmlValueTypeProvider16createStringFromEiPKvP7QString@Base 5.0.2
- _ZN21QQmlValueTypeProvider16destroyValueTypeEiPvm@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider16destroyValueTypeEiPv{size_t}@Base 5.0.2
  _ZN21QQmlValueTypeProvider17variantFromStringERK7QStringP8QVariant@Base 5.0.2
  _ZN21QQmlValueTypeProvider17variantFromStringEiRK7QStringP8QVariant@Base 5.0.2
  _ZN21QQmlValueTypeProvider19variantFromJsObjectEi12QQmlV8HandleP9QV8EngineP8QVariant@Base 5.0.2
  _ZN21QQmlValueTypeProvider21createStringFromValueEiPKvP7QString@Base 5.0.2
- _ZN21QQmlValueTypeProvider21createValueFromStringEiRK7QStringPvm@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider21createValueFromStringEiRK7QStringPv{size_t}@Base 5.0.2
  _ZN21QQmlValueTypeProvider23createVariantFromStringERK7QString@Base 5.0.2
  _ZN21QQmlValueTypeProvider23createVariantFromStringEiRK7QStringPb@Base 5.0.2
  _ZN21QQmlValueTypeProvider25createVariantFromJsObjectEi12QQmlV8HandleP9QV8EnginePb@Base 5.0.2
- _ZN21QQmlValueTypeProvider4copyEiPKvPvm@Base 5.0.2
- _ZN21QQmlValueTypeProvider4initEiPvm@Base 5.0.2
- _ZN21QQmlValueTypeProvider4readEiPKvmiPv@Base 5.0.2
- _ZN21QQmlValueTypeProvider5equalEiPKvS1_m@Base 5.0.2
- _ZN21QQmlValueTypeProvider5storeEiPKvPvm@Base 5.0.2
- _ZN21QQmlValueTypeProvider5writeEiPKvPvm@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider4copyEiPKvPv{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider4initEiPv{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider4readEiPKv{size_t}iPv@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider5equalEiPKvS1_{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider5storeEiPKvPv{size_t}@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider5writeEiPKvPv{size_t}@Base 5.0.2
  _ZN21QQmlValueTypeProvider6createEiRP13QQmlValueType@Base 5.0.2
  _ZN21QQmlValueTypeProvider6createEiiPPKvP8QVariant@Base 5.0.2
- _ZN21QQmlValueTypeProvider7destroyEiPvm@Base 5.0.2
+ (subst)_ZN21QQmlValueTypeProvider7destroyEiPv{size_t}@Base 5.0.2
  _ZN21QQmlValueTypeProviderC1Ev@Base 5.0.2
  _ZN21QQmlValueTypeProviderC2Ev@Base 5.0.2
  _ZN21QQmlValueTypeProviderD0Ev@Base 5.0.2
@@ -1162,9 +1163,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN7QQmlVME5resetEv@Base 5.0.2
  _ZN7QQmlVME7executeEP5QListI9QQmlErrorERKNS_9InterruptE@Base 5.0.2
  _ZN7QQmlVME8completeERKNS_9InterruptE@Base 5.0.2
- _ZN7QQmlVMED1Ev@Base 5.0.2
- _ZN7QQmlVMED2Ev@Base 5.0.2
- _ZN7QString5clearEv@Base 5.0.2
+ (optional=gccinternal)_ZN7QQmlVMED1Ev@Base 5.0.2
+ (optional=gccinternal)_ZN7QQmlVMED2Ev@Base 5.0.2
+ (optional=gccinternal)_ZN7QString5clearEv@Base 5.0.2
  _ZN8QJSValue11setPropertyERK7QStringRKS_@Base 5.0.2
  _ZN8QJSValue11setPropertyEjRKS_@Base 5.0.2
  _ZN8QJSValue12setPrototypeERKS_@Base 5.0.2
@@ -1253,7 +1254,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlInfoC2ERKS_@Base 5.0.2
  _ZN8QQmlInfoD1Ev@Base 5.0.2
  _ZN8QQmlInfoD2Ev@Base 5.0.2
- (optional=templinst)_ZN8QQmlPool3NewINS_11StringClassEEEPT_v@Base 5.0.2
+ (optional=templinst|arch=armhf)_ZN8QQmlPool3NewIN17QQmlCompilerTypes18TrBindingReferenceEEEPT_v@Base 5.0.2
+ (optional=templinst|arch=amd64)_ZN8QQmlPool3NewINS_11StringClassEEEPT_v@Base 5.0.2
  _ZN8QQmlPool5clearEv@Base 5.0.2
  (optional=templinst)_ZN8QQmlPool7destroyIN10QQmlScript13TypeReferenceEEEvPNS_5ClassE@Base 5.0.2
  (optional=templinst)_ZN8QQmlPool7destroyIN10QQmlScript6Object11DynamicSlotEEEvPNS_5ClassE@Base 5.0.2
@@ -1275,7 +1277,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlTypeC2EiRKN11QQmlPrivate17RegisterInterfaceE@Base 5.0.2
  _ZN8QQmlTypeD1Ev@Base 5.0.2
  _ZN8QQmlTypeD2Ev@Base 5.0.2
- _ZN9QBitArray8clearBitEi@Base 5.0.2
+ (optional=gccinternal)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QJSEngine10newQObjectEP7QObject@Base 5.0.2
  _ZN9QJSEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN9QJSEngine11qt_metacastEPKc@Base 5.0.2
@@ -1742,7 +1744,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK8QQmlType28containsRevisionedAttributesEv@Base 5.0.2
  _ZNK8QQmlType28propertyValueInterceptorCastEv@Base 5.0.2
  _ZNK8QQmlType5indexEv@Base 5.0.2
- _ZNK8QQmlType6createEPP7QObjectPPvm@Base 5.0.2
+ (subst)_ZNK8QQmlType6createEPP7QObjectPPv{size_t}@Base 5.0.2
  _ZNK8QQmlType6createEv@Base 5.0.2
  _ZNK8QQmlType6moduleEv@Base 5.0.2
  _ZNK8QQmlType6typeIdEv@Base 5.0.2
@@ -1836,6 +1838,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTIN8QQmlPool3PODE@Base 5.0.2
  _ZTIN8QQmlPool5ClassE@Base 5.0.2
  _ZTIN9QV8Engine9DeletableE@Base 5.0.2
+ (arch=armhf)_ZTIZN17QQmlEnginePrivate20deleteInEngineThreadI16QQmlCompiledDataEEvPT_E1I@Base 5.0.2
  _ZTIZN17QQmlEnginePrivate20deleteInEngineThreadI17QQmlPropertyCacheEEvPT_E1I@Base 5.0.2
  _ZTS10QQmlBundle@Base 5.0.2
  _ZTS10QQmlEngine@Base 5.0.2
@@ -1907,6 +1910,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTSN8QQmlPool3PODE@Base 5.0.2
  _ZTSN8QQmlPool5ClassE@Base 5.0.2
  _ZTSN9QV8Engine9DeletableE@Base 5.0.2
+ (arch=armhf)_ZTSZN17QQmlEnginePrivate20deleteInEngineThreadI16QQmlCompiledDataEEvPT_E1I@Base 5.0.2
  _ZTSZN17QQmlEnginePrivate20deleteInEngineThreadI17QQmlPropertyCacheEEvPT_E1I@Base 5.0.2
  _ZTV10QQmlEngine@Base 5.0.2
  _ZTV11QQmlBinding@Base 5.0.2
@@ -1972,6 +1976,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTVN17QQmlEnginePrivate15PropertyCaptureE@Base 5.0.2
  _ZTVN17QQmlEnginePrivate9DeletableE@Base 5.0.2
  _ZTVN9QV8Engine9DeletableE@Base 5.0.2
+ (arch=armhf)_ZTVZN17QQmlEnginePrivate20deleteInEngineThreadI16QQmlCompiledDataEEvPT_E1I@Base 5.0.2
  _ZTVZN17QQmlEnginePrivate20deleteInEngineThreadI17QQmlPropertyCacheEEvPT_E1I@Base 5.0.2
  _ZZN8QQmlData4initEvE11initialized@Base 5.0.2
  _Zls6QDebugRK9QQmlError@Base 5.0.2
@@ -1980,7 +1985,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZrsR11QDataStreamRN22QQmlEngineDebugService14QQmlObjectDataE@Base 5.0.2
  _ZrsR11QDataStreamRN22QQmlEngineDebugService18QQmlObjectPropertyE@Base 5.0.2
  (c++)"non-virtual thunk to QQmlBoundSignalExpression::~QQmlBoundSignalExpression()@Base" 5.0.2
- (c++)"non-virtual thunk to QQmlComponentPrivate::typeDataProgress(QQmlTypeData*, double)@Base" 5.0.2
+ (c++|subst)"non-virtual thunk to QQmlComponentPrivate::typeDataProgress(QQmlTypeData*, {c++:qreal})@Base" 5.0.2
  (c++)"non-virtual thunk to QQmlComponentPrivate::typeDataReady(QQmlTypeData*)@Base" 5.0.2
  (c++)"non-virtual thunk to QQmlComponentPrivate::~QQmlComponentPrivate()@Base" 5.0.2
  (c++)"non-virtual thunk to QQmlExtensionPlugin::initializeEngine(QQmlEngine*, char const*)@Base" 5.0.2
