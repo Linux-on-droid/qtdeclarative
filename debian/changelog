@@ -10,6 +10,7 @@ qtdeclarative-opensource-src (5.0.2-2) UNRELEASED; urgency=low
   * Remove extra ${shlibs:Depends} from qtdeclarative5-private-dev.
   * Bump the libqt5v8-5-private-dev and libqt5xmlpatterns5-private-dev build
     dependencies to 5.0.2~.
+  * rules: use $(DEB_HOST_MULTIARCH) everywhere.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Apr 2013 13:51:55 -0300
 
