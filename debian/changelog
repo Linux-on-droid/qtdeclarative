@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.0.2-2) UNRELEASED; urgency=low
+qtdeclarative-opensource-src (5.0.2-2) experimental; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Fix wrong permissions of examples.
@@ -12,7 +12,7 @@ qtdeclarative-opensource-src (5.0.2-2) UNRELEASED; urgency=low
     dependencies to 5.0.2~.
   * rules: use $(DEB_HOST_MULTIARCH) everywhere.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Apr 2013 13:51:55 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 30 Apr 2013 20:45:49 -0300
 
 qtdeclarative-opensource-src (5.0.2-1) experimental; urgency=low
 
