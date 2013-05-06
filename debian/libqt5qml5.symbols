@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf
+# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf i386
 libQt5Qml.so.5 libqt5qml5 #MINVER#
  _Z10qmlContextPK7QObject@Base 5.0.2
  _Z18QQml_colorProviderv@Base 5.0.2
@@ -1255,7 +1255,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlInfoD1Ev@Base 5.0.2
  _ZN8QQmlInfoD2Ev@Base 5.0.2
  (optional=templinst|arch=armhf)_ZN8QQmlPool3NewIN17QQmlCompilerTypes18TrBindingReferenceEEEPT_v@Base 5.0.2
- (optional=templinst|arch=amd64)_ZN8QQmlPool3NewINS_11StringClassEEEPT_v@Base 5.0.2
+ (optional=templinst|arch=amd64 i386)_ZN8QQmlPool3NewINS_11StringClassEEEPT_v@Base 5.0.2
  _ZN8QQmlPool5clearEv@Base 5.0.2
  (optional=templinst)_ZN8QQmlPool7destroyIN10QQmlScript13TypeReferenceEEEvPNS_5ClassE@Base 5.0.2
  (optional=templinst)_ZN8QQmlPool7destroyIN10QQmlScript6Object11DynamicSlotEEEvPNS_5ClassE@Base 5.0.2
