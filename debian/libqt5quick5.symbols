@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64
+# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf
 libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
  _ZN10QQuickItem10itemChangeENS_10ItemChangeERKNS_14ItemChangeDataE@Base 5.0.2
  _ZN10QQuickItem10resetWidthEv@Base 5.0.2
  _ZN10QQuickItem10setEnabledEb@Base 5.0.2
- _ZN10QQuickItem10setOpacityEd@Base 5.0.2
+ (subst)_ZN10QQuickItem10setOpacityE{qreal}@Base 5.0.2
  _ZN10QQuickItem10setVisibleEb@Base 5.0.2
  _ZN10QQuickItem10stackAfterEPKS_@Base 5.0.2
  _ZN10QQuickItem10touchEventEP11QTouchEvent@Base 5.0.2
@@ -14,7 +14,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickItem11qt_metacastEPKc@Base 5.0.2
  _ZN10QQuickItem11resetHeightEv@Base 5.0.2
  _ZN10QQuickItem11setPositionERK7QPointF@Base 5.0.2
- _ZN10QQuickItem11setRotationEd@Base 5.0.2
+ (subst)_ZN10QQuickItem11setRotationE{qreal}@Base 5.0.2
  _ZN10QQuickItem11stackBeforeEPKS_@Base 5.0.2
  _ZN10QQuickItem11ungrabMouseEv@Base 5.0.2
  _ZN10QQuickItem11unsetCursorEv@Base 5.0.2
@@ -48,21 +48,21 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickItem15mousePressEventEP11QMouseEvent@Base 5.0.2
  _ZN10QQuickItem15rotationChangedEv@Base 5.0.2
  _ZN10QQuickItem15setAntialiasingEb@Base 5.0.2
- _ZN10QQuickItem15setImplicitSizeEdd@Base 5.0.2
+ (subst)_ZN10QQuickItem15setImplicitSizeE{qreal}{qreal}@Base 5.0.2
  _ZN10QQuickItem15updatePaintNodeEP7QSGNodePNS_19UpdatePaintNodeDataE@Base 5.0.2
  _ZN10QQuickItem16forceActiveFocusEv@Base 5.0.2
  _ZN10QQuickItem16inputMethodEventEP17QInputMethodEvent@Base 5.0.2
  _ZN10QQuickItem16mouseUngrabEventEv@Base 5.0.2
  _ZN10QQuickItem16releaseResourcesEv@Base 5.0.2
- _ZN10QQuickItem16setImplicitWidthEd@Base 5.0.2
+ (subst)_ZN10QQuickItem16setImplicitWidthE{qreal}@Base 5.0.2
  _ZN10QQuickItem16setKeepMouseGrabEb@Base 5.0.2
  _ZN10QQuickItem16setKeepTouchGrabEb@Base 5.0.2
  _ZN10QQuickItem16staticMetaObjectE@Base 5.0.2
  _ZN10QQuickItem16touchUngrabEventEv@Base 5.0.2
  _ZN10QQuickItem17componentCompleteEv@Base 5.0.2
  _ZN10QQuickItem17mouseReleaseEventEP11QMouseEvent@Base 5.0.2
- _ZN10QQuickItem17setBaselineOffsetEd@Base 5.0.2
- _ZN10QQuickItem17setImplicitHeightEd@Base 5.0.2
+ (subst)_ZN10QQuickItem17setBaselineOffsetE{qreal}@Base 5.0.2
+ (subst)_ZN10QQuickItem17setImplicitHeightE{qreal}@Base 5.0.2
  _ZN10QQuickItem17ungrabTouchPointsEv@Base 5.0.2
  _ZN10QQuickItem17updateInputMethodE6QFlagsIN2Qt16InputMethodQueryEE@Base 5.0.2
  _ZN10QQuickItem18activeFocusChangedEb@Base 5.0.2
@@ -73,7 +73,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickItem19childrenRectChangedERK6QRectF@Base 5.0.2
  _ZN10QQuickItem20implicitWidthChangedEv@Base 5.0.2
  _ZN10QQuickItem20setAcceptHoverEventsEb@Base 5.0.2
- _ZN10QQuickItem21baselineOffsetChangedEd@Base 5.0.2
+ (subst)_ZN10QQuickItem21baselineOffsetChangedE{qreal}@Base 5.0.2
  _ZN10QQuickItem21childMouseEventFilterEPS_P6QEvent@Base 5.0.2
  _ZN10QQuickItem21implicitHeightChangedEv@Base 5.0.2
  _ZN10QQuickItem21mouseDoubleClickEventEP11QMouseEvent@Base 5.0.2
@@ -83,9 +83,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickItem23setAcceptedMouseButtonsE6QFlagsIN2Qt11MouseButtonEE@Base 5.0.2
  _ZN10QQuickItem23setTransformOriginPointERK7QPointF@Base 5.0.2
  _ZN10QQuickItem26setFiltersChildMouseEventsEb@Base 5.0.2
- _ZN10QQuickItem4setXEd@Base 5.0.2
- _ZN10QQuickItem4setYEd@Base 5.0.2
- _ZN10QQuickItem4setZEd@Base 5.0.2
+ (subst)_ZN10QQuickItem4setXE{qreal}@Base 5.0.2
+ (subst)_ZN10QQuickItem4setYE{qreal}@Base 5.0.2
+ (subst)_ZN10QQuickItem4setZE{qreal}@Base 5.0.2
  _ZN10QQuickItem5eventEP6QEvent@Base 5.0.2
  _ZN10QQuickItem6polishEv@Base 5.0.2
  _ZN10QQuickItem6updateEv@Base 5.0.2
@@ -94,16 +94,16 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickItem7setSizeERK6QSizeF@Base 5.0.2
  _ZN10QQuickItem8setFlagsE6QFlagsINS_4FlagEE@Base 5.0.2
  _ZN10QQuickItem8setFocusEb@Base 5.0.2
- _ZN10QQuickItem8setScaleEd@Base 5.0.2
+ (subst)_ZN10QQuickItem8setScaleE{qreal}@Base 5.0.2
  _ZN10QQuickItem8setStateERK7QString@Base 5.0.2
- _ZN10QQuickItem8setWidthEd@Base 5.0.2
+ (subst)_ZN10QQuickItem8setWidthE{qreal}@Base 5.0.2
  _ZN10QQuickItem8xChangedEv@Base 5.0.2
  _ZN10QQuickItem8yChangedEv@Base 5.0.2
  _ZN10QQuickItem8zChangedEv@Base 5.0.2
  _ZN10QQuickItem9dropEventEP10QDropEvent@Base 5.0.2
  _ZN10QQuickItem9grabMouseEv@Base 5.0.2
  _ZN10QQuickItem9setCursorERK7QCursor@Base 5.0.2
- _ZN10QQuickItem9setHeightEd@Base 5.0.2
+ (subst)_ZN10QQuickItem9setHeightE{qreal}@Base 5.0.2
  _ZN10QQuickItem9setSmoothEb@Base 5.0.2
  _ZN10QQuickItem9transformEv@Base 5.0.2
  _ZN10QQuickItemC1EPS_@Base 5.0.2
@@ -128,7 +128,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickText12styleChangedENS_9TextStyleE@Base 5.0.2
  _ZN10QQuickText12updatePolishEv@Base 5.0.2
  _ZN10QQuickText13linkActivatedERK7QString@Base 5.0.2
- _ZN10QQuickText13setLineHeightEd@Base 5.0.2
+ (subst)_ZN10QQuickText13setLineHeightE{qreal}@Base 5.0.2
  _ZN10QQuickText13setRenderTypeENS_10RenderTypeE@Base 5.0.2
  _ZN10QQuickText13setStyleColorERK6QColor@Base 5.0.2
  _ZN10QQuickText13setTextFormatENS_10TextFormatE@Base 5.0.2
@@ -145,7 +145,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickText16staticMetaObjectE@Base 5.0.2
  _ZN10QQuickText16truncatedChangedEv@Base 5.0.2
  _ZN10QQuickText17componentCompleteEv@Base 5.0.2
- _ZN10QQuickText17lineHeightChangedEd@Base 5.0.2
+ (subst)_ZN10QQuickText17lineHeightChangedE{qreal}@Base 5.0.2
  _ZN10QQuickText17mouseReleaseEventEP11QMouseEvent@Base 5.0.2
  _ZN10QQuickText17renderTypeChangedEv@Base 5.0.2
  _ZN10QQuickText17setLineHeightModeENS_14LineHeightModeE@Base 5.0.2
@@ -209,7 +209,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QSGContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QSGContext11qt_metacastEPKc@Base 5.0.2
  _ZN10QSGContext14createRendererEv@Base 5.0.2
- _ZN10QSGContext14setRenderAlphaEd@Base 5.0.2
+ (subst)_ZN10QSGContext14setRenderAlphaE{qreal}@Base 5.0.2
  _ZN10QSGContext15createGlyphNodeEv@Base 5.0.2
  _ZN10QSGContext15createImageNodeEv@Base 5.0.2
  _ZN10QSGContext15prepareMaterialEP11QSGMaterial@Base 5.0.2
@@ -247,6 +247,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QSGTextureD1Ev@Base 5.0.2
  _ZN10QSGTextureD2Ev@Base 5.0.2
  (optional=templinst)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.0.2
+ (optional=templinst)_ZN11QMetaMethod10fromSignalIM16QQuickCanvasItemFvRK5QRectEEES_T_@Base 5.0.2
+ (optional=templinst)_ZN11QMetaMethod10fromSignalIM17QQuickPixmapReplyFvxxEEES_T_@Base 5.0.2
+ (optional=templinst)_ZN11QMetaMethod10fromSignalIM20QQuickAnimatedSpriteFviEEES_T_@Base 5.0.2
  _ZN11QQuickState10setExtendsERK7QString@Base 5.0.2
  _ZN11QQuickState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN11QQuickState11qt_metacastEPKc@Base 5.0.2
@@ -404,7 +407,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN12QSGImageNodeD2Ev@Base 5.0.2
  _ZN13QQuickAnchors10classBeginEv@Base 5.0.2
  _ZN13QQuickAnchors10resetRightEv@Base 5.0.2
- _ZN13QQuickAnchors10setMarginsEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors10setMarginsE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors10topChangedEv@Base 5.0.2
  _ZN13QQuickAnchors11fillChangedEv@Base 5.0.2
  _ZN13QQuickAnchors11leftChangedEv@Base 5.0.2
@@ -414,25 +417,25 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN13QQuickAnchors11setBaselineERK16QQuickAnchorLine@Base 5.0.2
  _ZN13QQuickAnchors11setCenterInEP10QQuickItem@Base 5.0.2
  _ZN13QQuickAnchors12rightChangedEv@Base 5.0.2
- _ZN13QQuickAnchors12setTopMarginEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors12setTopMarginE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors13bottomChangedEv@Base 5.0.2
  _ZN13QQuickAnchors13resetBaselineEv@Base 5.0.2
  _ZN13QQuickAnchors13resetCenterInEv@Base 5.0.2
- _ZN13QQuickAnchors13setLeftMarginEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors13setLeftMarginE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors14marginsChangedEv@Base 5.0.2
  _ZN13QQuickAnchors14resetTopMarginEv@Base 5.0.2
- _ZN13QQuickAnchors14setRightMarginEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors14setRightMarginE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors15baselineChangedEv@Base 5.0.2
  _ZN13QQuickAnchors15centerInChangedEv@Base 5.0.2
  _ZN13QQuickAnchors15resetLeftMarginEv@Base 5.0.2
- _ZN13QQuickAnchors15setBottomMarginEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors15setBottomMarginE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors16resetRightMarginEv@Base 5.0.2
  _ZN13QQuickAnchors16staticMetaObjectE@Base 5.0.2
  _ZN13QQuickAnchors16topMarginChangedEv@Base 5.0.2
  _ZN13QQuickAnchors17componentCompleteEv@Base 5.0.2
  _ZN13QQuickAnchors17leftMarginChangedEv@Base 5.0.2
  _ZN13QQuickAnchors17resetBottomMarginEv@Base 5.0.2
- _ZN13QQuickAnchors17setBaselineOffsetEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors17setBaselineOffsetE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors17setVerticalCenterERK16QQuickAnchorLine@Base 5.0.2
  _ZN13QQuickAnchors18rightMarginChangedEv@Base 5.0.2
  _ZN13QQuickAnchors19bottomMarginChangedEv@Base 5.0.2
@@ -444,8 +447,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN13QQuickAnchors21resetHorizontalCenterEv@Base 5.0.2
  _ZN13QQuickAnchors21verticalCenterChangedEv@Base 5.0.2
  _ZN13QQuickAnchors23horizontalCenterChangedEv@Base 5.0.2
- _ZN13QQuickAnchors23setVerticalCenterOffsetEd@Base 5.0.2
- _ZN13QQuickAnchors25setHorizontalCenterOffsetEd@Base 5.0.2
+ (subst)_ZN13QQuickAnchors23setVerticalCenterOffsetE{qreal}@Base 5.0.2
+ (subst)_ZN13QQuickAnchors25setHorizontalCenterOffsetE{qreal}@Base 5.0.2
  _ZN13QQuickAnchors27verticalCenterOffsetChangedEv@Base 5.0.2
  _ZN13QQuickAnchors29horizontalCenterOffsetChangedEv@Base 5.0.2
  _ZN13QQuickAnchors6setTopERK16QQuickAnchorLine@Base 5.0.2
@@ -468,7 +471,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN13QSGNodeDumperD0Ev@Base 5.0.2
  _ZN13QSGNodeDumperD1Ev@Base 5.0.2
  _ZN13QSGNodeDumperD2Ev@Base 5.0.2
- _ZN13QSGRenderNode19setInheritedOpacityEd@Base 5.0.2
+ (subst)_ZN13QSGRenderNode19setInheritedOpacityE{qreal}@Base 5.0.2
  _ZN13QSGRenderNodeC1Ev@Base 5.0.2
  _ZN13QSGRenderNodeC2Ev@Base 5.0.2
  _ZN13QSGRenderNodeD0Ev@Base 5.0.2
@@ -511,7 +514,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEdit13q_textChangedEv@Base 5.0.2
  _ZN14QQuickTextEdit13setRenderTypeENS_10RenderTypeE@Base 5.0.2
  _ZN14QQuickTextEdit13setTextFormatENS_10TextFormatE@Base 5.0.2
- _ZN14QQuickTextEdit13setTextMarginEd@Base 5.0.2
+ (subst)_ZN14QQuickTextEdit13setTextMarginE{qreal}@Base 5.0.2
  _ZN14QQuickTextEdit14baseUrlChangedEv@Base 5.0.2
  _ZN14QQuickTextEdit14canRedoChangedEv@Base 5.0.2
  _ZN14QQuickTextEdit14canUndoChangedEv@Base 5.0.2
@@ -540,7 +543,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEdit17setCursorPositionEi@Base 5.0.2
  _ZN14QQuickTextEdit17setSelectionColorERK6QColor@Base 5.0.2
  _ZN14QQuickTextEdit17textFormatChangedENS_10TextFormatE@Base 5.0.2
- _ZN14QQuickTextEdit17textMarginChangedEd@Base 5.0.2
+ (subst)_ZN14QQuickTextEdit17textMarginChangedE{qreal}@Base 5.0.2
  _ZN14QQuickTextEdit17triggerPreprocessEv@Base 5.0.2
  _ZN14QQuickTextEdit18contentSizeChangedEv@Base 5.0.2
  _ZN14QQuickTextEdit18moveCursorDelegateEv@Base 5.0.2
@@ -614,8 +617,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QSGNodeVisitorD0Ev@Base 5.0.2
  _ZN14QSGNodeVisitorD1Ev@Base 5.0.2
  _ZN14QSGNodeVisitorD2Ev@Base 5.0.2
- _ZN14QSGOpacityNode10setOpacityEd@Base 5.0.2
- _ZN14QSGOpacityNode18setCombinedOpacityEd@Base 5.0.2
+ (subst)_ZN14QSGOpacityNode10setOpacityE{qreal}@Base 5.0.2
+ (subst)_ZN14QSGOpacityNode18setCombinedOpacityE{qreal}@Base 5.0.2
  _ZN14QSGOpacityNodeC1Ev@Base 5.0.2
  _ZN14QSGOpacityNodeC2Ev@Base 5.0.2
  _ZN14QSGOpacityNodeD0Ev@Base 5.0.2
@@ -626,7 +629,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QSGPainterNode13updateFBOSizeEv@Base 5.0.2
  _ZN14QSGPainterNode13updateTextureEv@Base 5.0.2
  _ZN14QSGPainterNode14updateGeometryEv@Base 5.0.2
- _ZN14QSGPainterNode16setContentsScaleEd@Base 5.0.2
+ (subst)_ZN14QSGPainterNode16setContentsScaleE{qreal}@Base 5.0.2
  _ZN14QSGPainterNode17setOpaquePaintingEb@Base 5.0.2
  _ZN14QSGPainterNode17setSmoothPaintingEb@Base 5.0.2
  _ZN14QSGPainterNode18setFastFBOResizingEb@Base 5.0.2
@@ -682,16 +685,16 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickable11dragStartedEv@Base 5.0.2
  _ZN15QQuickFlickable11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN15QQuickFlickable11qt_metacastEPKc@Base 5.0.2
- _ZN15QQuickFlickable11setContentXEd@Base 5.0.2
- _ZN15QQuickFlickable11setContentYEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable11setContentXE{qreal}@Base 5.0.2
+ (subst)_ZN15QQuickFlickable11setContentYE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable11visibleAreaEv@Base 5.0.2
  _ZN15QQuickFlickable12flickStartedEv@Base 5.0.2
- _ZN15QQuickFlickable12setTopMarginEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable12setTopMarginE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable13flickableDataEv@Base 5.0.2
  _ZN15QQuickFlickable13movementEndedEv@Base 5.0.2
  _ZN15QQuickFlickable13movingChangedEv@Base 5.0.2
- _ZN15QQuickFlickable13resizeContentEdd7QPointF@Base 5.0.2
- _ZN15QQuickFlickable13setLeftMarginEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable13resizeContentE{qreal}{qreal}7QPointF@Base 5.0.2
+ (subst)_ZN15QQuickFlickable13setLeftMarginE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable13setPressDelayEi@Base 5.0.2
  _ZN15QQuickFlickable13viewportMovedE6QFlagsIN2Qt11OrientationEE@Base 5.0.2
  _ZN15QQuickFlickable14mouseMoveEventEP11QMouseEvent@Base 5.0.2
@@ -703,7 +706,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickable14returnToBoundsEv@Base 5.0.2
  _ZN15QQuickFlickable14sendMouseEventEP10QQuickItemP11QMouseEvent@Base 5.0.2
  _ZN15QQuickFlickable14setInteractiveEb@Base 5.0.2
- _ZN15QQuickFlickable14setRightMarginEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable14setRightMarginE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable15contentXChangedEv@Base 5.0.2
  _ZN15QQuickFlickable15contentYChangedEv@Base 5.0.2
  _ZN15QQuickFlickable15draggingChangedEv@Base 5.0.2
@@ -711,12 +714,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickable15geometryChangedERK6QRectFS2_@Base 5.0.2
  _ZN15QQuickFlickable15mousePressEventEP11QMouseEvent@Base 5.0.2
  _ZN15QQuickFlickable15movementStartedEv@Base 5.0.2
- _ZN15QQuickFlickable15setBottomMarginEd@Base 5.0.2
- _ZN15QQuickFlickable15setContentWidthEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable15setBottomMarginE{qreal}@Base 5.0.2
+ (subst)_ZN15QQuickFlickable15setContentWidthE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable15setPixelAlignedEb@Base 5.0.2
  _ZN15QQuickFlickable16mouseUngrabEventEv@Base 5.0.2
  _ZN15QQuickFlickable16movementStartingEv@Base 5.0.2
- _ZN15QQuickFlickable16setContentHeightEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable16setContentHeightE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable16staticMetaObjectE@Base 5.0.2
  _ZN15QQuickFlickable16topMarginChangedEv@Base 5.0.2
  _ZN15QQuickFlickable17componentCompleteEv@Base 5.0.2
@@ -733,12 +736,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickable19isAtBoundaryChangedEv@Base 5.0.2
  _ZN15QQuickFlickable19pixelAlignedChangedEv@Base 5.0.2
  _ZN15QQuickFlickable20contentHeightChangedEv@Base 5.0.2
- _ZN15QQuickFlickable20setFlickDecelerationEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable20setFlickDecelerationE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable21boundsBehaviorChangedEv@Base 5.0.2
  _ZN15QQuickFlickable21childMouseEventFilterEP10QQuickItemP6QEvent@Base 5.0.2
  _ZN15QQuickFlickable21setFlickableDirectionENS_18FlickableDirectionE@Base 5.0.2
  _ZN15QQuickFlickable23movingVerticallyChangedEv@Base 5.0.2
- _ZN15QQuickFlickable23setMaximumFlickVelocityEd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable23setMaximumFlickVelocityE{qreal}@Base 5.0.2
  _ZN15QQuickFlickable23verticalVelocityChangedEv@Base 5.0.2
  _ZN15QQuickFlickable24flickDecelerationChangedEv@Base 5.0.2
  _ZN15QQuickFlickable25draggingVerticallyChangedEv@Base 5.0.2
@@ -749,7 +752,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickable27draggingHorizontallyChangedEv@Base 5.0.2
  _ZN15QQuickFlickable27flickingHorizontallyChangedEv@Base 5.0.2
  _ZN15QQuickFlickable27maximumFlickVelocityChangedEv@Base 5.0.2
- _ZN15QQuickFlickable5flickEdd@Base 5.0.2
+ (subst)_ZN15QQuickFlickable5flickE{qreal}{qreal}@Base 5.0.2
  _ZN15QQuickFlickable9dragEndedEv@Base 5.0.2
  _ZN15QQuickFlickableC1EP10QQuickItem@Base 5.0.2
  _ZN15QQuickFlickableC1ER22QQuickFlickablePrivateP10QQuickItem@Base 5.0.2
@@ -766,7 +769,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickImageBase13setSourceSizeERK5QSize@Base 5.0.2
  _ZN15QQuickImageBase13sourceChangedERK4QUrl@Base 5.0.2
  _ZN15QQuickImageBase13statusChangedENS_6StatusE@Base 5.0.2
- _ZN15QQuickImageBase15progressChangedEd@Base 5.0.2
+ (subst)_ZN15QQuickImageBase15progressChangedE{qreal}@Base 5.0.2
  _ZN15QQuickImageBase15requestFinishedEv@Base 5.0.2
  _ZN15QQuickImageBase15requestProgressExx@Base 5.0.2
  _ZN15QQuickImageBase15resetSourceSizeEv@Base 5.0.2
@@ -949,7 +952,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QSGGeometryNode11setMaterialEP11QSGMaterial@Base 5.0.2
  _ZN15QSGGeometryNode14setRenderOrderEi@Base 5.0.2
  _ZN15QSGGeometryNode17setOpaqueMaterialEP11QSGMaterial@Base 5.0.2
- _ZN15QSGGeometryNode19setInheritedOpacityEd@Base 5.0.2
+ (subst)_ZN15QSGGeometryNode19setInheritedOpacityE{qreal}@Base 5.0.2
  _ZN15QSGGeometryNodeC1Ev@Base 5.0.2
  _ZN15QSGGeometryNodeC2Ev@Base 5.0.2
  _ZN15QSGGeometryNodeD0Ev@Base 5.0.2
@@ -1124,7 +1127,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickPaintedItem15setRenderTargetENS_12RenderTargetE@Base 5.0.2
  _ZN17QQuickPaintedItem15updatePaintNodeEP7QSGNodePN10QQuickItem19UpdatePaintNodeDataE@Base 5.0.2
  _ZN17QQuickPaintedItem16fillColorChangedEv@Base 5.0.2
- _ZN17QQuickPaintedItem16setContentsScaleEd@Base 5.0.2
+ (subst)_ZN17QQuickPaintedItem16setContentsScaleE{qreal}@Base 5.0.2
  _ZN17QQuickPaintedItem16staticMetaObjectE@Base 5.0.2
  _ZN17QQuickPaintedItem17resetContentsSizeEv@Base 5.0.2
  _ZN17QQuickPaintedItem17setOpaquePaintingEb@Base 5.0.2
@@ -1293,7 +1296,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate17deliverMouseEventEP11QMouseEvent@Base 5.0.2
  _ZN19QQuickWindowPrivate17deliverTouchEventEP11QTouchEvent@Base 5.0.2
  _ZN19QQuickWindowPrivate17deliverWheelEventEP10QQuickItemP11QWheelEvent@Base 5.0.2
- _ZN19QQuickWindowPrivate17dragOverThresholdEdN2Qt4AxisEP11QMouseEvent@Base 5.0.2
+ (subst)_ZN19QQuickWindowPrivate17dragOverThresholdE{qreal}N2Qt4AxisEP11QMouseEvent@Base 5.0.2
  _ZN19QQuickWindowPrivate18deliverTouchPointsEP10QQuickItemP11QTouchEventRK5QListINS2_10TouchPointEEP4QSetIiEP5QHashIS1_S6_E@Base 5.0.2
  _ZN19QQuickWindowPrivate19translateTouchEventEP11QTouchEvent@Base 5.0.2
  _ZN19QQuickWindowPrivate20checkIfDoubleClickedEm@Base 5.0.2
@@ -1333,15 +1336,15 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN20QQuickAnimationGroupD2Ev@Base 5.0.2
  _ZN20QQuickBasePositioner10addChangedEv@Base 5.0.2
  _ZN20QQuickBasePositioner10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Base 5.0.2
- _ZN20QQuickBasePositioner10setSpacingEd@Base 5.0.2
+ (subst)_ZN20QQuickBasePositioner10setSpacingE{qreal}@Base 5.0.2
  _ZN20QQuickBasePositioner11moveChangedEv@Base 5.0.2
  _ZN20QQuickBasePositioner11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN20QQuickBasePositioner11qt_metacastEPKc@Base 5.0.2
  _ZN20QQuickBasePositioner11setPopulateEP16QQuickTransition@Base 5.0.2
- _ZN20QQuickBasePositioner12positionItemEddPNS_14PositionedItemE@Base 5.0.2
+ (subst)_ZN20QQuickBasePositioner12positionItemE{qreal}{qreal}PNS_14PositionedItemE@Base 5.0.2
  _ZN20QQuickBasePositioner12updatePolishEv@Base 5.0.2
- _ZN20QQuickBasePositioner13positionItemXEdPNS_14PositionedItemE@Base 5.0.2
- _ZN20QQuickBasePositioner13positionItemYEdPNS_14PositionedItemE@Base 5.0.2
+ (subst)_ZN20QQuickBasePositioner13positionItemXE{qreal}PNS_14PositionedItemE@Base 5.0.2
+ (subst)_ZN20QQuickBasePositioner13positionItemYE{qreal}PNS_14PositionedItemE@Base 5.0.2
  _ZN20QQuickBasePositioner14PositionedItem15startTransitionEP26QQuickItemViewTransitioner@Base 5.0.2
  _ZN20QQuickBasePositioner14PositionedItem17prepareTransitionEP26QQuickItemViewTransitionerRK6QRectF@Base 5.0.2
  _ZN20QQuickBasePositioner14PositionedItem24transitionNextRepositionEP26QQuickItemViewTransitionerNS1_14TransitionTypeEb@Base 5.0.2
@@ -1427,8 +1430,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN21QQuickNumberAnimation11qt_metacastEPKc@Base 5.0.2
  _ZN21QQuickNumberAnimation16staticMetaObjectE@Base 5.0.2
  _ZN21QQuickNumberAnimation4initEv@Base 5.0.2
- _ZN21QQuickNumberAnimation5setToEd@Base 5.0.2
- _ZN21QQuickNumberAnimation7setFromEd@Base 5.0.2
+ (subst)_ZN21QQuickNumberAnimation5setToE{qreal}@Base 5.0.2
+ (subst)_ZN21QQuickNumberAnimation7setFromE{qreal}@Base 5.0.2
  _ZN21QQuickNumberAnimationC1EP7QObject@Base 5.0.2
  _ZN21QQuickNumberAnimationC1ER30QQuickPropertyAnimationPrivateP7QObject@Base 5.0.2
  _ZN21QQuickNumberAnimationC2EP7QObject@Base 5.0.2
@@ -1649,8 +1652,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN23QQuickRotationAnimation12setDirectionENS_17RotationDirectionE@Base 5.0.2
  _ZN23QQuickRotationAnimation16directionChangedEv@Base 5.0.2
  _ZN23QQuickRotationAnimation16staticMetaObjectE@Base 5.0.2
- _ZN23QQuickRotationAnimation5setToEd@Base 5.0.2
- _ZN23QQuickRotationAnimation7setFromEd@Base 5.0.2
+ (subst)_ZN23QQuickRotationAnimation5setToE{qreal}@Base 5.0.2
+ (subst)_ZN23QQuickRotationAnimation7setFromE{qreal}@Base 5.0.2
  _ZN23QQuickRotationAnimationC1EP7QObject@Base 5.0.2
  _ZN23QQuickRotationAnimationC2EP7QObject@Base 5.0.2
  _ZN23QQuickRotationAnimationD0Ev@Base 5.0.2
@@ -1771,7 +1774,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN26QSGContextFactoryInterfaceD0Ev@Base 5.0.2
  _ZN26QSGContextFactoryInterfaceD1Ev@Base 5.0.2
  _ZN26QSGContextFactoryInterfaceD2Ev@Base 5.0.2
- _ZN26QSGDistanceFieldGlyphCache12glyphMetricsEjd@Base 5.0.2
+ (subst)_ZN26QSGDistanceFieldGlyphCache12glyphMetricsEj{qreal}@Base 5.0.2
  _ZN26QSGDistanceFieldGlyphCache13updateTextureEjjRK5QSize@Base 5.0.2
  _ZN26QSGDistanceFieldGlyphCache14s_emptyTextureE@Base 5.0.2
  _ZN26QSGDistanceFieldGlyphCache16setGlyphsTextureERK7QVectorIjERKNS_7TextureE@Base 5.0.2
@@ -1907,7 +1910,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QQuickItem6heightEv@Base 5.0.2
  _ZNK10QQuickItem6smoothEv@Base 5.0.2
  _ZNK10QQuickItem6windowEv@Base 5.0.2
- _ZNK10QQuickItem7childAtEdd@Base 5.0.2
+ (subst)_ZNK10QQuickItem7childAtE{qreal}{qreal}@Base 5.0.2
  _ZNK10QQuickItem7opacityEv@Base 5.0.2
  _ZNK10QQuickItem8clipRectEv@Base 5.0.2
  _ZNK10QQuickItem8containsERK7QPointF@Base 5.0.2
@@ -2048,7 +2051,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK14QQuickBehavior7enabledEv@Base 5.0.2
  _ZNK14QQuickTextEdit10isReadOnlyEv@Base 5.0.2
  _ZNK14QQuickTextEdit10metaObjectEv@Base 5.0.2
- _ZNK14QQuickTextEdit10positionAtEdd@Base 5.0.2
+ (subst)_ZNK14QQuickTextEdit10positionAtE{qreal}{qreal}@Base 5.0.2
  _ZNK14QQuickTextEdit10renderTypeEv@Base 5.0.2
  _ZNK14QQuickTextEdit10textFormatEv@Base 5.0.2
  _ZNK14QQuickTextEdit10textMarginEv@Base 5.0.2

@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.0.2-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 06 May 2013 10:14:37 +0200
 
