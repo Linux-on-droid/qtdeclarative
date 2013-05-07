@@ -184,7 +184,7 @@ Package: qtdeclarative5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qtchooser
 Description: Qt 5 declarative development programs
@@ -198,7 +198,7 @@ Package: qmlscene
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qtchooser
 Description: Qt 5 QML scene viewer
