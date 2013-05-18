@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.0.2-4) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * debian/control: remove extra ${misc:Pre-Depends} from qmlscene and
     qtdeclarative5-dev-tools.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 May 2013 10:43:55 +0200
 
