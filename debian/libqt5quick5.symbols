@@ -246,7 +246,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QSGTextureD0Ev@Base 5.0.2
  _ZN10QSGTextureD1Ev@Base 5.0.2
  _ZN10QSGTextureD2Ev@Base 5.0.2
- (optional=templinst)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.0.2
+ (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.0.2
  (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM16QQuickCanvasItemFvRK5QRectEEES_T_@Base 5.0.2
  (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM17QQuickPixmapReplyFvxxEEES_T_@Base 5.0.2
  (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM20QQuickAnimatedSpriteFviEEES_T_@Base 5.0.2

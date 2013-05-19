@@ -83,7 +83,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN10QQmlScript7VariantC2EdRK10QStringRef@Base 5.0.2
  _ZN10QQmlScript7VariantC2Ev@Base 5.0.2
  _ZN10QQmlScript7VariantaSERKS0_@Base 5.0.2
- (optional=templinst)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.0.2
  (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM20QQmlFileNetworkReplyFvxxEEES_T_@Base 5.0.2
  _ZN11QQmlBinding10expressionEPK19QQmlAbstractBinding@Base 5.0.2
  _ZN11QQmlBinding10setEnabledEP19QQmlAbstractBindingb6QFlagsIN19QQmlPropertyPrivate9WriteFlagEE@Base 5.0.2
