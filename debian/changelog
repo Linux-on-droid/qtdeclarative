@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.0.2-4) UNRELEASED; urgency=low
+qtdeclarative-opensource-src (5.0.2-4) experimental; urgency=low
 
   [ Pino Toscano ]
   * debian/control: remove extra ${misc:Pre-Depends} from qmlscene and
@@ -9,7 +9,7 @@ qtdeclarative-opensource-src (5.0.2-4) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols with amd64 build.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 May 2013 10:43:55 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 18 May 2013 21:25:40 -0300
 
 qtdeclarative-opensource-src (5.0.2-3) experimental; urgency=low
 
