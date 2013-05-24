@@ -1,3 +1,7 @@
+qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:27:24 -0300
+
 qtdeclarative-opensource-src (5.0.2-4) experimental; urgency=low
 
   [ Pino Toscano ]
