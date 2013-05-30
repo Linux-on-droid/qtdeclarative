@@ -1,5 +1,8 @@
 qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make every package that ships a binary managed by qtchooser depend on it.
+
   [ Timo Jyrinki ]
   * Depend on libgl1-mesa-dri from the qtquick2 QML plugin
     - Not depending may cause crashes due to lack of VBO support
