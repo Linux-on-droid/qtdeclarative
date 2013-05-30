@@ -1,5 +1,10 @@
 qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
 
+  [ Timo Jyrinki ]
+  * Depend on libgl1-mesa-dri from the qtquick2 QML plugin
+    - Not depending may cause crashes due to lack of VBO support
+      (http://pad.lv/1176199)
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:27:24 -0300
 
 qtdeclarative-opensource-src (5.0.2-4) experimental; urgency=low
