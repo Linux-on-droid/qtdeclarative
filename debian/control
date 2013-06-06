@@ -237,7 +237,7 @@ Description: Qt 5 declarative libraries debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 declarative libraries.
 
-Package: qtdeclarative-doc
+Package: qtdeclarative5-doc
 Priority: extra
 Architecture: all
 Section: doc
@@ -247,7 +247,7 @@ Description: Qt 5 declarative documentation
  .
  This package contains the documentation for the Qt 5 declarative libraries.
 
-Package: qtdeclarative-doc-html
+Package: qtdeclarative5-doc-html
 Priority: extra
 Architecture: all
 Section: doc
