@@ -2,6 +2,10 @@ qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make every package that ships a binary managed by qtchooser depend on it.
+  * Build the documentation shipped with this submodule.
+    - Add the necessary build dependencies:
+      * qttools5-dev-tools to use qhelpgenerator.
+      * libqt5sql5-sqlite to generate qch doc.
 
   [ Timo Jyrinki ]
   * Depend on libgl1-mesa-dri from the qtquick2 QML plugin

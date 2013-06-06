@@ -13,7 +13,9 @@ Build-Depends: debhelper (>= 9),
                libqt5v8-5-private-dev (>= 5.0.2~),
                libqt5xmlpatterns5-private-dev (>= 5.0.2~),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.0.2~)
+               qtbase5-private-dev (>= 5.0.2~),
+               qttools5-dev-tools (>= 5.0.2~),
+               libqt5sql5-sqlite
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdeclarative.git
