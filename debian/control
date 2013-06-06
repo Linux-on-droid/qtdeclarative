@@ -236,3 +236,24 @@ Description: Qt 5 declarative libraries debugging symbols
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the debugging symbols for the Qt 5 declarative libraries.
+
+Package: qtdeclarative-docs
+Priority: extra
+Architecture: all
+Section: doc
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 declarative libraries.
+
+Package: qtdeclarative-docs-html
+Priority: extra
+Architecture: all
+Section: doc
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 declarative
+ libraries.
