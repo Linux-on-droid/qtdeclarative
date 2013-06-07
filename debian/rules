@@ -14,17 +14,18 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake
 
-override_dh_auto_build:
-	dh_auto_build
-	# Build docs
+override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
-override_dh_auto_install:
-	dh_auto_install -- install_docs
+override_dh_auto_install-arch:
+	dh_auto_install
 
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
+
+	# Remove libtool-like files
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 	# Fix wrong permissions in examples.
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/ -type f \( \
@@ -36,8 +37,8 @@ override_dh_auto_install:
 	-o -name '*.jpg' \
 	\) -print0 | xargs -0 chmod a-x
 
-	# Remove libtool-like files
-	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
+override_dh_auto_install-indep:
+	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	dh_install --fail-missing
