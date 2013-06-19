@@ -222,6 +222,7 @@ Description: Qt 5 declarative examples
 Package: qtdeclarative5-dbg
 Priority: extra
 Architecture: any
+Multi-Arch: same
 Section: debug
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5qml5 (= ${binary:Version}),

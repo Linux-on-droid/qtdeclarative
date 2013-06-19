@@ -22,6 +22,8 @@ qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
       * libqt5sql5-sqlite to generate qch doc.
     - Build and create a packages for qch and HTML doc formats.
   * Update symbols files.
+  * Set qtdeclarative5-dbg as M-A same, so it can be coinstalled with other
+    archs debugging symbols.
 
   [ Timo Jyrinki ]
   * Depend on libgl1-mesa-dri from the qtquick2 QML plugin
