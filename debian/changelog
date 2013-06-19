@@ -1,5 +1,6 @@
 qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
 
+<<<<<<<
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make every package that ships a binary managed by qtchooser depend on it.
   * Build the documentation shipped with this submodule as a build-indep task:
@@ -12,6 +13,21 @@ qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
   * Depend on libgl1-mesa-dri from the qtquick2 QML plugin
     - Not depending may cause crashes due to lack of VBO support
       (https://bugs.launchpad.net/bugs/1176199)
+=======
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Make every package that ships a binary managed by qtchooser depend on it.
+  * Build the documentation shipped with this submodule as a build-indep task:
+    - Add the necessary indep build dependencies:
+      * qttools5-dev-tools to use qhelpgenerator.
+      * libqt5sql5-sqlite to generate qch doc.
+    - Build and create a packages for qch and HTML doc formats.
+  * Update symbols files.
+
+  [ Timo Jyrinki ]
+  * Depend on libgl1-mesa-dri from the qtquick2 QML plugin
+    - Not depending may cause crashes due to lack of VBO support
+      (https://bugs.launchpad.net/bugs/1176199)
+>>>>>>>
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 May 2013 21:27:24 -0300
 
