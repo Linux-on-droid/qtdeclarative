@@ -1,6 +1,6 @@
 qtdeclarative-opensource-src (5.0.2-5) UNRELEASED; urgency=low
 
- [ Lisandro Damián Nicanor Pérez Meyer ]
+  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Make every package that ships a binary managed by qtchooser depend on it.
   * Build the documentation shipped with this submodule as a build-indep task:
     - Add the necessary indep build dependencies:
