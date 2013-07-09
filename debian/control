@@ -10,12 +10,12 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
-               libqt5v8-5-private-dev (>= 5.0.2~),
-               libqt5xmlpatterns5-private-dev (>= 5.0.2~),
+               libqt5v8-5-private-dev (>= 5.1.0~),
+               libqt5xmlpatterns5-private-dev (>= 5.1.0~),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.0.2~)
+               qtbase5-private-dev (>= 5.1.0~)
 Build-Depends-Indep: libqt5sql5-sqlite,
-                     qttools5-dev-tools (>= 5.0.2~)
+                     qttools5-dev-tools (>= 5.1.0~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdeclarative.git
@@ -72,6 +72,17 @@ Description: Qt 5 Quick Test library
  .
  This package contains the Qt Quick Test library for QtDeclarative module.
 
+Package: qtdeclarative5-dialogs-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Dialogs QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Dialogs module provides FileDialog and ColorDialog types.
+
 Package: qtdeclarative5-folderlistmodel-plugin
 Architecture: any
 Multi-Arch: same
@@ -94,6 +105,17 @@ Description: Qt 5 localstorage QML plugin
  .
  This is a singleton type for reading and writing to SQLite databases.
 
+Package: qtdeclarative5-models-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Models QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Models provides types previously found in Qt Quick module.
+
 Package: qtdeclarative5-particles-plugin
 Architecture: any
 Multi-Arch: same
@@ -104,6 +126,17 @@ Description: Qt 5 particles QML plugin
  is its rich set of widgets that provide standard GUI functionality.
  .
  This QML module contains a particle system for Qt Quick.
+
+Package: qtdeclarative5-privatewidgets-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Private Widgets QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Private Widgets plugin.
 
 Package: qtdeclarative5-qtquick2-plugin
 Architecture: any
