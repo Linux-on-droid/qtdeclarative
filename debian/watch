@@ -1,2 +1,2 @@
 version=3
-http://origin.releases.qt-project.org/qt5/([\d\.]*)/submodules/qtdeclarative-opensource-src-([^-]*)\.tar.xz
+http://download.qt-project.org/official_releases/qt/([\d\.]*)/([\d\.]*)/submodules/qtdeclarative-opensource-src-([^-]*)\.tar.xz

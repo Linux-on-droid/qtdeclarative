@@ -1,9 +1,13 @@
 qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
 
+  [ Timo Jyrinki ]
   * New upstream release.
   * Bump build dependencies to 5.1.0.
   * Add new plugin packages Dialogs, Models, Private Widgets.
   * Update install files.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update watch file.
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
 
