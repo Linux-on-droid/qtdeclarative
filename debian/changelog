@@ -8,6 +8,8 @@ qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update watch file.
+  * Bump the build dependency on libqt5v8-5-private-dev to 5.1.0-2~,
+    as I wrongly removed the private headers in the previous version.
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
 
