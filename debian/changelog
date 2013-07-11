@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
+qtdeclarative-opensource-src (5.1.0-1) experimental; urgency=low
 
   [ Timo Jyrinki ]
   * New upstream release.
@@ -22,7 +22,7 @@ qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Add .qml to the list of file extensions that should not be executable.
   * Check files permission in a broader path.
 
- -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 11 Jul 2013 13:39:12 -0300
 
 qtdeclarative-opensource-src (5.0.2-6) experimental; urgency=low
 
