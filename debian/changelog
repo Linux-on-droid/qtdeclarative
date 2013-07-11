@@ -20,6 +20,7 @@ qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
     - Actually mark the symbols.
     - Add lintian overrides for libqt5quickparticles5 and libqt5quick5.
   * Add .qml to the list of file extensions that should not be executable.
+  * Check files permission in a broader path.
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
 
