@@ -10,6 +10,9 @@ qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
   * Update watch file.
   * Bump the build dependency on libqt5v8-5-private-dev to 5.1.0-2~,
     as I wrongly removed the private headers in the previous version.
+  * Add fix_systemdialogs_path to allow installing the sistemdialogs
+    example binary in it's place. Upstream bug
+    https://bugreports.qt-project.org/browse/QTBUG-32359.
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
 
