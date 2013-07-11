@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
 | libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-1-0
  _Z15quick_test_mainiPPcPKcS2_@Base 5.0.2
@@ -9,7 +9,10 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZN14QuickTestEvent11eventWindowEv@Base 5.0.2 1
  _ZN14QuickTestEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN14QuickTestEvent11qt_metacastEPKc@Base 5.0.2 1
+ _ZN14QuickTestEvent12keyClickCharERK7QStringii@Base 5.1.0 1
+ _ZN14QuickTestEvent12keyPressCharERK7QStringii@Base 5.1.0 1
  (subst)_ZN14QuickTestEvent12mouseReleaseEP7QObject{qreal}{qreal}iii@Base 5.0.2 1
+ _ZN14QuickTestEvent14keyReleaseCharERK7QStringii@Base 5.1.0 1
  (subst)_ZN14QuickTestEvent16mouseDoubleClickEP7QObject{qreal}{qreal}iii@Base 5.0.2 1
  _ZN14QuickTestEvent16staticMetaObjectE@Base 5.0.2 1
  _ZN14QuickTestEvent8keyClickEiii@Base 5.0.2 1

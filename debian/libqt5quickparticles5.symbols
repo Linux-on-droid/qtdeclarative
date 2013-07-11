@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
 | libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-1-0
- (optional=gccinternal|arch=i386)_ZN10QByteArray7reserveEi@Base 5.0.2
+ (optional=gccinternal|arch=amd64 i386)_ZN10QByteArray7reserveEi@Base 5.0.2
  _ZN21QQuickParticlesModule12defineModuleEv@Base 5.0.2 1
  (optional=gccinternal|arch=i386)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZTIN9QV8Engine9DeletableE@Base 5.0.2 1
