@@ -1,10 +1,8 @@
-# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf
+# SymbolsHelper-Confirmed: 5.0.2 amd64 armhf i386
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
- (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM18QQuickTrailEmitterFv12QQmlV8HandleS2_EEES_T_@Base 5.0.2
- (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM20QQuickCustomAffectorFv12QQmlV8HandlefEEES_T_@Base 5.0.2
- (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM21QQuickParticleEmitterFv12QQmlV8HandleEEES_T_@Base 5.0.2
- (optional=templinst|arch=armhf)_ZN11QMetaMethod10fromSignalIM22QQuickParticleAffectorFvffEEES_T_@Base 5.0.2
+ (optional=gccinternal|arch=i386)_ZN10QByteArray7reserveEi@Base 5.0.2
  _ZN21QQuickParticlesModule12defineModuleEv@Base 5.0.2
+ (optional=gccinternal|arch=i386)_ZN9QHashData8willGrowEv@Base 5.0.2
  _ZTIN9QV8Engine9DeletableE@Base 5.0.2
  _ZTSN9QV8Engine9DeletableE@Base 5.0.2
  _ZTVN9QV8Engine9DeletableE@Base 5.0.2
