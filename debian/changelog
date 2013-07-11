@@ -18,6 +18,7 @@ qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
     - Make libqt5qml5 provide qtdeclarative-abi-5-1-0.
     - Add mark_private_symbols.sh to mark the symbols.
     - Actually mark the symbols.
+    - Add lintian overrides for libqt5quickparticles5 and libqt5quick5.
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
 
