@@ -14,6 +14,10 @@ qtdeclarative-opensource-src (5.1.0-1) UNRELEASED; urgency=low
     example binary in it's place. Upstream bug
     https://bugreports.qt-project.org/browse/QTBUG-32359.
   * Update symbols files.
+  * Mark private symbols to provide qtdeclarative-abi-5-1-0.
+    - Make libqt5qml5 provide qtdeclarative-abi-5-1-0.
+    - Add mark_private_symbols.sh to mark the symbols.
+    - Actually mark the symbols.
 
  -- Timo Jyrinki <timo@debian.org>  Tue, 09 Jul 2013 08:53:30 +0300
 
