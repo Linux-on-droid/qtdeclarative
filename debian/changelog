@@ -1,5 +1,9 @@
 qtdeclarative-opensource-src (5.1.0-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add missing license information for tests/auto/qml/parserstress/tests/ecma*
+    in debian/copyright. Thanks Scott Kitterman for the tip.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 12 Jul 2013 21:17:58 -0300
 
 qtdeclarative-opensource-src (5.1.0-1) experimental; urgency=low
