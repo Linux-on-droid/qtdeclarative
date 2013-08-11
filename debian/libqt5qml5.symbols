@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64 i386
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-1-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -16,8 +16,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _Z28QQml_removeValueTypeProviderP21QQmlValueTypeProvider@Base 5.1.0 1
  _Z31qmlAttachedPropertiesObjectByIdiPK7QObjectb@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (optional=gccinternal|arch=i386)_ZN10QByteArray4dataEv@Base 5.0.2
- (optional=inline|arch=!i386)_ZN10QByteArray7reserveEi@Base 5.0.2
+ (optional=inline)_ZN10QByteArray7reserveEi@Base 5.0.2
  _ZN10QQmlBundle11addMetaLinkERK7QStringS2_RK10QByteArray@Base 5.0.2 1
  _ZN10QQmlBundle14isBundleHeaderEPKci@Base 5.0.2 1
  _ZN10QQmlBundle15findInsertPointEjPi@Base 5.0.2 1
@@ -149,8 +148,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN11QQmlImports10setBaseUrlERK4QUrlRK7QString@Base 5.0.2 1
  _ZN11QQmlImports12locateQmldirEP18QQmlImportDatabaseRK7QStringiiPS2_S5_@Base 5.0.2 1
  _ZN11QQmlImports13addFileImportEP18QQmlImportDatabaseRK7QStringS4_iibP5QListI9QQmlErrorE@Base 5.0.2 1
- (optional=gccinternal|arch=i386)_ZN11QQmlImports15ScriptReferenceC1ERKS0_@Base 5.0.2 1
- (optional=gccinternal|arch=i386)_ZN11QQmlImports15ScriptReferenceC2ERKS0_@Base 5.0.2 1
  _ZN11QQmlImports16addLibraryImportEP18QQmlImportDatabaseRK7QStringS4_iiS4_S4_bP5QListI9QQmlErrorE@Base 5.0.2 1
  _ZN11QQmlImports17addImplicitImportEP18QQmlImportDatabaseP5QListI9QQmlErrorE@Base 5.0.2 1
  _ZN11QQmlImports18completeQmldirPathERK7QStringS2_iiNS_13ImportVersionE@Base 5.0.2 1
@@ -1353,9 +1350,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN7QQmlVME5resetEv@Base 5.0.2 1
  _ZN7QQmlVME7executeEP5QListI9QQmlErrorERKNS_9InterruptE@Base 5.0.2 1
  _ZN7QQmlVME8completeERKNS_9InterruptE@Base 5.0.2 1
- (optional=gccinternal|arch=i386)_ZN7QQmlVMED1Ev@Base 5.0.2 1
- (optional=gccinternal|arch=i386)_ZN7QQmlVMED2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=i386)_ZN7QString5clearEv@Base 5.0.2
  _ZN8QJSValue11setPropertyERK7QStringRKS_@Base 5.0.2
  _ZN8QJSValue11setPropertyEjRKS_@Base 5.0.2
  _ZN8QJSValue12setPrototypeERKS_@Base 5.0.2
@@ -1444,7 +1438,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlInfoC2ERKS_@Base 5.0.2
  _ZN8QQmlInfoD1Ev@Base 5.0.2
  _ZN8QQmlInfoD2Ev@Base 5.0.2
- (optional=templinst|arch=i386)_ZN8QQmlPool3NewINS_11StringClassEEEPT_v@Base 5.0.2 1
  _ZN8QQmlPool5clearEv@Base 5.0.2 1
  (optional=templinst)_ZN8QQmlPool7destroyIN10QQmlScript13TypeReferenceEEEvPNS_5ClassE@Base 5.0.2 1
  (optional=templinst)_ZN8QQmlPool7destroyIN10QQmlScript6Object11DynamicSlotEEEvPNS_5ClassE@Base 5.0.2 1
@@ -1800,7 +1793,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK17QQmlPropertyCache6signalEiPPS_@Base 5.0.2 1
  _ZNK17QQmlPropertyCache7resolveEP16QQmlPropertyData@Base 5.0.2 1
  _ZNK17QQmlPropertyCache8propertyEi@Base 5.0.2 1
- (optional=templinst|arch=i386)_ZNK17QQmlPropertyCache8propertyI7QStringEEP16QQmlPropertyDataRKT_P7QObjectP15QQmlContextData@Base 5.0.2 1
  _ZNK17QQmlPropertyCache9classNameEv@Base 5.0.2 1
  _ZNK17QQmlRectValueType10metaObjectEv@Base 5.0.2 1
  _ZNK17QQmlRectValueType1xEv@Base 5.0.2 1
@@ -1988,7 +1980,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK9QQmlTimer9isRunningEv@Base 5.0.2 1
  _ZNK9QV8Engine12illegalNamesEv@Base 5.0.2 1
  _ZNK9QV8Engine23scriptValueFromInternalEN2v86HandleINS0_5ValueEEE@Base 5.0.2 1
- (optional=templinst|arch=!amd64 !i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=!amd64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QQmlBundle@Base 5.0.2 1
  _ZTI10QQmlEngine@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2

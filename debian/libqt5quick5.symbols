@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64 armhf
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-1-0
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
@@ -1673,14 +1673,14 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN23QQuickVector3dAnimationD2Ev@Base 5.0.2 1
  _ZN23QSGDefaultRectangleNode10setAlignedEb@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNode11setPenColorERK6QColor@Base 5.1.0 1
- _ZN23QSGDefaultRectangleNode11setPenWidthEd@Base 5.1.0 1
+ (subst)_ZN23QSGDefaultRectangleNode11setPenWidthE{qreal}@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNode14updateGeometryEv@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNode15setAntialiasingEb@Base 5.1.0 1
- _ZN23QSGDefaultRectangleNode16setGradientStopsERK7QVectorI5QPairId6QColorEE@Base 5.1.0 1
+ (subst)_ZN23QSGDefaultRectangleNode16setGradientStopsERK7QVectorI5QPairI{qreal}6QColorEE@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNode6updateEv@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNode7setRectERK6QRectF@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNode8setColorERK6QColor@Base 5.1.0 1
- _ZN23QSGDefaultRectangleNode9setRadiusEd@Base 5.1.0 1
+ (subst)_ZN23QSGDefaultRectangleNode9setRadiusE{qreal}@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNodeC1Ev@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNodeC2Ev@Base 5.1.0 1
  _ZN23QSGDefaultRectangleNodeD0Ev@Base 5.1.0 1
