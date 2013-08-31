@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.1.1-1) UNRELEASED; urgency=low
   * New upstream release.
   * Update symbols file with buildds' logs.
   * Remove fix_systemdialogs_path, applied upstream.
+  * Adjust examples install file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Aug 2013 21:13:21 -0300
 
