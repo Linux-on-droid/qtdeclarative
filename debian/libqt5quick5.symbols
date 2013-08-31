@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64 armhf
+# SymbolsHelper-Confirmed: 5.1.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-1-0
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
@@ -1567,6 +1567,11 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN22QQuickStochasticEngineD0Ev@Base 5.0.2 1
  _ZN22QQuickStochasticEngineD1Ev@Base 5.0.2 1
  _ZN22QQuickStochasticEngineD2Ev@Base 5.0.2 1
+ _ZN22QSGSmoothColorMaterialC1Ev@Base 5.1.1
+ _ZN22QSGSmoothColorMaterialC2Ev@Base 5.1.1
+ _ZN22QSGSmoothColorMaterialD0Ev@Base 5.1.1
+ _ZN22QSGSmoothColorMaterialD1Ev@Base 5.1.1
+ _ZN22QSGSmoothColorMaterialD2Ev@Base 5.1.1
  _ZN22QSGVertexColorMaterialC1Ev@Base 5.0.2
  _ZN22QSGVertexColorMaterialC2Ev@Base 5.0.2
  _ZN22QSGVertexColorMaterialD0Ev@Base 5.0.2
@@ -1749,6 +1754,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN24QSGOpaqueTextureMaterialD0Ev@Base 5.0.2
  _ZN24QSGOpaqueTextureMaterialD1Ev@Base 5.0.2
  _ZN24QSGOpaqueTextureMaterialD2Ev@Base 5.0.2
+ _ZN24QSGSmoothTextureMaterial10setTextureEP10QSGTexture@Base 5.1.1
+ _ZN24QSGSmoothTextureMaterialC1Ev@Base 5.1.1
+ _ZN24QSGSmoothTextureMaterialC2Ev@Base 5.1.1
+ _ZN24QSGSmoothTextureMaterialD0Ev@Base 5.1.1
+ _ZN24QSGSmoothTextureMaterialD1Ev@Base 5.1.1
+ _ZN24QSGSmoothTextureMaterialD2Ev@Base 5.1.1
  _ZN25QQuickShaderEffectTexture11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN25QQuickShaderEffectTexture11qt_metacastEPKc@Base 5.0.2 1
  _ZN25QQuickShaderEffectTexture12setRecursiveEb@Base 5.0.2 1
@@ -2332,6 +2343,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK22QQuickImplicitSizeItem10metaObjectEv@Base 5.0.2 1
  _ZNK22QQuickShaderEffectNode10metaObjectEv@Base 5.0.2 1
  _ZNK22QQuickStochasticEngine10metaObjectEv@Base 5.0.2 1
+ _ZNK22QSGSmoothColorMaterial12createShaderEv@Base 5.1.1
+ _ZNK22QSGSmoothColorMaterial4typeEv@Base 5.1.1
+ _ZNK22QSGSmoothColorMaterial7compareEPK11QSGMaterial@Base 5.1.1
  _ZNK22QSGVertexColorMaterial12createShaderEv@Base 5.0.2
  _ZNK22QSGVertexColorMaterial4typeEv@Base 5.0.2
  _ZNK22QSGVertexColorMaterial7compareEPK11QSGMaterial@Base 5.0.2
@@ -2374,6 +2388,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK24QSGOpaqueTextureMaterial12createShaderEv@Base 5.0.2
  _ZNK24QSGOpaqueTextureMaterial4typeEv@Base 5.0.2
  _ZNK24QSGOpaqueTextureMaterial7compareEPK11QSGMaterial@Base 5.0.2
+ _ZNK24QSGSmoothTextureMaterial12createShaderEv@Base 5.1.1
+ _ZNK24QSGSmoothTextureMaterial4typeEv@Base 5.1.1
  _ZNK25QQuickShaderEffectTexture10hasMipmapsEv@Base 5.0.2 1
  _ZNK25QQuickShaderEffectTexture10metaObjectEv@Base 5.0.2 1
  _ZNK25QQuickShaderEffectTexture15hasAlphaChannelEv@Base 5.0.2 1
@@ -2477,6 +2493,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI22QQuickImplicitSizeItem@Base 5.0.2 1
  _ZTI22QQuickShaderEffectNode@Base 5.0.2 1
  _ZTI22QQuickStochasticEngine@Base 5.0.2 1
+ _ZTI22QSGSmoothColorMaterial@Base 5.1.1
  _ZTI22QSGVertexColorMaterial@Base 5.0.2
  _ZTI23QQuickAbstractAnimation@Base 5.0.2 1
  _ZTI23QQuickParallelAnimation@Base 5.0.2 1
@@ -2487,6 +2504,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI24QQuickAccessibleAttached@Base 5.0.2 1
  _ZTI24QQuickShaderEffectSource@Base 5.0.2 1
  _ZTI24QSGOpaqueTextureMaterial@Base 5.0.2
+ _ZTI24QSGSmoothTextureMaterial@Base 5.1.1
  _ZTI25QQuickShaderEffectTexture@Base 5.0.2 1
  _ZTI26QAccessibleTextCursorEvent@Base 5.0.2
  _ZTI26QAccessibleTextUpdateEvent@Base 5.0.2
@@ -2579,6 +2597,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS22QQuickImplicitSizeItem@Base 5.0.2 1
  _ZTS22QQuickShaderEffectNode@Base 5.0.2 1
  _ZTS22QQuickStochasticEngine@Base 5.0.2 1
+ _ZTS22QSGSmoothColorMaterial@Base 5.1.1
  _ZTS22QSGVertexColorMaterial@Base 5.0.2
  _ZTS23QQuickAbstractAnimation@Base 5.0.2 1
  _ZTS23QQuickParallelAnimation@Base 5.0.2 1
@@ -2589,6 +2608,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS24QQuickAccessibleAttached@Base 5.0.2 1
  _ZTS24QQuickShaderEffectSource@Base 5.0.2 1
  _ZTS24QSGOpaqueTextureMaterial@Base 5.0.2
+ _ZTS24QSGSmoothTextureMaterial@Base 5.1.1
  _ZTS25QQuickShaderEffectTexture@Base 5.0.2 1
  _ZTS26QAccessibleTextCursorEvent@Base 5.0.2
  _ZTS26QAccessibleTextUpdateEvent@Base 5.0.2
@@ -2680,6 +2700,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV22QQuickImplicitSizeItem@Base 5.0.2 1
  _ZTV22QQuickShaderEffectNode@Base 5.0.2 1
  _ZTV22QQuickStochasticEngine@Base 5.0.2 1
+ _ZTV22QSGSmoothColorMaterial@Base 5.1.1
  _ZTV22QSGVertexColorMaterial@Base 5.0.2
  _ZTV23QQuickAbstractAnimation@Base 5.0.2 1
  _ZTV23QQuickParallelAnimation@Base 5.0.2 1
@@ -2690,6 +2711,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV24QQuickAccessibleAttached@Base 5.0.2 1
  _ZTV24QQuickShaderEffectSource@Base 5.0.2 1
  _ZTV24QSGOpaqueTextureMaterial@Base 5.0.2
+ _ZTV24QSGSmoothTextureMaterial@Base 5.1.1
  _ZTV25QQuickShaderEffectTexture@Base 5.0.2 1
  _ZTV26QAccessibleTextCursorEvent@Base 5.0.2
  _ZTV26QAccessibleTextUpdateEvent@Base 5.0.2
