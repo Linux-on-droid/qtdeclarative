@@ -17,6 +17,31 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
 License: LGPL-2.1
 
+Files: src/3rdparty/masm/assembler/*
+       src/3rdparty/masm/disassembler/*
+       src/3rdparty/masm/jit/JITCompilationEffort.h
+       src/3rdparty/masm/wtf/FilePrintStream.cpp
+       src/3rdparty/masm/runtime/MatchResult.h
+       src/3rdparty/masm/create_regex_tables
+Copyright: 2012-2013 Apple Inc.
+License: BSD-2-clause
+
+Files: src/3rdparty/masm/wtf/ASCIICType.h
+       src/3rdparty/masm/wtf/Atomics.h
+       src/3rdparty/masm/wtf/SegmentedVector.h
+       src/3rdparty/masm/wtf/Locker.h
+Copyright: 2007-2011 Apple Inc.
+License: BSD-3-clause
+
+Files: src/3rdparty/masm/yarr/*
+Copyright: 2009-2013 Apple Inc.
+           2010 Peter Varga <pvarga@inf.u-szeged.hu>, University of Szeged
+License: BSD-2-clause
+
+Files: src/3rdparty/double-conversion/*
+Copyright: 2012 the V8 project authors
+License: BSD-3-clause
+
 Files: examples/*
  src/qml/doc/snippets/*
  src/quick/doc/snippets/*
@@ -119,6 +144,28 @@ License: GFDL-NIV-1.3
  .
  On Debian systems, the complete text of the GFDL-1.3 license can be found in
  `/usr/share/common-licenses/GFDL-1.3`,
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
