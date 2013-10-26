@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   * Bump other Qt build-dependecies to 5.2.0.
   * Add copyright information for 3rdparty code to debian/copyright.
   * Update .install files.
+  * Add new qtdeclarative5-settings-plugin package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
 

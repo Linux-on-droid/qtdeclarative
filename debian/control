@@ -149,6 +149,17 @@ Description: Qt 5 Qt Quick 2 QML plugin
  .
  This package contains the Qt Quick 2 QML plugin for Qt declarative.
 
+Package: qtdeclarative5-settings-plugin
+Architecture: any
+Multi-Arch: same
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 settings QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the settings QML plugin for Qt declarative.
+
 Package: qtdeclarative5-test-plugin
 Architecture: any
 Multi-Arch: same
