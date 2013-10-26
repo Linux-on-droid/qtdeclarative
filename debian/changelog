@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   * Drop build-dependency on libqt5v8-5-private-dev, no longer needed.
   * Bump other Qt build-dependecies to 5.2.0.
   * Add copyright information for 3rdparty code to debian/copyright.
+  * Update .install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
 

@@ -2,6 +2,7 @@ usr/include/qt5/QtQml/QJSEngine
 usr/include/qt5/QtQml/QJSValue
 usr/include/qt5/QtQml/QJSValueIterator
 usr/include/qt5/QtQml/QJSValueList
+usr/include/qt5/QtQml/QQmlAbstractUrlInterceptor
 usr/include/qt5/QtQml/QQmlApplicationEngine
 usr/include/qt5/QtQml/QQmlAttachedPropertiesFunc
 usr/include/qt5/QtQml/QQmlComponent
@@ -13,6 +14,7 @@ usr/include/qt5/QtQml/QQmlExpression
 usr/include/qt5/QtQml/QQmlExtensionInterface
 usr/include/qt5/QtQml/QQmlExtensionPlugin
 usr/include/qt5/QtQml/QQmlFile
+usr/include/qt5/QtQml/QQmlFileSelector
 usr/include/qt5/QtQml/QQmlImageProviderBase
 usr/include/qt5/QtQml/QQmlIncubationController
 usr/include/qt5/QtQml/QQmlIncubator
@@ -35,6 +37,7 @@ usr/include/qt5/QtQml/qjsengine.h
 usr/include/qt5/QtQml/qjsvalue.h
 usr/include/qt5/QtQml/qjsvalueiterator.h
 usr/include/qt5/QtQml/qqml.h
+usr/include/qt5/QtQml/qqmlabstracturlinterceptor.h
 usr/include/qt5/QtQml/qqmlapplicationengine.h
 usr/include/qt5/QtQml/qqmlcomponent.h
 usr/include/qt5/QtQml/qqmlcontext.h
@@ -45,6 +48,7 @@ usr/include/qt5/QtQml/qqmlexpression.h
 usr/include/qt5/QtQml/qqmlextensioninterface.h
 usr/include/qt5/QtQml/qqmlextensionplugin.h
 usr/include/qt5/QtQml/qqmlfile.h
+usr/include/qt5/QtQml/qqmlfileselector.h
 usr/include/qt5/QtQml/qqmlincubator.h
 usr/include/qt5/QtQml/qqmlinfo.h
 usr/include/qt5/QtQml/qqmllist.h
@@ -57,6 +61,7 @@ usr/include/qt5/QtQml/qqmlpropertyvaluesource.h
 usr/include/qt5/QtQml/qqmlscriptstring.h
 usr/include/qt5/QtQml/qtqmlglobal.h
 usr/include/qt5/QtQml/qtqmlversion.h
+usr/include/qt5/QtQuick/QQuickFramebufferObject
 usr/include/qt5/QtQuick/QQuickImageProvider
 usr/include/qt5/QtQuick/QQuickItem
 usr/include/qt5/QtQuick/QQuickPaintedItem
@@ -93,6 +98,7 @@ usr/include/qt5/QtQuick/QtQuick
 usr/include/qt5/QtQuick/QtQuickDepends
 usr/include/qt5/QtQuick/QtQuickVersion
 usr/include/qt5/QtQuick/designersupport.h
+usr/include/qt5/QtQuick/qquickframebufferobject.h
 usr/include/qt5/QtQuick/qquickimageprovider.h
 usr/include/qt5/QtQuick/qquickitem.h
 usr/include/qt5/QtQuick/qquickpainteditem.h
@@ -128,6 +134,7 @@ usr/lib/*/cmake/Qt5Quick/Qt5QuickConfig.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake
 usr/lib/*/cmake/Qt5QuickTest/Qt5QuickTestConfig.cmake
 usr/lib/*/cmake/Qt5QuickTest/Qt5QuickTestConfigVersion.cmake
+usr/lib/*/cmake/Qt5Widgets/Qt5Widgets_AccessibleQuickFactory.cmake
 usr/lib/*/libQt5Qml.prl
 usr/lib/*/libQt5Qml.so
 usr/lib/*/libQt5QmlDevTools.a
