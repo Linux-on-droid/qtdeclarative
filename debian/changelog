@@ -8,6 +8,7 @@ qtdeclarative-opensource-src (5.2.0~beta1-1) UNRELEASED; urgency=low
   * Update .install files.
   * Add new qtdeclarative5-settings-plugin package.
   * Make libqt5qml5 provide qtdeclarative-abi-5-2-0.
+  * Update symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
 
