@@ -16,6 +16,7 @@ qtdeclarative-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
   * Adjust install files.
   * Update symbols files. The symbols removed where either introduced with
     beta1 or private symbols.
+  * Mark private symbols as such.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
 

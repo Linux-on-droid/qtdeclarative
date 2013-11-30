@@ -215,19 +215,19 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickViewD2Ev@Base 5.0.2
  _ZN10QSGContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN10QSGContext11qt_metacastEPKc@Base 5.0.2 1
- _ZN10QSGContext15createGlyphNodeEP16QSGRenderContext@Base 5.2.0~rc1
+ _ZN10QSGContext15createGlyphNodeEP16QSGRenderContext@Base 5.2.0~rc1 1
  _ZN10QSGContext15createImageNodeEv@Base 5.0.2 1
  _ZN10QSGContext16staticMetaObjectE@Base 5.0.2 1
  _ZN10QSGContext19createRectangleNodeEv@Base 5.0.2 1
  _ZN10QSGContext19createWindowManagerEv@Base 5.0.2 1
- _ZN10QSGContext19sharedOpenGLContextEv@Base 5.2.0~rc1
+ _ZN10QSGContext19sharedOpenGLContextEv@Base 5.2.0~rc1 1
  _ZN10QSGContext20createDefaultContextEv@Base 5.0.2 1
  _ZN10QSGContext21createAnimationDriverEP7QObject@Base 5.0.2 1
- _ZN10QSGContext21createNativeGlyphNodeEP16QSGRenderContext@Base 5.2.0~rc1
- _ZN10QSGContext22setSharedOpenGLContextEP14QOpenGLContext@Base 5.2.0~rc1
+ _ZN10QSGContext21createNativeGlyphNodeEP16QSGRenderContext@Base 5.2.0~rc1 1
+ _ZN10QSGContext22setSharedOpenGLContextEP14QOpenGLContext@Base 5.2.0~rc1 1
  _ZN10QSGContext23setDistanceFieldEnabledEb@Base 5.0.2 1
- _ZN10QSGContext24renderContextInitializedEP16QSGRenderContext@Base 5.2.0~rc1
- _ZN10QSGContext24renderContextInvalidatedEP16QSGRenderContext@Base 5.2.0~rc1
+ _ZN10QSGContext24renderContextInitializedEP16QSGRenderContext@Base 5.2.0~rc1 1
+ _ZN10QSGContext24renderContextInvalidatedEP16QSGRenderContext@Base 5.2.0~rc1 1
  _ZN10QSGContext29createTextureFactoryFromImageERK6QImage@Base 5.0.2 1
  _ZN10QSGContextC1EP7QObject@Base 5.0.2 1
  _ZN10QSGContextC2EP7QObject@Base 5.0.2 1
@@ -321,8 +321,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN11QSGRenderer25setProjectionMatrixToRectERK6QRectF@Base 5.0.2 1
  _ZN11QSGRenderer31setProjectionMatrixToDeviceRectEv@Base 5.0.2 1
  _ZN11QSGRenderer4drawEPK17QSGMaterialShaderPK11QSGGeometry@Base 5.0.2 1
- _ZN11QSGRendererC1EP16QSGRenderContext@Base 5.2.0~rc1
- _ZN11QSGRendererC2EP16QSGRenderContext@Base 5.2.0~rc1
+ _ZN11QSGRendererC1EP16QSGRenderContext@Base 5.2.0~rc1 1
+ _ZN11QSGRendererC2EP16QSGRenderContext@Base 5.2.0~rc1 1
  _ZN11QSGRendererD0Ev@Base 5.0.2 1
  _ZN11QSGRendererD1Ev@Base 5.0.2 1
  _ZN11QSGRendererD2Ev@Base 5.0.2 1
@@ -918,7 +918,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickTextInput14mouseMoveEventEP11QMouseEvent@Base 5.0.2 1
  _ZN15QQuickTextInput15canPasteChangedEv@Base 5.0.2 1
  _ZN15QQuickTextInput15echoModeChangedENS_8EchoModeE@Base 5.0.2 1
- _ZN15QQuickTextInput15editingFinishedEv@Base 5.2.0~rc1
+ _ZN15QQuickTextInput15editingFinishedEv@Base 5.2.0~rc1 1
  _ZN15QQuickTextInput15geometryChangedERK6QRectFS2_@Base 5.0.2 1
  _ZN15QQuickTextInput15mousePressEventEP11QMouseEvent@Base 5.0.2 1
  _ZN15QQuickTextInput15readOnlyChangedEb@Base 5.0.2 1
@@ -1095,7 +1095,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGAreaAllocatorC2ERK5QSize@Base 5.0.2 1
  _ZN16QSGAreaAllocatorD1Ev@Base 5.0.2 1
  _ZN16QSGAreaAllocatorD2Ev@Base 5.0.2 1
- _ZN16QSGBatchRenderer8Renderer10preprocessEv@Base 5.2.0~rc1
+ _ZN16QSGBatchRenderer8Renderer10preprocessEv@Base 5.2.0~rc1 1
  _ZN16QSGBatchRenderer8Renderer10updateClipEPK11QSGClipNodePKNS_5BatchE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer11nodeChangedEP7QSGNode6QFlagsINS1_13DirtyStateBitEE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer11tagSubRootsEPNS_4NodeE@Base 5.2.0~beta1 1
@@ -1125,13 +1125,13 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGBatchRenderer8Renderer25invalidateAndRecycleBatchEPNS_5BatchE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer25removeBatchRootFromParentEPNS_4NodeE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer27buildRenderListsFromScratchEv@Base 5.2.0~beta1 1
- _ZN16QSGBatchRenderer8Renderer29invalidateAlphaBatchesForRootEPNS_4NodeE@Base 5.2.0~rc1
+ _ZN16QSGBatchRenderer8Renderer29invalidateAlphaBatchesForRootEPNS_4NodeE@Base 5.2.0~rc1 1
  _ZN16QSGBatchRenderer8Renderer30buildRenderListsForTaggedRootsEv@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer3mapEPNS_6BufferEi@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer5unmapEPNS_6BufferE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer6renderEv@Base 5.2.0~beta1 1
- _ZN16QSGBatchRenderer8RendererC1EP16QSGRenderContext@Base 5.2.0~rc1
- _ZN16QSGBatchRenderer8RendererC2EP16QSGRenderContext@Base 5.2.0~rc1
+ _ZN16QSGBatchRenderer8RendererC1EP16QSGRenderContext@Base 5.2.0~rc1 1
+ _ZN16QSGBatchRenderer8RendererC2EP16QSGRenderContext@Base 5.2.0~rc1 1
  _ZN16QSGBatchRenderer8RendererD0Ev@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8RendererD1Ev@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8RendererD2Ev@Base 5.2.0~beta1 1
@@ -1146,27 +1146,27 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGRectangleNodeD0Ev@Base 5.0.2 1
  _ZN16QSGRectangleNodeD1Ev@Base 5.0.2 1
  _ZN16QSGRectangleNodeD2Ev@Base 5.0.2 1
- _ZN16QSGRenderContext10initializeEP14QOpenGLContext@Base 5.2.0~rc1
- _ZN16QSGRenderContext10invalidateEv@Base 5.2.0~rc1
- _ZN16QSGRenderContext11initializedEv@Base 5.2.0~rc1
- _ZN16QSGRenderContext11invalidatedEv@Base 5.2.0~rc1
- _ZN16QSGRenderContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0~rc1
- _ZN16QSGRenderContext11qt_metacastEPKc@Base 5.2.0~rc1
- _ZN16QSGRenderContext14createRendererEv@Base 5.2.0~rc1
- _ZN16QSGRenderContext15renderNextFrameEP11QSGRendererj@Base 5.2.0~rc1
- _ZN16QSGRenderContext16staticMetaObjectE@Base 5.2.0~rc1
- _ZN16QSGRenderContext17textureForFactoryEP20QQuickTextureFactoryP12QQuickWindow@Base 5.2.0~rc1
- _ZN16QSGRenderContext23distanceFieldGlyphCacheERK8QRawFont@Base 5.2.0~rc1
- _ZN16QSGRenderContext23textureFactoryDestroyedEP7QObject@Base 5.2.0~rc1
- _ZN16QSGRenderContext24depthStencilBufferForFboEP24QOpenGLFramebufferObject@Base 5.2.0~rc1
- _ZN16QSGRenderContext25depthStencilBufferManagerEv@Base 5.2.0~rc1
- _ZN16QSGRenderContext28registerFontengineForCleanupEP11QFontEngine@Base 5.2.0~rc1
- _ZN16QSGRenderContext4fromEP14QOpenGLContext@Base 5.2.0~rc1
- _ZN16QSGRenderContextC1EP10QSGContext@Base 5.2.0~rc1
- _ZN16QSGRenderContextC2EP10QSGContext@Base 5.2.0~rc1
- _ZN16QSGRenderContextD0Ev@Base 5.2.0~rc1
- _ZN16QSGRenderContextD1Ev@Base 5.2.0~rc1
- _ZN16QSGRenderContextD2Ev@Base 5.2.0~rc1
+ _ZN16QSGRenderContext10initializeEP14QOpenGLContext@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext10invalidateEv@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext11initializedEv@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext11invalidatedEv@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext11qt_metacastEPKc@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext14createRendererEv@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext15renderNextFrameEP11QSGRendererj@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext16staticMetaObjectE@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext17textureForFactoryEP20QQuickTextureFactoryP12QQuickWindow@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext23distanceFieldGlyphCacheERK8QRawFont@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext23textureFactoryDestroyedEP7QObject@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext24depthStencilBufferForFboEP24QOpenGLFramebufferObject@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext25depthStencilBufferManagerEv@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext28registerFontengineForCleanupEP11QFontEngine@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContext4fromEP14QOpenGLContext@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContextC1EP10QSGContext@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContextC2EP10QSGContext@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContextD0Ev@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContextD1Ev@Base 5.2.0~rc1 1
+ _ZN16QSGRenderContextD2Ev@Base 5.2.0~rc1 1
  _ZN16QSGTransformNode17setCombinedMatrixERK10QMatrix4x4@Base 5.0.2
  _ZN16QSGTransformNode9setMatrixERK10QMatrix4x4@Base 5.0.2
  _ZN16QSGTransformNodeC1Ev@Base 5.0.2
@@ -1299,9 +1299,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QSGMaterialShader20setShaderSourceFilesE6QFlagsIN13QOpenGLShader13ShaderTypeBitEERK11QStringList@Base 5.2.0~rc1
  _ZN17QSGMaterialShader7compileEv@Base 5.0.2
  _ZN17QSGMaterialShader8activateEv@Base 5.0.2
- _ZN17QSGMaterialShaderC1ER24QSGMaterialShaderPrivate@Base 5.2.0~rc1
+ _ZN17QSGMaterialShaderC1ER24QSGMaterialShaderPrivate@Base 5.2.0~rc1 1
  _ZN17QSGMaterialShaderC1Ev@Base 5.0.2
- _ZN17QSGMaterialShaderC2ER24QSGMaterialShaderPrivate@Base 5.2.0~rc1
+ _ZN17QSGMaterialShaderC2ER24QSGMaterialShaderPrivate@Base 5.2.0~rc1 1
  _ZN17QSGMaterialShaderC2Ev@Base 5.0.2
  _ZN17QSGMaterialShaderD0Ev@Base 5.2.0~rc1
  _ZN17QSGMaterialShaderD1Ev@Base 5.2.0~rc1
@@ -1438,7 +1438,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate15initContentItemEv@Base 5.0.2 1
  _ZN19QQuickWindowPrivate15setFocusInScopeEP10QQuickItemS1_N2Qt11FocusReasonE6QFlagsINS_11FocusOptionEE@Base 5.1.0 1
  _ZN19QQuickWindowPrivate15updateDirtyNodeEP10QQuickItem@Base 5.0.2 1
- _ZN19QQuickWindowPrivate16clearFocusObjectEv@Base 5.2.0~rc1
+ _ZN19QQuickWindowPrivate16clearFocusObjectEv@Base 5.2.0~rc1 1
  _ZN19QQuickWindowPrivate16deliverDragEventEP17QQuickDragGrabberP10QQuickItemP14QDragMoveEvent@Base 5.0.2 1
  _ZN19QQuickWindowPrivate16deliverDragEventEP17QQuickDragGrabberP6QEvent@Base 5.0.2 1
  _ZN19QQuickWindowPrivate16renderSceneGraphERK5QSize@Base 5.0.2 1
@@ -1677,8 +1677,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN22QQuickAnimatorProxyJob14readyToAnimateEv@Base 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob16staticMetaObjectE@Base 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob17updateCurrentTimeEi@Base 5.2.0~beta1 1
- _ZN22QQuickAnimatorProxyJob19startedByControllerEv@Base 5.2.0~rc1
- _ZN22QQuickAnimatorProxyJob20controllerWasDeletedEv@Base 5.2.0~rc1
+ _ZN22QQuickAnimatorProxyJob19startedByControllerEv@Base 5.2.0~rc1 1
+ _ZN22QQuickAnimatorProxyJob20controllerWasDeletedEv@Base 5.2.0~rc1 1
  _ZN22QQuickAnimatorProxyJob20findAnimationContextEP23QQuickAbstractAnimation@Base 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob21sceneGraphInitializedEv@Base 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob21syncBackCurrentValuesEv@Base 5.2.0~beta1 1
@@ -1749,14 +1749,14 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN22QQuickStochasticEngineD0Ev@Base 5.0.2 1
  _ZN22QQuickStochasticEngineD1Ev@Base 5.0.2 1
  _ZN22QQuickStochasticEngineD2Ev@Base 5.0.2 1
- _ZN22QSGShaderSourceBuilder12appendSourceERK10QByteArray@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilder13addDefinitionERK10QByteArray@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilder13removeVersionEv@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilder16appendSourceFileERK7QString@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilder26initializeProgramFromFilesEP20QOpenGLShaderProgramRK7QStringS4_@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilder5clearEv@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilderC1Ev@Base 5.2.0~rc1
- _ZN22QSGShaderSourceBuilderC2Ev@Base 5.2.0~rc1
+ _ZN22QSGShaderSourceBuilder12appendSourceERK10QByteArray@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilder13addDefinitionERK10QByteArray@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilder13removeVersionEv@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilder16appendSourceFileERK7QString@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilder26initializeProgramFromFilesEP20QOpenGLShaderProgramRK7QStringS4_@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilder5clearEv@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilderC1Ev@Base 5.2.0~rc1 1
+ _ZN22QSGShaderSourceBuilderC2Ev@Base 5.2.0~rc1 1
  _ZN22QSGSmoothColorMaterialC1Ev@Base 5.1.1 1
  _ZN22QSGSmoothColorMaterialC2Ev@Base 5.1.1 1
  _ZN22QSGSmoothColorMaterialD0Ev@Base 5.1.1 1
@@ -2065,8 +2065,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN30QSGOpaqueTextureMaterialShader10initializeEv@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShader11updateStateERKN17QSGMaterialShader11RenderStateEP11QSGMaterialS5_@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShader4typeE@Base 5.0.2 1
- _ZN30QSGOpaqueTextureMaterialShaderC1Ev@Base 5.2.0~rc1
- _ZN30QSGOpaqueTextureMaterialShaderC2Ev@Base 5.2.0~rc1
+ _ZN30QSGOpaqueTextureMaterialShaderC1Ev@Base 5.2.0~rc1 1
+ _ZN30QSGOpaqueTextureMaterialShaderC2Ev@Base 5.2.0~rc1 1
  _ZN30QSGOpaqueTextureMaterialShaderD0Ev@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShaderD1Ev@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShaderD2Ev@Base 5.0.2 1
@@ -2495,9 +2495,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK16QQuickTransition7toStateEv@Base 5.0.2 1
  _ZNK16QQuickTransition9fromStateEv@Base 5.0.2 1
  _ZNK16QSGContextPlugin10metaObjectEv@Base 5.0.2 1
- _ZNK16QSGRenderContext10metaObjectEv@Base 5.2.0~rc1
- _ZNK16QSGRenderContext13createTextureERK6QImage@Base 5.2.0~rc1
- _ZNK16QSGRenderContext20createTextureNoAtlasERK6QImage@Base 5.2.0~rc1
+ _ZNK16QSGRenderContext10metaObjectEv@Base 5.2.0~rc1 1
+ _ZNK16QSGRenderContext13createTextureERK6QImage@Base 5.2.0~rc1 1
+ _ZNK16QSGRenderContext20createTextureNoAtlasERK6QImage@Base 5.2.0~rc1 1
  _ZNK17QQuickAnimatorJob5valueEv@Base 5.2.0~beta1 1
  _ZNK17QQuickItemPrivate13dirtyToStringEv@Base 5.0.2 1
  _ZNK17QQuickItemPrivate14verticalCenterEv@Base 5.0.2 1
@@ -2607,9 +2607,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK22QQuickRotationAnimator9directionEv@Base 5.2.0~beta1 1
  _ZNK22QQuickShaderEffectNode10metaObjectEv@Base 5.0.2 1
  _ZNK22QQuickStochasticEngine10metaObjectEv@Base 5.0.2 1
- _ZNK22QSGShaderSourceBuilder14contextProfileEv@Base 5.2.0~rc1
- _ZNK22QSGShaderSourceBuilder17resolveShaderPathERK7QString@Base 5.2.0~rc1
- _ZNK22QSGShaderSourceBuilder6sourceEv@Base 5.2.0~rc1
+ _ZNK22QSGShaderSourceBuilder14contextProfileEv@Base 5.2.0~rc1 1
+ _ZNK22QSGShaderSourceBuilder17resolveShaderPathERK7QString@Base 5.2.0~rc1 1
+ _ZNK22QSGShaderSourceBuilder6sourceEv@Base 5.2.0~rc1 1
  _ZNK22QSGSmoothColorMaterial12createShaderEv@Base 5.1.1 1
  _ZNK22QSGSmoothColorMaterial4typeEv@Base 5.1.1 1
  _ZNK22QSGSmoothColorMaterial7compareEPK11QSGMaterial@Base 5.1.1 1
@@ -2657,7 +2657,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK24QQuickShaderEffectSource6mipmapEv@Base 5.0.2 1
  _ZNK24QQuickShaderEffectSource8wrapModeEv@Base 5.0.2 1
  _ZNK24QQuickShaderEffectSource9recursiveEv@Base 5.0.2 1
- _ZNK24QSGMaterialShaderPrivate16loadShaderSourceE6QFlagsIN13QOpenGLShader13ShaderTypeBitEE@Base 5.2.0~rc1
+ _ZNK24QSGMaterialShaderPrivate16loadShaderSourceE6QFlagsIN13QOpenGLShader13ShaderTypeBitEE@Base 5.2.0~rc1 1
  _ZNK24QSGOpaqueTextureMaterial12createShaderEv@Base 5.0.2
  _ZNK24QSGOpaqueTextureMaterial4typeEv@Base 5.0.2
  _ZNK24QSGOpaqueTextureMaterial7compareEPK11QSGMaterial@Base 5.0.2
@@ -2677,8 +2677,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK28QSGDistanceFieldTextMaterial7compareEPK11QSGMaterial@Base 5.0.2
  _ZNK30QSGOpaqueTextureMaterialShader14attributeNamesEv@Base 5.0.2 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache14maxTextureSizeEv@Base 5.0.2 1
- _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureResizeWorkaroundEv@Base 5.2.0~rc1
- _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureUploadWorkaroundEv@Base 5.2.0~rc1
+ _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureResizeWorkaroundEv@Base 5.2.0~rc1 1
+ _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureUploadWorkaroundEv@Base 5.2.0~rc1 1
  _ZNK34QSGDistanceFieldStyledTextMaterial7compareEPK11QSGMaterial@Base 5.0.2 1
  _ZNK35QSGDistanceFieldOutlineTextMaterial12createShaderEv@Base 5.0.2 1
  _ZNK35QSGDistanceFieldOutlineTextMaterial4typeEv@Base 5.0.2 1
@@ -2688,7 +2688,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK39QSGLoQSubPixelDistanceFieldTextMaterial4typeEv@Base 5.0.2 1
  _ZNK40QSGDistanceFieldShiftedStyleTextMaterial12createShaderEv@Base 5.0.2 1
  _ZNK40QSGDistanceFieldShiftedStyleTextMaterial4typeEv@Base 5.0.2 1
- _ZNK40QSGDistanceFieldShiftedStyleTextMaterial7compareEPK11QSGMaterial@Base 5.2.0~rc1
+ _ZNK40QSGDistanceFieldShiftedStyleTextMaterial7compareEPK11QSGMaterial@Base 5.2.0~rc1 1
  _ZNK7QSGNode10childCountEv@Base 5.0.2
  _ZNK7QSGNode12childAtIndexEi@Base 5.0.2
  _ZNK7QSGNode16isSubtreeBlockedEv@Base 5.0.2
@@ -2734,7 +2734,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI16QQuickTransition@Base 5.0.2 1
  _ZTI16QSGContextPlugin@Base 5.0.2 1
  _ZTI16QSGRectangleNode@Base 5.0.2 1
- _ZTI16QSGRenderContext@Base 5.2.0~rc1
+ _ZTI16QSGRenderContext@Base 5.2.0~rc1 1
  _ZTI16QSGTransformNode@Base 5.0.2
  _ZTI17QFactoryInterface@Base 5.0.2
  _ZTI17QInputMethodEvent@Base 5.0.2
@@ -2778,7 +2778,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI22QQuickScaleAnimatorJob@Base 5.2.0~beta1 1
  _ZTI22QQuickShaderEffectNode@Base 5.0.2 1
  _ZTI22QQuickStochasticEngine@Base 5.0.2 1
- _ZTI22QSGShaderSourceBuilder@Base 5.2.0~rc1
+ _ZTI22QSGShaderSourceBuilder@Base 5.2.0~rc1 1
  _ZTI22QSGSmoothColorMaterial@Base 5.1.1 1
  _ZTI22QSGVertexColorMaterial@Base 5.0.2
  _ZTI23QQuickAbstractAnimation@Base 5.0.2 1
@@ -2857,7 +2857,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS16QQuickTransition@Base 5.0.2 1
  _ZTS16QSGContextPlugin@Base 5.0.2 1
  _ZTS16QSGRectangleNode@Base 5.0.2 1
- _ZTS16QSGRenderContext@Base 5.2.0~rc1
+ _ZTS16QSGRenderContext@Base 5.2.0~rc1 1
  _ZTS16QSGTransformNode@Base 5.0.2
  _ZTS17QFactoryInterface@Base 5.0.2
  _ZTS17QInputMethodEvent@Base 5.0.2
@@ -2901,7 +2901,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS22QQuickScaleAnimatorJob@Base 5.2.0~beta1 1
  _ZTS22QQuickShaderEffectNode@Base 5.0.2 1
  _ZTS22QQuickStochasticEngine@Base 5.0.2 1
- _ZTS22QSGShaderSourceBuilder@Base 5.2.0~rc1
+ _ZTS22QSGShaderSourceBuilder@Base 5.2.0~rc1 1
  _ZTS22QSGSmoothColorMaterial@Base 5.1.1 1
  _ZTS22QSGVertexColorMaterial@Base 5.0.2
  _ZTS23QQuickAbstractAnimation@Base 5.0.2 1
@@ -2979,7 +2979,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV16QQuickTransition@Base 5.0.2 1
  _ZTV16QSGContextPlugin@Base 5.0.2 1
  _ZTV16QSGRectangleNode@Base 5.0.2 1
- _ZTV16QSGRenderContext@Base 5.2.0~rc1
+ _ZTV16QSGRenderContext@Base 5.2.0~rc1 1
  _ZTV16QSGTransformNode@Base 5.0.2
  _ZTV17QFactoryInterface@Base 5.0.2
  _ZTV17QInputMethodEvent@Base 5.0.2
@@ -3023,7 +3023,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV22QQuickScaleAnimatorJob@Base 5.2.0~beta1 1
  _ZTV22QQuickShaderEffectNode@Base 5.0.2 1
  _ZTV22QQuickStochasticEngine@Base 5.0.2 1
- _ZTV22QSGShaderSourceBuilder@Base 5.2.0~rc1
+ _ZTV22QSGShaderSourceBuilder@Base 5.2.0~rc1 1
  _ZTV22QSGSmoothColorMaterial@Base 5.1.1 1
  _ZTV22QSGVertexColorMaterial@Base 5.0.2
  _ZTV23QQuickAbstractAnimation@Base 5.0.2 1
