@@ -12,10 +12,9 @@ Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                libqt5xmlpatterns5-private-dev (>= 5.2.0~beta1~),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.2.0~beta1~),
-               python
-Build-Depends-Indep: libqt5sql5-sqlite,
-                     qttools5-dev-tools (>= 5.2.0~beta1~)
+               python,
+               qtbase5-private-dev (>= 5.2.0~beta1~)
+Build-Depends-Indep: libqt5sql5-sqlite, qttools5-dev-tools (>= 5.2.0~beta1~)
 Standards-Version: 3.9.4
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdeclarative.git
@@ -99,7 +98,7 @@ Package: qtdeclarative5-localstorage-plugin
 Architecture: any
 Multi-Arch: same
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}, libqt5sql5-sqlite
+Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 localstorage QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -216,8 +215,7 @@ Package: qtdeclarative5-private-dev
 Architecture: any
 Section: libdevel
 Pre-Depends: dpkg (>= 1.15.6~)
-Depends: qtdeclarative5-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: qtdeclarative5-dev (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 declarative private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -276,7 +274,7 @@ Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quicktest5 (= ${binary:Version}),
          ${misc:Depends}
 Recommends: qtbase5-dbg
-Suggests: qtdeclarative5-examples (= ${binary:Version}),
+Suggests: qtdeclarative5-examples (= ${binary:Version})
 Description: Qt 5 declarative libraries debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
