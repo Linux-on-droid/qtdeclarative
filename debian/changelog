@@ -3,7 +3,6 @@ qtdeclarative-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * New upstream release candidate.
   * Drop build-dependency on libqt5v8-5-private-dev, no longer needed.
-  * Bump other Qt build-dependecies to 5.2.0~beta1.
   * Add copyright information for 3rdparty code to debian/copyright.
   * Update .install files.
   * Add new qtdeclarative5-settings-plugin package.
@@ -13,6 +12,7 @@ qtdeclarative-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add python as build dependency.
+  * Bump other Qt build-dependecies to 5.2.0~rc1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
 
