@@ -411,7 +411,8 @@ usr/lib/*/qt5/examples/quick/demos/rssnews/doc/images/qtquick-demo-rssnews-small
 usr/lib/*/qt5/examples/quick/demos/rssnews/doc/src/rssnews.qdoc
 usr/lib/*/qt5/examples/quick/demos/rssnews/rssnews.qml
 usr/lib/*/qt5/examples/quick/demos/rssnews/rssnews.qmlproject
-usr/lib/*/qt5/examples/quick/demos/samegame/content/+blackberry/settings.js
+usr/lib/*/qt5/examples/quick/demos/samegame/content/+blackberry/Settings.qml
+usr/lib/*/qt5/examples/quick/demos/samegame/content/BBSettings.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/Block.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/BlockEmitter.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/Button.qml
@@ -422,6 +423,7 @@ usr/lib/*/qt5/examples/quick/demos/samegame/content/PaintEmitter.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/PrimaryPack.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/PuzzleBlock.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/SamegameText.qml
+usr/lib/*/qt5/examples/quick/demos/samegame/content/Settings.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/SimpleBlock.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/SmokeText.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/gfx/background-puzzle.png
@@ -477,8 +479,8 @@ usr/lib/*/qt5/examples/quick/demos/samegame/content/levels/level6.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/levels/level7.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/levels/level8.qml
 usr/lib/*/qt5/examples/quick/demos/samegame/content/levels/level9.qml
+usr/lib/*/qt5/examples/quick/demos/samegame/content/qmldir
 usr/lib/*/qt5/examples/quick/demos/samegame/content/samegame.js
-usr/lib/*/qt5/examples/quick/demos/samegame/content/settings.js
 usr/lib/*/qt5/examples/quick/demos/samegame/main.cpp
 usr/lib/*/qt5/examples/quick/demos/samegame/samegame
 usr/lib/*/qt5/examples/quick/demos/samegame/samegame.pro

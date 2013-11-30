@@ -176,9 +176,6 @@ usr/include/qt5/QtQml/*/QtQml/private/qv4sqlerrors_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv4ssa_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv4string_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv4stringobject_p.h
-usr/include/qt5/QtQml/*/QtQml/private/qv4unwindhelper_arm_p.h
-usr/include/qt5/QtQml/*/QtQml/private/qv4unwindhelper_dw2_p.h
-usr/include/qt5/QtQml/*/QtQml/private/qv4unwindhelper_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv4util_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv4value_def_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv4value_p.h
@@ -188,6 +185,7 @@ usr/include/qt5/QtQml/*/QtQml/private/qv8debug_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv8engine_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv8profiler_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv8profilerservice_p.h
+usr/include/qt5/QtQml/5.2.0/QtQml/private/qqmlabstracturlinterceptor_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/designerwindowmanager_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickaccessibleattached_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickanchors_p.h
@@ -313,7 +311,6 @@ usr/include/qt5/QtQuick/*/QtQuick/private/qsgdepthstencilbuffer_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldglyphnode_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldglyphnode_p_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldutil_p.h
-usr/include/qt5/QtQuick/*/QtQuick/private/qsgflashnode_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsggeometry_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgnode_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgnodeupdater_p.h
@@ -328,6 +325,8 @@ usr/include/qt5/QtQuick/*/QtQuick/private/qsgthreadedrenderloop_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgwindowsrenderloop_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qtquick2_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qtquickglobal_p.h
+usr/include/qt5/QtQuick/5.2.0/QtQuick/private/qsgmaterialshader_p.h
+usr/include/qt5/QtQuick/5.2.0/QtQuick/private/qsgshadersourcebuilder_p.h
 usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qquickage_p.h
 usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qquickangledirection_p.h
 usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qquickcumulativedirection_p.h

@@ -13,6 +13,7 @@ qtdeclarative-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add python as build dependency.
   * Bump other Qt build-dependecies to 5.2.0~rc1.
+  * Adjust install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
 
