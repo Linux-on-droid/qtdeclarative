@@ -14,7 +14,7 @@ qtdeclarative-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
   * Add python as build dependency.
   * Bump other Qt build-dependecies to 5.2.0~rc1.
   * Adjust install files.
-  * Update symbols files. The symbols removed where either introduced with
+  * Update symbols files. The symbols removed were either introduced with
     beta1 or private symbols.
   * Mark private symbols as such.
 
