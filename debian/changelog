@@ -12,7 +12,7 @@ qtdeclarative-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add python as build dependency.
-  * Bump other Qt build-dependecies to 5.2.0~rc1.
+  * Bump other Qt build-dependecies to 5.2.0.
   * Adjust install files.
   * Update symbols files. The symbols removed were either introduced with
     beta1 or private symbols.
