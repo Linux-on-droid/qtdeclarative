@@ -1,7 +1,7 @@
-qtdeclarative-opensource-src (5.2.0~rc1-1) UNRELEASED; urgency=low
+qtdeclarative-opensource-src (5.2.0-1) UNRELEASED; urgency=low
 
   [ Dmitry Shachnev ]
-  * New upstream release candidate.
+  * New upstream release.
   * Drop build-dependency on libqt5v8-5-private-dev, no longer needed.
   * Add copyright information for 3rdparty code to debian/copyright.
   * Update .install files.
