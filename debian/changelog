@@ -19,7 +19,7 @@ qtdeclarative-opensource-src (5.2.0-1) experimental; urgency=low
     - Regenerate symbols that used to have the qreal substitution.
   * Mark private symbols as such.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 13 Dec 2013 21:27:37 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 14 Dec 2013 09:13:18 -0300
 
 qtdeclarative-opensource-src (5.1.1-1) unstable; urgency=low
 
