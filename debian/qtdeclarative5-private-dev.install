@@ -185,7 +185,6 @@ usr/include/qt5/QtQml/*/QtQml/private/qv8debug_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv8engine_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv8profiler_p.h
 usr/include/qt5/QtQml/*/QtQml/private/qv8profilerservice_p.h
-usr/include/qt5/QtQml/5.2.0/QtQml/private/qqmlabstracturlinterceptor_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/designerwindowmanager_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickaccessibleattached_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickanchors_p.h

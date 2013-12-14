@@ -1,3 +1,5 @@
+usr/include/qt5/QtQml/QQmlAbstractUrlInterceptor
+usr/include/qt5/QtQml/qqmlabstracturlinterceptor.h
 usr/include/qt5/QtQml/QJSEngine
 usr/include/qt5/QtQml/QJSValue
 usr/include/qt5/QtQml/QJSValueIterator
