@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-2-0
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
@@ -1995,6 +1995,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN25QQuickRotationAnimatorJobD0Ev@Base 5.2.0~beta1 1
  _ZN25QQuickRotationAnimatorJobD1Ev@Base 5.2.0~beta1 1
  _ZN25QQuickRotationAnimatorJobD2Ev@Base 5.2.0~beta1 1
+ _ZN25QQuickShaderEffectTexture11invalidatedEv@Base 5.2.0
  _ZN25QQuickShaderEffectTexture11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN25QQuickShaderEffectTexture11qt_metacastEPKc@Base 5.0.2 1
  _ZN25QQuickShaderEffectTexture12setRecursiveEb@Base 5.0.2 1
