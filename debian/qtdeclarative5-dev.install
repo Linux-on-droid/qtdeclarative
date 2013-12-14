@@ -1,9 +1,8 @@
-usr/include/qt5/QtQml/QQmlAbstractUrlInterceptor
-usr/include/qt5/QtQml/qqmlabstracturlinterceptor.h
 usr/include/qt5/QtQml/QJSEngine
 usr/include/qt5/QtQml/QJSValue
 usr/include/qt5/QtQml/QJSValueIterator
 usr/include/qt5/QtQml/QJSValueList
+usr/include/qt5/QtQml/QQmlAbstractUrlInterceptor
 usr/include/qt5/QtQml/QQmlApplicationEngine
 usr/include/qt5/QtQml/QQmlAttachedPropertiesFunc
 usr/include/qt5/QtQml/QQmlComponent
@@ -38,6 +37,7 @@ usr/include/qt5/QtQml/qjsengine.h
 usr/include/qt5/QtQml/qjsvalue.h
 usr/include/qt5/QtQml/qjsvalueiterator.h
 usr/include/qt5/QtQml/qqml.h
+usr/include/qt5/QtQml/qqmlabstracturlinterceptor.h
 usr/include/qt5/QtQml/qqmlapplicationengine.h
 usr/include/qt5/QtQml/qqmlcomponent.h
 usr/include/qt5/QtQml/qqmlcontext.h
