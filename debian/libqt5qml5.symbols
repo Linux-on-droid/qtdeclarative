@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0~rc1 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-2-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -171,7 +171,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlDataBlob19allDependenciesDoneEv@Base 5.0.2 1
  _ZN12QQmlDataBlob19cancelAllWaitingForEv@Base 5.0.2 1
  _ZN12QQmlDataBlob20notifyAllWaitingOnMeEv@Base 5.0.2 1
- (subst)_ZN12QQmlDataBlob23downloadProgressChangedE{qreal}@Base 5.0.2 1
+ _ZN12QQmlDataBlob23downloadProgressChangedEd@Base 5.2.0 1
  _ZN12QQmlDataBlob4doneEv@Base 5.0.2 1
  _ZN12QQmlDataBlob7tryDoneEv@Base 5.0.2 1
  _ZN12QQmlDataBlob8setErrorERK5QListI9QQmlErrorE@Base 5.0.2 1
@@ -281,7 +281,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN13QQmlComponent13statusChangedENS_6StatusE@Base 5.0.2
  _ZN13QQmlComponent14completeCreateEv@Base 5.0.2
  _ZN13QQmlComponent14incubateObjectEP14QQmlV4Function@Base 5.2.0~beta1
- (subst)_ZN13QQmlComponent15progressChangedE{qreal}@Base 5.0.2
+ _ZN13QQmlComponent15progressChangedEd@Base 5.2.0
  _ZN13QQmlComponent16staticMetaObjectE@Base 5.0.2
  _ZN13QQmlComponent21qmlAttachedPropertiesEP7QObject@Base 5.0.2
  _ZN13QQmlComponent6createEP11QQmlContext@Base 5.0.2
@@ -565,8 +565,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlColorProvider14rgbaFromStringERK7QStringPb@Base 5.0.2 1
  _ZN17QQmlColorProvider15colorFromStringERK7QStringPb@Base 5.0.2 1
  _ZN17QQmlColorProvider4tintERK8QVariantS2_@Base 5.0.2 1
- (subst)_ZN17QQmlColorProvider6darkerERK8QVariant{qreal}@Base 5.0.2 1
- (subst)_ZN17QQmlColorProvider7lighterERK8QVariant{qreal}@Base 5.0.2 1
+ _ZN17QQmlColorProvider6darkerERK8QVariantd@Base 5.2.0 1
+ _ZN17QQmlColorProvider7lighterERK8QVariantd@Base 5.2.0 1
  _ZN17QQmlColorProvider8fromHslFEdddd@Base 5.0.2 1
  _ZN17QQmlColorProvider8fromRgbFEdddd@Base 5.0.2 1
  _ZN17QQmlColorProviderD0Ev@Base 5.0.2 1
@@ -838,10 +838,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN18QQmlRectFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN18QQmlRectFValueType11qt_metacastEPKc@Base 5.0.2 1
  _ZN18QQmlRectFValueType16staticMetaObjectE@Base 5.0.2 1
- (subst)_ZN18QQmlRectFValueType4setXE{qreal}@Base 5.0.2 1
- (subst)_ZN18QQmlRectFValueType4setYE{qreal}@Base 5.0.2 1
- (subst)_ZN18QQmlRectFValueType8setWidthE{qreal}@Base 5.0.2 1
- (subst)_ZN18QQmlRectFValueType9setHeightE{qreal}@Base 5.0.2 1
+ _ZN18QQmlRectFValueType4setXEd@Base 5.2.0 1
+ _ZN18QQmlRectFValueType4setYEd@Base 5.2.0 1
+ _ZN18QQmlRectFValueType8setWidthEd@Base 5.2.0 1
+ _ZN18QQmlRectFValueType9setHeightEd@Base 5.2.0 1
  _ZN18QQmlRectFValueTypeC1EP7QObject@Base 5.0.2 1
  _ZN18QQmlRectFValueTypeC2EP7QObject@Base 5.0.2 1
  _ZN18QQmlRectFValueTypeD0Ev@Base 5.0.2 1
@@ -850,8 +850,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN18QQmlSizeFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN18QQmlSizeFValueType11qt_metacastEPKc@Base 5.0.2 1
  _ZN18QQmlSizeFValueType16staticMetaObjectE@Base 5.0.2 1
- (subst)_ZN18QQmlSizeFValueType8setWidthE{qreal}@Base 5.0.2 1
- (subst)_ZN18QQmlSizeFValueType9setHeightE{qreal}@Base 5.0.2 1
+ _ZN18QQmlSizeFValueType8setWidthEd@Base 5.2.0 1
+ _ZN18QQmlSizeFValueType9setHeightEd@Base 5.2.0 1
  _ZN18QQmlSizeFValueTypeC1EP7QObject@Base 5.0.2 1
  _ZN18QQmlSizeFValueTypeC2EP7QObject@Base 5.0.2 1
  _ZN18QQmlSizeFValueTypeD0Ev@Base 5.0.2 1
@@ -873,12 +873,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlAbstractBindingD2Ev@Base 5.0.2 1
  _ZN19QQmlEasingValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN19QQmlEasingValueType11qt_metacastEPKc@Base 5.0.2 1
- (subst)_ZN19QQmlEasingValueType12setAmplitudeE{qreal}@Base 5.0.2 1
- (subst)_ZN19QQmlEasingValueType12setOvershootE{qreal}@Base 5.0.2 1
+ _ZN19QQmlEasingValueType12setAmplitudeEd@Base 5.2.0 1
+ _ZN19QQmlEasingValueType12setOvershootEd@Base 5.2.0 1
  _ZN19QQmlEasingValueType14setBezierCurveERK5QListI8QVariantE@Base 5.0.2 1
  _ZN19QQmlEasingValueType16staticMetaObjectE@Base 5.0.2 1
  _ZN19QQmlEasingValueType7setTypeENS_4TypeE@Base 5.0.2 1
- (subst)_ZN19QQmlEasingValueType9setPeriodE{qreal}@Base 5.0.2 1
+ _ZN19QQmlEasingValueType9setPeriodEd@Base 5.2.0 1
  _ZN19QQmlEasingValueTypeC1EP7QObject@Base 5.0.2 1
  _ZN19QQmlEasingValueTypeC2EP7QObject@Base 5.0.2 1
  _ZN19QQmlEasingValueTypeD0Ev@Base 5.0.2 1
@@ -896,8 +896,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlPointFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN19QQmlPointFValueType11qt_metacastEPKc@Base 5.0.2 1
  _ZN19QQmlPointFValueType16staticMetaObjectE@Base 5.0.2 1
- (subst)_ZN19QQmlPointFValueType4setXE{qreal}@Base 5.0.2 1
- (subst)_ZN19QQmlPointFValueType4setYE{qreal}@Base 5.0.2 1
+ _ZN19QQmlPointFValueType4setXEd@Base 5.2.0 1
+ _ZN19QQmlPointFValueType4setYEd@Base 5.2.0 1
  _ZN19QQmlPointFValueTypeC1EP7QObject@Base 5.0.2 1
  _ZN19QQmlPointFValueTypeC2EP7QObject@Base 5.0.2 1
  _ZN19QQmlPointFValueTypeD0Ev@Base 5.0.2 1
@@ -976,7 +976,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlComponentPrivate13beginDeferredEP17QQmlEnginePrivateP7QObjectPNS_17ConstructionStateE@Base 5.0.2 1
  _ZN20QQmlComponentPrivate13typeDataReadyEP12QQmlTypeData@Base 5.0.2 1
  _ZN20QQmlComponentPrivate14completeCreateEv@Base 5.0.2 1
- (subst)_ZN20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeData{qreal}@Base 5.0.2 1
+ _ZN20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeDatad@Base 5.2.0 1
  _ZN20QQmlComponentPrivate37initializeObjectWithInitialPropertiesEN3QV48ValueRefES1_P7QObject@Base 5.2.0~beta1 1
  _ZN20QQmlComponentPrivate5clearEv@Base 5.0.2 1
  _ZN20QQmlComponentPrivate7loadUrlERK4QUrlN13QQmlComponent15CompilationModeE@Base 5.0.2 1
@@ -3098,7 +3098,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZrsR11QDataStreamRN22QQmlEngineDebugService14QQmlObjectDataE@Base 5.0.2 1
  _ZrsR11QDataStreamRN22QQmlEngineDebugService18QQmlObjectPropertyE@Base 5.0.2 1
  (c++)"non-virtual thunk to QQmlBoundSignalExpression::~QQmlBoundSignalExpression()@Base" 5.0.2
- (c++|subst)"non-virtual thunk to QQmlComponentPrivate::typeDataProgress(QQmlTypeData*, {c++:qreal})@Base" 5.0.2
+ (c++)"non-virtual thunk to QQmlComponentPrivate::typeDataProgress(QQmlTypeData*, double)@Base" 5.2.0
  (c++)"non-virtual thunk to QQmlComponentPrivate::typeDataReady(QQmlTypeData*)@Base" 5.0.2
  (c++)"non-virtual thunk to QQmlComponentPrivate::~QQmlComponentPrivate()@Base" 5.0.2
  (c++)"non-virtual thunk to QQmlDelegateModel::classBegin()@Base" 5.1.0

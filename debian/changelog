@@ -14,8 +14,9 @@ qtdeclarative-opensource-src (5.2.0-1) experimental; urgency=low
   * Add python as build dependency.
   * Bump other Qt build-dependecies to 5.2.0.
   * Adjust install files.
-  * Update symbols files. The symbols removed were either introduced with
-    beta1 or private symbols.
+  * Update symbols files:
+    - The symbols removed were either introduced with beta1 or private symbols.
+    - Regenerate symbols that used to have the qreal substitution.
   * Mark private symbols as such.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 13 Dec 2013 21:27:37 -0300
