@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.2.0-1) UNRELEASED; urgency=low
+qtdeclarative-opensource-src (5.2.0-1) experimental; urgency=low
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -18,7 +18,7 @@ qtdeclarative-opensource-src (5.2.0-1) UNRELEASED; urgency=low
     beta1 or private symbols.
   * Mark private symbols as such.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 26 Oct 2013 10:56:35 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 13 Dec 2013 21:27:37 -0300
 
 qtdeclarative-opensource-src (5.1.1-1) unstable; urgency=low
 
