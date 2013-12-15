@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.2.0-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update libqt5qml5.symbols with feedback from i386, s390x and powerpc buildds.
+  * Make qtdeclarative5-examples depend on all plugins used by examples.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Dec 2013 17:44:35 +0400
 
