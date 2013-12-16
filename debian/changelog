@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.2.0-3) UNRELEASED; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * s390x updated it's gcc version while we where updating it's symbols. Re
     update them to avoid a FTBFS.
+  * Also update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 16 Dec 2013 15:30:48 -0300
 
