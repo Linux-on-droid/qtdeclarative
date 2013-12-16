@@ -15,7 +15,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _Z28QQml_removeValueTypeProviderP21QQmlValueTypeProvider@Base 5.1.0 1
  _Z31qmlAttachedPropertiesObjectByIdiPK7QObjectb@Base 5.0.2
  _Z9qmlEnginePK7QObject@Base 5.0.2
- (arch=powerpc s390x)_ZN10QByteArray4dataEv@Base 5.2.0
+ (optional=gccinternal|arch=powerpc s390x)_ZN10QByteArray4dataEv@Base 5.2.0
  (optional=inline|arch=amd64 i386)_ZN10QByteArray7reserveEi@Base 5.0.2
  _ZN10QQmlBundle11addMetaLinkERK7QStringS2_RK10QByteArray@Base 5.0.2 1
  _ZN10QQmlBundle14isBundleHeaderEPKci@Base 5.0.2 1
