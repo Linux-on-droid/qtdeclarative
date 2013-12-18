@@ -3,6 +3,10 @@ qtdeclarative-opensource-src (5.2.0-4) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Update symbols files again.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Build depend on pkg-kde-tools >= 0.15.12~, which fixes a qptrdiff
+    substitution on s390x.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2013 16:05:26 +0400
 
 qtdeclarative-opensource-src (5.2.0-3) experimental; urgency=low
