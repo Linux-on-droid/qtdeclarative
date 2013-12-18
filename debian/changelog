@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.2.0-4) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2013 16:05:26 +0400
+
 qtdeclarative-opensource-src (5.2.0-3) experimental; urgency=low
 
   * s390x updated it's gcc version while we where updating it's symbols. Re
