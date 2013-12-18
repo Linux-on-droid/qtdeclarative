@@ -1668,7 +1668,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV49Debugging8Debugger18collectThrownValueEPNS1_9CollectorE@Base 5.2.0~rc1 1
  _ZN3QV49Debugging8Debugger20collectThisInContextEPNS1_9CollectorEi@Base 5.2.0~rc1 1
  (subst)_ZN3QV49Debugging8Debugger21hasBreakOnInstructionEPNS_8FunctionE{qptrdiff}@Base 5.2.0 1
- (subst|arch=amd64 i386 powerpc)_ZN3QV49Debugging8Debugger21setBreakOnInstructionEPNS_8FunctionE{qptrdiff}b@Base 5.2.0 1
+ (subst)_ZN3QV49Debugging8Debugger21setBreakOnInstructionEPNS_8FunctionE{qptrdiff}b@Base 5.2.0 1
  _ZN3QV49Debugging8Debugger21setPendingBreakpointsEPNS_8FunctionE@Base 5.2.0~beta1 1
  _ZN3QV49Debugging8Debugger22collectLocalsInContextEPNS1_9CollectorEii@Base 5.2.0~rc1 1
  _ZN3QV49Debugging8Debugger22reallyHitTheBreakPointERK7QStringi@Base 5.2.0~rc1 1
