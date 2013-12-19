@@ -311,12 +311,14 @@ usr/include/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldglyphnode_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldglyphnode_p_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldutil_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsggeometry_p.h
+usr/include/qt5/QtQuick/*/QtQuick/private/qsgmaterialshader_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgnode_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgnodeupdater_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgpainternode_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgrenderer_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgrenderloop_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgrendernode_p.h
+usr/include/qt5/QtQuick/*/QtQuick/private/qsgshadersourcebuilder_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgshareddistancefieldglyphcache_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgtexture_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgtexturematerial_p.h
@@ -324,8 +326,6 @@ usr/include/qt5/QtQuick/*/QtQuick/private/qsgthreadedrenderloop_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qsgwindowsrenderloop_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qtquick2_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qtquickglobal_p.h
-usr/include/qt5/QtQuick/5.2.0/QtQuick/private/qsgmaterialshader_p.h
-usr/include/qt5/QtQuick/5.2.0/QtQuick/private/qsgshadersourcebuilder_p.h
 usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qquickage_p.h
 usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qquickangledirection_p.h
 usr/include/qt5/QtQuickParticles/*/QtQuickParticles/private/qquickcumulativedirection_p.h
