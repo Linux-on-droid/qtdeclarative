@@ -248,7 +248,21 @@ Description: Qt 5 QML scene viewer
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the QML viewer for Qt Quick 2.
+ This package contains the older QML viewer for Qt Quick 2. See qml package
+ for the newer one.
+
+Package: qml
+Architecture: any
+Multi-Arch: foreign
+Section: devel
+Pre-Depends: dpkg (>= 1.15.6~)
+Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML viewer
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the new QML viewer for Qt Quick 2, called simply
+ 'qml'.
 
 Package: qtdeclarative5-examples
 Architecture: any

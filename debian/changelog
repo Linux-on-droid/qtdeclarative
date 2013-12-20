@@ -1,7 +1,10 @@
 qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Do not hardcode the version number in debian/qtdeclarative5-private-dev.install.
+  * Do not hardcode the version number in qtdeclarative5-private-dev.install.
+
+  [ Timo Jyrinki ]
+  * Separate the qml binary into own package, likely to be used alone.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 21:49:05 +0400
 
