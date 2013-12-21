@@ -11,6 +11,8 @@ qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
   * Install the private qmake stuff in qtdeclarative5-private-dev and not
     in qtdeclarative5-dev.
   * Simplify qtdeclarative5-examples.install.
+  * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
+    in Squeeze already.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 21:49:05 +0400
 

@@ -24,7 +24,7 @@ Package: libqt5qml5
 Provides: qtdeclarative-abi-5-2-0
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -39,7 +39,7 @@ Description: Qt 5 QML module
 Package: libqt5quick5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Quick library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -53,7 +53,7 @@ Description: Qt 5 Quick library
 Package: libqt5quickparticles5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Quick particules module
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -64,7 +64,7 @@ Description: Qt 5 Quick particules module
 Package: libqt5quicktest5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Quick Test library
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -75,7 +75,7 @@ Description: Qt 5 Quick Test library
 Package: qtdeclarative5-dialogs-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Dialogs QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -86,7 +86,7 @@ Description: Qt 5 Dialogs QML plugin
 Package: qtdeclarative5-folderlistmodel-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 folderlistmodel QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -97,7 +97,7 @@ Description: Qt 5 folderlistmodel QML plugin
 Package: qtdeclarative5-localstorage-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 localstorage QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -108,7 +108,7 @@ Description: Qt 5 localstorage QML plugin
 Package: qtdeclarative5-models-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Models QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -119,7 +119,7 @@ Description: Qt 5 Models QML plugin
 Package: qtdeclarative5-particles-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 particles QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -130,7 +130,7 @@ Description: Qt 5 particles QML plugin
 Package: qtdeclarative5-privatewidgets-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Private Widgets QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -141,7 +141,7 @@ Description: Qt 5 Private Widgets QML plugin
 Package: qtdeclarative5-qtquick2-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: libgl1-mesa-dri, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Qt Quick 2 QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -152,7 +152,7 @@ Description: Qt 5 Qt Quick 2 QML plugin
 Package: qtdeclarative5-settings-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 settings QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -163,7 +163,7 @@ Description: Qt 5 settings QML plugin
 Package: qtdeclarative5-test-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 test QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -174,7 +174,7 @@ Description: Qt 5 test QML plugin
 Package: qtdeclarative5-window-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 window QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -186,7 +186,7 @@ Description: Qt 5 window QML plugin
 Package: qtdeclarative5-xmllistmodel-plugin
 Architecture: any
 Multi-Arch: same
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 xmllistmodel QML plugin
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -197,7 +197,6 @@ Description: Qt 5 xmllistmodel QML plugin
 Package: qtdeclarative5-dev
 Section: libdevel
 Architecture: any
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}),
          libqt5quickparticles5 (= ${binary:Version}),
@@ -214,7 +213,6 @@ Description: Qt 5 declarative development files
 Package: qtdeclarative5-private-dev
 Architecture: any
 Section: libdevel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtdeclarative5-dev (= ${binary:Version}), ${misc:Depends}
 Breaks: qtdeclarative5-dev (<< 5.2.0-5~)
 Replaces: qtdeclarative5-dev (<< 5.2.0-5~)
@@ -231,7 +229,6 @@ Package: qtdeclarative5-dev-tools
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 declarative development programs
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -244,7 +241,6 @@ Package: qmlscene
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 QML scene viewer
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -257,7 +253,6 @@ Package: qml
 Architecture: any
 Multi-Arch: foreign
 Section: devel
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtdeclarative5-dev-tools (<< 5.2.0-5~)
 Replaces: qtdeclarative5-dev-tools (<< 5.2.0-5~)
@@ -272,7 +267,7 @@ Package: qtdeclarative5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: qtdeclarative5-dialogs-plugin,
          qtdeclarative5-localstorage-plugin,
          qtdeclarative5-models-plugin,
@@ -291,7 +286,6 @@ Priority: extra
 Architecture: any
 Multi-Arch: same
 Section: debug
-Pre-Depends: dpkg (>= 1.15.6~)
 Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}),
          libqt5quickparticles5 (= ${binary:Version}),
