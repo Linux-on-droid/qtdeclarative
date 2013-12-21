@@ -8,6 +8,8 @@ qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Add proper breaks/replaces for qml move.
+  * Install the private qmake stuff in qtdeclarative5-private-dev and not
+    in qtdeclarative5-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 21:49:05 +0400
 
