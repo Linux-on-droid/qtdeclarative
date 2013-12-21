@@ -257,6 +257,8 @@ Multi-Arch: foreign
 Section: devel
 Pre-Depends: dpkg (>= 1.15.6~)
 Depends: qtchooser, ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtdeclarative5-dev-tools (<< 5.2.0-5~)
+Replaces: qtdeclarative5-dev-tools (<< 5.2.0-5~)
 Description: Qt 5 QML viewer
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

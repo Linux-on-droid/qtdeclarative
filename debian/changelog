@@ -6,6 +6,9 @@ qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
   [ Timo Jyrinki ]
   * Separate the qml binary into its own package, likely to be used alone.
 
+  [ Pino Toscano ]
+  * Add proper breaks/replaces for qml move.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 21:49:05 +0400
 
 qtdeclarative-opensource-src (5.2.0-4) experimental; urgency=medium
