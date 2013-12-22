@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.2.0-5) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Do not hardcode the version number in qtdeclarative5-private-dev.install.
@@ -17,7 +17,7 @@ qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 21:49:05 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 21 Dec 2013 21:43:39 -0300
 
 qtdeclarative-opensource-src (5.2.0-4) experimental; urgency=medium
 
