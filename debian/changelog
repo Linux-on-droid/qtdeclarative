@@ -14,6 +14,9 @@ qtdeclarative-opensource-src (5.2.0-5) UNRELEASED; urgency=medium
   * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
     in Squeeze already.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Dec 2013 21:49:05 +0400
 
 qtdeclarative-opensource-src (5.2.0-4) experimental; urgency=medium
