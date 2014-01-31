@@ -8,6 +8,7 @@ qtdeclarative-opensource-src (5.2.0-6) UNRELEASED; urgency=medium
   * Move mkspec files to their new location.
     - B-D on qtbase5-private-dev 5.2.0+dfsg-7 which changed the location.
   * Update symbols files with buildd's logs.
+  * Update Standards-Version to 3.9.5, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jan 2014 15:03:12 -0300
 
