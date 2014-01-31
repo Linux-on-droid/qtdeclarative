@@ -1,10 +1,85 @@
-qtdeclarative-opensource-src (5.1.1-2) UNRELEASED; urgency=low
+qtdeclarative-opensource-src (5.2.0-6) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * Make qtdeclarative5-dialogs-plugin depend on
     qtdeclarative5-privatewidgets-plugin, as it uses modules from that.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Sep 2013 21:34:44 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jan 2014 15:03:12 -0300
+
+qtdeclarative-opensource-src (5.2.0-5) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Do not hardcode the version number in qtdeclarative5-private-dev.install.
+
+  [ Timo Jyrinki ]
+  * Separate the qml binary into its own package, likely to be used alone.
+
+  [ Pino Toscano ]
+  * Add proper breaks/replaces for qml move.
+  * Install the private qmake stuff in qtdeclarative5-private-dev and not
+    in qtdeclarative5-dev.
+  * Simplify qtdeclarative5-examples.install.
+  * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
+    in Squeeze already.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with buildds' logs.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 21 Dec 2013 21:43:39 -0300
+
+qtdeclarative-opensource-src (5.2.0-4) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Update symbols files again.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Build depend on pkg-kde-tools >= 0.15.12~, which fixes a qptrdiff
+    substitution on s390x.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 19 Dec 2013 12:41:59 -0300
+
+qtdeclarative-opensource-src (5.2.0-3) experimental; urgency=low
+
+  * s390x updated it's gcc version while we where updating it's symbols. Re
+    update them to avoid a FTBFS.
+  * Also update symbols files with current build log.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 16 Dec 2013 15:43:40 -0300
+
+qtdeclarative-opensource-src (5.2.0-2) experimental; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Update libqt5qml5.symbols with feedback from i386, s390x and powerpc
+    buildds.
+  * Make qtdeclarative5-examples depend on all plugins used by examples.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Mark private symbols as such.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 16 Dec 2013 13:29:28 -0300
+
+qtdeclarative-opensource-src (5.2.0-1) experimental; urgency=low
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Drop build-dependency on libqt5v8-5-private-dev, no longer needed.
+  * Add copyright information for 3rdparty code to debian/copyright.
+  * Update .install files.
+  * Add new qtdeclarative5-settings-plugin package.
+  * Make libqt5qml5 provide qtdeclarative-abi-5-2-0.
+  * Update symbols files.
+  * Explicitly define DEB_HOST_MULTIARCH in debian/rules.
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add python as build dependency.
+  * Bump other Qt build-dependecies to 5.2.0.
+  * Adjust install files.
+  * Update symbols files:
+    - The symbols removed were either introduced with beta1 or private symbols.
+    - Regenerate symbols that used to have the qreal substitution.
+  * Mark private symbols as such.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 14 Dec 2013 09:13:18 -0300
 
 qtdeclarative-opensource-src (5.1.1-1) unstable; urgency=low
 

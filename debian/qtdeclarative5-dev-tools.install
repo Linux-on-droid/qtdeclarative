@@ -1,4 +1,5 @@
 usr/lib/*/qt5/bin/qmlbundle
+usr/lib/*/qt5/bin/qmlimportscanner
 usr/lib/*/qt5/bin/qmlmin
 usr/lib/*/qt5/bin/qmlplugindump
 usr/lib/*/qt5/bin/qmlprofiler
