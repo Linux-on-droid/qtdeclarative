@@ -4,6 +4,10 @@ qtdeclarative-opensource-src (5.2.0-6) UNRELEASED; urgency=medium
   * Make qtdeclarative5-dialogs-plugin depend on
     qtdeclarative5-privatewidgets-plugin, as it uses modules from that.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Move mkspec files to their new location.
+    - B-D on qtbase5-private-dev 5.2.0+dfsg-7 which changed the location.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 31 Jan 2014 15:03:12 -0300
 
 qtdeclarative-opensource-src (5.2.0-5) experimental; urgency=medium

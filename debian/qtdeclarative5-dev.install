@@ -152,6 +152,6 @@ usr/lib/*/pkgconfig/Qt5QmlDevTools.pc
 usr/lib/*/pkgconfig/Qt5Quick.pc
 usr/lib/*/pkgconfig/Qt5QuickParticles.pc
 usr/lib/*/pkgconfig/Qt5QuickTest.pc
-usr/share/qt5/mkspecs/modules/qt_lib_qml.pri
-usr/share/qt5/mkspecs/modules/qt_lib_qmltest.pri
-usr/share/qt5/mkspecs/modules/qt_lib_quick.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_qml.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_qmltest.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_quick.pri
