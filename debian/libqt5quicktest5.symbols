@@ -90,15 +90,14 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZNK15QuickTestResult9passCountEv@Base 5.0.2 1
  _ZNK15QuickTestResult9skipCountEv@Base 5.0.2 1
  _ZNK20QuickTestImageObject10metaObjectEv@Base 5.0.2
- (optional=templinst|arch=ia64 powerpc sparc|subst)_ZSt11__push_heapIN5QListI16QBenchmarkResultE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc|subst)_ZSt13__adjust_heapIN5QListI16QBenchmarkResultE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
- (optional=templinst|arch=powerpc)_ZSt13__heap_selectIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt16__insertion_sortIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt16__introsort_loopIN5QListI16QBenchmarkResultE8iteratorEiEvT_S4_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt19__move_median_firstIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_S4_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt21__unguarded_partitionIN5QListI16QBenchmarkResultE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt25__unguarded_linear_insertIN5QListI16QBenchmarkResultE8iteratorEEvT_@Base 5.2.0
- (optional=templinst|arch=ia64 powerpc sparc)_ZSt9make_heapIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt11__push_heapIN5QListI16QBenchmarkResultE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListI16QBenchmarkResultE8iteratorE{qptrdiff}S1_EvT_T0_S5_T1_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI16QBenchmarkResultE8iteratorEiEvT_S4_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_S4_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI16QBenchmarkResultE8iteratorES1_ET_S4_S4_RKT0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListI16QBenchmarkResultE8iteratorEEvT_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI16QBenchmarkResultE8iteratorEEvT_S4_@Base 5.2.0
  _ZTI14QuickTestEvent@Base 5.0.2 1
  _ZTI15QuickTestResult@Base 5.0.2 1
  _ZTI20QuickTestImageObject@Base 5.0.2
