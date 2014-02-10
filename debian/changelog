@@ -1,9 +1,8 @@
-qtdeclarative-opensource-src (5.2.1-2) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.2.1-2) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump Qt build dependencies.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Feb 2014 13:02:58 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 10 Feb 2014 13:23:01 -0300
 
 qtdeclarative-opensource-src (5.2.1-1) experimental; urgency=medium
 
