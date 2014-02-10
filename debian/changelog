@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.2.1-1) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * No symbols changes with respect to the latest build.
+  * Adjust qtdeclarative5-private-dev: new file present.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 10 Feb 2014 10:41:56 -0300
 

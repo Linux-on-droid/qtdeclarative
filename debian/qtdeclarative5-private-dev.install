@@ -215,6 +215,7 @@ usr/include/qt5/QtQuick/*/QtQuick/private/qquickdroparea_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickevents_p_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickflickable_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickflickable_p_p.h
+usr/include/qt5/QtQuick/*/QtQuick/private/qquickflickablebehavior_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickflipable_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickfocusscope_p.h
 usr/include/qt5/QtQuick/*/QtQuick/private/qquickfontloader_p.h
