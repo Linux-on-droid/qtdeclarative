@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64 ia64 powerpc sparc
+# SymbolsHelper-Confirmed: 5.2.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
-| libqt5quick5 #MINVER#, qtdeclarative-abi-5-2-0
+| libqt5quick5 #MINVER#, qtdeclarative-abi-5-2-1
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
  _ZN10QQuickItem10itemChangeENS_10ItemChangeERKNS_14ItemChangeDataE@Base 5.0.2
  _ZN10QQuickItem10resetWidthEv@Base 5.0.2
@@ -250,7 +250,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM13QNetworkReplyFvxxEEES_T_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM16QQuickCanvasItemFvRK5QRectEEES_T_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM17QQuickPixmapReplyFvxxEEES_T_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM20QQuickAnimatedSpriteFviEEES_T_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM20QQuickAnimatedSpriteFviEEES_T_@Base 5.2.0 1
  _ZN11QQuickState10setExtendsERK7QString@Base 5.0.2 1
  _ZN11QQuickState11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN11QQuickState11qt_metacastEPKc@Base 5.0.2 1
@@ -1441,6 +1441,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate15cloneMouseEventEP11QMouseEventP7QPointF@Base 5.0.2 1
  _ZN19QQuickWindowPrivate15initContentItemEv@Base 5.0.2 1
  _ZN19QQuickWindowPrivate15setFocusInScopeEP10QQuickItemS1_N2Qt11FocusReasonE6QFlagsINS_11FocusOptionEE@Base 5.1.0 1
+ _ZN19QQuickWindowPrivate15setMouseGrabberEP10QQuickItem@Base 5.2.1 1
  _ZN19QQuickWindowPrivate15updateDirtyNodeEP10QQuickItem@Base 5.0.2 1
  _ZN19QQuickWindowPrivate16clearFocusObjectEv@Base 5.2.0~rc1 1
  _ZN19QQuickWindowPrivate16deliverDragEventEP17QQuickDragGrabberP10QQuickItemP14QDragMoveEvent@Base 5.0.2 1
@@ -2703,50 +2704,50 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK7QSGNode12childAtIndexEi@Base 5.0.2
  _ZNK7QSGNode16isSubtreeBlockedEv@Base 5.0.2
  (optional=templinst|arch=sparc)_ZNK8QVariant5valueI6QColorEET_v@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt11__push_heapIN5QListI5QPairIi6UpdateEE8iteratorE{qptrdiff}S3_EvT_T0_S7_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt12__move_mergeIN5QListIP10QQuickItemE8iteratorES4_PS2_PFbS2_S2_EET1_T_S9_T0_SA_S8_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt12__move_mergeIPP10QQuickItemS2_N5QListIS1_E8iteratorEPFbS1_S1_EET1_T_S9_T0_SA_S8_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListI5QPairIi6UpdateEE8iteratorE{qptrdiff}S3_EvT_T0_S7_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorE{qptrdiff}S3_PFbS3_S3_EEvT_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListIiE8iteratorE{qptrdiff}iEvT_T0_S4_T1_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt11__push_heapIN5QListI5QPairIi6UpdateEE8iteratorE{qptrdiff}S3_EvT_T0_S7_T1_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt12__move_mergeIN5QListIP10QQuickItemE8iteratorES4_PS2_PFbS2_S2_EET1_T_S9_T0_SA_S8_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt12__move_mergeIPP10QQuickItemS2_N5QListIS1_E8iteratorEPFbS1_S1_EET1_T_S9_T0_SA_S8_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListI5QPairIi6UpdateEE8iteratorE{qptrdiff}S3_EvT_T0_S7_T1_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorE{qptrdiff}S3_PFbS3_S3_EEvT_T0_S9_T1_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIN5QListIiE8iteratorE{qptrdiff}iEvT_T0_S4_T1_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIPPN16QSGBatchRenderer5BatchE{ssize_t}S2_PFbS2_S2_EEvT_T0_S7_T1_T2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIPPN16QSGBatchRenderer7ElementE{ssize_t}S2_PFbS2_S2_EEvT_T0_S7_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_S8_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPPN16QSGBatchRenderer5BatchEPFbS2_S2_EEvT_S6_S6_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPPN16QSGBatchRenderer7ElementEPFbS2_S2_EEvT_S6_S6_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIP10QQuickItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIiE8iteratorEEvT_S3_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIP10QQuickItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIiE8iteratorEEvT_S3_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPPN16QSGBatchRenderer5BatchEPFbS2_S2_EEvT_S6_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPPN16QSGBatchRenderer7ElementEPFbS2_S2_EEvT_S6_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI5QPairIi6UpdateEE8iteratorEiEvT_S6_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEiPFbS3_S3_EEvT_S8_T0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIiE8iteratorEiEvT_S3_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI5QPairIi6UpdateEE8iteratorEiEvT_S6_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEiPFbS3_S3_EEvT_S8_T0_T1_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIiE8iteratorEiEvT_S3_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPPN16QSGBatchRenderer5BatchE{ssize_t}PFbS2_S2_EEvT_S6_T0_T1_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPPN16QSGBatchRenderer7ElementE{ssize_t}PFbS2_S2_EEvT_S6_T0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt16__merge_adaptiveIN5QListIP10QQuickItemE8iteratorE{qptrdiff}PS2_PFbS2_S2_EEvT_S8_S8_T0_S9_T1_S9_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt17__merge_sort_loopIN5QListIP10QQuickItemE8iteratorEPS2_{qptrdiff}PFbS2_S2_EEvT_S8_T0_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt17__merge_sort_loopIPP10QQuickItemN5QListIS1_E8iteratorE{qptrdiff}PFbS1_S1_EEvT_S8_T0_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt17__rotate_adaptiveIN5QListIP10QQuickItemE8iteratorEPS2_{qptrdiff}ET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_S6_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt16__merge_adaptiveIN5QListIP10QQuickItemE8iteratorE{qptrdiff}PS2_PFbS2_S2_EEvT_S8_S8_T0_S9_T1_S9_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt17__merge_sort_loopIN5QListIP10QQuickItemE8iteratorEPS2_{qptrdiff}PFbS2_S2_EEvT_S8_T0_T1_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt17__merge_sort_loopIPP10QQuickItemN5QListIS1_E8iteratorE{qptrdiff}PFbS1_S1_EEvT_S8_T0_T1_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt17__rotate_adaptiveIN5QListIP10QQuickItemE8iteratorEPS2_{qptrdiff}ET_S6_S6_S6_T1_S7_T0_S7_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_S6_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_S8_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIiE8iteratorEEvT_S3_S3_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIPPN16QSGBatchRenderer5BatchEPFbS2_S2_EEvT_S6_S6_T0_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIPPN16QSGBatchRenderer7ElementEPFbS2_S2_EEvT_S6_S6_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__inplace_stable_sortIN5QListIP10QQuickItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__move_merge_adaptiveIPP10QQuickItemN5QListIS1_E8iteratorES5_PFbS1_S1_EEvT_S8_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI5QPairIi6UpdateEE8iteratorES3_ET_S6_S6_RKT0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorES3_PFbS3_S3_EET_S8_S8_RKT0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt22__final_insertion_sortIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt22__merge_without_bufferIN5QListIP10QQuickItemE8iteratorEiPFbS2_S2_EEvT_S7_S7_T0_S8_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt22__stable_sort_adaptiveIN5QListIP10QQuickItemE8iteratorEPS2_{qptrdiff}PFbS2_S2_EEvT_S8_T0_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt24__merge_sort_with_bufferIN5QListIP10QQuickItemE8iteratorEPS2_PFbS2_S2_EEvT_S8_T0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListI5QPairIi6UpdateEE8iteratorEEvT_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt30__move_merge_adaptive_backwardIN5QListIP10QQuickItemE8iteratorEPS2_S4_PFbS2_S2_EEvT_S8_T0_S9_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt8__rotateIN5QListIP10QQuickItemE8iteratorEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt21__inplace_stable_sortIN5QListIP10QQuickItemE8iteratorEPFbS2_S2_EEvT_S7_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt21__move_merge_adaptiveIPP10QQuickItemN5QListIS1_E8iteratorES5_PFbS1_S1_EEvT_S8_T0_S9_T1_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI5QPairIi6UpdateEE8iteratorES3_ET_S6_S6_RKT0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorES3_PFbS3_S3_EET_S8_S8_RKT0_T1_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt22__final_insertion_sortIN5QListIPN21QQuickTextEditPrivate4NodeEE8iteratorEPFbS3_S3_EEvT_S8_T0_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt22__merge_without_bufferIN5QListIP10QQuickItemE8iteratorEiPFbS2_S2_EEvT_S7_S7_T0_S8_T1_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt22__stable_sort_adaptiveIN5QListIP10QQuickItemE8iteratorEPS2_{qptrdiff}PFbS2_S2_EEvT_S8_T0_T1_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt24__merge_sort_with_bufferIN5QListIP10QQuickItemE8iteratorEPS2_PFbS2_S2_EEvT_S8_T0_T1_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListI5QPairIi6UpdateEE8iteratorEEvT_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt30__move_merge_adaptive_backwardIN5QListIP10QQuickItemE8iteratorEPS2_S4_PFbS2_S2_EEvT_S8_T0_S9_T1_T2_@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt8__rotateIN5QListIP10QQuickItemE8iteratorEEvT_S5_S5_St26random_access_iterator_tag@Base 5.2.0 1
+ (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI5QPairIi6UpdateEE8iteratorEEvT_S6_@Base 5.2.0 1
  _ZTI10QQuickItem@Base 5.0.2
  _ZTI10QQuickText@Base 5.0.2 1
  _ZTI10QQuickView@Base 5.0.2
