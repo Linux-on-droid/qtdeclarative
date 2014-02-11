@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64
+# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64 mips powerpc s390x sparc
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -1798,13 +1798,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection13callSubscriptEPNS_4V4IR4ExprES4_PNS2_8ExprListEPNS2_4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14constructValueEPNS_4V4IR4TempEPNS2_8ExprListES4_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14genInlineBinopENS_4V4IR5AluOpEPNS2_4ExprES5_PNS2_4TempE@Base 5.2.0
- _ZN6QQmlJS4MASM20InstructionSelection14loadQmlIdArrayEPNS_4V4IR4TempE@Base 5.2.1
+ (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelection14loadQmlIdArrayEPNS_4V4IR4TempE@Base 5.2.1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14loadThisObjectEPNS_4V4IR4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection15prepareCallDataEPNS_4V4IR8ExprListEPNS2_4ExprE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection15visitCJumpEqualEPNS_4V4IR5BinopEPNS2_10BasicBlockES6_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16addConstantTableEP7QVectorIN3QV49PrimitiveEE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16callBuiltinThrowEPNS_4V4IR4ExprE@Base 5.2.0
- _ZN6QQmlJS4MASM20InstructionSelection16loadQmlSingletonERK7QStringPNS_4V4IR4TempE@Base 5.2.1
+ (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelection16loadQmlSingletonERK7QStringPNS_4V4IR4TempE@Base 5.2.1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16visitCJumpDoubleENS_4V4IR5AluOpEPNS2_4ExprES5_PNS2_10BasicBlockES7_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16visitCJumpStrictEPNS_4V4IR5BinopEPNS2_10BasicBlockES6_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection17constructPropertyEPNS_4V4IR4TempERK7QStringPNS2_8ExprListES4_@Base 5.2.0
@@ -1812,7 +1812,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18backendCompileStepEv@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18callBuiltinInvalidEPNS_4V4IR4NameEPNS2_8ExprListEPNS2_4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18callBuiltinReThrowEv@Base 5.2.0
- _ZN6QQmlJS4MASM20InstructionSelection18getQObjectPropertyEPNS_4V4IR4ExprEibiPNS2_4TempE@Base 5.2.1
+ (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelection18getQObjectPropertyEPNS_4V4IR4ExprEibiPNS2_4TempE@Base 5.2.1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18loadQmlScopeObjectEPNS_4V4IR4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18setQObjectPropertyEPNS_4V4IR4ExprES4_i@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection19callBuiltinPopScopeEv@Base 5.2.0
@@ -1859,8 +1859,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection9copyValueEPNS_4V4IR4TempES4_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection9loadConstEPNS_4V4IR5ConstEPNS2_4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection9visitJumpEPNS_4V4IR4JumpE@Base 5.2.0
- _ZN6QQmlJS4MASM20InstructionSelectionC1EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
- _ZN6QQmlJS4MASM20InstructionSelectionC2EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
+ (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelectionC1EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
+ (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelectionC2EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionD0Ev@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionD1Ev@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionD2Ev@Base 5.2.0
@@ -2237,6 +2237,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlTypeD1Ev@Base 5.0.2 1
  _ZN8QQmlTypeD2Ev@Base 5.0.2 1
  (optional=templinst|arch=ia64)_ZN8QVariant9fromValueIP9ListModelEES_RKT_@Base 5.2.0
+ (arch=mips powerpc s390x)_ZN9QBitArray6setBitEi@Base 5.2.1
  (optional=gccinternal|arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QJSEngine10newQObjectEP7QObject@Base 5.0.2
  _ZN9QJSEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -2776,7 +2777,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK8QQmlType9enumValueERK17QHashedCStringRefPb@Base 5.0.2 1
  _ZNK8QQmlType9sourceUrlEv@Base 5.1.0 1
  _ZNK8QQmlType9superTypeEv@Base 5.0.2 1
- (optional=templinst|arch=sparc)_ZNK8QVariant5valueI5QListI4QUrlEEET_v@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZNK8QVariant5valueI5QListI4QUrlEEET_v@Base 5.2.0
  _ZNK9QJSEngine10metaObjectEv@Base 5.0.2
  _ZNK9QJSEngine12globalObjectEv@Base 5.0.2
  _ZNK9QQmlError11descriptionEv@Base 5.0.2
@@ -2792,6 +2793,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK9QQmlTimer8intervalEv@Base 5.0.2 1
  _ZNK9QQmlTimer9isRunningEv@Base 5.0.2 1
  _ZNK9QV8Engine12illegalNamesEv@Base 5.0.2 1
+ (optional=templinst|arch=ia64 sparc|subst)_ZNKSt6vectorIiSaIiEE12_M_check_lenE{size_t}PKc@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZNSt6vectorI6OwnPtrIN3JSC4Yarr14CharacterClassEESaIS4_EE13_M_insert_auxIIS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZNSt6vectorI6OwnPtrIN3JSC4Yarr14CharacterClassEESaIS4_EE5eraseEN9__gnu_cxx17__normal_iteratorIPS4_S6_EESA_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZNSt6vectorI6OwnPtrIN3JSC4Yarr15ByteDisjunctionEESaIS4_EE13_M_insert_auxIIS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Base 5.2.0
@@ -2806,16 +2808,17 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZNSt6vectorIN3JSC4Yarr14CharacterRangeESaIS2_EE6insertEN9__gnu_cxx17__normal_iteratorIPS2_S4_EERKS2_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZNSt6vectorIN3JSC4Yarr8ByteTermESaIS2_EE13_M_insert_auxIIRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc|subst)_ZNSt6vectorIN3JSC4Yarr8ByteTermESaIS2_EE7reserveE{size_t}@Base 5.2.0
- (optional=templinst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_default_appendEm@Base 5.2.1
+ (optional=templinst|subst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_default_appendE{size_t}@Base 5.2.1
  (subst|arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZNSt6vectorIcSaIcEE17_M_default_appendE{size_t}@Base 5.2.0
- (optional=templinst)_ZNSt6vectorIiSaIiEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPiS1_EEmRKi@Base 5.2.1
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 5.2.1
- (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 5.2.1
- (optional=templinst)_ZNSt6vectorIiSaIiEE7reserveEm@Base 5.2.1
+ (optional=templinst|arch=ia64 sparc)_ZNSt6vectorIiSaIiEE13_M_insert_auxIIRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Base 5.2.1
+ (optional=templinst|subst)_ZNSt6vectorIiSaIiEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPiS1_EE{size_t}RKi@Base 5.2.1
+ (optional=templinst|arch=!ia64 !sparc)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 5.2.1
+ (optional=templinst|arch=!ia64 !sparc)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 5.2.1
+ (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEC1ERKS1_@Base 5.2.1
- (optional=templinst)_ZNSt6vectorIiSaIiEEC1EmRKiRKS0_@Base 5.2.1
+ (optional=templinst|arch=!ia64 !sparc|subst)_ZNSt6vectorIiSaIiEEC1E{size_t}RKiRKS0_@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEC2ERKS1_@Base 5.2.1
- (optional=templinst)_ZNSt6vectorIiSaIiEEC2EmRKiRKS0_@Base 5.2.1
+ (optional=templinst|arch=!ia64 !sparc|subst)_ZNSt6vectorIiSaIiEEC2E{size_t}RKiRKS0_@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEaSERKS1_@Base 5.2.1
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZNSt6vectorItSaItEE12emplace_backIItEEEvDpOT_@Base 5.2.0
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZNSt6vectorItSaItEE12emplace_backIJtEEEvDpOT_@Base 5.2.0
@@ -2828,7 +2831,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJRKtEEEvDpOT_@Base 5.2.0
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZNSt6vectorItSaItEE6insertEN9__gnu_cxx17__normal_iteratorIPtS1_EERKt@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt10__pop_heapIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.0
  (optional=templinst|arch=sparc)_ZSt11__push_heapIN5QListI4QUrlE8iteratorEiS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=sparc)_ZSt11__push_heapIN5QListI4QUrlE8iteratorEiS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
@@ -2893,6 +2895,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIiE8iteratorEN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_S6_S6_T0_@Base 5.2.0 1
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZSt13__heap_selectIPN3QV413MemoryManager4Data5ChunkEEvT_S5_S5_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPN3QV48PropertyENS0_20ArrayElementLessThanEEvT_S4_S4_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorEPFbRKS5_S9_EEvT_SC_T0_@Base 5.2.0 1
@@ -2995,7 +2998,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEN12QQmlSequenceI11QStringListE14CompareFunctorEEvT_S8_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEPFbRKS1_S5_EEvT_S8_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_T0_@Base 5.2.0
  _ZTI10QQmlBundle@Base 5.0.2 1
  _ZTI10QQmlEngine@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2
