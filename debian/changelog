@@ -1,7 +1,7 @@
 qtdeclarative-opensource-src (5.2.1-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Stop building qtdeclarative5-doc-html from this source, it will be
+  * Stop building qtdeclarative5-doc from this source, it will be
     built from qttools-opensource-src instead. This allows us to drop
     qttools5-dev-tools build-dependency and get rid of dependency loop.
 
