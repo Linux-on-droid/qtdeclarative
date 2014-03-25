@@ -1,11 +1,11 @@
-qtdeclarative-opensource-src (5.2.1-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.2.1-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
   * Add license to mark_private_symbols.sh and corresponding entry in
     debian/copyright.
   * Update symbols files with buildd's logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Mar 2014 15:23:19 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 24 Mar 2014 21:45:21 -0300
 
 qtdeclarative-opensource-src (5.2.1-3) experimental; urgency=medium
 
