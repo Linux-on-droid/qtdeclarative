@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 ia64 mips powerpc s390x sparc
+# SymbolsHelper-Confirmed: 5.2.1 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -1798,13 +1798,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection13callSubscriptEPNS_4V4IR4ExprES4_PNS2_8ExprListEPNS2_4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14constructValueEPNS_4V4IR4TempEPNS2_8ExprListES4_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14genInlineBinopENS_4V4IR5AluOpEPNS2_4ExprES5_PNS2_4TempE@Base 5.2.0
- (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelection14loadQmlIdArrayEPNS_4V4IR4TempE@Base 5.2.1
+ (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14loadQmlIdArrayEPNS_4V4IR4TempE@Base 5.2.1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection14loadThisObjectEPNS_4V4IR4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection15prepareCallDataEPNS_4V4IR8ExprListEPNS2_4ExprE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection15visitCJumpEqualEPNS_4V4IR5BinopEPNS2_10BasicBlockES6_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16addConstantTableEP7QVectorIN3QV49PrimitiveEE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16callBuiltinThrowEPNS_4V4IR4ExprE@Base 5.2.0
- (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelection16loadQmlSingletonERK7QStringPNS_4V4IR4TempE@Base 5.2.1
+ (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16loadQmlSingletonERK7QStringPNS_4V4IR4TempE@Base 5.2.1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16visitCJumpDoubleENS_4V4IR5AluOpEPNS2_4ExprES5_PNS2_10BasicBlockES7_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection16visitCJumpStrictEPNS_4V4IR5BinopEPNS2_10BasicBlockES6_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection17constructPropertyEPNS_4V4IR4TempERK7QStringPNS2_8ExprListES4_@Base 5.2.0
@@ -1812,7 +1812,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18backendCompileStepEv@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18callBuiltinInvalidEPNS_4V4IR4NameEPNS2_8ExprListEPNS2_4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18callBuiltinReThrowEv@Base 5.2.0
- (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelection18getQObjectPropertyEPNS_4V4IR4ExprEibiPNS2_4TempE@Base 5.2.1
+ (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18getQObjectPropertyEPNS_4V4IR4ExprEibiPNS2_4TempE@Base 5.2.1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18loadQmlScopeObjectEPNS_4V4IR4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection18setQObjectPropertyEPNS_4V4IR4ExprES4_i@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection19callBuiltinPopScopeEv@Base 5.2.0
@@ -1859,8 +1859,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection9copyValueEPNS_4V4IR4TempES4_@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection9loadConstEPNS_4V4IR5ConstEPNS2_4TempE@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelection9visitJumpEPNS_4V4IR4JumpE@Base 5.2.0
- (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelectionC1EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
- (arch=amd64)_ZN6QQmlJS4MASM20InstructionSelectionC2EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
+ (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionC1EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
+ (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionC2EP17QQmlEnginePrivatePN3QV419ExecutableAllocatorEPNS_4V4IR6ModuleEPNS4_8Compiler15JSUnitGeneratorE@Base 5.2.1 1
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionD0Ev@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionD1Ev@Base 5.2.0
  (arch=amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386)_ZN6QQmlJS4MASM20InstructionSelectionD2Ev@Base 5.2.0
@@ -2237,7 +2237,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlTypeD1Ev@Base 5.0.2 1
  _ZN8QQmlTypeD2Ev@Base 5.0.2 1
  (optional=templinst|arch=ia64)_ZN8QVariant9fromValueIP9ListModelEES_RKT_@Base 5.2.0
- (arch=mips powerpc s390x)_ZN9QBitArray6setBitEi@Base 5.2.1
+ (arch=armel mips mipsel powerpc ppc64 s390x)_ZN9QBitArray6setBitEi@Base 5.2.1
  (optional=gccinternal|arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QJSEngine10newQObjectEP7QObject@Base 5.0.2
  _ZN9QJSEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
