@@ -16,6 +16,7 @@ qtdeclarative-opensource-src (5.2.1-5) UNRELEASED; urgency=medium
     - qtdeclarative5-test-plugin → qml-module-qttest.
     - qtdeclarative5-window-plugin → qml-module-qtquick-window2.
     - qtdeclarative5-xmllistmodel-plugin → qml-module-qtquick-xmllistmodel.
+  * Override lintian for duplicated long description on transitional packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2014 12:19:25 -0300
 
