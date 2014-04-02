@@ -116,11 +116,21 @@ Description: Qt 5 folderlistmodel QML module
  The FolderListModel provides a model of the contents of a file system folder.
 
 Package: qtdeclarative5-localstorage-plugin
+Architecture: all
+Section: oldlibs
+Depends: qml-module-qtquick-localstorage, ${misc:Depends}
+Description: transitional dummy package for Qt 5 localstorage QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-module-qtquick-localstorage
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: libqt5sql5-sqlite, ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 localstorage QML plugin
+Description: Qt 5 localstorage QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
