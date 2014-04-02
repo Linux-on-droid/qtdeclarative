@@ -74,7 +74,6 @@ Description: Qt 5 Quick Test library
 Package: qtdeclarative5-dialogs-plugin
 Architecture: all
 Section: oldlibs
-Pre-Depends: ${misc:Pre-Depends}
 Depends: qml-module-qtquick-dialogs, ${misc:Depends}
 Description: transitional dummy package for Qt 5 Dialogs QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
