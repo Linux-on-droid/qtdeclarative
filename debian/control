@@ -85,7 +85,7 @@ Package: qml-module-qtquick-dialogs
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: qtdeclarative5-privatewidgets-plugin,
+Depends: qml-module-qtquick-privatewidgets,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt 5 Dialogs QML module
@@ -380,11 +380,11 @@ Multi-Arch: same
 Section: x11
 Pre-Depends: ${misc:Pre-Depends}
 Depends: qml-module-qtquick-dialogs,
-         qtdeclarative5-localstorage-plugin,
-         qtdeclarative5-models-plugin,
-         qtdeclarative5-particles-plugin,
-         qtdeclarative5-test-plugin,
-         qtdeclarative5-xmllistmodel-plugin,
+         qml-module-qtquick-localstorage,
+         qml-model-qtqml-models2,
+         qml-module-qtquick-particles2,
+         qml-module-qttest,
+         qml-module-qtquick-xmllistmodel,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt 5 declarative examples
