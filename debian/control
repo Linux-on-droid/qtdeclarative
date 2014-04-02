@@ -202,7 +202,7 @@ Description: Qt 5 Private Widgets QML module
 Package: qtdeclarative5-qtquick2-plugin
 Architecture: all
 Section: oldlibs
-Depends: libgl1-mesa-dri, qml-module-qtquick2, ${misc:Depends}
+Depends: ${misc:Depends}, qml-module-qtquick2
 Description: transitional dummy package Qt 5 Qt Quick 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
