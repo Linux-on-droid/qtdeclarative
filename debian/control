@@ -85,9 +85,7 @@ Package: qml-module-qtquick-dialogs
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: qml-module-qtquick-privatewidgets,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: qml-module-qtquick-privatewidgets, ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 Dialogs QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -202,7 +200,7 @@ Description: Qt 5 Private Widgets QML module
 Package: qtdeclarative5-qtquick2-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qtquick2
+Depends: qml-module-qtquick2, ${misc:Depends}
 Description: transitional dummy package Qt 5 Qt Quick 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -223,7 +221,7 @@ Description: Qt 5 Qt Quick 2 QML module
 Package: qtdeclarative5-settings-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qt-labs-settings
+Depends: qml-module-qt-labs-settings, ${misc:Depends}
 Description: transitional dummy package for Qt 5 settings QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -244,7 +242,7 @@ Description: Qt 5 settings QML module
 Package: qtdeclarative5-test-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qttest
+Depends: qml-module-qttest, ${misc:Depends}
 Description: transitional dummy package for Qt 5 test QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -265,7 +263,7 @@ Description: Qt 5 test QML module
 Package: qtdeclarative5-window-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qtquick-window2
+Depends: qml-module-qtquick-window2, ${misc:Depends}
 Description: transitional dummy package for Qt 5 window 2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -287,7 +285,7 @@ Description: Qt 5 window 2 QML module
 Package: qtdeclarative5-xmllistmodel-plugin
 Architecture: all
 Section: oldlibs
-Depends: ${misc:Depends}, qml-module-qtquick-xmllistmodel
+Depends: qml-module-qtquick-xmllistmodel, ${misc:Depends}
 Description: transitional dummy package for Qt 5 xmllistmodel QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -379,12 +377,12 @@ Architecture: any
 Multi-Arch: same
 Section: x11
 Pre-Depends: ${misc:Pre-Depends}
-Depends: qml-module-qtquick-dialogs,
+Depends: qml-model-qtqml-models2,
+         qml-module-qtquick-dialogs,
          qml-module-qtquick-localstorage,
-         qml-model-qtqml-models2,
          qml-module-qtquick-particles2,
-         qml-module-qttest,
          qml-module-qtquick-xmllistmodel,
+         qml-module-qttest,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt 5 declarative examples
