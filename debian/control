@@ -179,15 +179,25 @@ Description: Qt 5 particles 2 QML module
  This QML module contains a particle system for Qt Quick.
 
 Package: qtdeclarative5-privatewidgets-plugin
+Architecture: all
+Section: oldlibs
+Depends: qml-module-qtquick-privatewidgets, ${misc:Depends}
+Description: transitional dummy package for Qt 5 Private Widgets QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-module-qtquick-privatewidgets
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Private Widgets QML plugin
+Description: Qt 5 Private Widgets QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Private Widgets plugin.
+ This package contains the Private Widgets module.
 
 Package: qtdeclarative5-qtquick2-plugin
 Architecture: any
