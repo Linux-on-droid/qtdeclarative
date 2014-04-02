@@ -285,11 +285,21 @@ Description: Qt 5 window 2 QML module
  accessing screen information.
 
 Package: qtdeclarative5-xmllistmodel-plugin
+Architecture: all
+Section: oldlibs
+Depends: ${misc:Depends}, qml-module-qtquick-xmllistmodel
+Description: transitional dummy package for Qt 5 xmllistmodel QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-module-qtquick-xmllistmodel
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 xmllistmodel QML plugin
+Description: Qt 5 xmllistmodel QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
