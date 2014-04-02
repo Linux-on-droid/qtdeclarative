@@ -72,13 +72,24 @@ Description: Qt 5 Quick Test library
  This package contains the Qt Quick Test library for QtDeclarative module.
 
 Package: qtdeclarative5-dialogs-plugin
+Architecture: all
+Section: oldlibs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: qml-module-qtquick-dialogs, ${misc:Depends}
+Description: transitional dummy package for Qt 5 Dialogs QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-module-qtquick-dialogs
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: qtdeclarative5-privatewidgets-plugin,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Qt 5 Dialogs QML plugin
+Description: Qt 5 Dialogs QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -269,7 +280,7 @@ Architecture: any
 Multi-Arch: same
 Section: x11
 Pre-Depends: ${misc:Pre-Depends}
-Depends: qtdeclarative5-dialogs-plugin,
+Depends: qml-module-qtquick-dialogs,
          qtdeclarative5-localstorage-plugin,
          qtdeclarative5-models-plugin,
          qtdeclarative5-particles-plugin,
