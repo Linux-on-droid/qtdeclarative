@@ -137,11 +137,21 @@ Description: Qt 5 localstorage QML module
  This is a singleton type for reading and writing to SQLite databases.
 
 Package: qtdeclarative5-models-plugin
+Architecture: all
+Section: oldlibs
+Depends: qml-model-qtqml-models2, ${misc:Depends}
+Description: transitional dummy package for Qt 5 Models2 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-model-qtqml-models2
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Models QML plugin
+Description: Qt 5 Models2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
