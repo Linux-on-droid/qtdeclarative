@@ -10,6 +10,7 @@ qtdeclarative-opensource-src (5.2.1-5) UNRELEASED; urgency=medium
     - qtdeclarative5-particles-plugin → qml-module-qtquick-particles2.
     - qtdeclarative5-privatewidgets-plugin → qml-module-qtquick-privatewidgets.
     - qtdeclarative5-qtquick2-plugin → qml-module-qtquick2.
+    - qtdeclarative5-settings-plugin → qml-module-qt-labs-settings.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2014 12:19:25 -0300
 
