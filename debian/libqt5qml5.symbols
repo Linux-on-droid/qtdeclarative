@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.1 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
+# SymbolsHelper-Confirmed: 5.2.1 alpha amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-2-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -2237,7 +2237,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlTypeD1Ev@Base 5.0.2 1
  _ZN8QQmlTypeD2Ev@Base 5.0.2 1
  (optional=templinst|arch=ia64)_ZN8QVariant9fromValueIP9ListModelEES_RKT_@Base 5.2.0
- (arch=armel mips mipsel powerpc ppc64 s390x)_ZN9QBitArray6setBitEi@Base 5.2.1
+ (arch=alpha armel mips mipsel powerpc ppc64 s390x)_ZN9QBitArray6setBitEi@Base 5.2.1
  (optional=gccinternal|arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZN9QBitArray8clearBitEi@Base 5.0.2
  _ZN9QJSEngine10newQObjectEP7QObject@Base 5.0.2
  _ZN9QJSEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
