@@ -269,7 +269,7 @@ Package: qml-module-qttest
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-qtquick2, ${misc:Depends}, ${shlibs:Depends}
 Breaks: qtdeclarative5-test-plugin (<< 5.2.1-5~)
 Replaces: qtdeclarative5-test-plugin (<< 5.2.1-5~)
 Description: Qt 5 test QML module
