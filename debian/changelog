@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.2.1-5) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.2.1-5) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Rename QML modules as such, creating the proper transitional packages and
     renaming the necessary files:
     - qtdeclarative5-dialogs-plugin → qml-module-qtquick-dialogs.
@@ -20,7 +19,7 @@ qtdeclarative-opensource-src (5.2.1-5) UNRELEASED; urgency=medium
   * Add qml-module-qtquick2 as qml-module-qttest dependency.
   * Update symbols files with buildd's logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2014 12:19:25 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 03 Apr 2014 10:04:59 -0300
 
 qtdeclarative-opensource-src (5.2.1-4) unstable; urgency=medium
 
