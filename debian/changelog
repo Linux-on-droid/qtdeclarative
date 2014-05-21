@@ -2,7 +2,7 @@ qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
-  * Update symbols files with buildds' logs.
+  * Update symbols files with buildds' and current logs.
   * Update header's install path.
   * Bump Qt build dependencies.
   * Create new binary package libqt5quickwidgets5.
