@@ -15,6 +15,7 @@ qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Bump qtdeclarative-abi to qtdeclarative-abi-5-3-0.
   * Remove qml modules transitional packages. They have already landed in
     testing and they never existed in stable, so it's safe to remove them.
+  * Mark private symbols as such.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2014 23:50:25 -0300
 

@@ -2878,7 +2878,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
  (subst)_ZSt13__adjust_heapIPN3QV413MemoryManager4Data5ChunkE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.2.0~beta1 1
  (optional=templinst|subst|arch=ia64 sparc)_ZSt13__adjust_heapIPN3QV48PropertyE{ssize_t}S1_NS0_20ArrayElementLessThanEEvT_T0_S5_T1_T2_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIPN6QQmlJS4V4IR16LifeTimeIntervalE{ssize_t}S2_PFbRKS2_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt13__adjust_heapIPN6QQmlJS4V4IR16LifeTimeIntervalE{ssize_t}S2_PFbRKS2_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0 1
  (subst)_ZSt13__adjust_heapIPi{ssize_t}iEvT_T0_S2_T1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_S7_S7_T0_@Base 5.2.0 1
@@ -2895,7 +2895,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIN5QListIiE8iteratorEN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_S6_S6_T0_@Base 5.2.0 1
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc64)_ZSt13__heap_selectIPN3QV413MemoryManager4Data5ChunkEEvT_S5_S5_@Base 5.2.1 1
  (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPN3QV48PropertyENS0_20ArrayElementLessThanEEvT_S4_S4_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.1
+ (optional=templinst|arch=ia64 sparc)_ZSt13__heap_selectIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.1 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorEPFbRKS5_S9_EEvT_SC_T0_@Base 5.2.0 1
@@ -2913,7 +2913,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIN5QListIiE8iteratorEN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_S6_T0_@Base 5.2.0 1
  _ZSt16__insertion_sortIPN3QV413MemoryManager4Data5ChunkEEvT_S5_@Base 5.2.0~beta1 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPN3QV48PropertyENS0_20ArrayElementLessThanEEvT_S4_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt16__insertion_sortIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_T0_@Base 5.2.0 1
  _ZSt16__insertion_sortIPiEvT_S1_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI4QUrlE8iteratorEiN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_T1_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListI4QUrlE8iteratorEiN12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_S7_T0_T1_@Base 5.2.0 1
@@ -2932,7 +2932,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt16__introsort_loopIN5QListIiE8iteratorEiN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_S6_T0_T1_@Base 5.2.0 1
  (subst)_ZSt16__introsort_loopIPN3QV413MemoryManager4Data5ChunkE{ssize_t}EvT_S5_T0_@Base 5.2.0~beta1 1
  (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPN3QV48PropertyE{ssize_t}NS0_20ArrayElementLessThanEEvT_S4_T0_T1_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPN6QQmlJS4V4IR16LifeTimeIntervalE{ssize_t}PFbRKS2_S5_EEvT_S8_T0_T1_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc|subst)_ZSt16__introsort_loopIPN6QQmlJS4V4IR16LifeTimeIntervalE{ssize_t}PFbRKS2_S5_EEvT_S8_T0_T1_@Base 5.2.0 1
  (subst)_ZSt16__introsort_loopIPi{ssize_t}EvT_S1_T0_@Base 5.2.0~beta1
  (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_S7_S7_T0_@Base 5.2.0 1
@@ -2951,7 +2951,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIN5QListIiE8iteratorEN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_S6_S6_T0_@Base 5.2.0 1
  (optional=templinst|arch=sparc)_ZSt19__move_median_firstIPN3QV413MemoryManager4Data5ChunkEEvT_S5_S5_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIPN3QV48PropertyENS0_20ArrayElementLessThanEEvT_S4_S4_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt19__move_median_firstIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_S8_S8_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI4QUrlE8iteratorES1_N12QQmlSequenceIS2_E14CompareFunctorEET_S7_S7_RKT0_T1_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI4QUrlE8iteratorES1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEET_S7_S7_RKT0_T1_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt21__unguarded_partitionIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorES5_PFbRKS5_S9_EET_SC_SC_RKT0_T1_@Base 5.2.0 1
@@ -2989,10 +2989,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIN5QListIiE8iteratorEN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_T0_@Base 5.2.0 1
  (arch=!sparc)_ZSt25__unguarded_linear_insertIPN3QV413MemoryManager4Data5ChunkEEvT_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIPN3QV48PropertyENS0_20ArrayElementLessThanEEvT_T0_@Base 5.2.0
- (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt25__unguarded_linear_insertIPN6QQmlJS4V4IR16LifeTimeIntervalEPFbRKS2_S5_EEvT_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt4moveIN9__gnu_cxx17__normal_iteratorIPN3JSC4Yarr11PatternTermESt6vectorIS4_SaIS4_EEEES9_ET0_T_SB_SA_@Base 5.2.0
  (optional=templinst|arch=!alpha !amd64 !ia64 !kfreebsd-amd64 !ppc64 !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
- (optional=templinst|arch=ia64 sparc)_ZSt9iter_swapIPN6QQmlJS4V4IR16LifeTimeIntervalES3_EvT_T0_@Base 5.2.0
+ (optional=templinst|arch=ia64 sparc)_ZSt9iter_swapIPN6QQmlJS4V4IR16LifeTimeIntervalES3_EvT_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorEPFbRKS5_S9_EEvT_SC_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZSt9make_heapIN5QListI7QStringE8iteratorEN12QQmlSequenceI11QStringListE14CompareFunctorEEvT_S8_T0_@Base 5.2.0 1
