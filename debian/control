@@ -82,16 +82,6 @@ Description: Qt 5 Quick Widgets library
  .
  This package contains the Qt Quick Widgets library for QtDeclarative module.
 
-Package: qtdeclarative5-folderlistmodel-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qt-labs-folderlistmodel, ${misc:Depends}
-Description: transitional dummy package for Qt 5 folderlistmodel QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qt-labs-folderlistmodel
 Architecture: any
 Multi-Arch: same
@@ -104,16 +94,6 @@ Description: Qt 5 folderlistmodel QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  The FolderListModel provides a model of the contents of a file system folder.
-
-Package: qtdeclarative5-localstorage-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtquick-localstorage, ${misc:Depends}
-Description: transitional dummy package for Qt 5 localstorage QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qtquick-localstorage
 Architecture: any
@@ -128,16 +108,6 @@ Description: Qt 5 localstorage QML module
  .
  This is a singleton type for reading and writing to SQLite databases.
 
-Package: qtdeclarative5-models-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-model-qtqml-models2, ${misc:Depends}
-Description: transitional dummy package for Qt 5 Models2 QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-model-qtqml-models2
 Architecture: any
 Multi-Arch: same
@@ -150,16 +120,6 @@ Description: Qt 5 Models2 QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  The Models provides types previously found in Qt Quick module.
-
-Package: qtdeclarative5-particles-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtquick-particles2, ${misc:Depends}
-Description: transitional dummy package for Qt 5 particles 2 QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qtquick-particles2
 Architecture: any
@@ -174,16 +134,6 @@ Description: Qt 5 particles 2 QML module
  .
  This QML module contains a particle system for Qt Quick.
 
-Package: qtdeclarative5-qtquick2-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtquick2, ${misc:Depends}
-Description: transitional dummy package Qt 5 Qt Quick 2 QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qtquick2
 Architecture: any
 Multi-Arch: same
@@ -196,16 +146,6 @@ Description: Qt 5 Qt Quick 2 QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt Quick 2 QML module for Qt declarative.
-
-Package: qtdeclarative5-settings-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qt-labs-settings, ${misc:Depends}
-Description: transitional dummy package for Qt 5 settings QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qt-labs-settings
 Architecture: any
@@ -220,16 +160,6 @@ Description: Qt 5 settings QML module
  .
  This package contains the settings QML module for Qt declarative.
 
-Package: qtdeclarative5-test-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qttest, ${misc:Depends}
-Description: transitional dummy package for Qt 5 test QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qttest
 Architecture: any
 Multi-Arch: same
@@ -242,16 +172,6 @@ Description: Qt 5 test QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the test QML module for Qt declarative.
-
-Package: qtdeclarative5-window-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtquick-window2, ${misc:Depends}
-Description: transitional dummy package for Qt 5 window 2 QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qtquick-window2
 Architecture: any
@@ -266,16 +186,6 @@ Description: Qt 5 window 2 QML module
  .
  This QML module contains types for creating top-level windows and
  accessing screen information.
-
-Package: qtdeclarative5-xmllistmodel-plugin
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtquick-xmllistmodel, ${misc:Depends}
-Description: transitional dummy package for Qt 5 xmllistmodel QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qtquick-xmllistmodel
 Architecture: any
