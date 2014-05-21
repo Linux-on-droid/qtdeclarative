@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.2.0 alpha amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
-| libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-2-1
+| libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-3-0
  (arch=alpha amd64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x)_ZN10QByteArray7reserveEi@Base 5.2.0
  (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM18QQuickTrailEmitterFv12QQmlV4HandleS2_EEES_T_@Base 5.2.0 1
  (optional=templinst|arch=ia64 sparc)_ZN11QMetaMethod10fromSignalIM20QQuickCustomAffectorFv12QQmlV4HandledEEES_T_@Base 5.2.0 1

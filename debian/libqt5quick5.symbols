@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.2.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
-| libqt5quick5 #MINVER#, qtdeclarative-abi-5-2-1
+| libqt5quick5 #MINVER#, qtdeclarative-abi-5-3-0
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
  _ZN10QQuickItem10itemChangeENS_10ItemChangeERKNS_14ItemChangeDataE@Base 5.0.2
  _ZN10QQuickItem10resetWidthEv@Base 5.0.2
