@@ -57,5 +57,5 @@ grep -rh class ${PRIVATE_HEADERS} |
 # Diff the symbols files and output it's differences.
 for symbols_file in `ls debian/*.symbols`
 do
-	diff -Nau $symbols_file $symbols_file.orig
+	diff -Nau $symbols_file.orig $symbols_file
 done
