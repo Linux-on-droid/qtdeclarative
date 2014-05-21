@@ -20,7 +20,7 @@
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-PRIVATE_HEADERS=qtdeclarative5-private-dev/usr/include
+PRIVATE_HEADERS=debian/qtdeclarative5-private-dev/usr/include
 
 error() {
 	echo $@
@@ -36,6 +36,12 @@ then
 	error "Private headers not found"
 fi
 
+# Create a backup copy of the original symbols file.
+for symbols_file in `ls debian/*.symbols`
+do
+	cp $symbols_file $symbols_file.orig
+done
+
 grep -rh class ${PRIVATE_HEADERS} |
 	grep EXPORT | 
 	while read class export classname rest 
@@ -45,6 +51,11 @@ grep -rh class ${PRIVATE_HEADERS} |
 	while read privateclass 
 	do
 		debug marking ${privateclass} as private
-		sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" *.symbols 
+		sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols 
 	done 
 
+# Diff the symbols files and output it's differences.
+for symbols_file in `ls debian/*.symbols`
+do
+	diff -Nau $symbols_file $symbols_file.orig
+done
