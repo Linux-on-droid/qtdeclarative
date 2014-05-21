@@ -9,6 +9,7 @@ qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Do not create qml-module-qtquick-privatewidgets and
     qml-module-qtquick-dialogs anymore from this source, they have been moved
     to src:qtquickcontrols-opensource-src.
+  * Update install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2014 23:50:25 -0300
 
