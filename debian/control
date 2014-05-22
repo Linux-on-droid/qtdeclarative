@@ -202,7 +202,7 @@ Description: Qt 5 xmllistmodel QML module
 
 Package: qtdeclarative5-dev
 Section: libdevel
-Architecture: all
+Architecture: any
 Multi-Arch: same
 Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}),
@@ -218,7 +218,7 @@ Description: Qt 5 declarative development files
  Qt 5 applications using Qt 5 declarative headers.
 
 Package: qtdeclarative5-private-dev
-Architecture: all
+Architecture: any
 Multi-Arch: same
 Section: libdevel
 Depends: qtdeclarative5-dev (= ${binary:Version}), ${misc:Depends}
