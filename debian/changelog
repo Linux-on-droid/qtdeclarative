@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.0-1) experimental; urgency=medium
 
   * New upstream release.
   * Update symbols files with buildds' and current logs.
@@ -28,7 +28,7 @@ qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
     transitional dummy package.
   * Update debian/copyright.
 
- -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 22 May 2014 00:19:44 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 22 May 2014 02:03:52 -0300
 
 qtdeclarative-opensource-src (5.2.1-5) unstable; urgency=medium
 
