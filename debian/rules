@@ -45,7 +45,10 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	dh_install --fail-missing
-	# Mark private symbols as such. Be verbose.
+
+override_dh_makeshlibs:
+	dh_makeshlibs
+	# Check for private symbols not marked as such. Be verbose.
 	DEBUG=1 debian/mark_private_symbols.sh
 
 override_dh_builddeb:
