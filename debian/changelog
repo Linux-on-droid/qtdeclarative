@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Bump Qt build dependencies.
   * Create new binary package libqt5quickwidgets5.
     - Add a symbols file for it.
+    - Add a lintian override for the abi virtual package.
   * Do not create qml-module-qtquick-privatewidgets and
     qml-module-qtquick-dialogs anymore from this source, they have been moved
     to src:qtquickcontrols-opensource-src.
