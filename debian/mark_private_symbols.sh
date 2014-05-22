@@ -1,5 +1,6 @@
 #! /bin/sh
 # Copyright (c) 2013 Sune Vuorela <sune@debian.org>
+# Copyright (c) 2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
 #
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
