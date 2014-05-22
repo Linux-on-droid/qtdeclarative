@@ -41,7 +41,7 @@ then
 	error "Private headers not found"
 fi
 
-if [ -n "${WRITERESULTS}" ]
+if [ ! -n "${WRITERESULTS}" ]
 then
 	# Create a backup copy of the original symbols file.
 	for symbols_file in `ls debian/*.symbols`
@@ -58,16 +58,16 @@ grep -rh class ${PRIVATE_HEADERS} |
 	done | 
 	while read privateclass 
 	do
-		debug marking ${privateclass} as private
+		debug Marking ${privateclass} as private
 		if [ -n "${WRITERESULTS}" ]
 		then
-			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbol
+			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols
 		else
 			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols.mps
 		fi
 	done 
 
-if [ -n "${WRITERESULTS}" ]
+if [ ! -n "${WRITERESULTS}" ]
 then
 	# Diff the symbols files and output it's differences.
 	for symbols_file in `ls debian/*.symbols`
