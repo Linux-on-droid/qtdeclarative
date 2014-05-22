@@ -39,7 +39,7 @@ fi
 # Create a backup copy of the original symbols file.
 for symbols_file in `ls debian/*.symbols`
 do
-	cp $symbols_file $symbols_file.orig
+	cp $symbols_file $symbols_file.mps
 done
 
 grep -rh class ${PRIVATE_HEADERS} |
@@ -51,11 +51,11 @@ grep -rh class ${PRIVATE_HEADERS} |
 	while read privateclass 
 	do
 		debug marking ${privateclass} as private
-		sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols 
+		sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols.mps
 	done 
 
 # Diff the symbols files and output it's differences.
 for symbols_file in `ls debian/*.symbols`
 do
-	diff -Nau $symbols_file.orig $symbols_file
+	diff -Nau $symbols_file $symbols_file.mps
 done
