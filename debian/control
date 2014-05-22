@@ -113,8 +113,10 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: qtdeclarative5-models-plugin (<< 5.2.1-5~), qml-model-qtqml-models2 (<< 5.3.0~)
-Replaces: qtdeclarative5-models-plugin (<< 5.2.1-5~), qml-model-qtqml-models2 (<< 5.3.0~)
+Breaks: qml-model-qtqml-models2 (<< 5.3.0~),
+        qtdeclarative5-models-plugin (<< 5.2.1-5~)
+Replaces: qml-model-qtqml-models2 (<< 5.3.0~),
+          qtdeclarative5-models-plugin (<< 5.2.1-5~)
 Description: Qt 5 Models2 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -124,7 +126,7 @@ Description: Qt 5 Models2 QML module
 Package: qml-model-qtqml-models2
 Architecture: all
 Section: oldlibs
-Depends: qml-module-qtqml-models2, , ${misc:Depends}
+Depends: qml-module-qtqml-models2, ${misc:Depends}
 Description: transitional dummy package for qml-module-qtqml-models2
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
