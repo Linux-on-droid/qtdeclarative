@@ -42,6 +42,7 @@ then
 fi
 
 if [ -n "${WRITERESULTS}" ]
+then
 	# Create a backup copy of the original symbols file.
 	for symbols_file in `ls debian/*.symbols`
 	do
@@ -59,6 +60,7 @@ grep -rh class ${PRIVATE_HEADERS} |
 	do
 		debug marking ${privateclass} as private
 		if [ -n "${WRITERESULTS}" ]
+		then
 			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbol
 		else
 			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols.mps
@@ -66,6 +68,7 @@ grep -rh class ${PRIVATE_HEADERS} |
 	done 
 
 if [ -n "${WRITERESULTS}" ]
+then
 	# Diff the symbols files and output it's differences.
 	for symbols_file in `ls debian/*.symbols`
 	do
