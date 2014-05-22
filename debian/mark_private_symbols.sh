@@ -20,6 +20,10 @@
 # TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 # SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+# Usage:
+# Define DEBUG to see which symbols is being processed.
+# Define WRITERESULTS to actually mark the real symbols files.
+
 PRIVATE_HEADERS=debian/qtdeclarative5-private-dev/usr/include
 
 error() {
@@ -36,11 +40,13 @@ then
 	error "Private headers not found"
 fi
 
-# Create a backup copy of the original symbols file.
-for symbols_file in `ls debian/*.symbols`
-do
-	cp $symbols_file $symbols_file.mps
-done
+if [ -n "${WRITERESULTS}" ]
+	# Create a backup copy of the original symbols file.
+	for symbols_file in `ls debian/*.symbols`
+	do
+		cp $symbols_file $symbols_file.mps
+	done
+fi
 
 grep -rh class ${PRIVATE_HEADERS} |
 	grep EXPORT | 
@@ -51,11 +57,17 @@ grep -rh class ${PRIVATE_HEADERS} |
 	while read privateclass 
 	do
 		debug marking ${privateclass} as private
-		sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols.mps
+		if [ -n "${WRITERESULTS}" ]
+			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbol
+		else
+			sed -i "s/\(.*${privateclass}[^ ]* *[^ ]*\)$/\1 1/" debian/*.symbols.mps
+		fi
 	done 
 
-# Diff the symbols files and output it's differences.
-for symbols_file in `ls debian/*.symbols`
-do
-	diff -Nau $symbols_file $symbols_file.mps
-done
+if [ -n "${WRITERESULTS}" ]
+	# Diff the symbols files and output it's differences.
+	for symbols_file in `ls debian/*.symbols`
+	do
+		diff -Nau $symbols_file $symbols_file.mps
+	done
+fi
