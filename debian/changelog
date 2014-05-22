@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.0-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Update symbols files with buildds' and current logs.
   * Update header's install path.
@@ -23,7 +22,7 @@ qtdeclarative-opensource-src (5.3.0-1) UNRELEASED; urgency=medium
   * Don't override dh_builddeb, xz compression is now the default method.
   * Development packages are now Arch: any and Multi-Arch: same.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 05 May 2014 23:50:25 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 22 May 2014 00:19:44 -0300
 
 qtdeclarative-opensource-src (5.2.1-5) unstable; urgency=medium
 
