@@ -1,10 +1,9 @@
-qtdeclarative-opensource-src (5.3.0-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.0-3) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add libqt5quickwidgets5 to qtdeclarative5-dev.
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 May 2014 10:54:34 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 24 May 2014 11:01:14 -0300
 
 qtdeclarative-opensource-src (5.3.0-2) experimental; urgency=medium
 
