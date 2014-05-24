@@ -1,6 +1,7 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64 armhf hurd-i386 i386 kfreebsd-i386 mipsel powerpc s390x
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-3-0
+ (arch=powerpc s390x)_ZN10QByteArray7reserveEi@Base 5.3.0
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
  _ZN10QQuickItem10itemChangeENS_10ItemChangeERKNS_14ItemChangeDataE@Base 5.0.2
  _ZN10QQuickItem10resetWidthEv@Base 5.0.2
@@ -557,7 +558,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler11qt_metacastEPKc@Base 5.3.0 1
  _ZN14QQuickProfiler12sendMessagesExR5QListI10QByteArrayE@Base 5.3.0 1
  _ZN14QQuickProfiler14reportDataImplEv@Base 5.3.0 1
- (optional=templinst)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELS2_2EEEvxxxxx@Base 5.3.0 1
+ (optional=templinst|arch=amd64 s390x)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELS2_2EEEvxxxxx@Base 5.3.0 1
  _ZN14QQuickProfiler16staticMetaObjectE@Base 5.3.0 1
  _ZN14QQuickProfiler17stopProfilingImplEv@Base 5.3.0 1
  _ZN14QQuickProfiler18startProfilingImplEv@Base 5.3.0 1
@@ -1094,6 +1095,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QSGPlainTextureD0Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD1Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD2Ev@Base 5.0.2 1
+ (arch=armhf mipsel powerpc s390x)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.0
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0 1
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 5.1.0 1
  _ZN16QQuickCloseEvent16staticMetaObjectE@Base 5.1.0 1
