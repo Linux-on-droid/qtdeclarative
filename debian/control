@@ -235,8 +235,8 @@ Architecture: any
 Multi-Arch: same
 Section: libdevel
 Depends: qtdeclarative5-dev (= ${binary:Version}), ${misc:Depends}
-Breaks: qtdeclarative5-dev (<< 5.2.0-5~)
-Replaces: qtdeclarative5-dev (<< 5.2.0-5~)
+Breaks: qtdeclarative5-dev (<< 5.3.0-4~)
+Replaces: qtdeclarative5-dev (<< 5.3.0-4~)
 Description: Qt 5 declarative private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
