@@ -1,0 +1,35 @@
+Description: make qv4assembler.cpp work on all OSes
+Author: Dmitry Shachnev <mitya57@gmail.com>
+Forwarded: no
+Last-Update: 2014-06-05
+
+--- a/src/qml/jit/qv4assembler.cpp
++++ b/src/qml/jit/qv4assembler.cpp
+@@ -96,25 +96,17 @@
+ /* Platform/Calling convention/Architecture specific section */
+ 
+ #if CPU(X86_64)
+-#  if OS(LINUX) || OS(MAC_OS_X)
+-static const Assembler::RegisterID calleeSavedRegisters[] = {
+-    JSC::X86Registers::ebx,
+-    JSC::X86Registers::r12, // LocalsRegister
+-    JSC::X86Registers::r13,
+-    JSC::X86Registers::r14, // ContextRegister
+-    JSC::X86Registers::r15
+-};
+-#  elif OS(WINDOWS)
+ static const Assembler::RegisterID calleeSavedRegisters[] = {
+     JSC::X86Registers::ebx,
++#  if !(OS(WINDOWS))
+     JSC::X86Registers::esi,
+     JSC::X86Registers::edi,
++#  endif
+     JSC::X86Registers::r12, // LocalsRegister
+     JSC::X86Registers::r13,
+     JSC::X86Registers::r14, // ContextRegister
+     JSC::X86Registers::r15
+ };
+-#  endif
+ #endif
+ 
+ #if CPU(X86)
