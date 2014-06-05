@@ -20,7 +20,7 @@ Last-Update: 2014-06-05
 -#  elif OS(WINDOWS)
  static const Assembler::RegisterID calleeSavedRegisters[] = {
      JSC::X86Registers::ebx,
-+#  if !(OS(WINDOWS))
++#  if OS(WINDOWS)
      JSC::X86Registers::esi,
      JSC::X86Registers::edi,
 +#  endif
