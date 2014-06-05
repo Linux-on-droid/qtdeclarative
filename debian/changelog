@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.3.0-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.0-4) experimental; urgency=medium
 
   [ Timo Jyrinki ]
   * Move a Quick Widgets private header to qtdeclarative5-private-dev.
@@ -6,7 +6,7 @@ qtdeclarative-opensource-src (5.3.0-4) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add freebsd_registers.diff to fix build failure on kFreeBSD.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 May 2014 05:48:28 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 05 Jun 2014 19:01:51 -0300
 
 qtdeclarative-opensource-src (5.3.0-3) experimental; urgency=medium
 
