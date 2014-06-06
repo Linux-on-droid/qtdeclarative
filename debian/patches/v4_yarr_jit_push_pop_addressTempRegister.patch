@@ -1,0 +1,39 @@
+From d7193d7f566afcd9e1d5b58adfc09810d94c013b Mon Sep 17 00:00:00 2001
+From: Erik Verbruggen <erik.verbruggen@digia.com>
+Date: Thu, 5 Jun 2014 14:13:39 +0200
+Subject: [PATCH] V4 Yarr JIT: push/pop addressTempRegister.
+
+Change 6572d4e50d73ac60a8974d07de74c27a7f99ebef moved the
+addressTempRegister from r3 to r10, so that calculated calls would not
+overwrite the fourth argument of a call. However, JSC's Yarr JIT might
+also use it for certain loads, so it also needs to save r10.
+
+Task-number: QTBUG-39289
+Change-Id: I0a4e725b6b11ab5e772330662049668bed009c05
+---
+ src/3rdparty/masm/yarr/YarrJIT.cpp | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/3rdparty/masm/yarr/YarrJIT.cpp b/src/3rdparty/masm/yarr/YarrJIT.cpp
+index 783a869..94a72a5 100644
+--- a/src/3rdparty/masm/yarr/YarrJIT.cpp
++++ b/src/3rdparty/masm/yarr/YarrJIT.cpp
+@@ -2561,6 +2561,7 @@ class YarrGenerator : private MacroAssembler {
+ #if CPU(ARM_TRADITIONAL)
+         push(ARMRegisters::r8); // scratch register
+ #endif
++        push(addressTempRegister);
+         if (compileMode == IncludeSubpatterns)
+             move(ARMRegisters::r3, output);
+ #elif CPU(SH4)
+@@ -2588,6 +2589,7 @@ class YarrGenerator : private MacroAssembler {
+         pop(X86Registers::ebx);
+         pop(X86Registers::ebp);
+ #elif CPU(ARM)
++        pop(addressTempRegister);
+ #if CPU(ARM_TRADITIONAL)
+         pop(ARMRegisters::r8); // scratch register
+ #endif
+-- 
+2.0.0
+
