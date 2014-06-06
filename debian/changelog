@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.3.0-5) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Backport v4_yarr_jit_push_pop_addressTempRegister.patch to fix a bug
     of the JIT compiler in arm. Thanks Scott Kitterman for pointing it out.
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Jun 2014 23:41:23 -0300
 

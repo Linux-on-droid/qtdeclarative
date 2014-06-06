@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 amd64 armhf hurd-i386 i386 kfreebsd-i386 mipsel powerpc s390x
+# SymbolsHelper-Confirmed: 5.3.0 amd64 armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mipsel powerpc s390x
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-3-0
  (arch=powerpc s390x)_ZN10QByteArray7reserveEi@Base 5.3.0
@@ -558,7 +558,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler11qt_metacastEPKc@Base 5.3.0 1
  _ZN14QQuickProfiler12sendMessagesExR5QListI10QByteArrayE@Base 5.3.0 1
  _ZN14QQuickProfiler14reportDataImplEv@Base 5.3.0 1
- (optional=templinst|arch=amd64 s390x)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELS2_2EEEvxxxxx@Base 5.3.0 1
+ (optional=templinst|arch=amd64 kfreebsd-amd64 s390x)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELS2_2EEEvxxxxx@Base 5.3.0 1
  _ZN14QQuickProfiler16staticMetaObjectE@Base 5.3.0 1
  _ZN14QQuickProfiler17stopProfilingImplEv@Base 5.3.0 1
  _ZN14QQuickProfiler18startProfilingImplEv@Base 5.3.0 1
