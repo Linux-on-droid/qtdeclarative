@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 s390x sparc sparc64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-3-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -334,9 +334,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN13QQmlValueType16staticMetaObjectE@Base 5.0.2 1
  _ZN13QQmlValueTypeC1EiP7QObject@Base 5.0.2 1
  _ZN13QQmlValueTypeC2EiP7QObject@Base 5.0.2 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QQmlValueTypeD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QQmlValueTypeD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QQmlValueTypeD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QQmlValueTypeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QQmlValueTypeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QQmlValueTypeD2Ev@Base 5.3.0 1
  _ZN14QQmlExpression10clearErrorEv@Base 5.0.2
  _ZN14QQmlExpression11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QQmlExpression11qt_metacastEPKc@Base 5.0.2
@@ -1757,7 +1757,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV46Object9constructEPNS_7ManagedEPNS_8CallDataE@Base 5.3.0 1
  _ZN3QV46Object9getLengthEPKNS_7ManagedE@Base 5.3.0 1
  _ZN3QV46Object9getLookupEPNS_7ManagedEPNS_6LookupE@Base 5.2.0~beta1 1
- (arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !ppc64 !s390x !sparc64)_ZN3QV46Object9push_backENS_8ValueRefE@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !kfreebsd-amd64 !mips64el !ppc64 !s390x !sparc64)_ZN3QV46Object9push_backENS_8ValueRefE@Base 5.3.0
  _ZN3QV46Object9setLookupEPNS_7ManagedEPNS_6LookupENS_8ValueRefE@Base 5.2.0~beta1 1
  _ZN3QV46ObjectC1EPNS_13InternalClassE@Base 5.2.0~beta1
  _ZN3QV46ObjectC1EPNS_15ExecutionEngineE@Base 5.2.0~beta1
@@ -2105,9 +2105,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS3AST12FunctionBodyD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST12FunctionBodyD1Ev@Base 5.3.0
  _ZN6QQmlJS3AST12FunctionBodyD2Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST12PropertyNameD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST12PropertyNameD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST12PropertyNameD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST12PropertyNameD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST12PropertyNameD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST12PropertyNameD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST12TryStatement7accept0EPNS0_7VisitorE@Base 5.3.0 1
  _ZN6QQmlJS3AST12TryStatementD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST12TryStatementD1Ev@Base 5.3.0
@@ -2132,9 +2132,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS3AST13RegExpLiteralD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST13RegExpLiteralD1Ev@Base 5.3.0
  _ZN6QQmlJS3AST13RegExpLiteralD2Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST13SourceElementD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST13SourceElementD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST13SourceElementD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST13SourceElementD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST13SourceElementD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST13SourceElementD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST13StatementList7accept0EPNS0_7VisitorE@Base 5.3.0 1
  _ZN6QQmlJS3AST13StatementListD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST13StatementListD1Ev@Base 5.3.0
@@ -2164,9 +2164,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS3AST14EmptyStatementD1Ev@Base 5.3.0
  _ZN6QQmlJS3AST14EmptyStatementD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST14ExpressionNode14expressionCastEv@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14ExpressionNodeD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14ExpressionNodeD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14ExpressionNodeD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14ExpressionNodeD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14ExpressionNodeD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14ExpressionNodeD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST14NullExpression7accept0EPNS0_7VisitorE@Base 5.3.0 1
  _ZN6QQmlJS3AST14NullExpressionD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST14NullExpressionD1Ev@Base 5.3.0
@@ -2192,9 +2192,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS3AST14UiArrayBindingD1Ev@Base 5.3.0
  _ZN6QQmlJS3AST14UiArrayBindingD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST14UiObjectMember18uiObjectMemberCastEv@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14UiObjectMemberD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14UiObjectMemberD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14UiObjectMemberD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14UiObjectMemberD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14UiObjectMemberD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST14UiObjectMemberD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST14UiPublicMember7accept0EPNS0_7VisitorE@Base 5.3.0 1
  _ZN6QQmlJS3AST14UiPublicMemberD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST14UiPublicMemberD1Ev@Base 5.3.0
@@ -2292,9 +2292,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS3AST18FunctionExpressionD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST18FunctionExpressionD1Ev@Base 5.3.0
  _ZN6QQmlJS3AST18FunctionExpressionD2Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST18PropertyAssignmentD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST18PropertyAssignmentD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST18PropertyAssignmentD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST18PropertyAssignmentD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST18PropertyAssignmentD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST18PropertyAssignmentD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST18UiObjectDefinition7accept0EPNS0_7VisitorE@Base 5.3.0 1
  _ZN6QQmlJS3AST18UiObjectDefinitionD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST18UiObjectDefinitionD1Ev@Base 5.3.0
@@ -2455,9 +2455,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS3AST9CaseBlockD1Ev@Base 5.3.0
  _ZN6QQmlJS3AST9CaseBlockD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST9Statement13statementCastEv@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST9StatementD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST9StatementD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST9StatementD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST9StatementD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST9StatementD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN6QQmlJS3AST9StatementD2Ev@Base 5.3.0
  _ZN6QQmlJS3AST9UiProgram7accept0EPNS0_7VisitorE@Base 5.3.0 1
  _ZN6QQmlJS3AST9UiProgramD0Ev@Base 5.3.0
  _ZN6QQmlJS3AST9UiProgramD1Ev@Base 5.3.0
@@ -3354,9 +3354,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNSt6vectorItSaItEE13_M_insert_auxIJRKtEEEvN9__gnu_cxx17__normal_iteratorIPtS1_EEDpOT_@Base 5.3.0
  _ZNSt6vectorItSaItEE13_M_insert_auxIJtEEEvN9__gnu_cxx17__normal_iteratorIPtS1_EEDpOT_@Base 5.3.0
  _ZNSt6vectorItSaItEE19_M_emplace_back_auxIIRKtEEEvDpOT_@Base 5.3.0
- (arch=hppa kfreebsd-amd64 powerpc)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIItEEEvDpOT_@Base 5.3.0
+ (optional=gccinternal|arch=kfreebsd-amd64 powerpc)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIItEEEvDpOT_@Base 5.3.0
  _ZNSt6vectorItSaItEE19_M_emplace_back_auxIJRKtEEEvDpOT_@Base 5.3.0
- (arch=hppa kfreebsd-amd64 powerpc)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Base 5.3.0
+ (optional=gccinternal|arch=kfreebsd-amd64 powerpc)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Base 5.3.0
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorExS5_PFbRKS5_S9_EEvT_T0_SD_T1_T2_@Base 5.2.0 1
@@ -3364,7 +3364,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceI11QStringListE21DefaultCompareFunctorEEvT_T0_S9_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt11lower_boundIPKPKN3QV412CompiledData7BindingEjPFbS4_jEET_S9_S9_RKT0_T1_@Base 5.3.0
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt11lower_boundIPKPKN3QV412CompiledData7BindingEjPFbS4_jEET_S9_S9_RKT0_T1_@Base 5.3.0
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorExS5_PFbRKS5_S9_EEvT_T0_SD_T1_T2_@Base 5.2.0 1
@@ -3380,22 +3380,22 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiEvT_T0_S4_T1_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiN12QQmlSequenceIS1_E14CompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (subst|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt13__adjust_heapIPN3QV413MemoryManager4Data5ChunkE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.3.0 1
- (optional=templinst|subst|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt13__adjust_heapIPj{ssize_t}jEvT_T0_S2_T1_@Base 5.3.0
- (arch=hppa kfreebsd-amd64 powerpc)_ZSt13__heap_selectIPN3QV413MemoryManager4Data5ChunkEEvT_S5_S5_@Base 5.3.0 1
- (arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__insertion_sortIPN3QV413MemoryManager4Data5ChunkEEvT_S5_@Base 5.3.0 1
- (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__insertion_sortIPjEvT_S1_@Base 5.3.0
- (subst|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__introsort_loopIPN3QV413MemoryManager4Data5ChunkE{ssize_t}EvT_S5_T0_@Base 5.3.0 1
- (optional=templinst|subst|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__introsort_loopIPj{ssize_t}EvT_S1_T0_@Base 5.3.0
+ (subst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt13__adjust_heapIPN3QV413MemoryManager4Data5ChunkE{ssize_t}S3_EvT_T0_S6_T1_@Base 5.3.0 1
+ (optional=templinst|subst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt13__adjust_heapIPj{ssize_t}jEvT_T0_S2_T1_@Base 5.3.0
+ (optional=gccinternal|arch=kfreebsd-amd64 powerpc)_ZSt13__heap_selectIPN3QV413MemoryManager4Data5ChunkEEvT_S5_S5_@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__insertion_sortIPN3QV413MemoryManager4Data5ChunkEEvT_S5_@Base 5.3.0 1
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__insertion_sortIPjEvT_S1_@Base 5.3.0
+ (subst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__introsort_loopIPN3QV413MemoryManager4Data5ChunkE{ssize_t}EvT_S5_T0_@Base 5.3.0 1
+ (optional=templinst|subst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt16__introsort_loopIPj{ssize_t}EvT_S1_T0_@Base 5.3.0
  (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListI7QStringE8iteratorEN12QQmlSequenceI11QStringListE14CompareFunctorEEvT_S8_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListI7QStringE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListIbE8iteratorEN12QQmlSequenceIS1_E14CompareFunctorEEvT_S6_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListIdE8iteratorEN12QQmlSequenceIS1_E14CompareFunctorEEvT_S6_T0_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListIiE8iteratorEN12QQmlSequenceIS1_E14CompareFunctorEEvT_S6_T0_@Base 5.2.0 1
- (arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt25__unguarded_linear_insertIPN3QV413MemoryManager4Data5ChunkEEvT_@Base 5.2.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZSt25__unguarded_linear_insertIPN3QV413MemoryManager4Data5ChunkEEvT_@Base 5.2.0 1
  (optional=templinst|arch=ia64)_ZSt4moveIN9__gnu_cxx17__normal_iteratorIPN3JSC4Yarr11PatternTermESt6vectorIS4_SaIS4_EEEES9_ET0_T_SB_SA_@Base 5.2.0
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !ia64 !kfreebsd-amd64 !ppc64 !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !ia64 !kfreebsd-amd64 !mips64el !ppc64 !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QQmlBundle@Base 5.0.2 1
  _ZTI10QQmlEngine@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2
