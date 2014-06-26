@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs and mips64[el] logs.
   * Bump Qt build depends.
   * Remove v4_yarr_jit_push_pop_addressTempRegister.patch, applied upstream.
+  * Fix qtdeclarative5-provate-dev.install.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jun 2014 11:30:33 -0300
 

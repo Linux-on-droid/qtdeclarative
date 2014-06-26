@@ -171,7 +171,6 @@ usr/include/*/qt5/QtQml/*/QtQml/private/qv4objectiterator_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4objectproto_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4persistent_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4profileradapter_p.h
-usr/include/*/qt5/QtQml/*/QtQml/private/qv4profilerservice_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4profiling_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4property_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4qmlextensions_p.h
