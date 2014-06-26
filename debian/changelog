@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.1-1) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Update symbols files with buildds' logs and mips64[el] logs.
   * Bump Qt build depends.
@@ -8,7 +7,7 @@ qtdeclarative-opensource-src (5.3.1-1) UNRELEASED; urgency=medium
   * Fix qtdeclarative5-provate-dev.install.
   * Update symbols files with current log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jun 2014 11:30:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Jun 2014 14:10:10 -0300
 
 qtdeclarative-opensource-src (5.3.0-10) unstable; urgency=medium
 
