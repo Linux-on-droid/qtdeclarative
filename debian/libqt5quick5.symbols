@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-3-0
  (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
@@ -600,6 +600,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEdit15geometryChangedERK6QRectFS2_@Base 5.0.2 1
  _ZN14QQuickTextEdit15hoverEnterEventEP11QHoverEvent@Base 5.2.0~beta1 1
  _ZN14QQuickTextEdit15hoverLeaveEventEP11QHoverEvent@Base 5.2.0~beta1 1
+ _ZN14QQuickTextEdit15invalidateBlockERK10QTextBlock@Base 5.3.1
  _ZN14QQuickTextEdit15keyReleaseEventEP9QKeyEvent@Base 5.0.2 1
  _ZN14QQuickTextEdit15mousePressEventEP11QMouseEvent@Base 5.0.2 1
  _ZN14QQuickTextEdit15readOnlyChangedEb@Base 5.0.2 1
@@ -1498,6 +1499,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickRenderControl15renderWindowForEP12QQuickWindowP6QPoint@Base 5.3.0 1
  _ZN19QQuickRenderControl15windowDestroyedEv@Base 5.3.0 1
  _ZN19QQuickRenderControl16staticMetaObjectE@Base 5.3.0 1
+ _ZN19QQuickRenderControl21createOffscreenWindowEv@Base 5.3.1
  _ZN19QQuickRenderControl4grabEv@Base 5.3.0 1
  _ZN19QQuickRenderControl4stopEv@Base 5.3.0 1
  _ZN19QQuickRenderControl4syncEv@Base 5.3.0 1
@@ -2024,6 +2026,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN24QQuickAccessibleAttachedD1Ev@Base 5.0.2 1
  _ZN24QQuickAccessibleAttachedD2Ev@Base 5.0.2 1
  _ZN24QQuickOpacityAnimatorJob10initializeEP24QQuickAnimatorController@Base 5.2.0~beta1 1
+ _ZN24QQuickOpacityAnimatorJob16nodeWasDestroyedEv@Base 5.3.1
  _ZN24QQuickOpacityAnimatorJob17updateCurrentTimeEi@Base 5.2.0~beta1 1
  _ZN24QQuickOpacityAnimatorJob9writeBackEv@Base 5.2.0~beta1 1
  _ZN24QQuickOpacityAnimatorJobC1Ev@Base 5.2.0~beta1 1
@@ -2077,6 +2080,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN24QQuickShaderEffectSourceD1Ev@Base 5.0.2 1
  _ZN24QQuickShaderEffectSourceD2Ev@Base 5.0.2 1
  _ZN24QQuickUniformAnimatorJob13afterNodeSyncEv@Base 5.2.0~beta1 1
+ _ZN24QQuickUniformAnimatorJob16nodeWasDestroyedEv@Base 5.3.1
  _ZN24QQuickUniformAnimatorJob17updateCurrentTimeEi@Base 5.2.0~beta1 1
  _ZN24QQuickUniformAnimatorJob9setTargetEP10QQuickItem@Base 5.2.0~beta1 1
  _ZN24QQuickUniformAnimatorJob9writeBackEv@Base 5.2.0~beta1 1
@@ -2460,6 +2464,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK14QQuickTextEdit15isCursorVisibleEv@Base 5.0.2 1
  _ZNK14QQuickTextEdit16getFormattedTextEii@Base 5.0.2 1
  _ZNK14QQuickTextEdit16inputMethodHintsEv@Base 5.0.2 1
+ _ZNK14QQuickTextEdit16inputMethodQueryEN2Qt16InputMethodQueryE8QVariant@Base 5.3.1
  _ZNK14QQuickTextEdit16inputMethodQueryEN2Qt16InputMethodQueryE@Base 5.0.2 1
  _ZNK14QQuickTextEdit16selectByKeyboardEv@Base 5.1.0 1
  _ZNK14QQuickTextEdit17selectedTextColorEv@Base 5.0.2 1
