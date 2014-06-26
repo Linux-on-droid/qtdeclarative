@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 s390x sparc sparc64
+# SymbolsHelper-Confirmed: 5.3.1 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-3-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -311,6 +311,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN13QQmlListModel16emitItemsRemovedEii@Base 5.1.0 1
  _ZN13QQmlListModel16staticMetaObjectE@Base 5.1.0 1
  _ZN13QQmlListModel17emitItemsInsertedEii@Base 5.1.0 1
+ _ZN13QQmlListModel23emitItemsAboutToBeMovedEiii@Base 5.3.1
+ _ZN13QQmlListModel25emitItemsAboutToBeRemovedEii@Base 5.3.1
+ _ZN13QQmlListModel26emitItemsAboutToBeInsertedEii@Base 5.3.1
  _ZN13QQmlListModel3setEiRK12QQmlV4Handle@Base 5.2.0~beta1 1
  _ZN13QQmlListModel4moveEiii@Base 5.1.0 1
  _ZN13QQmlListModel4syncEPS_S0_P5QHashIiS0_E@Base 5.1.0 1
@@ -580,7 +583,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlDelegateModel15_q_rowsInsertedERK11QModelIndexii@Base 5.1.0 1
  _ZN17QQmlDelegateModel15setWatchedRolesE5QListI10QByteArrayE@Base 5.1.0 1
  _ZN17QQmlDelegateModel16_q_itemsInsertedEii@Base 5.1.0 1
- _ZN17QQmlDelegateModel16_q_layoutChangedEv@Base 5.1.0 1
+ _ZN17QQmlDelegateModel16_q_layoutChangedERK5QListI21QPersistentModelIndexEN18QAbstractItemModel16LayoutChangeHintE@Base 5.3.1
  _ZN17QQmlDelegateModel16resetFilterGroupEv@Base 5.1.0 1
  _ZN17QQmlDelegateModel16rootIndexChangedEv@Base 5.1.0 1
  _ZN17QQmlDelegateModel16staticMetaObjectE@Base 5.1.0 1
@@ -589,6 +592,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlDelegateModel20defaultGroupsChangedEv@Base 5.1.0 1
  _ZN17QQmlDelegateModel21qmlAttachedPropertiesEP7QObject@Base 5.1.0 1
  _ZN17QQmlDelegateModel23_q_rowsAboutToBeRemovedERK11QModelIndexii@Base 5.1.0 1
+ _ZN17QQmlDelegateModel25_q_layoutAboutToBeChangedERK5QListI21QPersistentModelIndexEN18QAbstractItemModel16LayoutChangeHintE@Base 5.3.1
  _ZN17QQmlDelegateModel5eventEP6QEvent@Base 5.1.0 1
  _ZN17QQmlDelegateModel5itemsEv@Base 5.1.0 1
  _ZN17QQmlDelegateModel5partsEv@Base 5.1.0 1
@@ -1571,6 +1575,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV42IR9Optimizer15convertOutOfSSAEv@Base 5.3.0 1
  _ZN3QV42IR9Optimizer22calculateOptionalJumpsEv@Base 5.3.0 1
  _ZN3QV42IR9Optimizer3runEP17QQmlEnginePrivate@Base 5.3.0 1
+ _ZN3QV42IR9OptimizerC1EPNS0_8FunctionE@Base 5.3.1
+ _ZN3QV42IR9OptimizerC2EPNS0_8FunctionE@Base 5.3.1
  (arch=!alpha !arm64 !armel !hppa !mips !mipsel !powerpc !ppc64 !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection10getElementEPNS_2IR4ExprES4_PNS2_4TempE@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mipsel !powerpc !ppc64 !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection10loadRegexpEPNS_2IR6RegExpEPNS2_4TempE@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mipsel !powerpc !ppc64 !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection10loadStringERK7QStringPNS_2IR4TempE@Base 5.3.0
@@ -3179,7 +3185,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV415ExecutionEngine16qmlContextObjectEv@Base 5.2.0~beta1
  _ZNK3QV415ExecutionEngine17currentStackFrameEv@Base 5.2.0~beta1
  _ZNK3QV419QmlValueTypeWrapper9toVariantEv@Base 5.2.0~beta1
- _ZNK3QV42IR9Optimizer10lifeRangesEv@Base 5.3.0 1
+ _ZNK3QV42IR9Optimizer17lifeTimeIntervalsEv@Base 5.3.1
  _ZNK3QV44Moth20InstructionSelection11squeezeCodeEv@Base 5.3.0
  _ZNK3QV45Value12toNumberImplEv@Base 5.2.0~beta1
  _ZNK3QV45Value16toQStringNoThrowEv@Base 5.2.0~beta1
@@ -3340,7 +3346,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=kfreebsd-amd64)_ZNSt6vectorIcSaIcEE17_M_default_appendEm@Base 5.3.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPiS1_EE{size_t}RKi@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 5.2.1
+ (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIiEEEvDpOT_@Base 5.3.1
  (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJRKiEEEvDpOT_@Base 5.2.1
+ (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Base 5.3.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEC1ERKS1_@Base 5.2.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEEC1E{size_t}RKiRKS0_@Base 5.2.1
