@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64
+# SymbolsHelper-Confirmed: 5.3.1 amd64 armel armhf hppa sparc
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-3-0
  (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
@@ -410,12 +410,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN12QQuickWindowD0Ev@Base 5.0.2
  _ZN12QQuickWindowD1Ev@Base 5.0.2
  _ZN12QQuickWindowD2Ev@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGGlyphNodeD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGGlyphNodeD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGGlyphNodeD2Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGImageNodeD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGImageNodeD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGImageNodeD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGGlyphNodeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGGlyphNodeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGGlyphNodeD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGImageNodeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGImageNodeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN12QSGImageNodeD2Ev@Base 5.3.0 1
  _ZN13QQuickAnchors10classBeginEv@Base 5.0.2 1
  _ZN13QQuickAnchors10resetRightEv@Base 5.0.2 1
  _ZN13QQuickAnchors10setMarginsEd@Base 5.2.0 1
@@ -498,9 +498,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN13QSGRenderNode19setInheritedOpacityEd@Base 5.2.0 1
  _ZN13QSGRenderNodeC1Ev@Base 5.0.2 1
  _ZN13QSGRenderNodeC2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QSGRenderNodeD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QSGRenderNodeD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QSGRenderNodeD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QSGRenderNodeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QSGRenderNodeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN13QSGRenderNodeD2Ev@Base 5.3.0 1
  _ZN14QQuickAnimator10transitionER5QListI17QQuickStateActionERS0_I12QQmlPropertyEN23QQuickAbstractAnimation19TransitionDirectionEP7QObject@Base 5.2.0~beta1 1
  _ZN14QQuickAnimator11fromChangedEd@Base 5.2.0~beta1 1
  _ZN14QQuickAnimator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0~beta1 1
@@ -519,9 +519,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickAnimatorC1ER21QQuickAnimatorPrivateP7QObject@Base 5.2.0~beta1 1
  _ZN14QQuickAnimatorC2EP7QObject@Base 5.2.0~beta1 1
  _ZN14QQuickAnimatorC2ER21QQuickAnimatorPrivateP7QObject@Base 5.2.0~beta1 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN14QQuickAnimatorD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN14QQuickAnimatorD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN14QQuickAnimatorD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN14QQuickAnimatorD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN14QQuickAnimatorD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN14QQuickAnimatorD2Ev@Base 5.3.0 1
  _ZN14QQuickBehavior10setEnabledEb@Base 5.0.2 1
  _ZN14QQuickBehavior11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN14QQuickBehavior11qt_metacastEPKc@Base 5.0.2 1
@@ -554,7 +554,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler11qt_metacastEPKc@Base 5.3.0 1
  _ZN14QQuickProfiler12sendMessagesExR5QListI10QByteArrayE@Base 5.3.0 1
  _ZN14QQuickProfiler14reportDataImplEv@Base 5.3.0 1
- (optional=templinst|arch=amd64 hppa kfreebsd-amd64)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELS2_2EEEvxxxxx@Base 5.3.0 1
+ (optional=templinst|arch=amd64 kfreebsd-amd64)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELS2_2EEEvxxxxx@Base 5.3.0 1
  _ZN14QQuickProfiler16staticMetaObjectE@Base 5.3.0 1
  _ZN14QQuickProfiler17stopProfilingImplEv@Base 5.3.0 1
  _ZN14QQuickProfiler18startProfilingImplEv@Base 5.3.0 1
@@ -1092,7 +1092,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QSGPlainTextureD0Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD1Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD2Ev@Base 5.0.2 1
- (arch=alpha hppa powerpc ppc64 s390x sparc sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.0
+ (arch=alpha armel armhf hppa powerpc ppc64 s390x sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0 1
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 5.1.0 1
  _ZN16QQuickCloseEvent16staticMetaObjectE@Base 5.1.0 1
@@ -1206,9 +1206,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGContextPluginD0Ev@Base 5.0.2 1
  _ZN16QSGContextPluginD1Ev@Base 5.0.2 1
  _ZN16QSGContextPluginD2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN16QSGRectangleNodeD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN16QSGRectangleNodeD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN16QSGRectangleNodeD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN16QSGRectangleNodeD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN16QSGRectangleNodeD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN16QSGRectangleNodeD2Ev@Base 5.3.0 1
  _ZN16QSGRenderContext10initializeEP14QOpenGLContext@Base 5.2.0~rc1 1
  _ZN16QSGRenderContext10initializeEP17QSGMaterialShader@Base 5.3.0 1
  _ZN16QSGRenderContext10invalidateEv@Base 5.2.0~rc1 1
@@ -1248,9 +1248,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickAnimatorJob9setTargetEP10QQuickItem@Base 5.2.0~beta1 1
  _ZN17QQuickAnimatorJobC1Ev@Base 5.2.0~beta1 1
  _ZN17QQuickAnimatorJobC2Ev@Base 5.2.0~beta1 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QQuickAnimatorJobD0Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QQuickAnimatorJobD1Ev@Base 5.3.0 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QQuickAnimatorJobD2Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QQuickAnimatorJobD0Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QQuickAnimatorJobD1Ev@Base 5.3.0 1
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QQuickAnimatorJobD2Ev@Base 5.3.0 1
  _ZN17QQuickItemPrivate10data_clearEP16QQmlListPropertyI7QObjectE@Base 5.0.2 1
  _ZN17QQuickItemPrivate10data_countEP16QQmlListPropertyI7QObjectE@Base 5.0.2 1
  _ZN17QQuickItemPrivate10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Base 5.0.2 1
@@ -1352,9 +1352,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QSGDynamicTexture11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN17QSGDynamicTexture11qt_metacastEPKc@Base 5.0.2
  _ZN17QSGDynamicTexture16staticMetaObjectE@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QSGDynamicTextureD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QSGDynamicTextureD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QSGDynamicTextureD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QSGDynamicTextureD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QSGDynamicTextureD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN17QSGDynamicTextureD2Ev@Base 5.3.0
  _ZN17QSGMaterialShader10deactivateEv@Base 5.0.2
  _ZN17QSGMaterialShader11updateStateERKNS_11RenderStateEP11QSGMaterialS4_@Base 5.0.2
  _ZN17QSGMaterialShader19setShaderSourceFileE6QFlagsIN13QOpenGLShader13ShaderTypeBitEERK7QString@Base 5.2.0~rc1
@@ -1478,9 +1478,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN18QSGTextureProvider11qt_metacastEPKc@Base 5.0.2
  _ZN18QSGTextureProvider14textureChangedEv@Base 5.0.2
  _ZN18QSGTextureProvider16staticMetaObjectE@Base 5.0.2
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN18QSGTextureProviderD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN18QSGTextureProviderD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN18QSGTextureProviderD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN18QSGTextureProviderD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN18QSGTextureProviderD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN18QSGTextureProviderD2Ev@Base 5.3.0
  _ZN19QQuickImageProvider12requestImageERK7QStringP5QSizeRKS3_@Base 5.0.2
  _ZN19QQuickImageProvider13requestPixmapERK7QStringP5QSizeRKS3_@Base 5.0.2
  _ZN19QQuickImageProvider14requestTextureERK7QStringP5QSizeRKS3_@Base 5.0.2
@@ -1922,9 +1922,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN23QQuickFramebufferObject8RendererD2Ev@Base 5.2.0~beta1 1
  _ZN23QQuickFramebufferObjectC1EP10QQuickItem@Base 5.2.0~beta1
  _ZN23QQuickFramebufferObjectC2EP10QQuickItem@Base 5.2.0~beta1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN23QQuickFramebufferObjectD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN23QQuickFramebufferObjectD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN23QQuickFramebufferObjectD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN23QQuickFramebufferObjectD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN23QQuickFramebufferObjectD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN23QQuickFramebufferObjectD2Ev@Base 5.3.0
  _ZN23QQuickParallelAnimation10transitionER5QListI17QQuickStateActionERS0_I12QQmlPropertyEN23QQuickAbstractAnimation19TransitionDirectionEP7QObject@Base 5.2.0~beta1 1
  _ZN23QQuickParallelAnimation11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN23QQuickParallelAnimation11qt_metacastEPKc@Base 5.0.2 1
@@ -2145,9 +2145,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN26QQuickShaderEffectMaterialD0Ev@Base 5.0.2 1
  _ZN26QQuickShaderEffectMaterialD1Ev@Base 5.0.2 1
  _ZN26QQuickShaderEffectMaterialD2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN26QSGContextFactoryInterfaceD0Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN26QSGContextFactoryInterfaceD1Ev@Base 5.3.0
- (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN26QSGContextFactoryInterfaceD2Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN26QSGContextFactoryInterfaceD0Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN26QSGContextFactoryInterfaceD1Ev@Base 5.3.0
+ (optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)_ZN26QSGContextFactoryInterfaceD2Ev@Base 5.3.0
  _ZN26QSGDistanceFieldGlyphCache12glyphMetricsEjd@Base 5.2.0 1
  _ZN26QSGDistanceFieldGlyphCache13updateTextureEjjRK5QSize@Base 5.0.2 1
  _ZN26QSGDistanceFieldGlyphCache14s_emptyTextureE@Base 5.0.2 1
@@ -3226,7 +3226,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (c++)"non-virtual thunk to QQuickAbstractAnimation::setTarget(QQmlProperty const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickAbstractAnimation::~QQuickAbstractAnimation()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickAnimationGroup::~QQuickAnimationGroup()@Base" 5.0.2
- (c++|optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)"non-virtual thunk to QQuickAnimator::~QQuickAnimator()@Base" 5.3.0
+ (c++|optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)"non-virtual thunk to QQuickAnimator::~QQuickAnimator()@Base" 5.3.0
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateCurrentTime(int)@Base" 5.2.0~beta1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateState(QAbstractAnimationJob::State, QAbstractAnimationJob::State)@Base" 5.2.0~beta1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::~QQuickAnimatorProxyJob()@Base" 5.2.0~beta1
@@ -3238,7 +3238,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (c++)"non-virtual thunk to QQuickColorAnimation::~QQuickColorAnimation()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickFlickable::componentComplete()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickFlickable::~QQuickFlickable()@Base" 5.0.2
- (c++|optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)"non-virtual thunk to QQuickFramebufferObject::~QQuickFramebufferObject()@Base" 5.3.0
+ (c++|optional=gccinternal|arch=!alpha !amd64 !arm64 !armel !hppa !hurd-i386 !i386 !kfreebsd-i386 !mips !mipsel !ppc64 !s390x !sparc !sparc64)"non-virtual thunk to QQuickFramebufferObject::~QQuickFramebufferObject()@Base" 5.3.0
  (c++)"non-virtual thunk to QQuickImageBase::componentComplete()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickImageBase::~QQuickImageBase()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickImplicitSizeItem::~QQuickImplicitSizeItem()@Base" 5.0.2
