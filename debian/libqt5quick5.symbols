@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64 armel armhf hppa kfreebsd-amd64 mips64el ppc64 sparc
+# SymbolsHelper-Confirmed: 5.3.1 alpha amd64 armel armhf hppa kfreebsd-amd64 mips64el ppc64 sparc
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-3-0
  (arch=alpha arm64 armel hppa powerpc ppc64 s390x sparc sparc64)_ZN10QByteArray7reserveEi@Base 5.3.0
@@ -1092,7 +1092,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QSGPlainTextureD0Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD1Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD2Ev@Base 5.0.2 1
- (arch=alpha armel armhf hppa powerpc s390x sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
+ (arch=armel armhf hppa powerpc s390x sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.1
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0 1
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 5.1.0 1
  _ZN16QQuickCloseEvent16staticMetaObjectE@Base 5.1.0 1
