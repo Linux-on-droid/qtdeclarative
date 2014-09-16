@@ -1,4 +1,7 @@
-qtdeclarative-opensource-src (5.3.1-7) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Sep 2014 20:26:33 -0300
 
