@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build dependencies.
   * Update symbols files with the current build log.
+  * Bump qtdeclarative-abi to 5-3-2 due to missing private symbol.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Sep 2014 20:26:33 -0300
 
