@@ -1,13 +1,12 @@
-qtdeclarative-opensource-src (5.3.2-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.2-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
   * Bump Qt build dependencies.
   * Update symbols files with the current build log.
   * Bump qtdeclarative-abi to 5-3-2 due to missing private symbol.
   * Mark a new private symbol as such.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 16 Sep 2014 20:26:33 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 16 Sep 2014 21:18:19 -0300
 
 qtdeclarative-opensource-src (5.3.1-6) unstable; urgency=medium
 
