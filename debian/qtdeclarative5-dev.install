@@ -138,7 +138,6 @@ usr/include/*/qt5/QtQuickWidgets/qtquickwidgetsversion.h
 usr/lib/*/cmake/Qt5Qml/Qt5QmlConfig.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QTcpServerConnection.cmake
-usr/lib/*/cmake/Qt5Qml/Qt5Qml_QtQuick2Plugin.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfig.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5Quick_AccessibleQuickFactory.cmake
