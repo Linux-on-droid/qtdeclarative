@@ -1,9 +1,8 @@
-qtdeclarative-opensource-src (5.3.2-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.3.2-4) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Remove CMake files for plugins, we don't need to ship them.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Sep 2014 23:07:56 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Sep 2014 23:22:11 -0300
 
 qtdeclarative-opensource-src (5.3.2-3) unstable; urgency=medium
 
