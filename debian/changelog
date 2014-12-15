@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   [ Timo Jyrinki ]
   * New upstream release
   * Bump build dependencies to 5.4.0
+  * Add a new package qml-module-qtqml-statemachine
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
 
