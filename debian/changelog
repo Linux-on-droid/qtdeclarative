@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Timo Jyrinki ]
+  * New upstream release
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
+
 qtdeclarative-opensource-src (5.3.2-4) unstable; urgency=medium
 
   * Remove CMake files for plugins, we don't need to ship them.
