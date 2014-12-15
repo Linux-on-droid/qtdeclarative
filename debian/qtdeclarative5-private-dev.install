@@ -178,6 +178,7 @@ usr/include/*/qt5/QtQml/*/QtQml/private/qv4qobjectwrapper_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4regalloc_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4regexp_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4regexpobject_p.h
+usr/include/*/qt5/QtQml/*/QtQml/private/qv4registerinfo_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4runtime_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4scopedvalue_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4script_p.h
@@ -188,6 +189,7 @@ usr/include/*/qt5/QtQml/*/QtQml/private/qv4sqlerrors_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4ssa_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4string_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4stringobject_p.h
+usr/include/*/qt5/QtQml/*/QtQml/private/qv4targetplatform_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4unop_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4util_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv4value_inl_p.h
@@ -197,7 +199,11 @@ usr/include/*/qt5/QtQml/*/QtQml/private/qv4vme_moth_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv8debug_p.h
 usr/include/*/qt5/QtQml/*/QtQml/private/qv8engine_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/designerwindowmanager_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qaccessiblequickitem_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qaccessiblequickview_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qqmlaccessible_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickaccessibleattached_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickaccessiblefactory_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickanchors_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickanchors_p_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickanimatedimage_p.h
@@ -230,6 +236,7 @@ usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickflickablebehavior_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickflipable_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickfocusscope_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickfontloader_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickfontmetrics_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickgridview_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickimage_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickimage_p_p.h
@@ -251,6 +258,7 @@ usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickloader_p_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickmousearea_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickmousearea_p_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickmultipointtoucharea_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickopenglinfo_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickpainteditem_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickpath_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickpath_p_p.h
@@ -297,6 +305,7 @@ usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextedit_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextedit_p_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextinput_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextinput_p_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextmetrics_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextnode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextnodeengine_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquicktextutil_p.h
@@ -308,7 +317,9 @@ usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickutilmodule_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickvaluetypes_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickview_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickwindow_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickwindowattached_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qquickwindowmodule_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgabstractrenderer_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgadaptationlayer_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgareaallocator_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgatlastexture_p.h
@@ -319,16 +330,18 @@ usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultdistancefieldglyphcache_p.
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultglyphnode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultglyphnode_p_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultimagenode_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultlayer_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultpainternode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdefaultrectanglenode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdepthstencilbuffer_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldglyphnode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldglyphnode_p_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgdistancefieldutil_p.h
+usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgengine_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsggeometry_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgmaterialshader_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgnode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgnodeupdater_p.h
-usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgpainternode_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgrenderer_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgrenderloop_p.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/qsgrendernode_p.h
