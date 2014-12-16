@@ -8,6 +8,7 @@ qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Bump ABI version to 5.4.0
 
   [ Dmitry Shachnev ]
+  * Drop freebsd_registers.diff, no longer needed.
   * Update debian/copyright.
   * Update Vcs-Browser field to point to cgit interface.
   * Bump Standards-Version to 3.9.6, no changes needed.
