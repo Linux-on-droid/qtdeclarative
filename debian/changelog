@@ -13,6 +13,7 @@ qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Temporary disable building new qml-module-qtqml-statemachine package
     to avoid blocking uploads of other Qt parts.
+  * Add myself to Uploaders.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
 
