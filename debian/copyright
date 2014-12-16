@@ -51,43 +51,23 @@ Files: examples/*
  src/qml/doc/snippets/*
  src/quick/doc/snippets/*
  tests/auto/qmltest/listview/tst_listview.qml
- tests/auto/qmltest/listview/tst_listview.qml
- tests/auto/qmltest/image/tst_image.qml
  tests/auto/qmltest/image/tst_image.qml
  tests/auto/qmltest/text/tst_text.qml
- tests/auto/qmltest/text/tst_text.qml
- tests/auto/qmltest/animatedimage/tst_animatedimage.qml
  tests/auto/qmltest/animatedimage/tst_animatedimage.qml
  tests/auto/qmltest/gradient/tst_gradient.qml
- tests/auto/qmltest/gradient/tst_gradient.qml
- tests/auto/qmltest/textinput/tst_textinput.qml
  tests/auto/qmltest/textinput/tst_textinput.qml
  tests/auto/qmltest/rectangle/tst_rectangle.qml
- tests/auto/qmltest/rectangle/tst_rectangle.qml
- tests/auto/qmltest/textedit/tst_textedit.qml
  tests/auto/qmltest/textedit/tst_textedit.qml
  tests/auto/qmltest/listmodel/tst_listmodel.qml
- tests/auto/qmltest/listmodel/tst_listmodel.qml
  tests/auto/qmltest/fontloader/tst_fontloader.qml
- tests/auto/qmltest/fontloader/tst_fontloader.qml
- tests/benchmarks/qml/holistic/data/
- largeTargets/gridview-example.qml
  tests/benchmarks/qml/holistic/data/largeTargets/gridview-example.qml
  tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml
- tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml
- tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml
  tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml
  tests/testapplications/listview/sections.qml
- tests/testapplications/listview/sections.qml
- tests/testapplications/listview/onRemove.qml
  tests/testapplications/listview/onRemove.qml
  tests/testapplications/listview/alteredViews.qml
- tests/testapplications/listview/alteredViews.qml
- tests/testapplications/listview/viewTransitions.qml
  tests/testapplications/listview/viewTransitions.qml
  tests/testapplications/animatedsprite/animatedsprite.qml
- tests/testapplications/animatedsprite/animatedsprite.qml
- tests/testapplications/animatedsprite/animatedspriteadvance.qml
  tests/testapplications/animatedsprite/animatedspriteadvance.qml
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
 License: BSD-3-clause
@@ -101,17 +81,16 @@ Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies)
 License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
 Files: examples/quick/demos/stocqt/content/CheckBox.qml
- examples/quick/demos/samegame/settings.js
  examples/quick/demos/samegame/content/SamegameText.qml
 Copyright: 2012 Research In Motion
 License: BSD-3-clause
 
 Files: tests/auto/qml/qqmlnotifier/tst_qqmlnotifier.cpp
- benchmarks/qml/qquickwindow/tst_qquickwindow.cpp
+ tests/benchmarks/qml/qquickwindow/tst_qquickwindow.cpp
 Copyright: 2012 Research In Motion
 License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
-Files: test/auto/qml/parserstress/tests/*
+Files: tests/auto/qml/parserstress/tests/*
 Copyright: 1998-2003 Netscape Communications Corporation
            2005-2007 Mozilla Foundation
 License: LGPL-2.1
@@ -119,7 +98,7 @@ License: LGPL-2.1
 Files: src/qml/qml/qqmllocale.cpp
 Copyright: 1991 AT&T
            2012 Digia Plc and/or its subsidiary(-ies).
-License: Mixed LGPL-2.1 and BSD
+License: custom-qqmllocale
  A portion of the file is LGPL-2.1-or-3 with Digia-1.1 exception or
  GPL-3. A portion is however BSD licensed:
  .
