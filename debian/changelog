@@ -15,6 +15,7 @@ qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Temporary disable building new qml-module-qtqml-statemachine package
     to avoid blocking uploads of other Qt parts.
   * Add myself to Uploaders.
+  * Drop no longer needed debian/source/lintian-overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
 
