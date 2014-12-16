@@ -123,16 +123,16 @@ Description: Qt 5 Models2 QML module
  .
  The Models provides types previously found in Qt Quick module.
 
-Package: qml-module-qtqml-statemachine
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 State Machine QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- The State Machine QML module.
+#Package: qml-module-qtqml-statemachine
+#Architecture: any
+#Multi-Arch: same
+#Pre-Depends: ${misc:Pre-Depends}
+#Depends: ${misc:Depends}, ${shlibs:Depends}
+#Description: Qt 5 State Machine QML module
+# Qt is a cross-platform C++ application framework. Qt's primary feature
+# is its rich set of widgets that provide standard GUI functionality.
+# .
+# The State Machine QML module.
 
 Package: qml-model-qtqml-models2
 Architecture: all

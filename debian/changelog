@@ -11,6 +11,8 @@ qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Update Vcs-Browser field to point to cgit interface.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Temporary disable building new qml-module-qtqml-statemachine package
+    to avoid blocking uploads of other Qt parts.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
 
