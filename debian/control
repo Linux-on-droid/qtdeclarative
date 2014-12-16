@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 9),
                pkg-kde-tools (>= 0.15.12~),
                python,
                qtbase5-private-dev (>= 5.4.0+dfsg~)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdeclarative.git
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative.git
