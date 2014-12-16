@@ -7,6 +7,9 @@ qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Update .install files
   * Bump ABI version to 5.4.0
 
+  [ Dmitry Shachnev ]
+  * Update debian/copyright.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
 
 qtdeclarative-opensource-src (5.3.2-4) unstable; urgency=medium

@@ -6,7 +6,7 @@ Files: *
 Copyright: 2012-2013 Digia Plc and/or its subsidiary(-ies)
            2008-2012 Nokia Corporation and/or its subsidiary(-ies)
            1994-2008 Trolltech ASA.
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
 Files: debian/mark_private_symbols.sh
 Copyright: 2013 Sune Vuorela <sune@debian.org>
@@ -98,16 +98,18 @@ Files: examples/quick/customitems/painteditem/TextBalloonPlugin/plugin.h
  examples/quick/scenegraph/*
 Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies)
            2013 Jolla Ltd.
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
-Files: examples/quick/demos/stocqt/content/CheckBox.qml examples/quick/demos/samegame/settings.js examples/quick/demos/samegame/content/SamegameText.qml
+Files: examples/quick/demos/stocqt/content/CheckBox.qml
+ examples/quick/demos/samegame/settings.js
+ examples/quick/demos/samegame/content/SamegameText.qml
 Copyright: 2012 Research In Motion
 License: BSD-3-clause
 
 Files: tests/auto/qml/qqmlnotifier/tst_qqmlnotifier.cpp
  benchmarks/qml/qquickwindow/tst_qquickwindow.cpp
 Copyright: 2012 Research In Motion
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
 Files: test/auto/qml/parserstress/tests/*
 Copyright: 1998-2003 Netscape Communications Corporation
@@ -118,7 +120,7 @@ Files: src/qml/qml/qqmllocale.cpp
 Copyright: 1991 AT&T
            2012 Digia Plc and/or its subsidiary(-ies).
 License: Mixed LGPL-2.1 and BSD
- A portion of the file is LGPL-2.1 with Digia Qt LGPL Exception 1.1 or
+ A portion of the file is LGPL-2.1-or-3 with Digia-1.1 exception or
  GPL-3. A portion is however BSD licensed:
  .
  Permission to use, copy, modify, and distribute this software for any
@@ -138,7 +140,7 @@ License: Mixed LGPL-2.1 and BSD
 Files: src/qml/animations/*
        tests/auto/quick/qquickanimations/*
 Copyright: 2014 Jolla Ltd.
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1-or-3 with Digia-1.1 exception or GPL-3
 
 
 Files: *.qdoc
@@ -223,21 +225,23 @@ License: LGPL-2.1
  On Debian systems, the complete text of the GNU Lesser General Public License
  can be found in `/usr/share/common-licenses/LGPL-2.1`.
 
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
- GNU Lesser General Public License version 2.1:
+License: LGPL-2.1-or-3 with Digia-1.1 exception
+ GNU Lesser General Public License:
  This file may be used under the terms of the GNU Lesser General Public
- License version 2.1 as published by the Free Software Foundation and
- appearing in the file LICENSE.LGPL included in the packaging of this
- file. Please review the following information to ensure the GNU Lesser
- General Public License version 2.1 requirements will be met:
- http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ License version 2.1 or version 3 as published by the Free Software
+ Foundation and appearing in the file LICENSE.LGPLv21 and LICENSE.LGPLv3
+ included in the packaging of this file. Please review the following
+ information to ensure the GNU Lesser General Public License requirements
+ will be met: https://www.gnu.org/licenses/lgpl.html.
  .
  In addition, as a special exception, Digia gives you certain additional
  rights. These rights are described in the Digia Qt LGPL Exception
  version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
  .
- On Debian systems, the complete text of the GNU Lesser General Public License
- can be found in `/usr/share/common-licenses/LGPL-2.1`.
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1`.
+ The complete text of the GNU Lesser General Public License version 3 can be
+ found in `/usr/share/common-licenses/LGPL-3`.
  .
  Digia Qt LGPL Exception version 1.1:
  As an additional permission to the GNU Lesser General Public License version
