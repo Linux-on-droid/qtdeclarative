@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0 sparc
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
 | libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-4-0
  _Z15quick_test_mainiPPcPKcS2_@Base 5.0.2
@@ -66,6 +66,7 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZN15QuickTestResult6verifyEbRK7QStringRK4QUrli@Base 5.0.2 1
  _ZN15QuickTestResult7compareEbRK7QStringRK8QVariantS5_RK4QUrli@Base 5.0.2 1
  _ZN15QuickTestResult8exitCodeEv@Base 5.0.2 1
+ _ZN15QuickTestResult9findChildEP7QObjectRK7QString@Base 5.4.0
  _ZN15QuickTestResult9grabImageEP10QQuickItem@Base 5.0.2 1
  _ZN15QuickTestResult9parseArgsEiPPc@Base 5.0.2 1
  _ZN15QuickTestResult9stringifyEP14QQmlV4Function@Base 5.2.0~beta1 1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.1 amd64
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
 | libqt5quickwidgets5 #MINVER#, qtdeclarative-abi-5-4-0
  _ZN12QQuickWidget10setContentERK4QUrlP13QQmlComponentP7QObject@Base 5.3.0
@@ -10,6 +10,7 @@ libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
  _ZN12QQuickWidget12focusInEventEP11QFocusEvent@Base 5.3.1
  _ZN12QQuickWidget13focusOutEventEP11QFocusEvent@Base 5.3.1
  _ZN12QQuickWidget13keyPressEventEP9QKeyEvent@Base 5.3.0
+ _ZN12QQuickWidget13setClearColorERK6QColor@Base 5.4.0
  _ZN12QQuickWidget13setResizeModeENS_10ResizeModeE@Base 5.3.0
  _ZN12QQuickWidget13statusChangedENS_6StatusE@Base 5.3.0
  _ZN12QQuickWidget13triggerUpdateEv@Base 5.3.0
@@ -42,6 +43,7 @@ libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
  _ZNK12QQuickWidget10rootObjectEv@Base 5.3.0
  _ZNK12QQuickWidget11initialSizeEv@Base 5.3.0
  _ZNK12QQuickWidget11rootContextEv@Base 5.3.0
+ _ZNK12QQuickWidget15grabFramebufferEv@Base 5.4.0
  _ZNK12QQuickWidget6engineEv@Base 5.3.0
  _ZNK12QQuickWidget6errorsEv@Base 5.3.0
  _ZNK12QQuickWidget6formatEv@Base 5.3.0
