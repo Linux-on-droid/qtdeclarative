@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.0-1) experimental; urgency=medium
 
   [ Timo Jyrinki ]
   * New upstream release
@@ -18,7 +18,7 @@ qtdeclarative-opensource-src (5.4.0-1) UNRELEASED; urgency=medium
   * Drop no longer needed debian/source/lintian-overrides.
   * Update symbols files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 15 Dec 2014 07:06:24 +0000
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 17 Dec 2014 19:43:00 +0300
 
 qtdeclarative-opensource-src (5.3.2-4) unstable; urgency=medium
 
