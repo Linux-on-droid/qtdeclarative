@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0 amd64 armel armhf i386 mipsel powerpc ppc64 s390x
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-4-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -1595,77 +1595,77 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV42IR9Optimizer3runEP17QQmlEnginePrivatebb@Base 5.4.0 1
  _ZN3QV42IR9OptimizerC1EPNS0_8FunctionE@Base 5.3.1 1
  _ZN3QV42IR9OptimizerC2EPNS0_8FunctionE@Base 5.3.1 1
- _ZN3QV43JIT20InstructionSelection10getElementEPNS_2IR4ExprES4_S4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection10loadRegexpEPNS_2IR6RegExpEPNS2_4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection10loadStringERK7QStringPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection10getElementEPNS_2IR4ExprES4_S4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection10loadRegexpEPNS_2IR6RegExpEPNS2_4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection10loadStringERK7QStringPNS_2IR4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection10setElementEPNS_2IR4ExprES4_S4_@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection10swapValuesEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection10swapValuesEPNS_2IR4ExprES4_@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection10visitCJumpEPNS_2IR5CJumpE@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection11convertTypeEPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection11getPropertyEPNS_2IR4ExprERK7QStringS4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection11initClosureEPNS_2IR7ClosureEPNS2_4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection11convertTypeEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection11getPropertyEPNS_2IR4ExprERK7QStringS4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection11initClosureEPNS_2IR7ClosureEPNS2_4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection11setPropertyEPNS_2IR4ExprES4_RK7QString@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection12callPropertyEPNS_2IR4ExprERK7QStringPNS2_8ExprListES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection13callSubscriptEPNS_2IR4ExprES4_PNS2_8ExprListES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection14constructValueEPNS_2IR4ExprEPNS2_8ExprListES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection14loadQmlIdArrayEPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection14loadThisObjectEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection12callPropertyEPNS_2IR4ExprERK7QStringPNS2_8ExprListES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection13callSubscriptEPNS_2IR4ExprES4_PNS2_8ExprListES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection14constructValueEPNS_2IR4ExprEPNS2_8ExprListES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection14loadQmlIdArrayEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection14loadThisObjectEPNS_2IR4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection15prepareCallDataEPNS_2IR8ExprListEPNS2_4ExprE@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection15visitCJumpEqualEPNS_2IR5BinopEPNS2_10BasicBlockES6_@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection16addConstantTableEP7QVectorINS_9PrimitiveEE@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection16callBuiltinThrowEPNS_2IR4ExprE@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection16loadQmlSingletonERK7QStringPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection16loadQmlSingletonERK7QStringPNS_2IR4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection16visitCJumpDoubleENS_2IR5AluOpEPNS2_4ExprES5_PNS2_10BasicBlockES7_@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection16visitCJumpSInt32ENS_2IR5AluOpEPNS2_4ExprES5_PNS2_10BasicBlockES7_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection16visitCJumpSInt32ENS_2IR5AluOpEPNS2_4ExprES5_PNS2_10BasicBlockES7_@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection16visitCJumpStrictEPNS_2IR5BinopEPNS2_10BasicBlockES6_@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection17constructPropertyEPNS_2IR4ExprERK7QStringPNS2_8ExprListES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection17convertTypeToBoolEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection17constructPropertyEPNS_2IR4ExprERK7QStringPNS2_8ExprListES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection17convertTypeToBoolEPNS_2IR4ExprES4_@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection18backendCompileStepEv@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection18callBuiltinInvalidEPNS_2IR4NameEPNS2_8ExprListEPNS2_4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection18callBuiltinInvalidEPNS_2IR4NameEPNS2_8ExprListEPNS2_4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection18callBuiltinReThrowEv@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection18getQObjectPropertyEPNS_2IR4ExprEibbiS4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection18loadQmlScopeObjectEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection18getQObjectPropertyEPNS_2IR4ExprEibbiS4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection18loadQmlScopeObjectEPNS_2IR4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection18setQObjectPropertyEPNS_2IR4ExprES4_i@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection19callBuiltinPopScopeEv@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection19convertTypeSlowPathEPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection19convertTypeToDoubleEPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection19convertTypeToSInt32EPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection19convertTypeToUInt32EPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection20loadQmlContextObjectEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection19convertTypeSlowPathEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection19convertTypeToDoubleEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection19convertTypeToSInt32EPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection19convertTypeToUInt32EPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection20loadQmlContextObjectEPNS_2IR4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection20visitCJumpStrictBoolEPNS_2IR5BinopEPNS2_10BasicBlockES6_@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection21callBuiltinDeclareVarEbRK7QString@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection21callBuiltinDeleteNameERK7QStringPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection21callBuiltinTypeofNameERK7QStringPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection21getActivationPropertyEPKNS_2IR4NameEPNS2_4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21callBuiltinDeleteNameERK7QStringPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21callBuiltinTypeofNameERK7QStringPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21getActivationPropertyEPKNS_2IR4NameEPNS2_4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection21setActivationPropertyEPNS_2IR4ExprERK7QString@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection22callBuiltinDefineArrayEPNS_2IR4ExprEPNS2_8ExprListE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection22callBuiltinDeleteValueEPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection22callBuiltinTypeofValueEPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection22loadQmlImportedScriptsEPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection23callBuiltinDeleteMemberEPNS_2IR4ExprERK7QStringS4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection23callBuiltinTypeofMemberEPNS_2IR4ExprERK7QStringS4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callBuiltinDefineArrayEPNS_2IR4ExprEPNS2_8ExprListE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callBuiltinDeleteValueEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callBuiltinTypeofValueEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22loadQmlImportedScriptsEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection23callBuiltinDeleteMemberEPNS_2IR4ExprERK7QStringS4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection23callBuiltinTypeofMemberEPNS_2IR4ExprERK7QStringS4_@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection23visitCJumpNullUndefinedENS_2IR4TypeEPNS2_5BinopEPNS2_10BasicBlockES7_@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection24calculateRegistersToSaveERK7QVectorINS0_12RegisterInfoEE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection24callBuiltinPushWithScopeEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection24calculateRegistersToSaveERK7QVectorINS0_12RegisterInfoEE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection24callBuiltinPushWithScopeEPNS_2IR4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection24prepareVariableArgumentsEPNS_2IR8ExprListE@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection25callBuiltinPushCatchScopeERK7QString@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection26callBuiltinDeleteSubscriptEPNS_2IR4ExprES4_S4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection26callBuiltinTypeofSubscriptEPNS_2IR4ExprES4_S4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection26callBuiltinUnwindExceptionEPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection27constructActivationPropertyEPNS_2IR4NameEPNS2_8ExprListEPNS2_4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection26callBuiltinDeleteSubscriptEPNS_2IR4ExprES4_S4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection26callBuiltinTypeofSubscriptEPNS_2IR4ExprES4_S4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection26callBuiltinUnwindExceptionEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection27constructActivationPropertyEPNS_2IR4NameEPNS2_8ExprListEPNS2_4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection29visitCJumpStrictNullUndefinedENS_2IR4TypeEPNS2_5BinopEPNS2_10BasicBlockES7_@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection30callBuiltinConvertThisToObjectEv@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection30callBuiltinDefineObjectLiteralEPNS_2IR4ExprEiPNS2_8ExprListES6_b@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection30callBuiltinSetupArgumentObjectEPNS_2IR4ExprE@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection32callBuiltinForeachIteratorObjectEPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection34callBuiltinForeachNextPropertynameEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection30callBuiltinDefineObjectLiteralEPNS_2IR4ExprEiPNS2_8ExprListES6_b@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection30callBuiltinSetupArgumentObjectEPNS_2IR4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection32callBuiltinForeachIteratorObjectEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection34callBuiltinForeachNextPropertynameEPNS_2IR4ExprES4_@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection3runEi@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection4unopENS_2IR5AluOpEPNS2_4ExprES5_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection5binopENS_2IR5AluOpEPNS2_4ExprES5_S5_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection4unopENS_2IR5AluOpEPNS2_4ExprES5_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection5binopENS_2IR5AluOpEPNS2_4ExprES5_S5_@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection8visitRetEPNS_2IR3RetE@Base 5.3.0
- _ZN3QV43JIT20InstructionSelection9callValueEPNS_2IR4ExprEPNS2_8ExprListES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection9copyValueEPNS_2IR4ExprES4_@Base 5.4.0
- _ZN3QV43JIT20InstructionSelection9loadConstEPNS_2IR5ConstEPNS2_4ExprE@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection9callValueEPNS_2IR4ExprEPNS2_8ExprListES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection9copyValueEPNS_2IR4ExprES4_@Base 5.4.0
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection9loadConstEPNS_2IR5ConstEPNS2_4ExprE@Base 5.4.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelection9visitJumpEPNS_2IR4JumpE@Base 5.3.0
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelectionC1EP17QQmlEnginePrivatePNS_19ExecutableAllocatorEPNS_2IR6ModuleEPNS_8Compiler15JSUnitGeneratorE@Base 5.3.0 1
  (arch=!alpha !arm64 !armel !hppa !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sparc !sparc64)_ZN3QV43JIT20InstructionSelectionC2EP17QQmlEnginePrivatePNS_19ExecutableAllocatorEPNS_2IR6ModuleEPNS_8Compiler15JSUnitGeneratorE@Base 5.3.0 1
@@ -3194,7 +3194,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV44Moth20InstructionSelection11squeezeCodeEv@Base 5.3.0
  _ZNK3QV45Value12toNumberImplEv@Base 5.2.0~beta1
  _ZNK3QV45Value16toQStringNoThrowEv@Base 5.2.0~beta1
- (optional=inline|arch=!armel !i386 !powerpc)_ZNK3QV45Value2asINS_14QObjectWrapperEEEPT_v@Base 5.2.0~beta1
+ (optional=inline|arch=!armel !armhf !i386 !mipsel !powerpc)_ZNK3QV45Value2asINS_14QObjectWrapperEEEPT_v@Base 5.2.0~beta1
  _ZNK3QV45Value8toObjectEPNS_16ExecutionContextE@Base 5.2.0~beta1
  _ZNK3QV45Value8toStringEPNS_15ExecutionEngineE@Base 5.3.0
  _ZNK3QV45Value8toStringEPNS_16ExecutionContextE@Base 5.2.0~beta1
@@ -3355,7 +3355,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (subst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE6resizeE{size_t}@Base 5.4.0
  (subst)_ZNSt6vectorIbSaIbEE14_M_fill_assignE{size_t}b@Base 5.4.0
  (subst)_ZNSt6vectorIbSaIbEE14_M_fill_insertESt13_Bit_iterator{size_t}b@Base 5.4.0
- _ZNSt6vectorIbSaIbEE6resizeEmb@Base 5.4.0
+ (arch=amd64)_ZNSt6vectorIbSaIbEE6resizeEmb@Base 5.4.0
  (subst)_ZNSt6vectorIbSaIbEEC1E{size_t}RKbRKS0_@Base 5.4.0
  (subst)_ZNSt6vectorIbSaIbEEC2E{size_t}RKbRKS0_@Base 5.4.0
  _ZNSt6vectorIiSaIiEE12emplace_backIIiEEEvDpOT_@Base 5.4.0
