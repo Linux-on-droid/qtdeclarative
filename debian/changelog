@@ -1,9 +1,8 @@
-qtdeclarative-opensource-src (5.4.0-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.0-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files with buildds’ logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 22 Dec 2014 19:12:38 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 22 Dec 2014 19:14:35 +0300
 
 qtdeclarative-opensource-src (5.4.0-2) experimental; urgency=medium
 
