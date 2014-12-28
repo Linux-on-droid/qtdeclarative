@@ -22,9 +22,6 @@ override_dh_auto_build-indep:
 override_dh_auto_install-arch:
 	dh_auto_install
 
-	# Disable StateMachine for now
-	rm -rf $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml/QtQml/StateMachine/
-
 	# Fix wrong path in pkgconfig files
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/pkgconfig -type f -name '*.pc' \
 	-exec sed -i -e 's/$(DEB_HOST_MULTIARCH)\/$(DEB_HOST_MULTIARCH)/$(DEB_HOST_MULTIARCH)/g' {} \;
