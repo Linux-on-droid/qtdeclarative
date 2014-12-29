@@ -1,11 +1,10 @@
-qtdeclarative-opensource-src (5.4.0-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.0-4) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files with buildds’ logs.
   * Enable qml-module-qtqml-statemachine package.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 28 Dec 2014 21:05:22 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 28 Dec 2014 21:11:05 +0300
 
 qtdeclarative-opensource-src (5.4.0-3) experimental; urgency=medium
 
