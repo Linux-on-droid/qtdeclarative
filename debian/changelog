@@ -1,11 +1,10 @@
-qtdeclarative-opensource-src (5.4.0-5) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.0-5) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add check_system_double-conversion.patch to use the system's library
     (Closes: #778644).
     - Build depend upon libdouble-conversion-dev.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 06 Feb 2015 21:48:11 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 18 Feb 2015 16:52:44 -0300
 
 qtdeclarative-opensource-src (5.4.0-4) experimental; urgency=medium
 
