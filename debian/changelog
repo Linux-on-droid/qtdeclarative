@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update debian/watch to use https://download.qt.io/.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
 
