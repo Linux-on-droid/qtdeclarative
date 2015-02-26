@@ -8,6 +8,8 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     dependencies (like done in qtbase).
   * Fix a typo in libqt5quickparticles5 description (closes: #771570,
     thanks Davide Prina for noticing).
+  * debian/libqt5qml5.symbols: Mark destructors symbols missing with GCC
+    5 as optional (closes: #778087).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
 
