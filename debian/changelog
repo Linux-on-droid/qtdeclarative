@@ -6,6 +6,8 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.4.1.
   * Pass -V to dh_makeshlibs, to make dpkg generate more tight
     dependencies (like done in qtbase).
+  * Fix a typo in libqt5quickparticles5 description (closes: #771570,
+    thanks Davide Prina for noticing).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
 
