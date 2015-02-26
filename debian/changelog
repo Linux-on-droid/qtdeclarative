@@ -4,6 +4,8 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update debian/watch to use https://download.qt.io/.
   * Bump Qt build-dependencies to 5.4.1.
+  * Pass -V to dh_makeshlibs, to make dpkg generate more tight
+    dependencies (like done in qtbase).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
 

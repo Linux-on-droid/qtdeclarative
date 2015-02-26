@@ -50,7 +50,7 @@ override_dh_install:
 	dh_install --fail-missing
 
 override_dh_makeshlibs:
-	dh_makeshlibs
+	dh_makeshlibs -V
 	# Check for private symbols not marked as such. Be verbose.
 	DEBUG=1 debian/mark_private_symbols.sh
 
