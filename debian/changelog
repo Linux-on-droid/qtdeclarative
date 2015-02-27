@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch to use https://download.qt.io/.
   * Bump Qt build-dependencies to 5.4.1.
@@ -19,7 +18,7 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     - Bump ABI version to 5-4-1 because there is a removed symbol.
     - Apply the changes from mark_private_symbols.sh update.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Feb 2015 17:44:03 +0300
 
 qtdeclarative-opensource-src (5.4.0-5) experimental; urgency=medium
 
