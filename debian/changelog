@@ -8,6 +8,8 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     dependencies (like done in qtbase).
   * Fix a typo in libqt5quickparticles5 description (closes: #771570,
     thanks Davide Prina for noticing).
+  * debian/mark-private-symbols.sh: Strip out trailing colon from
+    symbols names.
   * Update symbols files:
     - Mark destructors symbols missing with GCC 5 as optional
       (closes: #778087).
