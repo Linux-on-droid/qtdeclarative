@@ -54,10 +54,7 @@ grep -rh class ${PRIVATE_HEADERS} |
 	grep EXPORT | 
 	while read class export classname rest 
 	do
-		echo ${classname//:}
-	done |
-	while read classname
-	do
+		classname=$(echo $classname | sed 's/://')
 		echo ${#classname}${classname} 
 	done | 
 	while read privateclass 
