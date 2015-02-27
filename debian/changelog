@@ -8,7 +8,7 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     dependencies (like done in qtbase).
   * Fix a typo in libqt5quickparticles5 description (closes: #771570,
     thanks Davide Prina for noticing).
-  * debian/mark-private-symbols.sh:
+  * debian/mark_private_symbols.sh:
     - Strip out trailing colon from symbols names.
     - Unmark private symbols before processing them (copied from
       Lisandro's change in qtbase).
@@ -17,7 +17,7 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
       (closes: #778087).
     - Update debian/libqt5quick5.symbols for 5.4.1 symbols changes.
     - Bump ABI version to 5-4-1 because there is a removed symbol.
-    - Apply the changes from mark-private-symbols.sh update.
+    - Apply the changes from mark_private_symbols.sh update.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
 
