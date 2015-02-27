@@ -12,6 +12,7 @@ qtdeclarative-opensource-src (5.4.1-1) UNRELEASED; urgency=medium
     - Mark destructors symbols missing with GCC 5 as optional
       (closes: #778087).
     - Update debian/libqt5quick5.symbols for 5.4.1 symbols changes.
+    - Bump ABI version to 5-4-1 because there is a removed symbol.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Feb 2015 14:49:07 +0300
 
