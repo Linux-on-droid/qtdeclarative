@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0 amd64 armel hppa i386 kfreebsd-amd64 ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.4.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-4-0
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Base 5.4.0
@@ -819,6 +819,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickableD0Ev@Base 5.0.2 1
  _ZN15QQuickFlickableD1Ev@Base 5.0.2 1
  _ZN15QQuickFlickableD2Ev@Base 5.0.2 1
+ _ZN15QQuickImageBase10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Base 5.4.1 1
  _ZN15QQuickImageBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
  _ZN15QQuickImageBase11qt_metacastEPKc@Base 5.0.2 1
  _ZN15QQuickImageBase12cacheChangedEv@Base 5.0.2 1
@@ -838,7 +839,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickImageBase18resolve2xLocalFileERK4QUrldPS0_Pd@Base 5.3.0 1
  _ZN15QQuickImageBase19asynchronousChangedEv@Base 5.0.2 1
  _ZN15QQuickImageBase19handleScreenChangedEP7QScreen@Base 5.3.0 1
- _ZN15QQuickImageBase19handleWindowChangedEP12QQuickWindow@Base 5.3.0 1
  _ZN15QQuickImageBase4loadEv@Base 5.0.2 1
  _ZN15QQuickImageBase8setCacheEb@Base 5.0.2 1
  _ZN15QQuickImageBase9setMirrorEb@Base 5.0.2 1
@@ -1379,6 +1379,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (optional=gccinternal)_ZN17QSGSimpleRectNodeD1Ev@Base 5.0.2
  (optional=gccinternal)_ZN17QSGSimpleRectNodeD2Ev@Base 5.0.2
  _ZN18QQmlQtQuick2Module12defineModuleEv@Base 5.0.2 1
+ _ZN18QQmlQtQuick2Module14undefineModuleEv@Base 5.4.1 1
  _ZN18QQuickGradientStop11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
  _ZN18QQuickGradientStop11qt_metacastEPKc@Base 5.3.0 1
  _ZN18QQuickGradientStop11setPositionEd@Base 5.3.0 1
