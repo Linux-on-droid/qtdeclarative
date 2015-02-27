@@ -403,10 +403,10 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN12QQuickWindow9hideEventEP10QHideEvent@Base 5.0.2
  _ZN12QQuickWindow9sendEventEP10QQuickItemP6QEvent@Base 5.0.2
  _ZN12QQuickWindow9showEventEP10QShowEvent@Base 5.0.2
- _ZN12QQuickWindowC1EP19QQuickRenderControl@Base 5.3.0 1
+ _ZN12QQuickWindowC1EP19QQuickRenderControl@Base 5.3.0
  _ZN12QQuickWindowC1EP7QWindow@Base 5.0.2
  _ZN12QQuickWindowC1ER19QQuickWindowPrivateP7QWindow@Base 5.0.2 1
- _ZN12QQuickWindowC2EP19QQuickRenderControl@Base 5.3.0 1
+ _ZN12QQuickWindowC2EP19QQuickRenderControl@Base 5.3.0
  _ZN12QQuickWindowC2EP7QWindow@Base 5.0.2
  _ZN12QQuickWindowC2ER19QQuickWindowPrivateP7QWindow@Base 5.0.2 1
  _ZN12QQuickWindowD0Ev@Base 5.0.2
@@ -1484,23 +1484,23 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickImageProviderD0Ev@Base 5.0.2
  _ZN19QQuickImageProviderD1Ev@Base 5.0.2
  _ZN19QQuickImageProviderD2Ev@Base 5.0.2
- _ZN19QQuickRenderControl10initializeEP14QOpenGLContext@Base 5.3.0 1
- _ZN19QQuickRenderControl10invalidateEv@Base 5.3.0 1
- _ZN19QQuickRenderControl11polishItemsEv@Base 5.3.0 1
- _ZN19QQuickRenderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0 1
- _ZN19QQuickRenderControl11qt_metacastEPKc@Base 5.3.0 1
- _ZN19QQuickRenderControl12sceneChangedEv@Base 5.3.0 1
- _ZN19QQuickRenderControl15renderRequestedEv@Base 5.3.0 1
- _ZN19QQuickRenderControl15renderWindowForEP12QQuickWindowP6QPoint@Base 5.3.0 1
- _ZN19QQuickRenderControl16staticMetaObjectE@Base 5.3.0 1
- _ZN19QQuickRenderControl4grabEv@Base 5.3.0 1
- _ZN19QQuickRenderControl4syncEv@Base 5.3.0 1
- _ZN19QQuickRenderControl6renderEv@Base 5.3.0 1
+ _ZN19QQuickRenderControl10initializeEP14QOpenGLContext@Base 5.3.0
+ _ZN19QQuickRenderControl10invalidateEv@Base 5.3.0
+ _ZN19QQuickRenderControl11polishItemsEv@Base 5.3.0
+ _ZN19QQuickRenderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
+ _ZN19QQuickRenderControl11qt_metacastEPKc@Base 5.3.0
+ _ZN19QQuickRenderControl12sceneChangedEv@Base 5.3.0
+ _ZN19QQuickRenderControl15renderRequestedEv@Base 5.3.0
+ _ZN19QQuickRenderControl15renderWindowForEP12QQuickWindowP6QPoint@Base 5.3.0
+ _ZN19QQuickRenderControl16staticMetaObjectE@Base 5.3.0
+ _ZN19QQuickRenderControl4grabEv@Base 5.3.0
+ _ZN19QQuickRenderControl4syncEv@Base 5.3.0
+ _ZN19QQuickRenderControl6renderEv@Base 5.3.0
  _ZN19QQuickRenderControlC1EP7QObject@Base 5.4.0
  _ZN19QQuickRenderControlC2EP7QObject@Base 5.4.0
- _ZN19QQuickRenderControlD0Ev@Base 5.3.0 1
- _ZN19QQuickRenderControlD1Ev@Base 5.3.0 1
- _ZN19QQuickRenderControlD2Ev@Base 5.3.0 1
+ _ZN19QQuickRenderControlD0Ev@Base 5.3.0
+ _ZN19QQuickRenderControlD1Ev@Base 5.3.0
+ _ZN19QQuickRenderControlD2Ev@Base 5.3.0
  _ZN19QQuickScaleAnimator11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0~beta1 1
  _ZN19QQuickScaleAnimator11qt_metacastEPKc@Base 5.2.0~beta1 1
  _ZN19QQuickScaleAnimator16staticMetaObjectE@Base 5.2.0~beta1 1
@@ -2233,13 +2233,13 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (optional=gccinternal)_ZN27QQuickKeyNavigationAttachedD0Ev@Base 5.4.0 1
  (optional=gccinternal)_ZN27QQuickKeyNavigationAttachedD1Ev@Base 5.4.0 1
  (optional=gccinternal)_ZN27QQuickKeyNavigationAttachedD2Ev@Base 5.4.0 1
- _ZN28QSGDistanceFieldTextMaterial17updateTextureSizeEv@Base 5.0.2
- _ZN28QSGDistanceFieldTextMaterial8setColorERK6QColor@Base 5.1.0
- _ZN28QSGDistanceFieldTextMaterialC1Ev@Base 5.0.2
- _ZN28QSGDistanceFieldTextMaterialC2Ev@Base 5.0.2
- _ZN28QSGDistanceFieldTextMaterialD0Ev@Base 5.0.2
- _ZN28QSGDistanceFieldTextMaterialD1Ev@Base 5.0.2
- _ZN28QSGDistanceFieldTextMaterialD2Ev@Base 5.0.2
+ _ZN28QSGDistanceFieldTextMaterial17updateTextureSizeEv@Base 5.0.2 1
+ _ZN28QSGDistanceFieldTextMaterial8setColorERK6QColor@Base 5.1.0 1
+ _ZN28QSGDistanceFieldTextMaterialC1Ev@Base 5.0.2 1
+ _ZN28QSGDistanceFieldTextMaterialC2Ev@Base 5.0.2 1
+ _ZN28QSGDistanceFieldTextMaterialD0Ev@Base 5.0.2 1
+ _ZN28QSGDistanceFieldTextMaterialD1Ev@Base 5.0.2 1
+ _ZN28QSGDistanceFieldTextMaterialD2Ev@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShader10initializeEv@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShader11updateStateERKN17QSGMaterialShader11RenderStateEP11QSGMaterialS5_@Base 5.0.2 1
  _ZN30QSGOpaqueTextureMaterialShader4typeE@Base 5.0.2 1
@@ -2768,7 +2768,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK18QSGTextureProvider10metaObjectEv@Base 5.0.2
  _ZNK19QQuickImageProvider5flagsEv@Base 5.0.2
  _ZNK19QQuickImageProvider9imageTypeEv@Base 5.0.2
- _ZNK19QQuickRenderControl10metaObjectEv@Base 5.3.0 1
+ _ZNK19QQuickRenderControl10metaObjectEv@Base 5.3.0
  _ZNK19QQuickScaleAnimator10metaObjectEv@Base 5.2.0~beta1 1
  _ZNK19QQuickScaleAnimator9createJobEv@Base 5.2.0~beta1 1
  _ZNK19QQuickWindowPrivate12isRenderableEv@Base 5.0.2 1
@@ -2908,9 +2908,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK27QQuickKeyNavigationAttached5rightEv@Base 5.4.0 1
  _ZNK27QQuickKeyNavigationAttached7backtabEv@Base 5.4.0 1
  _ZNK27QQuickKeyNavigationAttached8priorityEv@Base 5.4.0 1
- _ZNK28QSGDistanceFieldTextMaterial12createShaderEv@Base 5.0.2
- _ZNK28QSGDistanceFieldTextMaterial4typeEv@Base 5.0.2
- _ZNK28QSGDistanceFieldTextMaterial7compareEPK11QSGMaterial@Base 5.0.2
+ _ZNK28QSGDistanceFieldTextMaterial12createShaderEv@Base 5.0.2 1
+ _ZNK28QSGDistanceFieldTextMaterial4typeEv@Base 5.0.2 1
+ _ZNK28QSGDistanceFieldTextMaterial7compareEPK11QSGMaterial@Base 5.0.2 1
  _ZNK30QSGOpaqueTextureMaterialShader14attributeNamesEv@Base 5.0.2 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache14maxTextureSizeEv@Base 5.0.2 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureResizeWorkaroundEv@Base 5.2.0~rc1 1
@@ -3001,7 +3001,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI18QSGTextureMaterial@Base 5.0.2
  _ZTI18QSGTextureProvider@Base 5.0.2
  _ZTI19QQuickImageProvider@Base 5.0.2
- _ZTI19QQuickRenderControl@Base 5.3.0 1
+ _ZTI19QQuickRenderControl@Base 5.3.0
  _ZTI19QQuickScaleAnimator@Base 5.2.0~beta1 1
  _ZTI19QQuickWindowPrivate@Base 5.0.2 1
  _ZTI19QSGAbstractRenderer@Base 5.4.0
@@ -3057,7 +3057,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI27QAccessibleStateChangeEvent@Base 5.3.0
  _ZTI27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTI27QQuickKeyNavigationAttached@Base 5.4.0 1
- _ZTI28QSGDistanceFieldTextMaterial@Base 5.0.2
+ _ZTI28QSGDistanceFieldTextMaterial@Base 5.0.2 1
  _ZTI29QSGDistanceFieldGlyphConsumer@Base 5.0.2 1
  _ZTI30QSGOpaqueTextureMaterialShader@Base 5.0.2 1
  _ZTI33QSGDefaultDistanceFieldGlyphCache@Base 5.0.2 1
@@ -3140,7 +3140,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS18QSGTextureMaterial@Base 5.0.2
  _ZTS18QSGTextureProvider@Base 5.0.2
  _ZTS19QQuickImageProvider@Base 5.0.2
- _ZTS19QQuickRenderControl@Base 5.3.0 1
+ _ZTS19QQuickRenderControl@Base 5.3.0
  _ZTS19QQuickScaleAnimator@Base 5.2.0~beta1 1
  _ZTS19QQuickWindowPrivate@Base 5.0.2 1
  _ZTS19QSGAbstractRenderer@Base 5.4.0
@@ -3196,7 +3196,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS27QAccessibleStateChangeEvent@Base 5.3.0
  _ZTS27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTS27QQuickKeyNavigationAttached@Base 5.4.0 1
- _ZTS28QSGDistanceFieldTextMaterial@Base 5.0.2
+ _ZTS28QSGDistanceFieldTextMaterial@Base 5.0.2 1
  _ZTS29QSGDistanceFieldGlyphConsumer@Base 5.0.2 1
  _ZTS30QSGOpaqueTextureMaterialShader@Base 5.0.2 1
  _ZTS33QSGDefaultDistanceFieldGlyphCache@Base 5.0.2 1
@@ -3278,7 +3278,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV18QSGTextureMaterial@Base 5.0.2
  _ZTV18QSGTextureProvider@Base 5.0.2
  _ZTV19QQuickImageProvider@Base 5.0.2
- _ZTV19QQuickRenderControl@Base 5.3.0 1
+ _ZTV19QQuickRenderControl@Base 5.3.0
  _ZTV19QQuickScaleAnimator@Base 5.2.0~beta1 1
  _ZTV19QQuickWindowPrivate@Base 5.0.2 1
  _ZTV19QSGAbstractRenderer@Base 5.4.0
@@ -3334,7 +3334,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV27QAccessibleStateChangeEvent@Base 5.3.0
  _ZTV27QAccessibleValueChangeEvent@Base 5.0.2
  _ZTV27QQuickKeyNavigationAttached@Base 5.4.0 1
- _ZTV28QSGDistanceFieldTextMaterial@Base 5.0.2
+ _ZTV28QSGDistanceFieldTextMaterial@Base 5.0.2 1
  _ZTV29QSGDistanceFieldGlyphConsumer@Base 5.0.2 1
  _ZTV30QSGOpaqueTextureMaterialShader@Base 5.0.2 1
  _ZTV33QSGDefaultDistanceFieldGlyphCache@Base 5.0.2 1
