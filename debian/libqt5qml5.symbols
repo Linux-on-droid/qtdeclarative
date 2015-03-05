@@ -2776,7 +2776,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlTypeC2EiRKN11QQmlPrivate17RegisterInterfaceE@Base 5.0.2 1
  _ZN8QQmlTypeD1Ev@Base 5.0.2 1
  _ZN8QQmlTypeD2Ev@Base 5.0.2 1
- (optional=templinst|arch=ia64)_ZN8QVariant9fromValueIP9ListModelEES_RKT_@Base 5.2.0
  _ZN9QBitArray6setBitEi@Base 5.3.0
  _ZN9QJSEngine10newQObjectEP7QObject@Base 5.0.2
  _ZN9QJSEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
@@ -3381,36 +3380,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNSt6vectorItSaItEE13_M_insert_auxIJtEEEvN9__gnu_cxx17__normal_iteratorIPtS1_EEDpOT_@Base 5.3.0
  _ZNSt6vectorItSaItEE19_M_emplace_back_auxIIRKtEEEvDpOT_@Base 5.3.0
  _ZNSt6vectorItSaItEE19_M_emplace_back_auxIJRKtEEEvDpOT_@Base 5.3.0
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorExS5_PFbRKS5_S9_EEvT_T0_SD_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceI11QStringListE14CompareFunctorEEvT_T0_S9_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceI11QStringListE21DefaultCompareFunctorEEvT_T0_S9_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt11__push_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI4QUrlE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI5QPairI7QStringP16QQmlPropertyDataEE8iteratorExS5_PFbRKS5_S9_EEvT_T0_SD_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceI11QStringListE14CompareFunctorEEvT_T0_S9_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceI11QStringListE21DefaultCompareFunctorEEvT_T0_S9_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceIS2_E14CompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_N12QQmlSequenceIS2_E21DefaultCompareFunctorEEvT_T0_S8_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListI7QStringE8iteratorExS1_PFbRKS1_S5_EEvT_T0_S9_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIbE8iteratorExbN12QQmlSequenceIS1_E14CompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIbE8iteratorExbN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIdE8iteratorExdN12QQmlSequenceIS1_E14CompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIdE8iteratorExdN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiEvT_T0_S4_T1_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiN12QQmlSequenceIS1_E14CompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt13__adjust_heapIN5QListIiE8iteratorExiN12QQmlSequenceIS1_E21DefaultCompareFunctorEEvT_T0_S7_T1_T2_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListI4QUrlE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListI7QStringE8iteratorEN12QQmlSequenceI11QStringListE14CompareFunctorEEvT_S8_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListI7QStringE8iteratorEN12QQmlSequenceIS2_E14CompareFunctorEEvT_S7_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListIbE8iteratorEN12QQmlSequenceIS1_E14CompareFunctorEEvT_S6_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListIdE8iteratorEN12QQmlSequenceIS1_E14CompareFunctorEEvT_S6_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt22__final_insertion_sortIN5QListIiE8iteratorEN12QQmlSequenceIS1_E14CompareFunctorEEvT_S6_T0_@Base 5.2.0 1
- (optional=templinst|arch=ia64)_ZSt4moveIN9__gnu_cxx17__normal_iteratorIPN3JSC4Yarr11PatternTermESt6vectorIS4_SaIS4_EEEES9_ET0_T_SB_SA_@Base 5.2.0
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !ia64 !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc !sparc64)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QQmlBundle@Base 5.0.2 1
  _ZTI10QQmlEngine@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2
