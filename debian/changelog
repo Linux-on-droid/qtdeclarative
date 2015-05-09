@@ -4,6 +4,11 @@ qtdeclarative-opensource-src (5.4.1-2) UNRELEASED; urgency=medium
   * Update debian/libqt5quick5.symbols for arm64.
   * Remove all ia64-specific symbols from debian/libqt5qml5.symbols.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Clear up the list in Uploaders removing people who hasn't commited to the
+    repo in more than a year. They can re add themselves whenever they want
+    (and we really hope to see you back really soon!).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 14:58:50 +0300
 
 qtdeclarative-opensource-src (5.4.1-1) experimental; urgency=medium
