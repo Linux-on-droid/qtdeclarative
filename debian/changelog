@@ -5,7 +5,7 @@ qtdeclarative-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Remove all ia64-specific symbols from debian/libqt5qml5.symbols.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * New upstream release.
+  * New upstream release (Closes: #778257, #778359).
   * Clear up the list in Uploaders removing people who hasn't commited to the
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
