@@ -13,6 +13,7 @@ qtdeclarative-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Expose HTML documentation in /usr/share/doc (Closes: #751176).
   * Make libqt5qml5 recommend libgl1-mesa-glx to get QML stuff properly
     rendered (Closes: #779581).
+  * Use pkgkde-mark-private-symbols from pkg-kde-tools 0.15.17.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 14:58:50 +0300
 

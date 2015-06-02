@@ -8,11 +8,6 @@ Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies)
            1994-2008 Trolltech ASA.
 License: LGPL-2.1-or-3 with Digia-1.1 exception
 
-Files: debian/mark_private_symbols.sh
-Copyright: 2013 Sune Vuorela <sune@debian.org>
-           2014 Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
-License: Expat
-
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2012 Sune Vuorela <debian@pusling.com>
