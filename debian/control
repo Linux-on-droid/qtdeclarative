@@ -10,10 +10,10 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
 Build-Depends: debhelper (>= 9),
                dpkg-dev (>= 1.16.1),
                libdouble-conversion-dev,
-               libqt5xmlpatterns5-private-dev (>= 5.4.1~),
+               libqt5xmlpatterns5-private-dev (>= 5.4.2~),
                pkg-kde-tools (>= 0.15.12~),
                python,
-               qtbase5-private-dev (>= 5.4.1+dfsg~)
+               qtbase5-private-dev (>= 5.4.2+dfsg~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdeclarative.git
