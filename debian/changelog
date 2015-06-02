@@ -10,6 +10,7 @@ qtdeclarative-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Clear up the list in Uploaders removing people who hasn't commited to the
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
+  * Expose HTML documentation in /usr/share/doc (Closes: #751176).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 14:58:50 +0300
 
