@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.2-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update debian/libqt5quick5.symbols for arm64.
@@ -16,7 +16,7 @@ qtdeclarative-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Use pkgkde-mark-private-symbols from pkg-kde-tools 0.15.17.
   * Update symbols files with current build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Mar 2015 14:58:50 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 02 Jun 2015 17:29:00 -0300
 
 qtdeclarative-opensource-src (5.4.1-1) experimental; urgency=medium
 
