@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.4.2 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-4-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -3357,6 +3357,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 kfreebsd-amd64 ppc64el)_ZNSt6vectorIbSaIbEE6resizeEmb@Base 5.4.0
  (subst)_ZNSt6vectorIbSaIbEEC1E{size_t}RKbRKS0_@Base 5.4.0
  (subst)_ZNSt6vectorIbSaIbEEC2E{size_t}RKbRKS0_@Base 5.4.0
+ (optional=templinst)_ZNSt6vectorIcSaIcEE9push_backERKc@Base 5.4.2
  _ZNSt6vectorIiSaIiEE12emplace_backIIiEEEvDpOT_@Base 5.4.0
  _ZNSt6vectorIiSaIiEE12emplace_backIJiEEEvDpOT_@Base 5.4.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE14_M_fill_assignE{size_t}RKi@Base 5.4.0
