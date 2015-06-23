@@ -1,9 +1,8 @@
-qtdeclarative-opensource-src (5.4.2-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.4.2-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Update symbols files with buildds' logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Jun 2015 16:01:48 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 23 Jun 2015 16:05:25 -0300
 
 qtdeclarative-opensource-src (5.4.2-2) unstable; urgency=medium
 
