@@ -7,6 +7,9 @@ qtdeclarative-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Refresh check_system_double-conversion.patch.
   * Update debian/copyright for the new version.
 
+  [ Timo Jyrinki ]
+  * Update .install files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 13 Aug 2015 23:28:53 +0300
 
 qtdeclarative-opensource-src (5.4.2-6) unstable; urgency=medium
