@@ -1,7 +1,7 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
 | libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-4-1
- (optional=gccinternal|arch=!amd64 !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN10QByteArray7reserveEi@Base 5.4.2
+ (optional=gccinternal|arch=!amd64 !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !x32)_ZN10QByteArray7reserveEi@Base 5.4.2
  _ZN21QQuickParticlesModule12defineModuleEv@Base 5.0.2 1
  _ZTIN9QV8Engine9DeletableE@Base 5.0.2 1
  _ZTSN9QV8Engine9DeletableE@Base 5.0.2 1

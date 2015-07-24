@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.4.2-4) UNRELEASED; urgency=medium
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Backport avoid_calling_potentially_pure-virtual_method.patch to avoid
     crashes. Thanks Diane for the hint!
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 24 Jul 2015 14:02:47 -0300
 
