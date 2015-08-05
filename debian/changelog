@@ -1,5 +1,8 @@
 qtdeclarative-opensource-src (5.4.2-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Update symbols files with current build log against gcc5.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Aug 2015 18:06:46 -0300
 
 qtdeclarative-opensource-src (5.4.2-4) unstable; urgency=medium
