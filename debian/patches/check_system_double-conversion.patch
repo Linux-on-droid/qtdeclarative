@@ -83,7 +83,7 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
  
 --- a/src/qml/jsruntime/jsruntime.pri
 +++ b/src/qml/jsruntime/jsruntime.pri
-@@ -111,4 +111,9 @@ valgrind {
+@@ -117,4 +117,9 @@
  
  ios: DEFINES += ENABLE_ASSEMBLER_WX_EXCLUSIVE=1
  
@@ -96,7 +96,7 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
 +}
 --- a/src/qml/jsruntime/qv4numberobject.cpp
 +++ b/src/qml/jsruntime/qv4numberobject.cpp
-@@ -36,7 +36,12 @@
+@@ -38,7 +38,12 @@
  #include <QtCore/qmath.h>
  #include <QtCore/QDebug>
  #include <cassert>
@@ -111,9 +111,9 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
  
 --- a/src/qml/jsruntime/qv4runtime.cpp
 +++ b/src/qml/jsruntime/qv4runtime.cpp
-@@ -58,7 +58,11 @@
- #include <typeinfo>
- #include <stdlib.h>
+@@ -57,7 +57,11 @@
+ 
+ #include <wtf/MathExtras.h>
  
 -#include "../../3rdparty/double-conversion/double-conversion.h"
 +#ifdef SYSTEM_DOUBLECONVERSION
@@ -122,5 +122,5 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
 +#include <double-conversion.h>
 +#endif
  
- QT_BEGIN_NAMESPACE
- 
+ #ifdef QV4_COUNT_RUNTIME_FUNCTIONS
+ #  include <QtCore/QBuffer>

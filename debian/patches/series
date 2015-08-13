@@ -1,5 +1,2 @@
-# Upstream patches
-avoid_calling_potentially_pure-virtual_method.patch
-
 # Debian patches
 check_system_double-conversion.patch

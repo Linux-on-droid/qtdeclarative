@@ -3,6 +3,8 @@ qtdeclarative-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
+  * Drop avoid_calling_potentially_pure-virtual_method.patch, applied upstream.
+  * Refresh check_system_double-conversion.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 13 Aug 2015 23:28:53 +0300
 
