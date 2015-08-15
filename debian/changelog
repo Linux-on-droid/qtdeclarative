@@ -9,6 +9,7 @@ qtdeclarative-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Update symbols file for 5.5.0. There are some missing non-private symbols,
     but they are not exposed in public APIs.
   * Bump ABI version to 5-5-0.
+  * Mark new private symbols.
 
   [ Timo Jyrinki ]
   * Update .install files.
