@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.5.0-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -14,7 +14,7 @@ qtdeclarative-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   [ Timo Jyrinki ]
   * Update .install files.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 13 Aug 2015 23:28:53 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 15 Aug 2015 17:05:06 +0300
 
 qtdeclarative-opensource-src (5.4.2-6) unstable; urgency=medium
 
