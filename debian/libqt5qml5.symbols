@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-4-1
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -8,30 +8,25 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _Z19QQml_setGuiProviderP15QQmlGuiProvider@Base 5.0.2 1
  _Z20qmlRegisterBaseTypesPKcii@Base 5.0.2
  _Z21QQml_setColorProviderP17QQmlColorProvider@Base 5.0.2 1
+ (optional=templinst)_Z21convertValueToElementI11QModelIndexET_RKN3QV45ValueE@Base 5.5.0
+ (optional=templinst)_Z21convertValueToElementI19QItemSelectionRangeET_RKN3QV45ValueE@Base 5.5.0
+ (optional=templinst)_Z21convertValueToElementI4QUrlET_RKN3QV45ValueE@Base 5.5.0
+ (optional=templinst)_Z21convertValueToElementI7QStringET_RKN3QV45ValueE@Base 5.5.0
+ (optional=templinst)_Z21convertValueToElementIbET_RKN3QV45ValueE@Base 5.5.0
+ (optional=templinst)_Z21convertValueToElementIdET_RKN3QV45ValueE@Base 5.5.0
+ (optional=templinst)_Z21convertValueToElementIiET_RKN3QV45ValueE@Base 5.5.0
  _Z25QQml_addValueTypeProviderP21QQmlValueTypeProvider@Base 5.0.2 1
  _Z25qmlClearTypeRegistrationsv@Base 5.1.0
  _Z27qmlAttachedPropertiesObjectPiPK7QObjectPK11QMetaObjectb@Base 5.0.2
  _Z27qmlRegisterTypeNotAvailablePKciiS0_RK7QString@Base 5.0.2
  _Z28QQml_removeValueTypeProviderP21QQmlValueTypeProvider@Base 5.1.0 1
  _Z31qmlAttachedPropertiesObjectByIdiPK7QObjectb@Base 5.0.2
+ _Z9qjsEnginePK7QObject@Base 5.5.0
  _Z9qmlEnginePK7QObject@Base 5.0.2
  _ZGVZN9QMetaType17registerConverterI8QJSValue11QStringListPFS2_RKS1_EEEbT1_E1f@Base 5.4.0
  _ZGVZN9QMetaType17registerConverterI8QJSValue4QMapI7QString8QVariantEPFS5_RKS1_EEEbT1_E1f@Base 5.4.0
  _ZGVZN9QMetaType17registerConverterI8QJSValue5QListI8QVariantEPFS4_RKS1_EEEbT1_E1f@Base 5.4.0
  (optional=inline)_ZN10QByteArray7reserveEi@Base 5.0.2
- _ZN10QQmlBundle11addMetaLinkERK7QStringS2_RK10QByteArray@Base 5.0.2 1
- _ZN10QQmlBundle14isBundleHeaderEPKci@Base 5.0.2 1
- _ZN10QQmlBundle15findInsertPointEjPi@Base 5.0.2 1
- _ZN10QQmlBundle18bundleHeaderLengthEv@Base 5.0.2 1
- _ZN10QQmlBundle3addERK7QString@Base 5.0.2 1
- _ZN10QQmlBundle3addERK7QStringS2_@Base 5.0.2 1
- _ZN10QQmlBundle4openE6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2 1
- _ZN10QQmlBundle5closeEv@Base 5.0.2 1
- _ZN10QQmlBundle6removeEPKNS_9FileEntryE@Base 5.0.2 1
- _ZN10QQmlBundleC1ERK7QString@Base 5.0.2 1
- _ZN10QQmlBundleC2ERK7QString@Base 5.0.2 1
- _ZN10QQmlBundleD1Ev@Base 5.0.2 1
- _ZN10QQmlBundleD2Ev@Base 5.0.2 1
  _ZN10QQmlEngine10setBaseUrlERK4QUrl@Base 5.0.2
  _ZN10QQmlEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN10QQmlEngine11qt_metacastEPKc@Base 5.0.2
@@ -82,16 +77,16 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN11QQmlBinding8evaluateEv@Base 5.0.2 1
  _ZN11QQmlBinding9setTargetEP7QObjectRK16QQmlPropertyDataP15QQmlContextData@Base 5.0.2 1
  _ZN11QQmlBinding9setTargetERK12QQmlProperty@Base 5.0.2 1
- _ZN11QQmlBindingC1EN3QV48ValueRefEP7QObjectP15QQmlContextData@Base 5.3.0 1
  _ZN11QQmlBindingC1ERK16QQmlScriptStringP7QObjectP11QQmlContext@Base 5.0.2 1
  _ZN11QQmlBindingC1ERK7QStringP7QObjectP11QQmlContext@Base 5.0.2 1
  _ZN11QQmlBindingC1ERK7QStringP7QObjectP15QQmlContextData@Base 5.0.2 1
  _ZN11QQmlBindingC1ERK7QStringP7QObjectP15QQmlContextDataS2_tt@Base 5.2.0~beta1 1
- _ZN11QQmlBindingC2EN3QV48ValueRefEP7QObjectP15QQmlContextData@Base 5.3.0 1
+ _ZN11QQmlBindingC1ERKN3QV45ValueEP7QObjectP15QQmlContextData@Base 5.5.0
  _ZN11QQmlBindingC2ERK16QQmlScriptStringP7QObjectP11QQmlContext@Base 5.0.2 1
  _ZN11QQmlBindingC2ERK7QStringP7QObjectP11QQmlContext@Base 5.0.2 1
  _ZN11QQmlBindingC2ERK7QStringP7QObjectP15QQmlContextData@Base 5.0.2 1
  _ZN11QQmlBindingC2ERK7QStringP7QObjectP15QQmlContextDataS2_tt@Base 5.2.0~beta1 1
+ _ZN11QQmlBindingC2ERKN3QV45ValueEP7QObjectP15QQmlContextData@Base 5.5.0
  _ZN11QQmlBindingD0Ev@Base 5.0.2 1
  _ZN11QQmlBindingD1Ev@Base 5.0.2 1
  _ZN11QQmlBindingD2Ev@Base 5.0.2 1
@@ -143,7 +138,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN11QQmlPrivate11qmlregisterENS_16RegistrationTypeEPv@Base 5.0.2
  _ZN11QQmlPrivate30qdeclarativeelement_destructorEP7QObject@Base 5.0.2
  _ZN12QQmlDataBlob12networkErrorEN13QNetworkReply12NetworkErrorE@Base 5.0.2 1
- _ZN12QQmlDataBlob12startLoadingEP14QQmlDataLoader@Base 5.1.0 1
+ _ZN12QQmlDataBlob12startLoadingEv@Base 5.5.0
  _ZN12QQmlDataBlob13addDependencyEPS_@Base 5.0.2 1
  _ZN12QQmlDataBlob14notifyCompleteEPS_@Base 5.0.2 1
  _ZN12QQmlDataBlob15dependencyErrorEPS_@Base 5.0.2 1
@@ -157,8 +152,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlDataBlob8setErrorERK5QListI9QQmlErrorE@Base 5.0.2 1
  _ZN12QQmlDataBlob8setErrorERK9QQmlError@Base 5.0.2 1
  _ZN12QQmlDataBlob9completedEv@Base 5.0.2 1
- _ZN12QQmlDataBlobC1ERK4QUrlNS_4TypeE@Base 5.0.2 1
- _ZN12QQmlDataBlobC2ERK4QUrlNS_4TypeE@Base 5.0.2 1
+ _ZN12QQmlDataBlobC1ERK4QUrlNS_4TypeEP14QQmlTypeLoader@Base 5.5.0
+ _ZN12QQmlDataBlobC2ERK4QUrlNS_4TypeEP14QQmlTypeLoader@Base 5.5.0
  _ZN12QQmlDataBlobD0Ev@Base 5.0.2 1
  _ZN12QQmlDataBlobD1Ev@Base 5.0.2 1
  _ZN12QQmlDataBlobD2Ev@Base 5.0.2 1
@@ -186,7 +181,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlMetaType26attachedPropertiesFuncByIdEi@Base 5.0.2 1
  _ZN12QQmlMetaType28setTypeRegistrationNamespaceERK7QString@Base 5.0.2 1
  _ZN12QQmlMetaType29registerCustomStringConverterEiPF8QVariantRK7QStringE@Base 5.0.2 1
- _ZN12QQmlMetaType30namespaceContainsRegistrationsERK7QString@Base 5.0.2 1
+ _ZN12QQmlMetaType30namespaceContainsRegistrationsERK7QStringi@Base 5.5.0
  _ZN12QQmlMetaType6isListEi@Base 5.0.2 1
  _ZN12QQmlMetaType7qmlTypeEPK11QMetaObject@Base 5.0.2 1
  _ZN12QQmlMetaType7qmlTypeEPK11QMetaObjectRK16QHashedStringRefii@Base 5.0.2 1
@@ -327,19 +322,26 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN13QQmlListModel6insertEP14QQmlV4Function@Base 5.2.0~beta1 1
  _ZN13QQmlListModel6removeEP14QQmlV4Function@Base 5.2.0~beta1 1
  _ZN13QQmlListModelC1EP7QObject@Base 5.1.0 1
- _ZN13QQmlListModelC1EPKS_P9ListModelP9QV8EngineP7QObject@Base 5.1.0 1
+ _ZN13QQmlListModelC1EPKS_P9ListModelPN3QV415ExecutionEngineEP7QObject@Base 5.5.0
  _ZN13QQmlListModelC1EPS_P24QQmlListModelWorkerAgent@Base 5.1.0 1
  _ZN13QQmlListModelC2EP7QObject@Base 5.1.0 1
- _ZN13QQmlListModelC2EPKS_P9ListModelP9QV8EngineP7QObject@Base 5.1.0 1
+ _ZN13QQmlListModelC2EPKS_P9ListModelPN3QV415ExecutionEngineEP7QObject@Base 5.5.0
  _ZN13QQmlListModelC2EPS_P24QQmlListModelWorkerAgent@Base 5.1.0 1
  _ZN13QQmlListModelD0Ev@Base 5.1.0 1
  _ZN13QQmlListModelD1Ev@Base 5.1.0 1
  _ZN13QQmlListModelD2Ev@Base 5.1.0 1
- _ZN13QQmlValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN13QQmlValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN13QQmlValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN13QQmlValueTypeC1EiP7QObject@Base 5.0.2 1
- _ZN13QQmlValueTypeC2EiP7QObject@Base 5.0.2 1
+ _ZN13QQmlValueType15objectDestroyedEP7QObject@Base 5.5.0
+ _ZN13QQmlValueType19toDynamicMetaObjectEP7QObject@Base 5.5.0
+ _ZN13QQmlValueType4readEP7QObjecti@Base 5.5.0
+ _ZN13QQmlValueType5valueEv@Base 5.5.0
+ _ZN13QQmlValueType5writeEP7QObjecti6QFlagsIN19QQmlPropertyPrivate9WriteFlagEE@Base 5.5.0
+ _ZN13QQmlValueType8metaCallEP7QObjectN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN13QQmlValueType8setValueERK8QVariant@Base 5.5.0
+ _ZN13QQmlValueTypeC1EiPK11QMetaObject@Base 5.5.0
+ _ZN13QQmlValueTypeC2EiPK11QMetaObject@Base 5.5.0
+ _ZN13QQmlValueTypeD0Ev@Base 5.5.0
+ _ZN13QQmlValueTypeD1Ev@Base 5.5.0
+ _ZN13QQmlValueTypeD2Ev@Base 5.5.0
  _ZN14QQmlExpression10clearErrorEv@Base 5.0.2
  _ZN14QQmlExpression11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2
  _ZN14QQmlExpression11qt_metacastEPKc@Base 5.0.2
@@ -361,6 +363,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN14QQmlExpressionD1Ev@Base 5.0.2
  _ZN14QQmlExpressionD2Ev@Base 5.0.2
  _ZN14QQmlMetaObject10canConvertERKS_S1_@Base 5.0.2 1
+ _ZN14QQmlMetaObject34resolveGadgetMethodOrPropertyIndexEN11QMetaObject4CallEPPKS0_Pi@Base 5.5.0
  _ZN14QQmlTypeLoader4Blob11fetchQmldirERK4QUrlPKN3QV412CompiledData6ImportEiP5QListI9QQmlErrorE@Base 5.3.0 1
  _ZN14QQmlTypeLoader4Blob12updateQmldirEP14QQmlQmldirDataPKN3QV412CompiledData6ImportEP5QListI9QQmlErrorE@Base 5.3.0 1
  _ZN14QQmlTypeLoader4Blob15dependencyErrorEP12QQmlDataBlob@Base 5.0.2 1
@@ -373,7 +376,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN14QQmlTypeLoader4BlobD0Ev@Base 5.0.2 1
  _ZN14QQmlTypeLoader4BlobD1Ev@Base 5.0.2 1
  _ZN14QQmlTypeLoader4BlobD2Ev@Base 5.0.2 1
- _ZN15QJSValuePrivate8getValueEPN3QV415ExecutionEngineE@Base 5.2.0~beta1 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN15QJSValuePrivateD0Ev@Base 5.2.0~beta1 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN15QJSValuePrivateD1Ev@Base 5.2.0~beta1 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN15QJSValuePrivateD2Ev@Base 5.2.0~beta1 1
@@ -413,7 +415,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN15QQmlContextData13asQQmlContextEv@Base 5.0.2 1
  _ZN15QQmlContextData13setIdPropertyEiP7QObject@Base 5.0.2 1
  _ZN15QQmlContextData15emitDestructionEv@Base 5.0.2 1
- _ZN15QQmlContextData17setIdPropertyDataERK7QVectorINS_15ObjectIdMappingEE@Base 5.2.0~beta1 1
+ _ZN15QQmlContextData17setIdPropertyDataERK5QHashIiiE@Base 5.5.0
  _ZN15QQmlContextData18refreshExpressionsEv@Base 5.0.2 1
  _ZN15QQmlContextData20asQQmlContextPrivateEv@Base 5.0.2 1
  _ZN15QQmlContextData27refreshExpressionsRecursiveEP22QQmlAbstractExpression@Base 5.0.2 1
@@ -435,13 +437,11 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN15QQmlDebugServer14receiveMessageERK10QByteArray@Base 5.0.2 1
  _ZN15QQmlDebugServer16staticMetaObjectE@Base 5.0.2 1
  _ZN15QQmlDebugServer19s_dataStreamVersionE@Base 5.0.2 1
+ _ZN15QQmlDebugServer6enableEiibRK7QString@Base 5.5.0
  _ZN15QQmlDebugServer8instanceEv@Base 5.0.2 1
  _ZN15QQmlDebugServer9addEngineEP10QQmlEngine@Base 5.3.0 1
  _ZN15QQmlDebugServerC1Ev@Base 5.0.2 1
  _ZN15QQmlDebugServerC2Ev@Base 5.0.2 1
- _ZN15QQmlDebugServerD0Ev@Base 5.0.2 1
- _ZN15QQmlDebugServerD1Ev@Base 5.0.2 1
- _ZN15QQmlDebugServerD2Ev@Base 5.0.2 1
  _ZN15QQmlDebugStreamC1EP10QByteArray6QFlagsIN9QIODevice12OpenModeFlagEE@Base 5.0.2 1
  _ZN15QQmlDebugStreamC1EP9QIODevice@Base 5.0.2 1
  _ZN15QQmlDebugStreamC1ERK10QByteArray@Base 5.0.2 1
@@ -450,6 +450,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN15QQmlDebugStreamC2EP9QIODevice@Base 5.0.2 1
  _ZN15QQmlDebugStreamC2ERK10QByteArray@Base 5.0.2 1
  _ZN15QQmlDebugStreamC2Ev@Base 5.0.2 1
+ _ZN15QQmlGuiProvider10styleHintsEv@Base 5.5.0
  _ZN15QQmlGuiProvider11applicationEP7QObject@Base 5.0.2 1
  _ZN15QQmlGuiProvider11inputMethodEv@Base 5.0.2 1
  _ZN15QQmlGuiProvider12fontFamiliesEv@Base 5.0.2 1
@@ -489,6 +490,11 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN15QQmlPropertyMapD1Ev@Base 5.0.2
  _ZN15QQmlPropertyMapD2Ev@Base 5.0.2
  _ZN15QQmlPropertyMapixERK7QString@Base 5.0.2
+ _ZN16QJSEnginePrivate11createCacheEPK11QMetaObject@Base 5.5.0
+ _ZN16QJSEnginePrivate3getEPN3QV415ExecutionEngineE@Base 5.5.0
+ _ZN16QJSEnginePrivateD0Ev@Base 5.5.0
+ _ZN16QJSEnginePrivateD1Ev@Base 5.5.0
+ _ZN16QJSEnginePrivateD2Ev@Base 5.5.0
  _ZN16QJSValueIterator4nextEv@Base 5.0.2
  _ZN16QJSValueIteratorC1ERK8QJSValue@Base 5.0.2
  _ZN16QJSValueIteratorC2ERK8QJSValue@Base 5.0.2
@@ -561,6 +567,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlColorProvider6darkerERK8QVariantd@Base 5.2.0 1
  _ZN17QQmlColorProvider7lighterERK8QVariantd@Base 5.2.0 1
  _ZN17QQmlColorProvider8fromHslFEdddd@Base 5.0.2 1
+ _ZN17QQmlColorProvider8fromHsvFEdddd@Base 5.5.0
  _ZN17QQmlColorProvider8fromRgbFEdddd@Base 5.0.2 1
  _ZN17QQmlColorProviderD0Ev@Base 5.0.2 1
  _ZN17QQmlColorProviderD1Ev@Base 5.0.2 1
@@ -609,7 +616,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlDelegateModelD1Ev@Base 5.1.0 1
  _ZN17QQmlDelegateModelD2Ev@Base 5.1.0 1
  _ZN17QQmlEnginePrivate11createCacheEP8QQmlTypeiR9QQmlError@Base 5.0.2 1
- _ZN17QQmlEnginePrivate11createCacheEPK11QMetaObject@Base 5.0.2 1
  _ZN17QQmlEnginePrivate12designerModeEv@Base 5.0.2 1
  _ZN17QQmlEnginePrivate14enableProfilerEv@Base 5.3.0 1
  _ZN17QQmlEnginePrivate14s_designerModeE@Base 5.0.2 1
@@ -662,61 +668,43 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlListReferenceD1Ev@Base 5.0.2
  _ZN17QQmlListReferenceD2Ev@Base 5.0.2
  _ZN17QQmlListReferenceaSERKS_@Base 5.0.2
- _ZN17QQmlPropertyCache10invalidateEP10QQmlEnginePK11QMetaObject@Base 5.0.2 1
- _ZN17QQmlPropertyCache11updateRecurEP10QQmlEnginePK11QMetaObject@Base 5.0.2 1
+ _ZN17QQmlPropertyCache10invalidateEPK11QMetaObject@Base 5.5.0
+ _ZN17QQmlPropertyCache11updateRecurEPK11QMetaObject@Base 5.5.0
  _ZN17QQmlPropertyCache12appendMethodERK17QHashedCStringRefjiRK5QListI10QByteArrayE@Base 5.0.2 1
  _ZN17QQmlPropertyCache12appendMethodERK7QStringjiRK5QListI10QByteArrayE@Base 5.0.2 1
  _ZN17QQmlPropertyCache12appendSignalERK17QHashedCStringRefjiPKiRK5QListI10QByteArrayE@Base 5.0.2 1
  _ZN17QQmlPropertyCache12appendSignalERK7QStringjiPKiRK5QListI10QByteArrayE@Base 5.0.2 1
- _ZN17QQmlPropertyCache13copyAndAppendEP10QQmlEnginePK11QMetaObjectN19QQmlPropertyRawData4FlagES6_S6_@Base 5.0.2 1
- _ZN17QQmlPropertyCache13copyAndAppendEP10QQmlEnginePK11QMetaObjectiN19QQmlPropertyRawData4FlagES6_S6_@Base 5.0.2 1
+ _ZN17QQmlPropertyCache13copyAndAppendEPK11QMetaObjectN19QQmlPropertyRawData4FlagES4_S4_@Base 5.5.0
+ _ZN17QQmlPropertyCache13copyAndAppendEPK11QMetaObjectiN19QQmlPropertyRawData4FlagES4_S4_@Base 5.5.0
  _ZN17QQmlPropertyCache13originalCloneEP7QObjecti@Base 5.0.2 1
  _ZN17QQmlPropertyCache13originalCloneEi@Base 5.0.2 1
  _ZN17QQmlPropertyCache14appendPropertyERK17QHashedCStringRefjiii@Base 5.0.2 1
  _ZN17QQmlPropertyCache14appendPropertyERK7QStringjiii@Base 5.0.2 1
- _ZN17QQmlPropertyCache14copyAndReserveEP10QQmlEngineiii@Base 5.0.2 1
+ _ZN17QQmlPropertyCache14copyAndReserveEiii@Base 5.5.0
  _ZN17QQmlPropertyCache16createMetaObjectEv@Base 5.0.2 1
- _ZN17QQmlPropertyCache16methodReturnTypeEP7QObjectRK16QQmlPropertyDataP10QByteArray@Base 5.0.2 1
  _ZN17QQmlPropertyCache19isDynamicMetaObjectEPK11QMetaObject@Base 5.0.2 1
  _ZN17QQmlPropertyCache19toMetaObjectBuilderER18QMetaObjectBuilder@Base 5.0.2 1
- _ZN17QQmlPropertyCache20methodParameterTypesEP7QObjectiR15QVarLengthArrayIiLi9EEP10QByteArray@Base 5.0.2 1
  _ZN17QQmlPropertyCache21createArgumentsObjectEiRK5QListI10QByteArrayE@Base 5.0.2 1
- _ZN17QQmlPropertyCache26signalParameterStringForJSEP10QQmlEngineRK5QListI10QByteArrayEP7QString@Base 5.2.0~beta1 1
+ _ZN17QQmlPropertyCache26signalParameterStringForJSEPN3QV415ExecutionEngineERK5QListI10QByteArrayEP7QString@Base 5.5.0
  _ZN17QQmlPropertyCache26signalParameterStringForJSEiP7QString@Base 5.2.0~beta1 1
  _ZN17QQmlPropertyCache4copyEv@Base 5.0.2 1
  _ZN17QQmlPropertyCache5clearEv@Base 5.0.2 1
- _ZN17QQmlPropertyCache6appendEP10QQmlEnginePK11QMetaObjectiN19QQmlPropertyRawData4FlagES6_S6_@Base 5.0.2 1
- _ZN17QQmlPropertyCache6updateEP10QQmlEnginePK11QMetaObject@Base 5.0.2 1
+ _ZN17QQmlPropertyCache6appendEPK11QMetaObjectiN19QQmlPropertyRawData4FlagES4_S4_@Base 5.5.0
+ _ZN17QQmlPropertyCache6updateEPK11QMetaObject@Base 5.5.0
  _ZN17QQmlPropertyCache7destroyEv@Base 5.0.2 1
- _ZN17QQmlPropertyCache8propertyEP10QQmlEngineP7QObjectPKN3QV46StringEP15QQmlContextDataR16QQmlPropertyData@Base 5.2.0~beta1 1
- _ZN17QQmlPropertyCache8propertyEP10QQmlEngineP7QObjectRK7QStringP15QQmlContextDataR16QQmlPropertyData@Base 5.0.2 1
+ _ZN17QQmlPropertyCache8propertyEP9QJSEngineP7QObjectPKN3QV46StringEP15QQmlContextDataR16QQmlPropertyData@Base 5.5.0
+ _ZN17QQmlPropertyCache8propertyEP9QJSEngineP7QObjectRK7QStringP15QQmlContextDataR16QQmlPropertyData@Base 5.5.0
  _ZN17QQmlPropertyCache9setParentEPS_@Base 5.0.2 1
- _ZN17QQmlPropertyCacheC1EP10QQmlEngine@Base 5.0.2 1
- _ZN17QQmlPropertyCacheC1EP10QQmlEnginePK11QMetaObject@Base 5.0.2 1
- _ZN17QQmlPropertyCacheC2EP10QQmlEngine@Base 5.0.2 1
- _ZN17QQmlPropertyCacheC2EP10QQmlEnginePK11QMetaObject@Base 5.0.2 1
+ _ZN17QQmlPropertyCacheC1EP9QJSEngine@Base 5.5.0
+ _ZN17QQmlPropertyCacheC1EP9QJSEnginePK11QMetaObject@Base 5.5.0
+ _ZN17QQmlPropertyCacheC2EP9QJSEngine@Base 5.5.0
+ _ZN17QQmlPropertyCacheC2EP9QJSEnginePK11QMetaObject@Base 5.5.0
  _ZN17QQmlPropertyCacheD0Ev@Base 5.0.2 1
  _ZN17QQmlPropertyCacheD1Ev@Base 5.0.2 1
  _ZN17QQmlPropertyCacheD2Ev@Base 5.0.2 1
- _ZN17QQmlRectValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN17QQmlRectValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN17QQmlRectValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN17QQmlRectValueType4setXEi@Base 5.0.2 1
- _ZN17QQmlRectValueType4setYEi@Base 5.0.2 1
- _ZN17QQmlRectValueType8setWidthEi@Base 5.0.2 1
- _ZN17QQmlRectValueType9setHeightEi@Base 5.0.2 1
- _ZN17QQmlRectValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN17QQmlRectValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN17QQmlRectValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN17QQmlRectValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN17QQmlRectValueTypeD2Ev@Base 5.0.2 1
- _ZN17QQmlSizeValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN17QQmlSizeValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN17QQmlSizeValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN17QQmlSizeValueType8setWidthEi@Base 5.0.2 1
- _ZN17QQmlSizeValueType9setHeightEi@Base 5.0.2 1
- _ZN17QQmlSizeValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN17QQmlSizeValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN17QQmlSizeValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN17QQmlSizeValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN17QQmlSizeValueTypeD2Ev@Base 5.0.2 1
@@ -728,12 +716,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlVMEMetaObject12connectAliasEi@Base 5.0.2 1
  _ZN17QQmlVMEMetaObject12getForMethodEP7QObjecti@Base 5.0.2 1
  _ZN17QQmlVMEMetaObject12getForSignalEP7QObjecti@Base 5.0.2 1
- _ZN17QQmlVMEMetaObject12setVmeMethodEiN3QV48ValueRefE@Base 5.2.0~beta1 1
+ _ZN17QQmlVMEMetaObject12setVmeMethodEiRKN3QV45ValueE@Base 5.5.0
  _ZN17QQmlVMEMetaObject13writePropertyEiRK8QVariant@Base 5.0.2 1
  _ZN17QQmlVMEMetaObject14getForPropertyEP7QObjecti@Base 5.0.2 1
- _ZN17QQmlVMEMetaObject14setVMEPropertyEiN3QV48ValueRefE@Base 5.2.0~beta1 1
+ _ZN17QQmlVMEMetaObject14setVMEPropertyEiRKN3QV45ValueE@Base 5.5.0
  _ZN17QQmlVMEMetaObject15readVarPropertyEi@Base 5.0.2 1
- _ZN17QQmlVMEMetaObject16writeVarPropertyEiN3QV48ValueRefE@Base 5.2.0~beta1 1
+ _ZN17QQmlVMEMetaObject16writeVarPropertyEiRKN3QV45ValueE@Base 5.5.0
  _ZN17QQmlVMEMetaObject18connectAliasSignalEib@Base 5.0.2 1
  _ZN17QQmlVMEMetaObject19registerInterceptorEiiP28QQmlPropertyValueInterceptor@Base 5.0.2 1
  _ZN17QQmlVMEMetaObject19toDynamicMetaObjectEP7QObject@Base 5.0.2 1
@@ -820,35 +808,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN18QQmlOpenMetaObjectD2Ev@Base 5.0.2 1
  _ZN18QQmlOpenMetaObjectixERK10QByteArray@Base 5.0.2 1
  _ZN18QQmlOpenMetaObjectixEi@Base 5.0.2 1
- _ZN18QQmlPointValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN18QQmlPointValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN18QQmlPointValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN18QQmlPointValueType4setXEi@Base 5.0.2 1
- _ZN18QQmlPointValueType4setYEi@Base 5.0.2 1
- _ZN18QQmlPointValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN18QQmlPointValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlPointValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlPointValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlPointValueTypeD2Ev@Base 5.0.2 1
- _ZN18QQmlRectFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN18QQmlRectFValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN18QQmlRectFValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN18QQmlRectFValueType4setXEd@Base 5.2.0 1
- _ZN18QQmlRectFValueType4setYEd@Base 5.2.0 1
- _ZN18QQmlRectFValueType8setWidthEd@Base 5.2.0 1
- _ZN18QQmlRectFValueType9setHeightEd@Base 5.2.0 1
- _ZN18QQmlRectFValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN18QQmlRectFValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlRectFValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlRectFValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlRectFValueTypeD2Ev@Base 5.0.2 1
- _ZN18QQmlSizeFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN18QQmlSizeFValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN18QQmlSizeFValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN18QQmlSizeFValueType8setWidthEd@Base 5.2.0 1
- _ZN18QQmlSizeFValueType9setHeightEd@Base 5.2.0 1
- _ZN18QQmlSizeFValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN18QQmlSizeFValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlSizeFValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlSizeFValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN18QQmlSizeFValueTypeD2Ev@Base 5.0.2 1
@@ -866,16 +831,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlAbstractBindingC2ENS_11BindingTypeE@Base 5.0.2 1
  _ZN19QQmlAbstractBindingD1Ev@Base 5.0.2 1
  _ZN19QQmlAbstractBindingD2Ev@Base 5.0.2 1
- _ZN19QQmlEasingValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN19QQmlEasingValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN19QQmlEasingValueType12setAmplitudeEd@Base 5.2.0 1
- _ZN19QQmlEasingValueType12setOvershootEd@Base 5.2.0 1
- _ZN19QQmlEasingValueType14setBezierCurveERK5QListI8QVariantE@Base 5.0.2 1
- _ZN19QQmlEasingValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN19QQmlEasingValueType7setTypeENS_4TypeE@Base 5.0.2 1
- _ZN19QQmlEasingValueType9setPeriodEd@Base 5.2.0 1
- _ZN19QQmlEasingValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN19QQmlEasingValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN19QQmlEasingValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN19QQmlEasingValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN19QQmlEasingValueTypeD2Ev@Base 5.0.2 1
@@ -888,13 +843,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlExtensionPluginD0Ev@Base 5.0.2
  _ZN19QQmlExtensionPluginD1Ev@Base 5.0.2
  _ZN19QQmlExtensionPluginD2Ev@Base 5.0.2
- _ZN19QQmlPointFValueType11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.0.2 1
- _ZN19QQmlPointFValueType11qt_metacastEPKc@Base 5.0.2 1
- _ZN19QQmlPointFValueType16staticMetaObjectE@Base 5.0.2 1
- _ZN19QQmlPointFValueType4setXEd@Base 5.2.0 1
- _ZN19QQmlPointFValueType4setYEd@Base 5.2.0 1
- _ZN19QQmlPointFValueTypeC1EP7QObject@Base 5.0.2 1
- _ZN19QQmlPointFValueTypeC2EP7QObject@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN19QQmlPointFValueTypeD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN19QQmlPointFValueTypeD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN19QQmlPointFValueTypeD2Ev@Base 5.0.2 1
@@ -928,7 +876,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN19QQmlPropertyPrivate12bindingIndexERK12QQmlProperty@Base 5.0.2 1
  _ZN19QQmlPropertyPrivate12bindingIndexERK16QQmlPropertyData@Base 5.0.2 1
  _ZN19QQmlPropertyPrivate12initPropertyEP7QObjectRK7QString@Base 5.0.2 1
- _ZN19QQmlPropertyPrivate12writeBindingEP7QObjectRK16QQmlPropertyDataP15QQmlContextDataP24QQmlJavaScriptExpressionN3QV48ValueRefEb6QFlagsINS_9WriteFlagEE@Base 5.2.0~beta1 1
+ _ZN19QQmlPropertyPrivate12writeBindingEP7QObjectRK16QQmlPropertyDataP15QQmlContextDataP24QQmlJavaScriptExpressionRKN3QV45ValueEb6QFlagsINS_9WriteFlagEE@Base 5.5.0
  _ZN19QQmlPropertyPrivate13saveValueTypeERK16QQmlPropertyDataPK11QMetaObjectiP10QQmlEngine@Base 5.0.2 1
  _ZN19QQmlPropertyPrivate15findAliasTargetEP7QObjectiPS1_Pi@Base 5.0.2 1
  _ZN19QQmlPropertyPrivate16findSignalByNameEPK11QMetaObjectRK10QByteArray@Base 5.0.2 1
@@ -959,13 +907,14 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlComponentPrivate13typeDataReadyEP12QQmlTypeData@Base 5.0.2 1
  _ZN20QQmlComponentPrivate14completeCreateEv@Base 5.0.2 1
  _ZN20QQmlComponentPrivate16typeDataProgressEP12QQmlTypeDatad@Base 5.2.0 1
- _ZN20QQmlComponentPrivate37initializeObjectWithInitialPropertiesEN3QV48ValueRefES1_P7QObject@Base 5.2.0~beta1 1
+ _ZN20QQmlComponentPrivate37initializeObjectWithInitialPropertiesERKN3QV45ValueES3_P7QObject@Base 5.5.0
  _ZN20QQmlComponentPrivate5clearEv@Base 5.0.2 1
  _ZN20QQmlComponentPrivate7loadUrlERK4QUrlN13QQmlComponent15CompilationModeE@Base 5.0.2 1
  _ZN20QQmlComponentPrivate8completeEP17QQmlEnginePrivatePNS_17ConstructionStateE@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN20QQmlComponentPrivateD0Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN20QQmlComponentPrivateD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN20QQmlComponentPrivateD2Ev@Base 5.0.2 1
+ _ZN20QQmlDebuggingEnabler19startTcpDebugServerEiNS_9StartModeERK7QString@Base 5.5.0
  _ZN20QQmlDebuggingEnablerC1Eb@Base 5.0.2
  _ZN20QQmlDebuggingEnablerC2Eb@Base 5.0.2
  _ZN20QQmlInspectorService10removeViewEP7QObject@Base 5.0.2 1
@@ -998,6 +947,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlStringConverters18dateTimeFromStringERK7QStringPb@Base 5.0.2
  _ZN20QQmlValueTypeFactory11isValueTypeEi@Base 5.0.2 1
  _ZN20QQmlValueTypeFactory18registerValueTypesEPKcii@Base 5.0.2 1
+ _ZN20QQmlValueTypeFactory21metaObjectForMetaTypeEi@Base 5.5.0
  _ZN20QQmlValueTypeFactory9valueTypeEi@Base 5.0.2 1
  _ZN21QAbstractAnimationJob11updateStateENS_5StateES0_@Base 5.0.2 1
  _ZN21QAbstractAnimationJob12setDirectionENS_9DirectionE@Base 5.0.2 1
@@ -1061,26 +1011,26 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (subst)_ZN21QQmlValueTypeProvider14equalValueTypeEiPKvS1_{size_t}@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider14storeValueTypeEiPKvPv{size_t}@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider14writeValueTypeEiPKvPv{size_t}@Base 5.0.2 1
- _ZN21QQmlValueTypeProvider15createValueTypeEi@Base 5.0.2 1
  _ZN21QQmlValueTypeProvider15createValueTypeEiiPPKv@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider16createFromStringEiRK7QStringPv{size_t}@Base 5.0.2 1
  _ZN21QQmlValueTypeProvider16createStringFromEiPKvP7QString@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider16destroyValueTypeEiPv{size_t}@Base 5.0.2 1
  _ZN21QQmlValueTypeProvider17variantFromStringERK7QStringP8QVariant@Base 5.0.2 1
  _ZN21QQmlValueTypeProvider17variantFromStringEiRK7QStringP8QVariant@Base 5.0.2 1
- _ZN21QQmlValueTypeProvider19variantFromJsObjectEi12QQmlV4HandleP9QV8EngineP8QVariant@Base 5.2.0~beta1 1
+ _ZN21QQmlValueTypeProvider19variantFromJsObjectEi12QQmlV4HandlePN3QV415ExecutionEngineEP8QVariant@Base 5.5.0
  _ZN21QQmlValueTypeProvider21createStringFromValueEiPKvP7QString@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider21createValueFromStringEiRK7QStringPv{size_t}@Base 5.0.2 1
+ _ZN21QQmlValueTypeProvider21metaObjectForMetaTypeEi@Base 5.5.0
  _ZN21QQmlValueTypeProvider23createVariantFromStringERK7QString@Base 5.0.2 1
  _ZN21QQmlValueTypeProvider23createVariantFromStringEiRK7QStringPb@Base 5.0.2 1
- _ZN21QQmlValueTypeProvider25createVariantFromJsObjectEi12QQmlV4HandleP9QV8EnginePb@Base 5.2.0~beta1 1
+ _ZN21QQmlValueTypeProvider24getMetaObjectForMetaTypeEi@Base 5.5.0
+ _ZN21QQmlValueTypeProvider25createVariantFromJsObjectEi12QQmlV4HandlePN3QV415ExecutionEngineEPb@Base 5.5.0
  (subst)_ZN21QQmlValueTypeProvider4copyEiPKvPv{size_t}@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider4initEiPv{size_t}@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider4readEiPKv{size_t}iPv@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider5equalEiPKvS1_{size_t}@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider5storeEiPKvPv{size_t}@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider5writeEiPKvPv{size_t}@Base 5.0.2 1
- _ZN21QQmlValueTypeProvider6createEiRP13QQmlValueType@Base 5.0.2 1
  _ZN21QQmlValueTypeProvider6createEiiPPKvP8QVariant@Base 5.0.2 1
  (subst)_ZN21QQmlValueTypeProvider7destroyEiPv{size_t}@Base 5.0.2 1
  _ZN21QQmlValueTypeProviderC1Ev@Base 5.0.2 1
@@ -1188,10 +1138,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN25QQmlBoundSignalExpression9ExtraDataC2ERK7QStringS3_S3_S3_tt@Base 5.3.0 1
  _ZN25QQmlBoundSignalExpressionC1EP7QObjectiP15QQmlContextDataS1_PN3QV48FunctionE@Base 5.3.0 1
  _ZN25QQmlBoundSignalExpressionC1EP7QObjectiP15QQmlContextDataS1_RK7QStringS6_ttS6_S6_@Base 5.2.0~beta1 1
- _ZN25QQmlBoundSignalExpressionC1EP7QObjectiP15QQmlContextDataS1_RKN3QV48ValueRefE@Base 5.2.0~beta1 1
+ _ZN25QQmlBoundSignalExpressionC1EP7QObjectiP15QQmlContextDataS1_RKN3QV45ValueE@Base 5.5.0
  _ZN25QQmlBoundSignalExpressionC2EP7QObjectiP15QQmlContextDataS1_PN3QV48FunctionE@Base 5.3.0 1
  _ZN25QQmlBoundSignalExpressionC2EP7QObjectiP15QQmlContextDataS1_RK7QStringS6_ttS6_S6_@Base 5.2.0~beta1 1
- _ZN25QQmlBoundSignalExpressionC2EP7QObjectiP15QQmlContextDataS1_RKN3QV48ValueRefE@Base 5.2.0~beta1 1
+ _ZN25QQmlBoundSignalExpressionC2EP7QObjectiP15QQmlContextDataS1_RKN3QV45ValueE@Base 5.5.0
  _ZN25QQmlBoundSignalExpressionD0Ev@Base 5.0.2 1
  _ZN25QQmlBoundSignalExpressionD1Ev@Base 5.0.2 1
  _ZN25QQmlBoundSignalExpressionD2Ev@Base 5.0.2 1
@@ -1280,6 +1230,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN32QQmlBoundSignalExpressionPointerD2Ev@Base 5.0.2 1
  _ZN32QQmlBoundSignalExpressionPointeraSEP25QQmlBoundSignalExpression@Base 5.0.2 1
  _ZN32QQmlBoundSignalExpressionPointeraSERKS_@Base 5.0.2 1
+ _ZN3QV410TypedArray10getIndexedEPNS_7ManagedEjPb@Base 5.5.0
+ _ZN3QV410TypedArray10putIndexedEPNS_7ManagedEjRKNS_5ValueE@Base 5.5.0
+ _ZN3QV410TypedArray11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV410TypedArray11static_vtblE@Base 5.5.0
+ _ZN3QV411ArrayBuffer11static_vtblE@Base 5.5.0
+ _ZN3QV411ArrayBuffer6detachEv@Base 5.5.0
  _ZN3QV411SparseArray10createNodeEjPNS_15SparseArrayNodeEb@Base 5.2.0~beta1
  _ZN3QV411SparseArray10deleteNodeEPNS_15SparseArrayNodeE@Base 5.2.0~beta1
  _ZN3QV411SparseArray10rotateLeftEPNS_15SparseArrayNodeE@Base 5.2.0~beta1
@@ -1296,283 +1252,253 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412CompiledData15CompilationUnit12linkToEngineEPNS_15ExecutionEngineE@Base 5.2.0~beta1
  _ZN3QV412CompiledData15CompilationUnit14createUnitDataEPN5QmlIR8DocumentE@Base 5.3.0
  _ZN3QV412CompiledData15CompilationUnit6unlinkEv@Base 5.2.0~beta1
+ _ZN3QV412CompiledData15CompilationUnitC1Ev@Base 5.5.0
+ _ZN3QV412CompiledData15CompilationUnitC2Ev@Base 5.5.0
  _ZN3QV412CompiledData15CompilationUnitD0Ev@Base 5.2.0~beta1
  _ZN3QV412CompiledData15CompilationUnitD1Ev@Base 5.2.0~beta1
  _ZN3QV412CompiledData15CompilationUnitD2Ev@Base 5.2.0~beta1
  _ZN3QV412CompiledData7Binding13escapedStringERK7QString@Base 5.4.0
  _ZN3QV412EvalFunction11static_vtblE@Base 5.2.0~beta1
- _ZN3QV412EvalFunction4DataC1EPNS_16ExecutionContextE@Base 5.4.0
- _ZN3QV412EvalFunction4DataC2EPNS_16ExecutionContextE@Base 5.4.0
  _ZN3QV412EvalFunction4callEPNS_7ManagedEPNS_8CallDataE@Base 5.2.0~beta1 1
  _ZN3QV412EvalFunction8evalCallEPNS_8CallDataEb@Base 5.2.0~beta1
  _ZN3QV413MemoryManager12setGCBlockedEb@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager17registerDeletableEPNS_11GCDeletableE@Base 5.3.0 1
- _ZN3QV413MemoryManager18setExecutionEngineEPNS_15ExecutionEngineE@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager4markEv@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager5runGCEv@Base 5.2.0~beta1 1
- (subst)_ZN3QV413MemoryManager5sweepEPc{size_t}{size_t}@Base 5.3.0 1
  _ZN3QV413MemoryManager5sweepEb@Base 5.2.0~beta1 1
  (subst)_ZN3QV413MemoryManager9allocDataE{size_t}@Base 5.4.0 1
- _ZN3QV413MemoryManagerC1Ev@Base 5.2.0~beta1 1
- _ZN3QV413MemoryManagerC2Ev@Base 5.2.0~beta1 1
+ _ZN3QV413MemoryManagerC1EPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV413MemoryManagerC2EPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV413MemoryManagerD1Ev@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManagerD2Ev@Base 5.2.0~beta1 1
+ _ZN3QV413QObjectMethod11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV413QObjectMethod11static_vtblE@Base 5.4.0
  _ZN3QV413QObjectMethod12callInternalEPNS_8CallDataE@Base 5.4.0
- _ZN3QV413QObjectMethod14method_destroyEPNS_16ExecutionContextENS_8ValueRefEi@Base 5.4.0
+ _ZN3QV413QObjectMethod14method_destroyEPNS_16ExecutionContextEPKNS_5ValueEi@Base 5.5.0
  _ZN3QV413QObjectMethod15method_toStringEPNS_16ExecutionContextE@Base 5.4.0
- _ZN3QV413QObjectMethod4DataC1EPNS_16ExecutionContextEP7QObjectiNS_8ValueRefE@Base 5.4.0
- _ZN3QV413QObjectMethod4DataC2EPNS_16ExecutionContextEP7QObjectiNS_8ValueRefE@Base 5.4.0
  _ZN3QV413QObjectMethod4callEPNS_7ManagedEPNS_8CallDataE@Base 5.4.0 1
- _ZN3QV413QObjectMethod6createEPNS_16ExecutionContextEP7QObjectiNS_8ValueRefE@Base 5.4.0
+ _ZN3QV413QObjectMethod6createEPNS_16ExecutionContextEP7QObjectiRKNS_5ValueE@Base 5.5.0
+ _ZN3QV413QObjectMethod6createEPNS_16ExecutionContextEPNS_20QQmlValueTypeWrapperEiRKNS_5ValueE@Base 5.5.0
  _ZN3QV413QmlExtensions11markObjectsEPNS_15ExecutionEngineE@Base 5.2.0~rc1
- _ZN3QV414FunctionObject11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.2.0~rc1 1
+ _ZN3QV414FunctionObject11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV414FunctionObject11newInstanceEv@Base 5.2.0~beta1
  _ZN3QV414FunctionObject11static_vtblE@Base 5.2.0~beta1
  _ZN3QV414FunctionObject20createScriptFunctionEPNS_16ExecutionContextEPNS_8FunctionEb@Base 5.3.0
- _ZN3QV414FunctionObject4DataC1EPNS_13InternalClassE@Base 5.4.0
- _ZN3QV414FunctionObject4DataC1EPNS_16ExecutionContextEPNS_6StringEb@Base 5.4.0
- _ZN3QV414FunctionObject4DataC1EPNS_16ExecutionContextERK7QStringb@Base 5.4.0
- _ZN3QV414FunctionObject4DataC1EPNS_16ExecutionContextEy@Base 5.4.0
- _ZN3QV414FunctionObject4DataC2EPNS_13InternalClassE@Base 5.4.0
- _ZN3QV414FunctionObject4DataC2EPNS_16ExecutionContextEPNS_6StringEb@Base 5.4.0
- _ZN3QV414FunctionObject4DataC2EPNS_16ExecutionContextERK7QStringb@Base 5.4.0
- _ZN3QV414FunctionObject4DataC2EPNS_16ExecutionContextEy@Base 5.4.0
- _ZN3QV414FunctionObject4DataD1Ev@Base 5.4.0
- _ZN3QV414FunctionObject4DataD2Ev@Base 5.4.0
  _ZN3QV414FunctionObject4callEPNS_7ManagedEPNS_8CallDataE@Base 5.2.0~beta1 1
  _ZN3QV414FunctionObject4initEPNS_6StringEb@Base 5.4.0
  _ZN3QV414FunctionObject4nameEv@Base 5.3.0
  _ZN3QV414FunctionObject9constructEPNS_7ManagedEPNS_8CallDataE@Base 5.2.0~beta1 1
- _ZN3QV414ObjectIterator16nextPropertyNameENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV414ObjectIterator24nextPropertyNameAsStringENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV414ObjectIterator16nextPropertyNameEPNS_5ValueE@Base 5.5.0
+ _ZN3QV414ObjectIterator24nextPropertyNameAsStringEPNS_5ValueE@Base 5.5.0
  _ZN3QV414ObjectIterator24nextPropertyNameAsStringEv@Base 5.2.0~beta1
  _ZN3QV414ObjectIterator4initEPNS_6ObjectE@Base 5.4.0
- _ZN3QV414ObjectIterator4nextERPNS_6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.4.0
- _ZN3QV414ObjectIteratorC1EPNS_5ValueES2_PNS_6ObjectEj@Base 5.4.0
- _ZN3QV414ObjectIteratorC1EPNS_5ValueES2_j@Base 5.4.0
+ _ZN3QV414ObjectIterator4nextEPPNS_4Heap6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.5.0
+ _ZN3QV414ObjectIteratorC1EPNS_15ExecutionEngineEPNS_5ValueES4_PNS_6ObjectEj@Base 5.5.0
  _ZN3QV414ObjectIteratorC1ERNS_5ScopeEPNS_6ObjectEj@Base 5.4.0
- _ZN3QV414ObjectIteratorC2EPNS_5ValueES2_PNS_6ObjectEj@Base 5.4.0
- _ZN3QV414ObjectIteratorC2EPNS_5ValueES2_j@Base 5.4.0
+ _ZN3QV414ObjectIteratorC2EPNS_15ExecutionEngineEPNS_5ValueES4_PNS_6ObjectEj@Base 5.5.0
  _ZN3QV414ObjectIteratorC2ERNS_5ScopeEPNS_6ObjectEj@Base 5.4.0
  _ZN3QV414QObjectWrapper11getPropertyEP7QObjectPNS_16ExecutionContextEP16QQmlPropertyDatab@Base 5.2.1
  _ZN3QV414QObjectWrapper11getPropertyEP7QObjectPNS_16ExecutionContextEib@Base 5.2.1
- _ZN3QV414QObjectWrapper11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.2.0~rc1 1
- _ZN3QV414QObjectWrapper11setPropertyEP7QObjectPNS_16ExecutionContextEP16QQmlPropertyDataNS_8ValueRefE@Base 5.2.0~rc1
- _ZN3QV414QObjectWrapper11setPropertyEPNS_16ExecutionContextEiNS_8ValueRefE@Base 5.2.0~rc1
+ _ZN3QV414QObjectWrapper11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV414QObjectWrapper11markWrapperEP7QObjectPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV414QObjectWrapper11setPropertyEP7QObjectPNS_16ExecutionContextEP16QQmlPropertyDataRKNS_5ValueE@Base 5.5.0
+ _ZN3QV414QObjectWrapper11setPropertyEPNS_16ExecutionContextEiRKNS_5ValueE@Base 5.5.0
  _ZN3QV414QObjectWrapper11static_vtblE@Base 5.2.0~beta1
- _ZN3QV414QObjectWrapper14getQmlPropertyEPNS_16ExecutionContextEP15QQmlContextDataP7QObjectPNS_6StringENS0_12RevisionModeEPb@Base 5.2.0~beta1 1
- _ZN3QV414QObjectWrapper14getQmlPropertyEPNS_16ExecutionContextEP15QQmlContextDataPNS_6StringENS0_12RevisionModeEPbb@Base 5.2.0~beta1 1
+ _ZN3QV414QObjectWrapper14getQmlPropertyEP15QQmlContextDataPNS_6StringENS0_12RevisionModeEPbb@Base 5.5.0
+ _ZN3QV414QObjectWrapper14getQmlPropertyEPNS_15ExecutionEngineEP15QQmlContextDataP7QObjectPNS_6StringENS0_12RevisionModeEPb@Base 5.5.0
  _ZN3QV414QObjectWrapper14method_connectEPNS_11CallContextE@Base 5.2.0~rc1
- _ZN3QV414QObjectWrapper14setQmlPropertyEPNS_16ExecutionContextEP15QQmlContextDataP7QObjectPNS_6StringENS0_12RevisionModeENS_8ValueRefE@Base 5.2.0~beta1 1
- _ZN3QV414QObjectWrapper15advanceIteratorEPNS_7ManagedEPNS_14ObjectIteratorERPNS_6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.4.0 1
+ _ZN3QV414QObjectWrapper14setQmlPropertyEPNS_15ExecutionEngineEP15QQmlContextDataP7QObjectPNS_6StringENS0_12RevisionModeERKNS_5ValueE@Base 5.5.0
+ _ZN3QV414QObjectWrapper15advanceIteratorEPNS_7ManagedEPNS_14ObjectIteratorEPPNS_4Heap6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.5.0
  _ZN3QV414QObjectWrapper17method_disconnectEPNS_11CallContextE@Base 5.2.0~rc1
  _ZN3QV414QObjectWrapper18initializeBindingsEPNS_15ExecutionEngineE@Base 5.2.0~beta1
  _ZN3QV414QObjectWrapper3getEPNS_7ManagedEPNS_6StringEPb@Base 5.4.0 1
- _ZN3QV414QObjectWrapper3putEPNS_7ManagedEPNS_6StringENS_8ValueRefE@Base 5.4.0 1
- _ZN3QV414QObjectWrapper4DataC1EPNS_15ExecutionEngineEP7QObject@Base 5.4.0
- _ZN3QV414QObjectWrapper4DataC2EPNS_15ExecutionEngineEP7QObject@Base 5.4.0
+ _ZN3QV414QObjectWrapper3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Base 5.5.0
  _ZN3QV414QObjectWrapper4wrapEPNS_15ExecutionEngineEP7QObject@Base 5.2.0~beta1
  _ZN3QV414QObjectWrapper5queryEPKNS_7ManagedEPNS_6StringE@Base 5.4.0 1
  _ZN3QV414QObjectWrapper6createEPNS_15ExecutionEngineEP7QObject@Base 5.2.1
- _ZN3QV414QObjectWrapper7destroyEPNS_7ManagedE@Base 5.3.0 1
+ _ZN3QV414QObjectWrapper7destroyEPNS_4Heap4BaseE@Base 5.5.0
  _ZN3QV414QObjectWrapper9isEqualToEPNS_7ManagedES2_@Base 5.2.0~rc1 1
  _ZN3QV414QmlListWrapper10getIndexedEPNS_7ManagedEjPb@Base 5.2.0~beta1 1
  _ZN3QV414QmlListWrapper11static_vtblE@Base 5.2.0~beta1
- _ZN3QV414QmlListWrapper15advanceIteratorEPNS_7ManagedEPNS_14ObjectIteratorERPNS_6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.4.0 1
+ _ZN3QV414QmlListWrapper15advanceIteratorEPNS_7ManagedEPNS_14ObjectIteratorEPPNS_4Heap6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.5.0
  _ZN3QV414QmlListWrapper3getEPNS_7ManagedEPNS_6StringEPb@Base 5.4.0 1
- _ZN3QV414QmlListWrapper3putEPNS_7ManagedEPNS_6StringENS_8ValueRefE@Base 5.4.0 1
- _ZN3QV414QmlListWrapper4DataC1EP9QV8Engine@Base 5.4.0 1
- _ZN3QV414QmlListWrapper4DataC2EP9QV8Engine@Base 5.4.0 1
- _ZN3QV414QmlListWrapper4DataD1Ev@Base 5.4.0
- _ZN3QV414QmlListWrapper4DataD2Ev@Base 5.4.0
- _ZN3QV414QmlListWrapper6createEP9QV8EngineP7QObjectii@Base 5.2.0~beta1 1
- _ZN3QV414QmlListWrapper6createEP9QV8EngineRK16QQmlListPropertyI7QObjectEi@Base 5.2.0~beta1 1
- _ZN3QV414QmlListWrapper7destroyEPNS_7ManagedE@Base 5.2.0~beta1 1
+ _ZN3QV414QmlListWrapper3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Base 5.5.0
+ _ZN3QV414QmlListWrapper6createEPNS_15ExecutionEngineEP7QObjectii@Base 5.5.0
+ _ZN3QV414QmlListWrapper6createEPNS_15ExecutionEngineERK16QQmlListPropertyI7QObjectEi@Base 5.5.0
  _ZN3QV414QmlTypeWrapper11static_vtblE@Base 5.2.0~beta1
  _ZN3QV414QmlTypeWrapper3getEPNS_7ManagedEPNS_6StringEPb@Base 5.4.0 1
- _ZN3QV414QmlTypeWrapper3putEPNS_7ManagedEPNS_6StringENS_8ValueRefE@Base 5.4.0 1
- _ZN3QV414QmlTypeWrapper4DataC1EP9QV8Engine@Base 5.4.0 1
- _ZN3QV414QmlTypeWrapper4DataC2EP9QV8Engine@Base 5.4.0 1
- _ZN3QV414QmlTypeWrapper4DataD1Ev@Base 5.4.0
- _ZN3QV414QmlTypeWrapper4DataD2Ev@Base 5.4.0
+ _ZN3QV414QmlTypeWrapper3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Base 5.5.0
  _ZN3QV414QmlTypeWrapper5queryEPKNS_7ManagedEPNS_6StringE@Base 5.4.0 1
- _ZN3QV414QmlTypeWrapper6createEP9QV8EngineP7QObjectP17QQmlTypeNameCachePKvNS0_12TypeNameModeE@Base 5.2.0~beta1 1
- _ZN3QV414QmlTypeWrapper6createEP9QV8EngineP7QObjectP8QQmlTypeNS0_12TypeNameModeE@Base 5.2.0~beta1 1
- _ZN3QV414QmlTypeWrapper7destroyEPNS_7ManagedE@Base 5.2.0~beta1 1
+ _ZN3QV414QmlTypeWrapper6createEPNS_15ExecutionEngineEP7QObjectP17QQmlTypeNameCachePKvNS_4Heap14QmlTypeWrapper12TypeNameModeE@Base 5.5.0
+ _ZN3QV414QmlTypeWrapper6createEPNS_15ExecutionEngineEP7QObjectP8QQmlTypeNS_4Heap14QmlTypeWrapper12TypeNameModeE@Base 5.5.0
  _ZN3QV414QmlTypeWrapper9isEqualToEPNS_7ManagedES2_@Base 5.2.0~rc1 1
- _ZN3QV414RuntimeHelpers11equalHelperENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV414RuntimeHelpers11strictEqualENS_8ValueRefES1_@Base 5.3.0
+ _ZN3QV414RuntimeHelpers11equalHelperERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV414RuntimeHelpers11strictEqualERKNS_5ValueES3_@Base 5.5.0
  _ZN3QV414RuntimeHelpers14numberToStringEP7QStringdi@Base 5.3.0
  _ZN3QV414RuntimeHelpers14stringToNumberERK7QString@Base 5.3.0
- _ZN3QV414RuntimeHelpers15convertToObjectEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV414RuntimeHelpers15convertToStringEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV414RuntimeHelpers16stringFromNumberEPNS_16ExecutionContextEd@Base 5.3.0
+ _ZN3QV414RuntimeHelpers15convertToObjectEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV414RuntimeHelpers15convertToStringEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV414RuntimeHelpers16stringFromNumberEPNS_15ExecutionEngineEd@Base 5.5.0
  _ZN3QV414RuntimeHelpers18objectDefaultValueEPNS_6ObjectEi@Base 5.3.0
- _ZN3QV414RuntimeHelpers8toObjectEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV414RuntimeHelpers8toStringEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV414RuntimeHelpers9addHelperEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
+ _ZN3QV414RuntimeHelpers8toObjectEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV414RuntimeHelpers8toStringEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV414RuntimeHelpers9addHelperEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
  _ZN3QV415BuiltinFunction11static_vtblE@Base 5.4.0
- _ZN3QV415BuiltinFunction4DataC1EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Base 5.4.0
- _ZN3QV415BuiltinFunction4DataC2EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Base 5.4.0
  _ZN3QV415BuiltinFunction4callEPNS_7ManagedEPNS_8CallDataE@Base 5.4.0 1
  _ZN3QV415BuiltinFunction9constructEPNS_7ManagedEPNS_8CallDataE@Base 5.4.0 1
  _ZN3QV415EvalISelFactoryD0Ev@Base 5.3.0 1
  _ZN3QV415EvalISelFactoryD1Ev@Base 5.3.0 1
  _ZN3QV415EvalISelFactoryD2Ev@Base 5.3.0 1
+ _ZN3QV415ExecutionEngine10throwErrorERK7QString@Base 5.5.0
+ _ZN3QV415ExecutionEngine10throwErrorERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415ExecutionEngine11fromVariantERK8QVariant@Base 5.5.0
  _ZN3QV415ExecutionEngine11markObjectsEv@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine11resolvedUrlERK7QString@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine13newDateObjectENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine12metaTypeToJSEiPKv@Base 5.5.0
  _ZN3QV415ExecutionEngine13newDateObjectERK9QDateTime@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine13newDateObjectERKNS_5ValueE@Base 5.5.0
  _ZN3QV415ExecutionEngine13newIdentifierERK7QString@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine13qmlExtensionsEv@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine14catchExceptionEPNS_16ExecutionContextEP7QVectorINS_10StackFrameEE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine13throwURIErrorERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415ExecutionEngine14catchExceptionEP7QVectorINS_10StackFrameEE@Base 5.5.0
  _ZN3QV415ExecutionEngine14enableDebuggerEv@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine14enableProfilerEv@Base 5.3.0
- _ZN3QV415ExecutionEngine14newArrayObjectEPNS_13InternalClassE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine14metaTypeFromJSERKNS_5ValueEiPv@Base 5.5.0
+ _ZN3QV415ExecutionEngine14newArrayBufferERK10QByteArray@Base 5.5.0
+ _ZN3QV415ExecutionEngine14newArrayObjectEPNS_13InternalClassEPNS_6ObjectE@Base 5.5.0
  _ZN3QV415ExecutionEngine14newArrayObjectERK11QStringList@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine14newArrayObjectEi@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine14newErrorObjectENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine14throwExceptionENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine14newErrorObjectERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415ExecutionEngine14throwTypeErrorERK7QString@Base 5.5.0
+ _ZN3QV415ExecutionEngine14throwTypeErrorEv@Base 5.5.0
  _ZN3QV415ExecutionEngine15initRootContextEv@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine15newNumberObjectENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine15newNumberObjectEd@Base 5.5.0
  _ZN3QV415ExecutionEngine15newRegExpObjectEPNS_6RegExpEb@Base 5.4.0
  _ZN3QV415ExecutionEngine15newRegExpObjectERK7QRegExp@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine15newRegExpObjectERK7QStringi@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine15newStringObjectENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine16newBooleanObjectENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine15newStringObjectERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415ExecutionEngine15throwRangeErrorERK7QString@Base 5.5.0
+ _ZN3QV415ExecutionEngine15throwRangeErrorERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415ExecutionEngine16newBooleanObjectEb@Base 5.5.0
  _ZN3QV415ExecutionEngine16newVariantObjectERK8QVariant@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine17newURIErrorObjectENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine16throwSyntaxErrorERK7QString@Base 5.5.0
+ _ZN3QV415ExecutionEngine16throwSyntaxErrorERK7QStringS3_ii@Base 5.5.0
+ _ZN3QV415ExecutionEngine16variantMapFromJSEPNS_6ObjectE@Base 5.5.0
+ _ZN3QV415ExecutionEngine17newURIErrorObjectERKNS_5ValueE@Base 5.5.0
  _ZN3QV415ExecutionEngine17pushGlobalContextEv@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine18newTypeErrorObjectERK7QString@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine18throwUnimplementedERK7QString@Base 5.5.0
  _ZN3QV415ExecutionEngine19newRangeErrorObjectERK7QString@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine19recheckCStackLimitsEv@Base 5.2.0~rc1
+ _ZN3QV415ExecutionEngine19throwReferenceErrorERK7QStringS3_ii@Base 5.5.0
+ _ZN3QV415ExecutionEngine19throwReferenceErrorERKNS_5ValueE@Base 5.5.0
  _ZN3QV415ExecutionEngine20newSyntaxErrorObjectERK7QString@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine20newSyntaxErrorObjectERK7QStringS3_ii@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine23newReferenceErrorObjectERK7QString@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine23newReferenceErrorObjectERK7QStringS3_ii@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine24catchExceptionAsQmlErrorEPNS_16ExecutionContextE@Base 5.2.0~rc1
- _ZN3QV415ExecutionEngine24newForEachIteratorObjectEPNS_16ExecutionContextEPNS_6ObjectE@Base 5.4.0
+ _ZN3QV415ExecutionEngine24catchExceptionAsQmlErrorEv@Base 5.5.0
+ _ZN3QV415ExecutionEngine24newForEachIteratorObjectEPNS_6ObjectE@Base 5.5.0
  _ZN3QV415ExecutionEngine25requireArgumentsAccessorsEi@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine27assertObjectBelongsToEngineERKNS_5ValueE@Base 5.5.0
  _ZN3QV415ExecutionEngine8newClassERKNS_13InternalClassE@Base 5.2.0~beta1
- _ZN3QV415ExecutionEngine9newObjectEPNS_13InternalClassE@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine9newObjectEPNS_13InternalClassEPNS_6ObjectE@Base 5.5.0
  _ZN3QV415ExecutionEngine9newObjectEv@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngine9newStringERK7QString@Base 5.2.0~beta1
+ _ZN3QV415ExecutionEngine9toVariantERKNS_5ValueEib@Base 5.5.0
  _ZN3QV415ExecutionEngineC1EPNS_15EvalISelFactoryE@Base 5.3.0 1
  _ZN3QV415ExecutionEngineC2EPNS_15EvalISelFactoryE@Base 5.3.0 1
  _ZN3QV415ExecutionEngineD1Ev@Base 5.2.0~beta1
  _ZN3QV415ExecutionEngineD2Ev@Base 5.2.0~beta1
- _ZN3QV415PersistentValueC1ENS_8ValueRefE@Base 5.2.0~beta1 1
+ _ZN3QV415PersistentValue3setEPNS_15ExecutionEngineEPNS_4Heap4BaseE@Base 5.5.0
+ _ZN3QV415PersistentValue3setEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415PersistentValue3setEPNS_15ExecutionEngineEy@Base 5.5.0
+ _ZN3QV415PersistentValueC1EPNS_15ExecutionEngineEPNS_6ObjectE@Base 5.5.0
+ _ZN3QV415PersistentValueC1EPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415PersistentValueC1EPNS_15ExecutionEngineEy@Base 5.5.0
  _ZN3QV415PersistentValueC1ERKS0_@Base 5.2.0~beta1 1
- _ZN3QV415PersistentValueC1Ey@Base 5.2.0~beta1 1
- _ZN3QV415PersistentValueC2ENS_8ValueRefE@Base 5.2.0~beta1 1
+ _ZN3QV415PersistentValueC2EPNS_15ExecutionEngineEPNS_6ObjectE@Base 5.5.0
+ _ZN3QV415PersistentValueC2EPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV415PersistentValueC2EPNS_15ExecutionEngineEy@Base 5.5.0
  _ZN3QV415PersistentValueC2ERKS0_@Base 5.2.0~beta1 1
- _ZN3QV415PersistentValueC2Ey@Base 5.2.0~beta1 1
  _ZN3QV415PersistentValueD1Ev@Base 5.2.0~beta1 1
  _ZN3QV415PersistentValueD2Ev@Base 5.2.0~beta1 1
- _ZN3QV415PersistentValueaSENS_8ValueRefE@Base 5.2.0~beta1 1
+ _ZN3QV415PersistentValueaSEPNS_6ObjectE@Base 5.5.0
+ _ZN3QV415PersistentValueaSERKNS_9WeakValueE@Base 5.5.0
  _ZN3QV415PersistentValueaSERKS0_@Base 5.2.0~beta1 1
- _ZN3QV415PersistentValueaSEy@Base 5.2.0~beta1 1
- _ZN3QV415SimpleArrayData10push_frontEPNS_6ObjectEPNS_5ValueEj@Base 5.3.0
+ _ZN3QV415SimpleArrayData10push_frontEPNS_6ObjectEPKNS_5ValueEj@Base 5.5.0
  _ZN3QV415SimpleArrayData10reallocateEPNS_6ObjectEjb@Base 5.3.0
- _ZN3QV415SimpleArrayData11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.3.0 1
+ _ZN3QV415SimpleArrayData11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV415SimpleArrayData11static_vtblE@Base 5.3.0
  _ZN3QV415SimpleArrayData12setAttributeEPNS_6ObjectEjNS_18PropertyAttributesE@Base 5.3.0
  _ZN3QV415SimpleArrayData3delEPNS_6ObjectEj@Base 5.3.0
- _ZN3QV415SimpleArrayData3getEPKNS_9ArrayDataEj@Base 5.3.0
- _ZN3QV415SimpleArrayData3putEPNS_6ObjectEjNS_8ValueRefE@Base 5.3.0
- _ZN3QV415SimpleArrayData6lengthEPKNS_9ArrayDataE@Base 5.3.0
- _ZN3QV415SimpleArrayData8putArrayEPNS_6ObjectEjPNS_5ValueEj@Base 5.3.0
+ _ZN3QV415SimpleArrayData3getEPKNS_4Heap9ArrayDataEj@Base 5.5.0
+ _ZN3QV415SimpleArrayData3putEPNS_6ObjectEjRKNS_5ValueE@Base 5.5.0
+ _ZN3QV415SimpleArrayData6lengthEPKNS_4Heap9ArrayDataE@Base 5.5.0
+ _ZN3QV415SimpleArrayData8putArrayEPNS_6ObjectEjPKNS_5ValueEj@Base 5.5.0
  _ZN3QV415SimpleArrayData8truncateEPNS_6ObjectEj@Base 5.3.0
- _ZN3QV415SimpleArrayData9attributeEPKNS_9ArrayDataEj@Base 5.3.0
  _ZN3QV415SimpleArrayData9pop_frontEPNS_6ObjectE@Base 5.3.0
- _ZN3QV415SparseArrayData10push_frontEPNS_6ObjectEPNS_5ValueEj@Base 5.3.0
+ _ZN3QV415SparseArrayData10push_frontEPNS_6ObjectEPKNS_5ValueEj@Base 5.5.0
  _ZN3QV415SparseArrayData10reallocateEPNS_6ObjectEjb@Base 5.3.0
- _ZN3QV415SparseArrayData11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.3.0 1
+ _ZN3QV415SparseArrayData11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV415SparseArrayData11static_vtblE@Base 5.3.0
  _ZN3QV415SparseArrayData12setAttributeEPNS_6ObjectEjNS_18PropertyAttributesE@Base 5.3.0
  _ZN3QV415SparseArrayData3delEPNS_6ObjectEj@Base 5.3.0
- _ZN3QV415SparseArrayData3getEPKNS_9ArrayDataEj@Base 5.3.0
- _ZN3QV415SparseArrayData3putEPNS_6ObjectEjNS_8ValueRefE@Base 5.3.0
- _ZN3QV415SparseArrayData4freeEPNS_9ArrayDataEj@Base 5.3.0
- _ZN3QV415SparseArrayData6lengthEPKNS_9ArrayDataE@Base 5.3.0
- _ZN3QV415SparseArrayData7destroyEPNS_7ManagedE@Base 5.3.0 1
+ _ZN3QV415SparseArrayData3getEPKNS_4Heap9ArrayDataEj@Base 5.5.0
+ _ZN3QV415SparseArrayData3putEPNS_6ObjectEjRKNS_5ValueE@Base 5.5.0
+ _ZN3QV415SparseArrayData4freeEPNS_4Heap9ArrayDataEj@Base 5.5.0
+ _ZN3QV415SparseArrayData6lengthEPKNS_4Heap9ArrayDataE@Base 5.5.0
  _ZN3QV415SparseArrayData8allocateEPNS_6ObjectEb@Base 5.3.0
- _ZN3QV415SparseArrayData8putArrayEPNS_6ObjectEjPNS_5ValueEj@Base 5.3.0
+ _ZN3QV415SparseArrayData8putArrayEPNS_6ObjectEjPKNS_5ValueEj@Base 5.5.0
  _ZN3QV415SparseArrayData8truncateEPNS_6ObjectEj@Base 5.3.0
- _ZN3QV415SparseArrayData9attributeEPKNS_9ArrayDataEj@Base 5.3.0
  _ZN3QV415SparseArrayData9pop_frontEPNS_6ObjectE@Base 5.3.0
- _ZN3QV416ExecutionContext10throwErrorENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext10throwErrorERK7QString@Base 5.2.0~beta1
  _ZN3QV416ExecutionContext11getPropertyEPNS_6StringE@Base 5.4.0
- _ZN3QV416ExecutionContext11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.2.1 1
- _ZN3QV416ExecutionContext11setPropertyEPNS_6StringENS_8ValueRefE@Base 5.4.0
+ _ZN3QV416ExecutionContext11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV416ExecutionContext11setPropertyEPNS_6StringERKNS_5ValueE@Base 5.5.0
  _ZN3QV416ExecutionContext11static_vtblE@Base 5.2.1
  _ZN3QV416ExecutionContext13newQmlContextEPNS_14FunctionObjectEPNS_6ObjectE@Base 5.4.0
- _ZN3QV416ExecutionContext13throwURIErrorENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext14catchExceptionEP7QVectorINS_10StackFrameEE@Base 5.2.0~beta1
  _ZN3QV416ExecutionContext14deletePropertyEPNS_6StringE@Base 5.4.0
  _ZN3QV416ExecutionContext14newCallContextEPNS_14FunctionObjectEPNS_8CallDataE@Base 5.2.0~beta1
  _ZN3QV416ExecutionContext14newWithContextEPNS_6ObjectE@Base 5.4.0
- _ZN3QV416ExecutionContext14throwTypeErrorERK7QString@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext14throwTypeErrorEv@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext15newCatchContextEPNS_6StringENS_8ValueRefE@Base 5.4.0
- _ZN3QV416ExecutionContext15throwRangeErrorENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext15throwRangeErrorERK7QString@Base 5.2.0~rc1
- _ZN3QV416ExecutionContext16throwSyntaxErrorERK7QString@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext16throwSyntaxErrorERK7QStringS3_ii@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext18getPropertyAndBaseEPNS_6StringERPNS_6ObjectE@Base 5.4.0
- _ZN3QV416ExecutionContext18throwUnimplementedERK7QString@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext19throwReferenceErrorENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV416ExecutionContext19throwReferenceErrorERK7QStringS3_ii@Base 5.2.0~beta1
+ _ZN3QV416ExecutionContext15newCatchContextEPNS_6StringERKNS_5ValueE@Base 5.5.0
+ _ZN3QV416ExecutionContext18getPropertyAndBaseEPNS_6StringEPPNS_4Heap6ObjectE@Base 5.5.0
  _ZN3QV416ExecutionContext20createMutableBindingEPNS_6StringEb@Base 5.4.0
- _ZN3QV417QmlBindingWrapper11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.4.0 1
+ _ZN3QV417QmlBindingWrapper11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV417QmlBindingWrapper11static_vtblE@Base 5.4.0
  _ZN3QV417QmlBindingWrapper28createQmlCallableForFunctionEP15QQmlContextDataP7QObjectPNS_8FunctionERK5QListI10QByteArrayEP7QString@Base 5.4.0 1
- _ZN3QV417QmlBindingWrapper4DataC1EPNS_16ExecutionContextEPNS_6ObjectE@Base 5.4.0
- _ZN3QV417QmlBindingWrapper4DataC1EPNS_16ExecutionContextEPNS_8FunctionEPNS_6ObjectE@Base 5.4.0
- _ZN3QV417QmlBindingWrapper4DataC2EPNS_16ExecutionContextEPNS_6ObjectE@Base 5.4.0
- _ZN3QV417QmlBindingWrapper4DataC2EPNS_16ExecutionContextEPNS_8FunctionEPNS_6ObjectE@Base 5.4.0
  _ZN3QV417QmlBindingWrapper4callEPNS_7ManagedEPNS_8CallDataE@Base 5.4.0 1
- _ZN3QV417QmlContextWrapper10getContextENS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV417QmlContextWrapper11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.2.1 1
+ _ZN3QV417QmlContextWrapper10getContextERKNS_5ValueE@Base 5.5.0
+ _ZN3QV417QmlContextWrapper11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV417QmlContextWrapper11static_vtblE@Base 5.2.0~beta1
  _ZN3QV417QmlContextWrapper14callingContextEPNS_15ExecutionEngineE@Base 5.2.0~beta1
  _ZN3QV417QmlContextWrapper14idObjectsArrayEv@Base 5.2.1
- _ZN3QV417QmlContextWrapper19qmlSingletonWrapperEP9QV8EnginePNS_6StringE@Base 5.4.0 1
- _ZN3QV417QmlContextWrapper20takeContextOwnershipENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV417QmlContextWrapper19qmlSingletonWrapperEPNS_15ExecutionEngineEPNS_6StringE@Base 5.5.0
+ _ZN3QV417QmlContextWrapper20takeContextOwnershipERKNS_5ValueE@Base 5.5.0
  _ZN3QV417QmlContextWrapper23registerQmlDependenciesEPNS_15ExecutionEngineEPKNS_12CompiledData8FunctionE@Base 5.2.0~rc1
  _ZN3QV417QmlContextWrapper3getEPNS_7ManagedEPNS_6StringEPb@Base 5.4.0 1
- _ZN3QV417QmlContextWrapper3putEPNS_7ManagedEPNS_6StringENS_8ValueRefE@Base 5.4.0 1
- _ZN3QV417QmlContextWrapper4DataC1EP9QV8EngineP15QQmlContextDataP7QObjectb@Base 5.4.0 1
- _ZN3QV417QmlContextWrapper4DataC2EP9QV8EngineP15QQmlContextDataP7QObjectb@Base 5.4.0 1
- _ZN3QV417QmlContextWrapper4DataD1Ev@Base 5.4.0
- _ZN3QV417QmlContextWrapper4DataD2Ev@Base 5.4.0
- _ZN3QV417QmlContextWrapper7destroyEPNS_7ManagedE@Base 5.2.0~beta1 1
- _ZN3QV417QmlContextWrapper8qmlScopeEP9QV8EngineP15QQmlContextDataP7QObject@Base 5.2.0~beta1 1
- _ZN3QV417QmlContextWrapper8urlScopeEP9QV8EngineRK4QUrl@Base 5.2.0~beta1 1
- _ZN3QV419QmlValueTypeWrapper11static_vtblE@Base 5.2.0~beta1
- _ZN3QV419QmlValueTypeWrapper15method_toStringEPNS_11CallContextE@Base 5.2.0~rc1
- _ZN3QV419QmlValueTypeWrapper3getEPNS_7ManagedEPNS_6StringEPb@Base 5.4.0 1
- _ZN3QV419QmlValueTypeWrapper3putEPNS_7ManagedEPNS_6StringENS_8ValueRefE@Base 5.4.0 1
- _ZN3QV419QmlValueTypeWrapper4DataC1EP9QV8EngineNS0_10ObjectTypeE@Base 5.4.0 1
- _ZN3QV419QmlValueTypeWrapper4DataC2EP9QV8EngineNS0_10ObjectTypeE@Base 5.4.0 1
- _ZN3QV419QmlValueTypeWrapper5queryEPKNS_7ManagedEPNS_6StringE@Base 5.4.0 1
- _ZN3QV419QmlValueTypeWrapper6createEP9QV8EngineP7QObjectiP13QQmlValueType@Base 5.2.0~beta1 1
- _ZN3QV419QmlValueTypeWrapper6createEP9QV8EngineRK8QVariantP13QQmlValueType@Base 5.2.0~beta1 1
- _ZN3QV419QmlValueTypeWrapper7destroyEPNS_7ManagedE@Base 5.2.0~beta1 1
- _ZN3QV419QmlValueTypeWrapper7isEqualERK8QVariant@Base 5.2.0~beta1
- _ZN3QV419QmlValueTypeWrapper9initProtoEPNS_15ExecutionEngineE@Base 5.2.0~beta1
- _ZN3QV419QmlValueTypeWrapper9isEqualToEPNS_7ManagedES2_@Base 5.2.0~beta1 1
- _ZN3QV422PersistentValuePrivate14removeFromListEv@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivate4initEv@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivate5derefEv@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivate6detachEyb@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivateC1EyPNS_15ExecutionEngineEb@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivateC2EyPNS_15ExecutionEngineEb@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivateD0Ev@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivateD1Ev@Base 5.2.0~beta1
- _ZN3QV422PersistentValuePrivateD2Ev@Base 5.2.0~beta1
+ _ZN3QV417QmlContextWrapper3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Base 5.5.0
+ _ZN3QV417QmlContextWrapper8qmlScopeEPNS_15ExecutionEngineEP15QQmlContextDataP7QObject@Base 5.5.0
+ _ZN3QV417QmlContextWrapper8urlScopeEPNS_15ExecutionEngineERK4QUrl@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper11static_vtblE@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper15method_toStringEPNS_11CallContextE@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper3getEPNS_7ManagedEPNS_6StringEPb@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper5queryEPKNS_7ManagedEPNS_6StringE@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper6createEPNS_15ExecutionEngineEP7QObjectiPK11QMetaObjecti@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper6createEPNS_15ExecutionEngineERK8QVariantPK11QMetaObjecti@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper7destroyEPNS_4Heap4BaseE@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper7isEqualERK8QVariant@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper9initProtoEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV420QQmlValueTypeWrapper9isEqualToEPNS_7ManagedES2_@Base 5.5.0
+ _ZN3QV422PersistentValueStorage4freeEPNS_5ValueE@Base 5.5.0
+ _ZN3QV422PersistentValueStorage4markEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV422PersistentValueStorage8IteratordeEv@Base 5.5.0
+ _ZN3QV422PersistentValueStorage8IteratorppEv@Base 5.5.0
+ _ZN3QV422PersistentValueStorage8allocateEv@Base 5.5.0
+ _ZN3QV422PersistentValueStorage9getEngineEPNS_5ValueE@Base 5.5.0
+ _ZN3QV422PersistentValueStorageC1EPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV422PersistentValueStorageC2EPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV422PersistentValueStorageD1Ev@Base 5.5.0
+ _ZN3QV422PersistentValueStorageD2Ev@Base 5.5.0
  _ZN3QV424EvalInstructionSelection7compileEb@Base 5.3.0 1
  _ZN3QV424EvalInstructionSelectionC1EPNS_19ExecutableAllocatorEPNS_2IR6ModuleEPNS_8Compiler15JSUnitGeneratorE@Base 5.3.0 1
  _ZN3QV424EvalInstructionSelectionC2EPNS_19ExecutableAllocatorEPNS_2IR6ModuleEPNS_8Compiler15JSUnitGeneratorE@Base 5.3.0 1
@@ -1589,7 +1515,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV42IR9IRDecoderD0Ev@Base 5.3.0 1
  _ZN3QV42IR9IRDecoderD1Ev@Base 5.3.0 1
  _ZN3QV42IR9IRDecoderD2Ev@Base 5.3.0 1
- _ZN3QV42IR9Optimizer13showMeTheCodeEPNS0_8FunctionE@Base 5.3.0 1
+ _ZN3QV42IR9Optimizer13showMeTheCodeEPNS0_8FunctionEPKc@Base 5.5.0
  _ZN3QV42IR9Optimizer15convertOutOfSSAEv@Base 5.3.0 1
  _ZN3QV42IR9Optimizer22calculateOptionalJumpsEv@Base 5.3.0 1
  _ZN3QV42IR9Optimizer3runEP17QQmlEnginePrivatebb@Base 5.4.0 1
@@ -1672,6 +1598,35 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=gccinternal|arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelectionD0Ev@Base 5.3.0 1
  (optional=gccinternal|arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelectionD1Ev@Base 5.3.0 1
  (optional=gccinternal|arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelectionD2Ev@Base 5.3.0 1
+ _ZN3QV44Heap11ArrayBufferC1EPNS_15ExecutionEngineERK10QByteArray@Base 5.5.0
+ _ZN3QV44Heap11ArrayBufferC1EPNS_15ExecutionEngineEm@Base 5.5.0
+ _ZN3QV44Heap11ArrayBufferC2EPNS_15ExecutionEngineERK10QByteArray@Base 5.5.0
+ _ZN3QV44Heap11ArrayBufferC2EPNS_15ExecutionEngineEm@Base 5.5.0
+ _ZN3QV44Heap11ArrayBufferD1Ev@Base 5.5.0
+ _ZN3QV44Heap11ArrayBufferD2Ev@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS0_16ExecutionContextERK7QStringb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS0_16ExecutionContextEy@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS_13InternalClassEPNS_6ObjectE@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS_16ExecutionContextEPNS_6StringEb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS_16ExecutionContextEPNS_8FunctionEb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS_16ExecutionContextERK7QStringb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC1EPNS_16ExecutionContextEy@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS0_16ExecutionContextERK7QStringb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS0_16ExecutionContextEy@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS_13InternalClassEPNS_6ObjectE@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS_16ExecutionContextEPNS_6StringEb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS_16ExecutionContextEPNS_8FunctionEb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS_16ExecutionContextERK7QStringb@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectC2EPNS_16ExecutionContextEy@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectD1Ev@Base 5.5.0
+ _ZN3QV44Heap14FunctionObjectD2Ev@Base 5.5.0
+ _ZN3QV44Heap15BuiltinFunctionC1EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Base 5.5.0
+ _ZN3QV44Heap15BuiltinFunctionC2EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Base 5.5.0
+ _ZN3QV44Heap6String6appendEPKS1_P5QChar@Base 5.5.0
+ _ZN3QV44Heap6StringC1EPS1_S2_@Base 5.5.0
+ _ZN3QV44Heap6StringC1ERK7QString@Base 5.5.0
+ _ZN3QV44Heap6StringC2EPS1_S2_@Base 5.5.0
+ _ZN3QV44Heap6StringC2ERK7QString@Base 5.5.0
  _ZN3QV44Moth20InstructionSelection10getElementEPNS_2IR4ExprES4_S4_@Base 5.4.0 1
  _ZN3QV44Moth20InstructionSelection10loadRegexpEPNS_2IR6RegExpEPNS2_4ExprE@Base 5.4.0 1
  _ZN3QV44Moth20InstructionSelection10loadStringERK7QStringPNS_2IR4ExprE@Base 5.4.0 1
@@ -1739,54 +1694,52 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV44Moth20InstructionSelectionD1Ev@Base 5.3.0 1
  _ZN3QV44Moth20InstructionSelectionD2Ev@Base 5.3.0 1
  _ZN3QV46Object10getIndexedEPNS_7ManagedEjPb@Base 5.2.0~beta1 1
- _ZN3QV46Object10putIndexedEPNS_7ManagedEjNS_8ValueRefE@Base 5.2.0~beta1 1
+ _ZN3QV46Object10putIndexedEPNS_7ManagedEjRKNS_5ValueE@Base 5.5.0
  _ZN3QV46Object11internalGetEPNS_6StringEPb@Base 5.4.0
- _ZN3QV46Object11internalPutEPNS_6StringENS_8ValueRefE@Base 5.4.0
- _ZN3QV46Object11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.2.0~rc1 1
+ _ZN3QV46Object11internalPutEPNS_6StringERKNS_5ValueE@Base 5.5.0
+ _ZN3QV46Object11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV46Object11static_vtblE@Base 5.2.0~beta1
- _ZN3QV46Object12insertMemberEPNS_6StringERKNS_8PropertyENS_18PropertyAttributesE@Base 5.4.0
+ _ZN3QV46Object12insertMemberEPNS_6StringEPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
  _ZN3QV46Object12queryIndexedEPKNS_7ManagedEj@Base 5.2.0~beta1 1
  _ZN3QV46Object12setPrototypeEPS0_@Base 5.2.0~beta1
  _ZN3QV46Object13copyArrayDataEPS0_@Base 5.2.0~beta1
  _ZN3QV46Object14deletePropertyEPNS_7ManagedEPNS_6StringE@Base 5.4.0 1
  _ZN3QV46Object14setArrayLengthEj@Base 5.2.0~beta1
- _ZN3QV46Object15advanceIteratorEPNS_7ManagedEPNS_14ObjectIteratorERPNS_6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.4.0 1
+ _ZN3QV46Object15advanceIteratorEPNS_7ManagedEPNS_14ObjectIteratorEPPNS_4Heap6StringEPjPNS_8PropertyEPNS_18PropertyAttributesE@Base 5.5.0
  _ZN3QV46Object15initSparseArrayEv@Base 5.3.0
  _ZN3QV46Object17ensureMemberIndexEj@Base 5.2.0~beta1
  _ZN3QV46Object18__getOwnProperty__EPNS_6StringEPNS_18PropertyAttributesE@Base 5.4.0
  _ZN3QV46Object18__getOwnProperty__EjPNS_18PropertyAttributesE@Base 5.2.0~beta1
- _ZN3QV46Object18defineOwnProperty2EPNS_16ExecutionContextEjRKNS_8PropertyENS_18PropertyAttributesE@Base 5.3.0
+ _ZN3QV46Object18defineOwnProperty2EPNS_15ExecutionEngineEjPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
  _ZN3QV46Object18internalGetIndexedEjPb@Base 5.2.0~beta1
- _ZN3QV46Object18internalPutIndexedEjNS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV46Object21__defineOwnProperty__EPNS_16ExecutionContextEPNS_6StringERKNS_8PropertyENS_18PropertyAttributesE@Base 5.4.0
- _ZN3QV46Object21__defineOwnProperty__EPNS_16ExecutionContextERK7QStringRKNS_8PropertyENS_18PropertyAttributesE@Base 5.2.0~beta1
- _ZN3QV46Object21__defineOwnProperty__EPNS_16ExecutionContextEjPNS_6StringERKNS_8PropertyENS_18PropertyAttributesE@Base 5.4.0
- _ZN3QV46Object21__defineOwnProperty__EPNS_16ExecutionContextEjRKNS_8PropertyENS_18PropertyAttributesE@Base 5.2.0~beta1
+ _ZN3QV46Object18internalPutIndexedEjRKNS_5ValueE@Base 5.5.0
+ _ZN3QV46Object21__defineOwnProperty__EPNS_15ExecutionEngineEPNS_6StringEPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
+ _ZN3QV46Object21__defineOwnProperty__EPNS_15ExecutionEngineERK7QStringPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
+ _ZN3QV46Object21__defineOwnProperty__EPNS_15ExecutionEngineEjPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
+ _ZN3QV46Object21__defineOwnProperty__EPNS_15ExecutionEngineEjPNS_6StringEPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
  _ZN3QV46Object21defineDefaultPropertyEPNS_6StringEPFyPNS_11CallContextEEi@Base 5.4.0
- _ZN3QV46Object21defineDefaultPropertyERK7QStringNS_8ValueRefE@Base 5.2.0~beta1
  _ZN3QV46Object21defineDefaultPropertyERK7QStringPFyPNS_11CallContextEEi@Base 5.2.0~rc1
+ _ZN3QV46Object21defineDefaultPropertyERK7QStringRKNS_5ValueE@Base 5.5.0
  _ZN3QV46Object21deleteIndexedPropertyEPNS_7ManagedEj@Base 5.2.0~beta1 1
  _ZN3QV46Object22defineAccessorPropertyEPNS_6StringEPFyPNS_11CallContextEES6_@Base 5.4.0
  _ZN3QV46Object22defineAccessorPropertyERK7QStringPFyPNS_11CallContextEES7_@Base 5.2.0~rc1
- _ZN3QV46Object22defineReadonlyPropertyEPNS_6StringENS_8ValueRefE@Base 5.4.0
- _ZN3QV46Object22defineReadonlyPropertyERK7QStringNS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV46Object22defineReadonlyPropertyEPNS_6StringERKNS_5ValueE@Base 5.5.0
+ _ZN3QV46Object22defineReadonlyPropertyERK7QStringRKNS_5ValueE@Base 5.5.0
  _ZN3QV46Object22internalDeletePropertyEPNS_6StringE@Base 5.4.0
  _ZN3QV46Object29internalDeleteIndexedPropertyEj@Base 5.2.0~beta1
  _ZN3QV46Object3getEPNS_7ManagedEPNS_6StringEPb@Base 5.4.0 1
- _ZN3QV46Object3putEPNS_16ExecutionContextERK7QStringNS_8ValueRefE@Base 5.2.0~beta1
- _ZN3QV46Object3putEPNS_7ManagedEPNS_6StringENS_8ValueRefE@Base 5.4.0 1
- _ZN3QV46Object4DataC1EPNS_13InternalClassE@Base 5.4.0
- _ZN3QV46Object4DataC2EPNS_13InternalClassE@Base 5.4.0
+ _ZN3QV46Object3putEPNS_15ExecutionEngineERK7QStringRKNS_5ValueE@Base 5.5.0
+ _ZN3QV46Object3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Base 5.5.0
  _ZN3QV46Object4callEPNS_7ManagedEPNS_8CallDataE@Base 5.3.0 1
  _ZN3QV46Object5queryEPKNS_7ManagedEPNS_6StringE@Base 5.4.0 1
- _ZN3QV46Object8getValueENS_8ValueRefEPKNS_8PropertyENS_18PropertyAttributesE@Base 5.2.0~beta1
- _ZN3QV46Object8putValueEPNS_8PropertyENS_18PropertyAttributesENS_8ValueRefE@Base 5.2.0~beta1
+ _ZN3QV46Object8getValueERKNS_5ValueEPKNS_8PropertyENS_18PropertyAttributesE@Base 5.5.0
+ _ZN3QV46Object8putValueEPNS_8PropertyENS_18PropertyAttributesERKNS_5ValueE@Base 5.5.0
  _ZN3QV46Object9constructEPNS_7ManagedEPNS_8CallDataE@Base 5.3.0 1
  _ZN3QV46Object9getLengthEPKNS_7ManagedE@Base 5.3.0 1
  _ZN3QV46Object9getLookupEPNS_7ManagedEPNS_6LookupE@Base 5.2.0~beta1 1
- (optional=gccinternal)_ZN3QV46Object9push_backENS_8ValueRefE@Base 5.3.0
- _ZN3QV46Object9setLookupEPNS_7ManagedEPNS_6LookupENS_8ValueRefE@Base 5.2.0~beta1 1
- _ZN3QV46Script10precompileEPNS_2IR6ModuleEPNS_8Compiler15JSUnitGeneratorEPNS_15ExecutionEngineERK4QUrlRK7QStringP5QListI9QQmlErrorE@Base 5.3.0
+ _ZN3QV46Object9push_backERKNS_5ValueE@Base 5.5.0
+ _ZN3QV46Object9setLookupEPNS_7ManagedEPNS_6LookupERKNS_5ValueE@Base 5.5.0
+ _ZN3QV46Script10precompileEPNS_2IR6ModuleEPNS_8Compiler15JSUnitGeneratorEPNS_15ExecutionEngineERK4QUrlRK7QStringP5QListI9QQmlErrorEPN6QQmlJS10DirectivesE@Base 5.5.0
  _ZN3QV46Script10qmlBindingEv@Base 5.2.0~beta1
  _ZN3QV46Script3runEv@Base 5.2.0~beta1
  _ZN3QV46Script5parseEv@Base 5.2.0~beta1
@@ -1796,123 +1749,107 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV46ScriptC2EPNS_15ExecutionEngineEPNS_6ObjectEPNS_12CompiledData15CompilationUnitE@Base 5.4.0
  _ZN3QV46ScriptD1Ev@Base 5.2.0~beta1
  _ZN3QV46ScriptD2Ev@Base 5.2.0~beta1
- _ZN3QV46String10getIndexedEPNS_7ManagedEjPb@Base 5.2.0~beta1 1
- _ZN3QV46String10putIndexedEPNS_7ManagedEjNS_8ValueRefE@Base 5.2.0~beta1 1
- _ZN3QV46String11markObjectsEPNS_7ManagedEPNS_15ExecutionEngineE@Base 5.2.0~rc1 1
+ _ZN3QV46String11markObjectsEPNS_4Heap4BaseEPNS_15ExecutionEngineE@Base 5.5.0
  _ZN3QV46String11static_vtblE@Base 5.2.0~beta1
- _ZN3QV46String12queryIndexedEPKNS_7ManagedEj@Base 5.2.0~beta1 1
  _ZN3QV46String12toArrayIndexERK7QString@Base 5.2.1
- _ZN3QV46String14deletePropertyEPNS_7ManagedEPS0_@Base 5.4.0 1
  _ZN3QV46String15createHashValueEPK5QChari@Base 5.2.0~beta1
  _ZN3QV46String15createHashValueEPKci@Base 5.2.0~beta1
- _ZN3QV46String21deleteIndexedPropertyEPNS_7ManagedEj@Base 5.2.0~beta1 1
- _ZN3QV46String3getEPNS_7ManagedEPS0_Pb@Base 5.4.0 1
- _ZN3QV46String3putEPNS_7ManagedEPS0_NS_8ValueRefE@Base 5.4.0 1
- _ZN3QV46String4Data6appendEPKS1_P5QChar@Base 5.4.0
- _ZN3QV46String4DataC1EPNS_15ExecutionEngineEPS0_S4_@Base 5.4.0
- _ZN3QV46String4DataC1EPNS_15ExecutionEngineERK7QString@Base 5.4.0
- _ZN3QV46String4DataC2EPNS_15ExecutionEngineEPS0_S4_@Base 5.4.0
- _ZN3QV46String4DataC2EPNS_15ExecutionEngineERK7QString@Base 5.4.0
- _ZN3QV46String5queryEPKNS_7ManagedEPS0_@Base 5.4.0 1
- _ZN3QV46String7destroyEPNS_7ManagedE@Base 5.2.0~beta1 1
  _ZN3QV46String9getLengthEPKNS_7ManagedE@Base 5.3.0 1
  _ZN3QV46String9isEqualToEPNS_7ManagedES2_@Base 5.2.0~beta1 1
  _ZN3QV47Managed11static_vtblE@Base 5.2.0~beta1 1
- _ZN3QV47Managed4Data9setVTableEPKNS_13ManagedVTableE@Base 5.4.0 1
  _ZN3QV47Managed9isEqualToEPS0_S1_@Base 5.2.0~beta1 1
- _ZN3QV47Managed9setVTableEPKNS_13ManagedVTableE@Base 5.2.1 1
- (subst)_ZN3QV47ManagednwE{size_t}PNS_13MemoryManagerE@Base 5.2.0~beta1 1
- (arch=amd64 armhf i386)_ZN3QV47Runtime10complementENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime10declareVarEPNS_16ExecutionContextEbPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime10deleteNameEPNS_16ExecutionContextEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime10getElementEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime10instanceofEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime10setElementEPNS_16ExecutionContextENS_8ValueRefES3_S3_@Base 5.3.0
- _ZN3QV47Runtime10typeofNameEPNS_16ExecutionContextEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime11callElementEPNS_16ExecutionContextENS_8ValueRefEPNS_8CallDataE@Base 5.4.0
+ _ZN3QV47Runtime10complementERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime10declareVarEPNS_15ExecutionEngineEbi@Base 5.5.0
+ _ZN3QV47Runtime10deleteNameEPNS_15ExecutionEngineEi@Base 5.5.0
+ _ZN3QV47Runtime10getElementEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime10instanceofEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime10setElementEPNS_15ExecutionEngineERKNS_5ValueES5_S5_@Base 5.5.0
+ _ZN3QV47Runtime10typeofNameEPNS_15ExecutionEngineEi@Base 5.5.0
+ _ZN3QV47Runtime11callElementEPNS_15ExecutionEngineERKNS_5ValueEPNS_8CallDataE@Base 5.5.0
  _ZN3QV47Runtime11doubleToIntERKd@Base 5.3.0
- _ZN3QV47Runtime11getPropertyEPNS_16ExecutionContextENS_8ValueRefEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime11greaterThanENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime11setPropertyEPNS_16ExecutionContextENS_8ValueRefEPNS_6StringES3_@Base 5.4.0
- _ZN3QV47Runtime11strictEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime11typeofValueEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime12arrayLiteralEPNS_16ExecutionContextEPNS_5ValueEj@Base 5.3.0
- _ZN3QV47Runtime12callPropertyEPNS_16ExecutionContextEPNS_6StringEPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime12compareEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime12deleteMemberEPNS_16ExecutionContextENS_8ValueRefEPNS_6StringE@Base 5.4.0
+ _ZN3QV47Runtime11getPropertyEPNS_15ExecutionEngineERKNS_5ValueEi@Base 5.5.0
+ _ZN3QV47Runtime11greaterThanERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime11setPropertyEPNS_15ExecutionEngineERKNS_5ValueEiS5_@Base 5.5.0
+ _ZN3QV47Runtime11strictEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime11typeofValueEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime12arrayLiteralEPNS_15ExecutionEngineEPNS_5ValueEj@Base 5.5.0
+ _ZN3QV47Runtime12callPropertyEPNS_15ExecutionEngineEiPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime12compareEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime12deleteMemberEPNS_15ExecutionEngineERKNS_5ValueEi@Base 5.5.0
  _ZN3QV47Runtime12doubleToUIntERKd@Base 5.3.0
- _ZN3QV47Runtime12greaterEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime12typeofMemberEPNS_16ExecutionContextENS_8ValueRefEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime13deleteElementEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime13getQmlIdArrayEPNS_14NoThrowContextE@Base 5.3.0
- _ZN3QV47Runtime13objectLiteralEPNS_16ExecutionContextEPKNS_5ValueEiii@Base 5.3.0
- _ZN3QV47Runtime13pushWithScopeENS_8ValueRefEPNS_16ExecutionContextE@Base 5.3.0
- _ZN3QV47Runtime13regexpLiteralEPNS_16ExecutionContextEi@Base 5.3.0
- _ZN3QV47Runtime13typeofElementEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime14constructValueEPNS_16ExecutionContextENS_8ValueRefEPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime14pushCatchScopeEPNS_16ExecutionContextEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime14strictNotEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime14throwExceptionEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime15compareLessThanENS_8ValueRefES1_@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime15compareNotEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime15foreachIteratorEPNS_16ExecutionContextENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime15getQmlSingletonEPNS_14NoThrowContextEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime15unwindExceptionEPNS_16ExecutionContextE@Base 5.3.0
- _ZN3QV47Runtime16callGlobalLookupEPNS_16ExecutionContextEjPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime16compareLessEqualENS_8ValueRefES1_@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime17compareInstanceofEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime17constructPropertyEPNS_16ExecutionContextEPNS_6StringEPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime17getQmlScopeObjectEPNS_14NoThrowContextE@Base 5.3.0
- _ZN3QV47Runtime18callPropertyLookupEPNS_16ExecutionContextEjPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime18compareGreaterThanENS_8ValueRefES1_@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime18compareStrictEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime19compareGreaterEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime19convertThisToObjectEPNS_16ExecutionContextE@Base 5.3.0
- _ZN3QV47Runtime19getQmlContextObjectEPNS_14NoThrowContextE@Base 5.3.0
- _ZN3QV47Runtime20setupArgumentsObjectEPNS_16ExecutionContextE@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime21compareStrictNotEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime21constructGlobalLookupEPNS_16ExecutionContextEjPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime21getActivationPropertyEPNS_16ExecutionContextEPNS_6StringE@Base 5.4.0
- _ZN3QV47Runtime21getQmlImportedScriptsEPNS_14NoThrowContextE@Base 5.3.0
- _ZN3QV47Runtime21getQmlQObjectPropertyEPNS_16ExecutionContextENS_8ValueRefEib@Base 5.3.0
- _ZN3QV47Runtime21setActivationPropertyEPNS_16ExecutionContextEPNS_6StringENS_8ValueRefE@Base 5.4.0
- _ZN3QV47Runtime21setQmlQObjectPropertyEPNS_16ExecutionContextENS_8ValueRefEiS3_@Base 5.3.0
- _ZN3QV47Runtime22callActivationPropertyEPNS_16ExecutionContextEPNS_6StringEPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime22getQmlAttachedPropertyEPNS_16ExecutionContextEii@Base 5.3.0
- _ZN3QV47Runtime23constructPropertyLookupEPNS_16ExecutionContextEjPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime23foreachNextPropertyNameENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime27constructActivationPropertyEPNS_16ExecutionContextEPNS_6StringEPNS_8CallDataE@Base 5.4.0
- _ZN3QV47Runtime2inEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime30getQmlSingletonQObjectPropertyEPNS_16ExecutionContextENS_8ValueRefEib@Base 5.4.0
- _ZN3QV47Runtime3addEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime3divENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime3modENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime3mulENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime3shlENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime3shrENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime3subENS_8ValueRefES1_@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime4uNotENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime4ushrENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime5bitOrENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime5equalENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime5toIntENS_8ValueRefE@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime5uPlusENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime6bitAndENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime6bitXorENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime6toUIntENS_8ValueRefE@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime6uMinusENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime7closureEPNS_16ExecutionContextEi@Base 5.3.0
- _ZN3QV47Runtime8lessThanENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime8notEqualENS_8ValueRefES1_@Base 5.3.0
- _ZN3QV47Runtime8popScopeEPNS_16ExecutionContextE@Base 5.3.0
- _ZN3QV47Runtime8toDoubleENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime9addStringEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime9callValueEPNS_16ExecutionContextENS_8ValueRefEPNS_8CallDataE@Base 5.4.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime9compareInEPNS_16ExecutionContextENS_8ValueRefES3_@Base 5.3.0
- _ZN3QV47Runtime9decrementENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime9incrementENS_8ValueRefE@Base 5.3.0
- _ZN3QV47Runtime9lessEqualENS_8ValueRefES1_@Base 5.3.0
- (arch=amd64 armhf i386)_ZN3QV47Runtime9toBooleanENS_8ValueRefE@Base 5.3.0
+ _ZN3QV47Runtime12greaterEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime12typeofMemberEPNS_15ExecutionEngineERKNS_5ValueEi@Base 5.5.0
+ _ZN3QV47Runtime13deleteElementEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime13getQmlIdArrayEPNS_13NoThrowEngineE@Base 5.5.0
+ _ZN3QV47Runtime13objectLiteralEPNS_15ExecutionEngineEPKNS_5ValueEiii@Base 5.5.0
+ _ZN3QV47Runtime13pushWithScopeERKNS_5ValueEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV47Runtime13regexpLiteralEPNS_15ExecutionEngineEi@Base 5.5.0
+ _ZN3QV47Runtime13typeofElementEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime14constructValueEPNS_15ExecutionEngineERKNS_5ValueEPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime14pushCatchScopeEPNS_13NoThrowEngineEi@Base 5.5.0
+ _ZN3QV47Runtime14strictNotEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime14throwExceptionEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime15compareLessThanERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime15compareNotEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime15foreachIteratorEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime15getQmlSingletonEPNS_13NoThrowEngineEi@Base 5.5.0
+ _ZN3QV47Runtime15unwindExceptionEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV47Runtime16callGlobalLookupEPNS_15ExecutionEngineEjPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime16compareLessEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime17compareInstanceofEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime17constructPropertyEPNS_15ExecutionEngineEiPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime17getQmlScopeObjectEPNS_13NoThrowEngineE@Base 5.5.0
+ _ZN3QV47Runtime18callPropertyLookupEPNS_15ExecutionEngineEjPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime18compareGreaterThanERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime18compareStrictEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime18deleteMemberStringEPNS_15ExecutionEngineERKNS_5ValueEPNS_6StringE@Base 5.5.0
+ _ZN3QV47Runtime19compareGreaterEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime19convertThisToObjectEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV47Runtime19getQmlContextObjectEPNS_13NoThrowEngineE@Base 5.5.0
+ _ZN3QV47Runtime20setupArgumentsObjectEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV47Runtime21compareStrictNotEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime21constructGlobalLookupEPNS_15ExecutionEngineEjPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime21getActivationPropertyEPNS_15ExecutionEngineEi@Base 5.5.0
+ _ZN3QV47Runtime21getQmlImportedScriptsEPNS_13NoThrowEngineE@Base 5.5.0
+ _ZN3QV47Runtime21getQmlQObjectPropertyEPNS_15ExecutionEngineERKNS_5ValueEib@Base 5.5.0
+ _ZN3QV47Runtime21setActivationPropertyEPNS_15ExecutionEngineEiRKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime21setQmlQObjectPropertyEPNS_15ExecutionEngineERKNS_5ValueEiS5_@Base 5.5.0
+ _ZN3QV47Runtime22callActivationPropertyEPNS_15ExecutionEngineEiPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime22getQmlAttachedPropertyEPNS_15ExecutionEngineEii@Base 5.5.0
+ _ZN3QV47Runtime23constructPropertyLookupEPNS_15ExecutionEngineEjPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime23foreachNextPropertyNameERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime27constructActivationPropertyEPNS_15ExecutionEngineEiPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime2inEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime30getQmlSingletonQObjectPropertyEPNS_15ExecutionEngineERKNS_5ValueEib@Base 5.5.0
+ _ZN3QV47Runtime3addEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime3divERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime3modERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime3mulERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime3shlERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime3shrERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime3subERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime4uNotERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime4ushrERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime5bitOrERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime5equalERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime5toIntERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime5uPlusERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime6bitAndERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime6bitXorERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime6toUIntERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime6uMinusERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime7closureEPNS_15ExecutionEngineEi@Base 5.5.0
+ _ZN3QV47Runtime8lessThanERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime8notEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime8popScopeEPNS_15ExecutionEngineE@Base 5.5.0
+ _ZN3QV47Runtime8toDoubleERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime9addStringEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime9callValueEPNS_15ExecutionEngineERKNS_5ValueEPNS_8CallDataE@Base 5.5.0
+ _ZN3QV47Runtime9compareInEPNS_15ExecutionEngineERKNS_5ValueES5_@Base 5.5.0
+ _ZN3QV47Runtime9decrementERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime9incrementERKNS_5ValueE@Base 5.5.0
+ _ZN3QV47Runtime9lessEqualERKNS_5ValueES3_@Base 5.5.0
+ _ZN3QV47Runtime9toBooleanERKNS_5ValueE@Base 5.5.0
  _ZN3QV48Compiler15JSUnitGenerator12generateUnitENS1_15GeneratorOptionE@Base 5.4.0
  _ZN3QV48Compiler15JSUnitGenerator13writeFunctionEPciPNS_2IR8FunctionE@Base 5.3.0
  _ZN3QV48Compiler15JSUnitGenerator14registerRegExpEPNS_2IR6RegExpE@Base 5.3.0
@@ -1930,16 +1867,16 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV48Compiler20StringTableGenerator9serializeEPNS_12CompiledData4UnitE@Base 5.4.0
  _ZN3QV48Compiler20StringTableGeneratorC1Ev@Base 5.3.0
  _ZN3QV48Compiler20StringTableGeneratorC2Ev@Base 5.3.0
- _ZN3QV48FunctionC1EPNS_15ExecutionEngineEPNS_12CompiledData15CompilationUnitEPKNS3_8FunctionEPFyPNS_16ExecutionContextEPKhE@Base 5.3.0
- _ZN3QV48FunctionC2EPNS_15ExecutionEngineEPNS_12CompiledData15CompilationUnitEPKNS3_8FunctionEPFyPNS_16ExecutionContextEPKhE@Base 5.3.0
+ _ZN3QV48FunctionC1EPNS_15ExecutionEngineEPNS_12CompiledData15CompilationUnitEPKNS3_8FunctionEPFyS2_PKhE@Base 5.5.0
+ _ZN3QV48FunctionC2EPNS_15ExecutionEngineEPNS_12CompiledData15CompilationUnitEPKNS3_8FunctionEPFyS2_PKhE@Base 5.5.0
  _ZN3QV48FunctionD1Ev@Base 5.3.0
  _ZN3QV48FunctionD2Ev@Base 5.3.0
  _ZN3QV49ArrayData11static_vtblE@Base 5.4.0
  _ZN3QV49ArrayData16ensureAttributesEPNS_6ObjectE@Base 5.3.0
- _ZN3QV49ArrayData4sortEPNS_16ExecutionContextEPNS_6ObjectENS_8ValueRefEj@Base 5.4.0
+ _ZN3QV49ArrayData4sortEPNS_15ExecutionEngineEPNS_6ObjectERKNS_5ValueEj@Base 5.5.0
  _ZN3QV49ArrayData6appendEPNS_6ObjectEPNS_11ArrayObjectEj@Base 5.4.0
  _ZN3QV49ArrayData6insertEPNS_6ObjectEjb@Base 5.3.0
- _ZN3QV49ArrayData7reallocEPNS_6ObjectENS0_4TypeEjb@Base 5.4.0
+ _ZN3QV49ArrayData7reallocEPNS_6ObjectENS_4Heap9ArrayData4TypeEjb@Base 5.5.0
  _ZN3QV49Debugging13DebuggerAgent11addDebuggerEPNS0_8DebuggerE@Base 5.2.0~beta1 1
  _ZN3QV49Debugging13DebuggerAgent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.2.0~beta1 1
  _ZN3QV49Debugging13DebuggerAgent11qt_metacastEPKc@Base 5.2.0~beta1 1
@@ -2001,21 +1938,23 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN3QV49Profiling8ProfilerD0Ev@Base 5.3.0 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN3QV49Profiling8ProfilerD1Ev@Base 5.3.0 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN3QV49Profiling8ProfilerD2Ev@Base 5.3.0 1
+ _ZN3QV49WeakValue3setEPNS_15ExecutionEngineEPNS_4Heap4BaseE@Base 5.5.0
+ _ZN3QV49WeakValue3setEPNS_15ExecutionEngineERKNS_5ValueE@Base 5.5.0
+ _ZN3QV49WeakValue3setEPNS_15ExecutionEngineEy@Base 5.5.0
  _ZN3QV49WeakValue8markOnceEPNS_15ExecutionEngineE@Base 5.2.0~rc1 1
- _ZN3QV49WeakValueC1ENS_8ValueRefE@Base 5.2.0~beta1 1
  _ZN3QV49WeakValueC1ERKS0_@Base 5.2.0~beta1 1
- _ZN3QV49WeakValueC1Ey@Base 5.2.0~beta1 1
- _ZN3QV49WeakValueC2ENS_8ValueRefE@Base 5.2.0~beta1 1
  _ZN3QV49WeakValueC2ERKS0_@Base 5.2.0~beta1 1
- _ZN3QV49WeakValueC2Ey@Base 5.2.0~beta1 1
  _ZN3QV49WeakValueD1Ev@Base 5.2.0~beta1 1
  _ZN3QV49WeakValueD2Ev@Base 5.2.0~beta1 1
- _ZN3QV49WeakValueaSENS_8ValueRefE@Base 5.2.0~beta1 1
  _ZN3QV49WeakValueaSERKS0_@Base 5.2.0~beta1 1
- _ZN3QV49WeakValueaSERKy@Base 5.2.0~beta1 1
  _ZN5QmlIR16PropertyResolver6signalERK7QStringPbP7QObjectP15QQmlContextData@Base 5.3.0 1
  _ZN5QmlIR16PropertyResolver8propertyERK7QStringPbP7QObjectP15QQmlContextData@Base 5.3.0 1
  _ZN5QmlIR16QmlUnitGenerator8generateERNS_8DocumentE@Base 5.3.0
+ _ZN5QmlIR25ScriptDirectivesCollector10importFileERK7QStringS3_ii@Base 5.5.0
+ _ZN5QmlIR25ScriptDirectivesCollector12importModuleERK7QStringS3_S3_ii@Base 5.5.0
+ _ZN5QmlIR25ScriptDirectivesCollector13pragmaLibraryEv@Base 5.5.0
+ _ZN5QmlIR25ScriptDirectivesCollectorC1EPN6QQmlJS6EngineEPN3QV48Compiler15JSUnitGeneratorE@Base 5.5.0
+ _ZN5QmlIR25ScriptDirectivesCollectorC2EPN6QQmlJS6EngineEPN3QV48Compiler15JSUnitGeneratorE@Base 5.5.0
  _ZN5QmlIR6Object12appendSignalEPNS_6SignalE@Base 5.3.0
  _ZN5QmlIR6Object12insertSortedEPNS_7BindingE@Base 5.3.0
  _ZN5QmlIR6Object13appendBindingEPNS_7BindingEb@Base 5.3.0
@@ -2025,7 +1964,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN5QmlIR6Object4initEPN6QQmlJS10MemoryPoolEiiRKNS1_3AST14SourceLocationE@Base 5.3.0 1
  _ZN5QmlIR8Document19removeScriptPragmasER7QString@Base 5.3.0
  _ZN5QmlIR8Document21collectTypeReferencesEv@Base 5.3.0
- _ZN5QmlIR8Document21extractScriptMetaDataER7QStringPN6QQmlJS17DiagnosticMessageE@Base 5.3.0 1
  _ZN5QmlIR8DocumentC1Eb@Base 5.3.0
  _ZN5QmlIR8DocumentC2Eb@Base 5.3.0
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN5QmlIR8DocumentD1Ev@Base 5.3.0
@@ -2474,7 +2412,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS5Lexer12isOctalDigitEt@Base 5.3.0 1
  _ZN6QQmlJS5Lexer13isIdentLetterE5QChar@Base 5.3.0 1
  _ZN6QQmlJS5Lexer14isDecimalDigitEt@Base 5.3.0 1
- _ZN6QQmlJS5Lexer14scanDirectivesEPNS_10DirectivesE@Base 5.3.0 1
+ _ZN6QQmlJS5Lexer14scanDirectivesEPNS_10DirectivesEPNS_17DiagnosticMessageE@Base 5.5.0
  _ZN6QQmlJS5Lexer23isUnicodeEscapeSequenceEPK5QChar@Base 5.3.0 1
  _ZN6QQmlJS5Lexer24decodeHexEscapeCharacterEPb@Base 5.3.0 1
  _ZN6QQmlJS5Lexer28decodeUnicodeEscapeCharacterEPb@Base 5.3.0 1
@@ -2488,6 +2426,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN6QQmlJS6Engine10addCommentEiiii@Base 5.3.0 1
  _ZN6QQmlJS6Engine12newStringRefEPK5QChari@Base 5.3.0 1
  _ZN6QQmlJS6Engine12newStringRefERK7QString@Base 5.3.0 1
+ _ZN6QQmlJS6Engine13setDirectivesEPNS_10DirectivesE@Base 5.5.0
  _ZN6QQmlJS6Engine4poolEv@Base 5.3.0 1
  _ZN6QQmlJS6Engine7setCodeERK7QString@Base 5.3.0 1
  _ZN6QQmlJS6Engine8setLexerEPNS_5LexerE@Base 5.3.0 1
@@ -2679,8 +2618,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QJSValue17callAsConstructorERK5QListIS_E@Base 5.0.2
  _ZN8QJSValue4callERK5QListIS_E@Base 5.0.2
  _ZN8QJSValueC1ENS_12SpecialValueE@Base 5.0.2
- _ZN8QJSValueC1EP15QJSValuePrivate@Base 5.0.2 1
  _ZN8QJSValueC1EPKc@Base 5.0.2
+ _ZN8QJSValueC1EPN3QV415ExecutionEngineEy@Base 5.5.0
  _ZN8QJSValueC1ERK13QLatin1String@Base 5.0.2
  _ZN8QJSValueC1ERK7QString@Base 5.0.2
  _ZN8QJSValueC1ERKS_@Base 5.0.2
@@ -2689,8 +2628,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QJSValueC1Ei@Base 5.0.2
  _ZN8QJSValueC1Ej@Base 5.0.2
  _ZN8QJSValueC2ENS_12SpecialValueE@Base 5.0.2
- _ZN8QJSValueC2EP15QJSValuePrivate@Base 5.0.2 1
  _ZN8QJSValueC2EPKc@Base 5.0.2
+ _ZN8QJSValueC2EPN3QV415ExecutionEngineEy@Base 5.5.0
  _ZN8QJSValueC2ERK13QLatin1String@Base 5.0.2
  _ZN8QJSValueC2ERK7QString@Base 5.0.2
  _ZN8QJSValueC2ERKS_@Base 5.0.2
@@ -2713,7 +2652,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlData17isSignalConnectedEP24QAbstractDeclarativeDataPK7QObjecti@Base 5.0.2 1
  _ZN8QQmlData17signalHasEndpointEi@Base 5.0.2 1
  _ZN8QQmlData19disconnectNotifiersEv@Base 5.0.2 1
- _ZN8QQmlData19ensurePropertyCacheEP10QQmlEngineP7QObject@Base 5.2.1 1
+ _ZN8QQmlData19ensurePropertyCacheEP9QJSEngineP7QObject@Base 5.5.0
  _ZN8QQmlData20setPendingBindingBitEP7QObjecti@Base 5.0.2 1
  _ZN8QQmlData20setQueuedForDeletionEP7QObject@Base 5.0.2 1
  _ZN8QQmlData22clearPendingBindingBitEi@Base 5.0.2 1
@@ -2726,24 +2665,16 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlFile11isLocalFileERK7QString@Base 5.0.2
  _ZN8QQmlFile13isSynchronousERK4QUrl@Base 5.0.2
  _ZN8QQmlFile13isSynchronousERK7QString@Base 5.0.2
- _ZN8QQmlFile14bundleFileNameERK4QUrlP10QQmlEngine@Base 5.0.2
- _ZN8QQmlFile14bundleFileNameERK7QStringP10QQmlEngine@Base 5.0.2
  _ZN8QQmlFile15connectFinishedEP7QObjectPKc@Base 5.0.2
  _ZN8QQmlFile15connectFinishedEP7QObjecti@Base 5.0.2
- _ZN8QQmlFile16bundleFileExistsERK4QUrlP10QQmlEngine@Base 5.0.2
- _ZN8QQmlFile16bundleFileExistsERK7QStringP10QQmlEngine@Base 5.0.2
  _ZN8QQmlFile19urlToLocalFileOrQrcERK4QUrl@Base 5.0.2
  _ZN8QQmlFile19urlToLocalFileOrQrcERK7QString@Base 5.0.2
- _ZN8QQmlFile21bundleDirectoryExistsERK4QUrlP10QQmlEngine@Base 5.0.2
- _ZN8QQmlFile21bundleDirectoryExistsERK7QStringP10QQmlEngine@Base 5.0.2
  _ZN8QQmlFile23connectDownloadProgressEP7QObjectPKc@Base 5.0.2
  _ZN8QQmlFile23connectDownloadProgressEP7QObjecti@Base 5.0.2
  _ZN8QQmlFile4loadEP10QQmlEngineRK4QUrl@Base 5.0.2
  _ZN8QQmlFile4loadEP10QQmlEngineRK7QString@Base 5.0.2
  _ZN8QQmlFile5clearEP7QObject@Base 5.0.2
  _ZN8QQmlFile5clearEv@Base 5.0.2
- _ZN8QQmlFile8isBundleERK4QUrl@Base 5.0.2
- _ZN8QQmlFile8isBundleERK7QString@Base 5.0.2
  _ZN8QQmlFileC1EP10QQmlEngineRK4QUrl@Base 5.0.2
  _ZN8QQmlFileC1EP10QQmlEngineRK7QString@Base 5.0.2
  _ZN8QQmlFileC1Ev@Base 5.0.2
@@ -2835,16 +2766,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN9QQmlTimerD1Ev@Base 5.0.2 1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN9QQmlTimerD2Ev@Base 5.0.2 1
  _ZN9QV8Engine10startTimerERK7QString@Base 5.0.2 1
- _ZN9QV8Engine11fromVariantERK8QVariant@Base 5.0.2 1
- _ZN9QV8Engine11variantToJSERK8QVariant@Base 5.0.2 1
- _ZN9QV8Engine12freezeObjectEN3QV48ValueRefE@Base 5.2.0~beta1 1
- _ZN9QV8Engine12metaTypeToJSEiPKv@Base 5.0.2 1
+ _ZN9QV8Engine12freezeObjectERKN3QV45ValueE@Base 5.5.0
  _ZN9QV8Engine14callingContextEv@Base 5.0.2 1
- _ZN9QV8Engine14metaTypeFromJSEN3QV48ValueRefEiPv@Base 5.2.0~beta1 1
- _ZN9QV8Engine14qtObjectFromJSEN3QV48ValueRefE@Base 5.2.0~beta1 1
- _ZN9QV8Engine14variantMapToJSERK4QMapI7QString8QVariantE@Base 5.0.2 1
- _ZN9QV8Engine15objectToVariantEPN3QV46ObjectEP4QSetIS2_E@Base 5.4.0 1
- _ZN9QV8Engine15variantListToJSERK5QListI8QVariantE@Base 5.0.2 1
  _ZN9QV8Engine16initializeGlobalEv@Base 5.2.0~beta1 1
  _ZN9QV8Engine16setExtensionDataEiPNS_9DeletableE@Base 5.0.2 1
  _ZN9QV8Engine17registerExtensionEv@Base 5.0.2 1
@@ -2852,25 +2775,14 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN9QV8Engine18consoleCountHelperERK7QStringtt@Base 5.0.2 1
  _ZN9QV8Engine19initQmlGlobalObjectEv@Base 5.0.2 1
  _ZN9QV8Engine20networkAccessManagerEv@Base 5.0.2 1
- _ZN9QV8Engine22convertToNativeQObjectEN3QV48ValueRefERK10QByteArrayPPv@Base 5.2.0~beta1 1
  _ZN9QV8Engine6globalEv@Base 5.2.0~beta1 1
- _ZN9QV8Engine8toStringERK7QString@Base 5.2.0~beta1 1
  _ZN9QV8Engine9setEngineEP10QQmlEngine@Base 5.0.2 1
  _ZN9QV8Engine9stopTimerERK7QStringPb@Base 5.0.2 1
- _ZN9QV8Engine9toVariantEN3QV48ValueRefEibP4QSetIPNS0_6ObjectEE@Base 5.4.0 1
  _ZN9QV8EngineC1EP9QJSEngine@Base 5.2.0~beta1 1
  _ZN9QV8EngineC2EP9QJSEngine@Base 5.2.0~beta1 1
  _ZN9QV8EngineD0Ev@Base 5.0.2 1
  _ZN9QV8EngineD1Ev@Base 5.0.2 1
  _ZN9QV8EngineD2Ev@Base 5.0.2 1
- _ZNK10QQmlBundle4findEPK5QChari@Base 5.0.2 1
- _ZNK10QQmlBundle4findERK7QString@Base 5.0.2 1
- _ZNK10QQmlBundle4linkEPKNS_9FileEntryERK7QString@Base 5.0.2 1
- _ZNK10QQmlBundle5filesEv@Base 5.0.2 1
- _ZNK10QQmlBundle9FileEntry10isFileNameERK7QString@Base 5.0.2 1
- _ZNK10QQmlBundle9FileEntry8contentsEv@Base 5.0.2 1
- _ZNK10QQmlBundle9FileEntry8fileNameEv@Base 5.0.2 1
- _ZNK10QQmlBundle9FileEntry8fileSizeEv@Base 5.0.2 1
  _ZNK10QQmlEngine10metaObjectEv@Base 5.0.2
  _ZNK10QQmlEngine11rootContextEv@Base 5.0.2
  _ZNK10QQmlEngine13imageProviderERK7QString@Base 5.0.2
@@ -2974,7 +2886,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK13QQmlListModel6engineEv@Base 5.1.0 1
  _ZNK13QQmlListModel8rowCountERK11QModelIndex@Base 5.1.0 1
  _ZNK13QQmlListModel9roleNamesEv@Base 5.1.0 1
- _ZNK13QQmlValueType10metaObjectEv@Base 5.0.2 1
  _ZNK14QQmlExpression10expressionEv@Base 5.0.2
  _ZNK14QQmlExpression10lineNumberEv@Base 5.0.2
  _ZNK14QQmlExpression10metaObjectEv@Base 5.0.2
@@ -2987,6 +2898,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK14QQmlExpression7contextEv@Base 5.0.2
  _ZNK14QQmlExpression8hasErrorEv@Base 5.0.2
  _ZNK14QQmlMetaObject13propertyCacheEP17QQmlEnginePrivate@Base 5.0.2 1
+ _ZNK14QQmlMetaObject16methodReturnTypeERK16QQmlPropertyDataP10QByteArray@Base 5.5.0
+ _ZNK14QQmlMetaObject20methodParameterTypesEiR15QVarLengthArrayIiLi9EEP10QByteArray@Base 5.5.0
  _ZNK15QQmlApplication10metaObjectEv@Base 5.1.0 1
  _ZNK15QQmlApplication12organizationEv@Base 5.2.0~beta1 1
  _ZNK15QQmlApplication4nameEv@Base 5.1.0 1
@@ -2995,11 +2908,16 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK15QQmlBoundSignal10expressionEv@Base 5.0.2 1
  _ZNK15QQmlBoundSignal5indexEv@Base 5.0.2 1
  _ZNK15QQmlContextData12findObjectIdEPK7QObject@Base 5.0.2 1
+ _ZNK15QQmlContextData13propertyNamesEv@Base 5.5.0
+ _ZNK15QQmlContextData3urlEv@Base 5.5.0
+ _ZNK15QQmlContextData9urlStringEv@Base 5.5.0
  _ZNK15QQmlDebugServer10metaObjectEv@Base 5.0.2 1
  _ZNK15QQmlDebugServer12blockingModeEv@Base 5.0.2 1
  _ZNK15QQmlDebugServer12serviceNamesEv@Base 5.0.2 1
+ _ZNK15QQmlDebugServer13hasConnectionEv@Base 5.5.0
  _ZNK15QQmlDebugServer18hasDebuggingClientEv@Base 5.0.2 1
  _ZNK15QQmlDebugServer8servicesEv@Base 5.0.2 1
+ _ZNK15QQmlDebugServer9hasThreadEv@Base 5.5.0
  _ZNK15QQmlObjectModel10metaObjectEv@Base 5.1.0 1
  _ZNK15QQmlObjectModel5countEv@Base 5.1.0 1
  _ZNK15QQmlObjectModel7indexOfEP7QObjectS1_@Base 5.1.0 1
@@ -3081,16 +2999,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK17QQmlPropertyCache8propertyEi@Base 5.0.2 1
  _ZNK17QQmlPropertyCache8propertyI7QStringEEP16QQmlPropertyDataRKT_P7QObjectP15QQmlContextData@Base 5.2.0~beta1 1
  _ZNK17QQmlPropertyCache9classNameEv@Base 5.0.2 1
- _ZNK17QQmlRectValueType10metaObjectEv@Base 5.0.2 1
- _ZNK17QQmlRectValueType1xEv@Base 5.0.2 1
- _ZNK17QQmlRectValueType1yEv@Base 5.0.2 1
- _ZNK17QQmlRectValueType5widthEv@Base 5.0.2 1
- _ZNK17QQmlRectValueType6heightEv@Base 5.0.2 1
- _ZNK17QQmlRectValueType8toStringEv@Base 5.0.2 1
- _ZNK17QQmlSizeValueType10metaObjectEv@Base 5.0.2 1
- _ZNK17QQmlSizeValueType5widthEv@Base 5.0.2 1
- _ZNK17QQmlSizeValueType6heightEv@Base 5.0.2 1
- _ZNK17QQmlSizeValueType8toStringEv@Base 5.0.2 1
  _ZNK17QQmlVMEMetaObject11aliasTargetEiPP7QObjectPiS3_@Base 5.0.2 1
  _ZNK17QQmlVMEMetaObject26getQObjectGuardForPropertyEi@Base 5.0.2 1
  _ZNK18QAnimationGroupJob13debugChildrenE6QDebug@Base 5.3.0 1
@@ -3105,33 +3013,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK18QQmlOpenMetaObject6objectEv@Base 5.0.2 1
  _ZNK18QQmlOpenMetaObject6parentEv@Base 5.0.2 1
  _ZNK18QQmlOpenMetaObject8hasValueEi@Base 5.0.2 1
- _ZNK18QQmlPointValueType10metaObjectEv@Base 5.0.2 1
- _ZNK18QQmlPointValueType1xEv@Base 5.0.2 1
- _ZNK18QQmlPointValueType1yEv@Base 5.0.2 1
- _ZNK18QQmlPointValueType8toStringEv@Base 5.0.2 1
- _ZNK18QQmlRectFValueType10metaObjectEv@Base 5.0.2 1
- _ZNK18QQmlRectFValueType1xEv@Base 5.0.2 1
- _ZNK18QQmlRectFValueType1yEv@Base 5.0.2 1
- _ZNK18QQmlRectFValueType5widthEv@Base 5.0.2 1
- _ZNK18QQmlRectFValueType6heightEv@Base 5.0.2 1
- _ZNK18QQmlRectFValueType8toStringEv@Base 5.0.2 1
- _ZNK18QQmlSizeFValueType10metaObjectEv@Base 5.0.2 1
- _ZNK18QQmlSizeFValueType5widthEv@Base 5.0.2 1
- _ZNK18QQmlSizeFValueType6heightEv@Base 5.0.2 1
- _ZNK18QQmlSizeFValueType8toStringEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType10metaObjectEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType11bezierCurveEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType4typeEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType6periodEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType8toStringEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType9amplitudeEv@Base 5.0.2 1
- _ZNK19QQmlEasingValueType9overshootEv@Base 5.0.2 1
  _ZNK19QQmlExtensionPlugin10metaObjectEv@Base 5.0.2
  _ZNK19QQmlExtensionPlugin7baseUrlEv@Base 5.1.0
- _ZNK19QQmlPointFValueType10metaObjectEv@Base 5.0.2 1
- _ZNK19QQmlPointFValueType1xEv@Base 5.0.2 1
- _ZNK19QQmlPointFValueType1yEv@Base 5.0.2 1
- _ZNK19QQmlPointFValueType8toStringEv@Base 5.0.2 1
  _ZNK19QQmlProfilerService10metaObjectEv@Base 5.3.0 1
  _ZNK19QQmlPropertyPrivate11isValueTypeEv@Base 5.0.2 1
  _ZNK19QQmlPropertyPrivate11signalIndexEv@Base 5.0.2 1
@@ -3172,6 +3055,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK28QSequentialAnimationGroupJob28animationActualTotalDurationEP21QAbstractAnimationJob@Base 5.0.2 1
  _ZNK28QSequentialAnimationGroupJob5atEndEv@Base 5.0.2 1
  _ZNK28QSequentialAnimationGroupJob8durationEv@Base 5.0.2 1
+ _ZNK3QV411ArrayBuffer11asByteArrayEv@Base 5.5.0
  _ZNK3QV412CompiledData7Binding13valueAsStringEPKNS0_4UnitE@Base 5.3.0
  _ZNK3QV412CompiledData7Binding19valueAsScriptStringEPKNS0_4UnitE@Base 5.3.0
  _ZNK3QV413MemoryManager10getUsedMemEv@Base 5.4.0 1
@@ -3179,7 +3063,11 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV413MemoryManager15getAllocatedMemEv@Base 5.4.0 1
  _ZNK3QV413MemoryManager16getLargeItemsMemEv@Base 5.4.0 1
  _ZNK3QV413MemoryManager18collectFromJSStackEv@Base 5.2.0~beta1 1
+ _ZNK3QV413MemoryManager6engineEv@Base 5.5.0
  _ZNK3QV413MemoryManager9dumpStatsEv@Base 5.2.0~beta1 1
+ _ZNK3QV414FunctionObject14sourceLocationEv@Base 5.5.0
+ _ZNK3QV414FunctionObject15isBoundFunctionEv@Base 5.5.0
+ _ZNK3QV414FunctionObject9isBindingEv@Base 5.5.0
  _ZNK3QV414QObjectWrapper12findPropertyEPNS_15ExecutionEngineEP15QQmlContextDataPNS_6StringENS0_12RevisionModeEP16QQmlPropertyData@Base 5.2.0~beta1 1
  _ZNK3QV414QmlListWrapper9toVariantEv@Base 5.2.0~beta1
  _ZNK3QV414QmlTypeWrapper11isSingletonEv@Base 5.2.0~rc1
@@ -3188,15 +3076,22 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV415ExecutionEngine10stackTraceEi@Base 5.2.0~beta1
  _ZNK3QV415ExecutionEngine16qmlContextObjectEv@Base 5.2.0~beta1
  _ZNK3QV415ExecutionEngine17currentStackFrameEv@Base 5.2.0~beta1
- _ZNK3QV419QmlValueTypeWrapper9toVariantEv@Base 5.2.0~beta1
+ _ZNK3QV415ExecutionEngine8jsEngineEv@Base 5.5.0
+ _ZNK3QV415ExecutionEngine9qmlEngineEv@Base 5.5.0
+ _ZNK3QV416ExecutionContext17getFunctionObjectEv@Base 5.5.0
+ _ZNK3QV420QQmlValueTypeWrapper5writeEP7QObjecti@Base 5.5.0
+ _ZNK3QV420QQmlValueTypeWrapper6typeIdEv@Base 5.5.0
+ _ZNK3QV420QQmlValueTypeWrapper8toGadgetEPv@Base 5.5.0
+ _ZNK3QV420QQmlValueTypeWrapper9toVariantEv@Base 5.5.0
  _ZNK3QV42IR9Optimizer17lifeTimeIntervalsEv@Base 5.3.1 1
+ _ZNK3QV44Heap6String14simplifyStringEv@Base 5.5.0
+ _ZNK3QV44Heap6String15createHashValueEv@Base 5.5.0
  _ZNK3QV44Moth20InstructionSelection11squeezeCodeEv@Base 5.3.0 1
  _ZNK3QV45Value12toNumberImplEv@Base 5.2.0~beta1
  _ZNK3QV45Value16toQStringNoThrowEv@Base 5.2.0~beta1
  (optional=inline|arch=!armhf !hppa !hurd-i386 !mips !mipsel !x32)_ZNK3QV45Value2asINS_14QObjectWrapperEEEPT_v@Base 5.2.0~beta1
- _ZNK3QV45Value8toObjectEPNS_16ExecutionContextE@Base 5.2.0~beta1
+ _ZNK3QV45Value8toObjectEPNS_15ExecutionEngineE@Base 5.5.0
  _ZNK3QV45Value8toStringEPNS_15ExecutionEngineE@Base 5.3.0
- _ZNK3QV45Value8toStringEPNS_16ExecutionContextE@Base 5.2.0~beta1
  _ZNK3QV45Value8toUInt16Ev@Base 5.2.0~beta1
  _ZNK3QV45Value9sameValueES0_@Base 5.2.0~beta1
  _ZNK3QV45Value9toIntegerEv@Base 5.2.0~beta1
@@ -3207,12 +3102,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV46Object14hasOwnPropertyEj@Base 5.3.0
  _ZNK3QV46Object25__getPropertyDescriptor__EPNS_6StringEPNS_18PropertyAttributesE@Base 5.4.0
  _ZNK3QV46Object25__getPropertyDescriptor__EjPNS_18PropertyAttributesE@Base 5.2.0~beta1
- _ZNK3QV46String15createHashValueEv@Base 5.2.0~beta1
- _ZNK3QV46String18makeIdentifierImplEv@Base 5.2.0~beta1
- _ZNK3QV46String4Data14simplifyStringEv@Base 5.4.0
- _ZNK3QV46String6equalsEPS0_@Base 5.4.0
+ _ZNK3QV46String18makeIdentifierImplEPNS_15ExecutionEngineE@Base 5.5.0
  _ZNK3QV46String6toUIntEPb@Base 5.2.0~beta1
- _ZNK3QV47Managed6engineEv@Base 5.2.0~beta1 1
  _ZNK3QV47Managed9classNameEv@Base 5.2.0~beta1 1
  _ZNK3QV48Compiler20StringTableGenerator11getStringIdERK7QString@Base 5.3.0
  _ZNK3QV49Debugging13DebuggerAgent10metaObjectEv@Base 5.2.0~beta1 1
@@ -3243,6 +3134,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK6QQmlJS5Lexer7qmlModeEv@Base 5.3.0 1
  _ZNK6QQmlJS5Lexer9errorCodeEv@Base 5.3.0 1
  _ZNK6QQmlJS5Lexer9tokenTextEv@Base 5.3.0 1
+ _ZNK6QQmlJS6Engine10directivesEv@Base 5.5.0
  _ZNK6QQmlJS6Engine5lexerEv@Base 5.3.0 1
  _ZNK6QQmlJS6Engine8commentsEv@Base 5.3.0 1
  _ZNK6QQmlJS7Codegen6errorsEv@Base 5.2.0~beta1 1
@@ -3286,7 +3178,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK8QQmlFile6statusEv@Base 5.0.2
  _ZNK8QQmlFile7isErrorEv@Base 5.0.2
  _ZNK8QQmlFile7isReadyEv@Base 5.0.2
- _ZNK8QQmlFile8metaDataERK7QString@Base 5.0.2
  _ZNK8QQmlFile9isLoadingEv@Base 5.0.2
  _ZNK8QQmlType10createSizeEv@Base 5.0.2 1
  _ZNK8QQmlType10metaObjectEv@Base 5.0.2 1
@@ -3345,14 +3236,14 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK9QQmlTimer8intervalEv@Base 5.0.2 1
  _ZNK9QQmlTimer9isRunningEv@Base 5.0.2 1
  _ZNK9QV8Engine12illegalNamesEv@Base 5.0.2 1
+ (optional=templinst)_ZNKSt6vectorIbSaIbEE2atEm@Base 5.5.0
  (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32)_ZNSt13_Bvector_baseISaIbEE13_M_deallocateEv@Base 5.4.2
- _ZNSt6vectorIPKN3QV46String4DataESaIS4_EE12emplace_backIIS4_EEEvDpOT_@Base 5.4.0
- _ZNSt6vectorIPKN3QV46String4DataESaIS4_EE12emplace_backIJS4_EEEvDpOT_@Base 5.4.0
+ (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE12emplace_backIIS4_EEEvDpOT_@Base 5.5.0
+ (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE12emplace_backIJS4_EEEvDpOT_@Base 5.5.0
+ (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE19_M_emplace_back_auxIIS4_EEEvDpOT_@Base 5.5.0
+ (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE19_M_emplace_back_auxIJS4_EEEvDpOT_@Base 5.5.0
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZNSt6vectorIPKN3QV46String4DataESaIS4_EE19_M_emplace_back_auxIIRKS4_EEEvDpOT_@Base 5.4.2
- _ZNSt6vectorIPKN3QV46String4DataESaIS4_EE19_M_emplace_back_auxIIS4_EEEvDpOT_@Base 5.4.0
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZNSt6vectorIPKN3QV46String4DataESaIS4_EE19_M_emplace_back_auxIJRKS4_EEEvDpOT_@Base 5.4.2
- _ZNSt6vectorIPKN3QV46String4DataESaIS4_EE19_M_emplace_back_auxIJS4_EEEvDpOT_@Base 5.4.0
- (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32|subst)_ZNSt6vectorIS_IbSaIbEESaIS1_EE17_M_default_appendE{size_t}@Base 5.4.2
  (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32|subst)_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_default_appendE{size_t}@Base 5.4.2
  (subst|optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZNSt6vectorIS_IiSaIiEESaIS1_EE6resizeE{size_t}@Base 5.4.2
  (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32|subst)_ZNSt6vectorIbSaIbEE13_M_reallocateE{size_t}@Base 5.4.2
@@ -3363,8 +3254,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (subst)_ZNSt6vectorIbSaIbEEC2E{size_t}RKbRKS0_@Base 5.4.0
  (optional=templinst|arch=amd64 armhf i386)_ZNSt6vectorIcSaIcEE19_M_emplace_back_auxIIRKcEEEvDpOT_@Base 5.4.2
  (optional=templinst|arch=amd64 armhf i386)_ZNSt6vectorIcSaIcEE19_M_emplace_back_auxIJRKcEEEvDpOT_@Base 5.4.2
- _ZNSt6vectorIiSaIiEE12emplace_backIIiEEEvDpOT_@Base 5.4.0
- _ZNSt6vectorIiSaIiEE12emplace_backIJiEEEvDpOT_@Base 5.4.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE14_M_fill_assignE{size_t}RKi@Base 5.4.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPiS1_EE{size_t}RKi@Base 5.2.1
  (optional=templinst|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIIRKiEEEvDpOT_@Base 5.2.1
@@ -3373,7 +3262,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Base 5.3.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE6resizeE{size_t}RKi@Base 5.4.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Base 5.2.1
- (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32)_ZNSt6vectorIiSaIiEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPiS1_EE@Base 5.4.2
  (optional=templinst)_ZNSt6vectorIiSaIiEEC1ERKS1_@Base 5.2.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEEC1E{size_t}RKiRKS0_@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEC2ERKS1_@Base 5.2.1
@@ -3391,8 +3279,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Base 5.4.2
  (optional=templinst|arch=amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32)_ZNSt6vectorItSaItEE6insertEN9__gnu_cxx17__normal_iteratorIPKtS1_EERS4_@Base 5.4.2
  (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips mipsel powerpc)_ZSt4findISt13_Bit_iteratorbET_S1_S1_RKT0_@Base 5.4.2
+ (optional=templinst)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Base 5.5.0
  (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
- _ZTI10QQmlBundle@Base 5.0.2 1
  _ZTI10QQmlEngine@Base 5.0.2
  _ZTI11QMetaObject@Base 5.0.2
  _ZTI11QQmlBinding@Base 5.0.2 1
@@ -3406,13 +3294,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTI13QQmlListModel@Base 5.1.0 1
  _ZTI13QQmlValueType@Base 5.0.2 1
  _ZTI14QQmlExpression@Base 5.0.2
- _ZTI15QJSValuePrivate@Base 5.2.0~beta1 1
  _ZTI15QQmlApplication@Base 5.1.0 1
  _ZTI15QQmlBoundSignal@Base 5.0.2 1
  _ZTI15QQmlDebugServer@Base 5.0.2 1
  _ZTI15QQmlGuiProvider@Base 5.0.2 1
  _ZTI15QQmlObjectModel@Base 5.1.0 1
  _ZTI15QQmlPropertyMap@Base 5.0.2
+ _ZTI16QJSEnginePrivate@Base 5.5.0
  _ZTI16QQmlCustomParser@Base 5.0.2 1
  _ZTI16QQmlDebugService@Base 5.0.2 1
  _ZTI16QQmlFileSelector@Base 5.2.0~beta1
@@ -3422,20 +3310,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTI17QQmlEnginePrivate@Base 5.0.2 1
  _ZTI17QQmlInstanceModel@Base 5.1.0 1
  _ZTI17QQmlPropertyCache@Base 5.0.2 1
- _ZTI17QQmlRectValueType@Base 5.0.2 1
- _ZTI17QQmlSizeValueType@Base 5.0.2 1
  _ZTI17QQmlVMEMetaObject@Base 5.0.2 1
  _ZTI18QAnimationGroupJob@Base 5.0.2 1
  _ZTI18QPauseAnimationJob@Base 5.0.2 1
  _ZTI18QQmlAnimationTimer@Base 5.0.2 1
  _ZTI18QQmlOpenMetaObject@Base 5.0.2 1
- _ZTI18QQmlPointValueType@Base 5.0.2 1
- _ZTI18QQmlRectFValueType@Base 5.0.2 1
- _ZTI18QQmlSizeFValueType@Base 5.0.2 1
  _ZTI19QQmlAbstractBinding@Base 5.0.2 1
- _ZTI19QQmlEasingValueType@Base 5.0.2 1
  _ZTI19QQmlExtensionPlugin@Base 5.0.2
- _ZTI19QQmlPointFValueType@Base 5.0.2 1
  _ZTI19QQmlProfilerService@Base 5.0.2 1
  _ZTI19QQmlPropertyPrivate@Base 5.0.2 1
  _ZTI20QQmlComponentPrivate@Base 5.0.2 1
@@ -3477,7 +3358,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTIN17QQmlEnginePrivate9DeletableE@Base 5.0.2 1
  _ZTIN3QV412CompiledData15CompilationUnitE@Base 5.2.0~beta1
  _ZTIN3QV415EvalISelFactoryE@Base 5.3.0 1
- _ZTIN3QV422PersistentValuePrivateE@Base 5.2.0~beta1
  _ZTIN3QV424EvalInstructionSelectionE@Base 5.3.0 1
  _ZTIN3QV42IR9IRDecoderE@Base 5.3.0 1
  (arch=amd64 armhf i386)_ZTIN3QV43JIT11ISelFactoryE@Base 5.3.0 1
@@ -3488,8 +3368,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTIN3QV49Debugging8Debugger3JobE@Base 5.2.0~rc1 1
  _ZTIN3QV49Debugging8Debugger9CollectorE@Base 5.2.0~rc1 1
  _ZTIN3QV49Profiling8ProfilerE@Base 5.3.0 1
+ _ZTIN5QmlIR25ScriptDirectivesCollectorE@Base 5.5.0
  _ZTIN5QmlIR9IRBuilderE@Base 5.3.0
  _ZTIN5QmlIR9JSCodeGenE@Base 5.3.0
+ _ZTIN6QQmlJS10DirectivesE@Base 5.5.0
  _ZTIN6QQmlJS3AST10CaseClauseE@Base 5.3.0 1
  _ZTIN6QQmlJS3AST10ExpressionE@Base 5.3.0 1
  _ZTIN6QQmlJS3AST11CaseClausesE@Base 5.3.0 1
@@ -3594,7 +3476,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTIN6QQmlJS7CodegenE@Base 5.2.0~beta1 1
  _ZTIN6QQmlJS7ManagedE@Base 5.3.0 1
  _ZTIN9QV8Engine9DeletableE@Base 5.0.2 1
- _ZTS10QQmlBundle@Base 5.0.2 1
  _ZTS10QQmlEngine@Base 5.0.2
  _ZTS11QMetaObject@Base 5.0.2
  _ZTS11QQmlBinding@Base 5.0.2 1
@@ -3608,13 +3489,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTS13QQmlListModel@Base 5.1.0 1
  _ZTS13QQmlValueType@Base 5.0.2 1
  _ZTS14QQmlExpression@Base 5.0.2
- _ZTS15QJSValuePrivate@Base 5.2.0~beta1 1
  _ZTS15QQmlApplication@Base 5.1.0 1
  _ZTS15QQmlBoundSignal@Base 5.0.2 1
  _ZTS15QQmlDebugServer@Base 5.0.2 1
  _ZTS15QQmlGuiProvider@Base 5.0.2 1
  _ZTS15QQmlObjectModel@Base 5.1.0 1
  _ZTS15QQmlPropertyMap@Base 5.0.2
+ _ZTS16QJSEnginePrivate@Base 5.5.0
  _ZTS16QQmlCustomParser@Base 5.0.2 1
  _ZTS16QQmlDebugService@Base 5.0.2 1
  _ZTS16QQmlFileSelector@Base 5.2.0~beta1
@@ -3624,20 +3505,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTS17QQmlEnginePrivate@Base 5.0.2 1
  _ZTS17QQmlInstanceModel@Base 5.1.0 1
  _ZTS17QQmlPropertyCache@Base 5.0.2 1
- _ZTS17QQmlRectValueType@Base 5.0.2 1
- _ZTS17QQmlSizeValueType@Base 5.0.2 1
  _ZTS17QQmlVMEMetaObject@Base 5.0.2 1
  _ZTS18QAnimationGroupJob@Base 5.0.2 1
  _ZTS18QPauseAnimationJob@Base 5.0.2 1
  _ZTS18QQmlAnimationTimer@Base 5.0.2 1
  _ZTS18QQmlOpenMetaObject@Base 5.0.2 1
- _ZTS18QQmlPointValueType@Base 5.0.2 1
- _ZTS18QQmlRectFValueType@Base 5.0.2 1
- _ZTS18QQmlSizeFValueType@Base 5.0.2 1
  _ZTS19QQmlAbstractBinding@Base 5.0.2 1
- _ZTS19QQmlEasingValueType@Base 5.0.2 1
  _ZTS19QQmlExtensionPlugin@Base 5.0.2
- _ZTS19QQmlPointFValueType@Base 5.0.2 1
  _ZTS19QQmlProfilerService@Base 5.0.2 1
  _ZTS19QQmlPropertyPrivate@Base 5.0.2 1
  _ZTS20QQmlComponentPrivate@Base 5.0.2 1
@@ -3679,7 +3553,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTSN17QQmlEnginePrivate9DeletableE@Base 5.0.2 1
  _ZTSN3QV412CompiledData15CompilationUnitE@Base 5.2.0~beta1
  _ZTSN3QV415EvalISelFactoryE@Base 5.3.0 1
- _ZTSN3QV422PersistentValuePrivateE@Base 5.2.0~beta1
  _ZTSN3QV424EvalInstructionSelectionE@Base 5.3.0 1
  _ZTSN3QV42IR9IRDecoderE@Base 5.3.0 1
  (arch=amd64 armhf i386)_ZTSN3QV43JIT11ISelFactoryE@Base 5.3.0 1
@@ -3690,8 +3563,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTSN3QV49Debugging8Debugger3JobE@Base 5.2.0~rc1 1
  _ZTSN3QV49Debugging8Debugger9CollectorE@Base 5.2.0~rc1 1
  _ZTSN3QV49Profiling8ProfilerE@Base 5.3.0 1
+ _ZTSN5QmlIR25ScriptDirectivesCollectorE@Base 5.5.0
  _ZTSN5QmlIR9IRBuilderE@Base 5.3.0
  _ZTSN5QmlIR9JSCodeGenE@Base 5.3.0
+ _ZTSN6QQmlJS10DirectivesE@Base 5.5.0
  _ZTSN6QQmlJS3AST10CaseClauseE@Base 5.3.0 1
  _ZTSN6QQmlJS3AST10ExpressionE@Base 5.3.0 1
  _ZTSN6QQmlJS3AST11CaseClausesE@Base 5.3.0 1
@@ -3808,13 +3683,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTV13QQmlListModel@Base 5.1.0 1
  _ZTV13QQmlValueType@Base 5.0.2 1
  _ZTV14QQmlExpression@Base 5.0.2
- _ZTV15QJSValuePrivate@Base 5.2.0~beta1 1
  _ZTV15QQmlApplication@Base 5.1.0 1
  _ZTV15QQmlBoundSignal@Base 5.0.2 1
  _ZTV15QQmlDebugServer@Base 5.0.2 1
  _ZTV15QQmlGuiProvider@Base 5.0.2 1
  _ZTV15QQmlObjectModel@Base 5.1.0 1
  _ZTV15QQmlPropertyMap@Base 5.0.2
+ _ZTV16QJSEnginePrivate@Base 5.5.0
  _ZTV16QQmlCustomParser@Base 5.0.2 1
  _ZTV16QQmlDebugService@Base 5.0.2 1
  _ZTV16QQmlFileSelector@Base 5.2.0~beta1
@@ -3824,19 +3699,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTV17QQmlEnginePrivate@Base 5.0.2 1
  _ZTV17QQmlInstanceModel@Base 5.1.0 1
  _ZTV17QQmlPropertyCache@Base 5.0.2 1
- _ZTV17QQmlRectValueType@Base 5.0.2 1
- _ZTV17QQmlSizeValueType@Base 5.0.2 1
  _ZTV17QQmlVMEMetaObject@Base 5.0.2 1
  _ZTV18QAnimationGroupJob@Base 5.0.2 1
  _ZTV18QPauseAnimationJob@Base 5.0.2 1
  _ZTV18QQmlAnimationTimer@Base 5.0.2 1
  _ZTV18QQmlOpenMetaObject@Base 5.0.2 1
- _ZTV18QQmlPointValueType@Base 5.0.2 1
- _ZTV18QQmlRectFValueType@Base 5.0.2 1
- _ZTV18QQmlSizeFValueType@Base 5.0.2 1
- _ZTV19QQmlEasingValueType@Base 5.0.2 1
  _ZTV19QQmlExtensionPlugin@Base 5.0.2
- _ZTV19QQmlPointFValueType@Base 5.0.2 1
  _ZTV19QQmlProfilerService@Base 5.0.2 1
  _ZTV19QQmlPropertyPrivate@Base 5.0.2 1
  _ZTV20QQmlComponentPrivate@Base 5.0.2 1
@@ -3878,7 +3746,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZTVN17QQmlEnginePrivate9DeletableE@Base 5.4.2 1
  _ZTVN3QV412CompiledData15CompilationUnitE@Base 5.2.0~beta1
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZTVN3QV415EvalISelFactoryE@Base 5.4.2 1
- _ZTVN3QV422PersistentValuePrivateE@Base 5.2.0~beta1
  _ZTVN3QV424EvalInstructionSelectionE@Base 5.3.0 1
  _ZTVN3QV42IR9IRDecoderE@Base 5.3.0 1
  (arch=amd64 armhf i386)_ZTVN3QV43JIT11ISelFactoryE@Base 5.3.0 1
@@ -3889,8 +3756,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZTVN3QV49Debugging8Debugger3JobE@Base 5.4.2 1
  _ZTVN3QV49Debugging8Debugger9CollectorE@Base 5.2.0~rc1 1
  _ZTVN3QV49Profiling8ProfilerE@Base 5.3.0 1
+ _ZTVN5QmlIR25ScriptDirectivesCollectorE@Base 5.5.0
  _ZTVN5QmlIR9IRBuilderE@Base 5.3.0
  _ZTVN5QmlIR9JSCodeGenE@Base 5.3.0
+ _ZTVN6QQmlJS10DirectivesE@Base 5.5.0
  _ZTVN6QQmlJS3AST10CaseClauseE@Base 5.3.0 1
  _ZTVN6QQmlJS3AST10ExpressionE@Base 5.3.0 1
  _ZTVN6QQmlJS3AST11CaseClausesE@Base 5.3.0 1
@@ -3998,6 +3867,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZZN9QMetaType17registerConverterI8QJSValue11QStringListPFS2_RKS1_EEEbT1_E1f@Base 5.4.0
  _ZZN9QMetaType17registerConverterI8QJSValue4QMapI7QString8QVariantEPFS5_RKS1_EEEbT1_E1f@Base 5.4.0
  _ZZN9QMetaType17registerConverterI8QJSValue5QListI8QVariantEPFS4_RKS1_EEEbT1_E1f@Base 5.4.0
+ _Zls6QDebugPK21QAbstractAnimationJob@Base 5.5.0
  _Zls6QDebugRK13QQmlChangeSet@Base 5.1.0 1
  _Zls6QDebugRK9QQmlError@Base 5.0.2
  _Zls6QDebugRKN13QQmlChangeSet6ChangeE@Base 5.1.0 1
@@ -4021,10 +3891,17 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (c++)"non-virtual thunk to QQmlTimer::classBegin()@Base" 5.0.2
  (c++)"non-virtual thunk to QQmlTimer::componentComplete()@Base" 5.0.2
  (c++|optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)"non-virtual thunk to QQmlTimer::~QQmlTimer()@Base" 5.0.2
+ (c++)"non-virtual thunk to QQmlValueType::metaCall(QObject*, QMetaObject::Call, int, void**)@Base" 5.5.0
+ (c++)"non-virtual thunk to QQmlValueType::objectDestroyed(QObject*)@Base" 5.5.0
+ (c++)"non-virtual thunk to QQmlValueType::toDynamicMetaObject(QObject*)@Base" 5.5.0
+ (c++)"non-virtual thunk to QQmlValueType::~QQmlValueType()@Base" 5.5.0
  (c++|arch=amd64 armhf i386)"non-virtual thunk to QV4::JIT::InstructionSelection::backendCompileStep()@Base" 5.3.0
  (c++|arch=amd64 armhf i386)"non-virtual thunk to QV4::JIT::InstructionSelection::run(int)@Base" 5.3.0
  (c++|arch=amd64 armhf i386)"non-virtual thunk to QV4::JIT::InstructionSelection::~InstructionSelection()@Base" 5.3.0
  (c++)"non-virtual thunk to QV4::Moth::InstructionSelection::backendCompileStep()@Base" 5.3.0
  (c++)"non-virtual thunk to QV4::Moth::InstructionSelection::run(int)@Base" 5.3.0
  (c++)"non-virtual thunk to QV4::Moth::InstructionSelection::~InstructionSelection()@Base" 5.3.0
+ qt_v4DebuggerHook@Base 5.5.0
+ qt_v4ResolvePendingBreakpointsHook@Base 5.5.0
  qt_v4StackTrace@Base 5.3.0
+ qt_v4TriggeredBreakpointHook@Base 5.5.0

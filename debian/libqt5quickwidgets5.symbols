@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.1 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
 | libqt5quickwidgets5 #MINVER#, qtdeclarative-abi-5-4-1
  _ZN12QQuickWidget10setContentERK4QUrlP13QQmlComponentP7QObject@Base 5.3.0
@@ -8,12 +8,15 @@ libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
  _ZN12QQuickWidget11qt_metacastEPKc@Base 5.3.0
  _ZN12QQuickWidget11resizeEventEP12QResizeEvent@Base 5.3.0
  _ZN12QQuickWidget12focusInEventEP11QFocusEvent@Base 5.3.1
+ _ZN12QQuickWidget13dragMoveEventEP14QDragMoveEvent@Base 5.5.0
  _ZN12QQuickWidget13focusOutEventEP11QFocusEvent@Base 5.3.1
  _ZN12QQuickWidget13keyPressEventEP9QKeyEvent@Base 5.3.0
  _ZN12QQuickWidget13setClearColorERK6QColor@Base 5.4.0
  _ZN12QQuickWidget13setResizeModeENS_10ResizeModeE@Base 5.3.0
  _ZN12QQuickWidget13statusChangedENS_6StatusE@Base 5.3.0
  _ZN12QQuickWidget13triggerUpdateEv@Base 5.3.0
+ _ZN12QQuickWidget14dragEnterEventEP15QDragEnterEvent@Base 5.5.0
+ _ZN12QQuickWidget14dragLeaveEventEP15QDragLeaveEvent@Base 5.5.0
  _ZN12QQuickWidget14mouseMoveEventEP11QMouseEvent@Base 5.3.0
  _ZN12QQuickWidget15continueExecuteEv@Base 5.3.0
  _ZN12QQuickWidget15keyReleaseEventEP9QKeyEvent@Base 5.3.0
@@ -25,6 +28,7 @@ libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
  _ZN12QQuickWidget23createFramebufferObjectEv@Base 5.3.0
  _ZN12QQuickWidget24destroyFramebufferObjectEv@Base 5.3.0
  _ZN12QQuickWidget5eventEP6QEvent@Base 5.3.0
+ _ZN12QQuickWidget9dropEventEP10QDropEvent@Base 5.5.0
  _ZN12QQuickWidget9hideEventEP10QHideEvent@Base 5.3.0
  _ZN12QQuickWidget9setFormatERK14QSurfaceFormat@Base 5.3.0
  _ZN12QQuickWidget9setSourceERK4QUrl@Base 5.3.0
@@ -42,6 +46,7 @@ libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
  _ZNK12QQuickWidget10resizeModeEv@Base 5.3.0
  _ZNK12QQuickWidget10rootObjectEv@Base 5.3.0
  _ZNK12QQuickWidget11initialSizeEv@Base 5.3.0
+ _ZNK12QQuickWidget11quickWindowEv@Base 5.5.0
  _ZNK12QQuickWidget11rootContextEv@Base 5.3.0
  _ZNK12QQuickWidget15grabFramebufferEv@Base 5.4.0
  _ZNK12QQuickWidget6engineEv@Base 5.3.0

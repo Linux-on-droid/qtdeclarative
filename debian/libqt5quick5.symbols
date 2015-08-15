@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.2 alpha amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-4-1
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Base 5.4.0
@@ -336,6 +336,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN12QQuickPixmap23connectDownloadProgressEP7QObjecti@Base 5.0.2 1
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrl6QFlagsINS_6OptionEE@Base 5.0.2 1
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrl@Base 5.0.2 1
+ _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QSize6QFlagsINS_6OptionEE13AutoTransform@Base 5.5.0
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QSize6QFlagsINS_6OptionEE@Base 5.0.2 1
  _ZN12QQuickPixmap4loadEP10QQmlEngineRK4QUrlRK5QSize@Base 5.0.2 1
  _ZN12QQuickPixmap5clearEP7QObject@Base 5.0.2 1
@@ -544,11 +545,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler12sendMessagesExR5QListI10QByteArrayE@Base 5.3.0 1
  _ZN14QQuickProfiler14reportDataImplEv@Base 5.3.0 1
  _ZN14QQuickProfiler15featuresEnabledE@Base 5.4.0 1
- (optional=templinst|arch=alpha amd64 arm64 hppa kfreebsd-amd64 ppc64 x32)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2EEEvxxxxx@Base 5.4.2 1
- (optional=templinst|arch=amd64 arm64 armel armhf hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64el s390x x32)_ZN14QQuickProfiler15sceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE6EEEvxxxxx@Base 5.4.2
  _ZN14QQuickProfiler16staticMetaObjectE@Base 5.3.0 1
  _ZN14QQuickProfiler17stopProfilingImplEv@Base 5.3.0 1
  _ZN14QQuickProfiler18startProfilingImplEy@Base 5.4.0 1
+ (optional=templinst)_ZN14QQuickProfiler21reportSceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELb1EEEvy@Base 5.5.0
+ (optional=templinst)_ZN14QQuickProfiler21reportSceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE6ELb1EEEvy@Base 5.5.0
+ (optional=templinst)_ZN14QQuickProfiler25recordSceneGraphTimestampILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE6EEEvv@Base 5.5.0
  _ZN14QQuickProfiler25registerAnimationCallbackEv@Base 5.3.0 1
  _ZN14QQuickProfiler8setTimerERK13QElapsedTimer@Base 5.3.0 1
  _ZN14QQuickProfilerC1EP19QQmlProfilerService@Base 5.3.0 1
@@ -786,7 +788,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickFlickable17leftMarginChangedEv@Base 5.0.2 1
  _ZN15QQuickFlickable17mouseReleaseEventEP11QMouseEvent@Base 5.0.2 1
  _ZN15QQuickFlickable17pressDelayChangedEv@Base 5.0.2 1
- _ZN15QQuickFlickable17setBoundsBehaviorENS_14BoundsBehaviorE@Base 5.0.2 1
+ _ZN15QQuickFlickable17setBoundsBehaviorE6QFlagsINS_18BoundsBehaviorFlagEE@Base 5.5.0
  _ZN15QQuickFlickable17timelineCompletedEv@Base 5.0.2 1
  _ZN15QQuickFlickable18interactiveChangedEv@Base 5.0.2 1
  _ZN15QQuickFlickable18rightMarginChangedEv@Base 5.0.2 1
@@ -834,12 +836,14 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickImageBase15requestProgressExx@Base 5.0.2 1
  _ZN15QQuickImageBase15resetSourceSizeEv@Base 5.0.2 1
  _ZN15QQuickImageBase15setAsynchronousEb@Base 5.0.2 1
+ _ZN15QQuickImageBase16setAutoTransformEb@Base 5.5.0
  _ZN15QQuickImageBase16staticMetaObjectE@Base 5.0.2 1
  _ZN15QQuickImageBase17componentCompleteEv@Base 5.0.2 1
  _ZN15QQuickImageBase17sourceSizeChangedEv@Base 5.0.2 1
  _ZN15QQuickImageBase18resolve2xLocalFileERK4QUrldPS0_Pd@Base 5.3.0 1
  _ZN15QQuickImageBase19asynchronousChangedEv@Base 5.0.2 1
  _ZN15QQuickImageBase19handleScreenChangedEP7QScreen@Base 5.3.0 1
+ _ZN15QQuickImageBase24autoTransformBaseChangedEv@Base 5.5.0
  _ZN15QQuickImageBase4loadEv@Base 5.0.2 1
  _ZN15QQuickImageBase8setCacheEb@Base 5.0.2 1
  _ZN15QQuickImageBase9setMirrorEb@Base 5.0.2 1
@@ -892,7 +896,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickMouseArea21windowDeactivateEventEv@Base 5.0.2 1
  _ZN15QQuickMouseArea22acceptedButtonsChangedEv@Base 5.0.2 1
  _ZN15QQuickMouseArea22preventStealingChangedEv@Base 5.0.2 1
+ _ZN15QQuickMouseArea23setScrollGestureEnabledEb@Base 5.5.0
  _ZN15QQuickMouseArea26setPropagateComposedEventsEb@Base 5.0.2 1
+ _ZN15QQuickMouseArea27scrollGestureEnabledChangedEv@Base 5.5.0
  _ZN15QQuickMouseArea30propagateComposedEventsChangedEv@Base 5.0.2 1
  _ZN15QQuickMouseArea4dragEv@Base 5.0.2 1
  _ZN15QQuickMouseArea5wheelEP16QQuickWheelEvent@Base 5.0.2 1
@@ -952,6 +958,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickTextInput16validatorChangedEv@Base 5.0.2 1
  _ZN15QQuickTextInput17autoScrollChangedEb@Base 5.0.2 1
  _ZN15QQuickTextInput17componentCompleteEv@Base 5.0.2 1
+ _ZN15QQuickTextInput17ensureActiveFocusEv@Base 5.5.0
  _ZN15QQuickTextInput17mouseReleaseEventEP11QMouseEvent@Base 5.0.2 1
  _ZN15QQuickTextInput17q_canPasteChangedEv@Base 5.0.2 1
  _ZN15QQuickTextInput17q_updateAlignmentEv@Base 5.0.2 1
@@ -1091,7 +1098,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QSGPlainTextureD0Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD1Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD2Ev@Base 5.0.2 1
- (optional=internal|arch=alpha arm64 armel hppa powerpc ppc64el s390x sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.2
+ (optional=internal|arch=alpha amd64 arm64 armel hppa powerpc ppc64el s390x sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.2
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0 1
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 5.1.0 1
  _ZN16QQuickCloseEvent16staticMetaObjectE@Base 5.1.0 1
@@ -1150,7 +1157,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGAreaAllocatorC2ERK5QSize@Base 5.0.2 1
  _ZN16QSGAreaAllocatorD1Ev@Base 5.0.2 1
  _ZN16QSGAreaAllocatorD2Ev@Base 5.0.2 1
- _ZN16QSGBatchRenderer8Renderer10preprocessEv@Base 5.2.0~rc1 1
  _ZN16QSGBatchRenderer8Renderer10updateClipEPK11QSGClipNodePKNS_5BatchE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer11nodeChangedEP7QSGNode6QFlagsINS1_13DirtyStateBitEE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer11tagSubRootsEPNS_4NodeE@Base 5.2.0~beta1 1
@@ -1188,7 +1194,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGBatchRenderer8Renderer25removeBatchRootFromParentEPNS_4NodeE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer27buildRenderListsFromScratchEv@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer30buildRenderListsForTaggedRootsEv@Base 5.2.0~beta1 1
- _ZN16QSGBatchRenderer8Renderer3mapEPNS_6BufferEi@Base 5.2.0~beta1 1
+ _ZN16QSGBatchRenderer8Renderer3mapEPNS_6BufferEib@Base 5.5.0
  _ZN16QSGBatchRenderer8Renderer41invalidateBatchAndOverlappingRenderOrdersEPNS_5BatchE@Base 5.3.0 1
  _ZN16QSGBatchRenderer8Renderer5unmapEPNS_6BufferEb@Base 5.3.0 1
  _ZN16QSGBatchRenderer8Renderer6renderEv@Base 5.2.0~beta1 1
@@ -1276,16 +1282,15 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickItemPrivate16transform_appendEP16QQmlListPropertyI15QQuickTransformEPS1_@Base 5.0.2 1
  _ZN17QQuickItemPrivate17canAcceptTabFocusEP10QQuickItem@Base 5.1.0 1
  _ZN17QQuickItemPrivate17refFromEffectItemEb@Base 5.0.2 1
- _ZN17QQuickItemPrivate18qt_tab_all_widgetsEv@Base 5.1.0 1
  _ZN17QQuickItemPrivate18updateSubFocusItemEP10QQuickItemb@Base 5.0.2 1
  _ZN17QQuickItemPrivate18visibleChildren_atEP16QQmlListPropertyI10QQuickItemEi@Base 5.0.2 1
  _ZN17QQuickItemPrivate19createTransformNodeEv@Base 5.0.2 1
  _ZN17QQuickItemPrivate19derefFromEffectItemEb@Base 5.0.2 1
  _ZN17QQuickItemPrivate19removeFromDirtyListEv@Base 5.0.2 1
  _ZN17QQuickItemPrivate19resolveLayoutMirrorEv@Base 5.0.2 1
+ _ZN17QQuickItemPrivate19setHasCursorInChildEb@Base 5.5.0
  _ZN17QQuickItemPrivate19siblingOrderChangedEv@Base 5.0.2 1
  _ZN17QQuickItemPrivate20implicitWidthChangedEv@Base 5.0.2 1
- _ZN17QQuickItemPrivate20incrementCursorCountEi@Base 5.0.2 1
  _ZN17QQuickItemPrivate21addItemChangeListenerEP24QQuickItemChangeListener6QFlagsINS_10ChangeTypeEE@Base 5.0.2 1
  _ZN17QQuickItemPrivate21implicitHeightChangedEv@Base 5.0.2 1
  _ZN17QQuickItemPrivate21visibleChildren_countEP16QQmlListPropertyI10QQuickItemE@Base 5.0.2 1
@@ -1491,6 +1496,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickRenderControl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.3.0
  _ZN19QQuickRenderControl11qt_metacastEPKc@Base 5.3.0
  _ZN19QQuickRenderControl12sceneChangedEv@Base 5.3.0
+ _ZN19QQuickRenderControl13prepareThreadEP7QThread@Base 5.5.0
  _ZN19QQuickRenderControl15renderRequestedEv@Base 5.3.0
  _ZN19QQuickRenderControl15renderWindowForEP12QQuickWindowP6QPoint@Base 5.3.0
  _ZN19QQuickRenderControl16staticMetaObjectE@Base 5.3.0
@@ -1553,7 +1559,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate23notifyFocusChangesRecurEPP10QQuickItemi@Base 5.0.2 1
  _ZN19QQuickWindowPrivate23reallyDeliverTouchEventEP11QTouchEvent@Base 5.4.0 1
  _ZN19QQuickWindowPrivate23touchEventForItemBoundsEP10QQuickItemRK11QTouchEvent@Base 5.0.2 1
+ _ZN19QQuickWindowPrivate24deliverDelayedTouchEventEv@Base 5.5.0
  _ZN19QQuickWindowPrivate24updateFocusItemTransformEv@Base 5.0.2 1
+ _ZN19QQuickWindowPrivate25deliverNativeGestureEventEP10QQuickItemP19QNativeGestureEvent@Base 5.5.0
  _ZN19QQuickWindowPrivate27deliverMatchingPointsToItemEP10QQuickItemP11QTouchEventP4QSetIiERKS5_RK5QListINS2_10TouchPointEEPS4_IS1_E@Base 5.4.0 1
  _ZN19QQuickWindowPrivate29contextCreationFailureMessageERK14QSurfaceFormatP7QStringS4_b@Base 5.3.0 1
  _ZN19QQuickWindowPrivate29deliverInitialMousePressEventEP10QQuickItemP11QMouseEvent@Base 5.0.2 1
@@ -1568,6 +1576,19 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivateD0Ev@Base 5.0.2 1
  _ZN19QQuickWindowPrivateD1Ev@Base 5.0.2 1
  _ZN19QQuickWindowPrivateD2Ev@Base 5.0.2 1
+ _ZN19QQuickWindowQmlImpl10classBeginEv@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl10setVisibleEb@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl11qt_metacastEPKc@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl13setVisibilityEN7QWindow10VisibilityE@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl14visibleChangedEb@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl16staticMetaObjectE@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl17componentCompleteEv@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl17visibilityChangedEN7QWindow10VisibilityE@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl19setWindowVisibilityEv@Base 5.5.0
+ _ZN19QQuickWindowQmlImpl21qmlAttachedPropertiesEP7QObject@Base 5.5.0
+ _ZN19QQuickWindowQmlImplC1EP7QWindow@Base 5.5.0
+ _ZN19QQuickWindowQmlImplC2EP7QWindow@Base 5.5.0
  _ZN19QSGAbstractRenderer11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.4.0
  _ZN19QSGAbstractRenderer11qt_metacastEPKc@Base 5.4.0
  _ZN19QSGAbstractRenderer11setRootNodeEP11QSGRootNode@Base 5.4.0
@@ -1715,6 +1736,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN20QSGFlatColorMaterialD2Ev@Base 5.0.2
  _ZN20QSGSimpleTextureNode10setTextureEP10QSGTexture@Base 5.0.2
  _ZN20QSGSimpleTextureNode12setFilteringEN10QSGTexture9FilteringE@Base 5.0.2
+ _ZN20QSGSimpleTextureNode13setSourceRectERK6QRectF@Base 5.5.0
  _ZN20QSGSimpleTextureNode14setOwnsTextureEb@Base 5.4.0
  _ZN20QSGSimpleTextureNode30setTextureCoordinatesTransformE6QFlagsINS_31TextureCoordinatesTransformFlagEE@Base 5.2.0~beta1
  _ZN20QSGSimpleTextureNode7setRectERK6QRectF@Base 5.0.2
@@ -2051,23 +2073,35 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN24QQuickAccessibleAttached11roleChangedEv@Base 5.0.2 1
  _ZN24QQuickAccessibleAttached11sigDecreaseE@Base 5.4.0 1
  _ZN24QQuickAccessibleAttached11sigIncreaseE@Base 5.4.0 1
+ _ZN24QQuickAccessibleAttached11sigNextPageE@Base 5.5.0
+ _ZN24QQuickAccessibleAttached11sigScrollUpE@Base 5.5.0
  _ZN24QQuickAccessibleAttached12toggleActionEv@Base 5.4.0 1
+ _ZN24QQuickAccessibleAttached13sigScrollDownE@Base 5.5.0
+ _ZN24QQuickAccessibleAttached13sigScrollLeftE@Base 5.5.0
  _ZN24QQuickAccessibleAttached14checkedChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached14decreaseActionEv@Base 5.4.0 1
  _ZN24QQuickAccessibleAttached14focusedChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached14ignoredChangedEv@Base 5.4.0 1
  _ZN24QQuickAccessibleAttached14increaseActionEv@Base 5.4.0 1
+ _ZN24QQuickAccessibleAttached14nextPageActionEv@Base 5.5.0
  _ZN24QQuickAccessibleAttached14pressedChangedEb@Base 5.3.0 1
+ _ZN24QQuickAccessibleAttached14scrollUpActionEv@Base 5.5.0
+ _ZN24QQuickAccessibleAttached14sigScrollRightE@Base 5.5.0
  _ZN24QQuickAccessibleAttached15editableChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached15readOnlyChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached15selectedChangedEb@Base 5.3.0 1
+ _ZN24QQuickAccessibleAttached15sigPreviousPageE@Base 5.5.0
  _ZN24QQuickAccessibleAttached16checkableChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached16focusableChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached16multiLineChangedEb@Base 5.3.0 1
+ _ZN24QQuickAccessibleAttached16scrollDownActionEv@Base 5.5.0
+ _ZN24QQuickAccessibleAttached16scrollLeftActionEv@Base 5.5.0
  _ZN24QQuickAccessibleAttached16staticMetaObjectE@Base 5.0.2 1
+ _ZN24QQuickAccessibleAttached17scrollRightActionEv@Base 5.5.0
  _ZN24QQuickAccessibleAttached17searchEditChangedEb@Base 5.4.0 1
  _ZN24QQuickAccessibleAttached17selectableChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached18descriptionChangedEv@Base 5.0.2 1
+ _ZN24QQuickAccessibleAttached18previousPageActionEv@Base 5.5.0
  _ZN24QQuickAccessibleAttached19passwordEditChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached20defaultButtonChangedEb@Base 5.3.0 1
  _ZN24QQuickAccessibleAttached21qmlAttachedPropertiesEP7QObject@Base 5.0.2 1
@@ -2171,8 +2205,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN26QAccessibleTextUpdateEventD0Ev@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN26QAccessibleTextUpdateEventD1Ev@Base 5.0.2
  (optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)_ZN26QAccessibleTextUpdateEventD2Ev@Base 5.0.2
- _ZN26QQuickShaderEffectMaterial11materialMapE@Base 5.0.2 1
  _ZN26QQuickShaderEffectMaterial16setProgramSourceERK29QQuickShaderEffectMaterialKey@Base 5.0.2 1
+ _ZN26QQuickShaderEffectMaterial20cleanupMaterialCacheEv@Base 5.5.0
  _ZN26QQuickShaderEffectMaterial25invalidateTextureProviderEP18QSGTextureProvider@Base 5.0.2 1
  _ZN26QQuickShaderEffectMaterialC1EP22QQuickShaderEffectNode@Base 5.0.2 1
  _ZN26QQuickShaderEffectMaterialC2EP22QQuickShaderEffectNode@Base 5.0.2 1
@@ -2296,6 +2330,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN7QSGNode16prependChildNodeEPS_@Base 5.0.2
  _ZN7QSGNode19removeAllChildNodesEv@Base 5.0.2
  _ZN7QSGNode20insertChildNodeAfterEPS_S0_@Base 5.0.2
+ _ZN7QSGNode20reparentChildNodesToEPS_@Base 5.5.0
  _ZN7QSGNode21insertChildNodeBeforeEPS_S0_@Base 5.0.2
  _ZN7QSGNode4initEv@Base 5.0.2
  _ZN7QSGNode7destroyEv@Base 5.0.2
@@ -2458,6 +2493,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK11QSGRenderer11nodeUpdaterEv@Base 5.0.2 1
  _ZNK12QQuickPixmap11requestSizeEv@Base 5.0.2 1
  _ZNK12QQuickPixmap12implicitSizeEv@Base 5.0.2 1
+ _ZNK12QQuickPixmap13autoTransformEv@Base 5.5.0
  _ZNK12QQuickPixmap14textureFactoryEv@Base 5.0.2 1
  _ZNK12QQuickPixmap3urlEv@Base 5.0.2 1
  _ZNK12QQuickPixmap4rectEv@Base 5.0.2 1
@@ -2486,6 +2522,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK12QQuickWindow22createTextureFromImageERK6QImage6QFlagsINS_19CreateTextureOptionEE@Base 5.2.0~beta1
  _ZNK12QQuickWindow22createTextureFromImageERK6QImage@Base 5.0.2
  _ZNK12QQuickWindow22isPersistentSceneGraphEv@Base 5.0.2
+ _ZNK12QQuickWindow23isSceneGraphInitializedEv@Base 5.5.0
  _ZNK12QQuickWindow25effectiveDevicePixelRatioEv@Base 5.4.0
  _ZNK12QQuickWindow25isPersistentOpenGLContextEv@Base 5.0.2
  _ZNK12QQuickWindow5colorEv@Base 5.0.2
@@ -2615,6 +2652,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK15QQuickImageBase10metaObjectEv@Base 5.0.2 1
  _ZNK15QQuickImageBase10sourceSizeEv@Base 5.0.2 1
  _ZNK15QQuickImageBase12asynchronousEv@Base 5.0.2 1
+ _ZNK15QQuickImageBase13autoTransformEv@Base 5.5.0
  _ZNK15QQuickImageBase5cacheEv@Base 5.0.2 1
  _ZNK15QQuickImageBase5imageEv@Base 5.0.2 1
  _ZNK15QQuickImageBase6mirrorEv@Base 5.0.2 1
@@ -2628,6 +2666,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK15QQuickMouseArea14pressedButtonsEv@Base 5.0.2 1
  _ZNK15QQuickMouseArea15acceptedButtonsEv@Base 5.0.2 1
  _ZNK15QQuickMouseArea15preventStealingEv@Base 5.0.2 1
+ _ZNK15QQuickMouseArea22isScrollGestureEnabledEv@Base 5.5.0
  _ZNK15QQuickMouseArea23propagateComposedEventsEv@Base 5.0.2 1
  _ZNK15QQuickMouseArea6mouseXEv@Base 5.0.2 1
  _ZNK15QQuickMouseArea6mouseYEv@Base 5.0.2 1
@@ -2710,6 +2749,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK16QSGRenderContext10metaObjectEv@Base 5.2.0~rc1 1
  _ZNK16QSGRenderContext13createTextureERK6QImage@Base 5.2.0~rc1 1
  _ZNK16QSGRenderContext20createTextureNoAtlasERK6QImage@Base 5.2.0~rc1 1
+ _ZNK17QQuickAnimatorJob14debugAnimationE6QDebug@Base 5.5.0
  _ZNK17QQuickAnimatorJob5valueEv@Base 5.2.0~beta1 1
  _ZNK17QQuickItemPrivate13dirtyToStringEv@Base 5.0.2 1
  _ZNK17QQuickItemPrivate14verticalCenterEv@Base 5.0.2 1
@@ -2775,6 +2815,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK19QQuickScaleAnimator10metaObjectEv@Base 5.2.0~beta1 1
  _ZNK19QQuickScaleAnimator9createJobEv@Base 5.2.0~beta1 1
  _ZNK19QQuickWindowPrivate12isRenderableEv@Base 5.0.2 1
+ _ZNK19QQuickWindowQmlImpl10metaObjectEv@Base 5.5.0
  _ZNK19QSGAbstractRenderer10clearColorEv@Base 5.4.0
  _ZNK19QSGAbstractRenderer10deviceRectEv@Base 5.4.0
  _ZNK19QSGAbstractRenderer10metaObjectEv@Base 5.4.0
@@ -2805,6 +2846,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK20QSGFlatColorMaterial12createShaderEv@Base 5.0.2
  _ZNK20QSGFlatColorMaterial4typeEv@Base 5.0.2
  _ZNK20QSGFlatColorMaterial7compareEPK11QSGMaterial@Base 5.0.2
+ _ZNK20QSGSimpleTextureNode10sourceRectEv@Base 5.5.0
  _ZNK20QSGSimpleTextureNode11ownsTextureEv@Base 5.4.0
  _ZNK20QSGSimpleTextureNode27textureCoordinatesTransformEv@Base 5.2.0~beta1
  _ZNK20QSGSimpleTextureNode4rectEv@Base 5.0.2
@@ -2832,6 +2874,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK21QQuickUniformAnimator9createJobEv@Base 5.2.0~beta1 1
  _ZNK21QSGDefaultPainterNode7toImageEv@Base 5.4.0 1
  _ZNK22QQuickAnimatorProxyJob10metaObjectEv@Base 5.2.0~beta1 1
+ _ZNK22QQuickAnimatorProxyJob14debugAnimationE6QDebug@Base 5.5.0
  _ZNK22QQuickImplicitSizeItem10metaObjectEv@Base 5.0.2 1
  _ZNK22QQuickRotationAnimator10metaObjectEv@Base 5.2.0~beta1 1
  _ZNK22QQuickRotationAnimator9createJobEv@Base 5.2.0~beta1 1
@@ -2916,6 +2959,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK28QSGDistanceFieldTextMaterial7compareEPK11QSGMaterial@Base 5.0.2 1
  _ZNK30QSGOpaqueTextureMaterialShader14attributeNamesEv@Base 5.0.2 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache14maxTextureSizeEv@Base 5.0.2 1
+ _ZNK33QSGDefaultDistanceFieldGlyphCache22createFullSizeTexturesEv@Base 5.5.0
  _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureResizeWorkaroundEv@Base 5.2.0~rc1 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureUploadWorkaroundEv@Base 5.2.0~rc1 1
  _ZNK34QSGDistanceFieldStyledTextMaterial7compareEPK11QSGMaterial@Base 5.0.2 1
@@ -3003,10 +3047,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI18QQuickYAnimatorJob@Base 5.2.0~beta1 1
  _ZTI18QSGTextureMaterial@Base 5.0.2
  _ZTI18QSGTextureProvider@Base 5.0.2
+ _ZTI19QNativeGestureEvent@Base 5.5.0
  _ZTI19QQuickImageProvider@Base 5.0.2
  _ZTI19QQuickRenderControl@Base 5.3.0
  _ZTI19QQuickScaleAnimator@Base 5.2.0~beta1 1
  _ZTI19QQuickWindowPrivate@Base 5.0.2 1
+ _ZTI19QQuickWindowQmlImpl@Base 5.5.0
  _ZTI19QSGAbstractRenderer@Base 5.4.0
  _ZTI19QSGDefaultImageNode@Base 5.1.0 1
  _ZTI20QQuickAnimationGroup@Base 5.0.2 1
@@ -3142,10 +3188,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS18QQuickYAnimatorJob@Base 5.2.0~beta1 1
  _ZTS18QSGTextureMaterial@Base 5.0.2
  _ZTS18QSGTextureProvider@Base 5.0.2
+ _ZTS19QNativeGestureEvent@Base 5.5.0
  _ZTS19QQuickImageProvider@Base 5.0.2
  _ZTS19QQuickRenderControl@Base 5.3.0
  _ZTS19QQuickScaleAnimator@Base 5.2.0~beta1 1
  _ZTS19QQuickWindowPrivate@Base 5.0.2 1
+ _ZTS19QQuickWindowQmlImpl@Base 5.5.0
  _ZTS19QSGAbstractRenderer@Base 5.4.0
  _ZTS19QSGDefaultImageNode@Base 5.1.0 1
  _ZTS20QQuickAnimationGroup@Base 5.0.2 1
@@ -3280,10 +3328,12 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV18QQuickYAnimatorJob@Base 5.2.0~beta1 1
  _ZTV18QSGTextureMaterial@Base 5.0.2
  _ZTV18QSGTextureProvider@Base 5.0.2
+ _ZTV19QNativeGestureEvent@Base 5.5.0
  _ZTV19QQuickImageProvider@Base 5.0.2
  _ZTV19QQuickRenderControl@Base 5.3.0
  _ZTV19QQuickScaleAnimator@Base 5.2.0~beta1 1
  _ZTV19QQuickWindowPrivate@Base 5.0.2 1
+ _ZTV19QQuickWindowQmlImpl@Base 5.5.0
  _ZTV19QSGAbstractRenderer@Base 5.4.0
  _ZTV19QSGDefaultImageNode@Base 5.1.0 1
  _ZTV20QQuickAnimationGroup@Base 5.0.2 1
@@ -3369,6 +3419,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (c++)"non-virtual thunk to QQuickAbstractAnimation::setTarget(QQmlProperty const&)@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickAbstractAnimation::~QQuickAbstractAnimation()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickAnimationGroup::~QQuickAnimationGroup()@Base" 5.0.2
+ (c++)"non-virtual thunk to QQuickAnimatorProxyJob::debugAnimation(QDebug) const@Base" 5.5.0
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateCurrentTime(int)@Base" 5.2.0~beta1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateState(QAbstractAnimationJob::State, QAbstractAnimationJob::State)@Base" 5.2.0~beta1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::~QQuickAnimatorProxyJob()@Base" 5.2.0~beta1
@@ -3418,6 +3469,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (c++)"non-virtual thunk to QQuickVector3dAnimation::~QQuickVector3dAnimation()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickView::~QQuickView()@Base" 5.0.2
  (c++)"non-virtual thunk to QQuickWindow::~QQuickWindow()@Base" 5.0.2
+ (c++)"non-virtual thunk to QQuickWindowQmlImpl::classBegin()@Base" 5.5.0
+ (c++)"non-virtual thunk to QQuickWindowQmlImpl::componentComplete()@Base" 5.5.0
  (c++|optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)"non-virtual thunk to QQuickXAnimator::~QQuickXAnimator()@Base" 5.2.0~beta1
  (c++|optional=gccinternal|arch=!amd64 !arm64 !armel !armhf !hurd-i386 !i386 !kfreebsd-amd64 !kfreebsd-i386 !mips !mipsel !powerpc !ppc64el !s390x !x32)"non-virtual thunk to QQuickYAnimator::~QQuickYAnimator()@Base" 5.2.0~beta1
  (c++)"non-virtual thunk to QSGContextPlugin::~QSGContextPlugin()@Base" 5.0.2

@@ -6,6 +6,8 @@ qtdeclarative-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Drop avoid_calling_potentially_pure-virtual_method.patch, applied upstream.
   * Refresh check_system_double-conversion.patch.
   * Update debian/copyright for the new version.
+  * Update symbols file for 5.5.0. There are some missing non-private symbols,
+    but they are not exposed in public APIs.
 
   [ Timo Jyrinki ]
   * Update .install files.
