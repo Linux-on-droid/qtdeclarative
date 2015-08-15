@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.5.0 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
-| libqt5quick5 #MINVER#, qtdeclarative-abi-5-4-1
+| libqt5quick5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Base 5.4.0
  (optional=gccinternal)_ZN10QByteArray7reserveEi@Base 5.4.2
  _ZN10QQuickItem10classBeginEv@Base 5.0.2
