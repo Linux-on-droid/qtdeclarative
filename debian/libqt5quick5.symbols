@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.5.0 amd64 armhf i386 kfreebsd-amd64 ppc64el s390x
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Base 5.4.0
@@ -1086,7 +1086,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QSGPlainTextureD0Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD1Ev@Base 5.0.2 1
  _ZN15QSGPlainTextureD2Ev@Base 5.0.2 1
- (optional=internal|arch=alpha amd64 arm64 armel hppa powerpc ppc64el s390x sparc64)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.2
+ (optional=internal)_ZN16QCoreApplication9sendEventEP7QObjectP6QEvent@Base 5.3.2
  _ZN16QQuickCloseEvent11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0 1
  _ZN16QQuickCloseEvent11qt_metacastEPKc@Base 5.1.0 1
  _ZN16QQuickCloseEvent16staticMetaObjectE@Base 5.1.0 1
@@ -2191,8 +2191,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Base 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD1Ev@Base 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD2Ev@Base 5.0.2 1
- (optional=gccinternal|arch=ppc64el s390x)_ZN6QColorC1EPKc@Base 5.4.2
- (optional=gccinternal|arch=ppc64el s390x)_ZN6QColorC2EPKc@Base 5.4.2
  _ZN7QSGNode15appendChildNodeEPS_@Base 5.0.2
  _ZN7QSGNode15removeChildNodeEPS_@Base 5.0.2
  _ZN7QSGNode16prependChildNodeEPS_@Base 5.0.2
