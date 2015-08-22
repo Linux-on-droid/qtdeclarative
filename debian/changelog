@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.5.0-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update symbols files with buildds’ logs.
+  * Symlink duplicate private headers in QtQml and QtQmlDevTools directories.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Aug 2015 16:59:47 +0300
 
