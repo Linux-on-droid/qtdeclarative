@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf hppa i386 kfreebsd-amd64 powerpc ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.5.0 amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 ppc64el s390x x32
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -2911,9 +2911,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Base 5.3.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE6resizeE{size_t}RKi@Base 5.4.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Base 5.2.1
- (optional=templinst|arch=!hurd-i386 !i386)_ZNSt6vectorIiSaIiEEC1ERKS1_@Base 5.2.1
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386)_ZNSt6vectorIiSaIiEEC1ERKS1_@Base 5.2.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEEC1E{size_t}RKiRKS0_@Base 5.2.1
- (optional=templinst|arch=!hurd-i386 !i386)_ZNSt6vectorIiSaIiEEC2ERKS1_@Base 5.2.1
+ (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386)_ZNSt6vectorIiSaIiEEC2ERKS1_@Base 5.2.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEEC2E{size_t}RKiRKS0_@Base 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEaSERKS1_@Base 5.2.1
  _ZNSt6vectorItSaItEE12emplace_backIItEEEvDpOT_@Base 5.3.0
@@ -2923,7 +2923,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIItEEEvDpOT_@Base 5.4.2
  (optional=templinst)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Base 5.4.2
  (optional=templinst)_ZNSt6vectorItSaItEE6insertEN9__gnu_cxx17__normal_iteratorIPKtS1_EERS4_@Base 5.4.2
- (optional=templinst|arch=armel armhf powerpc ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Base 5.5.0
+ (optional=templinst|arch=armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Base 5.5.0
  (optional=templinst)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Base 5.5.0
  (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
  _ZTI10QQmlEngine@Base 5.0.2
