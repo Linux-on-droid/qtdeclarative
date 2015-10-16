@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64 armhf i386 kfreebsd-amd64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Base 5.4.0
@@ -837,7 +837,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickImageBase18resolve2xLocalFileERK4QUrldPS0_Pd@Base 5.3.0 1
  _ZN15QQuickImageBase19asynchronousChangedEv@Base 5.0.2 1
  _ZN15QQuickImageBase19handleScreenChangedEP7QScreen@Base 5.3.0 1
- _ZN15QQuickImageBase24autoTransformBaseChangedEv@Base 5.5.0 1
+#MISSING: 5.5.1# _ZN15QQuickImageBase24autoTransformBaseChangedEv@Base 5.5.0 1
  _ZN15QQuickImageBase4loadEv@Base 5.0.2 1
  _ZN15QQuickImageBase8setCacheEb@Base 5.0.2 1
  _ZN15QQuickImageBase9setMirrorEb@Base 5.0.2 1
@@ -1152,6 +1152,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN16QSGBatchRenderer8Renderer14visualizeBatchEPNS_5BatchE@Base 5.3.0 1
  _ZN16QSGBatchRenderer8Renderer15changeBatchRootEPNS_4NodeES2_@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer15setActiveShaderEP17QSGMaterialShaderPNS_13ShaderManager6ShaderE@Base 5.2.0~beta1 1
+ _ZN16QSGBatchRenderer8Renderer15updateLineWidthEP11QSGGeometry@Base 5.5.1
  _ZN16QSGBatchRenderer8Renderer16buildRenderListsEP7QSGNode@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer16renderRenderNodeEPNS_5BatchE@Base 5.2.0~beta1 1
  _ZN16QSGBatchRenderer8Renderer16visualizeChangesEPNS_4NodeE@Base 5.3.0 1

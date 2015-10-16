@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.5.1 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -1212,10 +1212,11 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412EvalFunction8evalCallEPNS_8CallDataEb@Base 5.2.0~beta1
  _ZN3QV413MemoryManager12setGCBlockedEb@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager17registerDeletableEPNS_11GCDeletableE@Base 5.3.0 1
+ _ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageEm@Base 5.5.1
  _ZN3QV413MemoryManager4markEv@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager5runGCEv@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager5sweepEb@Base 5.2.0~beta1 1
- (subst)_ZN3QV413MemoryManager9allocDataE{size_t}@Base 5.4.0 1
+ _ZN3QV413MemoryManager9allocDataEmm@Base 5.5.1
  _ZN3QV413MemoryManagerC1EPNS_15ExecutionEngineE@Base 5.5.0 1
  _ZN3QV413MemoryManagerC2EPNS_15ExecutionEngineE@Base 5.5.0 1
  _ZN3QV413MemoryManagerD1Ev@Base 5.2.0~beta1 1
@@ -1572,10 +1573,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV44Heap15BuiltinFunctionC1EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Base 5.5.0
  _ZN3QV44Heap15BuiltinFunctionC2EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Base 5.5.0
  _ZN3QV44Heap6String6appendEPKS1_P5QChar@Base 5.5.0
- _ZN3QV44Heap6StringC1EPS1_S2_@Base 5.5.0
- _ZN3QV44Heap6StringC1ERK7QString@Base 5.5.0
- _ZN3QV44Heap6StringC2EPS1_S2_@Base 5.5.0
- _ZN3QV44Heap6StringC2ERK7QString@Base 5.5.0
+ _ZN3QV44Heap6StringC1EPNS_13MemoryManagerEPS1_S4_@Base 5.5.1
+ _ZN3QV44Heap6StringC1EPNS_13MemoryManagerERK7QString@Base 5.5.1
+ _ZN3QV44Heap6StringC2EPNS_13MemoryManagerEPS1_S4_@Base 5.5.1
+ _ZN3QV44Heap6StringC2EPNS_13MemoryManagerERK7QString@Base 5.5.1
  _ZN3QV44Moth20InstructionSelection10getElementEPNS_2IR4ExprES4_S4_@Base 5.4.0 1
  _ZN3QV44Moth20InstructionSelection10loadRegexpEPNS_2IR6RegExpEPNS2_4ExprE@Base 5.4.0 1
  _ZN3QV44Moth20InstructionSelection10loadStringERK7QStringPNS_2IR4ExprE@Base 5.4.0 1

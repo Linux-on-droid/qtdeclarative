@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt build dependencies.
   * Update symbols files with buildds' logs.
+  * Update symbols files with current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Oct 2015 12:16:40 -0300
 
