@@ -1,0 +1,4 @@
+# This is not a prebuilt javascritpt. It happens to be a description made with very long lines.
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object examples/quick/canvas/tiger/tiger.js line length is 3496 characters (>1024)
+# This is indeed the original source and preferred source of modification.
+qtdeclarative-opensource-src source: source-is-missing examples/quick/canvas/tiger/tiger.js

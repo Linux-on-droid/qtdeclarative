@@ -6,6 +6,8 @@ qtdeclarative-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
   * Update symbols files with buildds' logs.
   * Update symbols files with current build log.
   * Do not ship empty directories.
+  * Add two lintian overrides for examples/quick/canvas/tiger/tiger.js. It is
+    not a minified javascript and is the preferred source of modification.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Oct 2015 12:16:40 -0300
 
