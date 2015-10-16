@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
     - Bump Qt build dependencies.
   * Update symbols files with buildds' logs.
   * Update symbols files with current build log.
+  * Do not ship empty directories.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 16 Oct 2015 12:16:40 -0300
 
