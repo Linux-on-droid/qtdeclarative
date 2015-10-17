@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64
+# SymbolsHelper-Confirmed: 5.5.1 amd64 armel hppa i386 powerpc
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -1212,11 +1212,11 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412EvalFunction8evalCallEPNS_8CallDataEb@Base 5.2.0~beta1
  _ZN3QV413MemoryManager12setGCBlockedEb@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager17registerDeletableEPNS_11GCDeletableE@Base 5.3.0 1
- _ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageEm@Base 5.5.1
+ (subst)_ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageE{size_t}@Base 5.5.1
  _ZN3QV413MemoryManager4markEv@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager5runGCEv@Base 5.2.0~beta1 1
  _ZN3QV413MemoryManager5sweepEb@Base 5.2.0~beta1 1
- _ZN3QV413MemoryManager9allocDataEmm@Base 5.5.1
+ (subst)_ZN3QV413MemoryManager9allocDataE{size_t}{size_t}@Base 5.5.1
  _ZN3QV413MemoryManagerC1EPNS_15ExecutionEngineE@Base 5.5.0 1
  _ZN3QV413MemoryManagerC2EPNS_15ExecutionEngineE@Base 5.5.0 1
  _ZN3QV413MemoryManagerD1Ev@Base 5.2.0~beta1 1
