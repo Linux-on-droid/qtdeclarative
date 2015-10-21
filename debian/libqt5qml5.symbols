@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.5.1 amd64 armel hppa i386 powerpc
+# SymbolsHelper-Confirmed: 5.5.1 amd64 armel armhf hppa i386 powerpc
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-5-0
  _Z10qmlContextPK7QObject@Base 5.0.2
@@ -2744,7 +2744,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV44Moth20InstructionSelection11squeezeCodeEv@Base 5.3.0 1
  _ZNK3QV45Value12toNumberImplEv@Base 5.2.0~beta1
  _ZNK3QV45Value16toQStringNoThrowEv@Base 5.2.0~beta1
- (optional=inline|arch=!armhf)_ZNK3QV45Value2asINS_14QObjectWrapperEEEPT_v@Base 5.2.0~beta1
+ (optional=inline)_ZNK3QV45Value2asINS_14QObjectWrapperEEEPT_v@Base 5.2.0~beta1
  _ZNK3QV45Value8toObjectEPNS_15ExecutionEngineE@Base 5.5.0
  _ZNK3QV45Value8toStringEPNS_15ExecutionEngineE@Base 5.3.0
  _ZNK3QV45Value8toUInt16Ev@Base 5.2.0~beta1
