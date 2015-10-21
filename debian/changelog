@@ -1,6 +1,7 @@
 qtdeclarative-opensource-src (5.5.1-4) UNRELEASED; urgency=medium
 
-  * 
+  * Add qmlplugindump-Don-t-try-to-import-Qt.test.qtestroot.patch
+    (LP: #1473976)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 
