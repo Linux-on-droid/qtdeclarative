@@ -1,5 +1,7 @@
 # Backported patches
 qmlplugindump-Don-t-try-to-import-Qt.test.qtestroot.patch
+Flickable-avoid-perturbing-the-timeline-further-whil.patch
+MultiPointTouchArea-Fixed-released-duplication-on-mo.patch
 
 # Debian patches
 check_system_double-conversion.patch

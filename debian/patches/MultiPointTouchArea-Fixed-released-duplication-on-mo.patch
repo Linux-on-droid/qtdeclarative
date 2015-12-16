@@ -1,0 +1,65 @@
+From 1e47ced7464dff465ece78c99b6ab9706d05fcdd Mon Sep 17 00:00:00 2001
+From: Alexandr Akulich <akulichalexander@gmail.com>
+Date: Fri, 16 Oct 2015 16:27:46 +0600
+Subject: [PATCH] MultiPointTouchArea: Fixed released() duplication on mouse
+ release.
+
+MousePress and MouseRelease event handlers now better integrated into
+generic touch processing methods.
+
+We used to manually add a touch point for mouse press event and
+prevent updateTouchData() from pressed() emission, but mouseRelease
+handler used to cause the signal emission in updateTouchData() and then
+emit the signal on its own.
+
+The code reworked to always emit pressed() and released() signals from
+the single place in updateTouchData().
+
+[ChangeLog][QtQuick][MultiPointTouchArea] Fixed released() signal
+duplication on mouseReleaseEvent.
+
+Task-number: 44370
+Change-Id: I2d88931ba56d6edf778213c61e9467c2b6abf0e7
+---
+ src/quick/items/qquickmultipointtoucharea.cpp | 8 ++------
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+
+diff --git a/src/quick/items/qquickmultipointtoucharea.cpp b/src/quick/items/qquickmultipointtoucharea.cpp
+index 13ace44..9e658cc 100644
+--- a/src/quick/items/qquickmultipointtoucharea.cpp
++++ b/src/quick/items/qquickmultipointtoucharea.cpp
+@@ -502,8 +502,9 @@ void QQuickMultiPointTouchArea::updateTouchData(QEvent *event)
+         else if (event->type() == QEvent::MouseButtonRelease)
+             _mouseQpaTouchPoint.setState(Qt::TouchPointReleased);
+         else { // QEvent::MouseButtonPress
++            addTouchPoint(me);
++            started = true;
+             _mouseQpaTouchPoint.setState(Qt::TouchPointPressed);
+-            _pressedTouchPoints.append(_mouseTouchPoint);
+         }
+         touchPoints << _mouseQpaTouchPoint;
+         isMouseEvent = true;
+@@ -729,9 +730,7 @@ void QQuickMultiPointTouchArea::mousePressEvent(QMouseEvent *event)
+         return;
+ 
+     if (_touchPoints.count() >= _minimumTouchPoints - 1 && _touchPoints.count() < _maximumTouchPoints) {
+-        addTouchPoint(event);
+         updateTouchData(event);
+-        emit pressed(_pressedTouchPoints);
+     }
+ }
+ 
+@@ -762,10 +761,7 @@ void QQuickMultiPointTouchArea::mouseReleaseEvent(QMouseEvent *event)
+ 
+     if (_mouseTouchPoint) {
+         updateTouchData(event);
+-        _mouseTouchPoint->setPressed(false);
+         _mouseTouchPoint->setInUse(false);
+-        _releasedTouchPoints.append(_mouseTouchPoint);
+-        emit released(_releasedTouchPoints);
+         _releasedTouchPoints.removeAll(_mouseTouchPoint);
+         _mouseTouchPoint = Q_NULLPTR;
+     }
+-- 
+2.6.2
+

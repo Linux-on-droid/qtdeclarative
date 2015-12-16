@@ -2,6 +2,10 @@ qtdeclarative-opensource-src (5.5.1-4) UNRELEASED; urgency=medium
 
   * Add qmlplugindump-Don-t-try-to-import-Qt.test.qtestroot.patch
     (LP: #1473976)
+  * debian/patches/Flickable-avoid-perturbing-the-timeline-further-whil.patch:
+    - Avoid infinite velocity during release, after a drag. (LP: #1521917)
+  * debian/patches/MultiPointTouchArea-Fixed-released-duplication-on-mo.patch:
+    - Fix every key being pressed twice on desktop (LP: #1451554)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 

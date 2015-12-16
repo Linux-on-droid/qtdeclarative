@@ -1,0 +1,50 @@
+From 8f339861d48a6d624516780442e191b55209a053 Mon Sep 17 00:00:00 2001
+From: Shawn Rutledge <shawn.rutledge@digia.com>
+Date: Wed, 2 Dec 2015 15:26:50 +0100
+Subject: [PATCH] Flickable: avoid perturbing the timeline further while in
+ overshoot
+
+The bug was that when using the mouse wheel, a single "scroll down"
+wheel event followed by a rapid succession of "scroll up" events
+would cause extreme overshoot.  Experimentally determined that when
+this happens, the calls to timeline.accel() in
+QQuickFlickablePrivate::flick() were occurring after the call to
+accel in QQuickFlickablePrivate::viewportAxisMoved().  But nearby,
+data.inOvershoot is set to true, so that can be used to avoid calling
+accel() additional times in flick().  So basically, this patch avoids
+doing any more acceleration in response to further wheel events after
+the momentum from previous events has already taken the content
+beyond bounds.
+
+Task-number: QTBUG-21328
+Change-Id: I3ab5510a288a080f6b526407b6a2293c44a2498a
+Reviewed-by: J-P Nurmi <jpnurmi@theqtcompany.com>
+Reviewed-by: Robin Burchell <robin.burchell@viroteck.net>
+---
+ src/quick/items/qquickflickable.cpp | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/src/quick/items/qquickflickable.cpp b/src/quick/items/qquickflickable.cpp
+index 9d6c51f..092d4af 100644
+--- a/src/quick/items/qquickflickable.cpp
++++ b/src/quick/items/qquickflickable.cpp
+@@ -344,10 +344,12 @@ bool QQuickFlickablePrivate::flick(AxisData &data, qreal minExtent, qreal maxExt
+         accel = v2 / (2.0f * qAbs(dist));
+ 
+         resetTimeline(data);
+-        if (boundsBehavior & QQuickFlickable::OvershootBounds)
+-            timeline.accel(data.move, v, accel);
+-        else
+-            timeline.accel(data.move, v, accel, maxDistance);
++        if (!data.inOvershoot) {
++            if (boundsBehavior & QQuickFlickable::OvershootBounds)
++                timeline.accel(data.move, v, accel);
++            else
++                timeline.accel(data.move, v, accel, maxDistance);
++        }
+         timeline.callback(QQuickTimeLineCallback(&data.move, fixupCallback, this));
+ 
+         if (&data == &hData)
+-- 
+2.6.4
+
