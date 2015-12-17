@@ -1,0 +1,85 @@
+From 0cc242c679b54d91d43b865414b250e644a1d879 Mon Sep 17 00:00:00 2001
+From: Liang Qi <liang.qi@theqtcompany.com>
+Date: Wed, 20 Jan 2016 12:21:21 +0100
+Subject: [PATCH] QQuickItem: fix an infinite loop nextItemInFocusChain()
+
+When isTabFence is set to true and no children.
+
+Task-number: QTBUG-50516
+Change-Id: I8430336fde7ab041797f8f9d9dfe5b9d56fecddd
+---
+ src/quick/items/qquickitem.cpp                    |  2 ++
+ tests/auto/quick/qquickitem2/data/qtbug_50516.qml |  9 +++++++++
+ tests/auto/quick/qquickitem2/tst_qquickitem.cpp   | 20 ++++++++++++++++++++
+ 3 files changed, 31 insertions(+)
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516.qml
+
+diff --git a/src/quick/items/qquickitem.cpp b/src/quick/items/qquickitem.cpp
+index 224dece..059bb4b 100644
+--- a/src/quick/items/qquickitem.cpp
++++ b/src/quick/items/qquickitem.cpp
+@@ -2508,6 +2508,8 @@ QQuickItem* QQuickItemPrivate::nextPrevItemInTabFocusChain(QQuickItem *item, boo
+                 lastChild = prevTabChildItem(current, -1);
+         }
+         bool isTabFence = current->d_func()->isTabFence;
++        if (isTabFence && !hasChildren)
++            return current;
+ 
+         // coming from parent: check children
+         if (hasChildren && from == current->parentItem()) {
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516.qml
+new file mode 100644
+index 0000000..5e2a60b
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516.qml
+@@ -0,0 +1,9 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++}
+diff --git a/tests/auto/quick/qquickitem2/tst_qquickitem.cpp b/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
+index c7717b9..7225724 100644
+--- a/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
++++ b/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
+@@ -74,6 +74,7 @@ private slots:
+     void nextItemInFocusChain3();
+ 
+     void tabFence();
++    void qtbug_50516();
+ 
+     void keys();
+     void standardKeys_data();
+@@ -1194,6 +1195,25 @@ void tst_QQuickItem::tabFence()
+     verifyTabFocusChain(window, fence1BacktabFocusChain, false /* forward */);
+ }
+ 
++void tst_QQuickItem::qtbug_50516()
++{
++    QQuickView *window = new QQuickView(0);
++    window->setBaseSize(QSize(800,600));
++
++    window->setSource(testFileUrl("qtbug_50516.qml"));
++    window->show();
++    window->requestActivate();
++    QVERIFY(QTest::qWaitForWindowActive(window));
++    QVERIFY(QGuiApplication::focusWindow() == window);
++    QVERIFY(window->rootObject()->hasActiveFocus());
++
++    QQuickItem *contentItem = window->rootObject();
++    QQuickItem *next = contentItem->nextItemInFocusChain(true);
++    QCOMPARE(next, contentItem);
++    next = contentItem->nextItemInFocusChain(false);
++    QCOMPARE(next, contentItem);
++}
++
+ void tst_QQuickItem::keys()
+ {
+     QQuickView *window = new QQuickView(0);
+-- 
+2.7.0.rc3
+
