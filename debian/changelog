@@ -9,6 +9,8 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
     - Remove missing libqmldbg_qtquick2.so
   * Install core QtQml qml metadata with libqt5qml5 package.
   * Simplify qtdeclarative5-dev.install by using globs.
+  * Update qtdeclarative5-private-dev.install
+    - FIXME: Still needs to be simplified.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2015 17:05:50 -0800
 
