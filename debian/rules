@@ -17,8 +17,8 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake
 
-override_dh_auto_build-indep:
-	dh_auto_build -Smakefile -- html_docs
+#override_dh_auto_build-indep:
+#	dh_auto_build -Smakefile -- html_docs
 
 override_dh_auto_install-arch:
 	dh_auto_install
