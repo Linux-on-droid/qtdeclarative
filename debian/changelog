@@ -1,5 +1,6 @@
 qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
 
+  [ Diane Trout ]
   * New upstream release.
     - Bump Qt build dependencies.
   * Bump provides qtdeclarative-abi
@@ -11,6 +12,9 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Simplify qtdeclarative5-dev.install by using globs.
   * Update qtdeclarative5-private-dev.install
     - FIXME: Still needs to be simplified.
+
+  [ Dmitry Shachnev ]
+  * Sort the install files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2015 17:05:50 -0800
 
