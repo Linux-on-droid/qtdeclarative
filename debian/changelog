@@ -3,7 +3,7 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   [ Diane Trout ]
   * New upstream release.
     - Bump Qt build dependencies.
-  * Bump provides qtdeclarative-abi
+  * Bump qtdeclarative-abi to 5-6-0.
   * Disable building documentation pending fixing Qt5.6 qdoc issues.
   * Update watch file to use developemnt_relesaes. (Change back after release)
   * Update libqt5qml5.install to install all libqmldbg plugins.
