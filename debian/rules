@@ -44,8 +44,8 @@ override_dh_auto_install-arch:
 	-o -name '*.qml' \
 	\) -print0 | xargs -0 chmod a-x
 
-override_dh_auto_install-indep:
-	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
+#override_dh_auto_install-indep:
+#	make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
 
 override_dh_install:
 	# Remove empty directories.
