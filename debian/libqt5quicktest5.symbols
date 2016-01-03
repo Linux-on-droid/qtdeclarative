@@ -1,14 +1,24 @@
-# SymbolsHelper-Confirmed: 5.5.0 amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64
 libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
 | libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-6-0
+ Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.1@Qt_5.1 5.6.0~beta
+ Qt_5.2@Qt_5.2 5.6.0~beta
+ Qt_5.3@Qt_5.3 5.6.0~beta
+ Qt_5.4@Qt_5.4 5.6.0~beta
+ Qt_5.5@Qt_5.5 5.6.0~beta
+ Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5@Qt_5 5.6.0~beta
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z15quick_test_mainiPPcPKcS2_@Qt_5 5.0.2
  _ZN14QuickTestEvent10keyReleaseEiii@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QuickTestEvent10mouseClickEP7QObjectddiii@Qt_5_PRIVATE_API 5.2.0 1
  _ZN14QuickTestEvent10mousePressEP7QObjectddiii@Qt_5_PRIVATE_API 5.2.0 1
  _ZN14QuickTestEvent10mouseWheelEP7QObjectddiiiii@Qt_5_PRIVATE_API 5.2.0 1
- _ZN14QuickTestEvent11eventWindowEv@Base 5.0.2
+ _ZN14QuickTestEvent11eventWindowEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QuickTestEvent11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QuickTestEvent11qt_metacastEPKc@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN14QuickTestEvent12activeWindowEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QuickTestEvent12keyClickCharERK7QStringii@Qt_5_PRIVATE_API 5.1.0 1
  _ZN14QuickTestEvent12keyPressCharERK7QStringii@Qt_5_PRIVATE_API 5.1.0 1
  _ZN14QuickTestEvent12mouseReleaseEP7QObjectddiii@Qt_5_PRIVATE_API 5.2.0 1
