@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 i386
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -1204,6 +1204,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412CompiledData7Binding13escapedStringERK7QString@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV412EvalFunction11static_vtblE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV412EvalFunction4callEPKNS_7ManagedEPNS_8CallDataE@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta
  _ZN3QV413MemoryManager12setGCBlockedEb@Qt_5_PRIVATE_API 5.2.0~beta1 1
  (subst)_ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageE{size_t}@Qt_5_PRIVATE_API 5.5.1 1
  _ZN3QV413MemoryManager4markEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -1303,7 +1305,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV415ExecutionEngine14enableProfilerEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN3QV415ExecutionEngine14metaTypeFromJSEPKNS_5ValueEiPv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV415ExecutionEngine14newArrayBufferERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
- _ZN3QV415ExecutionEngine14newArrayBufferEm@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (subst)_ZN3QV415ExecutionEngine14newArrayBufferE{size_t}@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV415ExecutionEngine14newArrayObjectEPKNS_5ValueEi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV415ExecutionEngine14newArrayObjectEPNS_13InternalClassEPNS_6ObjectE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV415ExecutionEngine14newArrayObjectERK11QStringList@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -1540,9 +1542,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=gccinternal|arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelectionD1Ev@Qt_5_PRIVATE_API 5.3.0 1
  (optional=gccinternal|arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelectionD2Ev@Qt_5_PRIVATE_API 5.3.0 1
  _ZN3QV44Heap11ArrayBufferC1ERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN3QV44Heap11ArrayBufferC1Em@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (subst)_ZN3QV44Heap11ArrayBufferC1E{size_t}@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV44Heap11ArrayBufferC2ERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN3QV44Heap11ArrayBufferC2Em@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (subst)_ZN3QV44Heap11ArrayBufferC2E{size_t}@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV44Heap11ArrayBufferD1Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV44Heap11ArrayBufferD2Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV44Heap14FunctionObjectC1EPNS0_16ExecutionContextERK7QStringb@Qt_5_PRIVATE_API 5.5.0 1
@@ -2909,9 +2911,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorIiSaIiEE19_M_emplace_back_auxIJiEEEvDpOT_@Qt_5 5.3.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE6resizeE{size_t}RKi@Qt_5 5.4.0
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Qt_5 5.2.1
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386)_ZNSt6vectorIiSaIiEEC1ERKS1_@Qt_5 5.2.1
+ (optional=templinst)_ZNSt6vectorIiSaIiEEC1ERKS1_@Qt_5 5.2.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEEC1E{size_t}RKiRKS0_@Qt_5 5.2.1
- (optional=templinst|arch=!hurd-i386 !i386 !kfreebsd-i386)_ZNSt6vectorIiSaIiEEC2ERKS1_@Qt_5 5.2.1
+ (optional=templinst)_ZNSt6vectorIiSaIiEEC2ERKS1_@Qt_5 5.2.1
  (optional=templinst|subst)_ZNSt6vectorIiSaIiEEC2E{size_t}RKiRKS0_@Qt_5 5.2.1
  (optional=templinst)_ZNSt6vectorIiSaIiEEaSERKS1_@Qt_5 5.2.1
  _ZNSt6vectorItSaItEE12emplace_backIItEEEvDpOT_@Qt_5 5.3.0
@@ -2923,7 +2925,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorItSaItEE6insertEN9__gnu_cxx17__normal_iteratorIPKtS1_EERS4_@Qt_5 5.4.2
  (optional=templinst|arch=alpha armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Base 5.5.0
  (optional=templinst)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Qt_5 5.5.0
- (optional=templinst|arch=!alpha !amd64 !arm64 !hppa !kfreebsd-amd64 !mips64el !ppc64 !ppc64el !s390x !sparc !sparc64 !x32)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 5.0.2
+ (optional=templinst|arch=i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.0.2
  _ZTI10QQmlEngine@Qt_5 5.0.2
  _ZTI11QQmlBinding@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI11QQmlCleanup@Qt_5_PRIVATE_API 5.0.2 1
