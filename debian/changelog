@@ -9,7 +9,6 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update libqt5qml5.install to install all libqmldbg plugins.
     - Remove missing libqmldbg_qtquick2.so
   * Install core QtQml qml metadata with libqt5qml5 package.
-  * Simplify qtdeclarative5-dev.install by using globs.
   * Update qtdeclarative5-private-dev.install
     - FIXME: Still needs to be simplified.
 
