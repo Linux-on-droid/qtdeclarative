@@ -1204,8 +1204,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412CompiledData7Binding13escapedStringERK7QString@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV412EvalFunction11static_vtblE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV412EvalFunction4callEPKNS_7ManagedEPNS_8CallDataE@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta
- (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta
+ (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV413MemoryManager12setGCBlockedEb@Qt_5_PRIVATE_API 5.2.0~beta1 1
  (subst)_ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageE{size_t}@Qt_5_PRIVATE_API 5.5.1 1
  _ZN3QV413MemoryManager4markEv@Qt_5_PRIVATE_API 5.2.0~beta1 1

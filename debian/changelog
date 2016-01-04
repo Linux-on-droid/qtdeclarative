@@ -19,7 +19,7 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
     qtxmlpatterns is not used, so libqt5xmlpatterns5-dev will be enough.
   * Refresh debian/patches/check_system_double-conversion.patch.
   * Update the symbols files using migrate-symbols.py script.
-  * Update the symbols files from the current build log.
+  * Update the symbols files from the current build logs for amd64 and i386.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2015 17:05:50 -0800
 
