@@ -9,8 +9,7 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update libqt5qml5.install to install all libqmldbg plugins.
     - Remove missing libqmldbg_qtquick2.so
   * Install core QtQml qml metadata with libqt5qml5 package.
-  * Update qtdeclarative5-private-dev.install
-    - FIXME: Still needs to be simplified.
+  * Update qtdeclarative5-private-dev.install.
 
   [ Dmitry Shachnev ]
   * Sort the install files.
@@ -22,6 +21,7 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Stop running pkgkde-mark-private-symbols script during build. The new way
     is that the maintainers run pkgkde-mark-qt5-private-symbols --write-results
     after each symbols update.
+  * Simplify qtdeclarative5-private-dev.install using globs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2015 17:05:50 -0800
 
