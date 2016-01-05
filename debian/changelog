@@ -23,6 +23,8 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
     after each symbols update.
   * Simplify qtdeclarative5-private-dev.install using globs.
   * Update qtdeclarative5-dev.install.
+  * Do not hardcode abi package name in libqt5quickwidgets5.lintian-overrides,
+    so that it still applies.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2015 17:05:50 -0800
 
