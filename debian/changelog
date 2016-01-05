@@ -6,8 +6,6 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Bump qtdeclarative-abi to 5-6-0.
   * Disable building documentation pending fixing Qt5.6 qdoc issues.
   * Update watch file to use developemnt_relesaes. (Change back after release)
-  * Update libqt5qml5.install to install all libqmldbg plugins.
-    - Remove missing libqmldbg_qtquick2.so
   * Install core QtQml qml metadata with libqt5qml5 package.
   * Update qtdeclarative5-private-dev.install.
 
@@ -25,6 +23,7 @@ qtdeclarative-opensource-src (5.6.0~beta-1) UNRELEASED; urgency=medium
   * Update qtdeclarative5-dev.install.
   * Do not hardcode abi package name in libqt5quickwidgets5.lintian-overrides,
     so that it still applies.
+  * Split the qmltooling plugins into their own qt5-qmltooling-plugins package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 28 Dec 2015 17:05:50 -0800
 

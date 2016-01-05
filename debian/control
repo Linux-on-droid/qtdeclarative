@@ -26,6 +26,7 @@ Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: libgl1-mesa-glx
+Suggests: qt5-qmltooling-plugins
 Description: Qt 5 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -82,6 +83,19 @@ Description: Qt 5 Quick Widgets library
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains the Qt Quick Widgets library for QtDeclarative module.
+
+Package: qt5-qmltooling-plugins
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libqt5qml5 (<< 5.6.0~beta~)
+Replaces: libqt5qml5 (<< 5.6.0~beta~)
+Description: Qt 5 qmltooling plugins
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the qmltooling plugins.
 
 Package: qml-module-qt-labs-folderlistmodel
 Architecture: any
