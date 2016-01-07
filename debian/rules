@@ -18,7 +18,7 @@ override_dh_auto_configure:
 	qmake
 
 override_dh_auto_build-indep:
-	#dh_auto_build -Smakefile -- html_docs
+	dh_auto_build -- docs
 
 override_dh_auto_install-arch:
 	dh_auto_install
@@ -45,7 +45,7 @@ override_dh_auto_install-arch:
 	\) -print0 | xargs -0 chmod a-x
 
 override_dh_auto_install-indep:
-	#make INSTALL_ROOT=$(CURDIR)/debian/tmp install_html_docs
+	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_install:
 	# Remove empty directories.

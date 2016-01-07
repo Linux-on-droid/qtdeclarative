@@ -14,6 +14,9 @@ Build-Depends: debhelper (>= 9),
                pkg-kde-tools (>= 0.15.17~),
                python,
                qtbase5-private-dev (>= 5.6.0~beta+dfsg~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0~beta+dfsg~),
+                     qtbase5-doc-html (>= 5.6.0~beta+dfsg~),
+                     qttools5-dev-tools (>= 5.6.0~)
 Standards-Version: 3.9.6
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtdeclarative.git
@@ -347,14 +350,25 @@ Description: Qt 5 declarative libraries debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 declarative libraries.
 
-#Package: qtdeclarative5-doc-html
-#Priority: extra
-#Architecture: all
-#Section: doc
-#Depends: ${misc:Depends}
-#Description: Qt 5 declarative HTML documentation
-# Qt is a cross-platform C++ application framework. Qt's primary feature
-# is its rich set of widgets that provide standard GUI functionality.
-# .
-# This package contains the HTML documentation for the Qt 5 declarative
-# libraries.
+Package: qtdeclarative5-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 declarative documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the documentation for the Qt 5 declarative libraries.
+
+Package: qtdeclarative5-doc-html
+Priority: extra
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Description: Qt 5 declarative HTML documentation
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the HTML documentation for the Qt 5 declarative
+ libraries.
