@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64 i386
+# SymbolsHelper-Confirmed: 5.6.0~beta amd64 arm64 armel armhf i386 kfreebsd-amd64 kfreebsd-i386 mips64el mipsel powerpc ppc64 ppc64el s390x
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -1204,8 +1204,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412CompiledData7Binding13escapedStringERK7QString@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV412EvalFunction11static_vtblE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV412EvalFunction4callEPKNS_7ManagedEPNS_8CallDataE@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=i386)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mipsel powerpc)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=mips64el powerpc)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEPNS_13InternalClassEPS2_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mips64el mipsel powerpc)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV413MemoryManager12setGCBlockedEb@Qt_5_PRIVATE_API 5.2.0~beta1 1
  (subst)_ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageE{size_t}@Qt_5_PRIVATE_API 5.5.1 1
  _ZN3QV413MemoryManager4markEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -1475,7 +1476,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection12callPropertyEPNS_2IR4ExprERK7QStringPNS2_8ExprListES4_@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection13callSubscriptEPNS_2IR4ExprES4_PNS2_8ExprListES4_@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection14constructValueEPNS_2IR4ExprEPNS2_8ExprListES4_@Qt_5_PRIVATE_API 5.4.0 1
- _ZN3QV43JIT20InstructionSelection14loadQmlContextEPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection14loadQmlContextEPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.6.0~beta 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection14loadThisObjectEPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection15prepareCallDataEPNS_2IR8ExprListEPNS2_4ExprE@Qt_5_PRIVATE_API 5.3.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection15visitCJumpEqualEPNS_2IR5BinopEPNS2_10BasicBlockES6_@Qt_5_PRIVATE_API 5.3.0 1
@@ -1502,13 +1503,13 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21callBuiltinDeleteNameERK7QStringPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21callBuiltinTypeofNameERK7QStringPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21getActivationPropertyEPKNS_2IR4NameEPNS2_4ExprE@Qt_5_PRIVATE_API 5.4.0 1
- _ZN3QV43JIT20InstructionSelection21getQmlContextPropertyEPNS_2IR4ExprENS2_6Member10MemberKindEiS4_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21getQmlContextPropertyEPNS_2IR4ExprENS2_6Member10MemberKindEiS4_@Qt_5_PRIVATE_API 5.6.0~beta 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21setActivationPropertyEPNS_2IR4ExprERK7QString@Qt_5_PRIVATE_API 5.3.0 1
- _ZN3QV43JIT20InstructionSelection21setQmlContextPropertyEPNS_2IR4ExprES4_NS2_6Member10MemberKindEi@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection21setQmlContextPropertyEPNS_2IR4ExprES4_NS2_6Member10MemberKindEi@Qt_5_PRIVATE_API 5.6.0~beta 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callBuiltinDefineArrayEPNS_2IR4ExprEPNS2_8ExprListE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callBuiltinDeleteValueEPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callBuiltinTypeofValueEPNS_2IR4ExprES4_@Qt_5_PRIVATE_API 5.4.0 1
- _ZN3QV43JIT20InstructionSelection22callQmlContextPropertyEPNS_2IR4ExprENS2_6Member10MemberKindEiPNS2_8ExprListES4_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22callQmlContextPropertyEPNS_2IR4ExprENS2_6Member10MemberKindEiPNS2_8ExprListES4_@Qt_5_PRIVATE_API 5.6.0~beta 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection22loadQmlImportedScriptsEPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection23callBuiltinDeleteMemberEPNS_2IR4ExprERK7QStringS4_@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection23callBuiltinTypeofMemberEPNS_2IR4ExprERK7QStringS4_@Qt_5_PRIVATE_API 5.4.0 1
@@ -1527,7 +1528,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection30callBuiltinSetupArgumentObjectEPNS_2IR4ExprE@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection32callBuiltinForeachIteratorObjectEPNS_2IR4ExprES4_@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection34callBuiltinForeachNextPropertynameEPNS_2IR4ExprES4_@Qt_5_PRIVATE_API 5.4.0 1
- _ZN3QV43JIT20InstructionSelection35callBuiltinTypeofQmlContextPropertyEPNS_2IR4ExprENS2_6Member10MemberKindEiS4_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection35callBuiltinTypeofQmlContextPropertyEPNS_2IR4ExprENS2_6Member10MemberKindEiS4_@Qt_5_PRIVATE_API 5.6.0~beta 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection3runEi@Qt_5_PRIVATE_API 5.3.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection4unopENS_2IR5AluOpEPNS2_4ExprES5_@Qt_5_PRIVATE_API 5.4.0 1
  (arch=amd64 armhf i386)_ZN3QV43JIT20InstructionSelection5binopENS_2IR5AluOpEPNS2_4ExprES5_S5_@Qt_5_PRIVATE_API 5.4.0 1
@@ -1673,7 +1674,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV46Object22defineReadonlyPropertyEPNS_6StringERKNS_5ValueE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV46Object22defineReadonlyPropertyERK7QStringRKNS_5ValueE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV46Object22internalDeletePropertyEPNS_6StringE@Qt_5_PRIVATE_API 5.4.0 1
- (arch=arm64 hppa ppc64el)_ZN3QV46Object23setArrayLengthUncheckedEj@Base 5.5.0
+ (arch=!amd64 !i386 !kfreebsd-amd64 !kfreebsd-i386)_ZN3QV46Object23setArrayLengthUncheckedEj@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV46Object29internalDeleteIndexedPropertyEj@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV46Object3getEPKNS_7ManagedEPNS_6StringEPb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV46Object3putEPNS_15ExecutionEngineERK7QStringRKNS_5ValueE@Qt_5_PRIVATE_API 5.5.0 1
@@ -2744,6 +2745,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK3QV45Value12toNumberImplEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZNK3QV45Value13asArrayLengthEPb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK3QV45Value16toQStringNoThrowEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
+ (optional=templinst|arch=mips64el)_ZNK3QV45Value2asINS_14FunctionObjectEEEPKT_v@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=mips64el)_ZNK3QV45Value2asINS_14QObjectWrapperEEEPKT_v@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK3QV45Value8toObjectEPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK3QV45Value8toStringEPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK3QV45Value8toUInt16Ev@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -2923,9 +2926,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIItEEEvDpOT_@Qt_5 5.4.2
  (optional=templinst)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Qt_5 5.4.2
  (optional=templinst)_ZNSt6vectorItSaItEE6insertEN9__gnu_cxx17__normal_iteratorIPKtS1_EERS4_@Qt_5 5.4.2
- (optional=templinst|arch=alpha armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Base 5.5.0
+ (optional=templinst|arch=alpha armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Qt_5 5.5.0
  (optional=templinst)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Qt_5 5.5.0
- (optional=templinst|arch=i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.0.2
+ (optional=templinst|arch=armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapIN6QQmlJS7Codegen6ResultEEvRT_S4_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=armel armhf i386 kfreebsd-i386 mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.0.2
  _ZTI10QQmlEngine@Qt_5 5.0.2
  _ZTI11QQmlBinding@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI11QQmlCleanup@Qt_5_PRIVATE_API 5.0.2 1
