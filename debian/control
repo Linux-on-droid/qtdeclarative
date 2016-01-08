@@ -350,7 +350,7 @@ Description: Qt 5 declarative libraries debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 declarative libraries.
 
-Package: qtdeclarative5-html
+Package: qtdeclarative5-doc
 Priority: extra
 Architecture: all
 Section: doc
