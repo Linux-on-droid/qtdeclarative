@@ -152,16 +152,6 @@ Description: Qt 5 State Machine QML module
  .
  The State Machine QML module.
 
-Package: qml-model-qtqml-models2
-Architecture: all
-Section: oldlibs
-Depends: qml-module-qtqml-models2, ${misc:Depends}
-Description: transitional dummy package for qml-module-qtqml-models2
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This is a transitional dummy package which can be safely removed.
-
 Package: qml-module-qtquick-particles2
 Architecture: any
 Multi-Arch: same
