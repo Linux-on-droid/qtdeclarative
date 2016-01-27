@@ -4,6 +4,10 @@ qtdeclarative-opensource-src (5.6.0~beta-3) UNRELEASED; urgency=medium
   * Drop qml-model-qtqml-models2 transitional package. It has already been
     transitional in jessie (and wheezy-backports).
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add qt5-qmltooling-plugins as a qtdeclarative5-dev dependency, it is
+    required by the CMake scripts (Closes: #812893).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Jan 2016 20:59:20 +0300
 
 qtdeclarative-opensource-src (5.6.0~beta-2) experimental; urgency=medium
