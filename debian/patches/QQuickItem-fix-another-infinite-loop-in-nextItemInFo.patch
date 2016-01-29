@@ -1,0 +1,316 @@
+From 6eff71ca4728639da1c83d88094041c40ab6dbf1 Mon Sep 17 00:00:00 2001
+From: Liang Qi <liang.qi@theqtcompany.com>
+Date: Thu, 21 Jan 2016 13:19:24 +0100
+Subject: [PATCH] QQuickItem: fix another infinite loop in
+ nextItemInFocusChain()
+
+Task-number: QTBUG-50516
+Change-Id: I6a1513b22401b0fe45da758a239ad82038b83264
+---
+ src/quick/items/qquickitem.cpp                     | 24 ++++++--
+ .../quick/qquickitem2/data/qtbug_50516_2_1.qml     | 13 +++++
+ .../quick/qquickitem2/data/qtbug_50516_2_2.qml     | 12 ++++
+ .../quick/qquickitem2/data/qtbug_50516_2_3.qml     | 16 ++++++
+ .../quick/qquickitem2/data/qtbug_50516_2_4.qml     | 15 +++++
+ .../quick/qquickitem2/data/qtbug_50516_2_5.qml     | 16 ++++++
+ .../quick/qquickitem2/data/qtbug_50516_2_6.qml     | 17 ++++++
+ tests/auto/quick/qquickitem2/tst_qquickitem.cpp    | 64 ++++++++++++++++++++++
+ 8 files changed, 171 insertions(+), 6 deletions(-)
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516_2_1.qml
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516_2_2.qml
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516_2_3.qml
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516_2_4.qml
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516_2_5.qml
+ create mode 100644 tests/auto/quick/qquickitem2/data/qtbug_50516_2_6.qml
+
+diff --git a/src/quick/items/qquickitem.cpp b/src/quick/items/qquickitem.cpp
+index 53342d5..02685a7 100644
+--- a/src/quick/items/qquickitem.cpp
++++ b/src/quick/items/qquickitem.cpp
+@@ -2471,6 +2471,7 @@ QQuickItem *QQuickItemPrivate::prevTabChildItem(const QQuickItem *item, int star
+ QQuickItem* QQuickItemPrivate::nextPrevItemInTabFocusChain(QQuickItem *item, bool forward)
+ {
+     Q_ASSERT(item);
++    qCDebug(DBG_FOCUS) << "QQuickItemPrivate::nextPrevItemInTabFocusChain: item:" << item << ", forward:" << forward;
+ 
+     if (!item->window())
+         return item;
+@@ -2481,19 +2482,25 @@ QQuickItem* QQuickItemPrivate::nextPrevItemInTabFocusChain(QQuickItem *item, boo
+     bool all = QGuiApplication::styleHints()->tabFocusBehavior() == Qt::TabFocusAllControls;
+ 
+     QQuickItem *from = 0;
++    bool isTabFence = item->d_func()->isTabFence;
+     if (forward) {
+-       from = item->parentItem();
++        if (!isTabFence)
++            from = item->parentItem();
+     } else {
+         if (!item->childItems().isEmpty())
+             from = item->childItems().first();
+-        else
++        else if (!isTabFence)
+             from = item->parentItem();
+     }
+     bool skip = false;
+     QQuickItem * startItem = item;
+     QQuickItem * firstFromItem = from;
+     QQuickItem *current = item;
++    qCDebug(DBG_FOCUS) << "QQuickItemPrivate::nextPrevItemInTabFocusChain: startItem:" << startItem;
++    qCDebug(DBG_FOCUS) << "QQuickItemPrivate::nextPrevItemInTabFocusChain: firstFromItem:" << firstFromItem;
+     do {
++        qCDebug(DBG_FOCUS) << "QQuickItemPrivate::nextPrevItemInTabFocusChain: current:" << current;
++        qCDebug(DBG_FOCUS) << "QQuickItemPrivate::nextPrevItemInTabFocusChain: from:" << from;
+         skip = false;
+         QQuickItem *last = current;
+ 
+@@ -2507,7 +2514,7 @@ QQuickItem* QQuickItemPrivate::nextPrevItemInTabFocusChain(QQuickItem *item, boo
+             else
+                 lastChild = prevTabChildItem(current, -1);
+         }
+-        bool isTabFence = current->d_func()->isTabFence;
++        isTabFence = current->d_func()->isTabFence;
+         if (isTabFence && !hasChildren)
+             return current;
+ 
+@@ -2562,9 +2569,14 @@ QQuickItem* QQuickItemPrivate::nextPrevItemInTabFocusChain(QQuickItem *item, boo
+                 return startItem;
+             }
+         }
+-        if (!firstFromItem) { //start from root
+-            startItem = current;
+-            firstFromItem = from;
++        if (!firstFromItem) {
++            if (startItem->d_func()->isTabFence) {
++                if (current == startItem)
++                    firstFromItem = from;
++            } else { //start from root
++                startItem = current;
++                firstFromItem = from;
++            }
+         }
+     } while (skip || !current->activeFocusOnTab() || !current->isEnabled() || !current->isVisible()
+                   || !(all || QQuickItemPrivate::canAcceptTabFocus(current)));
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516_2_1.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_1.qml
+new file mode 100644
+index 0000000..d8b7833
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_1.qml
+@@ -0,0 +1,13 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence2 {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++    Item {
++        objectName: "item"
++        focus: true
++    }
++}
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516_2_2.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_2.qml
+new file mode 100644
+index 0000000..445dc6d
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_2.qml
+@@ -0,0 +1,12 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence2 {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++    Item {
++        objectName: "item"
++    }
++}
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516_2_3.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_3.qml
+new file mode 100644
+index 0000000..806d48e
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_3.qml
+@@ -0,0 +1,16 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence2 {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++    Item {
++        objectName: "item2"
++        focus: true
++    }
++    Item {
++        objectName: "item2"
++    }
++}
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516_2_4.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_4.qml
+new file mode 100644
+index 0000000..6fcf513
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_4.qml
+@@ -0,0 +1,15 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence2 {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++    Item {
++        objectName: "item2"
++    }
++    Item {
++        objectName: "item2"
++    }
++}
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516_2_5.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_5.qml
+new file mode 100644
+index 0000000..4f7b68a
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_5.qml
+@@ -0,0 +1,16 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence2 {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++    TextInput {
++        objectName: "item1"
++        activeFocusOnTab: true
++    }
++    Item {
++        objectName: "item2"
++    }
++}
+diff --git a/tests/auto/quick/qquickitem2/data/qtbug_50516_2_6.qml b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_6.qml
+new file mode 100644
+index 0000000..2234763
+--- /dev/null
++++ b/tests/auto/quick/qquickitem2/data/qtbug_50516_2_6.qml
+@@ -0,0 +1,17 @@
++import QtQuick 2.1
++import Test 1.0
++
++TabFence2 {
++    objectName: "root"
++    focus: true
++    width: 800
++    height: 600
++    TextInput {
++        objectName: "item1"
++        activeFocusOnTab: true
++    }
++    TextInput {
++        objectName: "item2"
++        activeFocusOnTab: true
++    }
++}
+diff --git a/tests/auto/quick/qquickitem2/tst_qquickitem.cpp b/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
+index 8a75cba..58dca5c 100644
+--- a/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
++++ b/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
+@@ -75,6 +75,8 @@ private slots:
+ 
+     void tabFence();
+     void qtbug_50516();
++    void qtbug_50516_2_data();
++    void qtbug_50516_2();
+ 
+     void keys();
+     void standardKeys_data();
+@@ -309,6 +311,22 @@ public:
+ 
+ QML_DECLARE_TYPE(TabFenceItem);
+ 
++class TabFenceItem2 : public QQuickItem
++{
++    Q_OBJECT
++
++public:
++    TabFenceItem2(QQuickItem *parent = Q_NULLPTR)
++        : QQuickItem(parent)
++    {
++        QQuickItemPrivate *d = QQuickItemPrivate::get(this);
++        d->isTabFence = true;
++        setFlag(ItemIsFocusScope);
++    }
++};
++
++QML_DECLARE_TYPE(TabFenceItem2);
++
+ tst_QQuickItem::tst_QQuickItem()
+ {
+ }
+@@ -319,6 +337,7 @@ void tst_QQuickItem::initTestCase()
+     qmlRegisterType<KeyTestItem>("Test",1,0,"KeyTestItem");
+     qmlRegisterType<HollowTestItem>("Test", 1, 0, "HollowTestItem");
+     qmlRegisterType<TabFenceItem>("Test", 1, 0, "TabFence");
++    qmlRegisterType<TabFenceItem2>("Test", 1, 0, "TabFence2");
+ }
+ 
+ void tst_QQuickItem::cleanup()
+@@ -1216,6 +1235,51 @@ void tst_QQuickItem::qtbug_50516()
+     QCOMPARE(next, contentItem);
+ }
+ 
++void tst_QQuickItem::qtbug_50516_2_data()
++{
++    QTest::addColumn<QString>("filename");
++    QTest::addColumn<QString>("item1");
++    QTest::addColumn<QString>("item2");
++
++    QTest::newRow("FocusScope TabFence with one Item(focused)")
++            << QStringLiteral("qtbug_50516_2_1.qml") << QStringLiteral("root") << QStringLiteral("root");
++    QTest::newRow("FocusScope TabFence with one Item(unfocused)")
++            << QStringLiteral("qtbug_50516_2_2.qml") << QStringLiteral("root") << QStringLiteral("root");
++    QTest::newRow("FocusScope TabFence with two Items(focused)")
++            << QStringLiteral("qtbug_50516_2_3.qml") << QStringLiteral("root") << QStringLiteral("root");
++    QTest::newRow("FocusScope TabFence with two Items(unfocused)")
++            << QStringLiteral("qtbug_50516_2_4.qml") << QStringLiteral("root") << QStringLiteral("root");
++    QTest::newRow("FocusScope TabFence with one Item and one TextInput(unfocused)")
++            << QStringLiteral("qtbug_50516_2_5.qml") << QStringLiteral("item1") << QStringLiteral("item1");
++    QTest::newRow("FocusScope TabFence with two TextInputs(unfocused)")
++            << QStringLiteral("qtbug_50516_2_6.qml") << QStringLiteral("item1") << QStringLiteral("item2");
++}
++
++void tst_QQuickItem::qtbug_50516_2()
++{
++    QFETCH(QString, filename);
++    QFETCH(QString, item1);
++    QFETCH(QString, item2);
++
++    QQuickView *window = new QQuickView(0);
++    window->setBaseSize(QSize(800,600));
++
++    window->setSource(testFileUrl(filename));
++    window->show();
++    window->requestActivate();
++    QVERIFY(QTest::qWaitForWindowActive(window));
++    QVERIFY(QGuiApplication::focusWindow() == window);
++    QVERIFY(window->rootObject()->hasActiveFocus());
++
++    QQuickItem *contentItem = window->rootObject();
++    QQuickItem *next = contentItem->nextItemInFocusChain(true);
++    QCOMPARE(next->objectName(), item1);
++    next = contentItem->nextItemInFocusChain(false);
++    QCOMPARE(next->objectName(), item2);
++
++    delete window;
++}
++
+ void tst_QQuickItem::keys()
+ {
+     QQuickView *window = new QQuickView(0);
+-- 
+2.7.0
+
