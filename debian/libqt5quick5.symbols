@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.0~beta amd64
+# SymbolsHelper-Confirmed: 5.6.0~rc amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -161,7 +161,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QQuickText14baseUrlChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QQuickText14hoverMoveEventEP11QHoverEvent@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN10QQuickText14paddingChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN10QQuickText14q_imagesLoadedEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN10QQuickText14q_updateLayoutEv@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN10QQuickText14setLeftPaddingEd@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN10QQuickText15geometryChangedERK6QRectFS2_@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QQuickText15hoverEnterEventEP11QHoverEvent@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -409,7 +409,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN12QQuickWindow10grabWindowEv@Qt_5 5.0.2
  _ZN12QQuickWindow10wheelEventEP11QWheelEvent@Qt_5 5.0.2
  _ZN12QQuickWindow11exposeEventEP12QExposeEvent@Qt_5 5.0.2
- _ZN12QQuickWindow11forcePolishEv@Qt_5 5.2.0~beta1
  _ZN12QQuickWindow11maybeUpdateEv@Qt_5 5.0.2
  _ZN12QQuickWindow11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN12QQuickWindow11qt_metacastEPKc@Qt_5 5.0.2
@@ -436,7 +435,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN12QQuickWindow17mouseReleaseEventEP11QMouseEvent@Qt_5 5.0.2
  _ZN12QQuickWindow17scheduleRenderJobEP9QRunnableNS_11RenderStageE@Qt_5 5.4.0
  _ZN12QQuickWindow18afterSynchronizingEv@Qt_5 5.3.0
+ _ZN12QQuickWindow18physicalDpiChangedEv@Qt_5 5.6.0~rc
  _ZN12QQuickWindow19beforeSynchronizingEv@Qt_5 5.0.2
+ _ZN12QQuickWindow19handleScreenChangedEP7QScreen@Qt_5 5.6.0~rc
  _ZN12QQuickWindow20openglContextCreatedEP14QOpenGLContext@Qt_5 5.3.0
  _ZN12QQuickWindow21hasDefaultAlphaBufferEv@Qt_5 5.1.0
  _ZN12QQuickWindow21mouseDoubleClickEventEP11QMouseEvent@Qt_5 5.0.2
@@ -1669,6 +1670,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate10data_clearEP16QQmlListPropertyI7QObjectE@Qt_5_PRIVATE_API 5.1.0 1
  _ZN19QQuickWindowPrivate10data_countEP16QQmlListPropertyI7QObjectE@Qt_5_PRIVATE_API 5.1.0 1
  _ZN19QQuickWindowPrivate11data_appendEP16QQmlListPropertyI7QObjectEPS1_@Qt_5_PRIVATE_API 5.1.0 1
+ _ZN19QQuickWindowPrivate11forcePolishEv@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN19QQuickWindowPrivate11polishItemsEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate12cleanupNodesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate12updateCursorERK7QPointF@Qt_5_PRIVATE_API 5.0.2 1
@@ -2530,7 +2532,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN29QQuickDesignerSupportMetaInfo36registerNotifyPropertyChangeCallBackEPFvP7QObjectRK10QByteArrayE@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN29QQuickImplicitSizeItemPrivate20implicitWidthChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN29QQuickImplicitSizeItemPrivate21implicitHeightChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN30QQuickAbstractAnimationPrivate14createPropertyEP7QObjectRK7QStringS1_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN30QQuickAbstractAnimationPrivate14createPropertyEP7QObjectRK7QStringS1_PS2_@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN30QQuickAbstractAnimationPrivate17animationFinishedEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN30QQuickAbstractAnimationPrivate8commenceEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN30QSGOpaqueTextureMaterialShader10initializeEv@Qt_5_PRIVATE_API 5.0.2 1

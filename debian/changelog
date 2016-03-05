@@ -6,7 +6,7 @@ qtdeclarative-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
     transitional in jessie (and wheezy-backports).
   * Bump Qt build-dependencies to 5.6.0~rc.
   * Use recommended https URIs for Vcs fields.
-  * Update debian/libqt5qml5.symbols from buildds’ logs.
+  * Update symbols files from buildds’ and current build logs.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add qt5-qmltooling-plugins as a qtdeclarative5-dev dependency, it is
