@@ -17,7 +17,7 @@ Build-Depends: debhelper (>= 9),
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.0~rc+dfsg~),
                      qtbase5-doc-html (>= 5.6.0~rc+dfsg~),
                      qttools5-dev-tools (>= 5.6.0~)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdeclarative.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative.git
