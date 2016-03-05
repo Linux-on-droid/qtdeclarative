@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.6.0~rc-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release candidate.
@@ -13,7 +13,7 @@ qtdeclarative-opensource-src (5.6.0~rc-1) UNRELEASED; urgency=medium
   * Add qt5-qmltooling-plugins as a qtdeclarative5-dev dependency, it is
     required by the CMake scripts (Closes: #812893).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Jan 2016 20:59:20 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 05 Mar 2016 16:41:54 +0300
 
 qtdeclarative-opensource-src (5.6.0~beta-2) experimental; urgency=medium
 
