@@ -1,4 +1,15 @@
-# This is not a prebuilt javascritpt. It happens to be a description made with very long lines.
-qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object examples/quick/canvas/tiger/tiger.js line length is 3496 characters (>1024)
-# This is indeed the original source and preferred source of modification.
-qtdeclarative-opensource-src source: source-is-missing examples/quick/canvas/tiger/tiger.js
+# This was generated from SVG (tiger.svg can be found in qtsvg-opensource-src package),
+# but it is trivial to convert back to SVG so both forms can be considered source forms.
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object examples/quick/canvas/tiger/tiger.js *
+qtdeclarative-opensource-src source: source-is-missing examples/quick/canvas/tiger/tiger.js *
+# The files in testsuite are not prebuilt or minified, they just have quite long source lines.
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma/ObjectObjects/15.2.1.1.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma/ObjectObjects/15.2.1.1.js *
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma/String/15.5.2.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma/String/15.5.2.js *
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma/String/15.5.4.4-4.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma/String/15.5.4.4-4.js *
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-209067.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-209067.js *
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-307456.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-307456.js *
