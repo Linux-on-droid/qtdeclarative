@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.6.1-1) UNRELEASED; urgency=medium
     - Bump Qt build dependencies.
   * Update symbols files with buildds' and current build log.
   * Mark private symbols as such.
+  * Update Standards-Version to 3.9.8, no changes required.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 16:05:28 -0300
 
