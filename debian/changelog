@@ -8,8 +8,6 @@ qtdeclarative-opensource-src (5.5.1-4) UNRELEASED; urgency=medium
     - Fix every key being pressed twice on desktop (LP: #1451554)
   * debian/patches/Add-isTabFence-private-flag.patch:
     - Tab should not leave dialog/popover/menu (LP: #1526208)
-  * debian/patches/QQuickItem-fix-an-infinite-loop-nextItemInFocusChain.patch:
-    - Refine the previous patch (LP: #1526208)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Feb 2016 10:15:48 +0000
 
