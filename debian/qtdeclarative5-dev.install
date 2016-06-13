@@ -65,8 +65,10 @@ usr/include/*/qt5/QtQmlDevTools/QtQmlDevTools
 usr/include/*/qt5/QtQmlDevTools/QtQmlDevToolsDepends
 usr/include/*/qt5/QtQmlDevTools/QtQmlDevToolsVersion
 usr/include/*/qt5/QtQmlDevTools/qtqmldevtoolsversion.h
+usr/include/*/qt5/QtQuick/QQuickAsyncImageProvider
 usr/include/*/qt5/QtQuick/QQuickFramebufferObject
 usr/include/*/qt5/QtQuick/QQuickImageProvider
+usr/include/*/qt5/QtQuick/QQuickImageResponse
 usr/include/*/qt5/QtQuick/QQuickItem
 usr/include/*/qt5/QtQuick/QQuickItemGrabResult
 usr/include/*/qt5/QtQuick/QQuickPaintedItem
@@ -105,7 +107,6 @@ usr/include/*/qt5/QtQuick/QSGVertexColorMaterial
 usr/include/*/qt5/QtQuick/QtQuick
 usr/include/*/qt5/QtQuick/QtQuickDepends
 usr/include/*/qt5/QtQuick/QtQuickVersion
-usr/include/*/qt5/QtQuick/designersupport.h
 usr/include/*/qt5/QtQuick/qquickframebufferobject.h
 usr/include/*/qt5/QtQuick/qquickimageprovider.h
 usr/include/*/qt5/QtQuick/qquickitem.h
@@ -148,8 +149,15 @@ usr/include/*/qt5/QtQuickWidgets/qquickwidget.h
 usr/include/*/qt5/QtQuickWidgets/qtquickwidgetsglobal.h
 usr/include/*/qt5/QtQuickWidgets/qtquickwidgetsversion.h
 usr/lib/*/cmake/Qt5Qml/Qt5QmlConfig.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake
-usr/lib/*/cmake/Qt5Qml/Qt5Qml_QTcpServerConnection.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfig.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake
 usr/lib/*/cmake/Qt5QuickTest/Qt5QuickTestConfig.cmake
@@ -169,9 +177,7 @@ usr/lib/*/libQt5QuickTest.so
 usr/lib/*/libQt5QuickWidgets.prl
 usr/lib/*/libQt5QuickWidgets.so
 usr/lib/*/pkgconfig/Qt5Qml.pc
-usr/lib/*/pkgconfig/Qt5QmlDevTools.pc
 usr/lib/*/pkgconfig/Qt5Quick.pc
-usr/lib/*/pkgconfig/Qt5QuickParticles.pc
 usr/lib/*/pkgconfig/Qt5QuickTest.pc
 usr/lib/*/pkgconfig/Qt5QuickWidgets.pc
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qml.pri

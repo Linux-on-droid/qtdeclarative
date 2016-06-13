@@ -83,7 +83,7 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
  
 --- a/src/qml/jsruntime/jsruntime.pri
 +++ b/src/qml/jsruntime/jsruntime.pri
-@@ -117,4 +117,9 @@
+@@ -113,4 +113,9 @@
  
  ios: DEFINES += ENABLE_ASSEMBLER_WX_EXCLUSIVE=1
  
@@ -96,7 +96,7 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
 +}
 --- a/src/qml/jsruntime/qv4numberobject.cpp
 +++ b/src/qml/jsruntime/qv4numberobject.cpp
-@@ -38,7 +38,12 @@
+@@ -39,7 +39,12 @@
  #include <QtCore/qmath.h>
  #include <QtCore/QDebug>
  #include <cassert>
@@ -111,7 +111,7 @@ Forwarded: https://codereview.qt-project.org/#/c/105650/
  
 --- a/src/qml/jsruntime/qv4runtime.cpp
 +++ b/src/qml/jsruntime/qv4runtime.cpp
-@@ -57,7 +57,11 @@
+@@ -60,7 +60,11 @@
  
  #include <wtf/MathExtras.h>
  
