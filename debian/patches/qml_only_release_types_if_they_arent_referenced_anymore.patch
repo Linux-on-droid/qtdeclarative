@@ -1,0 +1,63 @@
+From 9b1231ca3d21ade574a8a7cf3f0805a8b520bcd5 Mon Sep 17 00:00:00 2001
+From: Ulf Hermann <ulf.hermann@qt.io>
+Date: Wed, 8 Jun 2016 17:32:32 +0200
+Subject: [PATCH] QML: Only release types if they aren't referenced anymore
+
+Just checking for references on m_compiledData is not enough. The
+actual component can also be referenced. Thus it won't be deleted
+on release(), but cannot be found in the type cache anymore.
+
+Task-number: QTBUG-53761
+Change-Id: I8567af8e75a078598e4fed31e4717134e1332278
+Reviewed-by: Mitch Curtis <mitch.curtis@qt.io>
+Reviewed-by: Simon Hausmann <simon.hausmann@qt.io>
+(cherry picked from commit 2ac19881f92c94f4e9427bd9ff513210675f259e)
+---
+ src/qml/qml/qqmltypeloader.cpp                       |  3 ++-
+ tests/auto/qml/qqmltypeloader/tst_qqmltypeloader.cpp | 15 ++++++++++++---
+ 2 files changed, 14 insertions(+), 4 deletions(-)
+
+diff --git a/src/qml/qml/qqmltypeloader.cpp b/src/qml/qml/qqmltypeloader.cpp
+index c684c86..01200fd 100644
+--- a/src/qml/qml/qqmltypeloader.cpp
++++ b/src/qml/qml/qqmltypeloader.cpp
+@@ -1961,7 +1961,8 @@ void QQmlTypeLoader::trimCache()
+         QList<TypeCache::Iterator> unneededTypes;
+         for (TypeCache::Iterator iter = m_typeCache.begin(), end = m_typeCache.end(); iter != end; ++iter)  {
+             QQmlTypeData *typeData = iter.value();
+-            if (typeData->m_compiledData && typeData->m_compiledData->count() == 1) {
++            if (typeData->m_compiledData && typeData->count() == 1
++                    && typeData->m_compiledData->count() == 1) {
+                 // There are no live objects of this type
+                 unneededTypes.append(iter);
+             }
+diff --git a/tests/auto/qml/qqmltypeloader/tst_qqmltypeloader.cpp b/tests/auto/qml/qqmltypeloader/tst_qqmltypeloader.cpp
+index 7045c7c..a1eaa05 100644
+--- a/tests/auto/qml/qqmltypeloader/tst_qqmltypeloader.cpp
++++ b/tests/auto/qml/qqmltypeloader/tst_qqmltypeloader.cpp
+@@ -86,10 +86,19 @@ void tst_QQMLTypeLoader::trimCache()
+         url.setQuery(QString::number(i));
+ 
+         QQmlTypeData *data = loader.getType(url);
+-        if (i % 5 == 0) // keep references to some of them so that they aren't trimmed
+-            data->compiledData()->addref();
++        // Run an event loop to receive the callback that release()es.
++        QTRY_COMPARE(data->count(), 2);
+ 
+-        data->release();
++        // keep references to some of them so that they aren't trimmed. References to either the
++        // QQmlTypeData or its compiledData() should prevent the trimming.
++        if (i % 10 == 0) {
++            // keep ref on data, don't add ref on data->compiledData()
++        } else if (i % 5 == 0) {
++            data->compiledData()->addref();
++            data->release();
++        } else {
++            data->release();
++        }
+     }
+ 
+     for (int i = 0; i < 256; ++i) {
+-- 
+2.1.4
+
