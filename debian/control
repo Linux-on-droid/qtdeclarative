@@ -87,6 +87,20 @@ Description: Qt 5 Quick Widgets library
  .
  This package contains the Qt Quick Widgets library for QtDeclarative module.
 
+Package: qml-module-qtquick-layouts
+Section: libdevel
+Multi-Arch: same
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: qtdeclarative5-quicklayouts-plugin (<< 5.2.1-4~)
+Replaces: qtdeclarative5-quicklayouts-plugin (<< 5.2.1-4~)
+Description: Qt 5 Quick Layouts QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ The Qt Quick Layouts modules provides a set of layouts that can be used to
+ build complete interfaces in Qt Quick.
+
 Package: qt5-qmltooling-plugins
 Architecture: any
 Multi-Arch: same
