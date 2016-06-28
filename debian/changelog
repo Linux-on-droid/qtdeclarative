@@ -1,5 +1,11 @@
 qtdeclarative-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
+  * New upstream release.
+  * Drop qml_only_release_types_if_they_arent_referenced_anymore.patch (upstream)
+  * New package qml-module-qtquick-layouts (moved from qtquickcontrols)
+  * Update install files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 14:35:33 +0200
 
 qtdeclarative-opensource-src (5.6.1-4) unstable; urgency=medium
