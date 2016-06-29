@@ -2,7 +2,8 @@ qtdeclarative-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * New upstream release.
-  * Drop qml_only_release_types_if_they_arent_referenced_anymore.patch (upstream)
+  * Drop qml_only_release_types_if_they_arent_referenced_anymore.patch
+    (upstream)
   * New package qml-module-qtquick-layouts (moved from qtquickcontrols)
   * Update install files.
   * qtdeclarative5-examples breaks/replaces qtquickcontrols5-examples because
