@@ -325,12 +325,15 @@ Section: x11
 Pre-Depends: ${misc:Pre-Depends}
 Depends: qml-module-qtqml-models2,
          qml-module-qtquick-dialogs,
+         qml-module-qtquick-layouts,
          qml-module-qtquick-localstorage,
          qml-module-qtquick-particles2,
          qml-module-qtquick-xmllistmodel,
          qml-module-qttest,
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: qtquickcontrols5-examples (<< 5.7.0-1~)
+Replaces: qtquickcontrols5-examples (<< 5.7.0-1~)
 Description: Qt 5 declarative examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.

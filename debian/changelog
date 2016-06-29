@@ -5,6 +5,9 @@ qtdeclarative-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Drop qml_only_release_types_if_they_arent_referenced_anymore.patch (upstream)
   * New package qml-module-qtquick-layouts (moved from qtquickcontrols)
   * Update install files.
+  * qtdeclarative5-examples breaks/replaces qtquickcontrols5-examples because
+    of moved example files.
+  * qtdeclarative5-examples depends on the new layouts module
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 14:35:33 +0200
 
