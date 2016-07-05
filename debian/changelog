@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.7.0-1) experimental; urgency=medium
 
   [ Harald Sitter ]
   * New upstream release.
@@ -18,7 +18,7 @@ qtdeclarative-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * Bump qtdeclarative-abi version to 5-7-0.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 14:35:33 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 15:53:55 +0300
 
 qtdeclarative-opensource-src (5.6.1-4) unstable; urgency=medium
 
