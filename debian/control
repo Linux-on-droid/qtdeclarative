@@ -88,7 +88,6 @@ Description: Qt 5 Quick Widgets library
  This package contains the Qt Quick Widgets library for QtDeclarative module.
 
 Package: qml-module-qtquick-layouts
-Section: libdevel
 Multi-Arch: same
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
