@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.6.1 amd64
+# SymbolsHelper-Confirmed: 5.7.0 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
-| libqt5quick5 #MINVER#, qtdeclarative-abi-5-6-0
+| libqt5quick5 #MINVER#, qtdeclarative-abi-5-7-0
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
@@ -8,6 +8,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  Qt_5.4@Qt_5.4 5.6.0~beta
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
+ Qt_5.7@Qt_5.7 5.7.0
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Qt_5 5.4.0
@@ -658,6 +659,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickItemView23displayMarginEndChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView23positionViewAtBeginningEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView23removeTransitionChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN14QQuickItemView23setKeyNavigationEnabledEb@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QQuickItemView24setHighlightMoveDurationEi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView24setPreferredHighlightEndEd@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView25highlightRangeModeChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -670,6 +672,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickItemView26setMoveDisplacedTransitionEP16QQuickTransition@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView26setPreferredHighlightBeginEd@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView26setVerticalLayoutDirectionENS_23VerticalLayoutDirectionE@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN14QQuickItemView27keyNavigationEnabledChangedEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QQuickItemView28highlightMoveDurationChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView28preferredHighlightEndChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemView28resetPreferredHighlightBeginEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -692,11 +695,10 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickItemViewD0Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemViewD1Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickItemViewD2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN14QQuickProfiler10initializeEP19QQmlProfilerService@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN14QQuickProfiler10initializeEP7QObject@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QQuickProfiler10s_instanceE@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler11qt_metacastEPKc@Qt_5_PRIVATE_API 5.3.0 1
- _ZN14QQuickProfiler12sendMessagesExR5QListI10QByteArrayE@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler14reportDataImplEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler15featuresEnabledE@Qt_5_PRIVATE_API 5.4.0 1
  _ZN14QQuickProfiler16staticMetaObjectE@Qt_5_PRIVATE_API 5.3.0 1
@@ -707,8 +709,9 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  (optional=templinst)_ZN14QQuickProfiler25recordSceneGraphTimestampILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE6EEEvv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QQuickProfiler25registerAnimationCallbackEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler8setTimerERK13QElapsedTimer@Qt_5_PRIVATE_API 5.3.0 1
- _ZN14QQuickProfilerC1EP19QQmlProfilerService@Qt_5_PRIVATE_API 5.3.0 1
- _ZN14QQuickProfilerC2EP19QQmlProfilerService@Qt_5_PRIVATE_API 5.3.0 1
+ _ZN14QQuickProfiler9dataReadyERK7QVectorI18QQuickProfilerDataE@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickProfilerC1EP7QObject@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickProfilerC2EP7QObject@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QQuickProfilerD0Ev@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfilerD1Ev@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfilerD2Ev@Qt_5_PRIVATE_API 5.3.0 1
@@ -788,6 +791,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEdit18contentSizeChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit18leftPaddingChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickTextEdit18moveCursorDelegateEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN14QQuickTextEdit18preeditTextChangedEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QQuickTextEdit18resetBottomPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickTextEdit19moveCursorSelectionEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit19moveCursorSelectionEiNS_13SelectionModeE@Qt_5_PRIVATE_API 5.0.2 1
@@ -825,6 +829,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEdit4copyEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit4redoEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit4undoEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN14QQuickTextEdit5clearEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QQuickTextEdit5eventEP6QEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit5pasteEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit6appendERK7QString@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -842,6 +847,19 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEditC1ER21QQuickTextEditPrivateP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QQuickTextEditC2EP10QQuickItem@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEditC2ER21QQuickTextEditPrivateP10QQuickItem@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN14QQuickTextNode11clearCursorEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode13addTextLayoutERK7QPointFP11QTextLayoutRK6QColorN10QQuickText9TextStyleES7_S7_S7_S7_iiii@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode13deleteContentEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode15addTextDocumentERK7QPointFP13QTextDocumentRK6QColorN10QQuickText9TextStyleES7_S7_S7_S7_ii@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode16addRectangleNodeERK6QRectFRK6QColor@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode8addImageERK6QRectFRK6QImage@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode9addGlyphsERK7QPointFRK9QGlyphRunRK6QColorN10QQuickText9TextStyleES8_P7QSGNode@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNode9setCursorERK6QRectFRK6QColor@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNodeC1EP10QQuickItem@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNodeC2EP10QQuickItem@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNodeD0Ev@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNodeD1Ev@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN14QQuickTextNodeD2Ev@Qt_5_PRIVATE_API 5.7.0 1
  _ZN14QSGNodeUpdater12updateStatesEP7QSGNode@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QSGNodeUpdater13enterClipNodeEP11QSGClipNode@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QSGNodeUpdater13leaveClipNodeEP11QSGClipNode@Qt_5_PRIVATE_API 5.0.2 1
@@ -993,7 +1011,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickMouseArea10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickMouseArea10setEnabledEb@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickMouseArea10setHoveredEb@Qt_5_PRIVATE_API 5.0.2 1
- _ZN15QQuickMouseArea10setPressedEN2Qt11MouseButtonEb@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN15QQuickMouseArea10setPressedEN2Qt11MouseButtonEbNS0_16MouseEventSourceE@Qt_5_PRIVATE_API 5.7.0 1
  _ZN15QQuickMouseArea10timerEventEP11QTimerEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickMouseArea10wheelEventEP11QWheelEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickMouseArea11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.0.2 1
@@ -1130,6 +1148,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickTextInput18contentSizeChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput18displayTextChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput18leftPaddingChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN15QQuickTextInput18preeditTextChangedEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN15QQuickTextInput18q_validatorChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput18resetBottomPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN15QQuickTextInput19moveCursorSelectionEi@Qt_5_PRIVATE_API 5.0.2 1
@@ -1172,6 +1191,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN15QQuickTextInput4copyEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput4redoEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput4undoEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN15QQuickTextInput5clearEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN15QQuickTextInput5eventEP6QEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput5pasteEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQuickTextInput6insertEiRK7QString@Qt_5_PRIVATE_API 5.0.2 1
@@ -1511,6 +1531,13 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickPaintedItemD0Ev@Qt_5 5.0.2
  _ZN17QQuickPaintedItemD1Ev@Qt_5 5.0.2
  _ZN17QQuickPaintedItemD2Ev@Qt_5 5.0.2
+ _ZN17QQuickStateAction17deleteFromBindingEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN17QQuickStateActionC1EP7QObjectRK7QStringP11QQmlContextRK8QVariant@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN17QQuickStateActionC1EP7QObjectRK7QStringRK8QVariant@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN17QQuickStateActionC1Ev@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN17QQuickStateActionC2EP7QObjectRK7QStringP11QQmlContextRK8QVariant@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN17QQuickStateActionC2EP7QObjectRK7QStringRK8QVariant@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN17QQuickStateActionC2Ev@Qt_5_PRIVATE_API 5.7.0 1
  _ZN17QQuickTextPrivate10updateSizeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QQuickTextPrivate12elideFormatsEiiiP7QVectorIN11QTextLayout11FormatRangeEE@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN17QQuickTextPrivate12mirrorChangeEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -2026,6 +2053,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN21QQuickTextEditPrivate14setLeftPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQuickTextEditPrivate15setRightPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQuickTextEditPrivate16handleFocusEventEP11QFocusEvent@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN21QQuickTextEditPrivate16resetInputMethodEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN21QQuickTextEditPrivate16setBottomPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQuickTextEditPrivate22isLinkHoveredConnectedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQuickTextEditPrivate23updateDefaultTextOptionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -2170,17 +2198,19 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN22QQuickTextInputPrivate15selectWordAtPosEi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate15setRightPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate16handleFocusEventEP11QFocusEvent@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN22QQuickTextInputPrivate16resetInputMethodEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickTextInputPrivate16setBottomPaddingEdb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate17deleteStartOfWordEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate17separateSelectionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate17updateDisplayTextEb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate18removeSelectedTextEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate19emitUndoRedoChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN22QQuickTextInputPrivate20setCursorBlinkPeriodEi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate20updateBaselineOffsetEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN22QQuickTextInputPrivate20updateCursorBlinkingEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickTextInputPrivate20updateVerticalScrollEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate22updateHorizontalScrollEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate23processInputMethodEventEP17QInputMethodEvent@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN22QQuickTextInputPrivate24setBlinkingCursorEnabledEb@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickTextInputPrivate24setImplicitResizeEnabledEb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate25emitCursorPositionChangedEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN22QQuickTextInputPrivate25updatePasswordEchoEditingEb@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -2701,8 +2731,10 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QQuickItem11heightValidEv@Qt_5 5.0.2
  _ZNK10QQuickItem11mapFromItemEP14QQmlV4Function@Qt_5 5.2.0~beta1
  _ZNK10QQuickItem11mapFromItemEPKS_RK7QPointF@Qt_5 5.0.2
+ _ZNK10QQuickItem11mapToGlobalERK7QPointF@Qt_5 5.7.0
  _ZNK10QQuickItem12antialiasingEv@Qt_5 5.0.2
  _ZNK10QQuickItem12boundingRectEv@Qt_5 5.0.2
+ _ZNK10QQuickItem12isAncestorOfEPKS_@Qt_5 5.7.0
  _ZNK10QQuickItem12isFocusScopeEv@Qt_5 5.0.2
  _ZNK10QQuickItem12isUnderMouseEv@Qt_5 5.0.2
  _ZNK10QQuickItem12mapFromSceneERK7QPointF@Qt_5 5.0.2
@@ -2710,6 +2742,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QQuickItem13itemTransformEPS_Pb@Qt_5 5.0.2
  _ZNK10QQuickItem13keepMouseGrabEv@Qt_5 5.0.2
  _ZNK10QQuickItem13keepTouchGrabEv@Qt_5 5.0.2
+ _ZNK10QQuickItem13mapFromGlobalERK7QPointF@Qt_5 5.7.0
  _ZNK10QQuickItem13mapRectToItemEPKS_RK6QRectF@Qt_5 5.0.2
  _ZNK10QQuickItem14baselineOffsetEv@Qt_5 5.0.2
  _ZNK10QQuickItem14hasActiveFocusEv@Qt_5 5.0.2
@@ -2930,6 +2963,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK14QQuickItemView21preferredHighlightEndEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK14QQuickItemView22addDisplacedTransitionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK14QQuickItemView22displayMarginBeginningEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZNK14QQuickItemView22isKeyNavigationEnabledEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK14QQuickItemView23moveDisplacedTransitionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK14QQuickItemView23preferredHighlightBeginEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK14QQuickItemView23verticalLayoutDirectionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -2956,6 +2990,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK14QQuickTextEdit10topPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK14QQuickTextEdit11hoveredLinkEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZNK14QQuickTextEdit11leftPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZNK14QQuickTextEdit11preeditTextEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK14QQuickTextEdit12boundingRectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK14QQuickTextEdit12contentWidthEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK14QQuickTextEdit12focusOnPressEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -3078,6 +3113,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK15QQuickTextInput10topPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK15QQuickTextInput11displayTextEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QQuickTextInput11leftPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZNK15QQuickTextInput11preeditTextEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK15QQuickTextInput12boundingRectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QQuickTextInput12contentWidthEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QQuickTextInput12focusOnPressEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -3167,6 +3203,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK17QQuickItemPrivate21itemToWindowTransformEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK17QQuickItemPrivate21windowToItemTransformEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK17QQuickItemPrivate22computeTransformOriginEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZNK17QQuickItemPrivate23globalToWindowTransformEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZNK17QQuickItemPrivate23windowToGlobalTransformEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK17QQuickItemPrivate26isTransparentForPositionerEv@Qt_5_PRIVATE_API 5.4.0 1
  _ZNK17QQuickItemPrivate3topEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK17QQuickItemPrivate4leftEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -3313,6 +3351,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK22QQuickTextInputPrivate11stripStringERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK22QQuickTextInputPrivate12isValidInputE5QCharS0_@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK22QQuickTextInputPrivate13textDirectionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZNK22QQuickTextInputPrivate15anchorRectangleEv@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK22QQuickTextInputPrivate15layoutDirectionEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK22QQuickTextInputPrivate16getImplicitWidthEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK22QQuickTextInputPrivate18hasAcceptableInputERK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -3464,6 +3503,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTI14QQuickItemView@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTI14QQuickProfiler@Qt_5_PRIVATE_API 5.3.0 1
  _ZTI14QQuickTextEdit@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTI14QQuickTextNode@Qt_5_PRIVATE_API 5.7.0 1
  _ZTI14QSGNodeUpdater@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI14QSGNodeVisitor@Qt_5 5.0.2
  _ZTI14QSGOpacityNode@Qt_5 5.0.2
@@ -3616,6 +3656,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTS14QQuickItemView@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTS14QQuickProfiler@Qt_5_PRIVATE_API 5.3.0 1
  _ZTS14QQuickTextEdit@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTS14QQuickTextNode@Qt_5_PRIVATE_API 5.7.0 1
  _ZTS14QSGNodeUpdater@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS14QSGNodeVisitor@Qt_5 5.0.2
  _ZTS14QSGOpacityNode@Qt_5 5.0.2
@@ -3765,6 +3806,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV14QQuickItemView@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV14QQuickProfiler@Qt_5_PRIVATE_API 5.3.0 1
  _ZTV14QQuickTextEdit@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTV14QQuickTextNode@Qt_5_PRIVATE_API 5.7.0 1
  _ZTV14QSGNodeUpdater@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV14QSGNodeVisitor@Qt_5 5.0.2
  _ZTV14QSGOpacityNode@Qt_5 5.0.2
