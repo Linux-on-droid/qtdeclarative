@@ -10,6 +10,10 @@ qtdeclarative-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
     of moved example files.
   * qtdeclarative5-examples depends on the new layouts module
 
+  [ Dmitry Shachnev ]
+  * Drop check_system_double-conversion.patch and libdouble-conversion-dev
+    build-dependency, upstream no longer uses double-conversion.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Jun 2016 14:35:33 +0200
 
 qtdeclarative-opensource-src (5.6.1-4) unstable; urgency=medium
