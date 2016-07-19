@@ -3,3 +3,4 @@ qml_only_release_types_if_they_arent_referenced_anymore.patch
 
 # Debian patches
 check_system_double-conversion.patch
+fix_engine_64bits_big_endian.diff
