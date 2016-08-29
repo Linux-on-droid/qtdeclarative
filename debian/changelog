@@ -28,6 +28,14 @@ qtdeclarative-opensource-src (5.7.0-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 15:53:55 +0300
 
+qtdeclarative-opensource-src (5.6.1-6) unstable; urgency=medium
+
+  * Backport upstream change to fix crashes when compiled with GCC 6
+    (no_lifetime_dse.diff; see QTBUG-55482).
+  * Update symbols files from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 29 Aug 2016 21:30:47 +0300
+
 qtdeclarative-opensource-src (5.6.1-5) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
