@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.6.1 amd64 hppa hurd-i386 m68k sparc64 x32
+# SymbolsHelper-Confirmed: 5.6.1 amd64 hppa hurd-i386 m68k powerpcspe sh4 sparc64 x32
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-6-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -1207,9 +1207,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412CompiledData7Binding13escapedStringERK7QString@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV412EvalFunction11static_vtblE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV412EvalFunction4callEPKNS_7ManagedEPNS_8CallDataE@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=alpha m68k mips mips64el powerpc sparc64)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEPNS_13InternalClassEPS2_@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=alpha armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mips64el mipsel powerpc sparc64 x32)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZN3QV413MemoryManager11allocObjectINS_15BuiltinFunctionEPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEEEEPNT_4DataET0_T1_T2_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=alpha m68k mips mips64el powerpc powerpcspe sparc64)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEPNS_13InternalClassEPS2_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=alpha armel armhf hppa hurd-i386 i386 kfreebsd-i386 m68k mips mips64el mipsel powerpc powerpcspe sh4 sparc64 x32)_ZN3QV413MemoryManager11allocObjectINS_6ObjectEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV413MemoryManager12setGCBlockedEb@Qt_5_PRIVATE_API 5.2.0~beta1 1
  (subst)_ZN3QV413MemoryManager26growUnmanagedHeapSizeUsageE{size_t}@Qt_5_PRIVATE_API 5.5.1 1
  _ZN3QV413MemoryManager4markEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -2932,10 +2932,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIItEEEvDpOT_@Qt_5 5.6.0~rc
  (optional=templinst)_ZNSt6vectorItSaItEE19_M_emplace_back_auxIJtEEEvDpOT_@Qt_5 5.4.2
  (optional=templinst)_ZNSt6vectorItSaItEE6insertEN9__gnu_cxx17__normal_iteratorIPKtS1_EERS4_@Qt_5 5.4.2
- (optional=templinst|arch=alpha armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Qt_5 5.5.0
+ (optional=templinst|arch=alpha armel armhf powerpc powerpcspe ppc64 ppc64el s390x)_ZSt4swapI11QModelIndexEvRT_S2_@Qt_5 5.5.0
  (optional=templinst)_ZSt4swapI19QItemSelectionRangeEvRT_S2_@Qt_5 5.6.0~rc
- (optional=templinst|arch=alpha armel armhf powerpc ppc64 ppc64el s390x)_ZSt4swapIN6QQmlJS7Codegen6ResultEEvRT_S4_@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.0.2
+ (optional=templinst|arch=alpha armel armhf powerpc powerpcspe ppc64 ppc64el s390x sh4)_ZSt4swapIN6QQmlJS7Codegen6ResultEEvRT_S4_@Qt_5_PRIVATE_API 5.6.0~beta 1
+ (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Qt_5 5.0.2
  _ZTI10QQmlEngine@Qt_5 5.0.2
  _ZTI11QQmlBinding@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI11QQmlCleanup@Qt_5_PRIVATE_API 5.0.2 1
