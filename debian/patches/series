@@ -1,5 +1,6 @@
 # Backported patches
 qml_only_release_types_if_they_arent_referenced_anymore.patch
+no_lifetime_dse.diff
 
 # Debian patches
 check_system_double-conversion.patch
