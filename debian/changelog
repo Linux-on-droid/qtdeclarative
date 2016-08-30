@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.6.1-7) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Aug 2016 14:00:17 +0300
+
 qtdeclarative-opensource-src (5.6.1-6) unstable; urgency=medium
 
   * Backport upstream change to fix crashes when compiled with GCC 6
