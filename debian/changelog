@@ -1,7 +1,7 @@
 qtdeclarative-opensource-src (5.7.0-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Merge 5.6.1-6 from unstable.
+  * Merge 5.6.1-7 from unstable.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Aug 2016 21:49:25 +0300
 
@@ -34,6 +34,12 @@ qtdeclarative-opensource-src (5.7.0-1) experimental; urgency=medium
   * Update debian/copyright.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 15:53:55 +0300
+
+qtdeclarative-opensource-src (5.6.1-7) unstable; urgency=medium
+
+  * Update libqt5qml5.symbols from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 30 Aug 2016 14:00:17 +0300
 
 qtdeclarative-opensource-src (5.6.1-6) unstable; urgency=medium
 
