@@ -14,8 +14,14 @@ export QT_SELECT := qt5
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtdeclarative5-dbg
 
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf $(CURDIR)/test_root
+	rm -rf $(CURDIR)/docs
+	rm -rf $(CURDIR)/.local
+
 override_dh_auto_configure:
-	qmake
+	qmake QT_BUILD_PARTS+=" tests"
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
@@ -60,5 +66,13 @@ override_dh_link:
 override_dh_makeshlibs:
 	dh_makeshlibs -V
 
-# Requires X so disabled for now
-override_dh_auto_test:
+override_dh_auto_test-arch:
+	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
+	mkdir -p $(CURDIR)/.local/share/QtProject/tst_qqmlengine
+	xvfb-run -a \
+	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
+	         dbus-launch --exit-with-session \
+	         dh_auto_test --max-parallel=1  -- QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml HOME=$(CURDIR)
+
+override_dh_auto_test-indep:
+

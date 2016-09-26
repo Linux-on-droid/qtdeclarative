@@ -4,6 +4,11 @@ qtdeclarative-opensource-src (5.6.1-9) UNRELEASED; urgency=medium
   * Backport upstream change to fix V4 on big-endian (closes #836412)
     (fix-V4-on-big-endian.patch; see QTBUG-55730)
     (refresh fix_engine_64bits_big_endian.diff)
+  * Enable auto tests.
+  * Create patch to disable tests, that fails with xvfb
+    disableopengltests.patch
+  * Create patch to run the tests against own build binaries
+    fix_test_remove_qlibraryinfo.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2016 15:53:40 +0200
 
