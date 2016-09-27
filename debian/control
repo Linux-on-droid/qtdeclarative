@@ -12,7 +12,12 @@ Build-Depends: debhelper (>= 9),
                libqt5xmlpatterns5-dev (>= 5.7.0~),
                pkg-kde-tools (>= 0.15.17~),
                python,
-               qtbase5-private-dev (>= 5.7.0+dfsg~)
+               qtbase5-private-dev (>= 5.7.0+dfsg~),
+               xvfb,
+               xauth,
+               dbus-x11,
+               libgl1-mesa-dri,
+               libgl1-mesa-glx
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.0+dfsg~),
                      qtbase5-doc-html (>= 5.7.0+dfsg~),
                      qttools5-dev-tools (>= 5.7.0~)
