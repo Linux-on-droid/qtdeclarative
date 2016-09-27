@@ -1,5 +1,5 @@
-Description: Disable all tests, that fails with xvfb
- So far some tests need real OpenGl support
+Description: Disable all tests that fails with xvfb
+ So far some tests need real OpenGL support
 Author: Sandro Knauß <bugs@sandroknauss.de>
 Origin: Debian
 Forwarded: not-needed - it is a limitation so far inside Debian
