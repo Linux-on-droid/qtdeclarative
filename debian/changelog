@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.6.1-9) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.6.1-9) unstable; urgency=medium
 
   [ Sandro Knauß ]
   * Backport upstream change to fix V4 on big-endian (Closes: #836412)
@@ -10,7 +10,7 @@ qtdeclarative-opensource-src (5.6.1-9) UNRELEASED; urgency=medium
   * Create patch to run the tests against own build binaries
     fix_test_remove_qlibraryinfo.patch
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2016 15:53:40 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 27 Sep 2016 21:02:13 -0300
 
 qtdeclarative-opensource-src (5.6.1-8) unstable; urgency=medium
 
