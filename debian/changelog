@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.6.1-10) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Do not use dbus-launch during tests running, not needed (and wrong).
+  * Drop useless build-dependencies on libgl1-mesa-{dri,glx}.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Sep 2016 23:17:35 +0300
 
