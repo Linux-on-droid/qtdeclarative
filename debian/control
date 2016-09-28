@@ -17,7 +17,6 @@ Build-Depends: debhelper (>= 9),
                qtbase5-private-dev (>= 5.6.1+dfsg~),
                xvfb,
                xauth,
-               dbus-x11,
                libgl1-mesa-dri,
                libgl1-mesa-glx
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.1+dfsg~),
