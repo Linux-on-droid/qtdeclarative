@@ -71,7 +71,8 @@ override_dh_auto_test-arch:
 	mkdir -p $(CURDIR)/.local/share/QtProject/tst_qqmlengine
 	xvfb-run -a \
 	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
-	         dh_auto_test --max-parallel=1  -- QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml HOME=$(CURDIR)
+	         dh_auto_test --max-parallel=1  -- QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
+	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib
 
 override_dh_auto_test-indep:
 
