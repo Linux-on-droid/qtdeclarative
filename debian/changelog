@@ -1,7 +1,8 @@
 qtdeclarative-opensource-src (5.7.0-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
-  * Merge 5.6.1-7 from unstable.
+  * Merge 5.6.1-10 from unstable.
+  * Run make check with -k flag to get as much output as possible.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Aug 2016 21:49:25 +0300
 
@@ -35,10 +36,18 @@ qtdeclarative-opensource-src (5.7.0-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 15:53:55 +0300
 
-qtdeclarative-opensource-src (5.6.1-9) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.6.1-10) unstable; urgency=medium
+
+  * Do not use dbus-launch during tests running, not needed (and wrong).
+  * Drop useless build-dependency on libgl1-mesa-glx.
+  * Set LD_LIBRARY_PATH when running tests, to fix failures on buildds.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 29 Sep 2016 11:57:15 +0300
+
+qtdeclarative-opensource-src (5.6.1-9) unstable; urgency=medium
 
   [ Sandro Knauß ]
-  * Backport upstream change to fix V4 on big-endian (closes #836412)
+  * Backport upstream change to fix V4 on big-endian (Closes: #836412)
     (fix-V4-on-big-endian.patch; see QTBUG-55730)
     (refresh fix_engine_64bits_big_endian.diff)
   * Enable auto tests.
@@ -47,7 +56,7 @@ qtdeclarative-opensource-src (5.6.1-9) UNRELEASED; urgency=medium
   * Create patch to run the tests against own build binaries
     fix_test_remove_qlibraryinfo.patch
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Sep 2016 15:53:40 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 27 Sep 2016 21:02:13 -0300
 
 qtdeclarative-opensource-src (5.6.1-8) unstable; urgency=medium
 
