@@ -1,8 +1,8 @@
 # Backported patches
 no_lifetime_dse.diff
+fix_engine_64bits_big_endian.diff
 fix-V4-on-big-endian.patch
 
 # Debian patches
-fix_engine_64bits_big_endian.diff
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch

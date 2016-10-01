@@ -1,29 +1,12 @@
-From d6ac86f59250e05eb5e7db5bb8a45a85db1f0f25 Mon Sep 17 00:00:00 2001
-From: Maximiliano Curia <maxy@debian.org>
-Date: Tue, 19 Jul 2016 15:49:48 +0200
-Subject: [PATCH] Fix QQmlEngine crash on big endian 64 bit architectures
- (s390x)
+Description: fix QQmlEngine crash on big endian 64 bit architectures (s390x)
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=d6ac86f59250e05e
+Last-Update: 2016-07-20
 
-This change disables the BIG_ENDIAN 32 bits words mangling in 64 bits
-machines (where the words are 64 bits long); this would otherwise result
-in a segfault.
-
-Task-number: QTBUG-54717
-Change-Id: I6b5ab6f213880b030795185c05e609d290168901
-Reviewed-by: Simon Hausmann <simon.hausmann@qt.io>
-Reviewed-by: Timo Jyrinki <timo.jyrinki@iki.fi>
-Reviewed-by: Erik Verbruggen <erik.verbruggen@qt.io>
----
- src/qml/jsruntime/qv4value_p.h | 4 ++--
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-diff --git a/src/qml/jsruntime/qv4value_p.h b/src/qml/jsruntime/qv4value_p.h
-index 7c2bb31..5abf5ad 100644
 --- a/src/qml/jsruntime/qv4value_p.h
 +++ b/src/qml/jsruntime/qv4value_p.h
-@@ -96,13 +96,13 @@ public:
-     Q_ALWAYS_INLINE quint64 rawValue() const { return _val; }
-     Q_ALWAYS_INLINE void setRawValue(quint64 raw) { _val = raw; }
+@@ -101,13 +101,13 @@
+     Q_ALWAYS_INLINE void setValue(quint32 v) { memcpy(&_val, &v, 4); }
+     Q_ALWAYS_INLINE void setTag(quint32 t) { memcpy(4 + (quint8 *)&_val, &t, 4); }
  
 -#if Q_BYTE_ORDER == Q_LITTLE_ENDIAN
 +#if Q_BYTE_ORDER == Q_LITTLE_ENDIAN || defined(QV4_USE_64_BIT_VALUE_ENCODING)
@@ -37,6 +20,3 @@ index 7c2bb31..5abf5ad 100644
      static inline int valueOffset() { return 4; }
      static inline int tagOffset() { return 0; }
      Q_ALWAYS_INLINE void setTagValue(quint32 tag, quint32 value) { _val = quint64(value) << 32 | tag; }
--- 
-2.9.3
-

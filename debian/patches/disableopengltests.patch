@@ -19,9 +19,9 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  installed_cmake.depends = cmake
 --- a/tests/auto/qml/debugger/debugger.pro
 +++ b/tests/auto/qml/debugger/debugger.pro
-@@ -2,9 +2,7 @@ TEMPLATE = subdirs
- 
+@@ -3,9 +3,7 @@
  PUBLICTESTS += \
+     qdebugmessageservice \
      qqmlenginedebugservice \
 -    qqmldebugjs \
      qqmlinspector \
@@ -39,7 +39,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      qtqmlmodules \
      qquickfolderlistmodel \
      qqmlapplicationengine \
-@@ -70,8 +69,7 @@ qtHaveModule(widgets) {
+@@ -69,8 +68,7 @@
          qjsvalue
  }
  
