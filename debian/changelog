@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.7.0-3) UNRELEASED; urgency=medium
   * Merge 5.6.1-10 from unstable.
   * Run make check with -k flag to get as much output as possible.
   * Refresh the patches.
+  * Update symbols files from amd64 build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 Aug 2016 21:49:25 +0300
 
