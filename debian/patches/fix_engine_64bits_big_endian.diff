@@ -1,12 +1,12 @@
 Description: fix QQmlEngine crash on big endian 64 bit architectures (s390x)
 Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=d6ac86f59250e05e
-Last-Update: 2016-07-20
+Last-Update: 2016-10-05
 
 --- a/src/qml/jsruntime/qv4value_p.h
 +++ b/src/qml/jsruntime/qv4value_p.h
-@@ -101,13 +101,13 @@
-     Q_ALWAYS_INLINE void setValue(quint32 v) { memcpy(&_val, &v, 4); }
-     Q_ALWAYS_INLINE void setTag(quint32 t) { memcpy(4 + (quint8 *)&_val, &t, 4); }
+@@ -102,13 +102,13 @@
+     Q_ALWAYS_INLINE quint64 rawValue() const { return _val; }
+     Q_ALWAYS_INLINE void setRawValue(quint64 raw) { _val = raw; }
  
 -#if Q_BYTE_ORDER == Q_LITTLE_ENDIAN
 +#if Q_BYTE_ORDER == Q_LITTLE_ENDIAN || defined(QV4_USE_64_BIT_VALUE_ENCODING)

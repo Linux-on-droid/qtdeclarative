@@ -1,5 +1,6 @@
 # Backported patches
 no_lifetime_dse.diff
+no_value_without_tag.diff
 fix_engine_64bits_big_endian.diff
 fix-V4-on-big-endian.patch
 

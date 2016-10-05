@@ -1,5 +1,12 @@
 qtdeclarative-opensource-src (5.7.0-4) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to remove setTag() and setValue() methods, and
+    leave only setTagValue() (no_value_without_tag.diff). Without this patch
+    the current version of fix_engine_64bits_big_endian.diff did not make
+    any sense.
+  * Rebase fix_engine_64bits_big_endian.diff and fix-V4-on-big-endian.patch
+    on top of the above patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Oct 2016 22:45:29 +0300
 
