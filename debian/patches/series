@@ -4,6 +4,9 @@ no_value_without_tag.diff
 fix_engine_64bits_big_endian.diff
 fix-V4-on-big-endian.patch
 
+# Forwarded upstream
+fix_tst_qqmlapplicationengine.diff
+
 # Debian patches
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
