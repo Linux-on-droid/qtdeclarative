@@ -9,6 +9,8 @@ qtdeclarative-opensource-src (5.7.0-4) UNRELEASED; urgency=medium
     on top of the above patch.
   * Add a patch to make the qqmlapplicationengine test pass when JIT is not
     available (fix_tst_qqmlapplicationengine.diff, forwarded upstream).
+  * Backport upstream patch to allow using 49 address bits in 64-bit mode
+    (use_49_address_bits.diff). This should fix issues on arm64.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Oct 2016 22:45:29 +0300
 
