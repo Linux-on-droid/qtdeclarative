@@ -4,6 +4,7 @@ no_value_without_tag.diff
 fix_engine_64bits_big_endian.diff
 fix-V4-on-big-endian.patch
 use_49_address_bits.diff
+yarr_arm64.diff
 
 # Forwarded upstream
 fix_tst_qqmlapplicationengine.diff

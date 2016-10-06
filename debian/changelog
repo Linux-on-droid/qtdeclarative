@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.7.0-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to fix crashes on arm64 (yarr_arm64.diff).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 06 Oct 2016 23:36:44 +0300
 
