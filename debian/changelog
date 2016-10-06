@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.7.0-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.7.0-4) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Backport upstream patch to remove setTag() and setValue() methods, and
     leave only setTagValue() (no_value_without_tag.diff). Without this patch
     the current version of fix_engine_64bits_big_endian.diff did not make
@@ -13,7 +12,7 @@ qtdeclarative-opensource-src (5.7.0-4) UNRELEASED; urgency=medium
     (use_49_address_bits.diff). This should fix issues on arm64.
   * Update symbols files from amd64 build log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 05 Oct 2016 22:45:29 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 06 Oct 2016 08:27:43 +0300
 
 qtdeclarative-opensource-src (5.7.0-3) experimental; urgency=medium
 
