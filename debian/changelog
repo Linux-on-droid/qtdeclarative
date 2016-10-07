@@ -1,12 +1,11 @@
-qtdeclarative-opensource-src (5.6.1-11) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.6.1-11) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Run make check with -k flag to get as much output as possible.
   * Update fix-V4-on-big-endian.patch with a fix for 32-bit big endian
     architectures.
   * Drop fix_engine_64bits_big_endian.diff, now redundant.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 30 Sep 2016 22:58:19 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Oct 2016 10:03:28 +0300
 
 qtdeclarative-opensource-src (5.6.1-10) unstable; urgency=medium
 
