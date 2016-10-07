@@ -1,28 +1,32 @@
-From 2a658344397729450f869138bf77e063a0a6166b Mon Sep 17 00:00:00 2001
-From: Allan Sandfeld Jensen <allan.jensen@theqtcompany.com>
-Date: Mon, 12 Sep 2016 13:15:20 +0200
-Subject: [PATCH] Fix V4 on big-endian
-
-We can't both invert offset position and inter-value positions of tag
-and value.
-
-This patch changes 32-bit big-endian to use the same order inside
-the tag/value but just at different offsets. This also make it
-compatible with how we use it with doubles.
-
-This fixes value/tag reads on 32-bit big-endian and offsets on 64-bit.
-
-Change-Id: I95cf792c29ac3f42a4018ce1f115193c143a0df0
-Reviewed-by: Erik Verbruggen <erik.verbruggen@qt.io>
-Backport-By: Sandro Knauß <bugs@sandroknauss.de>
-Backport-Info: Upstream has developed this patch for 5.7
----
- src/qml/jsruntime/qv4value_p.h | 13 +++++--------
- 1 file changed, 5 insertions(+), 8 deletions(-)
+Description: Fix V4 on big-endian
+ We can't both invert offset position and inter-value positions of tag
+ and value.
+ .
+ This patch changes 32-bit big-endian to use the same order inside
+ the tag/value but just at different offsets. This also make it
+ compatible with how we use it with doubles.
+ .
+ This fixes value/tag reads on 32-bit big-endian and offsets on 64-bit.
+ .
+ Patch adapted for Qt 5.6 branch by Dmitry Shachnev <mitya57@debian.org>.
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=2a65834439772945
+Last-Update: 2016-10-06
 
 --- a/src/qml/jsruntime/qv4value_p.h
 +++ b/src/qml/jsruntime/qv4value_p.h
-@@ -98,16 +98,13 @@ struct Q_QML_PRIVATE_EXPORT Value
+@@ -92,22 +92,25 @@
+ 
+     Q_ALWAYS_INLINE quint64 val() const { return _val; }
+     Q_ALWAYS_INLINE void setVal(quint64 v) { _val = v; }
++
++#if Q_BYTE_ORDER == Q_BIG_ENDIAN
++    Q_ALWAYS_INLINE void setValue(quint32 t) { memcpy(4 + (quint8 *)&_val, &t, 4); }
++    Q_ALWAYS_INLINE void setTag(quint32 v) { memcpy(&_val, &v, 4); }
++#else
+     Q_ALWAYS_INLINE void setValue(quint32 v) { memcpy(&_val, &v, 4); }
+     Q_ALWAYS_INLINE void setTag(quint32 t) { memcpy(4 + (quint8 *)&_val, &t, 4); }
++#endif
+ 
  #if Q_BYTE_ORDER == Q_LITTLE_ENDIAN
      static inline int valueOffset() { return 0; }
      static inline int tagOffset() { return 4; }
