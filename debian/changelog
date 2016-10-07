@@ -60,6 +60,15 @@ qtdeclarative-opensource-src (5.7.0-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Tue, 05 Jul 2016 15:53:55 +0300
 
+qtdeclarative-opensource-src (5.6.1-11) unstable; urgency=medium
+
+  * Run make check with -k flag to get as much output as possible.
+  * Update fix-V4-on-big-endian.patch with a fix for 32-bit big endian
+    architectures.
+  * Drop fix_engine_64bits_big_endian.diff, now redundant.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Oct 2016 10:03:28 +0300
+
 qtdeclarative-opensource-src (5.6.1-10) unstable; urgency=medium
 
   * Do not use dbus-launch during tests running, not needed (and wrong).
