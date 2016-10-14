@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.7.0-6) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Mark fix_tst_qqmlapplicationengine.diff as applied upstream.
+  * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 14 Oct 2016 16:22:14 +0300
 
