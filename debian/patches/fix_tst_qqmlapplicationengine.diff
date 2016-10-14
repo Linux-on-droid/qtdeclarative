@@ -1,9 +1,8 @@
 Description: make tst_qqmlapplicationengine pass when JIT is not available
  When the platform does not have JIT, a warning about this is printed
  into the process stderr, so the test fails.
-Author: Dmitry Shachnev <mitya57@debian.org>
-Forwarded: https://codereview.qt-project.org/172606
-Last-Update: 2016-10-05
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=650b5db06b057abe
+Last-Update: 2016-10-14
 
 --- a/tests/auto/qml/qqmlapplicationengine/tst_qqmlapplicationengine.cpp
 +++ b/tests/auto/qml/qqmlapplicationengine/tst_qqmlapplicationengine.cpp
