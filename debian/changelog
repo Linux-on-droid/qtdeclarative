@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.7.0-7) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Oct 2016 18:05:36 +0300
+
 qtdeclarative-opensource-src (5.7.0-6) experimental; urgency=medium
 
   * Mark fix_tst_qqmlapplicationengine.diff as applied upstream.
