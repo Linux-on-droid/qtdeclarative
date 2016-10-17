@@ -6,6 +6,7 @@ fix-V4-on-big-endian.patch
 use_49_address_bits.diff
 yarr_arm64.diff
 fix_tst_qqmlapplicationengine.diff
+fix_tags_types.diff
 
 # Debian patches
 disableopengltests.patch
