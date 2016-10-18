@@ -3,9 +3,8 @@ Description: Disable all tests that fails with xvfb
 Author: Sandro Knauß <bugs@sandroknauss.de>
 Origin: Debian
 Forwarded: not-needed - it is a limitation so far inside Debian
-Last-Update: 2016-09-26
----
-This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Last-Update: 2016-10-18
+
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
 @@ -9,8 +9,6 @@ SUBDIRS=\
@@ -19,11 +18,9 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  installed_cmake.depends = cmake
 --- a/tests/auto/qml/debugger/debugger.pro
 +++ b/tests/auto/qml/debugger/debugger.pro
-@@ -3,9 +3,7 @@
- PUBLICTESTS += \
-     qdebugmessageservice \
+@@ -5,7 +5,6 @@
      qqmlenginedebugservice \
--    qqmldebugjs \
+     qqmldebugjs \
      qqmlinspector \
 -    qqmlprofilerservice \
      qpacketprotocol \
