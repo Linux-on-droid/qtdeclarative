@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20160114~),
                dpkg-dev (>= 1.16.1),
                libgl1-mesa-dri,
                libqt5opengl5-dev (>= 5.7.0+dfsg~),
@@ -341,24 +341,6 @@ Description: Qt 5 declarative examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 declarative examples.
-
-Package: qtdeclarative5-dbg
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Section: debug
-Depends: libqt5qml5 (= ${binary:Version}),
-         libqt5quick5 (= ${binary:Version}),
-         libqt5quickparticles5 (= ${binary:Version}),
-         libqt5quicktest5 (= ${binary:Version}),
-         ${misc:Depends}
-Recommends: qtbase5-dbg
-Suggests: qtdeclarative5-examples (= ${binary:Version})
-Description: Qt 5 declarative libraries debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 declarative libraries.
 
 Package: qtdeclarative5-doc
 Priority: extra

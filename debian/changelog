@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.7.0-7) UNRELEASED; urgency=medium
   * Backport upstream patch to fix usage of QV4::Value tags/types
     (fix_tags_types.diff).
   * Re-enable qqmldebugjs test, it seems to pass now.
+  * Migrate to automatic dbgsym packages.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Oct 2016 18:05:36 +0300
 
