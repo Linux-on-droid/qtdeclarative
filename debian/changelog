@@ -2,6 +2,14 @@ qtdeclarative-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream snapshot.
+  * Drop the following patches, applied upstream:
+    - no_lifetime_dse.diff
+    - no_value_without_tag.diff
+    - fix_engine_64bits_big_endian.diff
+    - fix-V4-on-big-endian.patch
+    - use_49_address_bits.diff
+    - yarr_arm64.diff
+  * Refresh other patches.
   * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2016 14:51:37 +0300

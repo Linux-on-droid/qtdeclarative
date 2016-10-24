@@ -173,7 +173,7 @@ Last-Update: 2016-10-17
      Primitive v;
 --- a/src/qml/memory/qv4mm.cpp
 +++ b/src/qml/memory/qv4mm.cpp
-@@ -448,7 +448,7 @@
+@@ -460,7 +460,7 @@
          remainingWeakQObjectWrappers.reserve(pendingCount);
          for (int i = 0; i < pendingCount; ++i) {
              Value *v = m_pendingFreedObjectWrapperValue.at(i);
