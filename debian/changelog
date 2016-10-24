@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream snapshot.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2016 14:51:37 +0300
+
 qtdeclarative-opensource-src (5.7.0-7) experimental; urgency=medium
 
   * Backport upstream patch to fix usage of QV4::Value tags/types
