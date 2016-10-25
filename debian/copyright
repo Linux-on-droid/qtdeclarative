@@ -193,14 +193,14 @@ Files: tests/auto/qml/qqmlstatemachine/data/cppsignal.qml
 Copyright: 2016 Ford Motor Company
 License: GPL-3 with Qt-1.0 exception
 
-Files: tests/auto/qmltest/animators/tst_targetdestroyed.qml
+Files: tests/auto/qmltest-blacklist/animators/tst_targetdestroyed.qml
        tests/auto/qmltest/shadersource/tst_DynamicallyCreatedSource.qml
 Copyright: 2016 Gunnar Sletta <gunnar@sletta.org>
 License: GPL-3 with Qt-1.0 exception
 
-Files: tests/auto/qmltest/animators/tst_mixed.qml
-       tests/auto/qmltest/animators/tst_multiwindow.qml
-       tests/auto/qmltest/item/tst_layerInPositioner.qml
+Files: tests/auto/qmltest-blacklist/animators/tst_mixed.qml
+       tests/auto/qmltest-blacklist/animators/tst_multiwindow.qml
+       tests/auto/qmltest-blacklist/item/tst_layerInPositioner.qml
        tests/auto/qmltest/itemgrabber/tst_itemgrabber.qml
        tests/auto/qmltest/shadersource/tst_DynamicallyCreated.qml
        tests/auto/qmltest/shadersource/tst_SourceInOtherWindow.qml

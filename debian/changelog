@@ -12,6 +12,7 @@ qtdeclarative-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
   * Refresh other patches.
   * Bump Qt build-dependencies to 5.7.1~20161021.
   * Update symbols files from buildds’ logs and from current amd64 build log.
+  * Update debian/copyright for file moves.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2016 14:51:37 +0300
 
