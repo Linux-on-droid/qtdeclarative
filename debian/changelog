@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream snapshot.
   * Drop the following patches, applied upstream:
     - no_lifetime_dse.diff
@@ -14,7 +13,7 @@ qtdeclarative-opensource-src (5.7.1~20161021-1) UNRELEASED; urgency=medium
   * Update symbols files from buildds’ logs and from current amd64 build log.
   * Update debian/copyright for file moves.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Oct 2016 14:51:37 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 25 Oct 2016 10:45:32 +0300
 
 qtdeclarative-opensource-src (5.7.0-7) experimental; urgency=medium
 
