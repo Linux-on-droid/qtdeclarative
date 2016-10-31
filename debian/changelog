@@ -1,7 +1,7 @@
 qtdeclarative-opensource-src (5.7.1~20161021-2) experimental; urgency=medium
 
   * Make tests non-fatal. We enabled test on the 5.7 round and discovered
-    that some of them where failing. As Dmitry Schanev discovered this is no
+    that some of them where failing. As Dmitry Shachnev discovered this is no
     regresion from 5.6 and we need to get 5.7 into testing before the
     transition freeze we are making them non-fatal.
 
