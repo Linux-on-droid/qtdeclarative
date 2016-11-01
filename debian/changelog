@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.7.1~20161021-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Nov 2016 14:50:33 +0300
+
 qtdeclarative-opensource-src (5.7.1~20161021-2) experimental; urgency=medium
 
   * Make tests non-fatal. We enabled test on the 5.7 round and discovered
