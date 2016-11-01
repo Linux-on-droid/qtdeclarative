@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.7.1~20161021-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Nov 2016 14:50:33 +0300
 
