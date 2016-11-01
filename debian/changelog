@@ -1,9 +1,9 @@
-qtdeclarative-opensource-src (5.7.1~20161021-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.7.1~20161021-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files from buildds’ logs.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 01 Nov 2016 14:50:33 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 01 Nov 2016 14:53:44 +0300
 
 qtdeclarative-opensource-src (5.7.1~20161021-2) experimental; urgency=medium
 
