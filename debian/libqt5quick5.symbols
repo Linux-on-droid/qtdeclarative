@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64 hurd-i386 kfreebsd-amd64 ppc64
+# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64 hurd-i386 kfreebsd-amd64 mips64el ppc64 sparc64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-7-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -2842,7 +2842,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QSGTexture18horizontalWrapModeEv@Qt_5 5.0.2
  _ZNK10QSGTexture24normalizedTextureSubRectEv@Qt_5 5.0.2
  _ZNK10QSGTexture9filteringEv@Qt_5 5.0.2
- _ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.7.1~20161021
+ (optional=gccinternal|arch=!mips64el !sparc64)_ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.7.1~20161021
  _ZNK11QQuickImage10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QQuickImage12boundingRectEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QQuickImage12paintedWidthEv@Qt_5_PRIVATE_API 5.6.0~beta 1
