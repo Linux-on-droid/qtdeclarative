@@ -1433,6 +1433,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickItemPrivate11children_atEP16QQmlListPropertyI10QQuickItemEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate11data_appendEP16QQmlListPropertyI7QObjectEPS1_@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate11derefWindowEv@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN17QQuickItemPrivate11markObjectsEPN3QV415ExecutionEngineE@Qt_5_PRIVATE_API 5.7.1~20161021 1
  _ZN17QQuickItemPrivate11removeChildEP10QQuickItem@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate11transitionsEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate12resources_atEP16QQmlListPropertyI7QObjectEi@Qt_5_PRIVATE_API 5.0.2 1
@@ -1457,7 +1458,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickItemPrivate16transform_appendEP16QQmlListPropertyI15QQuickTransformEPS1_@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate17canAcceptTabFocusEP10QQuickItem@Qt_5_PRIVATE_API 5.1.0 1
  _ZN17QQuickItemPrivate17refFromEffectItemEb@Qt_5_PRIVATE_API 5.0.2 1
- _ZN17QQuickItemPrivate18_q_createJSWrapperEPN3QV415ExecutionEngineE@Qt_5_PRIVATE_API 5.7.1~20161021 1
  _ZN17QQuickItemPrivate18updateSubFocusItemEP10QQuickItemb@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate18visibleChildren_atEP16QQmlListPropertyI10QQuickItemEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQuickItemPrivate19createTransformNodeEv@Qt_5_PRIVATE_API 5.0.2 1

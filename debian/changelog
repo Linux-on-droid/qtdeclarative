@@ -1,5 +1,8 @@
 qtdeclarative-opensource-src (5.7.1~20161021-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Revert upstream commit c9ffed92a0dee0ae, which broke Qt Quick Controls.
+    Update the symbols files accordingly. Closes: #843250.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 06 Nov 2016 12:58:17 +0300
 

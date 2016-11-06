@@ -1,0 +1,421 @@
+Description: revert upstream commit c9ffed92a0dee0ae which broke QtQuickControls
+Bug: https://bugs.debian.org/843250
+Author: Dmitry Shachnev <mitya57@debian.org>
+Last-Update: 2016-11-06
+
+--- a/src/qml/jsruntime/qv4qobjectwrapper.cpp
++++ b/src/qml/jsruntime/qv4qobjectwrapper.cpp
+@@ -674,14 +674,8 @@
+ 
+ ReturnedValue QObjectWrapper::create(ExecutionEngine *engine, QObject *object)
+ {
+-    if (QJSEngine *jsEngine = engine->jsEngine()) {
+-        if (QQmlPropertyCache *cache = QQmlData::ensurePropertyCache(jsEngine, object)) {
+-            ReturnedValue result = QV4::Encode::null();
+-            void *args[] = { &result, &engine };
+-            if (cache->callJSFactoryMethod(object, args))
+-                return result;
+-        }
+-    }
++    if (engine->jsEngine())
++        QQmlData::ensurePropertyCache(engine->jsEngine(), object);
+     return (engine->memoryManager->allocObject<QV4::QObjectWrapper>(object))->asReturnedValue();
+ }
+ 
+--- a/src/qml/jsruntime/qv4qobjectwrapper_p.h
++++ b/src/qml/jsruntime/qv4qobjectwrapper_p.h
+@@ -77,7 +77,7 @@
+ 
+ struct QQmlValueTypeWrapper;
+ 
+-struct Q_QML_EXPORT QObjectWrapper : Object {
++struct QObjectWrapper : Object {
+     QObjectWrapper(QObject *object);
+     QPointer<QObject> object;
+ };
+--- a/src/qml/qml/qqmldata_p.h
++++ b/src/qml/qml/qqmldata_p.h
+@@ -223,7 +223,7 @@
+ 
+     static inline void flushPendingBinding(QObject *, int coreIndex);
+ 
+-    static QQmlPropertyCache *ensurePropertyCache(QJSEngine *engine, QObject *object);
++    static void ensurePropertyCache(QJSEngine *engine, QObject *object);
+ 
+ private:
+     // For attachedProperties
+--- a/src/qml/qml/qqmlengine.cpp
++++ b/src/qml/qml/qqmlengine.cpp
+@@ -1800,15 +1800,14 @@
+     QQmlData_setBit(this, obj, coreIndex * 2 + 1);
+ }
+ 
+-QQmlPropertyCache *QQmlData::ensurePropertyCache(QJSEngine *engine, QObject *object)
++void QQmlData::ensurePropertyCache(QJSEngine *engine, QObject *object)
+ {
+     Q_ASSERT(engine);
+     QQmlData *ddata = QQmlData::get(object, /*create*/true);
+-    if (!ddata->propertyCache){
+-        ddata->propertyCache = QJSEnginePrivate::get(engine)->cache(object);
+-        if (ddata->propertyCache) ddata->propertyCache->addref();
+-    }
+-    return ddata->propertyCache;
++    if (ddata->propertyCache)
++        return;
++    ddata->propertyCache = QJSEnginePrivate::get(engine)->cache(object);
++    if (ddata->propertyCache) ddata->propertyCache->addref();
+ }
+ 
+ void QQmlEnginePrivate::sendQuit()
+--- a/src/qml/qml/qqmlpropertycache.cpp
++++ b/src/qml/qml/qqmlpropertycache.cpp
+@@ -240,7 +240,7 @@
+ QQmlPropertyCache::QQmlPropertyCache(QV4::ExecutionEngine *e)
+     : engine(e), _parent(0), propertyIndexCacheStart(0), methodIndexCacheStart(0),
+       signalHandlerIndexCacheStart(0), _hasPropertyOverrides(false), _ownMetaObject(false),
+-      _metaObject(0), argumentsCache(0), _jsFactoryMethodIndex(-1)
++      _metaObject(0), argumentsCache(0)
+ {
+     Q_ASSERT(engine);
+ }
+@@ -251,7 +251,7 @@
+ QQmlPropertyCache::QQmlPropertyCache(QV4::ExecutionEngine *e, const QMetaObject *metaObject)
+     : engine(e), _parent(0), propertyIndexCacheStart(0), methodIndexCacheStart(0),
+       signalHandlerIndexCacheStart(0), _hasPropertyOverrides(false), _ownMetaObject(false),
+-      _metaObject(0), argumentsCache(0), _jsFactoryMethodIndex(-1)
++      _metaObject(0), argumentsCache(0)
+ {
+     Q_ASSERT(engine);
+     Q_ASSERT(metaObject);
+@@ -524,16 +524,10 @@
+         for (int ii = 0; ii < classInfoCount; ++ii) {
+             int idx = ii + classInfoOffset;
+ 
+-            const char * const classInfoName = metaObject->classInfo(idx).name();
+-            if (0 == qstrcmp(classInfoName, "qt_HasQmlAccessors")) {
++            if (0 == qstrcmp(metaObject->classInfo(idx).name(), "qt_HasQmlAccessors")) {
+                 hasFastProperty = true;
+-            } else if (0 == qstrcmp(classInfoName, "DefaultProperty")) {
++            } else if (0 == qstrcmp(metaObject->classInfo(idx).name(), "DefaultProperty")) {
+                 _defaultPropertyName = QString::fromUtf8(metaObject->classInfo(idx).value());
+-            } else if (0 == qstrcmp(classInfoName, "qt_QmlJSWrapperFactoryMethod")) {
+-                const char * const factoryMethod = metaObject->classInfo(idx).value();
+-                _jsFactoryMethodIndex = metaObject->indexOfSlot(factoryMethod);
+-                if (_jsFactoryMethodIndex != -1)
+-                    _jsFactoryMethodIndex -= metaObject->methodOffset();
+             }
+         }
+ 
+--- a/src/qml/qml/qqmlpropertycache_p.h
++++ b/src/qml/qml/qqmlpropertycache_p.h
+@@ -80,8 +80,6 @@
+ class QQmlPropertyRawData
+ {
+ public:
+-    typedef QObjectPrivate::StaticMetaCallFunction StaticMetaCallFunction;
+-
+     enum Flag {
+         NoFlags           = 0x00000000,
+         ValueTypeFlagMask = 0x0000FFFF, // Flags in valueTypeFlags must fit in this mask
+@@ -328,8 +326,6 @@
+ 
+     void toMetaObjectBuilder(QMetaObjectBuilder &);
+ 
+-    inline bool callJSFactoryMethod(QObject *object, void **args) const;
+-
+ protected:
+     virtual void destroy();
+     virtual void clear();
+@@ -398,7 +394,6 @@
+     QByteArray _dynamicStringData;
+     QString _defaultPropertyName;
+     QQmlPropertyCacheMethodArguments *argumentsCache;
+-    int _jsFactoryMethodIndex;
+ };
+ 
+ // QQmlMetaObject serves as a wrapper around either QMetaObject or QQmlPropertyCache.
+@@ -567,17 +562,6 @@
+     return signalHandlerIndexCacheStart;
+ }
+ 
+-bool QQmlPropertyCache::callJSFactoryMethod(QObject *object, void **args) const
+-{
+-    if (_jsFactoryMethodIndex != -1) {
+-        _metaObject->d.static_metacall(object, QMetaObject::InvokeMetaMethod, _jsFactoryMethodIndex, args);
+-        return true;
+-    }
+-    if (_parent)
+-        return _parent->callJSFactoryMethod(object, args);
+-    return false;
+-}
+-
+ QQmlMetaObject::QQmlMetaObject()
+ {
+ }
+--- a/src/quick/items/qquickitem.cpp
++++ b/src/quick/items/qquickitem.cpp
+@@ -7067,6 +7067,15 @@
+ #endif
+ }
+ 
++void QQuickItemPrivate::markObjects(QV4::ExecutionEngine *e)
++{
++    Q_Q(QQuickItem);
++    QV4::QObjectWrapper::markWrapper(q, e);
++
++    foreach (QQuickItem *child, childItems)
++        QQuickItemPrivate::get(child)->markObjects(e);
++}
++
+ #ifndef QT_NO_CURSOR
+ 
+ /*!
+@@ -8247,38 +8256,6 @@
+ }
+ #endif
+ 
+-// helper code to let a visual parent mark its visual children for the garbage collector
+-
+-namespace QV4 {
+-namespace Heap {
+-struct QQuickItemWrapper : public QObjectWrapper {
+-    QQuickItemWrapper(QQuickItem *item) : QObjectWrapper(item) {}
+-};
+-}
+-}
+-
+-struct QQuickItemWrapper : public QV4::QObjectWrapper {
+-    V4_OBJECT2(QQuickItemWrapper, QV4::QObjectWrapper)
+-    static void markObjects(QV4::Heap::Base *that, QV4::ExecutionEngine *e);
+-};
+-
+-DEFINE_OBJECT_VTABLE(QQuickItemWrapper);
+-
+-void QQuickItemWrapper::markObjects(QV4::Heap::Base *that, QV4::ExecutionEngine *e)
+-{
+-    QObjectWrapper::Data *This = static_cast<QObjectWrapper::Data *>(that);
+-    if (QQuickItem *item = static_cast<QQuickItem*>(This->object.data())) {
+-        foreach (QQuickItem *child, QQuickItemPrivate::get(item)->childItems)
+-            QV4::QObjectWrapper::markWrapper(child, e);
+-    }
+-    QV4::QObjectWrapper::markObjects(that, e);
+-}
+-
+-quint64 QQuickItemPrivate::_q_createJSWrapper(QV4::ExecutionEngine *engine)
+-{
+-    return (engine->memoryManager->allocObject<QQuickItemWrapper>(q_func()))->asReturnedValue();
+-}
+-
+ QT_END_NAMESPACE
+ 
+ #include <moc_qquickitem.cpp>
+--- a/src/quick/items/qquickitem.h
++++ b/src/quick/items/qquickitem.h
+@@ -149,7 +149,6 @@
+ 
+     Q_CLASSINFO("DefaultProperty", "data")
+     Q_CLASSINFO("qt_HasQmlAccessors", "true")
+-    Q_CLASSINFO("qt_QmlJSWrapperFactoryMethod", "_q_createJSWrapper(QV4::ExecutionEngine*)")
+ 
+ public:
+     enum Flag {
+@@ -445,7 +444,6 @@
+ 
+ private:
+     Q_PRIVATE_SLOT(d_func(), void _q_resourceObjectDeleted(QObject *))
+-    Q_PRIVATE_SLOT(d_func(), quint64 _q_createJSWrapper(QV4::ExecutionEngine *))
+ 
+     friend class QQuickWindow;
+     friend class QQuickWindowPrivate;
+--- a/src/quick/items/qquickitem_p.h
++++ b/src/quick/items/qquickitem_p.h
+@@ -302,7 +302,6 @@
+ 
+     void _q_resourceObjectDeleted(QObject *);
+     void _q_windowChanged(QQuickWindow *w);
+-    quint64 _q_createJSWrapper(QV4::ExecutionEngine *engine);
+ 
+     enum ChangeType {
+         Geometry = 0x01,
+@@ -606,6 +605,9 @@
+     virtual void mirrorChange() {}
+ 
+     void setHasCursorInChild(bool hasCursor);
++
++    // recursive helper to let a visual parent mark its visual children
++    void markObjects(QV4::ExecutionEngine *e);
+ };
+ 
+ /*
+--- a/src/quick/items/qquickview.cpp
++++ b/src/quick/items/qquickview.cpp
+@@ -56,6 +56,25 @@
+ 
+ QT_BEGIN_NAMESPACE
+ 
++DEFINE_OBJECT_VTABLE(QV4::QQuickRootItemMarker);
++
++QV4::Heap::QQuickRootItemMarker *QV4::QQuickRootItemMarker::create(QQmlEngine *engine, QQuickWindow *window)
++{
++    QV4::ExecutionEngine *e = QQmlEnginePrivate::getV4Engine(engine);
++    return e->memoryManager->allocObject<QQuickRootItemMarker>(window);
++}
++
++void QV4::QQuickRootItemMarker::markObjects(QV4::Heap::Base *that, QV4::ExecutionEngine *e)
++{
++    QQuickItem *root = static_cast<QQuickRootItemMarker::Data *>(that)->window->contentItem();
++    if (root) {
++        QQuickItemPrivate *rootPrivate = QQuickItemPrivate::get(root);
++        rootPrivate->markObjects(e);
++    }
++
++    QV4::Object::markObjects(that, e);
++}
++
+ void QQuickViewPrivate::init(QQmlEngine* e)
+ {
+     Q_Q(QQuickView);
+@@ -69,10 +88,10 @@
+         engine.data()->setIncubationController(q->incubationController());
+ 
+     {
+-        // The content item has CppOwnership policy (set in QQuickWindow). Ensure the presence of a JS
+-        // wrapper so that the garbage collector can see the policy.
+         QV4::ExecutionEngine *v4 = QQmlEnginePrivate::getV4Engine(engine.data());
+-        QV4::QObjectWrapper::wrap(v4, contentItem);
++        QV4::Scope scope(v4);
++        QV4::Scoped<QV4::QQuickRootItemMarker> v(scope, QV4::QQuickRootItemMarker::create(engine.data(), q));
++        rootItemMarker.set(v4, v);
+     }
+ }
+ 
+--- a/src/quick/items/qquickview_p.h
++++ b/src/quick/items/qquickview_p.h
+@@ -108,8 +108,37 @@
+     QQuickView::ResizeMode resizeMode;
+     QSize initialSize;
+     QElapsedTimer frameTimer;
++    QV4::PersistentValue rootItemMarker;
+ };
+ 
++namespace QV4 {
++namespace Heap {
++
++struct QQuickRootItemMarker : Object {
++    inline QQuickRootItemMarker(QQuickWindow *window)
++        : window(window)
++    {
++    }
++
++    QQuickWindow *window;
++};
++
++}
++
++struct QQuickRootItemMarker : public Object
++{
++    V4_OBJECT2(QQuickRootItemMarker, Object)
++
++    static Heap::QQuickRootItemMarker *create(QQmlEngine *engine, QQuickWindow *window);
++
++    static void markObjects(QV4::Heap::Base *that, QV4::ExecutionEngine *e);
++
++};
++
++
++
++}
++
+ QT_END_NAMESPACE
+ 
+ #endif // QQUICKVIEW_P_H
+--- a/src/quick/items/qquickwindowmodule.cpp
++++ b/src/quick/items/qquickwindowmodule.cpp
+@@ -105,11 +105,12 @@
+         if (e && !e->incubationController())
+             e->setIncubationController(incubationController());
+     }
++    Q_ASSERT(e);
+     {
+-        // The content item has CppOwnership policy (set in QQuickWindow). Ensure the presence of a JS
+-        // wrapper so that the garbage collector can see the policy.
+         QV4::ExecutionEngine *v4 = QQmlEnginePrivate::getV4Engine(e);
+-        QV4::QObjectWrapper::wrap(v4, d->contentItem);
++        QV4::Scope scope(v4);
++        QV4::ScopedObject v(scope, QV4::QQuickRootItemMarker::create(e, this));
++        d->rootItemMarker = v;
+     }
+ }
+ 
+--- a/tests/auto/quick/qquickitem/tst_qquickitem.cpp
++++ b/tests/auto/quick/qquickitem/tst_qquickitem.cpp
+@@ -1771,56 +1771,56 @@
+ 
+ void tst_qquickitem::visualParentOwnership()
+ {
+-    QQmlEngine engine;
+-    QQmlComponent component(&engine, testFileUrl("visualParentOwnership.qml"));
++    QQuickView view;
++    view.setSource(testFileUrl("visualParentOwnership.qml"));
+ 
+-    QScopedPointer<QQuickItem> root(qobject_cast<QQuickItem*>(component.create()));
++    QQuickItem *root = qobject_cast<QQuickItem*>(view.rootObject());
+     QVERIFY(root);
+ 
+     QVariant newObject;
+     {
+-        QVERIFY(QMetaObject::invokeMethod(root.data(), "createItemWithoutParent", Q_RETURN_ARG(QVariant, newObject)));
++        QVERIFY(QMetaObject::invokeMethod(root, "createItemWithoutParent", Q_RETURN_ARG(QVariant, newObject)));
+         QPointer<QQuickItem> newItem = qvariant_cast<QQuickItem*>(newObject);
+         QVERIFY(!newItem.isNull());
+ 
+         QVERIFY(!newItem->parent());
+         QVERIFY(!newItem->parentItem());
+ 
+-        newItem->setParentItem(root.data());
++        newItem->setParentItem(root);
+ 
+-        gc(engine);
++        gc(*view.engine());
+ 
+         QVERIFY(!newItem.isNull());
+         newItem->setParentItem(0);
+ 
+-        gc(engine);
++        gc(*view.engine());
+         QVERIFY(newItem.isNull());
+     }
+     {
+-        QVERIFY(QMetaObject::invokeMethod(root.data(), "createItemWithoutParent", Q_RETURN_ARG(QVariant, newObject)));
++        QVERIFY(QMetaObject::invokeMethod(root, "createItemWithoutParent", Q_RETURN_ARG(QVariant, newObject)));
+         QPointer<QQuickItem> firstItem = qvariant_cast<QQuickItem*>(newObject);
+         QVERIFY(!firstItem.isNull());
+ 
+-        firstItem->setParentItem(root.data());
++        firstItem->setParentItem(root);
+ 
+-        QVERIFY(QMetaObject::invokeMethod(root.data(), "createItemWithoutParent", Q_RETURN_ARG(QVariant, newObject)));
++        QVERIFY(QMetaObject::invokeMethod(root, "createItemWithoutParent", Q_RETURN_ARG(QVariant, newObject)));
+         QPointer<QQuickItem> secondItem = qvariant_cast<QQuickItem*>(newObject);
+         QVERIFY(!firstItem.isNull());
+ 
+         secondItem->setParentItem(firstItem);
+ 
+-        gc(engine);
++        gc(*view.engine());
+ 
+         delete firstItem;
+ 
+         root->setProperty("keepAliveProperty", newObject);
+ 
+-        gc(engine);
++        gc(*view.engine());
+         QVERIFY(!secondItem.isNull());
+ 
+         root->setProperty("keepAliveProperty", QVariant());
+ 
+-        gc(engine);
++        gc(*view.engine());
+         QVERIFY(secondItem.isNull());
+     }
+ }
