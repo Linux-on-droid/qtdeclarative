@@ -1419,8 +1419,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV416ExecutionContext15newCatchContextEPNS_4Heap6StringEy@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV416ExecutionContext18getPropertyAndBaseEPNS_6StringEPNS_5ValueE@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV416ExecutionContext20createMutableBindingEPNS_6StringEb@Qt_5_PRIVATE_API 5.4.0 1
- _ZN3QV416QmlSignalHandler11static_vtblE@Qt_5_PRIVATE_API 5.7.1~20161021 1
- _ZN3QV416QmlSignalHandler9initProtoEPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZN3QV416QmlSignalHandler11static_vtblE@Qt_5_PRIVATE_API 5.7.1 1
+ _ZN3QV416QmlSignalHandler9initProtoEPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.7.1 1
  _ZN3QV417QmlContextWrapper11static_vtblE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV417QmlContextWrapper3getEPKNS_7ManagedEPNS_6StringEPb@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV417QmlContextWrapper3putEPNS_7ManagedEPNS_6StringERKNS_5ValueE@Qt_5_PRIVATE_API 5.5.0 1
@@ -3527,7 +3527,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (c++)"non-virtual thunk to QV4::Moth::InstructionSelection::backendCompileStep()@Qt_5_PRIVATE_API" 5.3.0 1
  (c++)"non-virtual thunk to QV4::Moth::InstructionSelection::run(int)@Qt_5_PRIVATE_API" 5.3.0 1
  (c++)"non-virtual thunk to QV4::Moth::InstructionSelection::~InstructionSelection()@Qt_5_PRIVATE_API" 5.3.0 1
- qtDeclarativeHookData@Qt_5 5.7.1~20161021
+ qtDeclarativeHookData@Qt_5 5.7.1
  qt_v4DebuggerHook@Qt_5 5.5.0
  qt_v4ResolvePendingBreakpointsHook@Qt_5 5.5.0
  qt_v4StackTrace@Qt_5 5.3.0

@@ -706,7 +706,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler18startProfilingImplEy@Qt_5_PRIVATE_API 5.4.0 1
  (optional=templinst)_ZN14QQuickProfiler21reportSceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE2ELb1EEEvy@Qt_5_PRIVATE_API 5.5.0 1
  (optional=templinst)_ZN14QQuickProfiler21reportSceneGraphFrameILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE6ELb1EEEvy@Qt_5_PRIVATE_API 5.5.0 1
- (optional=templinst)_ZN14QQuickProfiler24skipSceneGraphTimestampsILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE3ELj1EEEvv@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ (optional=templinst)_ZN14QQuickProfiler24skipSceneGraphTimestampsILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE3ELj1EEEvv@Qt_5_PRIVATE_API 5.7.1 1
  (optional=templinst)_ZN14QQuickProfiler25recordSceneGraphTimestampILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE6EEEvv@Qt_5_PRIVATE_API 5.5.0 1
  _ZN14QQuickProfiler25registerAnimationCallbackEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler8setTimerERK13QElapsedTimer@Qt_5_PRIVATE_API 5.3.0 1
@@ -1729,7 +1729,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickScaleAnimator16staticMetaObjectE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN19QQuickScaleAnimatorC1EP7QObject@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN19QQuickScaleAnimatorC2EP7QObject@Qt_5_PRIVATE_API 5.2.0~beta1 1
- _ZN19QQuickWindowPrivate10clearHoverEm@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZN19QQuickWindowPrivate10clearHoverEm@Qt_5_PRIVATE_API 5.7.1 1
  _ZN19QQuickWindowPrivate10data_clearEP16QQmlListPropertyI7QObjectE@Qt_5_PRIVATE_API 5.1.0 1
  _ZN19QQuickWindowPrivate10data_countEP16QQmlListPropertyI7QObjectE@Qt_5_PRIVATE_API 5.1.0 1
  _ZN19QQuickWindowPrivate11data_appendEP16QQmlListPropertyI7QObjectEPS1_@Qt_5_PRIVATE_API 5.1.0 1
@@ -1738,7 +1738,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate12cleanupNodesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate12updateCursorERK7QPointF@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate14findCursorItemEP10QQuickItemRK7QPointF@Qt_5_PRIVATE_API 5.0.2 1
- _ZN19QQuickWindowPrivate14sendHoverEventEN6QEvent4TypeEP10QQuickItemRK7QPointFS6_6QFlagsIN2Qt16KeyboardModifierEEmb@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZN19QQuickWindowPrivate14sendHoverEventEN6QEvent4TypeEP10QQuickItemRK7QPointFS6_6QFlagsIN2Qt16KeyboardModifierEEmb@Qt_5_PRIVATE_API 5.7.1 1
  _ZN19QQuickWindowPrivate14syncSceneGraphEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate15cloneMouseEventEP11QMouseEventP7QPointF@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate15deliverKeyEventEP9QKeyEvent@Qt_5_PRIVATE_API 5.3.0 1
@@ -1752,7 +1752,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate16renderSceneGraphERK5QSize@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate16updateDirtyNodesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate17clearFocusInScopeEP10QQuickItemS1_N2Qt11FocusReasonE6QFlagsINS_11FocusOptionEE@Qt_5_PRIVATE_API 5.1.0 1
- _ZN19QQuickWindowPrivate17deliverHoverEventEP10QQuickItemRK7QPointFS4_6QFlagsIN2Qt16KeyboardModifierEEmRb@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZN19QQuickWindowPrivate17deliverHoverEventEP10QQuickItemRK7QPointFS4_6QFlagsIN2Qt16KeyboardModifierEEmRb@Qt_5_PRIVATE_API 5.7.1 1
  _ZN19QQuickWindowPrivate17deliverMouseEventEP11QMouseEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate17deliverTouchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate17deliverWheelEventEP10QQuickItemP11QWheelEvent@Qt_5_PRIVATE_API 5.0.2 1
@@ -2842,7 +2842,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QSGTexture18horizontalWrapModeEv@Qt_5 5.0.2
  _ZNK10QSGTexture24normalizedTextureSubRectEv@Qt_5 5.0.2
  _ZNK10QSGTexture9filteringEv@Qt_5 5.0.2
- (optional=gccinternal|arch=!mips64el !sparc64)_ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.7.1~20161021
+ (optional=gccinternal|arch=!mips64el !sparc64)_ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.7.1
  _ZNK11QQuickImage10metaObjectEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QQuickImage12boundingRectEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZNK11QQuickImage12paintedWidthEv@Qt_5_PRIVATE_API 5.6.0~beta 1

@@ -91,7 +91,7 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZN20QuickTestImageObject11qt_metacastEPKc@Qt_5 5.0.2
  _ZN20QuickTestImageObject16staticMetaObjectE@Qt_5 5.0.2
  _ZNK14QuickTestEvent10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK14QuickTestEvent17defaultMouseDelayEv@Qt_5_PRIVATE_API 5.7.1~20161021 1
+ _ZNK14QuickTestEvent17defaultMouseDelayEv@Qt_5_PRIVATE_API 5.7.1 1
  _ZNK15QuickTestResult10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QuickTestResult12functionNameEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QuickTestResult12testCaseNameEv@Qt_5_PRIVATE_API 5.0.2 1
