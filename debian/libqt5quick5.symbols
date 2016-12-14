@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64 hurd-i386 kfreebsd-amd64 mips64el ppc64 sparc64
+# SymbolsHelper-Confirmed: 5.7.1 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-7-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -3796,6 +3796,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV11QSGMaterial@Qt_5 5.0.2
  _ZTV11QSGRenderer@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV11QSGRootNode@Qt_5 5.0.2
+ _ZTV12QQmlRefCount@Qt_5 5.7.1
  _ZTV12QQuickSprite@Qt_5_PRIVATE_API 5.6.1 1
  _ZTV12QQuickWindow@Qt_5 5.0.2
  _ZTV13QQuickAnchors@Qt_5_PRIVATE_API 5.0.2 1
@@ -3912,12 +3913,14 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV27QQuickKeyNavigationAttached@Qt_5_PRIVATE_API 5.4.0 1
  _ZTV28QSGDistanceFieldTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV29QQuickImplicitSizeItemPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZTV29QSGDistanceFieldGlyphConsumer@Qt_5_PRIVATE_API 5.7.1 1
  _ZTV30QQuickAbstractAnimationPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV30QSGOpaqueTextureMaterialShader@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV32QQuickItemViewTransitionableItem@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV33QSGDefaultDistanceFieldGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV34QSGDistanceFieldStyledTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV35QSGDistanceFieldOutlineTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTV38QQuickItemViewTransitionChangeListener@Qt_5_PRIVATE_API 5.7.1 1
  _ZTV39QSGHiQSubPixelDistanceFieldTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV39QSGLoQSubPixelDistanceFieldTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV40QSGDistanceFieldShiftedStyleTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
@@ -3927,6 +3930,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV9QSGEngine@Qt_5 5.4.0
  _ZTVN16QSGBatchRenderer8RendererE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZTVN23QQuickFramebufferObject8RendererE@Qt_5_PRIVATE_API 5.2.0~beta1 1
+ _ZTVN9QV8Engine9DeletableE@Qt_5 5.7.1
  _ZZZNK15QQuickXAnimator12propertyNameEvENKUlvE_clEvE15qstring_literal@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZZZNK15QQuickYAnimator12propertyNameEvENKUlvE_clEvE15qstring_literal@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZZZNK19QQuickScaleAnimator12propertyNameEvENKUlvE_clEvE15qstring_literal@Qt_5_PRIVATE_API 5.2.0~beta1 1
