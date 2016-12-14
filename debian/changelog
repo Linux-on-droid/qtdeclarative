@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.7.1~20161021-6) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream final release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 14 Dec 2016 13:15:01 +0300
+
 qtdeclarative-opensource-src (5.7.1~20161021-5) unstable; urgency=medium
 
   * Revert upstream commit c9ffed92a0dee0ae, which broke Qt Quick Controls.
