@@ -1579,6 +1579,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV44Heap14FunctionObjectC2Ev@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV44Heap14FunctionObjectD1Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV44Heap14FunctionObjectD2Ev@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN3QV44Heap14QObjectWrapperC1EP7QObject@Qt_5_PRIVATE_API 5.7.1 1
+ _ZN3QV44Heap14QObjectWrapperC2EP7QObject@Qt_5_PRIVATE_API 5.7.1 1
  _ZN3QV44Heap15BuiltinFunctionC1EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV44Heap15BuiltinFunctionC2EPNS_16ExecutionContextEPNS_6StringEPFyPNS_11CallContextEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV44Heap6String6appendEPKS1_P5QChar@Qt_5_PRIVATE_API 5.5.0 1
