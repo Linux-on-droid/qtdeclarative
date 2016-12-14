@@ -1,6 +1,5 @@
 # Backported patches
 fix_tst_qqmlapplicationengine.diff
-fix_tags_types.diff
 
 # Debian patches
 disableopengltests.patch
