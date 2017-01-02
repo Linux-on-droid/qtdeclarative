@@ -4,3 +4,4 @@ fix_tst_qqmlapplicationengine.diff
 # Debian patches
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
+Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch
