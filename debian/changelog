@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump dpkg-dev build-dependency to 1.17.14, for build profiles.
   * Do not build the documentation packages when the nodoc profile is enabled.
+  * Drop fix_tst_qqmlapplicationengine.diff as it's reverse-applicable.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Apr 2017 06:43:41 -0500
 

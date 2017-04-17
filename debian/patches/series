@@ -1,6 +1,3 @@
-# Backported patches
-fix_tst_qqmlapplicationengine.diff
-
 # Debian patches
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
