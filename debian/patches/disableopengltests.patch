@@ -7,18 +7,17 @@ Last-Update: 2016-10-18
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -9,8 +9,6 @@ SUBDIRS=\
-     installed_cmake \
-     toolsupport
+@@ -11,7 +11,6 @@ SUBDIRS=\
  
--qtHaveModule(widgets): SUBDIRS += quickwidgets
--
- qmldevtools.CONFIG = host_build
+ qtHaveModule(gui):qtConfig(opengl(es1|es2)?) {
+     SUBDIRS += particles
+-    qtHaveModule(widgets): SUBDIRS += quickwidgets
  
- installed_cmake.depends = cmake
+ }
+ 
 --- a/tests/auto/qml/debugger/debugger.pro
 +++ b/tests/auto/qml/debugger/debugger.pro
-@@ -5,7 +5,6 @@
+@@ -5,7 +5,6 @@ PUBLICTESTS += \
      qqmlenginedebugservice \
      qqmldebugjs \
      qqmlinspector \
@@ -28,7 +27,7 @@ Last-Update: 2016-10-18
      qqmlenginecontrol \
 --- a/tests/auto/qml/qml.pro
 +++ b/tests/auto/qml/qml.pro
-@@ -21,7 +21,6 @@ PUBLICTESTS += \
+@@ -23,7 +23,6 @@ PUBLICTESTS += \
      qqmlmoduleplugin \
      qqmlnotifier \
      qqmlqt \
@@ -36,27 +35,13 @@ Last-Update: 2016-10-18
      qtqmlmodules \
      qquickfolderlistmodel \
      qqmlapplicationengine \
-@@ -69,8 +68,7 @@
-         qjsvalue
- }
- 
--SUBDIRS += $$PUBLICTESTS \
--    qqmlextensionplugin
-+SUBDIRS += $$PUBLICTESTS
- SUBDIRS += $$METATYPETESTS
- !winrt { # no QProcess on winrt
-     !contains(QT_CONFIG, no-qml-debug): SUBDIRS += debugger
 --- a/tests/auto/quick/quick.pro
 +++ b/tests/auto/quick/quick.pro
-@@ -2,11 +2,8 @@ TEMPLATE = subdirs
+@@ -8,7 +8,6 @@ qtConfig(opengl(es1|es2)?) {
+     PUBLICTESTS += \
+         drawingmodes \
+         rendernode
+-    qtHaveModule(widgets): PUBLICTESTS += nodes
  
- PUBLICTESTS += \
-     geometry \
--    rendernode \
-     qquickpixmapcache
- 
--qtHaveModule(widgets): PUBLICTESTS += nodes
--
- !cross_compile: PRIVATETESTS += examples
- 
- # This test requires the qtconcurrent module
+     QUICKTESTS += \
+         qquickanimatedsprite \
