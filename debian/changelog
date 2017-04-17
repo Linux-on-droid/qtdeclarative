@@ -8,6 +8,7 @@ qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
   * Refresh patches:
    - disableopengltests.patch
    - fix_test_remove_qlibraryinfo.patch
+   - Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Apr 2017 06:43:41 -0500
 

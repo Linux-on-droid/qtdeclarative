@@ -25,24 +25,20 @@ Bug-Debian: https://bugs.debian.org/792594
  tools/qmljs/qmljs.cpp           |  7 +++----
  5 files changed, 24 insertions(+), 11 deletions(-)
 
-diff --git a/src/qml/jit/qv4isel_masm.cpp b/src/qml/jit/qv4isel_masm.cpp
-index d047623ac..5c149f9d2 100644
 --- a/src/qml/jit/qv4isel_masm.cpp
 +++ b/src/qml/jit/qv4isel_masm.cpp
-@@ -265,6 +265,8 @@ InstructionSelection::InstructionSelection(QQmlEnginePrivate *qmlEngine, QV4::Ex
+@@ -72,6 +72,8 @@ InstructionSelection<JITAssembler>::Inst
      , compilationUnit(new CompilationUnit)
      , qmlEngine(qmlEngine)
  {
 +    checkRequiredCpuSupport();
 +
      compilationUnit->codeRefs.resize(module->functions.size());
+     module->unitFlags |= QV4::CompiledData::Unit::ContainsMachineCode;
  }
- 
-diff --git a/src/qml/jit/qv4isel_masm_p.h b/src/qml/jit/qv4isel_masm_p.h
-index 1e6ac1f51..d6c1b414f 100644
 --- a/src/qml/jit/qv4isel_masm_p.h
 +++ b/src/qml/jit/qv4isel_masm_p.h
-@@ -59,6 +59,7 @@
+@@ -60,6 +60,7 @@
  
  #include <QtCore/QHash>
  #include <QtCore/QStack>
@@ -50,7 +46,7 @@ index 1e6ac1f51..d6c1b414f 100644
  #include <config.h>
  #include <wtf/Vector.h>
  
-@@ -71,6 +72,23 @@ QT_BEGIN_NAMESPACE
+@@ -72,6 +73,23 @@ QT_BEGIN_NAMESPACE
  namespace QV4 {
  namespace JIT {
  
@@ -71,14 +67,12 @@ index 1e6ac1f51..d6c1b414f 100644
 +#endif
 +}
 +
+ template <typename JITAssembler = Assembler<DefaultAssemblerTargetConfiguration>>
  class Q_QML_EXPORT InstructionSelection:
          protected IR::IRDecoder,
-         public EvalInstructionSelection
-diff --git a/src/qml/jsruntime/qv4engine.cpp b/src/qml/jsruntime/qv4engine.cpp
-index 26f473a7a..5e4100ac0 100644
 --- a/src/qml/jsruntime/qv4engine.cpp
 +++ b/src/qml/jsruntime/qv4engine.cpp
-@@ -162,6 +162,7 @@ ExecutionEngine::ExecutionEngine(EvalISelFactory *factory)
+@@ -165,6 +165,7 @@ ExecutionEngine::ExecutionEngine(EvalISe
  
  #ifdef V4_ENABLE_JIT
          static const bool forceMoth = !qEnvironmentVariableIsEmpty("QV4_FORCE_INTERPRETER") ||
@@ -86,11 +80,9 @@ index 26f473a7a..5e4100ac0 100644
                                        !OSAllocator::canAllocateExecutableMemory();
          if (forceMoth) {
              factory = new Moth::ISelFactory;
-diff --git a/src/qml/qml/v8/qv8engine.cpp b/src/qml/qml/v8/qv8engine.cpp
-index 46fd4fbbe..20ed1ddb4 100644
 --- a/src/qml/qml/v8/qv8engine.cpp
 +++ b/src/qml/qml/v8/qv8engine.cpp
-@@ -65,7 +65,6 @@
+@@ -64,7 +64,6 @@
  #include <QtCore/qjsonvalue.h>
  #include <QtCore/qdatetime.h>
  #include <QtCore/qdatastream.h>
@@ -98,7 +90,7 @@ index 46fd4fbbe..20ed1ddb4 100644
  
  #include <private/qv4value_p.h>
  #include <private/qv4dateobject_p.h>
-@@ -130,12 +129,6 @@ QV8Engine::QV8Engine(QJSEngine* qq)
+@@ -129,12 +128,6 @@ QV8Engine::QV8Engine(QJSEngine* qq)
      , m_xmlHttpRequestData(0)
      , m_listModelData(0)
  {
@@ -111,11 +103,9 @@ index 46fd4fbbe..20ed1ddb4 100644
      QML_MEMORY_SCOPE_STRING("QV8Engine::QV8Engine");
      qMetaTypeId<QJSValue>();
      qMetaTypeId<QList<int> >();
-diff --git a/tools/qmljs/qmljs.cpp b/tools/qmljs/qmljs.cpp
-index 68aa52ce9..94b10f2b3 100644
 --- a/tools/qmljs/qmljs.cpp
 +++ b/tools/qmljs/qmljs.cpp
-@@ -135,11 +135,10 @@ int main(int argc, char *argv[])
+@@ -92,11 +92,10 @@ int main(int argc, char *argv[])
      enum {
          use_masm,
          use_moth
@@ -130,5 +120,3 @@ index 68aa52ce9..94b10f2b3 100644
  #endif
  
      bool runAsQml = false;
--- 
-2.11.0
