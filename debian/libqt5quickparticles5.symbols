@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.9.0~beta amd64
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
-| libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-7-0
+| libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-9-0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  (optional=gccinternal)_ZN10QByteArray7reserveEi@Qt_5_PRIVATE_API 5.4.2 1
  _ZN18QQuickParticleData10extendLifeEfP20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
@@ -17,7 +17,7 @@ libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
  _ZN20QQuickParticleSystem10moveGroupsEP18QQuickParticleDatai@Qt_5_PRIVATE_API 5.7.0 1
  _ZN20QQuickParticleSystem10setRunningEb@Qt_5_PRIVATE_API 5.7.0 1
  _ZN20QQuickParticleSystem10systemSyncEP21QQuickParticlePainter@Qt_5_PRIVATE_API 5.7.0 1
- _ZN20QQuickParticleSystem11loadPainterEP7QObject@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN20QQuickParticleSystem11loadPainterEP21QQuickParticlePainter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN20QQuickParticleSystem11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN20QQuickParticleSystem11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.0 1
  _ZN20QQuickParticleSystem12createEngineEv@Qt_5_PRIVATE_API 5.7.0 1
@@ -50,10 +50,45 @@ libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
  _ZN20QQuickParticleSystemD0Ev@Qt_5_PRIVATE_API 5.7.0 1
  _ZN20QQuickParticleSystemD1Ev@Qt_5_PRIVATE_API 5.7.0 1
  _ZN20QQuickParticleSystemD2Ev@Qt_5_PRIVATE_API 5.7.0 1
+ _ZN21QQuickParticleEmitter10emitWindowEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter10setEnabledEb@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter12groupChangedERK7QString@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter13emitParticlesE12QQmlV4Handle@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter13systemChangedEP20QQuickParticleSystem@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter14enabledChangedEb@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter15extruderChangedEP22QQuickParticleExtruder@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter15isEmitConnectedEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter15velocityChangedEP15QQuickDirection@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter16startTimeChangedEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter17componentCompleteEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter17effectiveExtruderEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter19accelerationChangedEP15QQuickDirection@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter19particleSizeChangedEd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter19setMaxParticleCountEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter20particleCountChangedEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter21maximumEmittedChangedEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter22particleEndSizeChangedEd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter23particleDurationChangedEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter23setVelocityFromMovementEd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter25particlesPerSecondChangedEd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter27velocityFromMovementChangedEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter28particleSizeVariationChangedEd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter32particleDurationVariationChangedEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter5burstEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter5burstEidd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter5pulseEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter5resetEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitterC1EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitterC2EP10QQuickItem@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitterD0Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitterD1Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitterD2Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QQuickParticlesModule12defineModuleEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN22QQuickParticleAffector10postAffectEP18QQuickParticleData@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickParticleAffector11activeGroupEi@Qt_5_PRIVATE_API 5.7.0 1
- _ZN22QQuickParticleAffector11isCollidingEP18QQuickParticleData@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickParticleAffector11onceChangedEb@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickParticleAffector11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.7.0 1
  _ZN22QQuickParticleAffector11qt_metacastEPKc@Qt_5_PRIVATE_API 5.7.0 1
@@ -100,16 +135,24 @@ libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
  _ZN23QQuickParticleGroupDataD2Ev@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK18QQuickParticleData9debugDumpEP20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
  _ZNK20QQuickParticleSystem10metaObjectEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZNK21QQuickParticleEmitter10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZNK21QQuickParticleEmitter18reclaculateGroupIdEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK22QQuickParticleAffector10metaObjectEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZNK22QQuickParticleAffector11isCollidingEP18QQuickParticleData@Qt_5_PRIVATE_API 5.9.0~beta 1
  (optional=templinst|subst)_ZNSt6vectorIbSaIbEE14_M_fill_insertESt13_Bit_iterator{size_t}b@Qt_5_PRIVATE_API 5.7.0 1
  _ZTI20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
+ _ZTI21QQuickParticleEmitter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTI22QQuickParticleAffector@Qt_5_PRIVATE_API 5.7.0 1
  _ZTIN9QV8Engine9DeletableE@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
+ _ZTS21QQuickParticleEmitter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTS22QQuickParticleAffector@Qt_5_PRIVATE_API 5.7.0 1
  _ZTSN9QV8Engine9DeletableE@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
+ _ZTV21QQuickParticleEmitter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTV22QQuickParticleAffector@Qt_5_PRIVATE_API 5.7.0 1
  (c++)"non-virtual thunk to QQuickParticleAffector::componentComplete()@Qt_5_PRIVATE_API" 5.7.0 1
+ (c++)"non-virtual thunk to QQuickParticleEmitter::componentComplete()@Qt_5_PRIVATE_API" 5.9.0~beta 1
+ (c++)"non-virtual thunk to QQuickParticleEmitter::~QQuickParticleEmitter()@Qt_5_PRIVATE_API" 5.9.0~beta 1
  (c++)"non-virtual thunk to QQuickParticleSystem::componentComplete()@Qt_5_PRIVATE_API" 5.7.0 1
  (c++)"non-virtual thunk to QQuickParticleSystem::~QQuickParticleSystem()@Qt_5_PRIVATE_API" 5.7.0 1

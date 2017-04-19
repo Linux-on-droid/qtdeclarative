@@ -10,6 +10,7 @@ qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
    - fix_test_remove_qlibraryinfo.patch
    - Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch
   * Add new binary package qml-module-qtquick-sharedimage.
+  * Update symbols from build logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Apr 2017 06:43:41 -0500
 

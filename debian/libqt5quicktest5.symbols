@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.7.1~20161021 amd64
+# SymbolsHelper-Confirmed: 5.9.0~beta amd64
 libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
-| libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-7-0
+| libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-9-0
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
@@ -9,6 +9,8 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0~beta
  Qt_5.6@Qt_5.6 5.6.0~beta
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~beta
+ Qt_5.9@Qt_5.9 5.9.0~beta
  Qt_5@Qt_5 5.6.0~beta
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z15quick_test_mainiPPcPKcS2_@Qt_5 5.0.2
@@ -16,9 +18,11 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZN14QuickTestEvent10mouseClickEP7QObjectddiii@Qt_5_PRIVATE_API 5.2.0 1
  _ZN14QuickTestEvent10mousePressEP7QObjectddiii@Qt_5_PRIVATE_API 5.2.0 1
  _ZN14QuickTestEvent10mouseWheelEP7QObjectddiiiii@Qt_5_PRIVATE_API 5.2.0 1
+ _ZN14QuickTestEvent10touchEventEP7QObject@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN14QuickTestEvent11eventWindowEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QuickTestEvent11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QuickTestEvent11qt_metacastEPKc@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN14QuickTestEvent11touchDeviceEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN14QuickTestEvent12activeWindowEv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN14QuickTestEvent12keyClickCharERK7QStringii@Qt_5_PRIVATE_API 5.1.0 1
  _ZN14QuickTestEvent12keyPressCharERK7QStringii@Qt_5_PRIVATE_API 5.1.0 1
@@ -90,6 +94,16 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZN20QuickTestImageObject11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN20QuickTestImageObject11qt_metacastEPKc@Qt_5 5.0.2
  _ZN20QuickTestImageObject16staticMetaObjectE@Qt_5 5.0.2
+ _ZN24QQuickTouchEventSequence10stationaryEi@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence4moveEiP7QObjectdd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence5pressEiP7QObjectdd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence6commitEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequence7releaseEiP7QObjectdd@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequenceC1EP14QuickTestEventP7QObject@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN24QQuickTouchEventSequenceC2EP14QuickTestEventP7QObject@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK14QuickTestEvent10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK14QuickTestEvent17defaultMouseDelayEv@Qt_5_PRIVATE_API 5.7.1 1
  _ZNK15QuickTestResult10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -104,12 +118,16 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZNK15QuickTestResult9passCountEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QuickTestResult9skipCountEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK20QuickTestImageObject10metaObjectEv@Qt_5 5.0.2
+ _ZNK24QQuickTouchEventSequence10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTI14QuickTestEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI15QuickTestResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QuickTestImageObject@Qt_5 5.0.2
+ _ZTI24QQuickTouchEventSequence@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTS14QuickTestEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS15QuickTestResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QuickTestImageObject@Qt_5 5.0.2
+ _ZTS24QQuickTouchEventSequence@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTV14QuickTestEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV15QuickTestResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QuickTestImageObject@Qt_5 5.0.2
+ _ZTV24QQuickTouchEventSequence@Qt_5_PRIVATE_API 5.9.0~beta 1
