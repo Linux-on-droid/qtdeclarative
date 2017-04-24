@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta amd64
+# SymbolsHelper-Confirmed: 5.9.0~beta2 amd64 i386
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-9-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -3019,6 +3019,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN30QQuickAbstractAnimationPrivate14createPropertyEP7QObjectRK7QStringS1_PS2_@Qt_5_PRIVATE_API 5.6.0~rc 1
  _ZN30QQuickAbstractAnimationPrivate17animationFinishedEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN30QQuickAbstractAnimationPrivate8commenceEv@Qt_5_PRIVATE_API 5.6.0~beta 1
+ _ZN30QQuickImageProviderWithOptions11checkedCastEP19QQuickImageProvider@Qt_5_PRIVATE_API 5.9.0~beta2 1
  _ZN30QQuickImageProviderWithOptions12requestImageERK7QStringP5QSizeRKS3_@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN30QQuickImageProviderWithOptions12requestImageERK7QStringP5QSizeRKS3_RK26QQuickImageProviderOptions@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN30QQuickImageProviderWithOptions13requestPixmapERK7QStringP5QSizeRKS3_@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -3027,6 +3028,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN30QQuickImageProviderWithOptions14requestTextureERK7QStringP5QSizeRKS3_RK26QQuickImageProviderOptions@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN30QQuickImageProviderWithOptions20requestImageResponseERK7QStringRK5QSize@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN30QQuickImageProviderWithOptions20requestImageResponseERK7QStringRK5QSizeRK26QQuickImageProviderOptions@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN30QQuickImageProviderWithOptions8loadSizeERK5QSizeS2_RK10QByteArrayRK26QQuickImageProviderOptions@Qt_5_PRIVATE_API 5.9.0~beta2 1
  _ZN30QQuickImageProviderWithOptionsC1EN21QQmlImageProviderBase9ImageTypeE6QFlagsINS0_4FlagEE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN30QQuickImageProviderWithOptionsC2EN21QQmlImageProviderBase9ImageTypeE6QFlagsINS0_4FlagEE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN30QQuickOpenGLShaderEffectCommon12updateShaderEP10QQuickItemPK11QMetaObjectN35QQuickOpenGLShaderEffectMaterialKey10ShaderTypeE@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -3127,7 +3129,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN36QQuickDesignerSupportPropertyChanges15detachFromStateEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16changeExpressionEP7QObjectRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16isNormalPropertyERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.0~beta
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Qt_5_PRIVATE_API 5.0.2 1
