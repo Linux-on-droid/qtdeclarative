@@ -3,7 +3,7 @@ Description: Disable all tests that fails with xvfb
 Author: Sandro Knauß <bugs@sandroknauss.de>
 Origin: Debian
 Forwarded: not-needed - it is a limitation so far inside Debian
-Last-Update: 2016-10-18
+Last-Update: 2017-04-24
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
@@ -35,13 +35,27 @@ Last-Update: 2016-10-18
      qtqmlmodules \
      qquickfolderlistmodel \
      qqmlapplicationengine \
+@@ -87,10 +86,6 @@
+     SUBDIRS += qmllint qmlplugindump
+ }
+ 
+-qtConfig(library) {
+-    SUBDIRS += qqmlextensionplugin
+-}
+-
+ qtConfig(private_tests): \
+     SUBDIRS += $$PRIVATETESTS
+ 
 --- a/tests/auto/quick/quick.pro
 +++ b/tests/auto/quick/quick.pro
-@@ -8,7 +8,6 @@ qtConfig(opengl(es1|es2)?) {
+@@ -6,9 +6,7 @@
+ 
+ qtConfig(opengl(es1|es2)?) {
      PUBLICTESTS += \
-         drawingmodes \
-         rendernode
+-        drawingmodes \
+-        rendernode
 -    qtHaveModule(widgets): PUBLICTESTS += nodes
++        drawingmodes
  
      QUICKTESTS += \
          qquickanimatedsprite \
