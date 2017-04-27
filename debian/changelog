@@ -14,6 +14,7 @@ qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Add Lintian overrides for new test JS files with long lines.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Apr 2017 06:43:41 -0500
 
