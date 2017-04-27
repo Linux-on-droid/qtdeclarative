@@ -12,6 +12,9 @@ qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
   * Add new binary package qml-module-qtquick-sharedimage.
   * Update symbols from build logs.
 
+  [ Dmitry Shachnev ]
+  * Add Lintian overrides for new test JS files with long lines.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Apr 2017 06:43:41 -0500
 
 qtdeclarative-opensource-src (5.7.1-2) unstable; urgency=medium

@@ -3,6 +3,10 @@
 qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object examples/quick/canvas/tiger/tiger.js *
 qtdeclarative-opensource-src source: source-is-missing examples/quick/canvas/tiger/tiger.js *
 # The files in testsuite are not prebuilt or minified, they just have quite long source lines.
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/ecmascripttests/test262/test/suite/ch08/8.*/S8*.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/ecmascripttests/test262/test/suite/ch08/8.*/S8*.js *
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/ecmascripttests/test262/test/suite/ch15/15.*/S15*.js *
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/ecmascripttests/test262/test/suite/ch15/15.*/S15*.js *
 qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma/ObjectObjects/15.2.1.1.js *
 qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma/ObjectObjects/15.2.1.1.js *
 qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma/String/15.5.2.js *
