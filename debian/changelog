@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.9.0~beta2-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release.
@@ -16,7 +16,7 @@ qtdeclarative-opensource-src (5.9.0~beta-1) UNRELEASED; urgency=medium
   * Add Lintian overrides for new test JS files with long lines.
   * Update debian/copyright.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 17 Apr 2017 06:43:41 -0500
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 27 Apr 2017 22:00:12 +0300
 
 qtdeclarative-opensource-src (5.7.1-2) unstable; urgency=medium
 
