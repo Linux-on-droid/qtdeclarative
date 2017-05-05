@@ -1,6 +1,9 @@
 qtdeclarative-opensource-src (5.9.0~beta3-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
   * New upstream release.
+  * Backport proposed upstream fix for build failure on non-JIT archs
+    (qv4isel_always_export.patch).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 05 May 2017 16:39:46 +0300
 

@@ -1,0 +1,37 @@
+Description: build fix for architectures where we don’t support the JIT
+Author: Simon Hausmann <simon.hausmann@qt.io>
+Origin: https://codereview.qt-project.org/193778
+Last-Update: 2017-05-05
+
+--- a/src/qml/jit/qv4isel_masm.cpp
++++ b/src/qml/jit/qv4isel_masm.cpp
+@@ -1633,6 +1633,8 @@
+     return result;
+ }
+ 
++#endif // ENABLE(ASSEMBLER)
++
+ QT_BEGIN_NAMESPACE
+ namespace QV4 { namespace JIT {
+ template class Q_QML_EXPORT InstructionSelection<>;
+@@ -1641,6 +1643,7 @@
+ 
+ Q_QML_EXPORT QV4::EvalISelFactory *createISelForArchitecture(const QString &architecture)
+ {
++#if ENABLE(ASSEMBLER)
+     using ARMv7CrossAssembler = QV4::JIT::Assembler<AssemblerTargetConfiguration<JSC::MacroAssemblerARMv7, NoOperatingSystemSpecialization>>;
+     using ARM64CrossAssembler = QV4::JIT::Assembler<AssemblerTargetConfiguration<JSC::MacroAssemblerARM64, NoOperatingSystemSpecialization>>;
+ 
+@@ -1661,6 +1664,7 @@
+ #endif
+     if (!hostArch.isEmpty() && architecture == hostArch)
+         return new ISelFactory<>;
++#endif // ENABLE(ASSEMBLER)
+ 
+     return nullptr;
+ }
+@@ -1669,4 +1673,3 @@
+ } }
+ QT_END_NAMESPACE
+ 
+-#endif // ENABLE(ASSEMBLER)
