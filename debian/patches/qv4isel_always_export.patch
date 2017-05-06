@@ -1,11 +1,11 @@
 Description: build fix for architectures where we don’t support the JIT
 Author: Simon Hausmann <simon.hausmann@qt.io>
 Origin: https://codereview.qt-project.org/193778
-Last-Update: 2017-05-05
+Last-Update: 2017-05-06
 
 --- a/src/qml/jit/qv4isel_masm.cpp
 +++ b/src/qml/jit/qv4isel_masm.cpp
-@@ -1633,6 +1633,8 @@
+@@ -1633,14 +1633,20 @@
      return result;
  }
  
@@ -13,8 +13,12 @@ Last-Update: 2017-05-05
 +
  QT_BEGIN_NAMESPACE
  namespace QV4 { namespace JIT {
++#if ENABLE(ASSEMBLER)
  template class Q_QML_EXPORT InstructionSelection<>;
-@@ -1641,6 +1643,7 @@
+ template class Q_QML_EXPORT ISelFactory<>;
++#endif
++
+ #if defined(V4_BOOTSTRAP)
  
  Q_QML_EXPORT QV4::EvalISelFactory *createISelForArchitecture(const QString &architecture)
  {
@@ -22,7 +26,7 @@ Last-Update: 2017-05-05
      using ARMv7CrossAssembler = QV4::JIT::Assembler<AssemblerTargetConfiguration<JSC::MacroAssemblerARMv7, NoOperatingSystemSpecialization>>;
      using ARM64CrossAssembler = QV4::JIT::Assembler<AssemblerTargetConfiguration<JSC::MacroAssemblerARM64, NoOperatingSystemSpecialization>>;
  
-@@ -1661,6 +1664,7 @@
+@@ -1661,6 +1667,7 @@
  #endif
      if (!hostArch.isEmpty() && architecture == hostArch)
          return new ISelFactory<>;
@@ -30,7 +34,7 @@ Last-Update: 2017-05-05
  
      return nullptr;
  }
-@@ -1669,4 +1673,3 @@
+@@ -1669,4 +1676,3 @@
  } }
  QT_END_NAMESPACE
  
