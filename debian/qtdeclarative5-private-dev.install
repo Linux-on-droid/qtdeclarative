@@ -1,7 +1,6 @@
 usr/include/*/qt5/QtPacketProtocol/*/QtPacketProtocol/private/*
 usr/include/*/qt5/QtQml/*/QtQml/private/*.h
 usr/include/*/qt5/QtQmlDebug/*/QtQmlDebug/private/*
-usr/include/*/qt5/QtQmlDevTools/*/QtQmlDevTools/private/*.h
 usr/include/*/qt5/QtQuick/*/QtQuick/private/*.h
 usr/include/*/qt5/QtQuickParticles/*/QtQuickParticles/private/*.h
 usr/include/*/qt5/QtQuickTest/*/QtQuickTest/private/*.h

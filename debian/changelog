@@ -3,6 +3,8 @@ qtdeclarative-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * New upstream release.
   * Remove qv4isel_always_export.patch as it's reverse-applicable.
+  * Some files were moved around and/or deleted; update the install files to
+    reflect that.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Jun 2017 23:08:37 -0500
 

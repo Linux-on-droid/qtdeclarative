@@ -70,10 +70,6 @@ usr/include/*/qt5/QtQmlDebug/QtQmlDebug
 usr/include/*/qt5/QtQmlDebug/QtQmlDebugDepends
 usr/include/*/qt5/QtQmlDebug/QtQmlDebugVersion
 usr/include/*/qt5/QtQmlDebug/qtqmldebugversion.h
-usr/include/*/qt5/QtQmlDevTools/QtQmlDevTools
-usr/include/*/qt5/QtQmlDevTools/QtQmlDevToolsDepends
-usr/include/*/qt5/QtQmlDevTools/QtQmlDevToolsVersion
-usr/include/*/qt5/QtQmlDevTools/qtqmldevtoolsversion.h
 usr/include/*/qt5/QtQuick/QQuickAsyncImageProvider
 usr/include/*/qt5/QtQuick/QQuickFramebufferObject
 usr/include/*/qt5/QtQuick/QQuickImageProvider

@@ -1,2 +1,2 @@
-usr/lib/*/qt5/qml/QtQuick/SharedImage/libsharedimageplugin.so
-usr/lib/*/qt5/qml/QtQuick/SharedImage/qmldir
+usr/lib/*/qt5/qml/Qt/labs/sharedimage/libsharedimageplugin.so
+usr/lib/*/qt5/qml/Qt/labs/sharedimage/qmldir
