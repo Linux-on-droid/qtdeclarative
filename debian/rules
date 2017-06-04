@@ -74,7 +74,7 @@ override_dh_auto_test-arch:
 	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
 	         QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
-	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib
+	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib XDG_RUNTIME_DIR=$(CURDIR)
 
 override_dh_auto_test-indep:
 
