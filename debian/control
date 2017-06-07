@@ -136,7 +136,7 @@ Description: Qt 5 localstorage QML module
  .
  This is a singleton type for reading and writing to SQLite databases.
 
-Package: qml-module-qtquick-sharedimage
+Package: qml-module-qt-labs-sharedimage
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
