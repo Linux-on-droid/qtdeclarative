@@ -4,7 +4,6 @@
 #export DH_VERBOSE=1
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
-PRIVATE_HEADERS = debian/qtdeclarative5-private-dev/usr/include/$(DEB_HOST_MULTIARCH)/qt5
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
@@ -51,17 +50,6 @@ override_dh_auto_install-indep:
 
 override_dh_install:
 	dh_install --fail-missing
-
-override_dh_link:
-	dh_link
-	@VERSION=$$(ls $(PRIVATE_HEADERS)/QtQml); \
-	set -e; for h in $$(ls $(PRIVATE_HEADERS)/QtQmlDevTools/$$VERSION/QtQmlDevTools/private/); do \
-		if [ -f $(PRIVATE_HEADERS)/QtQml/$$VERSION/QtQml/private/$$h ]; then \
-			echo "Symlinking QtQmlDevTools/private/$$h -> QtQml/private/$$h"; \
-			ln -sf ../../../../QtQml/$$VERSION/QtQml/private/$$h \
-				$(PRIVATE_HEADERS)/QtQmlDevTools/$$VERSION/QtQmlDevTools/private/$$h; \
-		fi; \
-	done
 
 override_dh_makeshlibs:
 	dh_makeshlibs -V

@@ -12,6 +12,7 @@ qtdeclarative-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
     following upstream (see commit 4a4a8e911cfafcff).
   * Update debian/copyright.
   * Mark two symbols as optional to fix build with GCC 7 (closes: #853631).
+  * Drop the code to symlink private QmlDevTools headers, no longer needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Jun 2017 23:08:37 -0500
 
