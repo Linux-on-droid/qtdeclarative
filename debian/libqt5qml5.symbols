@@ -2530,7 +2530,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN8QQmlTypeC2EiRKN11QQmlPrivate17RegisterInterfaceE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN8QQmlTypeD1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN8QQmlTypeD2Ev@Qt_5_PRIVATE_API 5.0.2 1
- _ZN9QBitArray6setBitEi@Qt_5 5.9.0~beta3
+ (optional=inline)_ZN9QBitArray6setBitEi@Qt_5 5.9.0~beta3
  _ZN9QJSEngine10newQObjectEP7QObject@Qt_5 5.0.2
  _ZN9QJSEngine11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.0.2
  _ZN9QJSEngine11qt_metacastEPKc@Qt_5 5.0.2
@@ -2817,7 +2817,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK17QQmlPropertyCache20signalParameterNamesEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK17QQmlPropertyCache7resolveEP16QQmlPropertyData@Qt_5_PRIVATE_API 5.0.2 1
  (optional=templinst)_ZNK17QQmlPropertyCache8propertyI10QStringRefEEP16QQmlPropertyDataRKT_P7QObjectP15QQmlContextData@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZNK17QQmlPropertyCache8propertyI7QStringEEP16QQmlPropertyDataRKT_P7QObjectP15QQmlContextData@Qt_5_PRIVATE_API 5.9.0~beta3 1
+ (optional=templinst)_ZNK17QQmlPropertyCache8propertyI7QStringEEP16QQmlPropertyDataRKT_P7QObjectP15QQmlContextData@Qt_5_PRIVATE_API 5.9.0~beta3 1
  _ZNK17QQmlPropertyCache9classNameEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK17QQmlVMEMetaObject11aliasTargetEiPP7QObjectPiS3_@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK17QQmlVMEMetaObject11vmePropertyEi@Qt_5_PRIVATE_API 5.9.0~beta 1
