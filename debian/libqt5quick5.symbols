@@ -299,7 +299,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN10QSGContext27createInternalRectangleNodeERK6QRectFRK6QColor@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN10QSGContext29createTextureFactoryFromImageERK6QImage@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QSGContext34createGuiThreadShaderEffectManagerEv@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZN10QSGContext7backendEv@Qt_5_PRIVATE_API 5.9.0
+ _ZN10QSGContext7backendEv@Qt_5_PRIVATE_API 5.9.0 1
  _ZN10QSGContextC1EP7QObject@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QSGContextC2EP7QObject@Qt_5_PRIVATE_API 5.0.2 1
  _ZN10QSGContextD0Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -3108,7 +3108,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN33QSGDefaultDistanceFieldGlyphCacheD2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN33QSGDistanceFieldGlyphCacheManager11insertCacheERK8QRawFontP26QSGDistanceFieldGlyphCache@Qt_5_PRIVATE_API 5.0.2 1
  _ZN33QSGDistanceFieldGlyphCacheManager5cacheERK8QRawFont@Qt_5_PRIVATE_API 5.0.2 1
- _ZN33QSGDistanceFieldGlyphCacheManager7fontKeyERK8QRawFont@Qt_5_PRIVATE_API 5.9.0
+ _ZN33QSGDistanceFieldGlyphCacheManager7fontKeyERK8QRawFont@Qt_5_PRIVATE_API 5.9.0 1
  _ZN33QSGDistanceFieldGlyphCacheManagerC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN33QSGDistanceFieldGlyphCacheManagerC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN33QSGDistanceFieldGlyphCacheManagerD1Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -3869,7 +3869,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK19QQuickWindowPrivate12isRenderableEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK19QQuickWindowPrivate14pointerTargetsEP10QQuickItemRK7QPointFb@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK19QQuickWindowPrivate19mergePointerTargetsERK7QVectorIP10QQuickItemES5_@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZNK19QQuickWindowPrivate20pointerEventInstanceEP19QQuickPointerDevice@Qt_5_PRIVATE_API 5.9.0
+ _ZNK19QQuickWindowPrivate20pointerEventInstanceEP19QQuickPointerDevice@Qt_5_PRIVATE_API 5.9.0 1
  _ZNK19QQuickWindowPrivate20pointerEventInstanceEP6QEvent@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK19QQuickWindowQmlImpl10metaObjectEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK19QQuickWindowQmlImpl6screenEv@Qt_5_PRIVATE_API 5.9.0~beta 1
