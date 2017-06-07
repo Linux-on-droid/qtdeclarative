@@ -10,6 +10,7 @@ qtdeclarative-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Rename qml-module-qtquick-sharedimage to qml-module-qt-labs-sharedimage,
     following upstream (see commit 4a4a8e911cfafcff).
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 02 Jun 2017 23:08:37 -0500
 
