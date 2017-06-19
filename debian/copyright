@@ -179,7 +179,7 @@ Files: tests/auto/qml/qqmltypeloader/SlowImport/plugin.cpp
        tests/auto/quick/qquicklistview/data/proxytest.qml
        tests/auto/quick/qquicklistview/proxytestinnermodel.cpp
        tests/auto/quick/qquicklistview/proxytestinnermodel.h
-Copyright: 2016 Canonical Limited and/or its subsidiary(-ies).
+Copyright: 2016-2017 Canonical Limited and/or its subsidiary(-ies).
 License: GPL-3 with Qt-1.0 exception
 
 Files: tests/auto/qml/qqmlinstantiator/stringmodel.h
