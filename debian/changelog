@@ -2,7 +2,7 @@ qtdeclarative-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
-  * Update symbols files from buildds’ logs.
+  * Update symbols files from buildds’ logs and the current build log.
   * Drop big_endian.patch, applied upstream.
   * Refresh other patches.
   * Bump qtbase build-dependencies to 5.9.1.
