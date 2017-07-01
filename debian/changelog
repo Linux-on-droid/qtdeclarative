@@ -1,14 +1,13 @@
-qtdeclarative-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.9.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
-  * Update symbols files from buildds’ logs and the current build log.
   * Drop big_endian.patch, applied upstream.
   * Refresh other patches.
   * Bump qtbase build-dependencies to 5.9.1.
+  * Update symbols files from buildds’ logs and the current build log.
   * Bump Standards-Version to 4.0.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 12:12:29 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 01 Jul 2017 18:57:08 +0300
 
 qtdeclarative-opensource-src (5.9.0-2) experimental; urgency=medium
 
