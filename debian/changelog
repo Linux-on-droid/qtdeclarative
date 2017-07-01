@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
   * Update symbols files from buildds’ logs.
   * Drop big_endian.patch, applied upstream.
   * Refresh other patches.
+  * Bump qtbase build-dependencies to 5.9.1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 12:12:29 +0300
 
