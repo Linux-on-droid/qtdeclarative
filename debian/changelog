@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 01 Jul 2017 12:12:29 +0300
+
 qtdeclarative-opensource-src (5.9.0-2) experimental; urgency=medium
 
   * Add a patch that should fix crashes on big endian systems.
