@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0 amd64 armel hppa m68k
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-9-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -917,7 +917,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler16staticMetaObjectE@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler17stopProfilingImplEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler18startProfilingImplEy@Qt_5_PRIVATE_API 5.4.0 1
- (optional=templinst|arch=armhf i386)_ZN14QQuickProfiler24skipSceneGraphTimestampsILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE3ELj1EEEvj@Qt_5_PRIVATE_API 5.9.0~beta3 1
+ (optional=templinst|arch=armel armhf i386 m68k)_ZN14QQuickProfiler24skipSceneGraphTimestampsILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE3ELj1EEEvj@Qt_5_PRIVATE_API 5.9.0~beta3 1
  _ZN14QQuickProfiler25registerAnimationCallbackEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler8setTimerERK13QElapsedTimer@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler9dataReadyERK7QVectorI18QQuickProfilerDataE@Qt_5_PRIVATE_API 5.7.0 1
@@ -3317,6 +3317,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QSGTexture18horizontalWrapModeEv@Qt_5 5.0.2
  _ZNK10QSGTexture24normalizedTextureSubRectEv@Qt_5 5.0.2
  _ZNK10QSGTexture9filteringEv@Qt_5 5.0.2
+ (arch=hppa)_ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.9.0
  _ZNK11QQuickCurve10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK11QQuickCurve1xEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK11QQuickCurve1yEv@Qt_5_PRIVATE_API 5.9.0~beta 1
