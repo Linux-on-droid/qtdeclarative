@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 amd64 armel hppa m68k
+# SymbolsHelper-Confirmed: 5.9.1 amd64 arm64 i386 kfreebsd-i386 ppc64 ppc64el s390x sparc64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-9-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -917,7 +917,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickProfiler16staticMetaObjectE@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler17stopProfilingImplEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler18startProfilingImplEy@Qt_5_PRIVATE_API 5.4.0 1
- (optional=templinst|arch=armel armhf i386 m68k)_ZN14QQuickProfiler24skipSceneGraphTimestampsILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE3ELj1EEEvj@Qt_5_PRIVATE_API 5.9.0~beta3 1
+ (optional=templinst|arch=armel armhf i386 kfreebsd-i386 m68k)_ZN14QQuickProfiler24skipSceneGraphTimestampsILN23QQmlProfilerDefinitions19SceneGraphFrameTypeE3ELj1EEEvj@Qt_5_PRIVATE_API 5.9.0~beta3 1
  _ZN14QQuickProfiler25registerAnimationCallbackEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler8setTimerERK13QElapsedTimer@Qt_5_PRIVATE_API 5.3.0 1
  _ZN14QQuickProfiler9dataReadyERK7QVectorI18QQuickProfilerDataE@Qt_5_PRIVATE_API 5.7.0 1
