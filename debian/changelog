@@ -1,10 +1,9 @@
-qtdeclarative-opensource-src (5.9.1-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.9.1-3) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Due to QTBUG-58567 we are forced to turn off JIT on mips* until
     upstream solves this issue.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 Jul 2017 17:34:59 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 31 Jul 2017 17:46:40 -0300
 
 qtdeclarative-opensource-src (5.9.1-2) experimental; urgency=medium
 
