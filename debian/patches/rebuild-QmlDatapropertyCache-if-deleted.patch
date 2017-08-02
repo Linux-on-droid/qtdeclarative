@@ -1,0 +1,31 @@
+Description: Rebuild QQmlData::propertyCache if deleted by another engine
+ QQmlData is shared between engines, but the relevant QObjectWrapper is
+ not. Since 749a7212e903d8e8c6f256edb1836b9449cc7fe1 when a
+ QObjectWrapper is deleted it resets the shared QQmlData propertyCache.
+ .
+ In most cases the propertyCache except when a property updated in an
+ existing binding in the first engine, where it currently asserts.
+ .
+ This patch can be dropped once 5.9.2 is packaged.
+Author: David Edmundson <davidedmundson@kde.org>
+Origin: upstream
+Bug: https://bugreports.qt.io/browse/QTBUG-61681
+Applied-Upstream: ab5d4c78224c9ec79165e8890e5f8b8e838e0709
+Reviewed-by: Simon Hausmann <simon.hausmann@qt.io>
+Last-Update: 2017-08-02
+--- a/src/qml/qml/qqmlbinding.cpp
++++ b/src/qml/qml/qqmlbinding.cpp
+@@ -515,7 +515,12 @@ void QQmlBinding::getPropertyData(QQmlPropertyData **propertyData, QQmlPropertyD
+     Q_ASSERT(propertyData);
+ 
+     QQmlData *data = QQmlData::get(*m_target, false);
+-    Q_ASSERT(data && data->propertyCache);
++    Q_ASSERT(data);
++
++    if (Q_UNLIKELY(!data->propertyCache)) {
++        data->propertyCache = QQmlEnginePrivate::get(context()->engine)->cache(m_target->metaObject());
++        data->propertyCache->addref();
++    }
+ 
+     *propertyData = data->propertyCache->property(m_targetIndex.coreIndex());
+     Q_ASSERT(*propertyData);
