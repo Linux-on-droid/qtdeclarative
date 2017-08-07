@@ -1,5 +1,9 @@
 qtdeclarative-opensource-src (5.9.1-5) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Bump qtdeclarative-abi to 5-9-1 so it matches' qtbase's versioning. Plus
+    it's the version we are pushing to unstable.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Aug 2017 13:40:18 -0300
 
 qtdeclarative-opensource-src (5.9.1-4) experimental; urgency=medium
