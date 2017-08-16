@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.9.1-5) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.9.1-5) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Bump qtdeclarative-abi to 5-9-1 so it matches' qtbase's versioning. Plus
@@ -7,7 +7,7 @@ qtdeclarative-opensource-src (5.9.1-5) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Update symbols files for GCC 7 symbols changes.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 07 Aug 2017 13:40:18 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 15 Aug 2017 22:09:04 -0300
 
 qtdeclarative-opensource-src (5.9.1-4) experimental; urgency=medium
 
