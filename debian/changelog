@@ -1,3 +1,7 @@
+qtdeclarative-opensource-src (5.9.1-6) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Sep 2017 13:39:50 -0300
+
 qtdeclarative-opensource-src (5.9.1-5) unstable; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
