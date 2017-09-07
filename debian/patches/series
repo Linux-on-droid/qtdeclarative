@@ -1,3 +1,6 @@
+# Backported patches
+fix_image_source_memory_leak.patch
+
 # Debian patches
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
