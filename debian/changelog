@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.9.1-6) UNRELEASED; urgency=medium
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Add fix_image_source_memory_leak.patch to fix QTBUG-61754 (Closes: #874581).
+  * Update symbols files with buildds' logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Sep 2017 13:39:50 -0300
 
