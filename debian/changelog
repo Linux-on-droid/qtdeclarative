@@ -2,6 +2,9 @@ qtdeclarative-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop patches, applied upstream:
+    - fix_image_source_memory_leak.patch
+    - rebuild-QmlDatapropertyCache-if-deleted.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Oct 2017 19:34:09 +0300
 
