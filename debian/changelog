@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Oct 2017 19:34:09 +0300
+
 qtdeclarative-opensource-src (5.9.1-6) unstable; urgency=medium
 
   * Add fix_image_source_memory_leak.patch to fix QTBUG-61754 (Closes: #874581).
