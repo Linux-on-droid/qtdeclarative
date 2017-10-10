@@ -72,7 +72,7 @@ Bug-Debian: https://bugs.debian.org/792594
          protected IR::IRDecoder,
 --- a/src/qml/jsruntime/qv4engine.cpp
 +++ b/src/qml/jsruntime/qv4engine.cpp
-@@ -163,6 +163,7 @@
+@@ -159,6 +159,7 @@
  
  #ifdef V4_ENABLE_JIT
          static const bool forceMoth = !qEnvironmentVariableIsEmpty("QV4_FORCE_INTERPRETER") ||
