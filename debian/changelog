@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
     - fix_image_source_memory_leak.patch
     - rebuild-QmlDatapropertyCache-if-deleted.patch
   * Refresh and rebase other patches.
+  * Update symbols files from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Oct 2017 19:34:09 +0300
 
