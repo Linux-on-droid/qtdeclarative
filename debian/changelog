@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.9.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Drop patches, applied upstream:
     - fix_image_source_memory_leak.patch
@@ -10,7 +9,7 @@ qtdeclarative-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.9.2.
   * Use dh_missing instead of deprecated dh_install --fail-missing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 10 Oct 2017 19:34:09 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 00:17:05 +0300
 
 qtdeclarative-opensource-src (5.9.1-6) unstable; urgency=medium
 
