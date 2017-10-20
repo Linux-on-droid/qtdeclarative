@@ -21,7 +21,7 @@ Build-Depends: debhelper (>= 10.3),
 Build-Depends-Indep: libqt5sql5-sqlite (>= 5.9.2+dfsg~) <!nodoc>,
                      qtbase5-doc-html (>= 5.9.1+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.9.2-2~) <!nodoc>
-Standards-Version: 4.0.0
+Standards-Version: 4.1.1
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdeclarative.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative.git
@@ -330,7 +330,6 @@ Description: Qt 5 declarative examples
 
 Package: qtdeclarative5-doc
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
@@ -342,7 +341,6 @@ Description: Qt 5 declarative documentation
 
 Package: qtdeclarative5-doc-html
 Build-Profiles: <!nodoc>
-Priority: extra
 Architecture: all
 Section: doc
 Depends: ${misc:Depends}
