@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.9.0~beta amd64
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER#
-| libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-9-1
+| libqt5quickparticles5 #MINVER#, qtdeclarative-abi-5-9-2
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  (optional=gccinternal)_ZN10QByteArray7reserveEi@Qt_5_PRIVATE_API 5.4.2 1
  _ZN18QQuickParticleData10extendLifeEfP20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
