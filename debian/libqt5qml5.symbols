@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.2 amd64
+# SymbolsHelper-Confirmed: 5.9.2 amd64 armel hppa m68k
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-9-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -432,9 +432,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN14QQmlTypeLoader4BlobD2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQmlTypeLoader4loadEP12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader4lockEv@Qt_5_PRIVATE_API 5.9.2 1
- (optional=templinst)_ZN14QQmlTypeLoader6doLoadI11PlainLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
- (optional=templinst)_ZN14QQmlTypeLoader6doLoadI12CachedLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
- (optional=templinst)_ZN14QQmlTypeLoader6doLoadI12StaticLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
+ (optional=templinst|arch=!armel !hppa)_ZN14QQmlTypeLoader6doLoadI11PlainLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
+ (optional=templinst|arch=!armel !hppa)_ZN14QQmlTypeLoader6doLoadI12CachedLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
+ (optional=templinst|arch=!armel !hppa)_ZN14QQmlTypeLoader6doLoadI12StaticLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader6unlockEv@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader7getTypeERK10QByteArrayRK4QUrlNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader7getTypeERK4QUrlNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
@@ -2249,7 +2249,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN5QtQml8qmlDebugEPK7QObjectRK5QListI9QQmlErrorE@Qt_5 5.9.0~beta
  _ZN5QtQml8qmlDebugEPK7QObjectRK9QQmlError@Qt_5 5.9.0~beta
  _ZN5QtQml9qmlEngineEPK7QObject@Qt_5 5.1.0
- (optional=templinst|arch=m68k mips powerpc powerpcspe)_ZN6QQmlJS10MemoryPool3NewIN5QmlIR28CompiledFunctionOrExpressionEEEPT_v@Qt_5_PRIVATE_API 5.9.1 1
+ (optional=templinst|arch=mips powerpc powerpcspe)_ZN6QQmlJS10MemoryPool3NewIN5QmlIR28CompiledFunctionOrExpressionEEEPT_v@Qt_5_PRIVATE_API 5.9.1 1
  _ZN6QQmlJS3AST10CaseClause7accept0EPNS0_7VisitorE@Qt_5 5.3.0
  _ZN6QQmlJS3AST10Expression7accept0EPNS0_7VisitorE@Qt_5 5.3.0
  _ZN6QQmlJS3AST11CaseClauses7accept0EPNS0_7VisitorE@Qt_5 5.3.0
