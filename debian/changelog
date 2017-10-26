@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.9.2-3) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Bump qtdeclarative-abi version to 5-9-2.
   * Update debian/libqt5qml5.symbols from buildds’ logs.
+  * Temporarily revert upstream commit that caused issues in some KDE apps.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Oct 2017 00:30:17 +0300
 
