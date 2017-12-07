@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 5.9.0~beta amd64
+# SymbolsHelper-Confirmed: 5.10.0 amd64 i386
 libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
 | libqt5quickwidgets5 #MINVER#, qtdeclarative-abi-5-9-2
  Qt_5.0@Qt_5.0 5.6.0~beta
+ Qt_5.10@Qt_5.10 5.10.0
  Qt_5.1@Qt_5.1 5.6.0~beta
  Qt_5.2@Qt_5.2 5.6.0~beta
  Qt_5.3@Qt_5.3 5.6.0~beta
