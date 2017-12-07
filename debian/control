@@ -26,7 +26,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdeclarative.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative.git
 
 Package: libqt5qml5
-Provides: qtdeclarative-abi-5-9-2
+Provides: qtdeclarative-abi-5-10-0
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}

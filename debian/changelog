@@ -10,6 +10,7 @@ qtdeclarative-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * New packages: qml-module-qtquick-shapes, qml-module-qt-labs-handlers.
   * Update symbols files from the current build logs.
+  * Bump qtdeclarative-abi version to 5-10-0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:37:42 +0300
 
