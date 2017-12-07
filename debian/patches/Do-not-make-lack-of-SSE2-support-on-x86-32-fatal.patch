@@ -27,7 +27,7 @@ Bug-Debian: https://bugs.debian.org/792594
 
 --- a/src/qml/jit/qv4isel_masm.cpp
 +++ b/src/qml/jit/qv4isel_masm.cpp
-@@ -72,6 +72,8 @@ InstructionSelection<JITAssembler>::Inst
+@@ -72,6 +72,8 @@
      , compilationUnit(new CompilationUnit)
      , qmlEngine(qmlEngine)
  {
@@ -46,7 +46,7 @@ Bug-Debian: https://bugs.debian.org/792594
  #include <config.h>
  #include <wtf/Vector.h>
  
-@@ -72,6 +73,23 @@ QT_BEGIN_NAMESPACE
+@@ -72,6 +73,23 @@
  namespace QV4 {
  namespace JIT {
  
@@ -72,7 +72,7 @@ Bug-Debian: https://bugs.debian.org/792594
          protected IR::IRDecoder,
 --- a/src/qml/jsruntime/qv4engine.cpp
 +++ b/src/qml/jsruntime/qv4engine.cpp
-@@ -159,6 +159,7 @@
+@@ -160,6 +160,7 @@
  
  #ifdef V4_ENABLE_JIT
          static const bool forceMoth = !qEnvironmentVariableIsEmpty("QV4_FORCE_INTERPRETER") ||
@@ -90,7 +90,7 @@ Bug-Debian: https://bugs.debian.org/792594
  
  #include <private/qv4value_p.h>
  #include <private/qv4dateobject_p.h>
-@@ -129,12 +128,6 @@ QV8Engine::QV8Engine(QJSEngine* qq)
+@@ -129,12 +128,6 @@
      , m_xmlHttpRequestData(0)
      , m_listModelData(0)
  {
@@ -105,7 +105,7 @@ Bug-Debian: https://bugs.debian.org/792594
      qMetaTypeId<QList<int> >();
 --- a/tools/qmljs/qmljs.cpp
 +++ b/tools/qmljs/qmljs.cpp
-@@ -92,11 +92,10 @@ int main(int argc, char *argv[])
+@@ -90,11 +90,10 @@
      enum {
          use_masm,
          use_moth
