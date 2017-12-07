@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Update debian/watch for the new tarball names.
   * Drop revert_singletons_change.diff, QTBUG-64017 was fixed upstream.
   * Bump Qt build-dependencies to 5.10.0.
+  * Use dh_auto_configure provided by debhelper.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:37:42 +0300
 
