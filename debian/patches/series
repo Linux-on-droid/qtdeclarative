@@ -5,4 +5,3 @@ disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
 Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch
 disable_jit_on_mips.patch
-revert_singletons_change.patch
