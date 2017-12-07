@@ -7,6 +7,7 @@ qtdeclarative-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.10.0.
   * Use dh_auto_configure provided by debhelper.
   * Refresh patches for the new release.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:37:42 +0300
 

@@ -3,7 +3,7 @@ Upstream-Name: qtdeclarative-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
 Files: debian/*
@@ -13,7 +13,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2016 Dmitry Shachnev <mitya57@debian.org>
+           2013-2017 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2+
 
 Files: *.qdoc
@@ -76,7 +76,7 @@ Files: examples/*
        tests/testapplications/listview/viewTransitions.qml
        tools/qml/conf/configuration.qml
        tools/qml/conf/qtquick.qml
-Copyright: 2015-2016 The Qt Company Ltd.
+Copyright: 2016-2017 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: examples/quick/demos/samegame/content/SamegameText.qml
@@ -345,9 +345,23 @@ Copyright: 2016 Rolland Dudemaine
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
-Files: src/qml/qml/qqmlimport.cpp
+Files: src/qml/jsruntime/qv4objectproto.cpp
+       src/qml/qml/qqmlimport.cpp
+       src/qmltest/quicktestresult.cpp
 Copyright: 2017 Crimson AS <info@crimson.no>
+           2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
+
+Files: examples/quick/shared/LauncherList.qml
+Copyright: 2017 Crimson AS <info@crimson.no>
+           2017 The Qt Company Ltd.
+License: BSD-3-clause
+
+Files: tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
+       tests/auto/qmltest/selftests/tst_grabImage.qml
+Copyright: 2017 Crimson AS <info@crimson.no>
+           2016 The Qt Company Ltd.
+License: GPL-3 with Qt-1.0 exception
 
 Files: src/3rdparty/masm/yarr/*
 Copyright: 2009-2013 Apple Inc.
@@ -364,16 +378,13 @@ Copyright: 1998 Netscape Communications Corporation
 License: MPL-1.1 and GPL-2+ and LGPL-2.1
 
 License: GFDL-NIV-1.3
- GNU Free Documentation License Usage
- Alternatively, this file may be used under the terms of the GNU Free
- Documentation License version 1.3 as published by the Free Software
- Foundation and appearing in the file included in the packaging of
- this file.  Please review the following information to ensure
- the GNU Free Documentation License version 1.3 requirements
- will be met: http://www.gnu.org/copyleft/fdl.html.
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.3
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
  .
- On Debian systems, the complete text of the GFDL-1.3 license can be found in
- `/usr/share/common-licenses/GFDL-1.3`,
+ On Debian systems, the complete text of the GNU Free Documentation
+ License version 1.3 can be found in /usr/share/common-licenses/GFDL-1.3.
 
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
