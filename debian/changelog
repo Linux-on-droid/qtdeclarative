@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Update debian/watch for the new tarball names.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:37:42 +0300
 
