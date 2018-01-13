@@ -1,5 +1,6 @@
-qtdeclarative-opensource-src (5.10.0-1) experimental; urgency=medium
+qtdeclarative-opensource-src (5.10.0-1) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/watch for the new tarball names.
   * Drop revert_singletons_change.diff, QTBUG-64017 was fixed upstream.
@@ -11,7 +12,7 @@ qtdeclarative-opensource-src (5.10.0-1) experimental; urgency=medium
   * Update symbols files from the current build logs.
   * Bump qtdeclarative-abi version to 5-10-0.
 
- -- Dmitry Shachnev <mitya57@debian.org>  Thu, 07 Dec 2017 22:37:10 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 07 Dec 2017 16:37:42 +0300
 
 qtdeclarative-opensource-src (5.9.2-3) unstable; urgency=medium
 
