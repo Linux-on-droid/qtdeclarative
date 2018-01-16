@@ -348,6 +348,11 @@ Files: src/3rdparty/masm/disassembler/mips32/Mips32Opcode.h
 Copyright: 2015 Cisco Systems, Inc.
 License: BSD-2-clause
 
+Files: src/3rdparty/masm/assembler/*
+Copyright: 2008-2013 Apple Inc.
+           2009-2010 University of Szeged
+License: BSD-2-clause
+
 Files: src/3rdparty/masm/assembler/MacroAssemblerMIPS.h
        src/3rdparty/masm/assembler/MIPSAssembler.h
 Copyright: 2008-2009 Apple Inc.
@@ -421,11 +426,6 @@ Copyright: 2009-2013 Apple Inc.
            2010 Peter Varga <pvarga@inf.u-szeged.hu>, University of Szeged
 License: BSD-2-clause
 
-Files: src/3rdparty/masm/assembler/*
-Copyright: 2008-2013 Apple Inc.
-           2009-2010 University of Szeged
-License: BSD-2-clause
-
 Files: tests/auto/qml/parserstress/tests/ecma*
 Copyright: 1998 Netscape Communications Corporation
 License: MPL-1.1 and GPL-2+ and LGPL-2.1
@@ -497,7 +497,7 @@ License: BSD-3-clause
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
 
-License: BSD-3-clause-Ecma:
+License: BSD-3-clause-Ecma
  The <<Software identified by reference to the Ecma Standard* ("Software)">>
  is protected by copyright and is being made available under the "BSD License",
  included below. This Software may be subject to third party rights (rights
