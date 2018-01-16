@@ -20,7 +20,7 @@ Build-Depends: debhelper (>= 10.9.2~),
                xvfb
 Build-Depends-Indep: qtbase5-doc-html (>= 5.10.0+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.10.0~) <!nodoc>
-Standards-Version: 4.1.1
+Standards-Version: 4.1.3
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdeclarative.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative.git
