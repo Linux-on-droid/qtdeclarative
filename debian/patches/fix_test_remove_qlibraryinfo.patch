@@ -14,7 +14,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +QMAKE_CXXFLAGS += -DTESTBINDIR=\\\"$$PWD/bin\\\"
 +QMAKE_CXXFLAGS += -DTESTEXAMPLEDIR=\\\"$$PWD/examples\\\"
 +
- MODULE_VERSION = 5.10.0
+ MODULE_VERSION = 5.10.1
 --- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 +++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 @@ -64,7 +64,7 @@
@@ -106,7 +106,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  }
 --- a/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
 +++ b/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
-@@ -307,7 +307,7 @@
+@@ -309,7 +309,7 @@
                                                                bool restrictServices)
  {
      // ### Still using qmlscene due to QTBUG-33377
@@ -128,7 +128,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
 +++ b/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
-@@ -74,7 +74,7 @@
+@@ -75,7 +75,7 @@
      QProcess proc;
      if (capturedStderr == nullptr)
          proc.setProcessChannelMode(QProcess::ForwardedChannels);
