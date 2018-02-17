@@ -22,8 +22,8 @@ Build-Depends-Indep: qtbase5-doc-html (>= 5.10.1+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.10.1~) <!nodoc>
 Standards-Version: 4.1.3
 Homepage: http://qt-project.org/
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtdeclarative.git
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-kde/qt/qtdeclarative.git
+Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative.git
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative
 
 Package: libqt5qml5
 Provides: qtdeclarative-abi-5-10-0
