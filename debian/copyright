@@ -3,7 +3,7 @@ Upstream-Name: qtdeclarative-opensource-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2016-2017 The Qt Company Ltd.
+Copyright: 2016-2018 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
 Files: debian/*
@@ -13,11 +13,11 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2017 Dmitry Shachnev <mitya57@debian.org>
+           2013-2018 Dmitry Shachnev <mitya57@debian.org>
 License: LGPL-3 or GPL-2+
 
 Files: *.qdoc
-Copyright: 2016 The Qt Company Ltd.
+Copyright: 2016-2018 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 Files: tests/*
@@ -28,55 +28,59 @@ License: GPL-3 with Qt-1.0 exception
 Files: examples/*
        src/qml/doc/snippets/*
        src/quick/doc/snippets/*
-       tests/auto/qml/ecmascripttests/test262.py
+       tests/auto/qml/qqmlecmascript/data/*
+       tests/auto/qml/qqmllanguage/data/*
        tests/auto/qmltest/animatedimage/tst_animatedimage.qml
        tests/auto/qmltest/animations/tst_abstractanimationjobcrash.qml
        tests/auto/qmltest/fontloader/tst_fontloader.qml
        tests/auto/qmltest/gradient/tst_gradient.qml
        tests/auto/qmltest/image/tst_image.qml
+       tests/auto/qmltest/layout/Container.qml
+       tests/auto/qmltest/layout/ContainerUser.qml
+       tests/auto/qmltest/layout/tst_layout.qml
        tests/auto/qmltest/listmodel/tst_listmodel.qml
-       tests/auto/qmltest/listview/data/asynclistviewloader.qml
-       tests/auto/qmltest/listview/data/asyncloadercurrentindex.qml
-       tests/auto/qmltest/listview/tst_listview.qml
+       tests/auto/qmltest/listview/*
        tests/auto/qmltest/objectmodel/tst_objectmodel.qml
+       tests/auto/qmltest/positioners/tst_positioners.qml
        tests/auto/qmltest/qtbug46798/tst_qtbug46798.qml
        tests/auto/qmltest/rectangle/tst_rectangle.qml
        tests/auto/qmltest/text/tst_text.qml
        tests/auto/qmltest/textedit/tst_textedit.qml
        tests/auto/qmltest/textedit/tst_textedit_editingfinished.qml
        tests/auto/qmltest/textinput/tst_textinput.qml
+       tests/auto/qmltest/url/tst_url.qml
        tests/auto/qmltest/window/tst_clickwindow.qml
        tests/auto/quick/qquickbehaviors/data/qtbug21549-2.qml
        tests/auto/quick/qquickgridview/data/attachedProperties.qml
-       tests/auto/quick/qquicklayouts/data/tst_gridlayout.qml
-       tests/auto/quick/qquicklayouts/data/tst_rowlayout.qml
+       tests/auto/quick/qquickgridview/data/qtbug49218.qml
+       tests/auto/quick/qquicklayouts/data/*
+       tests/auto/quick/qquicklistview/data/addoncompleted.qml
        tests/auto/quick/qquicklistview/data/attachedProperties.qml
+       tests/auto/quick/qquicklistview/data/flickBothDirections.qml
        tests/auto/quick/qquicklistview/data/outsideViewportChangeNotAffectingView.qml
+       tests/auto/quick/qquicklistview/data/qtbug61537_modelChangesAsync.qml
        tests/auto/quick/qquicklistview/data/roundingErrors.qml
        tests/auto/quick/qquicklistview/data/sizeTransitions.qml
        tests/auto/quick/qquicklistview/data/stickyPositioning-both.qml
        tests/auto/quick/qquicklistview/data/stickyPositioning-footer.qml
        tests/auto/quick/qquicklistview/data/stickyPositioning-header.qml
-       tests/auto/quick/qquickpathview/data/flickableDelegate.qml
-       tests/auto/quick/qquickpathview/data/nestedInFlickable.qml
-       tests/benchmarks/qml/holistic/data/largeTargets/gridview-example.qml
-       tests/benchmarks/qml/holistic/data/largeTargets/layoutdirection.qml
-       tests/benchmarks/qml/holistic/data/largeTargets/mousearea-example.qml
+       tests/auto/quick/qquickpathview/data/*
+       tests/auto/quick/qquickshadereffect/data/MyIcon.qml
+       tests/auto/quick/qquickshadereffect/data/twoImagesOneShaderEffect.qml
+       tests/benchmarks/qml/holistic/data/largeTargets/*
        tests/manual/highdpi/imageprovider.cpp
-       tests/manual/touch/flicktext.qml
-       tests/manual/touch/main.cpp
-       tests/manual/touch/main.qml
-       tests/manual/touch/mpta-crosshairs.qml
-       tests/testapplications/animatedsprite/animatedsprite.qml
-       tests/testapplications/animatedsprite/animatedspriteadvance.qml
-       tests/testapplications/listview/alteredViews.qml
-       tests/testapplications/listview/onRemove.qml
-       tests/testapplications/listview/sections.qml
-       tests/testapplications/listview/sticky.qml
-       tests/testapplications/listview/viewTransitions.qml
+       tests/manual/nodetypes/*
+       tests/manual/pointer/content/MouseFeedbackSprite.qml
+       tests/manual/pointer/content/TouchpointFeedbackSprite.qml
+       tests/manual/qmltypememory/TestPlugin/plugin.cpp
+       tests/manual/shapestest/shapestest.qml
+       tests/manual/text/*
+       tests/manual/touch/*
+       tests/testapplications/animatedsprite/*
+       tests/testapplications/listview/*
        tools/qml/conf/configuration.qml
        tools/qml/conf/qtquick.qml
-Copyright: 2016-2017 The Qt Company Ltd.
+Copyright: 2016-2018 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/qml/ecmascripttests/test262/*
