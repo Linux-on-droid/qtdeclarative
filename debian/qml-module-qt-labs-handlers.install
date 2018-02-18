@@ -1,2 +1,3 @@
 usr/lib/*/qt5/qml/Qt/labs/handlers/libhandlersplugin.so
+usr/lib/*/qt5/qml/Qt/labs/handlers/plugins.qmltypes
 usr/lib/*/qt5/qml/Qt/labs/handlers/qmldir
