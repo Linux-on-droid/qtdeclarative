@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.10.0 amd64 i386 m68k powerpc ppc64 s390x sh4 sparc64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-10-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -2259,7 +2259,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN5QtQml8qmlDebugEPK7QObjectRK5QListI9QQmlErrorE@Qt_5 5.9.0~beta
  _ZN5QtQml8qmlDebugEPK7QObjectRK9QQmlError@Qt_5 5.9.0~beta
  _ZN5QtQml9qmlEngineEPK7QObject@Qt_5 5.1.0
- (optional=templinst|arch=mips powerpc powerpcspe)_ZN6QQmlJS10MemoryPool3NewIN5QmlIR28CompiledFunctionOrExpressionEEEPT_v@Qt_5_PRIVATE_API 5.9.1 1
+ (optional=templinst|arch=m68k mips powerpc powerpcspe ppc64 s390x sparc64)_ZN6QQmlJS10MemoryPool3NewIN5QmlIR28CompiledFunctionOrExpressionEEEPT_v@Qt_5_PRIVATE_API 5.9.1 1
  _ZN6QQmlJS3AST10CaseClause7accept0EPNS0_7VisitorE@Qt_5 5.3.0
  _ZN6QQmlJS3AST10Expression7accept0EPNS0_7VisitorE@Qt_5 5.3.0
  _ZN6QQmlJS3AST11CaseClauses7accept0EPNS0_7VisitorE@Qt_5 5.3.0
@@ -3264,10 +3264,11 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK9QQmlTimer8intervalEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK9QQmlTimer9isRunningEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK9QV8Engine12illegalNamesEv@Qt_5_PRIVATE_API 5.0.2 1
- (optional=templinst|subst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 m68k mips mips64el powerpc powerpcspe ppc64 ppc64el s390x sh4 sparc64 x32)_ZNKSt6vectorIbSaIbEE2atE{size_t}@Qt_5 5.5.0
+ (optional=templinst|subst|arch=alpha amd64 arm64 armel armhf hppa kfreebsd-amd64 m68k mips mips64el powerpc powerpcspe ppc64 ppc64el s390x sparc64 x32)_ZNKSt6vectorIbSaIbEE2atE{size_t}@Qt_5 5.5.0
  (optional=templinst)_ZNSt13_Bvector_baseISaIbEE13_M_deallocateEv@Qt_5 5.4.2
  (optional=templinst)_ZNSt6vectorI11QModelIndexSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI11QModelIndexSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
+ (optional=templinst|arch=powerpc)_ZNSt6vectorI11QModelIndexSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst|subst)_ZNSt6vectorI11QModelIndexSaIS0_EE7reserveE{size_t}@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
