@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.10.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Refresh patches for the new release.
   * Bump Qt build-dependencies to 5.10.1.
@@ -10,7 +9,7 @@ qtdeclarative-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Update debian/copyright.
   * Bump qtdeclarative-abi version to 5-10-1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Feb 2018 23:35:35 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 20 Feb 2018 01:10:02 +0300
 
 qtdeclarative-opensource-src (5.10.0-1) experimental; urgency=medium
 
