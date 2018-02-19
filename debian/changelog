@@ -8,6 +8,7 @@ qtdeclarative-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Update symbols files with 5.10.0 and current build logs.
   * Install plugins.qmltypes in qml-module-qt-labs-handlers.install.
   * Update debian/copyright.
+  * Bump qtdeclarative-abi version to 5-10-1.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Feb 2018 23:35:35 +0300
 
