@@ -5,7 +5,7 @@ qtdeclarative-opensource-src (5.10.1-1) UNRELEASED; urgency=medium
   * Refresh patches for the new release.
   * Bump Qt build-dependencies to 5.10.1.
   * Update Vcs fields for migration to salsa.debian.org.
-  * Update symbols files with 5.10.0 build logs.
+  * Update symbols files with 5.10.0 and current build logs.
   * Install plugins.qmltypes in qml-module-qt-labs-handlers.install.
   * Update debian/copyright.
 
