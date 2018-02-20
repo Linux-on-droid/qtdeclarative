@@ -1,5 +1,8 @@
 qtdeclarative-opensource-src (5.10.1-2) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Make qml-module-qttest depend on qml-module-qtquick-window2,
+    following upstream changes in Qt 5.10.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 20 Feb 2018 16:34:01 +0300
 
