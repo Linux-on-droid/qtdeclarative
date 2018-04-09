@@ -1,0 +1,44 @@
+Description: Avoid marking hidden windows as updatePending in Gui render loop
+ Since eeb320bbd8763f3e72f79369cc3908e999a0da3c the GL context only
+ deletes textures when all windows with pending updates have finished
+ rendering.
+ .
+ renderWindow will not process any window that is not visible. This
+ leaves a logic bug that we can have the updatePending flag set but
+ never cleared.
+ .
+ If we have two windows, this leaves the other window still updating
+ normally, but lastDirtyWindow will always be false and we never call
+ endSync.
+ .
+ This results in an effective memory leak of all textures.
+ .
+ This patch resets the flag on hide() a move that can be considered safe
+ given the show() method will reset this flag anyway.
+Author: David Edmundson <davidedmundson@kde.org>
+Bug: https://codereview.qt-project.org/#/c/224684/
+Bug-KDE: https://bugs.kde.org/show_bug.cgi?id=368838
+Bug-Ubuntu: https://bugs.launchpad.net/bugs/1761016
+Applied-Upstream: commit:839f09c
+Last-Update: 2018-04-09
+--- a/src/quick/scenegraph/qsgrenderloop.cpp
++++ b/src/quick/scenegraph/qsgrenderloop.cpp
+@@ -305,6 +305,8 @@ void QSGGuiThreadRenderLoop::hide(QQuick
+ {
+     QQuickWindowPrivate *cd = QQuickWindowPrivate::get(window);
+     cd->fireAboutToStop();
++    if (m_windows.contains(window))
++        m_windows[window].updatePending = false;
+ }
+ 
+ void QSGGuiThreadRenderLoop::windowDestroyed(QQuickWindow *window)
+@@ -494,7 +496,8 @@ QImage QSGGuiThreadRenderLoop::grab(QQui
+ 
+ void QSGGuiThreadRenderLoop::maybeUpdate(QQuickWindow *window)
+ {
+-    if (!m_windows.contains(window))
++    QQuickWindowPrivate *cd = QQuickWindowPrivate::get(window);
++    if (!cd->isRenderable() || !m_windows.contains(window))
+         return;
+ 
+     m_windows[window].updatePending = true;
