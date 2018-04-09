@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.10.1-4) UNRELEASED; urgency=high
     - avoid-marking-hidden-windows-updatePending.patch
   * Bump Standards-version to 4.1.4, no changes needed.
   * Bump debhelper compat to 11, no changes needed.
+  * Add hardening rules in debian/rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Apr 2018 17:40:04 -0500
 
