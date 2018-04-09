@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.10.1-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.10.1-4) UNRELEASED; urgency=high
 
   [ Simon Quigley ]
   * Avoid marking hidden windows as updatePending in Gui render loop
