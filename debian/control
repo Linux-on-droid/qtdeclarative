@@ -8,7 +8,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>,
            Simon Quigley <tsimonq2@ubuntu.com>
-Build-Depends: debhelper (>= 10.9.2~),
+Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.17.14),
                libgl1-mesa-dri,
                libqt5opengl5-dev (>= 5.10.1+dfsg~),
