@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.10.1-4) UNRELEASED; urgency=high
   * Avoid marking hidden windows as updatePending in Gui render loop
     (LP: #1761016).
     - avoid-marking-hidden-windows-updatePending.patch
+  * Bump Standards-version to 4.1.4, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Apr 2018 17:40:04 -0500
 
