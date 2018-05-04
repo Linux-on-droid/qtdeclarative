@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.10.1-5) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 May 2018 21:36:19 +0300
+
 qtdeclarative-opensource-src (5.10.1-4) unstable; urgency=high
 
   * Avoid marking hidden windows as updatePending in Gui render loop
