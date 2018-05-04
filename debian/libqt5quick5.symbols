@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.1 amd64
+# SymbolsHelper-Confirmed: 5.10.1 amd64 hurd-i386 kfreebsd-i386 riscv64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-10-1
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -3253,7 +3253,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN36QQuickDesignerSupportPropertyChanges15detachFromStateEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16changeExpressionEP7QObjectRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16isNormalPropertyERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=alpha mips64el sparc64)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
+ (optional=templinst|arch=alpha mips64el riscv64 sparc64)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -3475,7 +3475,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK11QSGMaterial7compareEPKS_@Qt_5 5.0.2
  _ZNK11QSGRenderer10isMirroredEv@Qt_5_PRIVATE_API 5.4.0 1
  _ZNK11QSGRenderer11nodeUpdaterEv@Qt_5_PRIVATE_API 5.0.2 1
- (arch=arm64 i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.0
+ (arch=arm64 hurd-i386 i386 kfreebsd-i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
  _ZNK12QQuickPixmap11requestSizeEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK12QQuickPixmap12implicitSizeEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK12QQuickPixmap13autoTransformEv@Qt_5_PRIVATE_API 5.5.0 1
