@@ -179,6 +179,7 @@ usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfig.cmake
 usr/lib/*/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake
+usr/lib/*/cmake/Qt5QuickCompiler/Qt5QuickCompilerConfig.cmake
 usr/lib/*/cmake/Qt5QuickTest/Qt5QuickTestConfig.cmake
 usr/lib/*/cmake/Qt5QuickTest/Qt5QuickTestConfigVersion.cmake
 usr/lib/*/cmake/Qt5QuickWidgets/Qt5QuickWidgetsConfig.cmake
@@ -204,6 +205,7 @@ usr/lib/*/pkgconfig/Qt5Quick.pc
 usr/lib/*/pkgconfig/Qt5QuickTest.pc
 usr/lib/*/pkgconfig/Qt5QuickWidgets.pc
 usr/lib/*/qt5/mkspecs/features/qmlcache.prf
+usr/lib/*/qt5/mkspecs/features/qtquickcompiler.prf
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qml.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qmltest.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_quick.pri
