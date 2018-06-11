@@ -273,6 +273,7 @@ Depends: libqt5qml5 (= ${binary:Version}),
          libqt5quicktest5 (= ${binary:Version}),
          libqt5quickwidgets5 (= ${binary:Version}),
          qt5-qmltooling-plugins,
+         qtdeclarative5-dev-tools,
          qtbase5-dev,
          ${misc:Depends}
 Description: Qt 5 declarative development files
