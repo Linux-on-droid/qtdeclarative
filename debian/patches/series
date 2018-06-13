@@ -1,8 +1,7 @@
 # Backported patches
-avoid-marking-hidden-windows-updatePending.patch
 
 # Debian patches
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
-Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch
-disable_jit_on_mips.patch
+# Needs a rework, see https://bugs.debian.org/792594 for details
+#Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch

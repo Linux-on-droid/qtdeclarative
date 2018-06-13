@@ -7,7 +7,7 @@ Last-Update: 2017-04-24
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
-@@ -11,7 +11,6 @@
+@@ -11,7 +11,6 @@ SUBDIRS=\
  
  qtHaveModule(gui):qtConfig(opengl(es1|es2)?) {
      SUBDIRS += particles
@@ -17,7 +17,7 @@ Last-Update: 2017-04-24
  
 --- a/tests/auto/qml/debugger/debugger.pro
 +++ b/tests/auto/qml/debugger/debugger.pro
-@@ -5,7 +5,6 @@
+@@ -5,7 +5,6 @@ PUBLICTESTS += \
      qqmlenginedebugservice \
      qqmldebugjs \
      qqmlinspector \
@@ -27,7 +27,7 @@ Last-Update: 2017-04-24
      qqmlenginecontrol \
 --- a/tests/auto/qml/qml.pro
 +++ b/tests/auto/qml/qml.pro
-@@ -25,7 +25,6 @@
+@@ -25,7 +25,6 @@ PUBLICTESTS += \
      qqmlmoduleplugin \
      qqmlnotifier \
      qqmlqt \
@@ -35,8 +35,8 @@ Last-Update: 2017-04-24
      qtqmlmodules \
      qquickfolderlistmodel \
      qqmlapplicationengine \
-@@ -90,10 +89,6 @@
-     SUBDIRS += qmllint qmlplugindump
+@@ -90,10 +89,6 @@ qtConfig(process) {
+     }
  }
  
 -qtConfig(library) {
@@ -48,7 +48,7 @@ Last-Update: 2017-04-24
  
 --- a/tests/auto/quick/quick.pro
 +++ b/tests/auto/quick/quick.pro
-@@ -6,9 +6,7 @@
+@@ -6,9 +6,7 @@ PUBLICTESTS += \
  
  qtConfig(opengl(es1|es2)?) {
      PUBLICTESTS += \

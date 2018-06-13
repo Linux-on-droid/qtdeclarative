@@ -8,6 +8,11 @@ qtdeclarative-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump build dependencies to 5.11.0.
   * Add my name to the copyright for the packaging.
+  * Refresh patches for the new release:
+    - Remove reverse-applicable patches (or patches otherwise unneeded anymore):
+      + avoid-marking-hidden-windows-updatePending.patch
+      + disable_jit_on_mips.patch
+    - Refresh all other patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 May 2018 21:36:19 +0300
 
