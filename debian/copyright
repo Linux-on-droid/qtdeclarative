@@ -14,6 +14,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
            2013-2018 Dmitry Shachnev <mitya57@debian.org>
+           2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-3 or GPL-2+
 
 Files: *.qdoc

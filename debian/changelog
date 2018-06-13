@@ -7,6 +7,7 @@ qtdeclarative-opensource-src (5.11.0-1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * New upstream release.
   * Bump build dependencies to 5.11.0.
+  * Add my name to the copyright for the packaging.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 04 May 2018 21:36:19 +0300
 
