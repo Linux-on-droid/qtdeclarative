@@ -1,0 +1,206 @@
+Description: Make sure that tests run with just compiled versions of tools
+Author: Sandro Knauß <bugs@sandroknauss.de>
+Origin: Debian
+Last-Update: 2018-06-15
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+
+--- a/.qmake.conf
++++ b/.qmake.conf
+@@ -1,4 +1,7 @@
+ load(qt_build_config)
+ CONFIG += warning_clean
+ 
++QMAKE_CXXFLAGS += -DTESTBINDIR=\\\"$$PWD/bin\\\"
++QMAKE_CXXFLAGS += -DTESTEXAMPLEDIR=\\\"$$PWD/examples\\\"
++
+ MODULE_VERSION = 5.11.0
+--- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
++++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
+@@ -64,7 +64,7 @@ tst_qmlmin::tst_qmlmin()
+ 
+ void tst_qmlmin::initTestCase()
+ {
+-    qmlminPath = QLibraryInfo::location(QLibraryInfo::BinariesPath) + QLatin1String("/qmlmin");
++    qmlminPath = QStringLiteral(TESTBINDIR "/qmlmin");
+ #ifdef Q_OS_WIN
+     qmlminPath += QLatin1String(".exe");
+ #endif
+--- a/tests/auto/qml/debugger/qdebugmessageservice/tst_qdebugmessageservice.cpp
++++ b/tests/auto/qml/debugger/qdebugmessageservice/tst_qdebugmessageservice.cpp
+@@ -145,7 +145,7 @@ QList<QQmlDebugClient *> tst_QDebugMessa
+ 
+ void tst_QDebugMessageService::retrieveDebugOutput()
+ {
+-    QCOMPARE(QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
++    QCOMPARE(QQmlDebugTest::connect(TESTBINDIR "/qml",
+                                     QString(), testFile(QMLFILE), true), ConnectSuccess);
+ 
+     QTRY_VERIFY(m_client->logBuffer.size() >= 2);
+--- a/tests/auto/qml/debugger/qqmldebuggingenabler/qqmldebuggingenabler/tst_qqmldebuggingenabler.cpp
++++ b/tests/auto/qml/debugger/qqmldebuggingenabler/qqmldebuggingenabler/tst_qqmldebuggingenabler.cpp
+@@ -102,8 +102,7 @@ void tst_QQmlDebuggingEnabler::qmlscene(
+     QFETCH(bool, blockMode);
+     QFETCH(QStringList, services);
+ 
+-    m_process = new QQmlDebugProcess(
+-                QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene", this);
++    m_process = new QQmlDebugProcess(TESTBINDIR "/qmlscene", this);
+     m_process->setMaximumBindErrors(1);
+     m_process->start(QStringList()
+                      << QString::fromLatin1("-qmljsdebugger=connector:%1%2%3%4")
+--- a/tests/auto/qml/debugger/qqmldebugservice/tst_qqmldebugservice.cpp
++++ b/tests/auto/qml/debugger/qqmldebugservice/tst_qqmldebugservice.cpp
+@@ -108,8 +108,7 @@ void tst_QQmlDebugService::checkPortRang
+ {
+     QScopedPointer<QQmlDebugConnection> connection1(new QQmlDebugConnection());
+     QScopedPointer<QQmlDebugProcess> process1(
+-                new QQmlDebugProcess(QLibraryInfo::location(QLibraryInfo::BinariesPath)
+-                                     + "/qmlscene", this));
++                new QQmlDebugProcess(TESTBINDIR "/qmlscene", this));
+ 
+     process1->start(QStringList() << QLatin1String("-qmljsdebugger=port:3782,3792")
+                                   << testFile("test.qml"));
+@@ -125,8 +124,7 @@ void tst_QQmlDebugService::checkPortRang
+     // Second instance
+     QScopedPointer<QQmlDebugConnection> connection2(new QQmlDebugConnection());
+     QScopedPointer<QQmlDebugProcess> process2(
+-                new QQmlDebugProcess(QLibraryInfo::location(QLibraryInfo::BinariesPath)
+-                                     + "/qmlscene", this));
++                new QQmlDebugProcess(TESTBINDIR "/qmlscene", this));
+ 
+     process2->start(QStringList() << QLatin1String("-qmljsdebugger=port:3782,3792")
+                                   << testFile("test.qml"));
+--- a/tests/auto/qml/debugger/qqmlenginecontrol/tst_qqmlenginecontrol.cpp
++++ b/tests/auto/qml/debugger/qqmlenginecontrol/tst_qqmlenginecontrol.cpp
+@@ -82,7 +82,7 @@ private slots:
+ QQmlDebugTest::ConnectResult tst_QQmlEngineControl::connect(const QString &file,
+                                                             bool restrictServices)
+ {
+-    return QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene",
++    return QQmlDebugTest::connect(TESTBINDIR "/qmlscene",
+                                   restrictServices ? QStringLiteral("EngineControl") : QString(),
+                                   testFile(file), true);
+ }
+--- a/tests/auto/qml/debugger/qqmlinspector/tst_qqmlinspector.cpp
++++ b/tests/auto/qml/debugger/qqmlinspector/tst_qqmlinspector.cpp
+@@ -64,7 +64,7 @@ private slots:
+ QQmlDebugTest::ConnectResult tst_QQmlInspector::startQmlProcess(const QString &qmlFile,
+                                                                 bool restrictServices)
+ {
+-    return QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
++    return QQmlDebugTest::connect(TESTBINDIR "/qml",
+                                   restrictServices ? QStringLiteral("QmlInspector") : QString(),
+                                   testFile(qmlFile), true);
+ }
+--- a/tests/auto/qml/debugger/qqmlenginedebuginspectorintegrationtest/tst_qqmlenginedebuginspectorintegration.cpp
++++ b/tests/auto/qml/debugger/qqmlenginedebuginspectorintegrationtest/tst_qqmlenginedebuginspectorintegration.cpp
+@@ -88,7 +88,7 @@ QmlDebugObjectReference tst_QQmlEngineDe
+ QQmlDebugTest::ConnectResult tst_QQmlEngineDebugInspectorIntegration::init(bool restrictServices)
+ {
+     return QQmlDebugTest::connect(
+-                QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
++                TESTBINDIR "/qml",
+                 restrictServices ? QStringLiteral("QmlDebugger,QmlInspector") : QString(),
+                 testFile("qtquick2.qml"), true);
+ }
+--- a/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
++++ b/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
+@@ -246,7 +246,7 @@ QQmlDebugTest::ConnectResult tst_QQmlPro
+ 
+     // ### Still using qmlscene due to QTBUG-33377
+     return QQmlDebugTest::connect(
+-                QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene",
++                TESTBINDIR "/qmlscene",
+                 restrictServices ? QQmlDebuggingEnabler::profilerServices().join(',') : QString(),
+                 testFile(file), block);
+ }
+--- a/tests/auto/qml/ecmascripttests/tst_ecmascripttests.cpp
++++ b/tests/auto/qml/ecmascripttests/tst_ecmascripttests.cpp
+@@ -56,7 +56,7 @@ void tst_EcmaScriptTests::runTests(bool
+     process.setWorkingDirectory(QLatin1String(SRCDIR));
+     process.setProgram("python");
+     process.setProcessEnvironment(env);
+-    process.setArguments(QStringList() << "test262.py" << "--command=" + QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmljs" << "--parallel" << "--with-test-expectations");
++    process.setArguments(QStringList() << "test262.py" << "--command=" TESTBINDIR "/qmljs" << "--parallel" << "--with-test-expectations");
+ 
+     qDebug() << "Going to run" << process.program() << process.arguments() << "in" << process.workingDirectory();
+ 
+--- a/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
++++ b/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
+@@ -83,7 +83,7 @@ static bool generateCache(const QString
+     QProcess proc;
+     if (capturedStderr == nullptr)
+         proc.setProcessChannelMode(QProcess::ForwardedChannels);
+-    proc.setProgram(QLibraryInfo::location(QLibraryInfo::BinariesPath) + QDir::separator() + QLatin1String("qmlcachegen"));
++    proc.setProgram(TESTBINDIR "/qmlcachegen");
+     proc.setArguments(QStringList() << qmlFileName);
+     proc.start();
+     if (!proc.waitForFinished())
+--- a/tests/auto/qml/qmllint/main.cpp
++++ b/tests/auto/qml/qmllint/main.cpp
+@@ -44,7 +44,7 @@ private:
+ 
+ void TestQmllint::initTestCase()
+ {
+-    m_qmllintPath = QLibraryInfo::location(QLibraryInfo::BinariesPath) + QLatin1String("/qmllint");
++    m_qmllintPath = QLatin1String(TESTBINDIR "/qmllint");
+ #ifdef Q_OS_WIN
+     m_qmllintPath += QLatin1String(".exe");
+ #endif
+--- a/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
++++ b/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
+@@ -57,7 +57,7 @@ tst_qmlplugindump::tst_qmlplugindump()
+ void tst_qmlplugindump::initTestCase()
+ {
+     QQmlDataTest::initTestCase();
+-    qmlplugindumpPath = QLibraryInfo::location(QLibraryInfo::BinariesPath);
++    qmlplugindumpPath = QLatin1String(TESTBINDIR);
+ 
+ #if defined(Q_OS_WIN)
+     qmlplugindumpPath += QLatin1String("/qmlplugindump.exe");
+--- a/tests/auto/quick/examples/tst_examples.cpp
++++ b/tests/auto/quick/examples/tst_examples.cpp
+@@ -177,8 +177,8 @@ void tst_examples::namingConvention(cons
+ void tst_examples::namingConvention()
+ {
+     QStringList examplesLocations;
+-    examplesLocations << QLibraryInfo::location(QLibraryInfo::ExamplesPath) + QLatin1String("/qml");
+-    examplesLocations << QLibraryInfo::location(QLibraryInfo::ExamplesPath) + QLatin1String("/quick");
++    examplesLocations << QLatin1String(TESTEXAMPLEDIR "/qml");
++    examplesLocations << QLatin1String(TESTEXAMPLEDIR "/quick");
+ 
+     foreach(const QString &examples, examplesLocations) {
+         QDir d(examples);
+--- a/tests/auto/qml/debugger/qqmldebugjs/qqmldebugjs/tst_qqmldebugjs.cpp
++++ b/tests/auto/qml/debugger/qqmldebugjs/qqmldebugjs/tst_qqmldebugjs.cpp
+@@ -764,7 +764,7 @@ QQmlDebugTest::ConnectResult tst_QQmlDeb
+                                                    bool blockMode, bool restrictServices)
+ {
+     const QString executable = qmlscene
+-            ? QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene"
++            ? TESTBINDIR "/qmlscene"
+             : QCoreApplication::applicationDirPath() + QLatin1String("/qqmldebugjsserver");
+     return QQmlDebugTest::connect(
+                 executable, restrictServices ? QStringLiteral("V8Debugger") : QString(),
+@@ -1385,8 +1385,7 @@ void tst_QQmlDebugJS::evaluateInLocalSco
+ void tst_QQmlDebugJS::evaluateInContext()
+ {
+     m_connection = new QQmlDebugConnection();
+-    m_process = new QQmlDebugProcess(QLibraryInfo::location(QLibraryInfo::BinariesPath)
+-                                   + "/qmlscene", this);
++    m_process = new QQmlDebugProcess(TESTBINDIR "/qmlscene", this);
+     m_client = new QJSDebugClient(m_connection);
+     QScopedPointer<QQmlEngineDebugClient> engineClient(new QQmlEngineDebugClient(m_connection));
+     m_process->start(QStringList() << QLatin1String(BLOCKMODE) << testFile(ONCOMPLETED_QMLFILE));
+--- a/tests/auto/qml/qv4assembler/tst_qv4assembler.cpp
++++ b/tests/auto/qml/qv4assembler/tst_qv4assembler.cpp
+@@ -43,7 +43,7 @@ void tst_QV4Assembler::perfMapFile()
+ #if !defined(Q_OS_LINUX)
+     QSKIP("perf map files are only generated on linux");
+ #else
+-    const QString qmljs = QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmljs";
++    const QString qmljs = QStringLiteral(TESTBINDIR "/qmljs");
+     QProcess process;
+ 
+     QTemporaryFile infile;

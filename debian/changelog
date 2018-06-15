@@ -3,6 +3,9 @@ qtdeclarative-opensource-src (5.11.0-2) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * Update symbols from buildds' logs.
 
+  [ Dmitry Shachnev ]
+  * Restore fix_test_remove_qlibraryinfo.patch, it is still needed.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 Jun 2018 14:29:39 -0500
 
 qtdeclarative-opensource-src (5.11.0-1) experimental; urgency=medium
