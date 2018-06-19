@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.11.1-1) UNRELEASED; urgency=medium
   [ Simon Quigley ]
   * New upstream release.
   * Bump build dependencies to 5.11.1.
+  * Upstream testcase_array_iteration.patch from Ubuntu.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 19 Jun 2018 15:23:55 -0500
 

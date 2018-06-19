@@ -5,3 +5,4 @@ disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
 # Needs a rework, see https://bugs.debian.org/792594 for details
 #Do-not-make-lack-of-SSE2-support-on-x86-32-fatal.patch
+testcase_array_iteration.patch
