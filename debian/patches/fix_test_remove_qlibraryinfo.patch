@@ -14,7 +14,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +QMAKE_CXXFLAGS += -DTESTBINDIR=\\\"$$PWD/bin\\\"
 +QMAKE_CXXFLAGS += -DTESTEXAMPLEDIR=\\\"$$PWD/examples\\\"
 +
- MODULE_VERSION = 5.11.0
+ MODULE_VERSION = 5.11.1
 --- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 +++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 @@ -64,7 +64,7 @@ tst_qmlmin::tst_qmlmin()
@@ -106,13 +106,13 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  }
 --- a/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
 +++ b/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
-@@ -246,7 +246,7 @@ QQmlDebugTest::ConnectResult tst_QQmlPro
+@@ -245,7 +245,7 @@ QQmlDebugTest::ConnectResult tst_QQmlPro
  
      // ### Still using qmlscene due to QTBUG-33377
      return QQmlDebugTest::connect(
 -                QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene",
 +                TESTBINDIR "/qmlscene",
-                 restrictServices ? QQmlDebuggingEnabler::profilerServices().join(',') : QString(),
+                 restrictServices ? "CanvasFrameRate,EngineControl,DebugMessages" : QString(),
                  testFile(file), block);
  }
 --- a/tests/auto/qml/ecmascripttests/tst_ecmascripttests.cpp
@@ -128,7 +128,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
 +++ b/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
-@@ -83,7 +83,7 @@ static bool generateCache(const QString
+@@ -87,7 +87,7 @@ static bool generateCache(const QString
      QProcess proc;
      if (capturedStderr == nullptr)
          proc.setProcessChannelMode(QProcess::ForwardedChannels);
@@ -174,7 +174,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
          QDir d(examples);
 --- a/tests/auto/qml/debugger/qqmldebugjs/qqmldebugjs/tst_qqmldebugjs.cpp
 +++ b/tests/auto/qml/debugger/qqmldebugjs/qqmldebugjs/tst_qqmldebugjs.cpp
-@@ -764,7 +764,7 @@ QQmlDebugTest::ConnectResult tst_QQmlDeb
+@@ -767,7 +767,7 @@ QQmlDebugTest::ConnectResult tst_QQmlDeb
                                                     bool blockMode, bool restrictServices)
  {
      const QString executable = qmlscene
@@ -183,7 +183,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
              : QCoreApplication::applicationDirPath() + QLatin1String("/qqmldebugjsserver");
      return QQmlDebugTest::connect(
                  executable, restrictServices ? QStringLiteral("V8Debugger") : QString(),
-@@ -1385,8 +1385,7 @@ void tst_QQmlDebugJS::evaluateInLocalSco
+@@ -1388,8 +1388,7 @@ void tst_QQmlDebugJS::evaluateInLocalSco
  void tst_QQmlDebugJS::evaluateInContext()
  {
      m_connection = new QQmlDebugConnection();

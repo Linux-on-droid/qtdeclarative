@@ -6,7 +6,7 @@ Last-Update: 2017-06-22
 
 --- a/src/imports/testlib/TestCase.qml
 +++ b/src/imports/testlib/TestCase.qml
-@@ -1759,7 +1759,7 @@ Item {
+@@ -1817,7 +1817,7 @@ Item {
              testList.sort()
          }
          var checkNames = (functionsToRun.length > 0)
@@ -15,7 +15,7 @@ Last-Update: 2017-06-22
              var prop = testList[index]
              var datafunc = prop + "_data"
              var isBenchmark = (prop.indexOf("benchmark_") == 0)
-@@ -1779,11 +1779,11 @@ Item {
+@@ -1837,11 +1837,11 @@ Item {
                      var table = qtest_testCaseResult
                      var haveData = false
                      qtest_results.initTestTable()
