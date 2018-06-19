@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64 arm64 armel armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.11.1 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-10-1
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -443,6 +443,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN14QQmlTypeLoader7setDataEP12QQmlDataBlobRKNS0_14SourceCodeDataE@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader9getQmldirERK4QUrl@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader9getScriptERK4QUrl@Qt_5_PRIVATE_API 5.9.2 1
+ _ZN14QQmlTypeLoader9normalizeERK4QUrl@Qt_5_PRIVATE_API 5.11.1
  _ZN14QQmlTypeLoader9trimCacheEv@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoaderC1EP10QQmlEngine@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoaderC2EP10QQmlEngine@Qt_5_PRIVATE_API 5.9.2 1
@@ -488,7 +489,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN15QQmlContextData27refreshExpressionsRecursiveEb@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQmlContextData7destroyEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQmlContextData9addObjectEP7QObject@Qt_5_PRIVATE_API 5.0.2 1
- _ZN15QQmlContextData9setParentEPS_@Qt_5_PRIVATE_API 5.9.2 1
+ _ZN15QQmlContextData9setParentEPS_b@Qt_5_PRIVATE_API 5.11.1
  _ZN15QQmlContextDataC1EP11QQmlContext@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQmlContextDataC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN15QQmlContextDataC2EP11QQmlContext@Qt_5_PRIVATE_API 5.0.2 1
@@ -1859,8 +1860,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN5QmlIR25ScriptDirectivesCollector10importFileERK7QStringS3_ii@Qt_5_PRIVATE_API 5.5.0 1
  _ZN5QmlIR25ScriptDirectivesCollector12importModuleERK7QStringS3_S3_ii@Qt_5_PRIVATE_API 5.5.0 1
  _ZN5QmlIR25ScriptDirectivesCollector13pragmaLibraryEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZN5QmlIR25ScriptDirectivesCollectorC1EPN6QQmlJS6EngineEPN3QV48Compiler15JSUnitGeneratorE@Qt_5_PRIVATE_API 5.5.0 1
- _ZN5QmlIR25ScriptDirectivesCollectorC2EPN6QQmlJS6EngineEPN3QV48Compiler15JSUnitGeneratorE@Qt_5_PRIVATE_API 5.5.0 1
+ _ZN5QmlIR25ScriptDirectivesCollectorC1EPNS_8DocumentE@Qt_5_PRIVATE_API 5.11.1
+ _ZN5QmlIR25ScriptDirectivesCollectorC2EPNS_8DocumentE@Qt_5_PRIVATE_API 5.11.1
  _ZN5QmlIR6Object10appendEnumEPNS_4EnumE@Qt_5_PRIVATE_API 5.10.0 1
  _ZN5QmlIR6Object11appendAliasEPNS_5AliasERK7QStringbRKN6QQmlJS3AST14SourceLocationEPS8_@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN5QmlIR6Object12appendSignalEPNS_6SignalE@Qt_5_PRIVATE_API 5.3.0 1
