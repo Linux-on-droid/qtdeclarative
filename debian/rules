@@ -30,9 +30,6 @@ override_dh_auto_install-arch:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
-	# Remove CMake files for plugins, we don't need them.
-	rm -fv debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/cmake/Qt5Qml/*Plugin.cmake
-
 	# Fix wrong permissions in examples.
 	find $(CURDIR)/debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/ -type f \( \
 	-name '*.png' \
@@ -71,4 +68,3 @@ override_dh_auto_test-arch:
 	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib XDG_RUNTIME_DIR=$(CURDIR)
 
 override_dh_auto_test-indep:
-
