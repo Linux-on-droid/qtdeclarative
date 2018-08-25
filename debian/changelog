@@ -1,11 +1,10 @@
-qtdeclarative-opensource-src (5.11.1-5) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.11.1-5) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files from buildds’ logs (closes: #906531, #907153).
   * Remove unneeded command from debian/rules.
   * Bump Standards-Version to 4.2.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 25 Aug 2018 14:56:09 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 25 Aug 2018 15:08:52 +0300
 
 qtdeclarative-opensource-src (5.11.1-4) unstable; urgency=medium
 
