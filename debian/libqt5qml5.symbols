@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390x sh4 sparc64
+# SymbolsHelper-Confirmed: 5.11.2 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-11-0
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -201,7 +201,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlMetaType21registerCompositeTypeERKN11QQmlPrivate21RegisterCompositeTypeE@Qt_5_PRIVATE_API 5.9.2 1
  _ZN12QQmlMetaType24attachedPropertiesFuncIdEP17QQmlEnginePrivatePK11QMetaObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN12QQmlMetaType24freeUnusedTypesAndCachesEv@Qt_5_PRIVATE_API 5.9.2 1
- _ZN12QQmlMetaType24typeRegistrationFailuresEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN12QQmlMetaType25findCachedCompilationUnitERK4QUrlPNS_21CachedUnitLookupErrorE@Qt_5_PRIVATE_API 5.11.0 1
  _ZN12QQmlMetaType26attachedPropertiesFuncByIdEP17QQmlEnginePrivatei@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN12QQmlMetaType28setTypeRegistrationNamespaceERK7QString@Qt_5_PRIVATE_API 5.0.2 1
@@ -2670,6 +2669,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK5QmlIR6Object15bindingAsStringEPNS_8DocumentEi@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK5QmlIR9IRBuilder14bindingsTargetEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZNK5QmlIR9IRBuilder9textRefAtERKN6QQmlJS3AST14SourceLocationES5_@Qt_5_PRIVATE_API 5.3.0 1
+ _ZNK6QQmlJS3AST26NumericLiteralPropertyName8asStringEv@Qt_5 5.11.2
  _ZNK6QQmlJS5Lexer12errorMessageEv@Qt_5 5.3.0
  _ZNK6QQmlJS5Lexer12tokenEndLineEv@Qt_5 5.3.0
  _ZNK6QQmlJS5Lexer14prevTerminatorEv@Qt_5 5.3.0
