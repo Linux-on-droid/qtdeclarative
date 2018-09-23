@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * Refresh fix_test_remove_qlibraryinfo.patch.
   * Update debian/libqt5qml5.symbols from the current build log.
   * Bump ABI version to qtdeclarative-abi-5-11-2.
+  * Bump Standards-Version to 4.2.1, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Sep 2018 12:21:44 +0300
 
