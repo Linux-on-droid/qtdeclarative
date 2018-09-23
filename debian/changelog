@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.11.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.11.2.
   * Refresh fix_test_remove_qlibraryinfo.patch.
@@ -8,7 +7,7 @@ qtdeclarative-opensource-src (5.11.2-1) UNRELEASED; urgency=medium
   * Bump ABI version to qtdeclarative-abi-5-11-2.
   * Bump Standards-Version to 4.2.1, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Sep 2018 12:21:44 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 23 Sep 2018 11:26:37 +0300
 
 qtdeclarative-opensource-src (5.11.1-5) unstable; urgency=medium
 
