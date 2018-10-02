@@ -9,6 +9,12 @@ qtdeclarative-opensource-src (5.11.2-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sun, 23 Sep 2018 11:26:37 +0300
 
+qtdeclarative-opensource-src (5.11.1-6) unstable; urgency=medium
+
+  * Backport upstream patch to fix unaligned memory access on ARM.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 02 Oct 2018 19:12:20 +0300
+
 qtdeclarative-opensource-src (5.11.1-5) unstable; urgency=medium
 
   * Update symbols files from buildds’ logs (closes: #906531, #907153).
