@@ -1,0 +1,26 @@
+Description: fix unaligned memory access on ARM
+ When decoding the bytecode, we must be careful to avoid that the
+ compiler generates aligned memory access instructions, because the
+ current byte code pointer may not be aligned at all.
+ .
+ When decoding integer parameters, the existing code would expland to
+ .
+     qFromLittleEndian(reinterpret_cast<const int>(code)[-nargs+offset])
+ .
+ which loads the integer from the array before passing it by value to
+ qFromLittleEndian.
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=d7b22cefde6cc0f3
+Bug: https://bugreports.qt.io/browse/QTBUG-69328
+Last-Update: 2018-10-02
+
+--- a/src/qml/compiler/qv4instr_moth_p.h
++++ b/src/qml/compiler/qv4instr_moth_p.h
+@@ -347,7 +347,7 @@ QT_BEGIN_NAMESPACE
+     nargs,
+ 
+ #define MOTH_DECODE_ARG(arg, type, nargs, offset) \
+-    arg = qFromLittleEndian<type>(reinterpret_cast<const type *>(code)[-nargs + offset]);
++    arg = qFromLittleEndian<type>(qFromUnaligned<type>(reinterpret_cast<const type *>(code) - nargs + offset));
+ #define MOTH_ADJUST_CODE(type, nargs) \
+     code += static_cast<quintptr>(nargs*sizeof(type) + 1)
+ 

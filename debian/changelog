@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.11.1-6) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to fix unaligned memory access on ARM.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Oct 2018 19:00:32 +0300
 
