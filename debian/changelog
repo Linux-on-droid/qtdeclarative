@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.11.1-6) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Oct 2018 19:00:32 +0300
+
 qtdeclarative-opensource-src (5.11.1-5) unstable; urgency=medium
 
   * Update symbols files from buildds’ logs (closes: #906531, #907153).
