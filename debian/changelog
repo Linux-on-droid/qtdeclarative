@@ -1,3 +1,9 @@
+qtdeclarative-opensource-src (5.11.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 15 Oct 2018 21:16:04 +0300
+
 qtdeclarative-opensource-src (5.11.2-1) experimental; urgency=medium
 
   * New upstream release.
