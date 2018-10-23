@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.1 amd64 hppa ia64 mips64el sparc64
+# SymbolsHelper-Confirmed: 5.11.2 mips64r6el
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-11-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -3296,7 +3296,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN36QQuickDesignerSupportPropertyChanges15detachFromStateEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16changeExpressionEP7QObjectRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16isNormalPropertyERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=alpha ia64 mips64el riscv64 sparc64)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
+ (optional=templinst|arch=alpha ia64 mips64el mips64r6el riscv64 sparc64)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Qt_5_PRIVATE_API 5.0.2 1
