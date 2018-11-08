@@ -14,7 +14,7 @@ Build-Depends: debhelper (>= 11),
                libqt5opengl5-dev (>= 5.11.2+dfsg~),
                libqt5xmlpatterns5-dev (>= 5.11.2~),
                pkg-kde-tools (>= 0.15.17~),
-               python,
+               python:any,
                qtbase5-private-dev (>= 5.11.2+dfsg~),
                xauth,
                xvfb
