@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.11.2-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.11.2-3) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update symbols files from mips64r6el build log (closes: #911601).
@@ -6,7 +6,7 @@ qtdeclarative-opensource-src (5.11.2-3) UNRELEASED; urgency=medium
   [ Helmut Grohne ]
   * Fix FTCBFS: Annotate Build-Depends: python with :any. (Closes: #913243)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Oct 2018 09:31:08 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 15 Nov 2018 12:53:51 +0300
 
 qtdeclarative-opensource-src (5.11.2-2) unstable; urgency=medium
 
