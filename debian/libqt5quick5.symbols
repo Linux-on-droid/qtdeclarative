@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.2 mips64r6el
+# SymbolsHelper-Confirmed: 5.11.3 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-11-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -1761,6 +1761,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN17QQuickItemPrivate27nextPrevItemInTabFocusChainEP10QQuickItemb@Qt_5_PRIVATE_API 5.1.0 1
  _ZN17QQuickItemPrivate27setTransparentForPositionerEb@Qt_5_PRIVATE_API 5.4.0 1
  _ZN17QQuickItemPrivate28deliverShortcutOverrideEventEP9QKeyEvent@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN17QQuickItemPrivate29updateOrAddItemChangeListenerEP24QQuickItemChangeListener6QFlagsINS_10ChangeTypeEE@Qt_5_PRIVATE_API 5.11.3 1
  _ZN17QQuickItemPrivate33updateOrAddGeometryChangeListenerEP24QQuickItemChangeListener20QQuickGeometryChange@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN17QQuickItemPrivate36updateOrRemoveGeometryChangeListenerEP24QQuickItemChangeListener20QQuickGeometryChange@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN17QQuickItemPrivate4dataEv@Qt_5_PRIVATE_API 5.0.2 1
