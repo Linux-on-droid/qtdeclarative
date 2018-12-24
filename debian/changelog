@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.11.3-2) UNRELEASED; urgency=medium
+
+  [ Simon Quigley ]
+  * Change my email to tsimonq2@debian.org now that I am a Debian Developer.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 24 Dec 2018 01:09:02 -0600
+
 qtdeclarative-opensource-src (5.11.3-1) experimental; urgency=medium
 
   * New upstream release.

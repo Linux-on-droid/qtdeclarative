@@ -7,7 +7,7 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>,
-           Simon Quigley <tsimonq2@ubuntu.com>
+           Simon Quigley <tsimonq2@debian.org>
 Build-Depends: debhelper (>= 11),
                dpkg-dev (>= 1.17.14),
                libgl1-mesa-dri,
