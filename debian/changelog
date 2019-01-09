@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.11.3-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Fix build failure on x32 by disabling JIT there (closes: #918545).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jan 2019 21:21:46 +0300
 
