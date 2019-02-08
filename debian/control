@@ -31,7 +31,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: libgl1-mesa-glx
+Recommends: libgl1, libglx-mesa0
 Suggests: qt5-qmltooling-plugins
 Description: Qt 5 QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
