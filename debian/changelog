@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.11.3-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.11.3-3) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Fix build failure on x32 by disabling JIT there (closes: #918545).
@@ -8,7 +8,7 @@ qtdeclarative-opensource-src (5.11.3-3) UNRELEASED; urgency=medium
     it by the packages it depends upon, namely libgl1 and libglx-mesa0
     (Closes: #921472). Thanks Gabriele Stilli for the bug report.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Jan 2019 21:21:46 +0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 07 Feb 2019 23:21:22 -0300
 
 qtdeclarative-opensource-src (5.11.3-2) unstable; urgency=medium
 
