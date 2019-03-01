@@ -1,0 +1,16 @@
+Description: fix crashes when loading AOT caches on big endian platforms
+Author: Alexander Volkov <a.volkov@rusbitech.ru>
+Origin: https://codereview.qt-project.org/254748
+Last-Update: 2019-03-01
+
+--- a/src/qml/compiler/qv4compileddata.cpp
++++ b/src/qml/compiler/qv4compileddata.cpp
+@@ -502,7 +502,7 @@ Unit *CompilationUnit::createUnitData(Qm
+ 
+             for (QQmlJS::AST::FormalParameterList *parameters = changedSignalParameters.at(i);
+                  parameters; parameters = parameters->next) {
+-                signalParameterNameTable.append(stringTable.getStringId(parameters->name.toString()));
++                signalParameterNameTable.append(qToLittleEndian<quint32>(stringTable.getStringId(parameters->name.toString())));
+                 function->nFormals = function->nFormals + 1;
+             }
+ 
