@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.11.3-4) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Add fix_crash_on_big_endian.patch to fix crash when loading AOT caches
     on big endian platforms. Thanks Alexander Volkov!
+  * Update debian/libqt5qml5.symbols from x32 build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Mar 2019 20:51:44 +0300
 
