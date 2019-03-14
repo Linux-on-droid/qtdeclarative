@@ -3,7 +3,7 @@ Description: Disable all tests that fails with xvfb
 Author: Sandro Knauß <bugs@sandroknauss.de>
 Origin: Debian
 Forwarded: not-needed - it is a limitation so far inside Debian
-Last-Update: 2017-04-24
+Last-Update: 2019-03-14
 
 --- a/tests/auto/auto.pro
 +++ b/tests/auto/auto.pro
@@ -17,7 +17,7 @@ Last-Update: 2017-04-24
  
 --- a/tests/auto/qml/debugger/debugger.pro
 +++ b/tests/auto/qml/debugger/debugger.pro
-@@ -5,7 +5,6 @@ PUBLICTESTS += \
+@@ -7,7 +7,6 @@ PUBLICTESTS += \
      qqmlenginedebugservice \
      qqmldebugjs \
      qqmlinspector \
@@ -32,10 +32,10 @@ Last-Update: 2017-04-24
      qqmlnotifier \
      qqmlqt \
 -    qqmlxmlhttprequest \
+     qqmlpromise \
      qtqmlmodules \
      qquickfolderlistmodel \
-     qqmlapplicationengine \
-@@ -90,10 +89,6 @@ qtConfig(process) {
+@@ -94,10 +93,6 @@ qtConfig(process) {
      }
  }
  

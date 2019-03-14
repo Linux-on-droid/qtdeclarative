@@ -2,22 +2,22 @@ Description: fix arrays iteration to work around QTBUG-61579
 Author: Dmitry Shachnev <mitya57@ubuntu.com>
 Bug: https://bugreports.qt.io/browse/QTBUG-61579
 Forwarded: no
-Last-Update: 2017-06-22
+Last-Update: 2019-03-14
 
 --- a/src/imports/testlib/TestCase.qml
 +++ b/src/imports/testlib/TestCase.qml
-@@ -1817,7 +1817,7 @@ Item {
+@@ -1842,7 +1842,7 @@ Item {
              testList.sort()
          }
-         var checkNames = (functionsToRun.length > 0)
+ 
 -        for (var index in testList) {
 +        for (var index = 0; index < testList.length; ++index) {
              var prop = testList[index]
-             var datafunc = prop + "_data"
-             var isBenchmark = (prop.indexOf("benchmark_") == 0)
-@@ -1837,11 +1837,11 @@ Item {
-                     var table = qtest_testCaseResult
-                     var haveData = false
+ 
+             if (checkNames && !(prop in testsToRun))
+@@ -1863,11 +1863,11 @@ Item {
+                     let checkTags = (checkNames && testsToRun[prop].length > 0)
+ 
                      qtest_results.initTestTable()
 -                    for (var index in table) {
 +                    for (var rowIndex in table) {
@@ -27,6 +27,6 @@ Last-Update: 2017-06-22
                          if (!row.tag)
 -                            row.tag = "row " + index    // Must have something
 +                            row.tag = "row " + rowIndex    // Must have something
-                         qtest_results.dataTag = row.tag
-                         if (isBenchmark)
-                             qtest_runBenchmarkFunction(prop, row)
+                         if (checkTags) {
+                             let tags = testsToRun[prop]
+                             let tagIdx = tags.indexOf(row.tag)
