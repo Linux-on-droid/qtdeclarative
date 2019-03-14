@@ -4,5 +4,3 @@
 disableopengltests.patch
 fix_test_remove_qlibraryinfo.patch
 testcase_array_iteration.patch
-x32_no_jit.patch
-fix_crash_on_big_endian.patch
