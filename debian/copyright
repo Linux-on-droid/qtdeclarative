@@ -88,10 +88,7 @@ Files: tests/auto/qml/ecmascripttests/test262/*
 Copyright: 2012 Ecma International
 License: BSD-3-clause-Ecma
 
-Files: examples/quick/demos/samegame/content/SamegameText.qml
-       examples/quick/demos/samegame/content/Settings.qml
-       examples/quick/demos/stocqt/content/CheckBox.qml
-       tests/auto/qml/qqmllanguage/data/singleton/RegisteredCompositeSingletonType.qml
+Files: tests/auto/qml/qqmllanguage/data/singleton/RegisteredCompositeSingletonType.qml
        tests/auto/qml/qqmllanguage/data/singleton/js/jspragma.js
        tests/auto/qml/qqmllanguage/data/singletonTest17.qml
        tests/manual/qmltypememory/TestPlugin/plugin.cpp
@@ -338,7 +335,6 @@ Files: src/3rdparty/masm/disassembler/*
        src/3rdparty/masm/jit/JITCompilationEffort.h
        src/3rdparty/masm/wtf/FilePrintStream.cpp
        src/3rdparty/masm/runtime/MatchResult.h
-       src/3rdparty/masm/create_regex_tables
 Copyright: 2012-2013 Apple Inc.
 License: BSD-2-clause
 
@@ -362,13 +358,6 @@ Files: src/3rdparty/masm/assembler/MacroAssemblerMIPS.h
        src/3rdparty/masm/assembler/MIPSAssembler.h
 Copyright: 2008-2009 Apple Inc.
            2010 MIPS Technologies, Inc.
-License: BSD-2-clause
-
-Files: src/3rdparty/masm/assembler/MacroAssemblerSH4.cpp
-       src/3rdparty/masm/assembler/MacroAssemblerSH4.h
-       src/3rdparty/masm/assembler/SH4Assembler.h
-Copyright: 2009-2011 STMicroelectronics
-           2008 Apple Inc.
 License: BSD-2-clause
 
 Files: src/3rdparty/masm/wtf/ASCIICType.h
@@ -427,17 +416,13 @@ Copyright: 2017 Crimson AS <info@crimson.no>
 License: GPL-3 with Qt-1.0 exception
 
 Files: src/3rdparty/masm/yarr/*
-Copyright: 2009-2013 Apple Inc.
+Copyright: 2009-2017 Apple Inc.
            2010 Peter Varga <pvarga@inf.u-szeged.hu>, University of Szeged
 License: BSD-2-clause
 
 Files: tests/auto/qml/parserstress/tests/ecma*
 Copyright: 1998 Netscape Communications Corporation
 License: MPL-1.1 and GPL-2+ and LGPL-2.1
-
-Files: examples/quick/demos/photosurface/resources/icon.png
-Copyright: 2006 Tony Hewison
-License: CC0
 
 Files: src/quick/doc/images/touchpoint-metrics.png
 Copyright: 2016 The Qt Company Ltd.
