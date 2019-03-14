@@ -11,6 +11,8 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.2.
   * Update Lintian source-is-missing overrides to cover more test files.
   * Remove outdated sections from debian/copyright.
+  * Remove qml-module-qt-labs-handlers package. Its code was merged into
+    the main Qt Quick module.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
 

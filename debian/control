@@ -202,18 +202,6 @@ Description: Qt 5 Qt Quick Shapes QML module
  The Shapes plugin allows adding stroked and filled paths composed of
  lines, quadratic curves, cubic curves, and arcs into Qt Quick scenes.
 
-Package: qml-module-qt-labs-handlers
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Qt.labs.handlers QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This module provides QML types for handling events from pointing
- devices in a UI.
-
 Package: qml-module-qt-labs-settings
 Architecture: any
 Multi-Arch: same
