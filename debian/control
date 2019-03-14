@@ -252,17 +252,6 @@ Description: Qt 5 window 2 QML module
  This QML module contains types for creating top-level windows and
  accessing screen information.
 
-Package: qml-module-qtquick-xmllistmodel
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 xmllistmodel QML module
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This QML module contains types for creating models from XML data.
-
 Package: qtdeclarative5-dev
 Section: libdevel
 Architecture: any
@@ -343,7 +332,6 @@ Depends: qml-module-qtqml-models2,
          qml-module-qtquick-layouts,
          qml-module-qtquick-localstorage,
          qml-module-qtquick-particles2,
-         qml-module-qtquick-xmllistmodel,
          qml-module-qttest,
          ${misc:Depends},
          ${shlibs:Depends}

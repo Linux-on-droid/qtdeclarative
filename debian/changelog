@@ -5,6 +5,8 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Drop x32_no_jit.patch, applied upstream.
   * Drop fix_crash_on_big_endian.patch, no longer needed.
   * Refresh and rebase other patches.
+  * Stop building qml-module-qtquick-xmllistmodel package, it will be moved
+    to qtxmlpatterns source.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
 
