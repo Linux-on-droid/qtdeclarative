@@ -9,6 +9,7 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
     to qtxmlpatterns source.
   * Also drop libqt5xmlpatterns5-dev build-dependency, no longer needed.
   * Bump Qt build-dependencies to 5.12.2.
+  * Update Lintian source-is-missing overrides to cover more test files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
 
