@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
+
 qtdeclarative-opensource-src (5.11.3-4) unstable; urgency=medium
 
   * Add fix_crash_on_big_endian.patch to fix crash when loading AOT caches
