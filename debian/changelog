@@ -13,6 +13,11 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Remove outdated sections from debian/copyright.
   * Remove qml-module-qt-labs-handlers package. Its code was merged into
     the main Qt Quick module.
+  * Add three new binary packages:
+    - libqt5quickshapes5: Qt Quick Shapes support library.
+    - qml-module-qt-labs-qmlmodels: experimental data models QML types.
+    - qml-module-qt-labs-wavefrontmesh: mesh based on Wavefront .obj files.
+  * Install the new qmlpreview tool in qtdeclarative5-dev-tools.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
 

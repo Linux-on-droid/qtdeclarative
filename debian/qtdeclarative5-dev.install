@@ -151,6 +151,11 @@ usr/include/*/qt5/QtQuickParticles/QtQuickParticles
 usr/include/*/qt5/QtQuickParticles/QtQuickParticlesDepends
 usr/include/*/qt5/QtQuickParticles/QtQuickParticlesVersion
 usr/include/*/qt5/QtQuickParticles/qtquickparticlesversion.h
+usr/include/*/qt5/QtQuickShapes/QtQuickShapes
+usr/include/*/qt5/QtQuickShapes/QtQuickShapesDepends
+usr/include/*/qt5/QtQuickShapes/QtQuickShapesVersion
+usr/include/*/qt5/QtQuickShapes/qquickshapesglobal.h
+usr/include/*/qt5/QtQuickShapes/qtquickshapesversion.h
 usr/include/*/qt5/QtQuickTest/QtQuickTest
 usr/include/*/qt5/QtQuickTest/QtQuickTestDepends
 usr/include/*/qt5/QtQuickTest/QtQuickTestVersion
@@ -174,6 +179,7 @@ usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake
+usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlPreviewServiceFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake
 usr/lib/*/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake
@@ -196,6 +202,8 @@ usr/lib/*/libQt5Quick.prl
 usr/lib/*/libQt5Quick.so
 usr/lib/*/libQt5QuickParticles.prl
 usr/lib/*/libQt5QuickParticles.so
+usr/lib/*/libQt5QuickShapes.prl
+usr/lib/*/libQt5QuickShapes.so
 usr/lib/*/libQt5QuickTest.prl
 usr/lib/*/libQt5QuickTest.so
 usr/lib/*/libQt5QuickWidgets.prl
