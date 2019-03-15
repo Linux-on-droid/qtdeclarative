@@ -19,6 +19,7 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
     - qml-module-qt-labs-wavefrontmesh: mesh based on Wavefront .obj files.
   * Install the new qmlpreview tool in qtdeclarative5-dev-tools.
   * Update symbols files from the current build log.
+  * Bump ABI version to qtdeclarative-abi-5-12-2.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
 
