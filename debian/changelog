@@ -20,6 +20,7 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Install the new qmlpreview tool in qtdeclarative5-dev-tools.
   * Update symbols files from the current build log.
   * Bump ABI version to qtdeclarative-abi-5-12-2.
+  * Update dependencies of qtdeclarative5-examples package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
 
