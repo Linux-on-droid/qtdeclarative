@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.12.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Drop x32_no_jit.patch, applied upstream.
   * Drop fix_crash_on_big_endian.patch, no longer needed.
@@ -22,7 +21,7 @@ qtdeclarative-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
   * Bump ABI version to qtdeclarative-abi-5-12-2.
   * Update dependencies of qtdeclarative5-examples package.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 14 Mar 2019 13:06:17 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 16 Mar 2019 11:17:38 +0300
 
 qtdeclarative-opensource-src (5.11.3-4) unstable; urgency=medium
 
