@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64
+# SymbolsHelper-Confirmed: 5.12.2 amd64 arm64 armhf i386 ppc64el s390x
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-12-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -3396,7 +3396,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN36QQuickDesignerSupportPropertyChanges15detachFromStateEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16changeExpressionEP7QObjectRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16isNormalPropertyERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=alpha amd64 ia64 mips64el mips64r6el riscv64 sparc64)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
+ (optional=templinst)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -3584,6 +3584,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK10QSGTexture18horizontalWrapModeEv@Qt_5 5.0.2
  _ZNK10QSGTexture24normalizedTextureSubRectEv@Qt_5 5.0.2
  _ZNK10QSGTexture9filteringEv@Qt_5 5.0.2
+ (arch=ppc64el)_ZNK10QStringRef7compareE13QLatin1StringN2Qt15CaseSensitivityE@Qt_5 5.12.2
  _ZNK11QQuickCurve10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK11QQuickCurve1xEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK11QQuickCurve1yEv@Qt_5_PRIVATE_API 5.9.0~beta 1
