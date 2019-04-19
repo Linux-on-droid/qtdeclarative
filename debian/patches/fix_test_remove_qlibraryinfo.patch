@@ -1,7 +1,7 @@
 Description: Make sure that tests run with just compiled versions of tools
 Author: Sandro Knauß <bugs@sandroknauss.de>
 Origin: Debian
-Last-Update: 2019-03-14
+Last-Update: 2019-04-19
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 
@@ -14,7 +14,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +QMAKE_CXXFLAGS += -DTESTBINDIR=\\\"$$PWD/bin\\\"
 +QMAKE_CXXFLAGS += -DTESTEXAMPLEDIR=\\\"$$PWD/examples\\\"
 +
- MODULE_VERSION = 5.12.2
+ MODULE_VERSION = 5.12.3
 --- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 +++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 @@ -64,7 +64,7 @@ tst_qmlmin::tst_qmlmin()
@@ -118,7 +118,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      void checkJsHeap();
 --- a/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
 +++ b/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
-@@ -94,7 +94,7 @@ static bool generateCache(const QString
+@@ -99,7 +99,7 @@ static bool generateCache(const QString
      QProcess proc;
      if (capturedStderr == nullptr)
          proc.setProcessChannelMode(QProcess::ForwardedChannels);
