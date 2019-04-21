@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.3.
   * Update Homepage URL.
   * Update symbols files from buillds’ logs.
+  * Make qtdeclarative5-dev depend on libqt5quickshapes5 (closes: #927447).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 19 Apr 2019 10:50:17 +0300
 
