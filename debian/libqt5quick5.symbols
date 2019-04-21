@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.12.2 amd64 arm64 armhf i386 ppc64el s390x sh4 x32
 libQt5Quick.so.5 libqt5quick5 #MINVER#
-| libqt5quick5 #MINVER#, qtdeclarative-abi-5-12-2
+| libqt5quick5 #MINVER#, qtdeclarative-abi-5-12-3
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.0
  Qt_5.11@Qt_5.11 5.11.0
