@@ -1,6 +1,6 @@
 qtdeclarative-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
 
-  * 
+  * Update packaging to use doc-base as per policy 9.10.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 16:12:46 -0700
 
