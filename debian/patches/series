@@ -1,4 +1,5 @@
 # Backported patches
+ia64.patch
 
 # Debian patches
 disableopengltests.patch
