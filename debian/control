@@ -13,10 +13,10 @@ Build-Depends: debhelper (>= 11),
                libgl1-mesa-dri,
                pkg-kde-tools (>= 0.15.17~),
                python:any,
-               qtbase5-private-dev (>= 5.12.3+dfsg~),
+               qtbase5-private-dev (>= 5.12.4+dfsg~),
                xauth <!nocheck>,
                xvfb <!nocheck>
-Build-Depends-Indep: qtbase5-doc-html (>= 5.12.3+dfsg~) <!nodoc>,
+Build-Depends-Indep: qtbase5-doc-html (>= 5.12.4+dfsg~) <!nodoc>,
                      qttools5-dev-tools (>= 5.12.3~) <!nodoc>
 Standards-Version: 4.3.0
 Homepage: https://doc.qt.io/qt-5/qmlapplications.html
