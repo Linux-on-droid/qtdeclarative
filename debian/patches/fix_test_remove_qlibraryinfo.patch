@@ -14,7 +14,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +QMAKE_CXXFLAGS += -DTESTBINDIR=\\\"$$PWD/bin\\\"
 +QMAKE_CXXFLAGS += -DTESTEXAMPLEDIR=\\\"$$PWD/examples\\\"
 +
- MODULE_VERSION = 5.12.3
+ MODULE_VERSION = 5.12.4
 --- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 +++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 @@ -64,7 +64,7 @@ tst_qmlmin::tst_qmlmin()
@@ -185,7 +185,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      m_process->start(QStringList() << QLatin1String(BLOCKMODE) << testFile(ONCOMPLETED_QMLFILE));
 --- a/tests/auto/qml/qv4assembler/tst_qv4assembler.cpp
 +++ b/tests/auto/qml/qv4assembler/tst_qv4assembler.cpp
-@@ -43,7 +43,7 @@ void tst_QV4Assembler::perfMapFile()
+@@ -45,7 +45,7 @@ void tst_QV4Assembler::perfMapFile()
  #if !defined(Q_OS_LINUX)
      QSKIP("perf map files are only generated on linux");
  #else

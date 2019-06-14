@@ -8,6 +8,7 @@ qtdeclarative-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Drop unused build-dependency on libqt5opengl5-dev.
   * Add support for nocheck build profile.
   * Bump qtbase build-dependencies to 5.12.4.
+  * Refresh fix_test_remove_qlibraryinfo.patch.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 16:12:46 -0700
 
