@@ -1,9 +1,10 @@
-qtdeclarative-opensource-src (5.12.3-2) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
 
   [ Scarlett Moore ]
   * Update packaging to use doc-base as per policy 9.10.
 
   [ Dmitry Shachnev ]
+  * New upstream release.
   * Drop unused build-dependency on libqt5opengl5-dev.
   * Add support for nocheck build profile.
 
