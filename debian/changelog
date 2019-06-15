@@ -10,6 +10,8 @@ qtdeclarative-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Bump qtbase build-dependencies to 5.12.4.
   * Refresh fix_test_remove_qlibraryinfo.patch.
   * Backport upstream patch with a workaround for ia64 (closes: #929682).
+  * Build-Depend-Indep on individual qdoc-qt5, qhelpgenerator-qt5 and
+    qtattributionsscanner-qt5 packages, instead of qttools5-doc-tools.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 16:12:46 -0700
 
