@@ -13,6 +13,7 @@ qtdeclarative-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Build-Depend-Indep on individual qdoc-qt5, qhelpgenerator-qt5 and
     qtattributionsscanner-qt5 packages, instead of qttools5-doc-tools.
   * Update symbols files from buildds’ and the current build logs.
+  * Bump ABI version to qtdeclarative-abi-5-12-4.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 16:12:46 -0700
 

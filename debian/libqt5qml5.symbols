@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.12.4 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
-| libqt5qml5 #MINVER#, qtdeclarative-abi-5-12-3
+| libqt5qml5 #MINVER#, qtdeclarative-abi-5-12-4
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.0
  Qt_5.11@Qt_5.11 5.11.0
