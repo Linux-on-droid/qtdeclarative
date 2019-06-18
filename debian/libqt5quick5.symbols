@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.3 hppa
+# SymbolsHelper-Confirmed: 5.12.4 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-12-3
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -984,6 +984,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN14QQuickTextEdit13isRightToLeftEii@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit13keyPressEventEP9QKeyEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit13linkActivatedERK7QString@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN14QQuickTextEdit13q_linkHoveredERK7QString@Qt_5_PRIVATE_API 5.12.4 1
  _ZN14QQuickTextEdit13q_textChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit13setRenderTypeENS_10RenderTypeE@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQuickTextEdit13setTextFormatENS_10TextFormatE@Qt_5_PRIVATE_API 5.0.2 1
@@ -2179,10 +2180,10 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN19QQuickWindowPrivate17dragOverThresholdEdN2Qt4AxisEP11QMouseEventi@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN19QQuickWindowPrivate18compressTouchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN19QQuickWindowPrivate18defaultAlphaBufferE@Qt_5_PRIVATE_API 5.1.0 1
+ _ZN19QQuickWindowPrivate19checkIfDoubleTappedEm6QPoint@Qt_5_PRIVATE_API 5.12.4 1
  _ZN19QQuickWindowPrivate19deliverPointerEventEP18QQuickPointerEvent@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN19QQuickWindowPrivate19deliverTouchAsMouseEP10QQuickItemP18QQuickPointerEvent@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN19QQuickWindowPrivate19translateTouchEventEP11QTouchEvent@Qt_5_PRIVATE_API 5.0.2 1
- _ZN19QQuickWindowPrivate20checkIfDoubleClickedEm@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate22cleanupNodesOnShutdownEP10QQuickItem@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate22cleanupNodesOnShutdownEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN19QQuickWindowPrivate22sendFilteredMouseEventEP6QEventP10QQuickItemS3_@Qt_5_PRIVATE_API 5.10.0 1
@@ -2951,6 +2952,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN24QQuickAccessibleAttached21qmlAttachedPropertiesEP7QObject@Qt_5_PRIVATE_API 5.0.2 1
  _ZN24QQuickAccessibleAttached21selectableTextChangedEb@Qt_5_PRIVATE_API 5.3.0 1
  _ZN24QQuickAccessibleAttached22checkStateMixedChangedEb@Qt_5_PRIVATE_API 5.3.0 1
+ _ZN24QQuickAccessibleAttached7setRoleEN11QAccessible4RoleE@Qt_5_PRIVATE_API 5.12.4 1
  _ZN24QQuickAccessibleAttached8doActionERK7QString@Qt_5_PRIVATE_API 5.4.0 1
  _ZN24QQuickAccessibleAttached8sigPressE@Qt_5_PRIVATE_API 5.4.0 1
  _ZN24QQuickAccessibleAttached9sigToggleE@Qt_5_PRIVATE_API 5.4.0 1

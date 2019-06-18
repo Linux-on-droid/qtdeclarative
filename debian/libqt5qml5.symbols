@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.3 amd64 hppa i386 ia64 m68k mips mips64el mipsel ppc64el sparc64
+# SymbolsHelper-Confirmed: 5.12.4 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-12-3
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -202,6 +202,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlMetaType20typeRegistrationLockEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN12QQmlMetaType21customStringConverterEi@Qt_5_PRIVATE_API 5.0.2 1
  _ZN12QQmlMetaType21registerCompositeTypeERKN11QQmlPrivate21RegisterCompositeTypeE@Qt_5_PRIVATE_API 5.9.2 1
+ _ZN12QQmlMetaType22attachedPropertiesFuncEP17QQmlEnginePrivatePK11QMetaObject@Qt_5_PRIVATE_API 5.12.4 1
  _ZN12QQmlMetaType24attachedPropertiesFuncIdEP17QQmlEnginePrivatePK11QMetaObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN12QQmlMetaType24freeUnusedTypesAndCachesEv@Qt_5_PRIVATE_API 5.9.2 1
  _ZN12QQmlMetaType25findCachedCompilationUnitERK4QUrlPNS_21CachedUnitLookupErrorE@Qt_5_PRIVATE_API 5.11.0 1
@@ -1598,6 +1599,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV415QQmlTypeWrapper16virtualIsEqualToEPNS_7ManagedES2_@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV415QQmlTypeWrapper17virtualInstanceOfEPKNS_6ObjectERKNS_5ValueE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV415QQmlTypeWrapper21virtualGetOwnPropertyEPKNS_7ManagedENS_11PropertyKeyEPNS_8PropertyE@Qt_5_PRIVATE_API 5.12.2 1
+ _ZN3QV415QQmlTypeWrapper23lookupSingletonPropertyEPNS_6LookupEPNS_15ExecutionEngineERKNS_5ValueE@Qt_5_PRIVATE_API 5.12.4 1
  _ZN3QV415QQmlTypeWrapper26virtualResolveLookupGetterEPKNS_6ObjectEPNS_15ExecutionEngineEPNS_6LookupE@Qt_5_PRIVATE_API 5.12.3 1
  _ZN3QV415QQmlTypeWrapper26virtualResolveLookupSetterEPNS_6ObjectEPNS_15ExecutionEngineEPNS_6LookupERKNS_5ValueE@Qt_5_PRIVATE_API 5.12.3 1
  _ZN3QV415QQmlTypeWrapper6createEPNS_15ExecutionEngineEP7QObjectRK14QQmlRefPointerI17QQmlTypeNameCacheEPK13QQmlImportRefNS_4Heap15QQmlTypeWrapper12TypeNameModeE@Qt_5_PRIVATE_API 5.12.2 1
@@ -2127,7 +2129,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN5QtQml10qmlWarningEPK7QObjectRK5QListI9QQmlErrorE@Qt_5 5.9.0~beta
  _ZN5QtQml10qmlWarningEPK7QObjectRK9QQmlError@Qt_5 5.9.0~beta
  _ZN5QtQml18qmlExecuteDeferredEP7QObject@Qt_5 5.1.0
+ _ZN5QtQml27qmlAttachedPropertiesObjectEP7QObjectPFS1_S1_Eb@Qt_5 5.12.4
  _ZN5QtQml27qmlAttachedPropertiesObjectEPiPK7QObjectPK11QMetaObjectb@Qt_5 5.1.0
+ _ZN5QtQml29qmlAttachedPropertiesFunctionEP7QObjectPK11QMetaObject@Qt_5 5.12.4
  _ZN5QtQml31qmlAttachedPropertiesObjectByIdEiPK7QObjectb@Qt_5 5.1.0
  _ZN5QtQml7qmlInfoEPK7QObject@Qt_5 5.1.0
  _ZN5QtQml7qmlInfoEPK7QObjectRK5QListI9QQmlErrorE@Qt_5 5.1.0
@@ -3098,9 +3102,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED1Ev@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED2Ev@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIN21QAbstractAnimationJob14ChangeListenerESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_5_PRIVATE_API 5.9.1 1
- (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE12emplace_backIJEEERS3_DpOT_@Qt_5_PRIVATE_API 5.12.3 1
+ (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE12emplace_backIJRK7QStringEEERS3_DpOT_@Qt_5_PRIVATE_API 5.12.4 1
  (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE12emplace_backIJS3_EEERS3_DpOT_@Qt_5_PRIVATE_API 5.12.3 1
- (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE17_M_realloc_insertIJEEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5_PRIVATE_API 5.12.3 1
+ (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE17_M_realloc_insertIJRK7QStringEEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5_PRIVATE_API 5.12.4 1
  (optional=templinst|arch=!mips !mipsel)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5_PRIVATE_API 5.12.3 1
  (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE12emplace_backIJS4_EEERS4_DpOT_@Qt_5_PRIVATE_API 5.9.1 1
  (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE17_M_realloc_insertIJRKS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Qt_5_PRIVATE_API 5.9.1 1
