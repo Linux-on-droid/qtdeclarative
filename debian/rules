@@ -58,14 +58,17 @@ override_dh_link:
 	dh_link -pqml usr/lib/qt5/bin/qml usr/lib/$(DEB_HOST_MULTIARCH)/qt5/bin/qml
 
 override_dh_auto_test-arch:
+ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
 	mkdir -p $(CURDIR)/.local/share/QtProject/tst_qqmlengine
 	# - The qqmlpreview test fails because QSettings fails to get a lock file.
 	# - Some tests are failing on mips* because of #868745.
-	-dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
-	         TESTRUNNER='xvfb-run -a -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX"' \
+	-xvfb-run -a \
+	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
+	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
 	         QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
 	         QT_PLUGIN_PATH=$(CURDIR)/plugins \
 	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib XDG_RUNTIME_DIR=$(CURDIR)
+endif
 
 override_dh_auto_test-indep:
