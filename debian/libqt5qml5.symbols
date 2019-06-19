@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.4 amd64
+# SymbolsHelper-Confirmed: 5.12.4 amd64 ppc64el
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-12-4
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -436,7 +436,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN14QQmlTypeLoader4BlobD1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQmlTypeLoader4BlobD2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN14QQmlTypeLoader4loadEP12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
- (optional=templinst|arch=!armel !hppa)_ZN14QQmlTypeLoader6doLoadI11PlainLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
+ (optional=templinst|arch=!armel !hppa !ppc64el)_ZN14QQmlTypeLoader6doLoadI11PlainLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
  (optional=templinst|arch=!armel !hppa)_ZN14QQmlTypeLoader6doLoadI12CachedLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
  (optional=templinst|arch=!armel !hppa)_ZN14QQmlTypeLoader6doLoadI12StaticLoaderEEvRKT_P12QQmlDataBlobNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
  _ZN14QQmlTypeLoader7getTypeERK10QByteArrayRK4QUrlNS_4ModeE@Qt_5_PRIVATE_API 5.9.2 1
@@ -1418,6 +1418,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412EvalFunction11virtualCallEPKNS_14FunctionObjectEPKNS_5ValueES6_i@Qt_5_PRIVATE_API 5.12.2 1
  (subst)_ZN3QV413MemoryManager11allocStringE{size_t}@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN3QV413MemoryManager12collectRootsEPNS_9MarkStackE@Qt_5_PRIVATE_API 5.10.0 1
+ (optional=templinst|arch=ppc64el)_ZN3QV413MemoryManager14allocateObjectINS_11ArrayBufferEEEPNT_4DataEv@Qt_5_PRIVATE_API 5.12.4
  _ZN3QV413MemoryManager15registerWeakMapEPNS_4Heap9MapObjectE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV413MemoryManager15registerWeakSetEPNS_4Heap9SetObjectE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV413MemoryManager25allocObjectWithMemberDataEPKNS_6VTableEj@Qt_5_PRIVATE_API 5.9.1 1
@@ -3092,7 +3093,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorI11QModelIndexSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst|arch=alpha armel armhf hurd-i386 i386 ia64 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x sparc64)_ZNSt6vectorI11QModelIndexSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst|subst)_ZNSt6vectorI11QModelIndexSaIS0_EE7reserveE{size_t}@Qt_5 5.10.0
- (optional=templinst|arch=hurd-i386 i386 m68k powerpc)_ZNSt6vectorI11QModelIndexSaIS0_EE9push_backERKS0_@Qt_5 5.12.2
+ (optional=templinst|arch=hurd-i386 i386 m68k powerpc ppc64el)_ZNSt6vectorI11QModelIndexSaIS0_EE9push_backERKS0_@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst|subst)_ZNSt6vectorI4QUrlSaIS0_EE7reserveE{size_t}@Qt_5 5.10.0
@@ -3103,10 +3104,10 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED2Ev@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIN21QAbstractAnimationJob14ChangeListenerESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_5_PRIVATE_API 5.9.1 1
  (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE12emplace_backIJRK7QStringEEERS3_DpOT_@Qt_5_PRIVATE_API 5.12.4 1
- (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE12emplace_backIJS3_EEERS3_DpOT_@Qt_5_PRIVATE_API 5.12.3 1
+ (optional=templinst|arch=!ppc64el)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE12emplace_backIJS3_EEERS3_DpOT_@Qt_5_PRIVATE_API 5.12.3 1
  (optional=templinst)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE17_M_realloc_insertIJRK7QStringEEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5_PRIVATE_API 5.12.4 1
  (optional=templinst|arch=!mips !mipsel)_ZNSt6vectorIN3QV48Compiler7Codegen6ResultESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5_PRIVATE_API 5.12.3 1
- (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE12emplace_backIJS4_EEERS4_DpOT_@Qt_5_PRIVATE_API 5.9.1 1
+ (optional=templinst|arch=!ppc64el)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE12emplace_backIJS4_EEERS4_DpOT_@Qt_5_PRIVATE_API 5.9.1 1
  (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE17_M_realloc_insertIJRKS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Qt_5_PRIVATE_API 5.9.1 1
  (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE17_M_realloc_insertIJS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Qt_5_PRIVATE_API 5.12.2 1
  (optional=templinst)_ZNSt6vectorISt4pairIPKciESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5 5.10.0
