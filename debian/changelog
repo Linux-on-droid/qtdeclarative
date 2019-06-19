@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.12.4-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Update packaging to use doc-base as per policy 9.10.
@@ -15,7 +15,7 @@ qtdeclarative-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Update symbols files from buildds’ and the current build logs.
   * Bump ABI version to qtdeclarative-abi-5-12-4.
 
- -- Scarlett Moore <sgmoore@kde.org>  Fri, 10 May 2019 16:12:46 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 19 Jun 2019 14:54:49 +0300
 
 qtdeclarative-opensource-src (5.12.3-1) experimental; urgency=medium
 
