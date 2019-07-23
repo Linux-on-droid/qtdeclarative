@@ -61,14 +61,26 @@ override_dh_auto_test-arch:
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
 	mkdir -p $(CURDIR)/.local/share/QtProject/tst_qqmlengine
-	# - The qqmlpreview test fails because QSettings fails to get a lock file.
-	# - Some tests are failing on mips* because of #868745.
+	# - hppa: QML engine is broken, bug missing
+	# - ia64: QML engine is broken, see bug #929682
+	# - mips*: Some tests are failing because of bug #868745
+	# - powerpc, ppc64, s390x: item-grabber test fails on big endian, see https://bugreports.qt.io/browse/QTBUG-56806
+	# - sparc64: QML engine is broken, see bug #894726
+ifneq (,$(filter $(DEB_HOST_ARCH),hppa ia64 mips mips64el mipsel powerpc ppc64 s390x sparc64))
 	-xvfb-run -a \
 	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
 	         QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
 	         QT_PLUGIN_PATH=$(CURDIR)/plugins \
 	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib XDG_RUNTIME_DIR=$(CURDIR)
+else
+	xvfb-run -a \
+	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
+	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
+	         QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
+	         QT_PLUGIN_PATH=$(CURDIR)/plugins \
+	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib XDG_RUNTIME_DIR=$(CURDIR)
+endif
 endif
 
 override_dh_auto_test-indep:
