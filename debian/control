@@ -284,6 +284,8 @@ Depends: libqt5qml5 (= ${binary:Version}),
          qtbase5-dev,
          qtdeclarative5-dev-tools,
          ${misc:Depends}
+Breaks: qtdeclarative5-doc-html (<< 5.12.4-1~)
+Replaces: qtdeclarative5-doc-html (<< 5.12.4-1~)
 Description: Qt 5 declarative development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -355,8 +357,10 @@ Depends: qml-module-qt-labs-qmlmodels,
          qml-module-qttest,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: qtquickcontrols5-examples (<< 5.7.0-1~)
-Replaces: qtquickcontrols5-examples (<< 5.7.0-1~)
+Breaks: qtdeclarative5-doc-html (<< 5.12.4-1~),
+        qtquickcontrols5-examples (<< 5.7.0-1~)
+Replaces: qtdeclarative5-doc-html (<< 5.12.4-1~),
+          qtquickcontrols5-examples (<< 5.7.0-1~)
 Description: Qt 5 declarative examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
