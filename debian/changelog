@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Drop ia64.patch, applied in the new release.
   * Refresh fix_test_remove_qlibraryinfo.patch.
+  * Bump Qt build-dependencies to 5.12.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Jul 2019 20:57:31 +0300
 
