@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * Add comments explaining the issues on other architectures.
   * New upstream release.
   * Drop ia64.patch, applied in the new release.
+  * Refresh fix_test_remove_qlibraryinfo.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Jul 2019 20:57:31 +0300
 

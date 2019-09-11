@@ -14,7 +14,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +QMAKE_CXXFLAGS += -DTESTBINDIR=\\\"$$PWD/bin\\\"
 +QMAKE_CXXFLAGS += -DTESTEXAMPLEDIR=\\\"$$PWD/examples\\\"
 +
- MODULE_VERSION = 5.12.4
+ MODULE_VERSION = 5.12.5
 --- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 +++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 @@ -64,7 +64,7 @@ tst_qmlmin::tst_qmlmin()
@@ -140,7 +140,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  #endif
 --- a/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
 +++ b/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
-@@ -61,7 +61,7 @@ tst_qmlplugindump::tst_qmlplugindump()
+@@ -62,7 +62,7 @@ tst_qmlplugindump::tst_qmlplugindump()
  void tst_qmlplugindump::initTestCase()
  {
      QQmlDataTest::initTestCase();
