@@ -218,6 +218,3 @@ usr/lib/*/qt5/mkspecs/modules/qt_lib_qml.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qmltest.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_quick.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_quickwidgets.pri
-usr/share/qt5/doc/qtqml/qtqml.tags
-usr/share/qt5/doc/qtqmltest/qtqmltest.tags
-usr/share/qt5/doc/qtquick/qtquick.tags

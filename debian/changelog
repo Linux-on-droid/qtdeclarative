@@ -4,16 +4,6 @@ qtdeclarative-opensource-src (5.12.4-2) UNRELEASED; urgency=medium
   * Make tests fatal on architectures where they are currently passing.
   * Add comments explaining the issues on other architectures.
 
-  [ Scarlett Moore ]
-  * Move examples manifest files into the examples package.
-    Please see bug: #933597: qt3d5-examples: qt examples
-    missing important files
-  * Add breaks/replaces for moved files.
-  * Move qhp .tags files into -dev package as they are needed
-    at build time for qhp generation.
-    Please see bug: #922707: please consider packaging doxygen
-    .tags files with -dev package, not -doc
-
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Jul 2019 20:57:31 +0300
 
 qtdeclarative-opensource-src (5.12.4-1) experimental; urgency=medium
