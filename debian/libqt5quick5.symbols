@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.4 amd64 ppc64el
+# SymbolsHelper-Confirmed: 5.12.5 amd64 i386
 libQt5Quick.so.5 libqt5quick5 #MINVER#
 | libqt5quick5 #MINVER#, qtdeclarative-abi-5-12-4
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -18,6 +18,8 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
  _Z20qt_color_from_stringRKN3QV45ValueE@Qt_5 5.10.0
  _Z23qsgnode_set_descriptionP7QSGNodeRK7QString@Qt_5 5.4.0
+ _Z23qtPositionAttributeNamev@Qt_5 5.12.5
+ _Z23qtTexCoordAttributeNamev@Qt_5 5.12.5
  _Z33qt_quick_shortcut_context_matcherv@Qt_5 5.9.0~beta
  _Z37qt_quick_set_shortcut_context_matcherPFbP7QObjectN2Qt15ShortcutContextEE@Qt_5 5.9.0~beta
  _ZN10QQuickItem10classBeginEv@Qt_5 5.0.2
@@ -3224,7 +3226,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZN27QSGAbstractSoftwareRenderer15backgroundColorEv@Qt_5_PRIVATE_API 5.10.0 1
  _ZN27QSGAbstractSoftwareRenderer15buildRenderListEv@Qt_5_PRIVATE_API 5.10.0 1
  _ZN27QSGAbstractSoftwareRenderer17nodeMatrixUpdatedEP7QSGNode@Qt_5_PRIVATE_API 5.10.0 1
- _ZN27QSGAbstractSoftwareRenderer17setBackgroundRectERK5QRect@Qt_5_PRIVATE_API 5.10.1 1
+ _ZN27QSGAbstractSoftwareRenderer17setBackgroundRectERK5QRectd@Qt_5_PRIVATE_API 5.12.5 1
  _ZN27QSGAbstractSoftwareRenderer18nodeOpacityUpdatedEP7QSGNode@Qt_5_PRIVATE_API 5.10.0 1
  _ZN27QSGAbstractSoftwareRenderer18optimizeRenderListEv@Qt_5_PRIVATE_API 5.10.0 1
  _ZN27QSGAbstractSoftwareRenderer18setBackgroundColorERK6QColor@Qt_5_PRIVATE_API 5.10.0 1
@@ -4471,7 +4473,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZNK32QQuickOpenGLShaderEffectMaterial14updateTexturesEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK32QQuickOpenGLShaderEffectMaterial4typeEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK32QQuickOpenGLShaderEffectMaterial7compareEPK11QSGMaterial@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZNK33QSGDefaultDistanceFieldGlyphCache14maxTextureSizeEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache22createFullSizeTexturesEv@Qt_5_PRIVATE_API 5.5.0 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureResizeWorkaroundEv@Qt_5_PRIVATE_API 5.2.0~rc1 1
  _ZNK33QSGDefaultDistanceFieldGlyphCache26useTextureUploadWorkaroundEv@Qt_5_PRIVATE_API 5.2.0~rc1 1
@@ -5101,7 +5102,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER#
  _ZTV28QSGDistanceFieldTextMaterial@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV29QQuickImplicitSizeItemPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV29QSGBasicInternalRectangleNode@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZTV29QSGDistanceFieldGlyphConsumer@Qt_5_PRIVATE_API 5.12.2 1
  _ZTV30QQuickAbstractAnimationPrivate@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZTV30QQuickImageProviderWithOptions@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTV30QSGOpaqueTextureMaterialShader@Qt_5_PRIVATE_API 5.0.2 1
