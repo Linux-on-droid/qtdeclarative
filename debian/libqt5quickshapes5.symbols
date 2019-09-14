@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.12.2 amd64
 libQt5QuickShapes.so.5 libqt5quickshapes5 #MINVER#
-| libqt5quickshapes5 #MINVER#, qtdeclarative-abi-5-12-4
+| libqt5quickshapes5 #MINVER#, qtdeclarative-abi-5-12-5
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.12.2 1
  _ZN11QQuickShape10classBeginEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZN11QQuickShape10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.12.2 1
