@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 11),
                libgl1-mesa-dri,
                pkg-kde-tools (>= 0.15.17~),
                python:any,
-               qtbase5-private-dev (>= 5.12.5+dfsg-2~),
+               qtbase5-private-dev (>= 5.12.5+dfsg~),
                xauth <!nocheck>,
                xvfb <!nocheck>
 Build-Depends-Indep: qdoc-qt5 (>= 5.12.5~) <!nodoc>,
