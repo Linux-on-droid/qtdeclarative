@@ -50,9 +50,6 @@ override_dh_auto_install-indep:
 override_dh_missing:
 	dh_missing --fail-missing
 
-override_dh_makeshlibs:
-	dh_makeshlibs -V
-
 override_dh_link:
 	dh_link
 	ls debian/qtdeclarative5-dev-tools/usr/lib/qt5/bin | xargs -t -I {} \
