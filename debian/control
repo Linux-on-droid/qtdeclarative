@@ -385,3 +385,17 @@ Description: Qt 5 declarative HTML documentation
  .
  This package contains the HTML documentation for the Qt 5 declarative
  libraries.
+
+Package: qtdeclarative5-doc-dev
+Build-Profiles: <!nodoc>
+Architecture: all
+Section: libdevel
+Depends: ${misc:Depends}
+Breaks: qtdeclarative5-doc-html (<< 5.12.5-4~)
+Replaces: qtdeclarative5-doc-html (<< 5.12.5-4~)
+Description: Qt 5 declarative tags files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the doxygen tags files for the qtdeclarative
+ documentation.

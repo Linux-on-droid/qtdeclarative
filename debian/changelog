@@ -6,6 +6,8 @@ qtdeclarative-opensource-src (5.12.5-4) UNRELEASED; urgency=medium
     packages to add an alternative dependency on their -gles variants
     that will provide the same ABI.
   * Remove build paths from .prl files for reproducibility.
+  * Split the doxygen .tags files into a new qtdeclarative5-doc-dev
+    package (see #922707).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2019 18:28:49 +0300
 
