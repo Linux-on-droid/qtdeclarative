@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.12.5-4) UNRELEASED; urgency=medium
   * Update symbols files of libqt5quick5 and libqt5quickparticles5
     packages to add an alternative dependency on their -gles variants
     that will provide the same ABI.
+  * Remove build paths from .prl files for reproducibility.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2019 18:28:49 +0300
 
