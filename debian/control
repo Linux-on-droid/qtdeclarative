@@ -27,7 +27,7 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Quick library
+Description: Qt 5 Quick library — OpenGL ES variant
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
@@ -35,14 +35,18 @@ Description: Qt 5 Quick library
  developers create the kind of intuitive, modern, fluid user interfaces
  that are increasingly used on mobile phones, media players, set-top
  boxes and other portable devices.
+ .
+ This package provides a version of Qt Quick library built against OpenGL
+ ES, for use on embedded/mobile devices.
 
 Package: libqt5quickparticles5-gles
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Quick particles module
+Description: Qt 5 Quick particles module — OpenGL ES variant
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Qt Quick Particles support library.
+ This package provides a version of the Qt Quick Particles support library
+ built against OpenGL ES, for use on embedded/mobile devices.
