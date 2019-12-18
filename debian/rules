@@ -15,14 +15,10 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 override_dh_auto_clean:
 	dh_auto_clean
 	rm -rf $(CURDIR)/test_root
-	rm -rf $(CURDIR)/docs
 	rm -rf $(CURDIR)/.local
 
 override_dh_auto_configure:
 	dh_auto_configure -- QT_BUILD_PARTS+=tests
-
-override_dh_auto_build-indep:
-	dh_auto_build -- docs
 
 override_dh_auto_install-arch:
 	dh_auto_install
@@ -43,9 +39,6 @@ override_dh_auto_install-arch:
 	-o -name '*.jpg' \
 	-o -name '*.qml' \
 	\) -print0 | xargs -0 chmod a-x
-
-override_dh_auto_install-indep:
-	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
 override_dh_missing:
 
@@ -74,5 +67,3 @@ else
 	         HOME=$(CURDIR) LD_LIBRARY_PATH=$(CURDIR)/lib XDG_RUNTIME_DIR=$(CURDIR)
 endif
 endif
-
-override_dh_auto_test-indep:
