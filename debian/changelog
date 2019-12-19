@@ -11,6 +11,7 @@ qtdeclarative-opensource-src (5.12.5-4) UNRELEASED; urgency=medium
   * Bump debhelper compat level to 12, use the new syntax.
     - Drop dh_makeshlibs override, -V is now the default.
   * Fix a typo in debian/qtdeclarative5-doc-html.doc-base.qtqml.
+  * Replace YouTube iframe with YouTube link in the documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2019 18:28:49 +0300
 

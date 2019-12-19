@@ -1,0 +1,20 @@
+Description: replace YouTube iframe with YouTube link
+Author: Dmitry Shachnev <mitya57@debian.org>
+Forwarded: not-needed
+Last-Update: 2019-12-19
+
+--- a/src/quick/doc/src/concepts/modelviewsdata/cppmodels.qdoc
++++ b/src/quick/doc/src/concepts/modelviewsdata/cppmodels.qdoc
+@@ -41,10 +41,8 @@ QObjectList or a \l QAbstractItemModel.
+ simpler datasets, while QAbstractItemModel provides a more flexible solution for
+ more complex models.
+ 
+-Here is a video tutorial that takes you through the whole process of exposing a C++
+-model to QML:
+-
+-\youtube 9BcAYDlpuT8
++Here is a \l{https://www.youtube.com/watch?v=9BcAYDlpuT8}{video tutorial} that
++takes you through the whole process of exposing a C++ model to QML.
+ 
+ \section2 QStringList-based Model
+ 
