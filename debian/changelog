@@ -1,9 +1,8 @@
-qtdeclarative-opensource-src-gles (5.12.5-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src-gles (5.12.5-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Create a new source package for OpenGL ES build.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2019 19:24:07 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 19 Dec 2019 13:27:25 +0300
 
 qtdeclarative-opensource-src (5.12.5-4) experimental; urgency=medium
 
