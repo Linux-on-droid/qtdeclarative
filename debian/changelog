@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.12.5-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.12.5-4) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update debian/libqt5qml5.symbols from buildds’ logs.
   * Update symbols files of libqt5quick5 and libqt5quickparticles5
     packages to add an alternative dependency on their -gles variants
@@ -13,7 +12,7 @@ qtdeclarative-opensource-src (5.12.5-4) UNRELEASED; urgency=medium
   * Fix a typo in debian/qtdeclarative5-doc-html.doc-base.qtqml.
   * Replace YouTube iframe with YouTube link in the documentation.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Dec 2019 18:28:49 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 19 Dec 2019 12:06:23 +0300
 
 qtdeclarative-opensource-src (5.12.5-3) unstable; urgency=medium
 
