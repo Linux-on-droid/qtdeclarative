@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.12.5-5) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Link with -latomic on riscv64, based on a patch by Aurelien Jarno.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 01 Jan 2020 16:32:26 +0300
 
