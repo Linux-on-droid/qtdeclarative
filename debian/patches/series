@@ -6,3 +6,4 @@ fix_test_remove_qlibraryinfo.patch
 wait_for_window_exposed.patch
 remove_youtube_iframe.patch
 riscv64-latomic.patch
+python3.patch
