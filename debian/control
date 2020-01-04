@@ -13,7 +13,7 @@ Build-Depends: debhelper-compat (= 12),
                libgl1-mesa-dri,
                libqt5qml5 (>= 5.12.5),
                pkg-kde-tools (>= 0.15.17~),
-               python:any,
+               python3:any,
                qtbase5-private-gles-dev (>= 5.12.5+dfsg~),
                xauth <!nocheck>,
                xvfb <!nocheck>

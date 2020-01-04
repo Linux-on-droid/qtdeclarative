@@ -1,0 +1,17 @@
+Description: link with -latomic on riscv64
+Author: Aurelien Jarno <aurel32@debian.org>
+Forwarded: no
+Last-Update: 2020-01-01
+
+--- a/src/qml/qml.pro
++++ b/src/qml/qml.pro
+@@ -17,6 +17,9 @@ solaris-cc*:QMAKE_CXXFLAGS_RELEASE -= -O
+ # Ensure this gcc optimization is switched off for mips platforms to avoid trouble with JIT.
+ gcc:isEqual(QT_ARCH, "mips"): QMAKE_CXXFLAGS += -fno-reorder-blocks
+ 
++# Link with -latomic on riscv64. Ideally qmake should use -pthread instead of -lpthread
++isEqual(QT_ARCH, "riscv64"): QMAKE_LIBS += -latomic
++
+ DEFINES += QT_NO_FOREACH
+ 
+ !build_pass {

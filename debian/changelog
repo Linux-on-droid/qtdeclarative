@@ -1,3 +1,11 @@
+qtdeclarative-opensource-src (5.12.5-5) unstable; urgency=medium
+
+  * Link with -latomic on riscv64, based on a patch by Aurelien Jarno.
+  * Add a patch from OpenSUSE to build with Python 3 (closes: #938319).
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 02 Jan 2020 14:25:07 +0300
+
 qtdeclarative-opensource-src-gles (5.12.5-1) experimental; urgency=medium
 
   * Create a new source package for OpenGL ES build.
