@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src-gles (5.12.5-2) unstable; urgency=medium
+
+  * Merge qtdeclarative-opensource-src 5.12.5-5 upload.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 04 Jan 2020 15:06:07 +0300
+
 qtdeclarative-opensource-src (5.12.5-5) unstable; urgency=medium
 
   * Link with -latomic on riscv64, based on a patch by Aurelien Jarno.
