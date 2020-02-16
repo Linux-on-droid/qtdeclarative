@@ -35,7 +35,7 @@ Last-Update: 2019-03-14
      qqmlpromise \
      qtqmlmodules \
      qquickfolderlistmodel \
-@@ -94,10 +93,6 @@ qtConfig(process) {
+@@ -95,10 +94,6 @@ qtConfig(process) {
      }
  }
  
