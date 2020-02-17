@@ -140,6 +140,33 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  #ifdef Q_OS_WIN
      m_qmllintPath += QLatin1String(".exe");
  #endif
+@@ -78,7 +78,7 @@ void TestQmllint::test_data()
+ 
+ void TestQmllint::testUnqualified()
+ {
+-    auto qmlImportDir = QLibraryInfo::location(QLibraryInfo::Qml2ImportsPath);
++    auto qmlImportDir = QString::fromUtf8(qgetenv("QML2_IMPORT_PATH"));
+     QFETCH(QString, filename);
+     QFETCH(QString, warningMessage);
+     QFETCH(int, warningLine);
+@@ -122,7 +122,7 @@ void TestQmllint::testUnqualified_data()
+ 
+ void TestQmllint::testUnqualifiedNoSpuriousParentWarning()
+ {
+-    auto qmlImportDir = QLibraryInfo::location(QLibraryInfo::Qml2ImportsPath);
++    auto qmlImportDir = QString::fromUtf8(qgetenv("QML2_IMPORT_PATH"));
+     {
+         QString filename = testFile("spuriousParentWarning.qml");
+         QStringList args;
+@@ -147,7 +147,7 @@ void TestQmllint::testUnqualifiedNoSpuri
+ 
+ void TestQmllint::catchIdentifierNoFalsePositive()
+ {
+-    auto qmlImportDir = QLibraryInfo::location(QLibraryInfo::Qml2ImportsPath);
++    auto qmlImportDir = QString::fromUtf8(qgetenv("QML2_IMPORT_PATH"));
+     QString filename = QLatin1String("catchIdentifierNoWarning.qml");
+     filename.prepend(QStringLiteral("data/"));
+     QStringList args;
 --- a/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
 +++ b/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
 @@ -62,7 +62,7 @@ tst_qmlplugindump::tst_qmlplugindump()
