@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64
+# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-14-1
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -158,7 +158,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN11QQmlImportsD2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN11QQmlImportsaSERKS_@Qt_5_PRIVATE_API 5.0.2 1
  _ZN11QQmlPrivate11qmlregisterENS_16RegistrationTypeEPv@Qt_5 5.0.2
- _ZN11QQmlPrivate13qmlunregisterENS_16RegistrationTypeEy@Qt_5 5.14.1
+ (subst)_ZN11QQmlPrivate13qmlunregisterENS_16RegistrationTypeE{quintptr}@Qt_5 5.14.1
  _ZN11QQmlPrivate24RegisterSingletonFunctorclEP10QQmlEngineP9QJSEngine@Qt_5 5.14.1
  _ZN11QQmlPrivate30qdeclarativeelement_destructorEP7QObject@Qt_5 5.0.2
  _ZN12QQmlDataBlob12networkErrorEN13QNetworkReply12NetworkErrorE@Qt_5_PRIVATE_API 5.0.2 1
@@ -264,7 +264,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN12QQmlProfiler13stopProfilingEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN12QQmlProfiler14startProfilingEy@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN12QQmlProfiler16staticMetaObjectE@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZN12QQmlProfiler9dataReadyERK7QVectorI16QQmlProfilerDataERK5QHashIyNS_8LocationEE@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN12QQmlProfiler9dataReadyERK7QVectorI16QQmlProfilerDataERK5QHashI{quintptr}NS_8LocationEE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN12QQmlProfilerC1Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN12QQmlProfilerC2Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN12QQmlProperty4readEPK7QObjectRK7QString@Qt_5 5.0.2
@@ -858,7 +858,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlStringConverters15colorFromStringERK7QStringPb@Qt_5 5.0.2
  _ZN20QQmlStringConverters15rectFFromStringERK7QStringPb@Qt_5 5.0.2
  _ZN20QQmlStringConverters15sizeFFromStringERK7QStringPb@Qt_5 5.0.2
- _ZN20QQmlStringConverters16createFromStringEiRK7QStringPvm@Qt_5 5.14.1
+ (subst)_ZN20QQmlStringConverters16createFromStringEiRK7QStringPv{size_t}@Qt_5 5.14.1
  _ZN20QQmlStringConverters16pointFFromStringERK7QStringPb@Qt_5 5.0.2
  _ZN20QQmlStringConverters17variantFromStringERK7QString@Qt_5 5.0.2
  _ZN20QQmlStringConverters17variantFromStringERK7QStringiPb@Qt_5 5.0.2
@@ -927,16 +927,16 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN21QQmlValueTypeProvider13initValueTypeEiR8QVariant@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQmlValueTypeProvider13readValueTypeERK8QVariantPvi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQmlValueTypeProvider14equalValueTypeEiPKvRK8QVariant@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN21QQmlValueTypeProvider14storeValueTypeEiPKvPvm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN21QQmlValueTypeProvider14storeValueTypeEiPKvPv{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN21QQmlValueTypeProvider14writeValueTypeEiPKvR8QVariant@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQmlValueTypeProvider15createValueTypeEiiPPKv@Qt_5_PRIVATE_API 5.0.2 1
- _ZN21QQmlValueTypeProvider16createFromStringEiRK7QStringPvm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN21QQmlValueTypeProvider16createFromStringEiRK7QStringPv{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN21QQmlValueTypeProvider16createStringFromEiPKvP7QString@Qt_5_PRIVATE_API 5.0.2 1
  _ZN21QQmlValueTypeProvider17variantFromStringERK7QStringP8QVariant@Qt_5_PRIVATE_API 5.0.2 1
  _ZN21QQmlValueTypeProvider17variantFromStringEiRK7QStringP8QVariant@Qt_5_PRIVATE_API 5.0.2 1
  _ZN21QQmlValueTypeProvider19variantFromJsObjectEiRKN3QV45ValueEPNS0_15ExecutionEngineEP8QVariant@Qt_5_PRIVATE_API 5.14.1 1
  _ZN21QQmlValueTypeProvider21createStringFromValueEiPKvP7QString@Qt_5_PRIVATE_API 5.0.2 1
- _ZN21QQmlValueTypeProvider21createValueFromStringEiRK7QStringPvm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN21QQmlValueTypeProvider21createValueFromStringEiRK7QStringPv{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN21QQmlValueTypeProvider21metaObjectForMetaTypeEi@Qt_5_PRIVATE_API 5.5.0 1
  _ZN21QQmlValueTypeProvider23createVariantFromStringERK7QString@Qt_5_PRIVATE_API 5.0.2 1
  _ZN21QQmlValueTypeProvider23createVariantFromStringEiRK7QStringPb@Qt_5_PRIVATE_API 5.0.2 1
@@ -945,7 +945,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN21QQmlValueTypeProvider4initEiR8QVariant@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQmlValueTypeProvider4readERK8QVariantPvi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQmlValueTypeProvider5equalEiPKvRK8QVariant@Qt_5_PRIVATE_API 5.6.0~beta 1
- _ZN21QQmlValueTypeProvider5storeEiPKvPvm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN21QQmlValueTypeProvider5storeEiPKvPv{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN21QQmlValueTypeProvider5writeEiPKvR8QVariant@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN21QQmlValueTypeProvider6createEiiPPKvP8QVariant@Qt_5_PRIVATE_API 5.0.2 1
  _ZN21QQmlValueTypeProviderC1Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -1157,7 +1157,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV412RegExpObject11builtinExecEPNS_15ExecutionEngineEPKNS_6StringE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV412RegExpObject11static_vtblE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV412RegExpObject14initPropertiesEv@Qt_5_PRIVATE_API 5.14.1 1
- _ZN3QV413MemoryManager11allocStringEm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN3QV413MemoryManager11allocStringE{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV413MemoryManager12collectRootsEPNS_9MarkStackE@Qt_5_PRIVATE_API 5.10.0 1
  _ZN3QV413MemoryManager15registerWeakMapEPNS_4Heap9MapObjectE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV413MemoryManager15registerWeakSetEPNS_4Heap9SetObjectE@Qt_5_PRIVATE_API 5.12.2 1
@@ -1165,7 +1165,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV413MemoryManager4markEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV413MemoryManager5runGCEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN3QV413MemoryManager5sweepEbPFvPKcE@Qt_5_PRIVATE_API 5.10.0 1
- _ZN3QV413MemoryManager9allocDataEm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN3QV413MemoryManager9allocDataE{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV413MemoryManagerC1EPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV413MemoryManagerC2EPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV413MemoryManagerD1Ev@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -1251,7 +1251,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV415ExecutionEngine14catchExceptionEP7QVectorINS_10StackFrameEE@Qt_5_PRIVATE_API 5.5.0 1
  _ZN3QV415ExecutionEngine14metaTypeFromJSEPKNS_5ValueEiPv@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV415ExecutionEngine14newArrayBufferERK10QByteArray@Qt_5_PRIVATE_API 5.5.0 1
- _ZN3QV415ExecutionEngine14newArrayBufferEm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN3QV415ExecutionEngine14newArrayBufferE{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV415ExecutionEngine14newArrayObjectEPKNS_5ValueEi@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN3QV415ExecutionEngine14newArrayObjectEPNS_4Heap13InternalClassE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV415ExecutionEngine14newArrayObjectERK11QStringList@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -1534,7 +1534,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV44Heap14StringOrSymbol11markObjectsEPNS0_4BaseEPNS_9MarkStackE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV44Heap14StringOrSymbol7destroyEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV44Heap17SharedArrayBuffer4initERK10QByteArray@Qt_5_PRIVATE_API 5.12.2 1
- _ZN3QV44Heap17SharedArrayBuffer4initEm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN3QV44Heap17SharedArrayBuffer4initE{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV44Heap17SharedArrayBuffer7destroyEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV44Heap4Base11markObjectsEPS1_PNS_9MarkStackE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN3QV44Heap6Module4initEPNS_15ExecutionEngineEPNS_25ExecutableCompilationUnitE@Qt_5_PRIVATE_API 5.14.1 1
@@ -1928,7 +1928,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN3QV49Profiling8Profiler13stopProfilingEv@Qt_5_PRIVATE_API 5.3.0 1
  _ZN3QV49Profiling8Profiler14startProfilingEy@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV49Profiling8Profiler16staticMetaObjectE@Qt_5_PRIVATE_API 5.3.0 1
- _ZN3QV49Profiling8Profiler9dataReadyERK5QHashIyNS0_16FunctionLocationEERK7QVectorINS0_22FunctionCallPropertiesEERKS7_INS0_26MemoryAllocationPropertiesEE@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZN3QV49Profiling8Profiler9dataReadyERK5QHashI{quintptr}NS0_16FunctionLocationEERK7QVectorINS0_22FunctionCallPropertiesEERKS7_INS0_26MemoryAllocationPropertiesEE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN3QV49Profiling8ProfilerC1EPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV49Profiling8ProfilerC2EPNS_15ExecutionEngineE@Qt_5_PRIVATE_API 5.4.0 1
  _ZN3QV49WeakValue4freeEv@Qt_5_PRIVATE_API 5.6.0~rc 1
@@ -2869,7 +2869,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK8QQmlType28containsRevisionedAttributesEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK8QQmlType28propertyValueInterceptorCastEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK8QQmlType5indexEv@Qt_5_PRIVATE_API 5.0.2 1
- _ZNK8QQmlType6createEPP7QObjectPPvm@Qt_5_PRIVATE_API 5.14.1 1
+ (subst)_ZNK8QQmlType6createEPP7QObjectPPv{size_t}@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK8QQmlType6createEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK8QQmlType6moduleEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK8QQmlType6typeIdEv@Qt_5_PRIVATE_API 5.0.2 1
@@ -2895,6 +2895,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK9QQmlTimer8intervalEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK9QQmlTimer9isRunningEv@Qt_5_PRIVATE_API 5.0.2 1
  (optional=templinst)_ZNSt13_Bvector_baseISaIbEE13_M_deallocateEv@Qt_5 5.4.2
+ (optional=templinst|arch=i386)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Qt_5 5.14.1
+ (optional=templinst|arch=i386)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Qt_5 5.14.1
  (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Qt_5 5.14.1
  (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Qt_5_PRIVATE_API 5.14.1 1
  (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceIN14QQmlTypeLoader4Blob13PendingImportESaIS2_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Qt_5_PRIVATE_API 5.14.1 1
@@ -2905,15 +2907,15 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorI11QModelIndexSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI11QModelIndexSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst|arch=!x32)_ZNSt6vectorI11QModelIndexSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
- (optional=templinst)_ZNSt6vectorI11QModelIndexSaIS0_EE7reserveEm@Qt_5 5.14.1
+ (optional=templinst|subst)_ZNSt6vectorI11QModelIndexSaIS0_EE7reserveE{size_t}@Qt_5 5.14.1
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.12.5
- (optional=templinst)_ZNSt6vectorI4QUrlSaIS0_EE7reserveEm@Qt_5 5.14.1
+ (optional=templinst|subst)_ZNSt6vectorI4QUrlSaIS0_EE7reserveE{size_t}@Qt_5 5.14.1
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE12emplace_backIJS0_EEERS0_DpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE17_M_realloc_insertIJRKS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE17_M_realloc_insertIJS0_EEEvN9__gnu_cxx17__normal_iteratorIPS0_S2_EEDpOT_@Qt_5 5.12.5
- (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EE7reserveEm@Qt_5 5.14.1
+ (optional=templinst|subst)_ZNSt6vectorI7QStringSaIS0_EE7reserveE{size_t}@Qt_5 5.14.1
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED1Ev@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorI7QStringSaIS0_EED2Ev@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIN21QAbstractAnimationJob14ChangeListenerESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Qt_5_PRIVATE_API 5.9.1 1
@@ -2926,24 +2928,23 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNSt6vectorIPKN3QV44Heap6StringESaIS4_EE17_M_realloc_insertIJS4_EEEvN9__gnu_cxx17__normal_iteratorIPS4_S6_EEDpOT_@Qt_5_PRIVATE_API 5.12.2 1
  (optional=templinst)_ZNSt6vectorISt4pairIPKciESaIS3_EE17_M_realloc_insertIJS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIbSaIbEE13_M_insert_auxESt13_Bit_iteratorb@Qt_5 5.10.0
- (optional=templinst|arch=alpha ppc64 s390x|subst)_ZNSt6vectorIbSaIbEE13_M_reallocateE{size_t}@Qt_5 5.12.5
- (optional=templinst|arch=armel armhf hppa i386 m68k mipsel powerpc sh4 x32)_ZNSt6vectorIbSaIbEE7reserveEj@Qt_5 5.12.2
+ (optional=templinst|arch=alpha i386 ppc64 s390x|subst)_ZNSt6vectorIbSaIbEE13_M_reallocateE{size_t}@Qt_5 5.12.5
  (optional=templinst|arch=amd64 arm64 ia64 mips64el ppc64el sparc64)_ZNSt6vectorIbSaIbEE7reserveEm@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIbSaIbEE9push_backEb@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIbSaIbEEC1ERKS1_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIbSaIbEEC2ERKS1_@Qt_5 5.10.0
- (optional=templinst)_ZNSt6vectorIcSaIcEE17_M_default_appendEm@Qt_5 5.14.1
- (optional=templinst|arch=!alpha !armel !hppa !hurd-i386 !ia64 !m68k !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sh4 !sparc64 !x32)_ZNSt6vectorIcSaIcEE17_M_realloc_insertIJRKcEEEvN9__gnu_cxx17__normal_iteratorIPcS1_EEDpOT_@Qt_5 5.12.2
+ (optional=templinst|arch=amd64)_ZNSt6vectorIcSaIcEE17_M_default_appendEm@Qt_5 5.14.1
+ (optional=templinst|arch=!alpha !armel !hppa !hurd-i386 !i386 !ia64 !m68k !mips !mips64el !mipsel !powerpc !ppc64 !ppc64el !s390x !sh4 !sparc64 !x32)_ZNSt6vectorIcSaIcEE17_M_realloc_insertIJRKcEEEvN9__gnu_cxx17__normal_iteratorIPcS1_EEDpOT_@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIdSaIdEE12emplace_backIJdEEERdDpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIdSaIdEE17_M_realloc_insertIJRKdEEEvN9__gnu_cxx17__normal_iteratorIPdS1_EEDpOT_@Qt_5 5.10.0
- (optional=templinst)_ZNSt6vectorIdSaIdEE7reserveEm@Qt_5 5.14.1
+ (optional=templinst|subst)_ZNSt6vectorIdSaIdEE7reserveE{size_t}@Qt_5 5.14.1
  (optional=templinst)_ZNSt6vectorIdSaIdEEC1ERKS1_@Qt_5 5.11.1
  (optional=templinst)_ZNSt6vectorIdSaIdEEC2ERKS1_@Qt_5 5.11.1
  (optional=templinst)_ZNSt6vectorIiSaIiEE12emplace_backIJiEEERiDpOT_@Qt_5 5.10.0
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJRKiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Qt_5 5.9.1
  (optional=templinst)_ZNSt6vectorIiSaIiEE17_M_realloc_insertIJiEEEvN9__gnu_cxx17__normal_iteratorIPiS1_EEDpOT_@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIiSaIiEE6insertEN9__gnu_cxx17__normal_iteratorIPKiS1_EERS4_@Qt_5 5.12.2
- (optional=templinst)_ZNSt6vectorIiSaIiEE7reserveEm@Qt_5 5.14.1
+ (optional=templinst|subst)_ZNSt6vectorIiSaIiEE7reserveE{size_t}@Qt_5 5.14.1
  (optional=templinst|arch=!alpha !hurd-i386 !i386 !mips !mipsel !powerpc !ppc64 !s390x)_ZNSt6vectorIiSaIiEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPiS1_EE@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIiSaIiEEC1ERKS1_@Qt_5 5.12.2
  (optional=templinst)_ZNSt6vectorIiSaIiEEC2ERKS1_@Qt_5 5.12.2
