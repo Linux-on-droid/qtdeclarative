@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: qtdeclarative-opensource-src
+Upstream-Name: qtdeclarative-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
 
 Files: *
-Copyright: 2016-2019 The Qt Company Ltd.
+Copyright: 2016-2020 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
 Files: debian/*
@@ -13,32 +13,35 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2018 Dmitry Shachnev <mitya57@debian.org>
+           2013-2020 Dmitry Shachnev <mitya57@debian.org>
            2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-3 or GPL-2+
 
 Files: *.qdoc
-Copyright: 2016-2018 The Qt Company Ltd.
+Copyright: 2016-2019 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 Files: tests/*
        tools/*
-Copyright: 2016-2019 The Qt Company Ltd.
+Copyright: 2016-2020 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 Files: examples/*
        src/qml/doc/snippets/*
+       src/qmlmodels/doc/snippets/*
+       src/qmltest/doc/snippets/*
+       src/qmlworkerscript/doc/snippets/*
        src/quick/doc/snippets/*
-       tests/auto/qml/qqmlecmascript/data/*
+       tests/auto/qml/qqmlecmascript/data/singletonTest.qml
+       tests/auto/qml/qqmlecmascript/data/singletonTest2.qml
        tests/auto/qml/qqmllanguage/data/*
+       tests/auto/qml/qqmlsqldatabase/data/changeVersion.qml
        tests/auto/qmltest/animatedimage/tst_animatedimage.qml
        tests/auto/qmltest/animations/tst_abstractanimationjobcrash.qml
        tests/auto/qmltest/fontloader/tst_fontloader.qml
        tests/auto/qmltest/gradient/tst_gradient.qml
        tests/auto/qmltest/image/tst_image.qml
-       tests/auto/qmltest/layout/Container.qml
-       tests/auto/qmltest/layout/ContainerUser.qml
-       tests/auto/qmltest/layout/tst_layout.qml
+       tests/auto/qmltest/layout/*
        tests/auto/qmltest/listmodel/tst_listmodel.qml
        tests/auto/qmltest/listview/*
        tests/auto/qmltest/objectmodel/tst_objectmodel.qml
@@ -52,6 +55,7 @@ Files: examples/*
        tests/auto/qmltest/url/tst_url.qml
        tests/auto/qmltest/window/tst_clickwindow.qml
        tests/auto/quick/qquickbehaviors/data/qtbug21549-2.qml
+       tests/auto/quick/qquickdroparea/data/*
        tests/auto/quick/qquickgridview/data/attachedProperties.qml
        tests/auto/quick/qquickgridview/data/margins2.qml
        tests/auto/quick/qquickgridview/data/qtbug49218.qml
@@ -59,8 +63,10 @@ Files: examples/*
        tests/auto/quick/qquicklistview/data/addoncompleted.qml
        tests/auto/quick/qquicklistview/data/attachedProperties.qml
        tests/auto/quick/qquicklistview/data/flickBothDirections.qml
+       tests/auto/quick/qquicklistview/data/moveObjectModelItemToAnotherObjectModel.qml
        tests/auto/quick/qquicklistview/data/outsideViewportChangeNotAffectingView.qml
        tests/auto/quick/qquicklistview/data/qtbug61537_modelChangesAsync.qml
+       tests/auto/quick/qquicklistview/data/resizeAfterComponentComplete.qml
        tests/auto/quick/qquicklistview/data/roundingErrors.qml
        tests/auto/quick/qquicklistview/data/setpositiononlayout.qml
        tests/auto/quick/qquicklistview/data/sizeTransitions.qml
@@ -73,22 +79,76 @@ Files: examples/*
        tests/benchmarks/qml/holistic/data/largeTargets/*
        tests/manual/highdpi/imageprovider.cpp
        tests/manual/nodetypes/*
+       tests/manual/nodetypes_ng/*
        tests/manual/pointer/content/MouseFeedbackSprite.qml
        tests/manual/pointer/content/TouchpointFeedbackSprite.qml
        tests/manual/qmltypememory/TestPlugin/plugin.cpp
        tests/manual/shapestest/shapestest.qml
+       tests/manual/tableview/storagemodel/storagemodel.cpp
+       tests/manual/tableview/storagemodel/storagemodel.h
        tests/manual/text/*
        tests/manual/touch/*
        tests/testapplications/animatedsprite/*
        tests/testapplications/listview/*
-       tools/qml/conf/configuration.qml
-       tools/qml/conf/qtquick.qml
-Copyright: 2016-2018 The Qt Company Ltd.
+       tools/qml/conf/*
+Copyright: 2016-2019 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/qml/ecmascripttests/test262/*
-Copyright: 2012 Ecma International
+Copyright: 2012-2017 Ecma International
+           1998 Robert D. Cameron
+           2009-2011 the Sputnik authors
+           2011-2012 Google Inc.
+           2011-2012 Norbert Lindenberg
+           2011-2018 the V8 project authors
+           2012-2018 Mozilla Corporation
+           2013-2017 Microsoft Corporation
+           2014 Hank Yates
+           2014 Ryan Lewis
+           2014 Sam Mikes
+           2014 Thomas Dahlstrom
+           2014-2015 Cubane Canada, Inc.
+           2014-2018 André Bargull
+           2014-2018 Valerie Young
+           2015 Zirak
+           2015-2017 Caitlin Potter
+           2015-2018 Jordan Harband
+           2015-2018 Leonardo Balter (Leo Balter)
+           2015-2018 Mike Pennisi
+           2015-2018 Rick Waldron
+           2016 Jeff Morrison
+           2016 Tim Disney
+           2016-2017 Aleksey Shvayka
+           2016-2017 Apple Inc.
+           2016-2017 Kevin Gibbons
+           2016-2017 Mathias Bynens
+           2016-2017 Robin Templeton
+           2016-2017 The V8 Project authors
+           2016-2018 Michael Ficarra
+           2017 Caio Lima
+           2017 Claude Pache
+           2017 Corey Frang
+           2017 Daniel Ehrenberg
+           2017 Ivan Vyshnevskyi
+           2017 Josh Wolfe
+           2017 K. Adam White
+           2017 Lucas Azzola
+           2017 Lyza Danger Gardner
+           2017 Michael "Z" Goddard
+           2017 Tooru Fujisawa
+           2017-2018 Igalia, S.L.
+           2018 Amal Hussein
+           2018 Shilpi Jain
+           2018 Viktor Mukhachev
 License: BSD-3-clause-Ecma
+
+Files: tests/auto/qml/ecmascripttests/test262/website/scripts/lib/jqueryprogressbar.js
+Copyright: 2007 Josh Bush
+License: Expat
+
+Files: tests/auto/qml/ecmascripttests/test262/website/scripts/lib/jquery.base64.js
+Copyright: 2012 Muhammad Hussein Fattahizadeh <muhammad@semnanweb.com>
+License: GPL-2+
 
 Files: tests/auto/qml/qqmllanguage/data/singleton/RegisteredCompositeSingletonType.qml
        tests/auto/qml/qqmllanguage/data/singleton/js/jspragma.js
@@ -238,7 +298,7 @@ Files: tests/auto/qmltest-blacklist/animators/tst_mixed.qml
 Copyright: 2016 Jolla Ltd.
 License: GPL-3 with Qt-1.0 exception
 
-Files: tests/auto/qml/qmllint/main.cpp
+Files: tests/auto/qml/qmllint/tst_qmllint.cpp
        tests/auto/quick/qquickanimations/data/animatorInvalidTargetCrash.qml
        tests/benchmarks/qml/qqmlchangeset/tst_qqmlchangeset.cpp
        tools/qmllint/main.cpp
@@ -279,11 +339,11 @@ Files: src/imports/models/plugin.cpp
        src/qml/qml/qqmlfileselector.cpp
        src/qml/qml/qqmlfileselector.h
        src/qml/qml/qqmlfileselector_p.h
-       src/qml/types/qqmlinstantiator.cpp
-       src/qml/types/qqmlinstantiator_p.h
-       src/qml/types/qqmlinstantiator_p_p.h
-       src/qml/types/qqmlmodelsmodule.cpp
-       src/qml/types/qqmlmodelsmodule_p.h
+       src/qmlmodels/qqmlinstantiator.cpp
+       src/qmlmodels/qqmlinstantiator_p.h
+       src/qmlmodels/qqmlinstantiator_p_p.h
+       src/qmlmodels/qqmlmodelsmodule.cpp
+       src/qmlmodels/qqmlmodelsmodule_p.h
        src/quick/items/qquickflickablebehavior_p.h
 Copyright: 2016 BlackBerry Limited (formerly Research In Motion)
 License: LGPL-3 or GPL-2+
@@ -1236,3 +1296,25 @@ License: CC0
   d. Affirmer understands and acknowledges that Creative Commons is not a
      party to this document and has no duty or obligation with respect to this
      CC0 or use of the Work.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated documentation
+ files (the "Software"), to deal in the Software without
+ restriction, including without limitation the rights to use,
+ copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following
+ conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+ OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
