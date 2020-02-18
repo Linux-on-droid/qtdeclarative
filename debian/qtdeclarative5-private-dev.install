@@ -1,6 +1,8 @@
 usr/include/*/qt5/QtPacketProtocol/*/QtPacketProtocol/private/*
 usr/include/*/qt5/QtQml/*/QtQml/private/*.h
 usr/include/*/qt5/QtQmlDebug/*/QtQmlDebug/private/*
+usr/include/*/qt5/QtQmlModels/*/QtQmlModels/private/*
+usr/include/*/qt5/QtQmlWorkerScript/*/QtQmlWorkerScript/private/*
 usr/include/*/qt5/QtQuick/*/QtQuick/private/*.h
 usr/include/*/qt5/QtQuickParticles/*/QtQuickParticles/private/*.h
 usr/include/*/qt5/QtQuickShapes/*/QtQuickShapes/private/*.h
@@ -10,7 +12,9 @@ usr/lib/*/qt5/mkspecs/modules/qt_lib_packetprotocol_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qml_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qmldebug_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qmldevtools_private.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_qmlmodels_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_qmltest_private.pri
+usr/lib/*/qt5/mkspecs/modules/qt_lib_qmlworkerscript_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_quick_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_quickparticles_private.pri
 usr/lib/*/qt5/mkspecs/modules/qt_lib_quickshapes_private.pri
