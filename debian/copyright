@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtdeclarative-everywhere-src
 Source: https://download.qt.io/official_releases/qt/*/submodules/
+Files-Excluded: tests/auto/qml/ecmascripttests/test262/website/scripts/lib/jquery-1.4.2.min.js
 
 Files: *
 Copyright: 2016-2020 The Qt Company Ltd.
