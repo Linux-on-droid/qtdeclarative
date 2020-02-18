@@ -7,6 +7,12 @@ qtdeclarative-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Bump ABI version to qtdeclarative-abi-5-14-1.
   * Fix qmllint test by using import path from environment variable.
   * Update .install files for existing packages.
+  * Add five new binary packages:
+    - libqt5qmlmodels5: QML Models support library.
+    - libqt5qmlworkerscript5: QML Worker Script support library.
+    - qml-module-qt-labs-animation: experimental QML types for animation.
+    - qml-module-qtqml: basic QML types.
+    - qml-module-qtqml-workerscript2: QML types for worker scripts.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Feb 2020 12:26:59 +0300
 

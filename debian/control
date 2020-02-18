@@ -43,6 +43,26 @@ Description: Qt 5 QML module
  developers to extend the QML language with custom types and integrate
  QML code with JavaScript and C++.
 
+Package: libqt5qmlmodels5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML Models library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt QML Models support library.
+
+Package: libqt5qmlworkerscript5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML Worker Script library
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt QML Worker Script support library.
+
 Package: libqt5quick5
 Architecture: any
 Multi-Arch: same
@@ -124,6 +144,16 @@ Description: Qt 5 qmltooling plugins
  .
  This package contains the qmltooling plugins.
 
+Package: qml-module-qt-labs-animation
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Qt.labs.animation QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains experimental QML types related to animation.
+
 Package: qml-module-qt-labs-folderlistmodel
 Architecture: any
 Multi-Arch: same
@@ -177,6 +207,16 @@ Description: Qt 5 Qt.labs.wavefrontmesh QML module
  .
  This QML module provides a mesh based on a Wavefront .obj file.
 
+Package: qml-module-qtqml
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QtQml QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains basic QML types.
+
 Package: qml-module-qtqml-models2
 Architecture: any
 Multi-Arch: same
@@ -198,6 +238,16 @@ Description: Qt 5 State Machine QML module
  is its rich set of widgets that provide standard GUI functionality.
  .
  The State Machine QML module.
+
+Package: qml-module-qtqml-workerscript2
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 QML Worker Script 2 QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This QML module contains types for using worker scripts.
 
 Package: qml-module-qtquick-particles2
 Architecture: any
