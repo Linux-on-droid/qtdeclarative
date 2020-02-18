@@ -1,0 +1,23 @@
+# SymbolsHelper-Confirmed: 5.14.1 amd64
+libQt5QmlWorkerScript.so.5 libqt5qmlworkerscript5 #MINVER#
+| libqt5qmlworkerscript5 #MINVER#, qtdeclarative-abi-5-14-1
+ Qt_5.0@Qt_5.0 5.14.1
+ Qt_5.10@Qt_5.10 5.14.1
+ Qt_5.11@Qt_5.11 5.14.1
+ Qt_5.12@Qt_5.12 5.14.1
+ Qt_5.13@Qt_5.13 5.14.1
+ Qt_5.14@Qt_5.14 5.14.1
+ Qt_5.1@Qt_5.1 5.14.1
+ Qt_5.2@Qt_5.2 5.14.1
+ Qt_5.3@Qt_5.3 5.14.1
+ Qt_5.4@Qt_5.4 5.14.1
+ Qt_5.5@Qt_5.5 5.14.1
+ Qt_5.6@Qt_5.6 5.14.1
+ Qt_5.7@Qt_5.7 5.14.1
+ Qt_5.8@Qt_5.8 5.14.1
+ Qt_5.9@Qt_5.9 5.14.1
+ Qt_5@Qt_5 5.14.1
+ Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.14.1 1
+ _ZN22QQmlWorkerScriptModule12defineModuleEv@Qt_5_PRIVATE_API 5.14.1 1
+ _ZN22QQmlWorkerScriptModule18registerQuickTypesEv@Qt_5_PRIVATE_API 5.14.1 1
+ _ZZZNK3QV414FunctionObject4callEPKNS_5ValueES3_iENKUlvE_clEvE15qstring_literal@Qt_5 5.14.1

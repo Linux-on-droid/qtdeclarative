@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.10.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.1 amd64
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER# | libqt5quickparticles5-gles #MINVER#
 | libqt5quickparticles5 #MINVER# | libqt5quickparticles5-gles #MINVER#, qtdeclarative-abi-5-14-1
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -54,7 +54,7 @@ libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER# | libqt5quickparticles5
  _ZN21QQuickParticleEmitter11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QQuickParticleEmitter11qt_metacastEPKc@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QQuickParticleEmitter12groupChangedERK7QString@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZN21QQuickParticleEmitter13emitParticlesE12QQmlV4Handle@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN21QQuickParticleEmitter13emitParticlesERK8QJSValue@Qt_5_PRIVATE_API 5.14.1 1
  _ZN21QQuickParticleEmitter13systemChangedEP20QQuickParticleSystem@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QQuickParticleEmitter14enabledChangedEb@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN21QQuickParticleEmitter15extruderChangedEP22QQuickParticleExtruder@Qt_5_PRIVATE_API 5.9.0~beta 1
@@ -142,11 +142,11 @@ libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER# | libqt5quickparticles5
  _ZTI20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
  _ZTI21QQuickParticleEmitter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTI22QQuickParticleAffector@Qt_5_PRIVATE_API 5.7.0 1
- _ZTIN9QV8Engine9DeletableE@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTIN3QV415ExecutionEngine9DeletableE@Qt_5_PRIVATE_API 5.14.1 1
  _ZTS20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
  _ZTS21QQuickParticleEmitter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTS22QQuickParticleAffector@Qt_5_PRIVATE_API 5.7.0 1
- _ZTSN9QV8Engine9DeletableE@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTSN3QV415ExecutionEngine9DeletableE@Qt_5_PRIVATE_API 5.14.1 1
  _ZTV20QQuickParticleSystem@Qt_5_PRIVATE_API 5.7.0 1
  _ZTV21QQuickParticleEmitter@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTV22QQuickParticleAffector@Qt_5_PRIVATE_API 5.7.0 1
