@@ -1,10 +1,9 @@
-qtdeclarative-opensource-src (5.14.1+dfsg-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.14.1+dfsg-3) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Install documentation for the new modules.
   * Update symbols files from buildds’ powerpc log.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 12:40:37 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 01 Mar 2020 22:20:48 +0300
 
 qtdeclarative-opensource-src (5.14.1+dfsg-2) experimental; urgency=medium
 
