@@ -2,6 +2,7 @@ qtdeclarative-opensource-src (5.14.1+dfsg-3) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Install documentation for the new modules.
+  * Update symbols files from buildds’ powerpc log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 12:40:37 +0300
 

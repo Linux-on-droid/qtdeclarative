@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64 armel armhf hppa i386 ia64 mips64el mipsel riscv64 sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 5.14.1 amd64 armel armhf hppa i386 ia64 mips64el mipsel powerpc riscv64 sh4 sparc64 x32
 libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
 | libqt5qmlmodels5 #MINVER#, qtdeclarative-abi-5-14-1
  Qt_5.0@Qt_5.0 5.14.1
@@ -486,7 +486,7 @@ libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
  _ZNK29QQmlAbstractDelegateComponent5valueEP16QQmlAdaptorModeliiRK7QString@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK29QQmlDelegateModelItemMetaType11parseGroupsERK11QStringList@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK29QQmlDelegateModelItemMetaType11parseGroupsERKN3QV45ValueE@Qt_5_PRIVATE_API 5.14.1 1
- (optional=templinst|arch=armel armhf i386 mipsel)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.14.1
+ (optional=templinst|arch=armel armhf i386 mipsel powerpc)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.14.1
  _ZTI12QQmlRefCount@Qt_5 5.14.1
  _ZTI13QQmlListModel@Qt_5_PRIVATE_API 5.14.1 1
  _ZTI14QQmlTableModel@Qt_5_PRIVATE_API 5.14.1 1
