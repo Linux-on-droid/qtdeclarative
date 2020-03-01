@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.14.1+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Mar 2020 12:40:37 +0300
+
 qtdeclarative-opensource-src (5.14.1+dfsg-2) experimental; urgency=medium
 
   * Update symbols files from buildds’ logs.
