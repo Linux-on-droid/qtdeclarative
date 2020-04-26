@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.14.1 amd64 armel armhf hppa i386 ia64 mips64el mipsel powerpc riscv64 sh4 sparc64 x32
 libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
-| libqt5qmlmodels5 #MINVER#, qtdeclarative-abi-5-14-1
+| libqt5qmlmodels5 #MINVER#, qtdeclarative-abi-5-14-2
  Qt_5.0@Qt_5.0 5.14.1
  Qt_5.10@Qt_5.10 5.14.1
  Qt_5.11@Qt_5.11 5.14.1
