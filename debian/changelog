@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.14.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.14.2.
+  * Drop debian/patches/escape_url_regex.patch, applied upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2020 20:29:48 +0300
 
