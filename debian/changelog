@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.14.2+dfsg-1) UNRELEASED; urgency=medium
   * Drop debian/patches/escape_url_regex.patch, applied upstream.
   * Refresh debian/patches/fix_test_remove_qlibraryinfo.patch.
   * Bump ABI version to qtdeclarative-abi-5-14-2.
+  * Update symbols files from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 26 Apr 2020 20:29:48 +0300
 

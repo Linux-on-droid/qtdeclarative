@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64 armel armhf hppa i386 ia64 mips64el mipsel powerpc riscv64 sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 5.14.2 amd64
 libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
 | libqt5qmlmodels5 #MINVER#, qtdeclarative-abi-5-14-2
  Qt_5.0@Qt_5.0 5.14.1
@@ -347,6 +347,7 @@ libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
  _ZN22QQmlTableInstanceModel32deleteAllFinishedIncubationTasksEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZN22QQmlTableInstanceModel6cancelEi@Qt_5_PRIVATE_API 5.14.1 1
  _ZN22QQmlTableInstanceModel6objectEiN13QQmlIncubator14IncubationModeE@Qt_5_PRIVATE_API 5.14.1 1
+ _ZN22QQmlTableInstanceModel7disposeEP7QObject@Qt_5_PRIVATE_API 5.14.2 1
  _ZN22QQmlTableInstanceModel7releaseEP7QObjectNS_12ReusableFlagE@Qt_5_PRIVATE_API 5.14.1 1
  _ZN22QQmlTableInstanceModel8setModelERK8QVariant@Qt_5_PRIVATE_API 5.14.1 1
  _ZN22QQmlTableInstanceModel9reuseItemEP21QQmlDelegateModelItemi@Qt_5_PRIVATE_API 5.14.1 1

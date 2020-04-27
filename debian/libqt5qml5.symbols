@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64 arm64 armel armhf hppa i386 ia64 mips64el mipsel powerpc ppc64el riscv64 sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 5.14.2 amd64
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-14-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -345,15 +345,9 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN13QQmlIncubatorD2Ev@Qt_5 5.0.2
  _ZN13QQmlValueType15objectDestroyedEP7QObject@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QQmlValueType19toDynamicMetaObjectEP7QObject@Qt_5_PRIVATE_API 5.5.0 1
- _ZN13QQmlValueType4readEP7QObjecti@Qt_5_PRIVATE_API 5.5.0 1
- _ZN13QQmlValueType5valueEv@Qt_5_PRIVATE_API 5.5.0 1
- _ZN13QQmlValueType5writeEP7QObjecti6QFlagsIN16QQmlPropertyData9WriteFlagEE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN13QQmlValueType8metaCallEP7QObjectN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.5.0 1
- _ZN13QQmlValueType8setValueERK8QVariant@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QQmlValueTypeC1EiPK11QMetaObject@Qt_5_PRIVATE_API 5.5.0 1
- _ZN13QQmlValueTypeC1Ev@Qt_5_PRIVATE_API 5.14.1 1
  _ZN13QQmlValueTypeC2EiPK11QMetaObject@Qt_5_PRIVATE_API 5.5.0 1
- _ZN13QQmlValueTypeC2Ev@Qt_5_PRIVATE_API 5.14.1 1
  _ZN13QQmlValueTypeD0Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QQmlValueTypeD1Ev@Qt_5_PRIVATE_API 5.5.0 1
  _ZN13QQmlValueTypeD2Ev@Qt_5_PRIVATE_API 5.5.0 1
@@ -854,6 +848,20 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN20QQmlDebuggingEnabler22nativeDebuggerServicesEv@Qt_5 5.9.0~beta
  _ZN20QQmlDebuggingEnablerC1Eb@Qt_5 5.0.2
  _ZN20QQmlDebuggingEnablerC2Eb@Qt_5 5.0.2
+ _ZN20QQmlGadgetPtrWrapper11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper11qt_metacastEPKc@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper16staticMetaObjectE@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper4readEP7QObjecti@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper5valueEv@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper5writeEP7QObjecti6QFlagsIN16QQmlPropertyData9WriteFlagEE@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper8instanceEP10QQmlEnginei@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper8metaCallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapper8setValueERK8QVariant@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapperC1EP13QQmlValueTypeP7QObject@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapperC2EP13QQmlValueTypeP7QObject@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapperD0Ev@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapperD1Ev@Qt_5_PRIVATE_API 5.14.2 1
+ _ZN20QQmlGadgetPtrWrapperD2Ev@Qt_5_PRIVATE_API 5.14.2 1
  _ZN20QQmlInspectorService11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN20QQmlInspectorService11qt_metacastEPKc@Qt_5_PRIVATE_API 5.0.2 1
  _ZN20QQmlInspectorService16staticMetaObjectE@Qt_5_PRIVATE_API 5.0.2 1
@@ -2629,6 +2637,8 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZNK19QQmlPropertyPrivate20propertyTypeCategoryEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK19QQmlPropertyPrivate4typeEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK20QDebugMessageService10metaObjectEv@Qt_5_PRIVATE_API 5.7.0 1
+ _ZNK20QQmlGadgetPtrWrapper10metaObjectEv@Qt_5_PRIVATE_API 5.14.2 1
+ _ZNK20QQmlGadgetPtrWrapper9valueTypeEv@Qt_5_PRIVATE_API 5.14.2 1
  _ZNK20QQmlInspectorService10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK20QQmlPropertyResolver6signalERK7QStringPb@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK20QQmlPropertyResolver8propertyERK7QStringPbNS_13RevisionCheckE@Qt_5_PRIVATE_API 5.14.1 1
@@ -3002,6 +3012,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTI19QQmlPropertyPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QDebugMessageService@Qt_5_PRIVATE_API 5.7.0 1
  _ZTI20QQmlComponentPrivate@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTI20QQmlGadgetPtrWrapper@Qt_5_PRIVATE_API 5.14.2 1
  _ZTI20QQmlInspectorService@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI21QQmlApplicationEngine@Qt_5 5.1.0
@@ -3216,6 +3227,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTS19QQmlPropertyPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QDebugMessageService@Qt_5_PRIVATE_API 5.7.0 1
  _ZTS20QQmlComponentPrivate@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTS20QQmlGadgetPtrWrapper@Qt_5_PRIVATE_API 5.14.2 1
  _ZTS20QQmlInspectorService@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS21QQmlApplicationEngine@Qt_5 5.1.0
@@ -3430,6 +3442,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZTV19QQmlPropertyPrivate@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QDebugMessageService@Qt_5_PRIVATE_API 5.7.0 1
  _ZTV20QQmlComponentPrivate@Qt_5_PRIVATE_API 5.0.2 1
+ _ZTV20QQmlGadgetPtrWrapper@Qt_5_PRIVATE_API 5.14.2 1
  _ZTV20QQmlInspectorService@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV21QQmlApplicationEngine@Qt_5 5.1.0
@@ -3619,10 +3632,6 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (c++)"non-virtual thunk to QQmlOpenMetaObjectType::~QQmlOpenMetaObjectType()@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QQmlTimer::classBegin()@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QQmlTimer::componentComplete()@Qt_5_PRIVATE_API" 5.0.2 1
- (c++)"non-virtual thunk to QQmlValueType::metaCall(QObject*, QMetaObject::Call, int, void**)@Qt_5_PRIVATE_API" 5.5.0 1
- (c++)"non-virtual thunk to QQmlValueType::objectDestroyed(QObject*)@Qt_5_PRIVATE_API" 5.5.0 1
- (c++)"non-virtual thunk to QQmlValueType::toDynamicMetaObject(QObject*)@Qt_5_PRIVATE_API" 5.5.0 1
- (c++)"non-virtual thunk to QQmlValueType::~QQmlValueType()@Qt_5_PRIVATE_API" 5.5.0 1
  qtDeclarativeHookData@Qt_5 5.7.1
  qt_v4DebuggerHook@Qt_5 5.5.0
  qt_v4ResolvePendingBreakpointsHook@Qt_5 5.5.0
