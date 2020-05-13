@@ -14,4 +14,4 @@ Last-Update: 2020-01-01
 +
  DEFINES += QT_NO_FOREACH
  
- !build_pass {
+ exists("qqml_enable_gcov") {

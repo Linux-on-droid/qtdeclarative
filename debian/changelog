@@ -1,3 +1,48 @@
+qtdeclarative-opensource-src (5.14.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.14.2.
+  * Drop debian/patches/escape_url_regex.patch, applied upstream.
+  * Refresh debian/patches/fix_test_remove_qlibraryinfo.patch.
+  * Bump ABI version to qtdeclarative-abi-5-14-2.
+  * Update symbols files from the current build log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 27 Apr 2020 13:33:59 +0300
+
+qtdeclarative-opensource-src (5.14.1+dfsg-3) experimental; urgency=medium
+
+  * Install documentation for the new modules.
+  * Update symbols files from buildds’ powerpc log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 01 Mar 2020 22:20:48 +0300
+
+qtdeclarative-opensource-src (5.14.1+dfsg-2) experimental; urgency=medium
+
+  * Update symbols files from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 26 Feb 2020 22:53:19 +0300
+
+qtdeclarative-opensource-src (5.14.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Refresh patches for the new release.
+  * Bump Qt build-dependencies to 5.14.1.
+  * Bump ABI version to qtdeclarative-abi-5-14-1.
+  * Fix qmllint test by using import path from environment variable.
+  * Update .install files for existing packages.
+  * Add five new binary packages:
+    - libqt5qmlmodels5: QML Models support library.
+    - libqt5qmlworkerscript5: QML Worker Script support library.
+    - qml-module-qt-labs-animation: experimental QML types for animation.
+    - qml-module-qtqml: basic QML types.
+    - qml-module-qtqml-workerscript2: QML types for worker scripts.
+  * Update symbols files from the current build log.
+  * Update debian/copyright.
+  * Exclude minified jQuery without source from the tarball.
+  * Bump Standards-Version to 4.5.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 19 Feb 2020 18:15:30 +0300
+
 qtdeclarative-opensource-src-gles (5.12.5-2) unstable; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.12.5-5 upload.
