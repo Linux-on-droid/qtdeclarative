@@ -3,6 +3,7 @@ qtdeclarative-opensource-src-gles (5.14.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Merge qtdeclarative-opensource-src 5.14.2+dfsg-1 upload.
   * Bump libqt5qml5 build-dependency to 5.14.2.
+  * Add a build-dependency on libqt5qmlmodels5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 13 May 2020 13:09:18 +0300
 
