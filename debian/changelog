@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.14.2+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Update symbols files for GCC 10 (closes: #957729).
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 23 Jul 2020 12:02:25 +0300
 

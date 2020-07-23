@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64
+# SymbolsHelper-Confirmed: 5.14.2 amd64 i386
 libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
 | libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#, qtdeclarative-abi-5-14-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -3778,7 +3778,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN36QQuickDesignerSupportPropertyChanges15detachFromStateEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16changeExpressionEP7QObjectRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16isNormalPropertyERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.9.1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -4979,7 +4978,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZNK9QSGEngine19createRectangleNodeEv@Qt_5 5.9.0~beta
  _ZNK9QSGEngine19createTextureFromIdEjRK5QSize6QFlagsINS_19CreateTextureOptionEE@Qt_5 5.4.0
  _ZNK9QSGEngine22createTextureFromImageERK6QImage6QFlagsINS_19CreateTextureOptionEE@Qt_5 5.4.0
- (optional=templinst|arch=armel armhf hurd-i386 i386 kfreebsd-i386 m68k mips mipsel powerpc powerpcspe)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.9.1
  _ZTI10QQuickItem@Qt_5 5.0.2
  _ZTI10QQuickPath@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZTI10QQuickText@Qt_5_PRIVATE_API 5.0.2 1

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 amd64
+# SymbolsHelper-Confirmed: 5.14.2 amd64 i386
 libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
 | libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-14-2
  Qt_5.0@Qt_5.0 5.6.0~beta
@@ -131,8 +131,6 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZNK15QuickTestResult9tagsToRunEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZNK20QuickTestImageObject10metaObjectEv@Qt_5 5.0.2
  _ZNK24QQuickTouchEventSequence10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
- (optional=templinst)_ZNSt14_Function_base13_Base_managerIPFP7QObjectP10QQmlEngineP9QJSEngineEE10_M_managerERSt9_Any_dataRKSA_St18_Manager_operation@Qt_5 5.14.1
- (optional=templinst)_ZNSt17_Function_handlerIFP7QObjectP10QQmlEngineP9QJSEngineEPS6_E9_M_invokeERKSt9_Any_dataOS3_OS5_@Qt_5 5.14.1
  _ZTI14QuickTestEvent@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI15QuickTestResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QuickTestImageObject@Qt_5 5.0.2
