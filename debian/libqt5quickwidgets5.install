@@ -1,1 +1,1 @@
-usr/lib/*/libQt5QuickWidgets.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5QuickWidgets.so.*

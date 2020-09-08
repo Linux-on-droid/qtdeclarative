@@ -1,1 +1,1 @@
-usr/lib/*/libQt5Quick.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5Quick.so.*

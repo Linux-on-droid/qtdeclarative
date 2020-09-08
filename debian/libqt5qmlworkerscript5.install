@@ -1,1 +1,1 @@
-usr/lib/*/libQt5QmlWorkerScript.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5QmlWorkerScript.so.*

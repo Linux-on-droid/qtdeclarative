@@ -1,1 +1,1 @@
-usr/lib/*/libQt5QuickParticles.so.*
+usr/lib/${DEB_HOST_MULTIARCH}/libQt5QuickParticles.so.*

@@ -1,6 +1,6 @@
-usr/lib/*/qt5/qml/QtTest/SignalSpy.qml
-usr/lib/*/qt5/qml/QtTest/TestCase.qml
-usr/lib/*/qt5/qml/QtTest/libqmltestplugin.so
-usr/lib/*/qt5/qml/QtTest/plugins.qmltypes
-usr/lib/*/qt5/qml/QtTest/qmldir
-usr/lib/*/qt5/qml/QtTest/testlogger.js
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/SignalSpy.qml
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/TestCase.qml
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/libqmltestplugin.so
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/plugins.qmltypes
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/qmldir
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/testlogger.js
