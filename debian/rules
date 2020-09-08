@@ -19,7 +19,7 @@ override_dh_auto_clean:
 	rm -rf $(CURDIR)/.local
 
 override_dh_auto_configure:
-	dh_auto_configure -- QT_BUILD_PARTS+=tests
+	dh_auto_configure -- QT_BUILD_PARTS+=tests QMAKE_PYTHON=python3
 
 override_dh_auto_build-indep:
 	dh_auto_build -- docs
