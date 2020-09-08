@@ -1,7 +1,7 @@
 Description: Make sure that tests run with just compiled versions of tools
 Author: Sandro Knauß <bugs@sandroknauss.de>
 Origin: Debian
-Last-Update: 2019-04-19
+Last-Update: 2020-09-08
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 
@@ -19,7 +19,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/tests/auto/qml/qmlmin/tst_qmlmin.cpp
 +++ b/tests/auto/qml/qmlmin/tst_qmlmin.cpp
-@@ -65,7 +65,7 @@ tst_qmlmin::tst_qmlmin()
+@@ -68,7 +68,7 @@ tst_qmlmin::tst_qmlmin()
  void tst_qmlmin::initTestCase()
  {
  #if QT_CONFIG(process) && !defined(QTEST_CROSS_COMPILED) // sources not available when cross compiled
@@ -30,12 +30,12 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  #endif
 --- a/tests/auto/qml/debugger/qdebugmessageservice/tst_qdebugmessageservice.cpp
 +++ b/tests/auto/qml/debugger/qdebugmessageservice/tst_qdebugmessageservice.cpp
-@@ -136,7 +136,7 @@ QList<QQmlDebugClient *> tst_QDebugMessa
+@@ -135,7 +135,7 @@ QList<QQmlDebugClient *> tst_QDebugMessa
  
  void tst_QDebugMessageService::retrieveDebugOutput()
  {
--    QCOMPARE(QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
-+    QCOMPARE(QQmlDebugTest::connect(TESTBINDIR "/qml",
+-    QCOMPARE(QQmlDebugTest::connectTo(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
++    QCOMPARE(QQmlDebugTest::connectTo(TESTBINDIR "/qml",
                                      QString(), testFile(QMLFILE), true), ConnectSuccess);
  
      QTRY_VERIFY(m_client->logBuffer.size() >= 2);
@@ -76,11 +76,11 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/tests/auto/qml/debugger/qqmlenginecontrol/tst_qqmlenginecontrol.cpp
 +++ b/tests/auto/qml/debugger/qqmlenginecontrol/tst_qqmlenginecontrol.cpp
 @@ -82,7 +82,7 @@ private slots:
- QQmlDebugTest::ConnectResult tst_QQmlEngineControl::connect(const QString &file,
+ QQmlDebugTest::ConnectResult tst_QQmlEngineControl::connectTo(const QString &file,
                                                              bool restrictServices)
  {
--    return QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene",
-+    return QQmlDebugTest::connect(TESTBINDIR "/qmlscene",
+-    return QQmlDebugTest::connectTo(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene",
++    return QQmlDebugTest::connectTo(TESTBINDIR "/qmlscene",
                                    restrictServices ? QStringLiteral("EngineControl") : QString(),
                                    testFile(file), true);
  }
@@ -90,8 +90,8 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  QQmlDebugTest::ConnectResult tst_QQmlInspector::startQmlProcess(const QString &qmlFile,
                                                                  bool restrictServices)
  {
--    return QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
-+    return QQmlDebugTest::connect(TESTBINDIR "/qml",
+-    return QQmlDebugTest::connectTo(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
++    return QQmlDebugTest::connectTo(TESTBINDIR "/qml",
                                    restrictServices ? QStringLiteral("QmlInspector") : QString(),
                                    testFile(qmlFile), true);
  }
@@ -100,7 +100,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 @@ -88,7 +88,7 @@ QQmlEngineDebugObjectReference tst_QQmlE
  QQmlDebugTest::ConnectResult tst_QQmlEngineDebugInspectorIntegration::init(bool restrictServices)
  {
-     return QQmlDebugTest::connect(
+     return QQmlDebugTest::connectTo(
 -                QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
 +                TESTBINDIR "/qml",
                  restrictServices ? QStringLiteral("QmlDebugger,QmlInspector") : QString(),
@@ -110,7 +110,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 +++ b/tests/auto/qml/debugger/qqmlprofilerservice/tst_qqmlprofilerservice.cpp
 @@ -203,8 +203,7 @@ private:
  
-     ConnectResult connect(bool block, const QString &file, bool recordFromStart = true,
+     ConnectResult connectTo(bool block, const QString &file, bool recordFromStart = true,
                            uint flushInterval = 0, bool restrictServices = true,
 -                          const QString &executable
 -            = QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene");
@@ -120,7 +120,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      void checkJsHeap();
 --- a/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
 +++ b/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
-@@ -104,7 +104,7 @@ static bool generateCache(const QString
+@@ -106,7 +106,7 @@ static bool generateCache(const QString
      QProcess proc;
      if (capturedStderr == nullptr)
          proc.setProcessChannelMode(QProcess::ForwardedChannels);
@@ -129,9 +129,20 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      proc.setArguments(QStringList() << qmlFileName);
      proc.start();
      if (!proc.waitForFinished())
+--- a/tests/auto/qml/qmlformat/tst_qmlformat.cpp
++++ b/tests/auto/qml/qmlformat/tst_qmlformat.cpp
+@@ -81,7 +81,7 @@ private:
+ void TestQmlformat::initTestCase()
+ {
+     QQmlDataTest::initTestCase();
+-    m_qmlformatPath = QLibraryInfo::location(QLibraryInfo::BinariesPath) + QLatin1String("/qmlformat");
++    m_qmlformatPath = QStringLiteral(TESTBINDIR "/qmlformat");
+ #ifdef Q_OS_WIN
+     m_qmlformatPath += QLatin1String(".exe");
+ #endif
 --- a/tests/auto/qml/qmllint/tst_qmllint.cpp
 +++ b/tests/auto/qml/qmllint/tst_qmllint.cpp
-@@ -51,7 +51,7 @@ private:
+@@ -59,7 +59,7 @@ private:
  void TestQmllint::initTestCase()
  {
      QQmlDataTest::initTestCase();
@@ -140,33 +151,15 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  #ifdef Q_OS_WIN
      m_qmllintPath += QLatin1String(".exe");
  #endif
-@@ -78,7 +78,7 @@ void TestQmllint::test_data()
+@@ -214,7 +214,7 @@ void TestQmllint::cleanQmlCode()
  
- void TestQmllint::testUnqualified()
+ QString TestQmllint::runQmllint(const QString &fileToLint, bool shouldSucceed)
  {
 -    auto qmlImportDir = QLibraryInfo::location(QLibraryInfo::Qml2ImportsPath);
 +    auto qmlImportDir = QString::fromUtf8(qgetenv("QML2_IMPORT_PATH"));
-     QFETCH(QString, filename);
-     QFETCH(QString, warningMessage);
-     QFETCH(int, warningLine);
-@@ -122,7 +122,7 @@ void TestQmllint::testUnqualified_data()
- 
- void TestQmllint::testUnqualifiedNoSpuriousParentWarning()
- {
--    auto qmlImportDir = QLibraryInfo::location(QLibraryInfo::Qml2ImportsPath);
-+    auto qmlImportDir = QString::fromUtf8(qgetenv("QML2_IMPORT_PATH"));
-     {
-         QString filename = testFile("spuriousParentWarning.qml");
-         QStringList args;
-@@ -147,7 +147,7 @@ void TestQmllint::testUnqualifiedNoSpuri
- 
- void TestQmllint::catchIdentifierNoFalsePositive()
- {
--    auto qmlImportDir = QLibraryInfo::location(QLibraryInfo::Qml2ImportsPath);
-+    auto qmlImportDir = QString::fromUtf8(qgetenv("QML2_IMPORT_PATH"));
-     QString filename = QLatin1String("catchIdentifierNoWarning.qml");
-     filename.prepend(QStringLiteral("data/"));
      QStringList args;
+     args << QStringLiteral("-U") << testFile(fileToLint)
+          << QStringLiteral("-I") << qmlImportDir
 --- a/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
 +++ b/tests/auto/qml/qmlplugindump/tst_qmlplugindump.cpp
 @@ -62,7 +62,7 @@ tst_qmlplugindump::tst_qmlplugindump()
@@ -178,19 +171,6 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
  #if defined(Q_OS_WIN)
      qmlplugindumpPath += QLatin1String("/qmlplugindump.exe");
---- a/tests/auto/quick/examples/tst_examples.cpp
-+++ b/tests/auto/quick/examples/tst_examples.cpp
-@@ -167,8 +167,8 @@ void tst_examples::namingConvention(cons
- void tst_examples::namingConvention()
- {
-     QStringList examplesLocations;
--    examplesLocations << QLibraryInfo::location(QLibraryInfo::ExamplesPath) + QLatin1String("/qml");
--    examplesLocations << QLibraryInfo::location(QLibraryInfo::ExamplesPath) + QLatin1String("/quick");
-+    examplesLocations << QLatin1String(TESTEXAMPLEDIR "/qml");
-+    examplesLocations << QLatin1String(TESTEXAMPLEDIR "/quick");
- 
-     foreach(const QString &examples, examplesLocations) {
-         QDir d(examples);
 --- a/tests/auto/qml/debugger/qqmldebugjs/tst_qqmldebugjs.cpp
 +++ b/tests/auto/qml/debugger/qqmldebugjs/tst_qqmldebugjs.cpp
 @@ -178,7 +178,7 @@ QQmlDebugTest::ConnectResult tst_QQmlDeb
@@ -200,7 +180,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 -            ? QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qmlscene"
 +            ? TESTBINDIR "/qmlscene"
              : debugJsServerPath("qqmldebugjs");
-     return QQmlDebugTest::connect(
+     return QQmlDebugTest::connectTo(
                  executable, restrictServices ? QStringLiteral("V8Debugger") : QString(),
 @@ -471,7 +471,7 @@ void tst_QQmlDebugJS::setBreakpointInJav
  
@@ -232,20 +212,31 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      QProcess process;
  
      QTemporaryFile infile;
+--- a/tests/auto/qml/debugger/qqmldebugtranslationservice/tst_qqmldebugtranslationservice.cpp
++++ b/tests/auto/qml/debugger/qqmldebugtranslationservice/tst_qqmldebugtranslationservice.cpp
+@@ -66,7 +66,7 @@ QList<QQmlDebugClient *> tst_QQmlDebugTr
+ 
+ void tst_QQmlDebugTranslationService::pluginConnection()
+ {
+-    auto executable = QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml";
++    auto executable = QStringLiteral(TESTBINDIR "/qml");
+     auto services = "DebugTranslation";
+     auto extraArgs = testFile(QMLFILE);
+     auto block = true;
 --- a/tests/auto/qml/debugger/qqmlpreview/tst_qqmlpreview.cpp
 +++ b/tests/auto/qml/debugger/qqmlpreview/tst_qqmlpreview.cpp
 @@ -74,7 +74,7 @@ private slots:
  
  QQmlDebugTest::ConnectResult tst_QQmlPreview::startQmlProcess(const QString &qmlFile)
  {
--    return QQmlDebugTest::connect(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
-+    return QQmlDebugTest::connect(QStringLiteral(TESTBINDIR "/qml"),
+-    return QQmlDebugTest::connectTo(QLibraryInfo::location(QLibraryInfo::BinariesPath) + "/qml",
++    return QQmlDebugTest::connectTo(QStringLiteral(TESTBINDIR "/qml"),
                                    QStringLiteral("QmlPreview"), testFile(qmlFile), true);
  }
  
 --- a/tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
 +++ b/tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
-@@ -9214,7 +9214,7 @@ void tst_qqmlecmascript::hugeStack()
+@@ -9248,7 +9248,7 @@ void tst_qqmlecmascript::hugeStack()
  
  void tst_qqmlecmascript::gcCrashRegressionTest()
  {
@@ -254,3 +245,16 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      if (!QFile::exists(qmljs)) {
          QSKIP("Tets requires qmljs");
      }
+--- a/tests/auto/quick/examples/tst_examples.cpp
++++ b/tests/auto/quick/examples/tst_examples.cpp
+@@ -167,8 +167,8 @@ void tst_examples::namingConvention(cons
+ void tst_examples::namingConvention()
+ {
+     QStringList examplesLocations;
+-    examplesLocations << QLibraryInfo::location(QLibraryInfo::ExamplesPath) + QLatin1String("/qml");
+-    examplesLocations << QLibraryInfo::location(QLibraryInfo::ExamplesPath) + QLatin1String("/quick");
++    examplesLocations << QLatin1String(TESTEXAMPLEDIR "/qml");
++    examplesLocations << QLatin1String(TESTEXAMPLEDIR "/quick");
+ 
+     foreach(const QString &examples, examplesLocations) {
+         QDir d(examples);

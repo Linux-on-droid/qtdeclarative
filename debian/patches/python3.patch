@@ -5,17 +5,6 @@ Author: Antonio Larrosa <alarrosa@suse.com>
 Forwarded: not-yet
 Last-Update: 2020-01-01
 
---- a/qtdeclarative.pro
-+++ b/qtdeclarative.pro
-@@ -2,7 +2,7 @@ CONFIG += tests_need_tools examples_need
- load(qt_parts)
- 
- !python_available {
--    py_out = $$system('python -c "print(1)"')
-+    py_out = $$system('python3 -c "print(1)"')
-     !equals(py_out, 1): error("Building QtQml requires Python.")
-     tmp = python_available
-     CONFIG += $$tmp
 --- a/src/3rdparty/masm/disassembler/udis86/itab.py
 +++ b/src/3rdparty/masm/disassembler/udis86/itab.py
 @@ -268,13 +268,13 @@ class UdItabGenerator( ud_opcode.UdOpcod
@@ -70,23 +59,3 @@ Last-Update: 2020-01-01
  
  
  def parse( xml, callback ):
---- a/src/3rdparty/masm/masm.pri
-+++ b/src/3rdparty/masm/masm.pri
-@@ -58,7 +58,7 @@ contains(DEFINES, WTF_USE_UDIS86=1) {
-     udis86.output = udis86_itab.h
-     udis86.input = ITAB
-     udis86.CONFIG += no_link
--    udis86.commands = python $$PWD/disassembler/udis86/itab.py ${QMAKE_FILE_IN}
-+    udis86.commands = python3 $$PWD/disassembler/udis86/itab.py ${QMAKE_FILE_IN}
-     QMAKE_EXTRA_COMPILERS += udis86
- 
-     udis86_tab_cfile.target = $$OUT_PWD/udis86_itab.c
-@@ -111,7 +111,7 @@ retgen.output = $$GENERATEDDIR/RegExpJit
- retgen.script = $$PWD/yarr/create_regex_tables
- retgen.input = retgen.script
- retgen.CONFIG += no_link
--retgen.commands = python $$retgen.script > ${QMAKE_FILE_OUT}
-+retgen.commands = python3 $$retgen.script > ${QMAKE_FILE_OUT}
- QMAKE_EXTRA_COMPILERS += retgen
- 
- # Taken from WebKit/Tools/qmake/mkspecs/features/unix/default_post.prf

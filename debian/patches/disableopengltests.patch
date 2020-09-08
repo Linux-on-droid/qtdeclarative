@@ -17,7 +17,7 @@ Last-Update: 2019-03-14
  
 --- a/tests/auto/qml/debugger/debugger.pro
 +++ b/tests/auto/qml/debugger/debugger.pro
-@@ -7,7 +7,6 @@ PUBLICTESTS += \
+@@ -8,7 +8,6 @@ PUBLICTESTS += \
      qqmlenginedebugservice \
      qqmldebugjs \
      qqmlinspector \
