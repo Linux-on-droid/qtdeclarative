@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
   * Rebase patches for the new release.
   * Pass QMAKE_PYTHON=python3 to qmake.
   * Bump Qt build-dependencies to 5.15.1.
+  * Update symbols files from buildds’ logs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 16:10:36 +0300
 
