@@ -17,6 +17,7 @@ qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
   * Update install files for the new release.
   * Update symbols files from the current build log.
   * Add Build-Depends-Package(s) fields to the symbols files.
+  * Minor debian/copyright updates.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 16:10:36 +0300
 
