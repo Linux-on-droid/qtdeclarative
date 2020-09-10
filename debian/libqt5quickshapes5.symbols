@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 5.12.2 amd64
+# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
 libQt5QuickShapes.so.5 libqt5quickshapes5 #MINVER#
 | libqt5quickshapes5 #MINVER#, qtdeclarative-abi-5-15-1
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.12.2 1
+ _Z33qml_register_types_QtQuick_Shapesv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN11QQuickShape10classBeginEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZN11QQuickShape10itemChangeEN10QQuickItem10ItemChangeERKNS0_14ItemChangeDataE@Qt_5_PRIVATE_API 5.12.2 1
  _ZN11QQuickShape11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.12.2 1
@@ -55,6 +56,7 @@ libQt5QuickShapes.so.5 libqt5quickshapes5 #MINVER#
  _ZN15QQuickShapePathD0Ev@Qt_5_PRIVATE_API 5.12.2 1
  _ZN15QQuickShapePathD1Ev@Qt_5_PRIVATE_API 5.12.2 1
  _ZN15QQuickShapePathD2Ev@Qt_5_PRIVATE_API 5.12.2 1
+ _ZN18QQuickShapesModule12defineModuleEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN19QQuickShapeGradient11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.12.2 1
  _ZN19QQuickShapeGradient11qt_metacastEPKc@Qt_5_PRIVATE_API 5.12.2 1
  _ZN19QQuickShapeGradient13spreadChangedEv@Qt_5_PRIVATE_API 5.12.2 1

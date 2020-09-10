@@ -15,6 +15,7 @@ qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
   * Run install in all directories when installing files to test_root,
     this is now needed to get plugins.qmltypes files installed.
   * Update install files for the new release.
+  * Update symbols files from the current build log.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 16:10:36 +0300
 
