@@ -1,3 +1,5 @@
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/Qt/test/qtestroot/plugins.qmltypes
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/Qt/test/qtestroot/qmldir
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/SignalSpy.qml
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/TestCase.qml
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/qml/QtTest/libqmltestplugin.so
