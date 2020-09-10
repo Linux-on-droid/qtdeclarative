@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.1+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Rebase patches for the new release.
   * Pass QMAKE_PYTHON=python3 to qmake.
@@ -19,7 +18,7 @@ qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
   * Add Build-Depends-Package(s) fields to the symbols files.
   * Minor debian/copyright updates.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 16:10:36 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 10 Sep 2020 21:28:43 +0300
 
 qtdeclarative-opensource-src (5.14.2+dfsg-3) unstable; urgency=medium
 
