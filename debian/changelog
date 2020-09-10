@@ -14,6 +14,7 @@ qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
     - Use ${DEB_HOST_MULTIARCH} substitution.
   * Run install in all directories when installing files to test_root,
     this is now needed to get plugins.qmltypes files installed.
+  * Update install files for the new release.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 16:10:36 +0300
 

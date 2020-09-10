@@ -8,11 +8,12 @@ usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QJSValueIterator
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QJSValueList
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlAbstractUrlInterceptor
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlApplicationEngine
-usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlAttachedPropertiesFunc
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlComponent
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlContext
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlDebuggingEnabler
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlEngine
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlEngineExtensionInterface
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlEngineExtensionPlugin
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlError
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlExpression
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlExtensionInterface
@@ -25,6 +26,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlIncubator
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlInfo
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlListProperty
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlListReference
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlModuleRegistration
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlNetworkAccessManagerFactory
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlParserStatus
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlProperties
@@ -34,6 +36,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlPropertyValueSource
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlScriptString
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlTypeInfo
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QQmlTypesExtensionInterface
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QmlTypeAndRevisionsRegistration
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QtQml
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QtQmlDepends
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/QtQmlVersion
@@ -56,6 +59,7 @@ usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlfileselector.h
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlincubator.h
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlinfo.h
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmllist.h
+usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlmoduleregistration.h
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlnetworkaccessmanagerfactory.h
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlparserstatus.h
 usr/include/${DEB_HOST_MULTIARCH}/qt5/QtQml/qqmlprivate.h
@@ -244,6 +248,13 @@ usr/lib/${DEB_HOST_MULTIARCH}/libQt5QuickTest.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt5QuickTest.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt5QuickWidgets.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt5QuickWidgets.so
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5qml_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5qmlmodels_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5qmlworkerscript_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5quick_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5quickparticles_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5quickshapes_metatypes.json
+usr/lib/${DEB_HOST_MULTIARCH}/metatypes/qt5quicktest_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt5Qml.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt5QmlModels.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt5QmlWorkerScript.pc
@@ -251,6 +262,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt5Quick.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt5QuickTest.pc
 usr/lib/${DEB_HOST_MULTIARCH}/pkgconfig/Qt5QuickWidgets.pc
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/features/qmlcache.prf
+usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/features/qmltypes.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/features/qtquickcompiler.prf
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_qml.pri
 usr/lib/${DEB_HOST_MULTIARCH}/qt5/mkspecs/modules/qt_lib_qmlmodels.pri
