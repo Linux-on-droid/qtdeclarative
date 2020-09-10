@@ -56,7 +56,7 @@ override_dh_link:
 
 override_dh_auto_test-arch:
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
-	$(MAKE) install -Csrc/imports INSTALL_ROOT=$(CURDIR)/test_root
+	$(MAKE) install INSTALL_ROOT=$(CURDIR)/test_root
 	mkdir -p $(CURDIR)/.local/share/QtProject/tst_qqmlengine
 	# - hppa: QML engine is broken, bug missing
 	# - ia64: QML engine is broken, see bug #929682

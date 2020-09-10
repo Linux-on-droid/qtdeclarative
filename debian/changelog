@@ -12,6 +12,8 @@ qtdeclarative-opensource-src (5.15.1+dfsg-1) UNRELEASED; urgency=medium
     - Stop exporting $HOME and $XDG_RUNTIME_DIR for tests, debhelper now
       does that itself.
     - Use ${DEB_HOST_MULTIARCH} substitution.
+  * Run install in all directories when installing files to test_root,
+    this is now needed to get plugins.qmltypes files installed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 08 Sep 2020 16:10:36 +0300
 
