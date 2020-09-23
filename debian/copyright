@@ -92,7 +92,7 @@ Files: examples/*
        tests/testapplications/animatedsprite/*
        tests/testapplications/listview/*
        tools/qml/conf/*
-Copyright: 2016-2019 The Qt Company Ltd.
+Copyright: 2016-2020 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/qml/ecmascripttests/test262/*
@@ -193,7 +193,8 @@ Copyright: 2014 Gunnar Sletta <gunnar@sletta.org>
 License: BSD-3-clause
 
 Files: src/quick/doc/snippets/qml/itemGrab.qml
-Copyright: 2014 Jolla Ltd.
+       tests/auto/quick/qquicktext/data/lineLayoutImplicitWidth.qml
+Copyright: 2014-2019 Jolla Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/quick/qquickpathview/data/qtbug37815.qml
@@ -390,11 +391,12 @@ Copyright: 2016 Jolla Ltd.
            2016 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
-Files: src/quick/scenegraph/coreapi/qsgmaterialshader_p.h
+Files: src/particles/qquickparticleflatset_p.h
+       src/quick/scenegraph/coreapi/qsgmaterialshader_p.h
        src/quick/scenegraph/coreapi/qsgnode_p.h
        src/quick/scenegraph/util/qsgshadersourcebuilder.cpp
        src/quick/scenegraph/util/qsgshadersourcebuilder_p.h
-Copyright: 2016 Klarälvdalens Datakonsult AB, a KDAB Group company
+Copyright: 2016-2020 Klarälvdalens Datakonsult AB, a KDAB Group company
 License: LGPL-3 or GPL-2+
 
 Files: src/3rdparty/masm/*

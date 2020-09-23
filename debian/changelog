@@ -1,3 +1,37 @@
+qtdeclarative-opensource-src (5.15.1+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Rebase patches for the new release.
+  * Pass QMAKE_PYTHON=python3 to qmake.
+  * Bump Qt build-dependencies to 5.15.1.
+  * Update symbols files from buildds’ logs.
+  * Bump ABI version to qtdeclarative-abi-5-15-1.
+  * Update to debhelper compat level 13.
+    - Drop dh_missing override, --fail-missing is now default behavior.
+    - Stop exporting $HOME and $XDG_RUNTIME_DIR for tests, debhelper now
+      does that itself.
+    - Use ${DEB_HOST_MULTIARCH} substitution.
+  * Run install in all directories when installing files to test_root,
+    this is now needed to get plugins.qmltypes files installed.
+  * Update install files for the new release.
+  * Update symbols files from the current build log.
+  * Add Build-Depends-Package(s) fields to the symbols files.
+  * Minor debian/copyright updates.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 10 Sep 2020 21:28:43 +0300
+
+qtdeclarative-opensource-src (5.14.2+dfsg-3) unstable; urgency=medium
+
+  * Update symbols files for GCC 10 (closes: #957729).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 23 Jul 2020 12:14:35 +0300
+
+qtdeclarative-opensource-src (5.14.2+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 24 Jun 2020 11:23:21 +0300
+
 qtdeclarative-opensource-src-gles (5.14.2+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.
