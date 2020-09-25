@@ -15,3 +15,6 @@ qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object 
 qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-209067.js *
 qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-307456.js *
 qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/parserstress/tests/ecma_3/RegExp/regress-307456.js *
+# this file is not minified, "min" in its name means a different thing
+qtdeclarative-opensource-src source: source-contains-prebuilt-javascript-object tests/auto/qml/ecmascripttests/test262/test/built-ins/Date/prototype/setHours/this-value-valid-date-min.js
+qtdeclarative-opensource-src source: source-is-missing tests/auto/qml/ecmascripttests/test262/test/built-ins/Date/prototype/setHours/this-value-valid-date-min.js
