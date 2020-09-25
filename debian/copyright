@@ -33,8 +33,6 @@ Files: examples/*
        src/qmltest/doc/snippets/*
        src/qmlworkerscript/doc/snippets/*
        src/quick/doc/snippets/*
-       tests/auto/qml/qqmlecmascript/data/singletonTest.qml
-       tests/auto/qml/qqmlecmascript/data/singletonTest2.qml
        tests/auto/qml/qqmllanguage/data/*
        tests/auto/qml/qqmlsqldatabase/data/changeVersion.qml
        tests/auto/qmltest/animatedimage/tst_animatedimage.qml
@@ -75,18 +73,13 @@ Files: examples/*
        tests/auto/quick/qquicklistview/data/stickyPositioning-footer.qml
        tests/auto/quick/qquicklistview/data/stickyPositioning-header.qml
        tests/auto/quick/qquickpathview/data/*
-       tests/auto/quick/qquickshadereffect/data/MyIcon.qml
-       tests/auto/quick/qquickshadereffect/data/twoImagesOneShaderEffect.qml
        tests/benchmarks/qml/holistic/data/largeTargets/*
        tests/manual/highdpi/imageprovider.cpp
        tests/manual/nodetypes/*
        tests/manual/nodetypes_ng/*
        tests/manual/pointer/content/MouseFeedbackSprite.qml
        tests/manual/pointer/content/TouchpointFeedbackSprite.qml
-       tests/manual/qmltypememory/TestPlugin/plugin.cpp
        tests/manual/shapestest/shapestest.qml
-       tests/manual/tableview/storagemodel/storagemodel.cpp
-       tests/manual/tableview/storagemodel/storagemodel.h
        tests/manual/text/*
        tests/manual/touch/*
        tests/testapplications/animatedsprite/*
