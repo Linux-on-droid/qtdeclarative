@@ -4246,7 +4246,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZNK11QSGRhiLayer24normalizedTextureSubRectEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK11QSGRhiLayer7toImageEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK11QSGRhiLayer9textureIdEv@Qt_5_PRIVATE_API 5.14.1 1
- (arch=arm64 hurd-i386 i386 kfreebsd-i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
+ (optional=inline|arch=arm64 hurd-i386 i386 kfreebsd-i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
  _ZNK12QQuickPixmap10colorSpaceEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZNK12QQuickPixmap10frameCountEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK12QQuickPixmap11requestSizeEv@Qt_5_PRIVATE_API 5.0.2 1

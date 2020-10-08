@@ -2832,7 +2832,7 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  (optional=templinst)_ZNK3QV45Value2asINS_14FunctionObjectEEEPKT_v@Qt_5_PRIVATE_API 5.14.2 1
  _ZNK3QV45Value8toUInt16Ev@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZNK3QV45Value9sameValueES0_@Qt_5_PRIVATE_API 5.2.0~beta1 1
- (arch=alpha mips64el riscv64 sparc64)_ZNK3QV45Value9toIntegerEv@Qt_5_PRIVATE_API 5.15.1 1
+ (optional=inline|arch=alpha mips64el riscv64 sparc64)_ZNK3QV45Value9toIntegerEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZNK3QV45Value9toQStringEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZNK3QV46Module13resolveExportENS_11PropertyKeyE@Qt_5_PRIVATE_API 5.12.2 1
  _ZNK3QV46Object11getPropertyERKNS_18InternalClassEntryEPNS_8PropertyE@Qt_5_PRIVATE_API 5.12.2 1
