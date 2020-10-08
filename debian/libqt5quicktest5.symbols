@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.1 alpha amd64 arm64 armel armhf i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
 libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
 | libqt5quicktest5 #MINVER#, qtdeclarative-abi-5-15-1
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -94,8 +94,6 @@ libQt5QuickTest.so.5 libqt5quicktest5 #MINVER#
  _ZNK15QuickTestResult9skipCountEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK15QuickTestResult9tagsToRunEv@Qt_5_PRIVATE_API 5.12.2 1
  _ZNK20QuickTestImageObject10metaObjectEv@Qt_5 5.0.2
- (optional=templinst|arch=!amd64 !i386)_ZNSt14_Function_base13_Base_managerIPFP7QObjectP10QQmlEngineP9QJSEngineEE10_M_managerERSt9_Any_dataRKSA_St18_Manager_operation@Qt_5 5.14.2
- (optional=templinst|arch=!amd64 !i386)_ZNSt17_Function_handlerIFP7QObjectP10QQmlEngineP9QJSEngineEPS6_E9_M_invokeERKSt9_Any_dataOS3_OS5_@Qt_5 5.14.2
  _ZTI15QuickTestResult@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QuickTestImageObject@Qt_5 5.0.2
  _ZTS15QuickTestResult@Qt_5_PRIVATE_API 5.0.2 1
