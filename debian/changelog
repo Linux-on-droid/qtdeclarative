@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.15.1+dfsg-3) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Oct 2020 21:58:14 +0300
+
 qtdeclarative-opensource-src (5.15.1+dfsg-2) experimental; urgency=medium
 
   * Fix duplicate entries for some files in debian/copyright.
