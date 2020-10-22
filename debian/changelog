@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.15.1+dfsg-3) UNRELEASED; urgency=medium
   * Fix full (indep+arch) builds by deleting all Makefiles before building
     the arch-dependent packages. Makefiles generated during indep build are
     broken because they are generated before qmltypes.prf becomes available.
+  * Add alternative -gles dependencies to qtdeclarative5-dev package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Oct 2020 21:58:14 +0300
 

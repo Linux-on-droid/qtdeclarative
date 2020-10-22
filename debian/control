@@ -327,13 +327,13 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt5qml5 (= ${binary:Version}),
-         libqt5quick5 (= ${binary:Version}),
-         libqt5quickparticles5 (= ${binary:Version}),
+         libqt5quick5 (= ${binary:Version}) | libqt5quick5-gles (>= 5.15),
+         libqt5quickparticles5 (= ${binary:Version}) | libqt5quickparticles5-gles (>= 5.15),
          libqt5quickshapes5 (= ${binary:Version}),
          libqt5quicktest5 (= ${binary:Version}),
          libqt5quickwidgets5 (= ${binary:Version}),
          qt5-qmltooling-plugins,
-         qtbase5-dev,
+         qtbase5-dev | qtbase5-gles-dev,
          qtdeclarative5-dev-tools,
          ${misc:Depends}
 Description: Qt 5 declarative development files
