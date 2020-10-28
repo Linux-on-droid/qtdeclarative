@@ -1,12 +1,12 @@
-qtdeclarative-opensource-src (5.15.1+dfsg-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.1+dfsg-3) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Fix full (indep+arch) builds by deleting all Makefiles before building
     the arch-dependent packages. Makefiles generated during indep build are
     broken because they are generated before qmltypes.prf becomes available.
   * Add alternative -gles dependencies to qtdeclarative5-dev package.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 12 Oct 2020 21:58:14 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:53:18 +0300
 
 qtdeclarative-opensource-src (5.15.1+dfsg-2) experimental; urgency=medium
 
