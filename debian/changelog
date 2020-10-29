@@ -1,3 +1,22 @@
+qtdeclarative-opensource-src (5.15.1+dfsg-3) unstable; urgency=medium
+
+  * Fix full (indep+arch) builds by deleting all Makefiles before building
+    the arch-dependent packages. Makefiles generated during indep build are
+    broken because they are generated before qmltypes.prf becomes available.
+  * Add alternative -gles dependencies to qtdeclarative5-dev package.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:53:18 +0300
+
+qtdeclarative-opensource-src (5.15.1+dfsg-2) experimental; urgency=medium
+
+  * Fix duplicate entries for some files in debian/copyright.
+  * Override Lintian warnings about this-value-valid-date-min.js, "min" in
+    its name is not for "minified".
+  * Update symbols files from buildds’ logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 09 Oct 2020 20:46:06 +0300
+
 qtdeclarative-opensource-src-gles (5.15.1+dfsg-1) experimental; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.1+dfsg-1 upload.

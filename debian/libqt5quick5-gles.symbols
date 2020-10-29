@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.1 alpha amd64 arm64 armel armhf i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
 libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
 | libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#, qtdeclarative-abi-5-15-1
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -4014,7 +4014,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN36QQuickDesignerSupportPropertyChanges15detachFromStateEP7QObject@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16changeExpressionEP7QObjectRK10QByteArrayRK7QString@Qt_5_PRIVATE_API 5.6.0~beta 1
  _ZN36QQuickDesignerSupportPropertyChanges16isNormalPropertyERK10QByteArray@Qt_5_PRIVATE_API 5.6.0~beta 1
- (optional=templinst|arch=!amd64 !i386)_ZN3QV45Value2asINS_6ObjectEEEPT_v@Qt_5 5.14.2
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialC2Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN40QSGDistanceFieldShiftedStyleTextMaterialD0Ev@Qt_5_PRIVATE_API 5.0.2 1
@@ -4247,7 +4246,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZNK11QSGRhiLayer24normalizedTextureSubRectEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK11QSGRhiLayer7toImageEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK11QSGRhiLayer9textureIdEv@Qt_5_PRIVATE_API 5.14.1 1
- (arch=arm64 hurd-i386 i386 kfreebsd-i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
+ (optional=inline|arch=arm64 hurd-i386 i386 kfreebsd-i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
  _ZNK12QQuickPixmap10colorSpaceEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZNK12QQuickPixmap10frameCountEv@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK12QQuickPixmap11requestSizeEv@Qt_5_PRIVATE_API 5.0.2 1
