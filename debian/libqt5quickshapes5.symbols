@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 5.15.1 amd64 i386
 libQt5QuickShapes.so.5 libqt5quickshapes5 #MINVER#
-| libqt5quickshapes5 #MINVER#, qtdeclarative-abi-5-15-1
+| libqt5quickshapes5 #MINVER#, qtdeclarative-abi-5-15-2
 * Build-Depends-Package: qtdeclarative5-private-dev
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.12.2 1
  _Z33qml_register_types_QtQuick_Shapesv@Qt_5_PRIVATE_API 5.15.1 1
