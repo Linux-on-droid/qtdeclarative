@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.15.2+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.2.
+  * Refresh debian/patches/fix_test_remove_qlibraryinfo.patch.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Nov 2020 21:41:34 +0300
 
