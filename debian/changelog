@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.15.2+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Nov 2020 21:41:34 +0300
+
 qtdeclarative-opensource-src (5.15.1+dfsg-3) unstable; urgency=medium
 
   * Fix full (indep+arch) builds by deleting all Makefiles before building
