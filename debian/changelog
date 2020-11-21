@@ -1,13 +1,12 @@
-qtdeclarative-opensource-src (5.15.2+dfsg-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.2+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.2.
   * Refresh debian/patches/fix_test_remove_qlibraryinfo.patch.
   * Bump ABI version to qtdeclarative-abi-5-15-2.
   * Update symbols files from the current build logs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 19 Nov 2020 21:41:34 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 21 Nov 2020 16:46:44 +0300
 
 qtdeclarative-opensource-src (5.15.1+dfsg-3) unstable; urgency=medium
 
