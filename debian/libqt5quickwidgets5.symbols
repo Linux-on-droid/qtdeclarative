@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.2 amd64 i386
 libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
 | libqt5quickwidgets5 #MINVER#, qtdeclarative-abi-5-15-2
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -48,6 +48,7 @@ libQt5QuickWidgets.so.5 libqt5quickwidgets5 #MINVER#
  _ZN12QQuickWidget21mouseDoubleClickEventEP11QMouseEvent@Qt_5 5.3.0
  _ZN12QQuickWidget23createFramebufferObjectEv@Qt_5 5.3.0
  _ZN12QQuickWidget24destroyFramebufferObjectEv@Qt_5 5.3.0
+ _ZN12QQuickWidget27propagateFocusObjectChangedEP7QObject@Qt_5 5.15.2
  _ZN12QQuickWidget5eventEP6QEvent@Qt_5 5.3.0
  _ZN12QQuickWidget9dropEventEP10QDropEvent@Qt_5 5.5.0
  _ZN12QQuickWidget9hideEventEP10QHideEvent@Qt_5 5.3.0
