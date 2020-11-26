@@ -1,6 +1,6 @@
-# SymbolsHelper-Confirmed: 5.15.1 alpha amd64 arm64 armel armhf i386 ia64 mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+# SymbolsHelper-Confirmed: 5.15.2 amd64 i386
 libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
-| libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#, qtdeclarative-abi-5-15-1
+| libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#, qtdeclarative-abi-5-15-2
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
  Qt_5.0@Qt_5.0 5.6.0~beta
  Qt_5.10@Qt_5.10 5.10.0
@@ -2970,6 +2970,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN22QQuickAnimatorProxyJob11updateStateEN21QAbstractAnimationJob5StateES1_@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob13windowChangedEP12QQuickWindow@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob14readyToAnimateEv@Qt_5_PRIVATE_API 5.2.0~beta1 1
+ _ZN22QQuickAnimatorProxyJob15updateLoopCountEi@Qt_5_PRIVATE_API 5.15.2 1
  _ZN22QQuickAnimatorProxyJob16staticMetaObjectE@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob17updateCurrentTimeEi@Qt_5_PRIVATE_API 5.2.0~beta1 1
  _ZN22QQuickAnimatorProxyJob20findAnimationContextEP23QQuickAbstractAnimation@Qt_5_PRIVATE_API 5.2.0~beta1 1
@@ -3113,6 +3114,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN22QQuickTableViewPrivate16calculateTopLeftER6QPointR7QPointF@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate16initItemCallbackEiP7QObject@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate16nextEdgeToUnloadE6QRectF@Qt_5_PRIVATE_API 5.15.1 1
+ _ZN22QQuickTableViewPrivate16syncViewportRectEv@Qt_5_PRIVATE_API 5.15.2 1
  _ZN22QQuickTableViewPrivate17beginRebuildTableEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate17createFxTableItemERK6QPointN13QQmlIncubator14IncubationModeE@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate17layoutTopLeftItemEv@Qt_5_PRIVATE_API 5.15.1 1
@@ -3147,12 +3149,13 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN22QQuickTableViewPrivate20updateTableRecursiveEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate21_q_componentFinalizedEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate21layoutChangedCallbackERK5QListI21QPersistentModelIndexEN18QAbstractItemModel16LayoutChangeHintE@Qt_5_PRIVATE_API 5.15.1 1
- _ZN22QQuickTableViewPrivate21updateAverageEdgeSizeEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate22columnsRemovedCallbackERK11QModelIndexii@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate22moveToNextRebuildStateEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate22syncWithPendingChangesEv@Qt_5_PRIVATE_API 5.15.1 1
+ _ZN22QQuickTableViewPrivate22updateAverageRowHeightEv@Qt_5_PRIVATE_API 5.15.2 1
  _ZN22QQuickTableViewPrivate23columnsInsertedCallbackERK11QModelIndexii@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate24syncViewportPosRecursiveEv@Qt_5_PRIVATE_API 5.15.1 1
+ _ZN22QQuickTableViewPrivate24updateAverageColumnWidthEv@Qt_5_PRIVATE_API 5.15.2 1
  _ZN22QQuickTableViewPrivate25checkForVisibilityChangesEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate25loadAndUnloadVisibleEdgesEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate26scheduleRebuildIfFastFlickEv@Qt_5_PRIVATE_API 5.15.1 1
@@ -4400,7 +4403,6 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZNK14QQuickListView23highlightResizeDurationEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK14QQuickListView23highlightResizeVelocityEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK14QQuickListView7spacingEv@Qt_5_PRIVATE_API 5.9.0~beta 1
- _ZNK14QQuickListView8containsERK7QPointF@Qt_5_PRIVATE_API 5.15.1 1
  _ZNK14QQuickListView8snapModeEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK14QQuickPathLine10metaObjectEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK14QQuickPathMove10metaObjectEv@Qt_5_PRIVATE_API 5.10.0 1
@@ -6025,6 +6027,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  (c++)"non-virtual thunk to QQuickAnimationGroup::~QQuickAnimationGroup()@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::debugAnimation(QDebug) const@Qt_5_PRIVATE_API" 5.5.0 1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateCurrentTime(int)@Qt_5_PRIVATE_API" 5.2.0~beta1 1
+ (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateLoopCount(int)@Qt_5_PRIVATE_API" 5.15.2 1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::updateState(QAbstractAnimationJob::State, QAbstractAnimationJob::State)@Qt_5_PRIVATE_API" 5.2.0~beta1 1
  (c++)"non-virtual thunk to QQuickAnimatorProxyJob::~QQuickAnimatorProxyJob()@Qt_5_PRIVATE_API" 5.2.0~beta1 1
  (c++)"non-virtual thunk to QQuickBasePositioner::componentComplete()@Qt_5_PRIVATE_API" 5.0.2 1

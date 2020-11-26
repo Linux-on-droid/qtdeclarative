@@ -131,7 +131,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      if (!proc.waitForFinished())
 --- a/tests/auto/qml/qmlformat/tst_qmlformat.cpp
 +++ b/tests/auto/qml/qmlformat/tst_qmlformat.cpp
-@@ -81,7 +81,7 @@ private:
+@@ -84,7 +84,7 @@ private:
  void TestQmlformat::initTestCase()
  {
      QQmlDataTest::initTestCase();
