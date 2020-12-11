@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.15.2+dfsg-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:31:45 +0300
+
 qtdeclarative-opensource-src-gles (5.15.2+dfsg-1) experimental; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.2+dfsg-1 upload.
