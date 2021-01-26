@@ -7,6 +7,7 @@ qtdeclarative-opensource-src (5.15.2+dfsg-3) UNRELEASED; urgency=medium
   * Backport upstream patch to fix QML property cache leaks of delegate
     items.
   * Backport upstream patch to fix build with GCC 11.
+  * Update debian/watch: use format 4, and track only 5.15.x releases.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jan 2021 19:50:12 +0300
 
