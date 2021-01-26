@@ -3,6 +3,10 @@ qtdeclarative-opensource-src (5.15.2+dfsg-3) UNRELEASED; urgency=medium
   [ Alexander Volkov ]
   * Backport upstream patch to build qmltime as a tool.
 
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to fix QML property cache leaks of delegate
+    items.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jan 2021 19:50:12 +0300
 
 qtdeclarative-opensource-src (5.15.2+dfsg-2) unstable; urgency=medium

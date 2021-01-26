@@ -1,5 +1,6 @@
 # Backported patches
 qmltime-tool.patch
+fix_qml_property_cache_leaks.patch
 
 # Debian patches
 disableopengltests.patch
