@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.15.2+dfsg-3) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.2+dfsg-3) unstable; urgency=medium
 
   [ Alexander Volkov ]
   * Backport upstream patch to build qmltime as a tool.
@@ -9,7 +9,7 @@ qtdeclarative-opensource-src (5.15.2+dfsg-3) UNRELEASED; urgency=medium
   * Backport upstream patch to fix build with GCC 11.
   * Update debian/watch: use format 4, and track only 5.15.x releases.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jan 2021 19:50:12 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 28 Jan 2021 13:25:24 +0300
 
 qtdeclarative-opensource-src (5.15.2+dfsg-2) unstable; urgency=medium
 
