@@ -1,10 +1,9 @@
-qtdeclarative-opensource-src (5.15.2+dfsg-4) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.2+dfsg-4) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add Conflicts: against the -gles packages, to make that relation mutual.
     (Thanks to David Kalnischkies for the suggestion; see also #976389.)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 30 Jan 2021 20:55:46 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 04 Feb 2021 20:36:43 +0300
 
 qtdeclarative-opensource-src (5.15.2+dfsg-3) unstable; urgency=medium
 
