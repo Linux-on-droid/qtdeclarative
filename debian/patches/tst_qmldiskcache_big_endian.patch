@@ -1,0 +1,18 @@
+Description: make tst_qmldiskcache::regenerateAfterChange() pass on big endian systems
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=dab0d62b655ce9a4
+Last-Update: 2021-02-11
+
+--- a/tests/auto/qml/qmldiskcache/tst_qmldiskcache.cpp
++++ b/tests/auto/qml/qmldiskcache/tst_qmldiskcache.cpp
+@@ -332,9 +332,8 @@ void tst_qmldiskcache::regenerateAfterCh
+         QCOMPARE(quint32(obj->nBindings), quint32(2));
+         QCOMPARE(quint32(obj->bindingTable()->type), quint32(QV4::CompiledData::Binding::Type_Number));
+ 
+-        QCOMPARE(reinterpret_cast<const QV4::Value *>(testUnit->constants())
+-                         [obj->bindingTable()->value.constantValueIndex].doubleValue(),
+-                 double(42));
++        const QV4::Value value(testUnit->constants()[obj->bindingTable()->value.constantValueIndex]);
++        QCOMPARE(value.doubleValue(), double(42));
+ 
+         QCOMPARE(quint32(testUnit->functionTableSize), quint32(1));
+ 
