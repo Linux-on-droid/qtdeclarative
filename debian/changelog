@@ -1,3 +1,8 @@
+qtdeclarative-opensource-src (5.15.2+dfsg-5) UNRELEASED; urgency=medium
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Feb 2021 20:10:00 +0300
+
 qtdeclarative-opensource-src (5.15.2+dfsg-4) unstable; urgency=medium
 
   * Add Conflicts: against the -gles packages, to make that relation mutual.
