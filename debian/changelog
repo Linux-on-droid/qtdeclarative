@@ -1,11 +1,10 @@
-qtdeclarative-opensource-src (5.15.2+dfsg-5) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.2+dfsg-5) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Add a patch to make tst_qmldiskcache::regenerateAfterChange() pass on
     big endian systems.
   * Add missing dependencies to qtdeclarative5-dev (closes: #985500).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Feb 2021 20:10:00 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 19 Mar 2021 20:46:16 +0300
 
 qtdeclarative-opensource-src (5.15.2+dfsg-4) unstable; urgency=medium
 
