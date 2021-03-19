@@ -329,6 +329,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt5qml5 (= ${binary:Version}),
+         libqt5qmlmodels5 (= ${binary:Version}),
+         libqt5qmlworkerscript5 (= ${binary:Version}),
          libqt5quick5 (= ${binary:Version}) | libqt5quick5-gles (>= 5.15),
          libqt5quickparticles5 (= ${binary:Version}) | libqt5quickparticles5-gles (>= 5.15),
          libqt5quickshapes5 (= ${binary:Version}),
