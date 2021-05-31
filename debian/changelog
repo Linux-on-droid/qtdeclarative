@@ -1,5 +1,8 @@
 qtdeclarative-opensource-src (5.15.2+dfsg-6) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Backport patch to support &appos in styled text, along with it's
+    documentation.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 31 May 2021 19:41:22 -0300
 

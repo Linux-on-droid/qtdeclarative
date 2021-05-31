@@ -1,0 +1,33 @@
+Description: Support &apos; in styled text and document it
+ This ensures that some translations really look ok.
+Origin: https://invent.kde.org/qt/qt/qtdeclarative/-/merge_requests/3/diffs
+Forwarded: not-needed
+Author: Albert Astals Cid
+Applied-Upstream: https://invent.kde.org/qt/qt/qtdeclarative/-/commit/0dda47d9f1a22567ad8f1266be2f0cd8a9226c7f
+
+diff --git a/src/quick/items/qquicktext.cpp b/src/quick/items/qquicktext.cpp
+index 581ab9f76a41b731126eb53aa7069a21d7c96c76..4ddd2a41bc9290d09412b7904c3561ccfb65a6a8 100644
+--- a/src/quick/items/qquicktext.cpp
++++ b/src/quick/items/qquicktext.cpp
+@@ -2168,7 +2168,7 @@ void QQuickText::resetMaximumLineCount()
+     <img src="" align="top,middle,bottom" width="" height=""> - inline images
+     <ol type="">, <ul type=""> and <li> - ordered and unordered lists
+     <pre></pre> - preformatted
+-    &gt; &lt; &amp;
++    &gt; &lt; &amp; &quot; &nbsp; &apos;
+     \endcode
+ 
+     \c Text.StyledText parser is strict, requiring tags to be correctly nested.
+diff --git a/src/quick/util/qquickstyledtext.cpp b/src/quick/util/qquickstyledtext.cpp
+index d531fc92051b4a966a29ea4c463c7d5ca79a7ab3..a25af90414bc4e29efe02c773bf19645a272b93c 100644
+--- a/src/quick/util/qquickstyledtext.cpp
++++ b/src/quick/util/qquickstyledtext.cpp
+@@ -564,6 +564,8 @@ void QQuickStyledTextPrivate::parseEntity(const QChar *&ch, const QString &textI
+                 textOut += QChar(60);
+             else if (entity == QLatin1String("amp"))
+                 textOut += QChar(38);
++            else if (entity == QLatin1String("apos"))
++                textOut += QChar(39);
+             else if (entity == QLatin1String("quot"))
+                 textOut += QChar(34);
+             else if (entity == QLatin1String("nbsp"))
