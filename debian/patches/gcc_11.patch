@@ -1,6 +1,8 @@
 Description: build fixes for GCC 11
-Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
-Last-Update: 2021-01-26
+Origin: upstream, commits:
+ https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
+ https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=367293b18ab0d0a0
+Last-Update: 2021-08-09
 
 --- a/src/qml/compiler/qv4bytecodegenerator_p.h
 +++ b/src/qml/compiler/qv4bytecodegenerator_p.h
@@ -20,3 +22,13 @@ Last-Update: 2021-01-26
          return addJumpInstruction(data);
      }
  
+--- a/src/qmldebug/qqmlprofilerevent_p.h
++++ b/src/qmldebug/qqmlprofilerevent_p.h
+@@ -48,6 +48,7 @@
+ #include <QtCore/qmetatype.h>
+ 
+ #include <initializer_list>
++#include <limits>
+ #include <type_traits>
+ 
+ //
