@@ -1,9 +1,8 @@
-qtdeclarative-opensource-src (5.15.2+dfsg-8) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.2+dfsg-8) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Include <limits> in Yarr.h to fix FTBFS with GCC 11 on arm64 and i386.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 18 Aug 2021 13:11:59 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 18 Aug 2021 14:21:46 +0300
 
 qtdeclarative-opensource-src (5.15.2+dfsg-7) unstable; urgency=medium
 
