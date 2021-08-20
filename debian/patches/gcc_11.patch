@@ -2,6 +2,7 @@ Description: build fixes for GCC 11
 Origin: upstream, commits:
  https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
  https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=367293b18ab0d0a0
+ https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=db58b8518e157b76
 Last-Update: 2021-08-18
 
 --- a/src/3rdparty/masm/yarr/Yarr.h
