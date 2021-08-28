@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src-gles (5.15.2+dfsg-3) unstable; urgency=medium
+
+  * Merge qtdeclarative-opensource-src 5.15.2+dfsg-8 upload.
+    - Fixes build with GCC 11 (closes: #984311).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 28 Aug 2021 21:48:16 +0300
+
 qtdeclarative-opensource-src (5.15.2+dfsg-8) unstable; urgency=medium
 
   * Include <limits> in Yarr.h to fix FTBFS with GCC 11 on arm64 and i386.
