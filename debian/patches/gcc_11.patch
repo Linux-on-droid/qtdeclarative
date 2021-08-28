@@ -1,0 +1,45 @@
+Description: build fixes for GCC 11
+Origin: upstream, commits:
+ https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
+ https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=367293b18ab0d0a0
+ https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=db58b8518e157b76
+Last-Update: 2021-08-18
+
+--- a/src/3rdparty/masm/yarr/Yarr.h
++++ b/src/3rdparty/masm/yarr/Yarr.h
+@@ -28,6 +28,7 @@
+ #pragma once
+ 
+ #include <limits.h>
++#include <limits>
+ #include "YarrErrorCode.h"
+ 
+ namespace JSC { namespace Yarr {
+--- a/src/qml/compiler/qv4bytecodegenerator_p.h
++++ b/src/qml/compiler/qv4bytecodegenerator_p.h
+@@ -186,13 +186,13 @@ QT_WARNING_POP
+ 
+     Q_REQUIRED_RESULT Jump jumpNotUndefined()
+     {
+-        Instruction::JumpNotUndefined data;
++        Instruction::JumpNotUndefined data{};
+         return addJumpInstruction(data);
+     }
+ 
+     Q_REQUIRED_RESULT Jump jumpNoException()
+     {
+-        Instruction::JumpNoException data;
++        Instruction::JumpNoException data{};
+         return addJumpInstruction(data);
+     }
+ 
+--- a/src/qmldebug/qqmlprofilerevent_p.h
++++ b/src/qmldebug/qqmlprofilerevent_p.h
+@@ -48,6 +48,7 @@
+ #include <QtCore/qmetatype.h>
+ 
+ #include <initializer_list>
++#include <limits>
+ #include <type_traits>
+ 
+ //

@@ -1,3 +1,54 @@
+qtdeclarative-opensource-src (5.15.2+dfsg-8) unstable; urgency=medium
+
+  * Include <limits> in Yarr.h to fix FTBFS with GCC 11 on arm64 and i386.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 18 Aug 2021 14:21:46 +0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-7) unstable; urgency=medium
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Fix typos in previous changelog entry.
+
+  [ Dmitry Shachnev ]
+  * Amend gcc_11.patch with one more fix for GCC 11 (closes: #984313).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 16 Aug 2021 12:02:36 +0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-6) unstable; urgency=medium
+
+  * Backport patch to support &apos in styled text, along with its
+    documentation.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Jun 2021 18:37:21 -0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-5) unstable; urgency=medium
+
+  * Add a patch to make tst_qmldiskcache::regenerateAfterChange() pass on
+    big endian systems.
+  * Add missing dependencies to qtdeclarative5-dev (closes: #985500).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 19 Mar 2021 20:46:16 +0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-4) unstable; urgency=medium
+
+  * Add Conflicts: against the -gles packages, to make that relation mutual.
+    (Thanks to David Kalnischkies for the suggestion; see also #976389.)
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 04 Feb 2021 20:36:43 +0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-3) unstable; urgency=medium
+
+  [ Alexander Volkov ]
+  * Backport upstream patch to build qmltime as a tool.
+
+  [ Dmitry Shachnev ]
+  * Backport upstream patch to fix QML property cache leaks of delegate
+    items.
+  * Backport upstream patch to fix build with GCC 11.
+  * Update debian/watch: use format 4, and track only 5.15.x releases.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 28 Jan 2021 13:25:24 +0300
+
 qtdeclarative-opensource-src-gles (5.15.2+dfsg-2) unstable; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.2+dfsg-2 upload.

@@ -1,0 +1,178 @@
+Description: fix QML property cache leaks of delegate items
+ The delegate items are destroyed through an event loop by a call to a
+ deleteLater(). This, however, doesn't work when the application is
+ in the process of exiting and the event loop is already closed (i.e.
+ we're in a stack unwinding part that starts after app.exec()).
+ .
+ Combat this situation by setting a parent of the to-be-deleted object
+ to some QObject that will be destroyed e.g. QCoreApplication::instance()
+ before the program finishes. As QObjects clean their children on
+ destruction, this will make sure that we cleanup the previously leaking
+ thing regardless of the event loop.
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=b2862e2bd84d651c
+Last-Update: 2021-01-26
+
+--- a/src/qmlmodels/qqmldelegatemodel.cpp
++++ b/src/qmlmodels/qqmldelegatemodel.cpp
+@@ -1,6 +1,6 @@
+ /****************************************************************************
+ **
+-** Copyright (C) 2016 The Qt Company Ltd.
++** Copyright (C) 2020 The Qt Company Ltd.
+ ** Contact: https://www.qt.io/licensing/
+ **
+ ** This file is part of the QtQml module of the Qt Toolkit.
+@@ -2379,6 +2379,15 @@ void QQmlDelegateModelItem::destroyObjec
+         data->ownContext = nullptr;
+         data->context = nullptr;
+     }
++    /* QTBUG-87228: when destroying object at the application exit, the deferred
++     * parent by setting it to QCoreApplication instance if it's nullptr, so
++     * deletion won't work. Not to leak memory, make sure our object has a that
++     * the parent claims the object at the end of the lifetime. When not at the
++     * application exit, normal event loop will handle the deferred deletion
++     * earlier.
++     */
++    if (object->parent() == nullptr)
++        object->setParent(QCoreApplication::instance());
+     object->deleteLater();
+ 
+     if (attached) {
+--- /dev/null
++++ b/tests/auto/quick/qquickview_extra/data/qtbug_87228.qml
+@@ -0,0 +1,30 @@
++import QtQml 2.12
++import QtQml.Models 2.12
++import QtQuick 2.12
++
++Item {
++    height: 480
++    width: 320
++    Rectangle {
++        id: rootRect
++
++        function addItem(desc) {
++            myModel.append({"desc": desc});
++        }
++
++        Rectangle {
++            ListView {
++                objectName: "listView"
++                delegate: Text {
++                    required property string desc
++                    text: desc
++                }
++                model: ListModel { id: myModel }
++            }
++        }
++
++        Component.onCompleted: {
++            addItem("Test creation of a delegate with a property");
++        }
++    }
++}
+--- /dev/null
++++ b/tests/auto/quick/qquickview_extra/qquickview_extra.pro
+@@ -0,0 +1,12 @@
++CONFIG += testcase
++TARGET = tst_qquickview_extra
++macx:CONFIG -= app_bundle
++
++SOURCES += tst_qquickview_extra.cpp
++
++include (../../shared/util.pri)
++include (../shared/util.pri)
++
++TESTDATA = data/*
++
++QT += core-private gui-private qml-private quick-private testlib
+--- /dev/null
++++ b/tests/auto/quick/qquickview_extra/tst_qquickview_extra.cpp
+@@ -0,0 +1,77 @@
++/****************************************************************************
++**
++** Copyright (C) 2020 The Qt Company Ltd.
++** Contact: https://www.qt.io/licensing/
++**
++** This file is part of the test suite of the Qt Toolkit.
++**
++** $QT_BEGIN_LICENSE:GPL-EXCEPT$
++** Commercial License Usage
++** Licensees holding valid commercial Qt licenses may use this file in
++** accordance with the commercial license agreement provided with the
++** Software or, alternatively, in accordance with the terms contained in
++** a written agreement between you and The Qt Company. For licensing terms
++** and conditions see https://www.qt.io/terms-conditions. For further
++** information use the contact form at https://www.qt.io/contact-us.
++**
++** GNU General Public License Usage
++** Alternatively, this file may be used under the terms of the GNU
++** General Public License version 3 as published by the Free Software
++** Foundation with exceptions as appearing in the file LICENSE.GPL3-EXCEPT
++** included in the packaging of this file. Please review the following
++** information to ensure the GNU General Public License requirements will
++** be met: https://www.gnu.org/licenses/gpl-3.0.html.
++**
++** $QT_END_LICENSE$
++**
++****************************************************************************/
++#include <qtest.h>
++#include <QtTest/QSignalSpy>
++#include <QtQuick/qquickview.h>
++#include <QtQuick/qquickitem.h>
++#include <QtQml/qqmlengine.h>
++#include "../../shared/util.h"
++#include <QtCore/QDebug>
++#include <QtCore/QTimer>
++
++// Extra app-less tests
++class tst_QQuickViewExtra : public QQmlDataTest
++{
++    Q_OBJECT
++public:
++    tst_QQuickViewExtra();
++
++private slots:
++    void qtbug_87228();
++};
++
++tst_QQuickViewExtra::tst_QQuickViewExtra() { }
++
++void tst_QQuickViewExtra::qtbug_87228()
++{
++    QScopedPointer<QSignalSpy> deletionSpy;
++    {
++        int argc = 0;
++        QGuiApplication app(argc, nullptr);
++        QQuickView view;
++
++        view.setSource(testFileUrl("qtbug_87228.qml"));
++        view.show();
++        QTimer::singleShot(500, &app, QCoreApplication::quit);
++        app.exec();
++
++        QObject *listView = view.findChild<QObject *>("listView");
++        QVERIFY(listView);
++        QQuickItem *contentItem = listView->property("contentItem").value<QQuickItem *>();
++        QVERIFY(contentItem);
++        auto children = contentItem->childItems();
++        QVERIFY(children.size() > 0);
++        // for the sake of this test, any child would be suitable, so pick first
++        deletionSpy.reset(new QSignalSpy(children[0], SIGNAL(destroyed(QObject *))));
++    }
++    QCOMPARE(deletionSpy->count(), 1);
++}
++
++QTEST_APPLESS_MAIN(tst_QQuickViewExtra)
++
++#include "tst_qquickview_extra.moc"
+--- a/tests/auto/quick/quick.pro
++++ b/tests/auto/quick/quick.pro
+@@ -85,6 +85,7 @@ QUICKTESTS += \
+     qquicktextinput \
+     qquickvisualdatamodel \
+     qquickview \
++    qquickview_extra \
+     qquickcanvasitem \
+     qquickdesignersupport \
+     qquickscreen \

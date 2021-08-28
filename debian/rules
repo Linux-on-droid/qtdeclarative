@@ -46,7 +46,7 @@ override_dh_auto_test-arch:
 ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	$(MAKE) install INSTALL_ROOT=$(CURDIR)/test_root
 	mkdir -p $(CURDIR)/.local/share/QtProject/tst_qqmlengine
-	# - hppa: QML engine is broken, bug missing
+	# - hppa: QML engine is broken, see bug #973659
 	# - ia64: QML engine is broken, see bug #929682
 	# - mips*: Some tests are failing because of bug #868745
 	# - powerpc, ppc64, s390x: item-grabber test fails on big endian, see https://bugreports.qt.io/browse/QTBUG-56806
