@@ -1,5 +1,7 @@
 qtdeclarative-opensource-src (5.15.2+dfsg-9) UNRELEASED; urgency=medium
 
+  [ Dmitry Shachnev ]
+  * Remove unneeded libgl1-mesa-dri Build-Depends and Depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Dec 2021 22:10:10 +0300
 
