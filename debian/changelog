@@ -1,11 +1,10 @@
-qtdeclarative-opensource-src (5.15.2+dfsg-9) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.2+dfsg-9) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Remove unneeded libgl1-mesa-dri Build-Depends and Depends.
   * Update debian/source/lintian-overrides for Lintian 2.109.
   * Bump Standards-Version to 4.6.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 17 Dec 2021 22:10:10 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 18 Dec 2021 15:47:05 +0300
 
 qtdeclarative-opensource-src (5.15.2+dfsg-8) unstable; urgency=medium
 
