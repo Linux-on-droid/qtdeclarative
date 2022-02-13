@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.1 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.2 amd64 i386 ia64
 libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
 | libqt5qmlmodels5 #MINVER#, qtdeclarative-abi-5-15-2
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -311,6 +311,7 @@ libQt5QmlModels.so.5 libqt5qmlmodels5 #MINVER#
  _ZNK29QQmlAbstractDelegateComponent5valueEP16QQmlAdaptorModeliiRK7QString@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK29QQmlDelegateModelItemMetaType11parseGroupsERK11QStringList@Qt_5_PRIVATE_API 5.14.1 1
  _ZNK29QQmlDelegateModelItemMetaType11parseGroupsERKN3QV45ValueE@Qt_5_PRIVATE_API 5.14.1 1
+ (optional=templinst|arch=ia64)_ZNK3QV45Value2asINS_14FunctionObjectEEEPKT_v@Qt_5 5.15.2
  _ZTI12QQmlRefCount@Qt_5 5.14.1
  _ZTI13QQmlListModel@Qt_5_PRIVATE_API 5.14.1 1
  _ZTI15QQmlObjectModel@Qt_5_PRIVATE_API 5.14.1 1
