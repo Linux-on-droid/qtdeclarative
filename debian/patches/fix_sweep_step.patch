@@ -1,0 +1,98 @@
+Description: fix sweep step for tainted QObject JavaScript wrappers
+ Currently, whenever the garbage collector runs, it will destroy all
+ valid tainted wrappers.
+ .
+ Only null or undefined wrappers will be preserved in the
+ m_multiplyWrappedQObjects map.
+ .
+ It seems like "!" was overlooked in
+ 3b5d37ce3841c4bfdf1c629d33f0e33b881b47fb. Prior to that change, it
+ was "!it.value()->markBit()", so calling erase() in the then branch
+ did make sense. But with "!it.value().isNullOrUndefined()", erase()
+ will be called for every valid wrapper, which is the opposite what we
+ want.
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=e6b2f88d892dcf39
+Last-Update: 2022-02-13
+
+--- a/src/qml/memory/qv4mm.cpp
++++ b/src/qml/memory/qv4mm.cpp
+@@ -981,7 +981,7 @@ void MemoryManager::sweep(bool lastSweep
+ 
+     if (MultiplyWrappedQObjectMap *multiplyWrappedQObjects = engine->m_multiplyWrappedQObjects) {
+         for (MultiplyWrappedQObjectMap::Iterator it = multiplyWrappedQObjects->begin(); it != multiplyWrappedQObjects->end();) {
+-            if (!it.value().isNullOrUndefined())
++            if (it.value().isNullOrUndefined())
+                 it = multiplyWrappedQObjects->erase(it);
+             else
+                 ++it;
+--- a/tests/auto/qml/qjsengine/tst_qjsengine.cpp
++++ b/tests/auto/qml/qjsengine/tst_qjsengine.cpp
+@@ -102,6 +102,7 @@ private slots:
+     void valueConversion_RegularExpression();
+     void castWithMultipleInheritance();
+     void collectGarbage();
++    void collectGarbageNestedWrappersTwoEngines();
+     void gcWithNestedDataStructure();
+     void stacktrace();
+     void numberParsing_data();
+@@ -1809,6 +1810,44 @@ void tst_QJSEngine::collectGarbage()
+     QVERIFY(ptr.isNull());
+ }
+ 
++class TestObjectContainer : public QObject
++{
++    Q_OBJECT
++    Q_PROPERTY(QObject *dummy MEMBER m_dummy CONSTANT)
++
++public:
++    TestObjectContainer() : m_dummy(new QObject(this)) {}
++
++private:
++    QObject *m_dummy;
++};
++
++void tst_QJSEngine::collectGarbageNestedWrappersTwoEngines()
++{
++    QJSEngine engine1;
++    QJSEngine engine2;
++
++    TestObjectContainer container;
++    QQmlEngine::setObjectOwnership(&container, QQmlEngine::CppOwnership);
++
++    engine1.globalObject().setProperty("foobar", engine1.newQObject(&container));
++    engine2.globalObject().setProperty("foobar", engine2.newQObject(&container));
++
++    engine1.evaluate("foobar.dummy.baz = 42");
++    engine2.evaluate("foobar.dummy.baz = 43");
++
++    QCOMPARE(engine1.evaluate("foobar.dummy.baz").toInt(), 42);
++    QCOMPARE(engine2.evaluate("foobar.dummy.baz").toInt(), 43);
++
++    engine1.collectGarbage();
++    engine2.collectGarbage();
++
++    // The GC should not collect dummy object wrappers neither in engine1 nor engine2, we
++    // verify that by checking whether the baz property still has its previous value.
++    QCOMPARE(engine1.evaluate("foobar.dummy.baz").toInt(), 42);
++    QCOMPARE(engine2.evaluate("foobar.dummy.baz").toInt(), 43);
++}
++
+ void tst_QJSEngine::gcWithNestedDataStructure()
+ {
+     // The GC must be able to traverse deeply nested objects, otherwise this
+--- a/tests/auto/qml/qv4mm/tst_qv4mm.cpp
++++ b/tests/auto/qml/qv4mm/tst_qv4mm.cpp
+@@ -76,10 +76,10 @@ void tst_qv4mm::multiWrappedQObjects()
+         QCOMPARE(engine1.memoryManager->m_pendingFreedObjectWrapperValue.size(), 1);
+         QCOMPARE(engine2.memoryManager->m_pendingFreedObjectWrapperValue.size(), 0);
+ 
+-        // Moves the additional WeakValue from m_multiplyWrappedQObjects to
+-        // m_pendingFreedObjectWrapperValue. It's still alive after all.
++        // The additional WeakValue from m_multiplyWrappedQObjects hasn't been moved
++        // to m_pendingFreedObjectWrapperValue yet. It's still alive after all.
+         engine1.memoryManager->runGC();
+-        QCOMPARE(engine1.memoryManager->m_pendingFreedObjectWrapperValue.size(), 2);
++        QCOMPARE(engine1.memoryManager->m_pendingFreedObjectWrapperValue.size(), 1);
+ 
+         // engine2 doesn't own the object as engine1 was the first to wrap it above.
+         // Therefore, no effect here.
