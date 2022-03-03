@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.15.3+dfsg-1) UNRELEASED; urgency=medium
   * Drop patches that are included in the new release:
     - qmltime-tool.patch
     - fix_qml_property_cache_leaks.patch
+  * Refresh other patches.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Mar 2022 22:30:20 +0300
 
