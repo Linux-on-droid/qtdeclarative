@@ -1,6 +1,4 @@
 # Backported patches
-qmltime-tool.patch
-fix_qml_property_cache_leaks.patch
 gcc_11.patch
 tst_qmldiskcache_big_endian.patch
 support_apos_in_styled_text.patch
