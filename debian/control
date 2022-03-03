@@ -25,7 +25,7 @@ Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative.git
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative
 
 Package: libqt5qml5
-Provides: qtdeclarative-abi-5-15-2
+Provides: qtdeclarative-abi-5-15-3
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
