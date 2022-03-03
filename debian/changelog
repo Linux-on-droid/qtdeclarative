@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.15.3+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 03 Mar 2022 22:30:20 +0300
+
 qtdeclarative-opensource-src (5.15.2+dfsg-10) unstable; urgency=medium
 
   * Backport upstream patch to fix sweep step for tainted QObject JavaScript
