@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.1 alpha amd64 i386 ia64 sparc64 x32
+# SymbolsHelper-Confirmed: 5.15.3 amd64 i386
 libQt5Qml.so.5 libqt5qml5 #MINVER#
 | libqt5qml5 #MINVER#, qtdeclarative-abi-5-15-3
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -703,10 +703,12 @@ libQt5Qml.so.5 libqt5qml5 #MINVER#
  _ZN17QQmlVMEMetaObjectD0Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQmlVMEMetaObjectD1Ev@Qt_5_PRIVATE_API 5.0.2 1
  _ZN17QQmlVMEMetaObjectD2Ev@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN18QAnimationGroupJob12ungroupChildEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.15.3 1
  _ZN18QAnimationGroupJob15appendAnimationEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QAnimationGroupJob15removeAnimationEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QAnimationGroupJob16animationRemovedEP21QAbstractAnimationJobS1_S1_@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QAnimationGroupJob16prependAnimationEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
+ _ZN18QAnimationGroupJob22handleAnimationRemovedEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.15.3 1
  _ZN18QAnimationGroupJob28topLevelAnimationLoopChangedEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QAnimationGroupJob29uncontrolledAnimationFinishedEP21QAbstractAnimationJob@Qt_5_PRIVATE_API 5.0.2 1
  _ZN18QAnimationGroupJob34setUncontrolledAnimationFinishTimeEP21QAbstractAnimationJobi@Qt_5_PRIVATE_API 5.0.2 1

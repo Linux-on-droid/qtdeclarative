@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.2 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.3 amd64 i386
 libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
 | libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#, qtdeclarative-abi-5-15-3
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -2587,6 +2587,16 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN19QSGSoftwareRendererD0Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN19QSGSoftwareRendererD1Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZN19QSGSoftwareRendererD2Ev@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZN20QAccessibleQuickItem12addSelectionEii@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem12setSelectionEiii@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem14interface_castEN11QAccessible13InterfaceTypeE@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem15removeSelectionEi@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem15setCurrentValueERK8QVariant@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem17setCursorPositionEi@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem7setTextEN11QAccessible4TextERK7QString@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItem8doActionERK7QString@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItemC1EP10QQuickItem@Qt_5_PRIVATE_API 5.15.3 1
+ _ZN20QAccessibleQuickItemC2EP10QQuickItem@Qt_5_PRIVATE_API 5.15.3 1
  _ZN20QQuickAnimationGroup10animationsEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN20QQuickAnimationGroup11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5_PRIVATE_API 5.0.2 1
  _ZN20QQuickAnimationGroup11qt_metacastEPKc@Qt_5_PRIVATE_API 5.0.2 1
@@ -4907,6 +4917,35 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZNK19QSGDefaultImageNode9filteringEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK19QSGSoftwareRenderer11flushRegionEv@Qt_5_PRIVATE_API 5.9.0~beta 1
  _ZNK19QSGSoftwareRenderer18currentPaintDeviceEv@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZNK20QAccessibleQuickItem10childCountEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem10childItemsEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem11actionNamesEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12currentValueEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12indexOfChildEPK20QAccessibleInterface@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12isAccessibleEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12maximumValueEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12minimumValueEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12textAtOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem12textDocumentEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem13clipsChildrenEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem14characterCountEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem14cursorPositionEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem14selectionCountEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem15minimumStepSizeEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem15textAfterOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem16textBeforeOffsetEiN11QAccessible16TextBoundaryTypeEPiS2_@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem20keyBindingsForActionERK7QString@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem4rectEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem4roleEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem4textEN11QAccessible4TextE@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem4textEii@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem5childEi@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem5stateEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem6parentEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem6windowEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem7childAtEii@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem8viewRectEv@Qt_5_PRIVATE_API 5.15.3 1
+ _ZNK20QAccessibleQuickItem9selectionEiPiS0_@Qt_5_PRIVATE_API 5.15.3 1
  _ZNK20QQuickAnimationGroup10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK20QQuickBasePositioner10metaObjectEv@Qt_5_PRIVATE_API 5.0.2 1
  _ZNK20QQuickBasePositioner10topPaddingEv@Qt_5_PRIVATE_API 5.6.0~beta 1
@@ -5403,6 +5442,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZTI19QSGDefaultImageNode@Qt_5_PRIVATE_API 5.1.0 1
  _ZTI19QSGShaderEffectNode@Qt_5_PRIVATE_API 5.14.1 1
  _ZTI19QSGSoftwareRenderer@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZTI20QAccessibleQuickItem@Qt_5_PRIVATE_API 5.15.3 1
  _ZTI20QQuickAnimationGroup@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QQuickBasePositioner@Qt_5_PRIVATE_API 5.0.2 1
  _ZTI20QQuickColorAnimation@Qt_5_PRIVATE_API 5.0.2 1
@@ -5648,6 +5688,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZTS19QSGDefaultImageNode@Qt_5_PRIVATE_API 5.1.0 1
  _ZTS19QSGShaderEffectNode@Qt_5_PRIVATE_API 5.14.1 1
  _ZTS19QSGSoftwareRenderer@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZTS20QAccessibleQuickItem@Qt_5_PRIVATE_API 5.15.3 1
  _ZTS20QQuickAnimationGroup@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QQuickBasePositioner@Qt_5_PRIVATE_API 5.0.2 1
  _ZTS20QQuickColorAnimation@Qt_5_PRIVATE_API 5.0.2 1
@@ -5886,6 +5927,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZTV19QSGAbstractRenderer@Qt_5 5.4.0
  _ZTV19QSGDefaultImageNode@Qt_5_PRIVATE_API 5.1.0 1
  _ZTV19QSGSoftwareRenderer@Qt_5_PRIVATE_API 5.9.0~beta 1
+ _ZTV20QAccessibleQuickItem@Qt_5_PRIVATE_API 5.15.3 1
  _ZTV20QQuickAnimationGroup@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QQuickBasePositioner@Qt_5_PRIVATE_API 5.0.2 1
  _ZTV20QQuickColorAnimation@Qt_5_PRIVATE_API 5.0.2 1
@@ -6019,6 +6061,26 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _Zls6QDebugPK7QSGNode@Qt_5 5.0.2
  _Zls6QDebugRKN19QSGShaderEffectNode12VariableDataE@Qt_5_PRIVATE_API 5.9.0~beta 1
  _Zls6QDebugRKN31QSGGuiThreadShaderEffectManager10ShaderInfo8VariableE@Qt_5_PRIVATE_API 5.9.0~beta 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::actionNames() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::addSelection(int, int)@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::characterCount() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::currentValue() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::cursorPosition() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::doAction(QString const&)@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::keyBindingsForAction(QString const&) const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::maximumValue() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::minimumStepSize() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::minimumValue() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::removeSelection(int)@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::selection(int, int*, int*) const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::selectionCount() const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::setCurrentValue(QVariant const&)@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::setCursorPosition(int)@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::setSelection(int, int, int)@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::text(int, int) const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::textAfterOffset(int, QAccessible::TextBoundaryType, int*, int*) const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::textAtOffset(int, QAccessible::TextBoundaryType, int*, int*) const@Qt_5_PRIVATE_API" 5.15.3 1
+ (c++)"non-virtual thunk to QAccessibleQuickItem::textBeforeOffset(int, QAccessible::TextBoundaryType, int*, int*) const@Qt_5_PRIVATE_API" 5.15.3 1
  (c++)"non-virtual thunk to QQuickAbstractAnimation::classBegin()@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QQuickAbstractAnimation::componentComplete()@Qt_5_PRIVATE_API" 5.0.2 1
  (c++)"non-virtual thunk to QQuickAbstractAnimation::setTarget(QQmlProperty const&)@Qt_5_PRIVATE_API" 5.0.2 1
