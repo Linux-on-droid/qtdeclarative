@@ -1,3 +1,32 @@
+qtdeclarative-opensource-src (5.15.3+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/watch for new file names.
+  * Drop patches that are included in the new release:
+    - qmltime-tool.patch
+    - fix_qml_property_cache_leaks.patch
+  * Refresh other patches.
+  * Bump Qt build-dependencies to 5.15.3.
+  * Bump ABI version to qtdeclarative-abi-5-15-3.
+  * Update symbols files from the current build log.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 05 Mar 2022 19:32:15 +0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-10) unstable; urgency=medium
+
+  * Backport upstream patch to fix sweep step for tainted QObject JavaScript
+    wrappers.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 13 Feb 2022 21:04:16 +0300
+
+qtdeclarative-opensource-src (5.15.2+dfsg-9) unstable; urgency=medium
+
+  * Remove unneeded libgl1-mesa-dri Build-Depends and Depends.
+  * Update debian/source/lintian-overrides for Lintian 2.109.
+  * Bump Standards-Version to 4.6.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 18 Dec 2021 15:47:05 +0300
+
 qtdeclarative-opensource-src-gles (5.15.2+dfsg-3) unstable; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.2+dfsg-8 upload.

@@ -120,7 +120,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      void checkJsHeap();
 --- a/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
 +++ b/tests/auto/qml/qmlcachegen/tst_qmlcachegen.cpp
-@@ -106,7 +106,7 @@ static bool generateCache(const QString
+@@ -107,7 +107,7 @@ static bool generateCache(const QString
      QProcess proc;
      if (capturedStderr == nullptr)
          proc.setProcessChannelMode(QProcess::ForwardedChannels);
@@ -236,7 +236,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
 +++ b/tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
-@@ -9248,7 +9248,7 @@ void tst_qqmlecmascript::hugeStack()
+@@ -9249,7 +9249,7 @@ void tst_qqmlecmascript::hugeStack()
  
  void tst_qqmlecmascript::gcCrashRegressionTest()
  {
