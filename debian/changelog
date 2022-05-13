@@ -1,6 +1,5 @@
-qtdeclarative-opensource-src (5.15.4+dfsg-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.4+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.4.
   * Refresh fix_test_remove_qlibraryinfo.patch.
@@ -8,7 +7,7 @@ qtdeclarative-opensource-src (5.15.4+dfsg-1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.6.1, no changes needed.
   * Add two new symbols to debian/libqt5quick5.symbols.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 May 2022 20:17:20 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 13 May 2022 22:50:27 +0300
 
 qtdeclarative-opensource-src (5.15.3+dfsg-1) experimental; urgency=medium
 
