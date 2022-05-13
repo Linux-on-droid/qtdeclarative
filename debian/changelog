@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.15.4+dfsg-1) UNRELEASED; urgency=medium
   * Refresh fix_test_remove_qlibraryinfo.patch.
   * Bump ABI version to qtdeclarative-abi-5-15-4.
   * Bump Standards-Version to 4.6.1, no changes needed.
+  * Add two new symbols to debian/libqt5quick5.symbols.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 13 May 2022 20:17:20 +0300
 

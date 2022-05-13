@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.15.3 amd64 i386
+# SymbolsHelper-Confirmed: 5.15.4 amd64
 libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
 | libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#, qtdeclarative-abi-5-15-4
 * Build-Depends-Packages: qtdeclarative5-dev, qtdeclarative5-private-dev
@@ -3113,6 +3113,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN22QQuickTableViewPrivate12syncDelegateEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate12syncSyncViewEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate12updatePolishEv@Qt_5_PRIVATE_API 5.15.1 1
+ _ZN22QQuickTableViewPrivate13allRowsLoadedEv@Qt_5_PRIVATE_API 5.15.4 1
  _ZN22QQuickTableViewPrivate13fetchMoreDataEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate13updateExtentsEv@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate14connectToModelEv@Qt_5_PRIVATE_API 5.15.1 1
@@ -3121,6 +3122,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZN22QQuickTableViewPrivate14sizeHintForRowEi@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate15loadFxTableItemERK6QPointN13QQmlIncubator14IncubationModeE@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate15updateTableSizeEv@Qt_5_PRIVATE_API 5.15.1 1
+ _ZN22QQuickTableViewPrivate16allColumnsLoadedEv@Qt_5_PRIVATE_API 5.15.4 1
  _ZN22QQuickTableViewPrivate16calculateTopLeftER6QPointR7QPointF@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate16initItemCallbackEiP7QObject@Qt_5_PRIVATE_API 5.15.1 1
  _ZN22QQuickTableViewPrivate16nextEdgeToUnloadE6QRectF@Qt_5_PRIVATE_API 5.15.1 1
