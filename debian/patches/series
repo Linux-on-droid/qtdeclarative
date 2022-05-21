@@ -3,6 +3,7 @@ gcc_11.patch
 tst_qmldiskcache_big_endian.patch
 support_apos_in_styled_text.patch
 fix_sweep_step.patch
+fix_flickable_wheel_velocity_calculation.patch
 
 # Debian patches
 disableopengltests.patch
