@@ -4,6 +4,7 @@ qtdeclarative-opensource-src (5.15.4+dfsg-2) UNRELEASED; urgency=medium
   * Use symver directive to catch all private symbols at once.
   * Backport upstream patch to fix Flickable wheel velocity calculation
     (closes: #1011253, thanks Wolfgang Frisch).
+  * Backport one more patch to make the tests pass.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 May 2022 00:35:13 +0300
 
