@@ -1,3 +1,9 @@
+qtdeclarative-opensource-src (5.15.4+dfsg-3) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 13 Jun 2022 21:36:23 +0300
+
 qtdeclarative-opensource-src (5.15.4+dfsg-2) experimental; urgency=medium
 
   * Use symver directive to catch all private symbols at once.
