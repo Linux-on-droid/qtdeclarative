@@ -1,0 +1,83 @@
+Description: QQuickLoader: do not incubate if the source arrives after setActive(false)
+ Otherwise we end up in the crazy place of active being false but item
+ being non-null and forces us to workaround within the apps.
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=e78c068700fa74ab
+Last-Update: 2022-07-01
+
+--- a/src/quick/items/qquickloader.cpp
++++ b/src/quick/items/qquickloader.cpp
+@@ -737,6 +737,9 @@ void QQuickLoaderPrivate::_q_sourceLoade
+         return;
+     }
+ 
++    if (!active)
++        return;
++
+     QQmlContext *creationContext = component->creationContext();
+     if (!creationContext) creationContext = qmlContext(q);
+     itemContext = new QQmlContext(creationContext);
+--- /dev/null
++++ b/tests/auto/quick/qquickloader/data/loader-async-race-rect.qml
+@@ -0,0 +1,10 @@
++import QtQuick 2.15
++
++Rectangle {
++    anchors.fill: parent
++    color: "blue"
++    Item {
++        Item {
++        }
++    }
++}
+--- /dev/null
++++ b/tests/auto/quick/qquickloader/data/loader-async-race.qml
+@@ -0,0 +1,14 @@
++import QtQuick 2.15
++
++Item {
++    id: root
++    Component.onCompleted: {
++        myloader.active = false
++    }
++    Loader {
++        id: myloader
++        anchors.fill: parent
++        asynchronous: true
++        source: "loader-async-race-rect.qml"
++    }
++}
+--- a/tests/auto/quick/qquickloader/tst_qquickloader.cpp
++++ b/tests/auto/quick/qquickloader/tst_qquickloader.cpp
+@@ -132,6 +132,7 @@ private slots:
+     void statusChangeOnlyEmittedOnce();
+ 
+     void setSourceAndCheckStatus();
++    void asyncLoaderRace();
+ };
+ 
+ Q_DECLARE_METATYPE(QList<QQmlError>)
+@@ -1496,6 +1497,24 @@ void tst_QQuickLoader::setSourceAndCheck
+     QCOMPARE(loader->status(), QQuickLoader::Null);
+ }
+ 
++void tst_QQuickLoader::asyncLoaderRace()
++{
++    QQmlApplicationEngine engine;
++    auto url = testFileUrl("loader-async-race.qml");
++    engine.load(url);
++    auto root = engine.rootObjects().at(0);
++    QVERIFY(root);
++
++    QQuickLoader *loader = root->findChild<QQuickLoader *>();
++    QCOMPARE(loader->active(), false);
++    QCOMPARE(loader->status(), QQuickLoader::Null);
++    QCOMPARE(loader->item(), nullptr);
++
++    QSignalSpy spy(loader, &QQuickLoader::itemChanged);
++    QVERIFY(!spy.wait(100));
++    QCOMPARE(loader->item(), nullptr);
++}
++
+ QTEST_MAIN(tst_QQuickLoader)
+ 
+ #include "tst_qquickloader.moc"

@@ -1,3 +1,9 @@
+qtdeclarative-opensource-src (5.15.4+dfsg-4) UNRELEASED; urgency=medium
+
+  * Backport upstream patch to fix asynchronous loaders loading when inactive
+
+ -- Jonah Brüchert <jbb@kaidan.im>  Tue, 28 Jun 2022 19:24:13 +0200
+
 qtdeclarative-opensource-src (5.15.4+dfsg-3) unstable; urgency=medium
 
   * Upload to unstable.
