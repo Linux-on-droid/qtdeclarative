@@ -1,9 +1,8 @@
 Description: build fixes for GCC 11
 Origin: upstream, commits:
  https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
- https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=367293b18ab0d0a0
  https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=db58b8518e157b76
-Last-Update: 2021-08-18
+Last-Update: 2022-07-03
 
 --- a/src/3rdparty/masm/yarr/Yarr.h
 +++ b/src/3rdparty/masm/yarr/Yarr.h
@@ -33,13 +32,3 @@ Last-Update: 2021-08-18
          return addJumpInstruction(data);
      }
  
---- a/src/qmldebug/qqmlprofilerevent_p.h
-+++ b/src/qmldebug/qqmlprofilerevent_p.h
-@@ -48,6 +48,7 @@
- #include <QtCore/qmetatype.h>
- 
- #include <initializer_list>
-+#include <limits>
- #include <type_traits>
- 
- //
