@@ -1,12 +1,11 @@
-qtdeclarative-opensource-src (5.15.5+dfsg-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.5+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.5.
   * Bump ABI version to 5-15-5.
   * Refresh patches for the new release.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Jul 2022 16:44:26 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 Jul 2022 20:15:45 +0300
 
 qtdeclarative-opensource-src (5.15.4+dfsg-4) unstable; urgency=medium
 
