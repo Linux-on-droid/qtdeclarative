@@ -1,3 +1,19 @@
+qtdeclarative-opensource-src (5.15.5+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.5.
+  * Bump ABI version to 5-15-5.
+  * Refresh patches for the new release.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 Jul 2022 20:15:45 +0300
+
+qtdeclarative-opensource-src (5.15.4+dfsg-4) unstable; urgency=medium
+
+  [ Jonah Brüchert ]
+  * Backport upstream patch to fix asynchronous loaders loading when inactive
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 01 Jul 2022 23:08:41 +0300
+
 qtdeclarative-opensource-src-gles (5.15.4+dfsg-2) unstable; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.4+dfsg-3 upload.

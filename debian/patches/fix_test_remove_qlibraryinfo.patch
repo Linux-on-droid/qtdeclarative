@@ -173,7 +173,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
      qmlplugindumpPath += QLatin1String("/qmlplugindump.exe");
 --- a/tests/auto/qml/debugger/qqmldebugjs/tst_qqmldebugjs.cpp
 +++ b/tests/auto/qml/debugger/qqmldebugjs/tst_qqmldebugjs.cpp
-@@ -178,7 +178,7 @@ QQmlDebugTest::ConnectResult tst_QQmlDeb
+@@ -184,7 +184,7 @@ QQmlDebugTest::ConnectResult tst_QQmlDeb
                                                     bool blockMode, bool restrictServices)
  {
      const QString executable = qmlscene
@@ -182,7 +182,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
              : debugJsServerPath("qqmldebugjs");
      return QQmlDebugTest::connectTo(
                  executable, restrictServices ? QStringLiteral("V8Debugger") : QString(),
-@@ -471,7 +471,7 @@ void tst_QQmlDebugJS::setBreakpointInJav
+@@ -477,7 +477,7 @@ void tst_QQmlDebugJS::setBreakpointInJav
  
      if (seedCache) { // Make sure there is a qmlc file that the engine should _not_ laod.
          QProcess process;
@@ -191,7 +191,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
                        { testFile(QUITINJS_QMLFILE) });
          QTRY_COMPARE(process.state(), QProcess::NotRunning);
      }
-@@ -853,8 +853,7 @@ void tst_QQmlDebugJS::evaluateInLocalSco
+@@ -846,8 +846,7 @@ void tst_QQmlDebugJS::evaluateInLocalSco
  void tst_QQmlDebugJS::evaluateInContext()
  {
      m_connection = new QQmlDebugConnection();
