@@ -117,7 +117,6 @@ Copyright: 2012-2017 Ecma International
            2016-2017 Kevin Gibbons
            2016-2017 Mathias Bynens
            2016-2017 Robin Templeton
-           2016-2017 The V8 Project authors
            2016-2018 Michael Ficarra
            2017 Caio Lima
            2017 Claude Pache
@@ -570,6 +569,17 @@ Files: tests/auto/qml/qqmllistmodelworkerscript/data/listmodel_async_sort/ListMo
        tests/auto/qml/qqmllistmodelworkerscript/data/listmodel_async_sort/ListModelSortWorker.mjs
 Copyright: 2020 Esri
 License: Apache-2.0
+
+Files: tests/manual/v4/typedarrays.js
+Copyright: 2013 the V8 project authors
+License: BSD-3-clause
+
+Files: tests/manual/v4/v8-bench.js
+Copyright: 2006-2012 the V8 project authors
+           1996 John Maloney and Mario Wolczko
+           2003-2005 Tom Wu
+           2009 Oliver Hunt
+License: BSD-3-clause
 
 License: GFDL-NIV-1.3
  Permission is granted to copy, distribute and/or modify this document
