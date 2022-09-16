@@ -4,7 +4,7 @@ Source: https://download.qt.io/official_releases/qt/*/submodules/
 Files-Excluded: tests/auto/qml/ecmascripttests/test262/website/scripts/lib/jquery-1.4.2.min.js
 
 Files: *
-Copyright: 2016-2020 The Qt Company Ltd.
+Copyright: 2016-2021 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
 Files: debian/*
@@ -19,12 +19,12 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
 License: LGPL-3 or GPL-2+
 
 Files: *.qdoc
-Copyright: 2016-2019 The Qt Company Ltd.
+Copyright: 2016-2021 The Qt Company Ltd.
 License: GFDL-NIV-1.3
 
 Files: tests/*
        tools/*
-Copyright: 2016-2020 The Qt Company Ltd.
+Copyright: 2016-2021 The Qt Company Ltd.
 License: GPL-3 with Qt-1.0 exception
 
 Files: examples/*
@@ -85,7 +85,7 @@ Files: examples/*
        tests/testapplications/animatedsprite/*
        tests/testapplications/listview/*
        tools/qml/conf/*
-Copyright: 2016-2020 The Qt Company Ltd.
+Copyright: 2016-2021 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/qml/ecmascripttests/test262/*
@@ -117,7 +117,6 @@ Copyright: 2012-2017 Ecma International
            2016-2017 Kevin Gibbons
            2016-2017 Mathias Bynens
            2016-2017 Robin Templeton
-           2016-2017 The V8 Project authors
            2016-2018 Michael Ficarra
            2017 Caio Lima
            2017 Claude Pache
@@ -565,6 +564,23 @@ Comment:
  https://www.dafont.com/daniel.font
  http://goodreasonblog.com/fontery/
 
+Files: tests/auto/qml/qqmllistmodelworkerscript/data/listmodel_async_sort/ListModelSort.mjs
+       tests/auto/qml/qqmllistmodelworkerscript/data/listmodel_async_sort/ListModelSort.qml
+       tests/auto/qml/qqmllistmodelworkerscript/data/listmodel_async_sort/ListModelSortWorker.mjs
+Copyright: 2020 Esri
+License: Apache-2.0
+
+Files: tests/manual/v4/typedarrays.js
+Copyright: 2013 the V8 project authors
+License: BSD-3-clause
+
+Files: tests/manual/v4/v8-bench.js
+Copyright: 2006-2012 the V8 project authors
+           1996 John Maloney and Mario Wolczko
+           2003-2005 Tom Wu
+           2009 Oliver Hunt
+License: BSD-3-clause
+
 License: GFDL-NIV-1.3
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.3
@@ -928,3 +944,19 @@ License: Bitstream
  without prior written authorization from the Gnome Foundation or Bitstream
  Inc., respectively. For further information, contact: fonts at gnome dot
  org.
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+    http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License 2.0 can
+ be found in /usr/share/common-licenses/Apache-2.0.

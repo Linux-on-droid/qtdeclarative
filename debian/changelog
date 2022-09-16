@@ -1,3 +1,15 @@
+qtdeclarative-opensource-src (5.15.6+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Refresh fix_test_remove_qlibraryinfo.patch.
+  * Bump Qt build-dependencies to 5.15.6.
+  * Bump ABI version to 5-15-6.
+  * Update debian/source/lintian-overrides for Lintian pointed hints.
+  * Update debian/copyright.
+  * Update debian/libqt5qml5.symbols from the current build logs.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 11 Sep 2022 20:27:43 +0300
+
 qtdeclarative-opensource-src-gles (5.15.5+dfsg-1) experimental; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.5+dfsg-1 upload.
