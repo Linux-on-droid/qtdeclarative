@@ -2,6 +2,8 @@ qtdeclarative-opensource-src (5.15.7+dfsg-1) UNRELEASED; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release (5.15.7).
+  * Refresh all patches, dropping part of the GCC-11 patch that was merged
+    upstream.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Nov 2022 11:32:16 -0500
 
