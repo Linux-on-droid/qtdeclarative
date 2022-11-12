@@ -6,6 +6,7 @@ qtdeclarative-opensource-src (5.15.7+dfsg-1) UNRELEASED; urgency=medium
     upstream.
   * Bump ABI version to qtdeclarative-abi-5-15-7.
   * Bump Qt build dependencies to 5.15.7.
+  * Update Lintian source-is-missing overrides to cover more test files.
 
   [ Dmitry Shachnev ]
   * Set TZ=UTC for tests.
