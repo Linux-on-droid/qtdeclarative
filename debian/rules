@@ -74,6 +74,7 @@ ifneq (,$(filter $(DEB_HOST_ARCH),hppa ia64 mips mips64el mipsel powerpc ppc64 s
 	-xvfb-run -a \
 	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
+	         TZ=UTC \
 	         QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
 	         QT_PLUGIN_PATH=$(CURDIR)/plugins \
 	         LD_LIBRARY_PATH=$(CURDIR)/lib
@@ -81,6 +82,7 @@ else
 	xvfb-run -a \
 	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \
+	         TZ=UTC \
 	         QML2_IMPORT_PATH=$(CURDIR)/test_root/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/qml \
 	         QT_PLUGIN_PATH=$(CURDIR)/plugins \
 	         LD_LIBRARY_PATH=$(CURDIR)/lib

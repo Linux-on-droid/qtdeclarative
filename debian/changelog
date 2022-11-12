@@ -7,6 +7,9 @@ qtdeclarative-opensource-src (5.15.7+dfsg-1) UNRELEASED; urgency=medium
   * Bump ABI version to qtdeclarative-abi-5-15-7.
   * Bump Qt build dependencies to 5.15.7.
 
+  [ Dmitry Shachnev ]
+  * Set TZ=UTC for tests.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Nov 2022 11:32:16 -0500
 
 qtdeclarative-opensource-src (5.15.6+dfsg-2) unstable; urgency=medium
