@@ -51,6 +51,10 @@ override_dh_auto_install-arch:
 	-o -name '*.qml' \
 	\) -print0 | xargs -0 chmod a-x
 
+	# Explicitly remove a .bat file included in examples
+	# Per Debian Policy, we cannot ship a non-standard executable without recommending a corresponding runtime
+	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/qt5/examples/quick/shadereffects/content/shaders/rhi/compile.bat
+
 override_dh_auto_install-indep:
 	dh_auto_build -- INSTALL_ROOT=$(CURDIR)/debian/tmp install_docs
 
