@@ -61,6 +61,7 @@ Files: examples/*
        tests/auto/quick/qquicklayouts/data/*
        tests/auto/quick/qquicklistview/data/addoncompleted.qml
        tests/auto/quick/qquicklistview/data/attachedProperties.qml
+       tests/auto/quick/qquicklistview/data/delegateWithMouseArea2.qml
        tests/auto/quick/qquicklistview/data/flickBothDirections.qml
        tests/auto/quick/qquicklistview/data/moveObjectModelItemToAnotherObjectModel.qml
        tests/auto/quick/qquicklistview/data/outsideViewportChangeNotAffectingView.qml
