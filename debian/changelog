@@ -11,6 +11,7 @@ qtdeclarative-opensource-src (5.15.7+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Set TZ=UTC for tests.
+  * Update symbols files for riscv64.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Nov 2022 11:32:16 -0500
 
