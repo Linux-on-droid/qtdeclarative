@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.15.7+dfsg-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.7+dfsg-1) experimental; urgency=medium
 
   [ Simon Quigley ]
   * New upstream release (5.15.7).
@@ -13,7 +13,7 @@ qtdeclarative-opensource-src (5.15.7+dfsg-1) UNRELEASED; urgency=medium
   * Set TZ=UTC for tests.
   * Update symbols files for riscv64.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Nov 2022 11:32:16 -0500
+ -- Simon Quigley <tsimonq2@debian.org>  Fri, 18 Nov 2022 18:13:13 -0600
 
 qtdeclarative-opensource-src (5.15.6+dfsg-2) unstable; urgency=medium
 
