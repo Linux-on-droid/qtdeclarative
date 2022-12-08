@@ -1,19 +1,7 @@
 Description: build fixes for GCC 11
-Origin: upstream, commits:
- https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
- https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=db58b8518e157b76
-Last-Update: 2022-07-03
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=eb6525f126f680f9
+Last-Update: 2022-11-05
 
---- a/src/3rdparty/masm/yarr/Yarr.h
-+++ b/src/3rdparty/masm/yarr/Yarr.h
-@@ -28,6 +28,7 @@
- #pragma once
- 
- #include <limits.h>
-+#include <limits>
- #include "YarrErrorCode.h"
- 
- namespace JSC { namespace Yarr {
 --- a/src/qml/compiler/qv4bytecodegenerator_p.h
 +++ b/src/qml/compiler/qv4bytecodegenerator_p.h
 @@ -186,13 +186,13 @@ QT_WARNING_POP

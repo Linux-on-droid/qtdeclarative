@@ -1,3 +1,27 @@
+qtdeclarative-opensource-src (5.15.7+dfsg-1) experimental; urgency=medium
+
+  [ Simon Quigley ]
+  * New upstream release (5.15.7).
+  * Refresh all patches, dropping part of the GCC-11 patch that was merged
+    upstream.
+  * Bump ABI version to qtdeclarative-abi-5-15-7.
+  * Bump Qt build dependencies to 5.15.7.
+  * Update Lintian source-is-missing overrides to cover more test files.
+  * Remove a batch file shipped in examples.
+
+  [ Dmitry Shachnev ]
+  * Set TZ=UTC for tests.
+  * Update symbols files for riscv64.
+
+ -- Simon Quigley <tsimonq2@debian.org>  Fri, 18 Nov 2022 18:13:13 -0600
+
+qtdeclarative-opensource-src (5.15.6+dfsg-2) unstable; urgency=medium
+
+  * Update symbols files from buildds’ logs.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 29 Sep 2022 11:39:46 +0300
+
 qtdeclarative-opensource-src-gles (5.15.6+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.

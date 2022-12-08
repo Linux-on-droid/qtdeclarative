@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.15.1 amd64 i386
 libQt5QuickParticles.so.5 libqt5quickparticles5 #MINVER# | libqt5quickparticles5-gles #MINVER#
-| libqt5quickparticles5 #MINVER# | libqt5quickparticles5-gles #MINVER#, qtdeclarative-abi-5-15-6
+| libqt5quickparticles5 #MINVER# | libqt5quickparticles5-gles #MINVER#, qtdeclarative-abi-5-15-7
 * Build-Depends-Package: qtdeclarative5-private-dev
  (symver)Qt_5_PRIVATE_API 0 1
