@@ -1,9 +1,9 @@
-qtdeclarative-opensource-src (5.15.7+dfsg-2) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.7+dfsg-2) unstable; urgency=medium
 
-  [ Dmitry Shachnev ]
   * Update symbols files for alpha.
+  * Upload to unstable.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 17 Dec 2022 18:08:38 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 17 Dec 2022 18:20:11 +0300
 
 qtdeclarative-opensource-src (5.15.7+dfsg-1) experimental; urgency=medium
 
