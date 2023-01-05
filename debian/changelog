@@ -2,6 +2,9 @@ qtdeclarative-opensource-src (5.15.8+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Drop patches, included in the new release:
+    - fix_flickable_wheel_velocity_calculation.patch
+    - use_delay_properly_in_mousewheel.patch
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Jan 2023 21:18:58 +0400
 
