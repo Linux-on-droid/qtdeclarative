@@ -9,6 +9,7 @@ qtdeclarative-opensource-src (5.15.8+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.15.8.
   * Bump ABI version to qtdeclarative-abi-5-15-8.
   * Update debian/libqt5qml5.symbols for hurd-i386.
+  * Bump Standards-Version to 4.6.2, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 05 Jan 2023 21:18:58 +0400
 
