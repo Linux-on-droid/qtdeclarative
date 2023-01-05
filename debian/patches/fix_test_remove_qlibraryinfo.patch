@@ -236,7 +236,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
  
 --- a/tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
 +++ b/tests/auto/qml/qqmlecmascript/tst_qqmlecmascript.cpp
-@@ -9275,7 +9275,7 @@ void tst_qqmlecmascript::hugeStack()
+@@ -9276,7 +9276,7 @@ void tst_qqmlecmascript::hugeStack()
  
  void tst_qqmlecmascript::gcCrashRegressionTest()
  {
