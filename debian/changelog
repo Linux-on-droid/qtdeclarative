@@ -1,3 +1,30 @@
+qtdeclarative-opensource-src (5.15.8+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 13 Jan 2023 12:01:44 +0400
+
+qtdeclarative-opensource-src (5.15.8+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Drop patches, included in the new release:
+    - fix_flickable_wheel_velocity_calculation.patch
+    - use_delay_properly_in_mousewheel.patch
+  * Refresh debian/patches/fix_test_remove_qlibraryinfo.patch.
+  * Bump Qt build-dependencies to 5.15.8.
+  * Bump ABI version to qtdeclarative-abi-5-15-8.
+  * Update debian/libqt5qml5.symbols for hurd-i386.
+  * Bump Standards-Version to 4.6.2, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 06 Jan 2023 00:36:44 +0400
+
+qtdeclarative-opensource-src (5.15.7+dfsg-2) unstable; urgency=medium
+
+  * Update symbols files for alpha.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 17 Dec 2022 18:20:11 +0300
+
 qtdeclarative-opensource-src-gles (5.15.7+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.
