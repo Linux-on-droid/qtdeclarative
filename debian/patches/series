@@ -3,6 +3,7 @@ gcc_11.patch
 tst_qmldiskcache_big_endian.patch
 support_apos_in_styled_text.patch
 fix_sweep_step.patch
+qquickitem_no_signals_on_destruction.patch
 
 # Debian patches
 disableopengltests.patch
