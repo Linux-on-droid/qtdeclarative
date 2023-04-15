@@ -7,6 +7,7 @@ qtdeclarative-opensource-src (5.15.9+dfsg-1) UNRELEASED; urgency=medium
   * Drop patches, included in the new release:
     - support_apos_in_styled_text.patch
     - fix_sweep_step.patch
+  * Minor debian/copyright updates.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 15 Apr 2023 17:58:57 +0300
 

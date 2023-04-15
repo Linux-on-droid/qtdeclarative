@@ -14,7 +14,7 @@ Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
            2007-2009 Ana Beatriz Guerrero Lopez <ana@debian.org>
            2005-2007 Brian Nelson <pyro@debian.org>
            2012-2013 Timo Jyrinki <timo.jyrinki@canonical.com>
-           2013-2022 Dmitry Shachnev <mitya57@debian.org>
+           2013-2023 Dmitry Shachnev <mitya57@debian.org>
            2018 Simon Quigley <tsimonq2@ubuntu.com>
 License: LGPL-3 or GPL-2+
 
@@ -66,6 +66,7 @@ Files: examples/*
        tests/auto/quick/qquicklistview/data/moveObjectModelItemToAnotherObjectModel.qml
        tests/auto/quick/qquicklistview/data/outsideViewportChangeNotAffectingView.qml
        tests/auto/quick/qquicklistview/data/qtbug61537_modelChangesAsync.qml
+       tests/auto/quick/qquicklistview/data/qtbug_92809.qml
        tests/auto/quick/qquicklistview/data/resizeAfterComponentComplete.qml
        tests/auto/quick/qquicklistview/data/roundingErrors.qml
        tests/auto/quick/qquicklistview/data/setpositiononlayout.qml
