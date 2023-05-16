@@ -1,0 +1,158 @@
+Description: QQuickItem: avoid emitting signals during destruction
+ If a QQuickItem is in the QQuickItem destructor, then it is both unsafe
+ and unnecessary to emit property change notifications. Connected code
+ can no longer rely on the state of the emitting object - if it was
+ originally a subclass of QQuickItem, then those subclass destructors
+ will already have run. And the QQuickItem destructor will also have
+ partially run, leaving the object in an undefined state.
+ .
+ Add a flag that we set to true at the top of ~QQuickItem, and don't emit
+ visibleChildrenChanged, parentChanged, visibleChanged, and
+ childrenChanged for items that are partially destroyed already.
+ .
+ [ChangeLog][Qt Quick][QQuickItem] QQuickItem no longer emits change
+ notifications for the parent, children, visible, and visibleChildren
+ properties while it is being destroyed.
+Origin: upstream, https://code.qt.io/cgit/qt/qtdeclarative.git/commit/?id=74873324bdf33997
+Last-Update: 2023-02-26
+
+--- a/src/quick/items/qquickitem.cpp
++++ b/src/quick/items/qquickitem.cpp
+@@ -2326,6 +2326,7 @@ QQuickItem::QQuickItem(QQuickItemPrivate
+ QQuickItem::~QQuickItem()
+ {
+     Q_D(QQuickItem);
++    d->inDestructor = true;
+ 
+     if (d->windowRefCount > 1)
+         d->windowRefCount = 1; // Make sure window is set to null in next call to derefWindow().
+@@ -2689,9 +2690,8 @@ void QQuickItem::setParentItem(QQuickIte
+ 
+         const bool wasVisible = isVisible();
+         op->removeChild(this);
+-        if (wasVisible) {
++        if (wasVisible && !op->inDestructor)
+             emit oldParentItem->visibleChildrenChanged();
+-        }
+     } else if (d->window) {
+         QQuickWindowPrivate::get(d->window)->parentlessItems.remove(this);
+     }
+@@ -2768,8 +2768,9 @@ void QQuickItem::setParentItem(QQuickIte
+ 
+     d->itemChange(ItemParentHasChanged, d->parentItem);
+ 
+-    emit parentChanged(d->parentItem);
+-    if (isVisible() && d->parentItem)
++    if (!d->inDestructor)
++        emit parentChanged(d->parentItem);
++    if (isVisible() && d->parentItem && !QQuickItemPrivate::get(d->parentItem)->inDestructor)
+         emit d->parentItem->visibleChildrenChanged();
+ }
+ 
+@@ -2965,7 +2966,8 @@ void QQuickItemPrivate::removeChild(QQui
+ 
+     itemChange(QQuickItem::ItemChildRemovedChange, child);
+ 
+-    emit q->childrenChanged();
++    if (!inDestructor)
++        emit q->childrenChanged();
+ }
+ 
+ void QQuickItemPrivate::refWindow(QQuickWindow *c)
+@@ -3194,6 +3196,7 @@ QQuickItemPrivate::QQuickItemPrivate()
+     , touchEnabled(false)
+ #endif
+     , hasCursorHandler(false)
++    , inDestructor(false)
+     , dirtyAttributes(0)
+     , nextDirtyItem(nullptr)
+     , prevDirtyItem(nullptr)
+@@ -6106,9 +6109,11 @@ bool QQuickItemPrivate::setEffectiveVisi
+         QAccessible::updateAccessibility(&ev);
+     }
+ #endif
+-    emit q->visibleChanged();
+-    if (childVisibilityChanged)
+-        emit q->visibleChildrenChanged();
++    if (!inDestructor) {
++        emit q->visibleChanged();
++        if (childVisibilityChanged)
++            emit q->visibleChildrenChanged();
++    }
+ 
+     return true;    // effective visibility DID change
+ }
+--- a/src/quick/items/qquickitem_p.h
++++ b/src/quick/items/qquickitem_p.h
+@@ -472,6 +472,7 @@ public:
+     bool replayingPressEvent:1;
+     bool touchEnabled:1;
+     bool hasCursorHandler:1;
++    quint32 inDestructor:1; // has entered ~QQuickItem
+ 
+     enum DirtyType {
+         TransformOrigin         = 0x00000001,
+--- a/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
++++ b/tests/auto/quick/qquickitem2/tst_qquickitem.cpp
+@@ -131,6 +131,8 @@ private slots:
+ 
+     void grab();
+ 
++    void signalsOnDestruction();
++
+ private:
+     QQmlEngine engine;
+     bool qt_tab_all_widgets() {
+@@ -3520,6 +3522,52 @@ void tst_QQuickItem::isAncestorOf()
+     QVERIFY(!sub2.isAncestorOf(&sub2));
+ }
+ 
++/*
++    Items that are getting destroyed should not emit property change notifications.
++*/
++void tst_QQuickItem::signalsOnDestruction()
++{
++    QQuickWindow window;
++    window.show();
++
++    // visual children, but not QObject children
++    std::unique_ptr<QQuickItem> parent(new QQuickItem(window.contentItem()));
++    std::unique_ptr<QQuickItem> child(new QQuickItem);
++    std::unique_ptr<QQuickItem> grandChild(new QQuickItem);
++
++    QSignalSpy childrenSpy(parent.get(), &QQuickItem::childrenChanged);
++    QSignalSpy visibleChildrenSpy(parent.get(), &QQuickItem::visibleChildrenChanged);
++    QSignalSpy childParentSpy(child.get(), &QQuickItem::parentChanged);
++    QSignalSpy childChildrenSpy(child.get(), &QQuickItem::childrenChanged);
++    QSignalSpy childVisibleChildrenSpy(child.get(), &QQuickItem::visibleChanged);
++    QSignalSpy grandChildParentSpy(grandChild.get(), &QQuickItem::parentChanged);
++
++    child->setParentItem(parent.get());
++    QCOMPARE(childrenSpy.count(), 1);
++    QCOMPARE(visibleChildrenSpy.count(), 1);
++    QCOMPARE(childParentSpy.count(), 1);
++    QCOMPARE(childChildrenSpy.count(), 0);
++    QCOMPARE(childVisibleChildrenSpy.count(), 0);
++
++    grandChild->setParentItem(child.get());
++    QCOMPARE(childrenSpy.count(), 1);
++    QCOMPARE(visibleChildrenSpy.count(), 1);
++    QCOMPARE(childParentSpy.count(), 1);
++    QCOMPARE(childChildrenSpy.count(), 1);
++    QCOMPARE(childVisibleChildrenSpy.count(), 0);
++    QCOMPARE(grandChildParentSpy.count(), 1);
++
++    parent.reset();
++
++    QVERIFY(!child->parentItem());
++    QVERIFY(grandChild->parentItem());
++    QCOMPARE(childrenSpy.count(), 1);
++    QCOMPARE(visibleChildrenSpy.count(), 1);
++    QCOMPARE(childParentSpy.count(), 2);
++    QCOMPARE(grandChildParentSpy.count(), 1);
++}
++
++
+ QTEST_MAIN(tst_QQuickItem)
+ 
+ #include "tst_qquickitem.moc"

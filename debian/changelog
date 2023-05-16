@@ -1,3 +1,22 @@
+qtdeclarative-opensource-src (5.15.9+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.9.
+  * Bump ABI version to qtdeclarative-abi-5-15-9.
+  * Drop patches, included in the new release:
+    - support_apos_in_styled_text.patch
+    - fix_sweep_step.patch
+  * Minor debian/copyright updates.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 16 Apr 2023 19:19:48 +0300
+
+qtdeclarative-opensource-src (5.15.8+dfsg-3) unstable; urgency=medium
+
+  * Backport upstream patch to fix crash when destructing QQuickItem
+    (closes: #983597).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 26 Feb 2023 23:32:58 +0300
+
 qtdeclarative-opensource-src-gles (5.15.8+dfsg-1) unstable; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.8+dfsg-2 upload.
