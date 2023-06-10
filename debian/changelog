@@ -5,6 +5,7 @@ qtdeclarative-opensource-src (5.15.10+dfsg-1) UNRELEASED; urgency=medium
   * Drop gcc_11.patch, included in the new release.
   * Refresh fix_test_remove_qlibraryinfo.patch.
   * Bump Qt build-dependencies to 5.15.10.
+  * Bump ABI version to qtdeclarative-abi-5-15-10.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Jun 2023 18:07:08 +0300
 
