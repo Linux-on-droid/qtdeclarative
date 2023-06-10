@@ -4,7 +4,7 @@ Source: https://download.qt.io/official_releases/qt/*/submodules/
 Files-Excluded: tests/auto/qml/ecmascripttests/test262/website/scripts/lib/jquery-1.4.2.min.js
 
 Files: *
-Copyright: 2016-2021 The Qt Company Ltd.
+Copyright: 2016-2022 The Qt Company Ltd.
 License: LGPL-3 or GPL-2+
 
 Files: debian/*
@@ -87,7 +87,7 @@ Files: examples/*
        tests/testapplications/animatedsprite/*
        tests/testapplications/listview/*
        tools/qml/conf/*
-Copyright: 2016-2021 The Qt Company Ltd.
+Copyright: 2016-2022 The Qt Company Ltd.
 License: BSD-3-clause
 
 Files: tests/auto/qml/ecmascripttests/test262/*
