@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src-gles (5.15.10+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Merge qtdeclarative-opensource-src 5.15.10+dfsg-1 upload.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 13 Jun 2023 23:53:03 +0300
+
 qtdeclarative-opensource-src (5.15.10+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
