@@ -1,5 +1,4 @@
 # Backported patches
-gcc_11.patch
 tst_qmldiskcache_big_endian.patch
 qquickitem_no_signals_on_destruction.patch
 
