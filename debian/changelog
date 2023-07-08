@@ -1,3 +1,9 @@
+qtdeclarative-opensource-src (5.15.10+dfsg-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 08 Jul 2023 09:59:44 +0300
+
 qtdeclarative-opensource-src (5.15.10+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
