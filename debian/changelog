@@ -1,5 +1,8 @@
 qtdeclarative-opensource-src (5.15.10+dfsg-3) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Make the tests non-fatal also on hurd-i386, as the lack of DRI causes the
+    OpenGL-related tests to fail.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Jul 2023 07:55:59 +0200
 
