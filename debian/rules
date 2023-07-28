@@ -75,7 +75,7 @@ ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
 	# - mips*: Some tests are failing because of bug #868745
 	# - powerpc, ppc64, s390x: item-grabber test fails on big endian, see https://bugreports.qt.io/browse/QTBUG-56806
 	# - sparc64: QML engine is broken, see bug #894726
-ifneq (,$(filter $(DEB_HOST_ARCH),hppa hurd-i386 ia64 mips mips64el mipsel powerpc ppc64 s390x sparc64))
+ifneq (,$(filter $(DEB_HOST_ARCH),hppa hurd-i386 ia64 mips64el mipsel powerpc ppc64 s390x sparc64))
 	-xvfb-run -a \
 	         -s "-screen 0 1024x768x24 +extension RANDR +extension RENDER +extension GLX" \
 	         dh_auto_test --max-parallel=1 -- -k -Ctests/auto \

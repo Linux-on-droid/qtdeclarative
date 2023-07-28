@@ -672,7 +672,7 @@ libQt5Quick.so.5 libqt5quick5 #MINVER# | libqt5quick5-gles #MINVER#
  _ZNK11QSGGeometry9indexDataEv@Qt_5 5.0.2
  _ZNK11QSGGeometry9lineWidthEv@Qt_5 5.0.2
  _ZNK11QSGMaterial7compareEPKS_@Qt_5 5.0.2
- (optional=inline|arch=arm64 hurd-i386 i386 kfreebsd-i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
+ (optional=inline|arch=arm64 hurd-i386 i386)_ZNK12QPaintDevice7devTypeEv@Qt_5 5.10.1
  _ZNK12QQuickWindow10metaObjectEv@Qt_5 5.0.2
  _ZNK12QQuickWindow11contentItemEv@Qt_5 5.0.2
  _ZNK12QQuickWindow11focusObjectEv@Qt_5 5.0.2
