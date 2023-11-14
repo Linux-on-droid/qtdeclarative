@@ -6,7 +6,7 @@ Last-Update: 2021-02-11
 +++ b/tests/auto/qml/qmldiskcache/tst_qmldiskcache.cpp
 @@ -376,9 +376,8 @@ void tst_qmldiskcache::regenerateAfterCh
          QCOMPARE(quint32(obj->nBindings), quint32(2));
-         QCOMPARE(quint32(obj->bindingTable()->type), quint32(QV4::CompiledData::Binding::Type_Number));
+         QCOMPARE(obj->bindingTable()->type(), QV4::CompiledData::Binding::Type_Number);
  
 -        QCOMPARE(reinterpret_cast<const QV4::Value *>(testUnit->constants())
 -                         [obj->bindingTable()->value.constantValueIndex].doubleValue(),
