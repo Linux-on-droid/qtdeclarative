@@ -12,11 +12,11 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 %:
 	dh $@ --with pkgkde_symbolshelper
 
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -rf $(CURDIR)/test_root
-	rm -rf $(CURDIR)/docs
-	rm -rf $(CURDIR)/.local
+execute_after_dh_auto_clean:
+	find examples -type f -executable -and -not -name compile.bat -delete
+	find examples -name "*.so" -delete
+	find tests -executable -type f -and -not '(' -name compile.bat -or -path 'tests/auto/qml/ecmascripttests/test262*' ')' -delete
+	find -name Makefile -delete
 
 override_dh_auto_configure:
 	dh_auto_configure -- QT_BUILD_PARTS+=tests QMAKE_PYTHON=python3
