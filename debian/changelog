@@ -1,4 +1,4 @@
-qtdeclarative-opensource-src (5.15.11+dfsg-1) UNRELEASED; urgency=medium
+qtdeclarative-opensource-src (5.15.11+dfsg-1) experimental; urgency=medium
 
   [ Pino Toscano ]
   * Make the tests non-fatal also on hurd-i386, as the lack of DRI causes the
@@ -14,7 +14,7 @@ qtdeclarative-opensource-src (5.15.11+dfsg-1) UNRELEASED; urgency=medium
   * Bump ABI version to qtdeclarative-abi-5-15-11.
   * Add a debian/clean file (closes: #1048969).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Jul 2023 07:55:59 +0200
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 18 Nov 2023 19:09:39 +0300
 
 qtdeclarative-opensource-src (5.15.10+dfsg-2) unstable; urgency=medium
 
