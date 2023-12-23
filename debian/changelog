@@ -3,6 +3,7 @@ qtdeclarative-opensource-src (5.15.12+dfsg-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.15.12.
+  * Bump ABI version to qtdeclarative-abi-5-15-12.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Dec 2023 14:10:01 +0300
 
