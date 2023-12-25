@@ -1,3 +1,11 @@
+qtdeclarative-opensource-src-gles (5.15.12+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Merge qtdeclarative-opensource-src 5.15.12+dfsg-1 upload.
+    - Fixes FTBFS after successful build (closes: #1047877).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Dec 2023 12:45:26 +0300
+
 qtdeclarative-opensource-src (5.15.12+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
