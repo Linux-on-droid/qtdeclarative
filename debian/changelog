@@ -1,3 +1,10 @@
+qtdeclarative-opensource-src (5.15.13+dfsg-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 09 Mar 2024 13:23:43 +0300
+
 qtdeclarative-opensource-src (5.15.12+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
