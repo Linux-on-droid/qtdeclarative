@@ -1,3 +1,12 @@
+qtdeclarative-opensource-src (5.15.13+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.13.
+  * Bump ABI version to qtdeclarative-abi-5-15-13.
+  * Update debian/libqt5qml5.symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 09 Mar 2024 19:38:03 +0300
+
 qtdeclarative-opensource-src-gles (5.15.12+dfsg-1) experimental; urgency=medium
 
   * Merge qtdeclarative-opensource-src 5.15.12+dfsg-1 upload.
