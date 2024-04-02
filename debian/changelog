@@ -54,6 +54,12 @@ qtdeclarative-opensource-src (5.15.10+dfsg-2) unstable; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Sat, 08 Jul 2023 09:59:44 +0300
 
+qtdeclarative-opensource-src-gles (5.15.10+dfsg-3) unstable; urgency=medium
+
+  * Add explicit dependencies to disallow mixing gles and non-gles libraries.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sat, 30 Mar 2024 11:21:30 +0300
+
 qtdeclarative-opensource-src-gles (5.15.10+dfsg-2) unstable; urgency=medium
 
   * Upload to unstable.

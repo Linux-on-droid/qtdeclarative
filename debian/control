@@ -26,7 +26,9 @@ Package: libqt5quick5-gles
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libqt5gui5-gles (>= 5.15.10+dfsg-6~),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: libqt5quick5
 Description: Qt 5 Quick library — OpenGL ES variant
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -44,7 +46,9 @@ Package: libqt5quickparticles5-gles
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: libqt5quick5-gles (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Conflicts: libqt5quickparticles5
 Description: Qt 5 Quick particles module — OpenGL ES variant
  Qt is a cross-platform C++ application framework. Qt's primary feature
