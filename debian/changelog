@@ -2,6 +2,7 @@ qtdeclarative-opensource-src-gles (5.15.13+dfsg-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Merge 5.15.10+dfsg-3 upload from unstable.
+  * Tighten libqt5gui5-gles dependency.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 02 Apr 2024 09:33:00 +0300
 
