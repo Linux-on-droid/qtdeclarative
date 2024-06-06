@@ -14,7 +14,7 @@ Build-Depends: debhelper-compat (= 13),
                libqt5qmlmodels5 (>= 5.15.13+dfsg~),
                pkg-kde-tools (>= 0.15.17~),
                python3:any,
-               qtbase5-private-gles-dev (>= 5.15.13+dfsg~),
+               qtbase5-private-dev (>= 5.15.13+dfsg~),
                xauth <!nocheck>,
                xvfb <!nocheck>
 Standards-Version: 4.6.2
@@ -22,14 +22,12 @@ Homepage: https://doc.qt.io/qt-5/qmlapplications.html
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative.git -b gles/master
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtdeclarative
 
-Package: libqt5quick5-gles
+Package: libqt5quick5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libqt5gui5-gles (>= 5.15.13+dfsg-1~),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Conflicts: libqt5quick5
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: libqt5quick5-gles
 Description: Qt 5 Quick library — OpenGL ES variant
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -42,14 +40,12 @@ Description: Qt 5 Quick library — OpenGL ES variant
  This package provides a version of Qt Quick library built against OpenGL
  ES, for use on embedded/mobile devices.
 
-Package: libqt5quickparticles5-gles
+Package: libqt5quickparticles5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libqt5quick5-gles (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Conflicts: libqt5quickparticles5
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Conflicts: libqt5quickparticles5-gles
 Description: Qt 5 Quick particles module — OpenGL ES variant
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
